@@ -1,0 +1,32 @@
+{
+  "naics_code": "112210",
+  "naics_title": "Hog and Pig Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Sealed barns depend on mechanical ventilation and animals die quickly without it.",
+      "why_this_business": "Finishing and sow barns are mechanically ventilated sealed buildings controlled by networked controllers with remote monitoring and alarms. Pigs generate substantial heat and have limited ability to regulate body temperature. A ventilation failure in warm weather causes mortality within about an hour.",
+      "loss_scenario": "A 2,400 head finishing barn represents roughly $250,000 to $400,000 in live animals. Multi-barn sites multiply the exposure. Additional costs include carcass disposal and cleanup.",
+      "rhetorical_question": "Are your barn ventilation controllers connected to a network or accessible remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "Movement permits during a disease outbreak require electronic records.",
+      "why_this_business": "Under the Secure Pork Supply framework, continuity of business during an African swine fever or foot-and-mouth outbreak requires a documented enhanced biosecurity plan, premises identification, and traceable movement records provided to animal health officials to obtain a movement permit.",
+      "loss_scenario": "Without a permit, pigs cannot be moved while farrowing continues to fill barns. Overstocking leads to welfare and performance failures and, in severe cases, euthanasia.",
+      "rhetorical_question": "Do you have a written biosecurity plan and electronic animal movement records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Contract production is administered through the integrator's portal.",
+      "why_this_business": "Most hog production runs under contracts covering pig placement, feed delivery, veterinary protocols, and settlement based on feed conversion, mortality, and closeout performance. Data is collected in the barn and processed in the integrator's system.",
+      "loss_scenario": "Inability to submit daily mortality and feed data or verify settlements, plus lost income if the integrator cannot place pigs or deliver feed during their own outage.",
+      "rhetorical_question": "Do you submit daily production data through an integrator portal or app?"
+    }
+  ]
+}

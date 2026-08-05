@@ -1,0 +1,32 @@
+{
+  "naics_code": "111219",
+  "naics_title": "Other Vegetable (except Potato) and Melon Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your crops are on the FDA Food Traceability List and require records within 24 hours.",
+      "why_this_business": "Melons, leafy greens, tomatoes, cucumbers, peppers, fresh herbs, and sprouts are on the FDA Food Traceability List under FSMA Section 204. The compliance date is July 20, 2028. The rule requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of records to FDA in an electronic sortable spreadsheet within 24 hours of request.",
+      "loss_scenario": "Records that cannot be produced in 24 hours widen the scope of an outbreak investigation. The 2018 romaine advisories reduced demand for growers who were never linked to the outbreak.",
+      "rhetorical_question": "Do you grow any crop on the FDA Food Traceability List, and can you produce lot-level records electronically?"
+    },
+    {
+      "rank": 2,
+      "headline": "Retail buyers require EDI, GS1 labeling, and a current third-party food safety audit.",
+      "why_this_business": "Selling to retailers or foodservice distributors requires GTINs, case labeling, EDI purchase orders and advance ship notices, and a current PrimusGFS, SQF, or GlobalG.A.P. certificate held in a portal. Product cannot ship without electronic confirmation, and the certificate is checked before orders are placed.",
+      "loss_scenario": "Suspension from an approved supplier list during the harvest season. Perishable product cannot be held until the issue is resolved.",
+      "rhetorical_question": "Do you transmit purchase orders or advance ship notices by EDI to your buyers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Seasonal harvest crews create a large file of employee personal information.",
+      "why_this_business": "Fresh vegetable production uses large seasonal crews, employed directly or through a farm labor contractor. Files include I-9 forms, passport and visa copies, Social Security numbers, and direct deposit details. Payroll is run weekly.",
+      "loss_scenario": "A breach of a payroll file covering 400 workers requires notification in every state of residence, credit monitoring, and response to state labor agencies.",
+      "rhetorical_question": "How many seasonal employees do you have at peak, and do you keep copies of their identity documents?"
+    }
+  ]
+}

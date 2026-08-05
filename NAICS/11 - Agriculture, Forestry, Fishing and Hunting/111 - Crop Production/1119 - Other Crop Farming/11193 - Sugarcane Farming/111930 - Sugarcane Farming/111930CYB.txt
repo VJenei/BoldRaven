@@ -1,0 +1,32 @@
+{
+  "naics_code": "111930",
+  "naics_title": "Sugarcane Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Cane must be milled within 24 to 48 hours and one mill controls the schedule.",
+      "why_this_business": "Sucrose inverts quickly after cutting, so cane must be milled within roughly one to two days. Growers deliver to a single mill or cooperative on daily quotas allocated electronically. There is no alternative buyer and no storage option.",
+      "loss_scenario": "Cut cane that cannot be delivered is a near-total loss on that tonnage within two days. A mill systems outage during grinding season is a contingent business interruption loss that farm property policies do not cover.",
+      "rhetorical_question": "How is your daily delivery quota communicated to you by the mill?"
+    },
+    {
+      "rank": 2,
+      "headline": "Payment is calculated from core sample analysis in the mill's laboratory.",
+      "why_this_business": "Growers are paid on recoverable sugar per ton, determined by core sampling in the mill's lab and processed through the mill's accounting system. The grower has no independent measurement.",
+      "loss_scenario": "Unresolved payment disputes across a grinding season. A half point difference in recoverable sugar across 100,000 tons is a substantial six figure amount.",
+      "rhetorical_question": "Is your payment calculated from sugar content measured by the mill?"
+    },
+    {
+      "rank": 3,
+      "headline": "Harvest requires continuous fleet dispatch and permitted field burning.",
+      "why_this_business": "Cane harvest runs a continuous loop of harvesters, wagons, and highway trucks to the mill. Pre-harvest burn permits are issued and tracked by state agencies based on weather and smoke management conditions. Dispatch and permit documentation are electronic.",
+      "loss_scenario": "Fleet idle time of $10,000 to $25,000 per day, plus regulatory exposure if burn authorization and compliance records cannot be produced.",
+      "rhetorical_question": "How do you dispatch and track your harvest fleet during grinding season?"
+    }
+  ]
+}

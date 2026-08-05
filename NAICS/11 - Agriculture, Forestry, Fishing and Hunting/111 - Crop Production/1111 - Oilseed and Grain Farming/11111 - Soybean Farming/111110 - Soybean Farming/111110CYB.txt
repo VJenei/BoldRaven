@@ -1,0 +1,32 @@
+{
+  "naics_code": "111110",
+  "naics_title": "Soybean Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Grain contracts are settled by wire transfer based on emailed payment instructions.",
+      "why_this_business": "Soybeans are sold on cash, basis, and hedge-to-arrive contracts. Contract confirmations, scale tickets, and remittance advices are sent by email. An attacker with access to the farm's or the elevator's email account can send a fake change of bank account. The farm then authorizes the wire itself.",
+      "loss_scenario": "One truckload settlement is $15,000 to $40,000. A full contract settlement is $250,000 or more. Banks rarely recover a wire after 24 hours. Crime policies generally exclude transfers the insured authorized, so the loss falls under cyber social engineering coverage or nowhere.",
+      "rhetorical_question": "Do you receive payment or banking instructions from grain buyers by email?"
+    },
+    {
+      "rank": 2,
+      "headline": "Planting and harvest data is stored in cloud accounts that have known vulnerabilities.",
+      "why_this_business": "Seeding prescriptions, RTK guidance, section control settings, and yield maps are stored in John Deere Operations Center, Climate FieldView, or Trimble Ag. In-cab displays sync to those accounts over cellular. In 2021 security researchers demonstrated flaws in Deere's API that allowed owner enumeration and administrative access to Operations Center.",
+      "loss_scenario": "Loss of account access during a 10 to 14 day planting window forces flat-rate seeding and manual passes. Yield history used for crop insurance APH, landlord negotiations, and seed decisions is also lost.",
+      "rhetorical_question": "Do you store field maps, prescriptions, or yield data in a cloud platform such as Operations Center or FieldView?"
+    },
+    {
+      "rank": 3,
+      "headline": "A ransomware attack on your elevator stops your deliveries with no damage to your property.",
+      "why_this_business": "The FBI issued a notice in April 2022 stating that ransomware actors time attacks on agricultural cooperatives to planting and harvest. Six grain cooperatives were encrypted between September 15 and October 6, 2021. When an elevator's scale, probe, and settlement software is down, it cannot receive grain.",
+      "loss_scenario": "Two weeks of blocked delivery during harvest with limited on-farm storage. Farm and property policies respond only to physical damage to covered property, so a buyer's system outage is not covered. Contingent business interruption under a cyber policy is the coverage that applies.",
+      "rhetorical_question": "How many elevators or processors can you deliver to within economical hauling distance?"
+    }
+  ]
+}

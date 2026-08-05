@@ -1,0 +1,32 @@
+{
+  "naics_code": "111130",
+  "naics_title": "Dry Pea and Bean Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Export shipments require electronic certificates that must match the cargo.",
+      "why_this_business": "A large share of US pulses is exported. Shipments require electronic phytosanitary certificates issued through USDA APHIS PCIT, certificates of origin, and buyer quality documentation. Destination countries set different maximum residue limits, which are verified against your spray records.",
+      "loss_scenario": "A container arriving without matching documentation is detained and often rejected. Demurrage runs $150 to $300 per container per day before the cargo itself is addressed.",
+      "rhetorical_question": "Do you export any portion of your crop, and do you maintain the pesticide application records used for residue compliance?"
+    },
+    {
+      "rank": 2,
+      "headline": "Contracts settle by wire to processors and brokers you deal with infrequently.",
+      "why_this_business": "Dry edible bean and pulse marketing runs through a limited number of processors and brokers, often out of state. Communication is by email. There is no regular in-person contact with the accounting staff who send remittance advices, which removes the check that would catch an altered account number.",
+      "loss_scenario": "A diverted settlement wire of $80,000 to $300,000 on a single contract.",
+      "rhetorical_question": "Do you sell to out-of-state buyers you have not met in person?"
+    },
+    {
+      "rank": 3,
+      "headline": "Certified seed status depends on lot records kept on the farm.",
+      "why_this_business": "Certified pulse seed carries variety protection and certification tags administered by state crop improvement associations. Lot traceability is required to sell seed as certified. The records are digital and are frequently stored only on the farm office computer.",
+      "loss_scenario": "Loss of certification status drops certified seed value to commodity value across the affected lots.",
+      "rhetorical_question": "Do you produce certified seed, and where are your lot and certification records stored?"
+    }
+  ]
+}

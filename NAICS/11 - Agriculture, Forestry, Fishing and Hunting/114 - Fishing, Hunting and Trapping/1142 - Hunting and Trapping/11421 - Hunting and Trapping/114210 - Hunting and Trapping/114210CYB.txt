@@ -1,0 +1,32 @@
+{
+  "naics_code": "114210",
+  "naics_title": "Hunting and Trapping",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Outfitters collect large deposits a year or more in advance.",
+      "why_this_business": "Guided hunts are booked 12 to 24 months ahead with deposits of $2,000 to $25,000 per hunter, paid by card or wire against emailed invoices, often through booking agents. The parties typically have not met.",
+      "loss_scenario": "Diverted deposits across a booking season. Full season deposits commonly total $150,000 to $500,000. Clients who paid a fraudster generally hold the outfitter responsible for the compromised account.",
+      "rhetorical_question": "How far in advance do you collect deposits, and how are they paid?"
+    },
+    {
+      "rank": 2,
+      "headline": "Client files include passports, firearm details, and personal information.",
+      "why_this_business": "International and domestic hunting clients provide passport copies, visa documentation, firearm serial numbers and import permits, medical information, and emergency contacts. Client lists in this business often include high-net-worth individuals.",
+      "loss_scenario": "Breach of a client file containing passports and firearms documentation, with notification obligations and loss of clients who expect confidentiality.",
+      "rhetorical_question": "Do you retain copies of client passports or firearm documentation?"
+    },
+    {
+      "rank": 3,
+      "headline": "Trophy export and fur sales require federal permits and electronic declarations.",
+      "why_this_business": "Trophy import and export requires USFWS eDecs electronic declarations, CITES permits for listed species, and coordination with customs brokers. Fur trapping requires state tagging, sealing, and pelt records. Wildlife trade enforcement is documentation based.",
+      "loss_scenario": "Trophies and pelts seized or refused entry, permit violations, and enforcement action based on missing documentation.",
+      "rhetorical_question": "Do you handle trophy exports or CITES-listed species?"
+    }
+  ]
+}

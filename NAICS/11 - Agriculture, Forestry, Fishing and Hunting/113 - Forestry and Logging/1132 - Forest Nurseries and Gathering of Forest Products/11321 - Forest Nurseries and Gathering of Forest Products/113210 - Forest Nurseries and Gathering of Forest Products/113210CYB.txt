@@ -1,0 +1,32 @@
+{
+  "naics_code": "113210",
+  "naics_title": "Forest Nurseries and Gathering of Forest Products",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Seedlings are ordered a year ahead and shipped in a short window.",
+      "why_this_business": "Forest nurseries take orders in summer for delivery the following late winter, lift bareroot seedlings during a narrow dormancy window, and ship refrigerated to contractors and landowners on specific dates. The order book, lift schedule, and shipping logistics are electronic.",
+      "loss_scenario": "Missing the lift and ship window destroys a crop grown for one to three years and prevents reforestation clients from meeting their own replanting deadlines, which creates claims against the nursery.",
+      "rhetorical_question": "How long is your annual shipping window, and how are customer orders tracked?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seed orchard and genetic records represent decades of tree improvement work.",
+      "why_this_business": "Improved seed programs track parent tree selections, progeny test results, family identities, seed lot origins, and genetic gain estimates accumulated over 30 to 50 years. Seed zone and provenance records are required for many federal and state reforestation contracts.",
+      "loss_scenario": "Loss of genetic and provenance records reduces improved seed to unimproved value and disqualifies lots from contracts requiring documented seed source.",
+      "rhetorical_question": "Do you sell improved seed or seedlings that require documented genetic origin?"
+    },
+    {
+      "rank": 3,
+      "headline": "Seedlings and seed are held in monitored cold storage for months.",
+      "why_this_business": "Lifted seedlings and stored seed are held in refrigerated storage under controlled temperature and humidity, monitored electronically. Temperature excursions cause mold, root deterioration, and loss of viability.",
+      "loss_scenario": "A cooler control or monitoring failure damages inventory representing multiple growing seasons. The damage is often not identified until the trees fail after planting.",
+      "rhetorical_question": "Is your cold storage temperature monitored and alarmed?"
+    }
+  ]
+}

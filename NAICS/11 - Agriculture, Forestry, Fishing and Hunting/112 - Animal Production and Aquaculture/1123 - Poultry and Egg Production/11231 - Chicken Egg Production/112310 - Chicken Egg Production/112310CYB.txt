@@ -1,0 +1,32 @@
+{
+  "naics_code": "112310",
+  "naics_title": "Chicken Egg Production",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Layer houses depend on ventilation and birds die within minutes when it fails.",
+      "why_this_business": "Commercial layer houses are enclosed and mechanically ventilated, controlled by networked climate controllers with remote monitoring. Extension guidance states that poultry can survive only 20 to 30 minutes above 97 degrees F in still air and that birds begin dying within minutes when ventilation fails in hot weather. One house holds 100,000 to 350,000 birds.",
+      "loss_scenario": "A ventilation failure in one house causes mortality valued at roughly $600,000 to $2M, plus 18 months to rebuild the flock and the cost of carcass disposal.",
+      "rhetorical_question": "How many birds are housed under a single controller, and is that controller networked?"
+    },
+    {
+      "rank": 2,
+      "headline": "Shell eggs are on the FDA Food Traceability List.",
+      "why_this_business": "Shell eggs are covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. The FDA Egg Safety Rule separately requires Salmonella Enteritidis testing, environmental sampling, and refrigeration records.",
+      "loss_scenario": "A traceback where records cannot be produced expands a contained investigation into a broad recall. Egg recalls have historically reached hundreds of millions of eggs.",
+      "rhetorical_question": "Can you produce SE testing and lot traceability records in electronic form on request?"
+    },
+    {
+      "rank": 3,
+      "headline": "Avian influenza indemnity requires documentation submitted after depopulation.",
+      "why_this_business": "USDA APHIS indemnity for HPAI-depopulated flocks is conditioned on documentation including biosecurity plan compliance and audit results. HPAI outbreaks from 2022 through 2025 depopulated tens of millions of layers. The indemnity payment is processed after the flock is lost.",
+      "loss_scenario": "Reduced or denied indemnity because biosecurity documentation, audit records, and flock inventories cannot be produced from encrypted systems.",
+      "rhetorical_question": "Where are your biosecurity plan and audit records stored?"
+    }
+  ]
+}

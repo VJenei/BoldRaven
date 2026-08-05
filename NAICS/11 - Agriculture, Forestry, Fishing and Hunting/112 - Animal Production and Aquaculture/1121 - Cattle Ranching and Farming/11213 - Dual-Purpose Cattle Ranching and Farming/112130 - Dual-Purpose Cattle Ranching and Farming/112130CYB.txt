@@ -1,0 +1,32 @@
+{
+  "naics_code": "112130",
+  "naics_title": "Dual-Purpose Cattle Ranching and Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The operation is subject to both milk regulation and cattle movement requirements.",
+      "why_this_business": "Dual-purpose operations must meet Grade A milk regulation, cooling and CIP recordkeeping, and cooperative quality testing on the dairy side. They must also meet the APHIS electronic identification requirement effective November 5, 2024 for interstate cattle movement. Both regimes run on the same office systems.",
+      "loss_scenario": "One systems failure creates simultaneous compliance failures in milk quality documentation and animal movement records, affecting both revenue streams at once.",
+      "rhetorical_question": "Do you keep milk quality records and cattle movement records in the same system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Milking, cooling, and feeding equipment are automated and time-critical.",
+      "why_this_business": "Milking must occur on schedule to avoid mastitis and production loss. Milk must be cooled to 45 degrees F within two hours under the PMO. Feed mixing and delivery are computer controlled. All three run through networked systems with vendor remote access.",
+      "loss_scenario": "Simultaneous loss of milking, cooling, and feed control causes dumped milk, mastitis and culling losses, and nutritional setback across the herd.",
+      "rhetorical_question": "Which of your daily operations depend on automated control systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "The operation sells into several markets with separate payment channels.",
+      "why_this_business": "Dual-purpose operations sell fluid milk to a cooperative, cull cows and bull calves to buyers, feeders to yards, and often breeding stock. Each has its own settlement process, and most are arranged by email.",
+      "loss_scenario": "Diverted payments across multiple channels. A compromised mailbox is typically used across several transactions before the pattern is detected.",
+      "rhetorical_question": "How many different buyers pay you in a typical month?"
+    }
+  ]
+}

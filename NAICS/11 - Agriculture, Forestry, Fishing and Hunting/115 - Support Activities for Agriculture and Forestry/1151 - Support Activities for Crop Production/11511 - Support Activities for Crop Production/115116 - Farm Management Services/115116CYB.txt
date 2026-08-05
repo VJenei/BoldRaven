@@ -1,0 +1,32 @@
+{
+  "naics_code": "115116",
+  "naics_title": "Farm Management Services",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The business holds landowner financial records and bank details.",
+      "why_this_business": "Farm managers hold landowner financial records, lease agreements, tax documents, bank account and ACH details for rent distributions, and estate and trust documentation. Many clients are absentee owners, trusts, or estates.",
+      "loss_scenario": "Third-party liability and breach of fiduciary duty claims from landowner clients, plus notification obligations for financial account information. Trust and estate clients typically have legal representation already engaged.",
+      "rhetorical_question": "How many landowner clients' bank account and tax records do you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "The business disburses other parties' funds on a regular schedule.",
+      "why_this_business": "Farm managers collect cash rent, crop share proceeds, and government payments, then distribute to landowners by ACH or check. They also pay input suppliers and contractors on behalf of clients. Payment instructions are received and sent by email.",
+      "loss_scenario": "Fraudulent instruction losses where a landowner distribution is redirected or a fake vendor invoice is paid from a client account. The manager is generally expected to make the client whole.",
+      "rhetorical_question": "How much money do you disburse on behalf of clients in a typical year?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client recommendations must be supported by records years afterward.",
+      "why_this_business": "Farm managers produce yield analysis, lease structuring, input decisions, marketing recommendations, and farmland valuations that clients act on. If records are lost or altered, the basis for those recommendations cannot be documented in a later dispute.",
+      "loss_scenario": "Professional liability claims that cannot be defended without documentation of the basis for the recommendation, plus loss of multi-year field and financial history clients cannot recreate.",
+      "rhetorical_question": "How many years of client records are you expected to retain?"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "naics_code": "115113",
+  "naics_title": "Crop Harvesting, Primarily by Machine",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fleet operations are coordinated by cloud software across multiple states.",
+      "why_this_business": "Custom harvesters operate combines, headers, grain carts, and semis across several states on a schedule set by crop maturity. Routing, acreage tracking, machine telematics, moisture data, and per-acre billing are coordinated through cloud platforms.",
+      "loss_scenario": "Idle crew and fleet costs $10,000 to $25,000 per day. Clients' crops degrade in the field during the delay and may move to another harvester in following seasons.",
+      "rhetorical_question": "What is your daily cost when the fleet is not running?"
+    },
+    {
+      "rank": 2,
+      "headline": "Harvest equipment captures clients' yield data.",
+      "why_this_business": "Harvest equipment records yield, moisture, and field-level production data for every client. That data supports the client's crop insurance APH, cash rent negotiations, landlord reporting, and marketing decisions. It is held on the contractor's machines and accounts.",
+      "loss_scenario": "Third-party liability for exposing or losing client yield data, including consequential damages if a client cannot support a crop insurance claim.",
+      "rhetorical_question": "Do you provide yield data to your clients, and how is it stored and transferred?"
+    },
+    {
+      "rank": 3,
+      "headline": "Interstate operations require DOT, driver, and payroll records.",
+      "why_this_business": "Custom harvesting requires CDL drivers, driver qualification files, hours of service records, medical certificates, DOT registration, and payroll for a seasonal crew that frequently includes H-2A workers from other countries.",
+      "loss_scenario": "Breach notification across a multi-state crew including foreign nationals, plus inability to produce DOT records in an audit or after an accident.",
+      "rhetorical_question": "How many CDL drivers do you maintain qualification files for?"
+    }
+  ]
+}

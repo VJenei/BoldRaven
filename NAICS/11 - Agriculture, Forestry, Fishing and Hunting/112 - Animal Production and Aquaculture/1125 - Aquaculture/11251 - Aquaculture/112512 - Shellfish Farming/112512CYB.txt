@@ -1,0 +1,32 @@
+{
+  "naics_code": "112512",
+  "naics_title": "Shellfish Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Shellfish tags and harvest records must be retained for 90 days for traceback.",
+      "why_this_business": "Under the National Shellfish Sanitation Program Model Ordinance, every container of shellstock must carry a tag showing harvester, harvest area, and date. Tags and records must be retained 90 days to support traceback. Vibrio and norovirus investigations rely on this chain. Harvest area classifications and closure notices are issued electronically by the state shellfish authority.",
+      "loss_scenario": "Inability to produce harvest records in a traceback triggers harvest area closures affecting every grower in the area, plus product recall and third-party illness claims.",
+      "rhetorical_question": "How do you record and retain harvest tag data, and for how long?"
+    },
+    {
+      "rank": 2,
+      "headline": "Molluscan shellfish is on the FDA Food Traceability List.",
+      "why_this_business": "Molluscan shellfish is covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. This requirement is in addition to NSSP obligations.",
+      "loss_scenario": "A regulatory records failure during an investigation expands a single-farm inquiry into a regional closure.",
+      "rhetorical_question": "Can you produce harvest and shipment records in an electronic spreadsheet format?"
+    },
+    {
+      "rank": 3,
+      "headline": "Harvest area closures are issued electronically with little notice.",
+      "why_this_business": "Shellfish growing areas open and close based on rainfall, biotoxin monitoring, and water quality sampling. Notices are issued electronically by state authorities, sometimes with only hours of warning. Harvesting from a closed area is a regulatory violation regardless of whether the notice was received.",
+      "loss_scenario": "Product recall, license suspension, and potential criminal exposure from harvesting a closed area.",
+      "rhetorical_question": "How do you receive harvest area closure notices from the state?"
+    }
+  ]
+}

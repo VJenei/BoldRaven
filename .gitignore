@@ -1,0 +1,8 @@
+# Internal positioning notes. Not needed by the site and not for public view.
+claude.md
+claude.md.txt
+
+# Local tooling
+.claude/
+__pycache__/
+*.pyc

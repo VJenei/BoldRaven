@@ -1,0 +1,32 @@
+{
+  "naics_code": "111160",
+  "naics_title": "Rice Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Flood management depends on pumps and gates that are controlled remotely.",
+      "why_this_business": "Rice is grown under a managed flood held for months. Relift pumps, wells, and multiple-inlet gates are increasingly controlled by cell telemetry and phone apps. Loss of the flood at certain growth stages causes blanking and weed escape.",
+      "loss_scenario": "An uncontrolled drain or a failure to restart pumps during a heat event across 400 acres is a partial or total loss on that acreage with no replant option.",
+      "rhetorical_question": "Are any of your irrigation pumps or water control gates operated remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "Drying and milling are done off-farm and determine the value of the crop.",
+      "why_this_business": "Rice is harvested at 18 to 20 percent moisture and must be dried quickly. Delivery scheduling, drying charges, and milling yield are handled in the drier's or mill's software. Head rice percentage determines the payment.",
+      "loss_scenario": "Rice held wet because the drier cannot receive it loses head rice yield permanently. A five point drop in head rice across a crop is a six figure loss with no physical damage to farm property.",
+      "rhetorical_question": "Do you rely on a single drier or mill to receive your crop at harvest?"
+    },
+    {
+      "rank": 3,
+      "headline": "Program payments and insurance depend on federal records tied to deadlines.",
+      "why_this_business": "Base acres, ARC and PLC elections, FSA farm records, and crop insurance APH are held in electronic records with filing deadlines. Rice also carries residue documentation for domestic and export buyers.",
+      "loss_scenario": "Missed FSA or RMA deadlines and unsupported APH history reduce both program payments and insurance guarantees in future years, not only the current year.",
+      "rhetorical_question": "Do you participate in FSA programs and federal crop insurance?"
+    }
+  ]
+}

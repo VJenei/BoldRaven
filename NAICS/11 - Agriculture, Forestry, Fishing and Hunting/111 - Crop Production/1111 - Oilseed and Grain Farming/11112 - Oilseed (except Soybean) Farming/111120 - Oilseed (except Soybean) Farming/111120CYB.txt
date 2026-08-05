@@ -1,0 +1,32 @@
+{
+  "naics_code": "111120",
+  "naics_title": "Oilseed (except Soybean) Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Production is contracted to a small number of crush plants with scheduled delivery slots.",
+      "why_this_business": "Canola, sunflower, flax, and safflower are grown on production contracts. Delivery slots are scheduled electronically. Act-of-God clauses cover weather but not a buyer's system failure. There is limited spot market depth to absorb production if the crusher cannot receive.",
+      "loss_scenario": "Missed delivery windows require a contract buyout or a discounted distressed sale. Property policies do not respond because nothing was physically damaged.",
+      "rhetorical_question": "Is your crop sold under contract to a single processor?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fall input prepay is made in a small number of large wire transfers.",
+      "why_this_business": "Seed, fertilizer, and chemical are prepaid in the fall for pricing and tax reasons. Payment is usually one wire to a retailer or cooperative against an invoice received by email. Attackers alter the account details on a real invoice.",
+      "loss_scenario": "A prepay wire of $150,000 to $400,000 sent to a criminal account. The supplier has not been paid and still expects payment, so the operation pays twice.",
+      "rhetorical_question": "Do you prepay inputs by wire transfer, and what is the largest single payment you make in a year?"
+    },
+    {
+      "rank": 3,
+      "headline": "Identity-preserved premiums depend on documentation you must produce on demand.",
+      "why_this_business": "High-oleic and specialty oilseed contracts are identity-preserved. The grower must document seed lot, field isolation, field history, and segregated handling. These records are kept in spreadsheets or a grower portal. Without them the crop is graded as commodity.",
+      "loss_scenario": "An identity-preserved premium of $0.60 to $2.00 per bushel is lost across the contracted acreage because the documentation chain cannot be produced for the buyer's auditor.",
+      "rhetorical_question": "Do you grow any crop under an identity-preserved or specialty contract that requires recordkeeping?"
+    }
+  ]
+}

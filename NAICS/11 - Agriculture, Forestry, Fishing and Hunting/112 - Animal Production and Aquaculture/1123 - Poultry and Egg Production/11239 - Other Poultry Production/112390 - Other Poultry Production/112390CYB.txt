@@ -1,0 +1,32 @@
+{
+  "naics_code": "112390",
+  "naics_title": "Other Poultry Production",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty poultry is raised in the same controlled environments as commodity poultry.",
+      "why_this_business": "Ducks, geese, game birds, and ratites are raised in mechanically ventilated houses with networked climate control, brooding heat management, and automated feed and water. Young birds in brooding have a narrow temperature tolerance and die within hours if heat or ventilation control is lost.",
+      "loss_scenario": "Total flock loss in a brooding or grow-out house. Specialty and breeding birds commonly carry values of $30 to $200 per head, well above commodity chicken.",
+      "rhetorical_question": "What is the average value per bird in your flock?"
+    },
+    {
+      "rank": 2,
+      "headline": "Sales are direct and to niche buyers with prepayment and card use.",
+      "why_this_business": "Game birds, heritage breeds, and specialty poultry are sold to restaurants, hunting preserves, breeders, and consumers, often with online ordering, deposits, and shipped live birds or eggs. This involves card acceptance and customer records.",
+      "loss_scenario": "Card compromise, deposit fraud, and loss of customers in a small market where buyers are closely connected.",
+      "rhetorical_question": "Do you take deposits or online orders from customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Avian influenza control areas apply to all poultry regardless of type.",
+      "why_this_business": "HPAI control area quarantines apply to all poultry. Movement permits require premises identification, flock inventories, and biosecurity documentation submitted to animal health officials. Specialty producers frequently hold breeding lines that cannot be replaced from a commercial hatchery.",
+      "loss_scenario": "Inability to obtain movement permits, plus permanent loss of breeding line records developed over many years if depopulation occurs.",
+      "rhetorical_question": "Do you maintain breeding or pedigree records that could not be replaced?"
+    }
+  ]
+}

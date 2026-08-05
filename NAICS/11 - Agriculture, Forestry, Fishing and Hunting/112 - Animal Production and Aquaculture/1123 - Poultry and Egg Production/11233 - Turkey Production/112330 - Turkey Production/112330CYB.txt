@@ -1,0 +1,32 @@
+{
+  "naics_code": "112330",
+  "naics_title": "Turkey Production",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Heavy toms have low heat tolerance and depend entirely on barn ventilation.",
+      "why_this_business": "Market weight tom turkeys generate high body heat and are raised in mechanically ventilated barns with networked controls. Extension guidance states poultry survive only 20 to 30 minutes above 97 degrees F in still air and begin dying within minutes of ventilation failure. Toms at 40 pounds or more have less thermal tolerance than broilers.",
+      "loss_scenario": "A barn of finished toms represents $250,000 to $500,000 in birds at the point of maximum invested cost.",
+      "rhetorical_question": "What is the value of the birds in a single barn at market weight?"
+    },
+    {
+      "rank": 2,
+      "headline": "Turkey flocks carried the largest share of avian influenza losses.",
+      "why_this_business": "Turkey flocks accounted for the largest share of HPAI depopulations during the 2022 to 2025 outbreaks. USDA APHIS indemnity is conditioned on documented biosecurity compliance and audit results. Movement permits during a control area quarantine require records provided to animal health officials.",
+      "loss_scenario": "Denied or reduced indemnity and inability to obtain movement permits during a control area event.",
+      "rhetorical_question": "Have you completed a biosecurity audit, and where is the documentation held?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production is scheduled backward from a fixed holiday date.",
+      "why_this_business": "Whole bird turkey production is timed to Thanksgiving. Placements, processing slots, and retail commitments are set months ahead and coordinated electronically with the processor. Birds that miss their processing slot continue to consume feed and have no alternative market.",
+      "loss_scenario": "Missed processing windows in the fourth quarter leave finished birds unsold with feed costs continuing and retail commitments unfilled.",
+      "rhetorical_question": "How far in advance is your processing schedule set, and how is it communicated?"
+    }
+  ]
+}

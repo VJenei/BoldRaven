@@ -1,0 +1,32 @@
+{
+  "naics_code": "111331",
+  "naics_title": "Apple Orchards",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Controlled atmosphere storage holds fruit under continuous computer control for months.",
+      "why_this_business": "Apples are stored at 1.5 to 2.5 percent oxygen and 1 to 3 percent CO2 for up to ten months. Dynamic controlled atmosphere systems monitor and adjust continuously. Rooms are sealed. Fruit held below the lower oxygen limit ferments and CO2 excursions cause internal browning. These systems are networked for remote monitoring.",
+      "loss_scenario": "One CA room holds 100,000 to 200,000 bushels, worth $1M to $3M. A control failure or loss of monitoring access can make the entire room unsellable, and the damage is not visible until the room is opened months later.",
+      "rhetorical_question": "Do you operate controlled atmosphere storage, and is it monitored remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "Shipping to retail requires packinghouse grading data, GS1 labeling, and EDI.",
+      "why_this_business": "Apples reach retail through optical grading, case labeling, PLU assignment, and EDI order processing. Presize grading data determines packout and payment. There is no manual process for shipping to a national retailer.",
+      "loss_scenario": "Shipping stops during a retail promotion window while fruit continues to age in storage.",
+      "rhetorical_question": "Do you ship to national retail chains that require EDI?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fall retail and u-pick operations process a high volume of card transactions.",
+      "why_this_business": "Most orchards run retail operations in the fall, including u-pick, farm markets, cider sales, and ticketed events. Card transactions are concentrated into roughly eight weekends across POS systems and online ticketing. PCI DSS 4.0 requirements became mandatory on March 31, 2025 and apply regardless of merchant size.",
+      "loss_scenario": "Card brand assessments, forensic investigation, and card reissuance costs after a POS or e-commerce compromise. PCI liability is excluded or sublimited on most package policies.",
+      "rhetorical_question": "Do you accept credit cards at a farm market, u-pick, or online store?"
+    }
+  ]
+}

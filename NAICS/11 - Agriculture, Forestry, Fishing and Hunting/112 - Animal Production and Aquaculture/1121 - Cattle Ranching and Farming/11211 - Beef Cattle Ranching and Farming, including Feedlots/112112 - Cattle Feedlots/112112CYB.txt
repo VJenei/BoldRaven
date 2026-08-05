@@ -1,0 +1,32 @@
+{
+  "naics_code": "112112",
+  "naics_title": "Cattle Feedlots",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Custom yards hold cattle owned by others and maintain their records.",
+      "why_this_business": "Custom feedlots feed cattle owned by investors, ranchers, and packers. Ownership records, feed billing, health treatment records, and closeout accounting are tracked by lot. The yard is a bailee responsible for the animals and for the records that establish ownership and performance.",
+      "loss_scenario": "Third-party liability to cattle owners for lost performance data, disputed closeouts, and inability to document ownership, plus liability for exposing owners' financial information. Farm policies do not cover third-party data liability.",
+      "rhetorical_question": "What percentage of the cattle in your yard are owned by customers rather than the yard?"
+    },
+    {
+      "rank": 2,
+      "headline": "Feed is formulated and delivered by computerized batching systems.",
+      "why_this_business": "Feedlots use computerized batching and delivery systems such as Micro Technologies and Performance Beef to control ration formulation, mixing accuracy, and bunk calls twice daily. Cattle on high-concentrate finishing rations develop acidosis and bloat if feedings are missed or batches are wrong.",
+      "loss_scenario": "A batching failure across a 20,000 head yard causes death loss and performance setback. Finished cattle are worth $2,200 to $2,800 per head, so a 1 percent death loss is approximately $500,000.",
+      "rhetorical_question": "What software do you use for ration formulation and feed delivery?"
+    },
+    {
+      "rank": 3,
+      "headline": "Yards move large amounts of money weekly by wire and ACH.",
+      "why_this_business": "Feedlots purchase feeder cattle, sell finished cattle to packers, buy commodity feed, and maintain futures and options positions with brokers. Payment traffic is high in both frequency and value and is arranged by email.",
+      "loss_scenario": "Diverted purchase or settlement wires of $250,000 to $2M, or compromise of hedging account credentials resulting in unauthorized positions.",
+      "rhetorical_question": "How many wire transfers does your office send in a typical week?"
+    }
+  ]
+}

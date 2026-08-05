@@ -1,0 +1,2069 @@
+{
+  "batch": "Sector 11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "naics_vintage": "2022 NAICS (US Census Bureau)",
+  "codes_in_batch": 64,
+  "reasons_per_code": 3,
+  "ordering": "reasons_ranked_by_importance is sorted most-critical first",
+  "primary_authorities_used": [
+    "FBI IC3 Private Industry Notification 220420-2, \"Ransomware Attacks on Agricultural Cooperatives Potentially Timed to Critical Seasons\" (Apr 20, 2022) - https://www.ic3.gov/CSA/2022/220420-2.pdf",
+    "FDA FSMA Section 204 Food Traceability Rule; compliance date extended to July 20, 2028 - https://www.federalregister.gov/documents/2025/08/07/2025-14967/requirements-for-additional-traceability-records-for-certain-foods-compliance-date-extension",
+    "USDA APHIS final rule, \"Use of Electronic Identification Eartags as Official Identification in Cattle and Bison,\" effective Nov 5, 2024 - https://www.federalregister.gov/documents/2024/05/09/2024-09717/use-of-electronic-identification-eartags-as-official-identification-in-cattle-and-bison",
+    "Sick Codes et al., John Deere API / Operations Center vulnerability disclosures (2021) - https://sick.codes/leaky-john-deere-apis-serious-food-supply-chain-vulnerabilities-discovered-by-sick-codes-kevin-kenney-willie-cade/",
+    "Auburn University / University of Kentucky poultry ventilation extension guidance on mortality timelines during ventilation failure - https://ssl.acesag.auburn.edu/poultryventilation/documents/Nwsltr-8.pdf",
+    "PCI DSS v4.0 future-dated requirements became mandatory March 31, 2025"
+  ],
+  "codes": {
+    "111110": {
+      "naics_code": "111110",
+      "naics_title": "Soybean Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Grain contracts are settled by wire transfer based on emailed payment instructions.",
+          "why_this_business": "Soybeans are sold on cash, basis, and hedge-to-arrive contracts. Contract confirmations, scale tickets, and remittance advices are sent by email. An attacker with access to the farm's or the elevator's email account can send a fake change of bank account. The farm then authorizes the wire itself.",
+          "loss_scenario": "One truckload settlement is $15,000 to $40,000. A full contract settlement is $250,000 or more. Banks rarely recover a wire after 24 hours. Crime policies generally exclude transfers the insured authorized, so the loss falls under cyber social engineering coverage or nowhere.",
+          "rhetorical_question": "Do you receive payment or banking instructions from grain buyers by email?"
+        },
+        {
+          "rank": 2,
+          "headline": "Planting and harvest data is stored in cloud accounts that have known vulnerabilities.",
+          "why_this_business": "Seeding prescriptions, RTK guidance, section control settings, and yield maps are stored in John Deere Operations Center, Climate FieldView, or Trimble Ag. In-cab displays sync to those accounts over cellular. In 2021 security researchers demonstrated flaws in Deere's API that allowed owner enumeration and administrative access to Operations Center.",
+          "loss_scenario": "Loss of account access during a 10 to 14 day planting window forces flat-rate seeding and manual passes. Yield history used for crop insurance APH, landlord negotiations, and seed decisions is also lost.",
+          "rhetorical_question": "Do you store field maps, prescriptions, or yield data in a cloud platform such as Operations Center or FieldView?"
+        },
+        {
+          "rank": 3,
+          "headline": "A ransomware attack on your elevator stops your deliveries with no damage to your property.",
+          "why_this_business": "The FBI issued a notice in April 2022 stating that ransomware actors time attacks on agricultural cooperatives to planting and harvest. Six grain cooperatives were encrypted between September 15 and October 6, 2021. When an elevator's scale, probe, and settlement software is down, it cannot receive grain.",
+          "loss_scenario": "Two weeks of blocked delivery during harvest with limited on-farm storage. Farm and property policies respond only to physical damage to covered property, so a buyer's system outage is not covered. Contingent business interruption under a cyber policy is the coverage that applies.",
+          "rhetorical_question": "How many elevators or processors can you deliver to within economical hauling distance?"
+        }
+      ]
+    },
+    "111120": {
+      "naics_code": "111120",
+      "naics_title": "Oilseed (except Soybean) Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Production is contracted to a small number of crush plants with scheduled delivery slots.",
+          "why_this_business": "Canola, sunflower, flax, and safflower are grown on production contracts. Delivery slots are scheduled electronically. Act-of-God clauses cover weather but not a buyer's system failure. There is limited spot market depth to absorb production if the crusher cannot receive.",
+          "loss_scenario": "Missed delivery windows require a contract buyout or a discounted distressed sale. Property policies do not respond because nothing was physically damaged.",
+          "rhetorical_question": "Is your crop sold under contract to a single processor?"
+        },
+        {
+          "rank": 2,
+          "headline": "Fall input prepay is made in a small number of large wire transfers.",
+          "why_this_business": "Seed, fertilizer, and chemical are prepaid in the fall for pricing and tax reasons. Payment is usually one wire to a retailer or cooperative against an invoice received by email. Attackers alter the account details on a real invoice.",
+          "loss_scenario": "A prepay wire of $150,000 to $400,000 sent to a criminal account. The supplier has not been paid and still expects payment, so the operation pays twice.",
+          "rhetorical_question": "Do you prepay inputs by wire transfer, and what is the largest single payment you make in a year?"
+        },
+        {
+          "rank": 3,
+          "headline": "Identity-preserved premiums depend on documentation you must produce on demand.",
+          "why_this_business": "High-oleic and specialty oilseed contracts are identity-preserved. The grower must document seed lot, field isolation, field history, and segregated handling. These records are kept in spreadsheets or a grower portal. Without them the crop is graded as commodity.",
+          "loss_scenario": "An identity-preserved premium of $0.60 to $2.00 per bushel is lost across the contracted acreage because the documentation chain cannot be produced for the buyer's auditor.",
+          "rhetorical_question": "Do you grow any crop under an identity-preserved or specialty contract that requires recordkeeping?"
+        }
+      ]
+    },
+    "111130": {
+      "naics_code": "111130",
+      "naics_title": "Dry Pea and Bean Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Export shipments require electronic certificates that must match the cargo.",
+          "why_this_business": "A large share of US pulses is exported. Shipments require electronic phytosanitary certificates issued through USDA APHIS PCIT, certificates of origin, and buyer quality documentation. Destination countries set different maximum residue limits, which are verified against your spray records.",
+          "loss_scenario": "A container arriving without matching documentation is detained and often rejected. Demurrage runs $150 to $300 per container per day before the cargo itself is addressed.",
+          "rhetorical_question": "Do you export any portion of your crop, and do you maintain the pesticide application records used for residue compliance?"
+        },
+        {
+          "rank": 2,
+          "headline": "Contracts settle by wire to processors and brokers you deal with infrequently.",
+          "why_this_business": "Dry edible bean and pulse marketing runs through a limited number of processors and brokers, often out of state. Communication is by email. There is no regular in-person contact with the accounting staff who send remittance advices, which removes the check that would catch an altered account number.",
+          "loss_scenario": "A diverted settlement wire of $80,000 to $300,000 on a single contract.",
+          "rhetorical_question": "Do you sell to out-of-state buyers you have not met in person?"
+        },
+        {
+          "rank": 3,
+          "headline": "Certified seed status depends on lot records kept on the farm.",
+          "why_this_business": "Certified pulse seed carries variety protection and certification tags administered by state crop improvement associations. Lot traceability is required to sell seed as certified. The records are digital and are frequently stored only on the farm office computer.",
+          "loss_scenario": "Loss of certification status drops certified seed value to commodity value across the affected lots.",
+          "rhetorical_question": "Do you produce certified seed, and where are your lot and certification records stored?"
+        }
+      ]
+    },
+    "111140": {
+      "naics_code": "111140",
+      "naics_title": "Wheat Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Custom harvest is coordinated through cloud software across multiple states.",
+          "why_this_business": "Wheat harvest moves north from Texas to Montana. Field locations, acres, moisture readings, machine telematics, and per-acre billing are coordinated between grower and custom cutter through cloud platforms and mobile devices. When that coordination fails, machines and crews stop.",
+          "loss_scenario": "Idle custom harvest equipment and crew costs $8,000 to $15,000 per day. Standing wheat left through a weather event suffers shattering, sprout damage, and falling number discounts across the field.",
+          "rhetorical_question": "Do you use a custom harvest crew, and how is field and acre information shared with them?"
+        },
+        {
+          "rank": 2,
+          "headline": "Premiums and discounts are calculated from grade data held by the buyer.",
+          "why_this_business": "Wheat settles on protein, test weight, falling number, and dockage. These are measured at the elevator and recorded in the elevator's system. The grower does not hold an independent copy. Disputes are resolved from the buyer's records.",
+          "loss_scenario": "A 40 cent protein premium on 60,000 bushels is $24,000. If the buyer's records are encrypted or unavailable, there is no basis to support a claim for that amount.",
+          "rhetorical_question": "Do you keep your own copy of scale tickets and grade sheets from your buyer?"
+        },
+        {
+          "rank": 3,
+          "headline": "Crop insurance claims have deadlines that a systems outage does not extend.",
+          "why_this_business": "Federal crop insurance requires acreage reports by the acreage reporting date, notice of loss generally within 72 hours of discovery, and production records to support an APH claim. These records are held in farm management software and FSA and RMA portals.",
+          "loss_scenario": "A denied or reduced indemnity in a claim year. Wheat coverage commonly runs $80,000 to $250,000 on a mid-size operation.",
+          "rhetorical_question": "Do you carry federal crop insurance, and how are your production and acreage records stored?"
+        }
+      ]
+    },
+    "111150": {
+      "naics_code": "111150",
+      "naics_title": "Corn Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Grain dryers are network connected and run unattended at high temperature.",
+          "why_this_business": "GSI, Sukup, and Mathews continuous-flow dryers ship with remote monitoring and control of plenum temperature, moisture setpoint, and discharge rate. Corn enters at 22 to 25 percent moisture and is dried at 180 to 220 degrees F. The dryer runs around the clock during harvest and is frequently monitored by phone.",
+          "loss_scenario": "A dryer fire destroys the dryer and adjacent bins. Replacement cost is $150,000 to $500,000 before the value of the grain. Incorrect drying causes stress cracks and damage discounts across all grain that passed through.",
+          "rhetorical_question": "Is your grain dryer or bin monitoring system accessible remotely from a phone or computer?"
+        },
+        {
+          "rank": 2,
+          "headline": "Corn carries the largest input prepay of any row crop.",
+          "why_this_business": "Nitrogen, seed, and chemical prepay is concentrated into a few large payments to cooperatives and retailers, arranged by email. The FBI notice of April 2022 specifically identified attacks on cooperatives that supply seed and fertilizer ahead of planting.",
+          "loss_scenario": "A diverted prepay wire of $200,000 to $800,000. The fertilizer was never booked, so the operation buys nitrogen again at spring spot price on top of the stolen funds.",
+          "rhetorical_question": "What is the dollar amount of your largest input prepayment, and how is it sent?"
+        },
+        {
+          "rank": 3,
+          "headline": "Corn production depends on hybrid-specific data stored in cloud accounts.",
+          "why_this_business": "Variable-rate population, multi-hybrid planting, downforce maps, RTK guidance, and as-applied records are stored in Operations Center or FieldView. Researchers demonstrated in 2021 that Deere's platform allowed owner enumeration and administrative access.",
+          "loss_scenario": "A season planted at flat rate, plus permanent loss of multi-year yield history used for seed selection, cash rent negotiation, and crop insurance APH.",
+          "rhetorical_question": "How many years of yield data do you have stored, and is there a copy outside the cloud account?"
+        }
+      ]
+    },
+    "111160": {
+      "naics_code": "111160",
+      "naics_title": "Rice Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Flood management depends on pumps and gates that are controlled remotely.",
+          "why_this_business": "Rice is grown under a managed flood held for months. Relift pumps, wells, and multiple-inlet gates are increasingly controlled by cell telemetry and phone apps. Loss of the flood at certain growth stages causes blanking and weed escape.",
+          "loss_scenario": "An uncontrolled drain or a failure to restart pumps during a heat event across 400 acres is a partial or total loss on that acreage with no replant option.",
+          "rhetorical_question": "Are any of your irrigation pumps or water control gates operated remotely?"
+        },
+        {
+          "rank": 2,
+          "headline": "Drying and milling are done off-farm and determine the value of the crop.",
+          "why_this_business": "Rice is harvested at 18 to 20 percent moisture and must be dried quickly. Delivery scheduling, drying charges, and milling yield are handled in the drier's or mill's software. Head rice percentage determines the payment.",
+          "loss_scenario": "Rice held wet because the drier cannot receive it loses head rice yield permanently. A five point drop in head rice across a crop is a six figure loss with no physical damage to farm property.",
+          "rhetorical_question": "Do you rely on a single drier or mill to receive your crop at harvest?"
+        },
+        {
+          "rank": 3,
+          "headline": "Program payments and insurance depend on federal records tied to deadlines.",
+          "why_this_business": "Base acres, ARC and PLC elections, FSA farm records, and crop insurance APH are held in electronic records with filing deadlines. Rice also carries residue documentation for domestic and export buyers.",
+          "loss_scenario": "Missed FSA or RMA deadlines and unsupported APH history reduce both program payments and insurance guarantees in future years, not only the current year.",
+          "rhetorical_question": "Do you participate in FSA programs and federal crop insurance?"
+        }
+      ]
+    },
+    "111191": {
+      "naics_code": "111191",
+      "naics_title": "Oilseed and Grain Combination Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Two crops means payment and contract activity across roughly eight months.",
+          "why_this_business": "A combination operation markets corn and soybeans to different buyers under different contract structures. Delivery and settlement run from September through the following summer. Email traffic about contracts, delivery, and payment is active most of the year.",
+          "loss_scenario": "Diverted settlement or prepay wires of $50,000 to $500,000 per event. A compromised mailbox is typically used more than once before the pattern is detected.",
+          "rhetorical_question": "In how many months of the year do you send or receive payments over $50,000?"
+        },
+        {
+          "rank": 2,
+          "headline": "Combination operations are heavy users of farm management software.",
+          "why_this_business": "Rotating corn and soybeans across many fields and landlords requires field records, rotation history, variable-rate prescriptions, and landlord-by-landlord accounting. This is held in Operations Center, FieldView, Granular, or similar cloud platforms accessed with a single set of credentials.",
+          "loss_scenario": "Loss of multi-year rotation and yield history used to support cash rent negotiations and landlord reporting.",
+          "rhetorical_question": "How many landlords do you report field results to, and where is that data kept?"
+        },
+        {
+          "rank": 3,
+          "headline": "Annual operating lines require financial documents sent electronically to lenders.",
+          "why_this_business": "Large grain operations renew operating notes annually on financial statements, inventory positions, and marketing plans. Tax returns, balance sheets, and bank account details are submitted through lender portals or by email and remain in the sent folder.",
+          "loss_scenario": "Loan renewal delayed because financials cannot be produced, plus account takeover using the financial documents recovered from a compromised mailbox.",
+          "rhetorical_question": "Do you send tax returns or financial statements to your lender by email?"
+        }
+      ]
+    },
+    "111199": {
+      "naics_code": "111199",
+      "naics_title": "All Other Grain Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Specialty grain premiums are conditional on contract documentation.",
+          "why_this_business": "Barley, oats, sorghum, rye, and specialty grains are grown on contract to maltsters, millers, and feed buyers. Contracts specify protein, plumpness, germination, test weight, and DON limits. The premium is paid only when the specification documentation is produced.",
+          "loss_scenario": "A malting barley contract paying $2 to $4 over feed barley reverts to feed value across the contracted volume.",
+          "rhetorical_question": "Do you sell any grain under a specification contract that pays a premium over commodity price?"
+        },
+        {
+          "rank": 2,
+          "headline": "Specialty grains often have only one buyer within hauling distance.",
+          "why_this_business": "Unlike corn and soybeans, small grains and specialty grains frequently have a single realistic buyer in the area. The FBI documented multiple grain cooperatives encrypted within a three week window during the 2021 harvest.",
+          "loss_scenario": "Grain with no delivery point during harvest and limited on-farm storage, forcing a distressed sale or ground storage losses.",
+          "rhetorical_question": "How many buyers will take this crop within your normal hauling distance?"
+        },
+        {
+          "rank": 3,
+          "headline": "Breach notification law applies to farms of any size.",
+          "why_this_business": "Any farm with employees holds W-2 data, direct deposit routing numbers, and I-9 forms. Many also hold H-2A documentation. All 50 states require notification when personal information is breached. There is no exemption based on revenue or number of employees.",
+          "loss_scenario": "Forensics, required notification, credit monitoring, and state attorney general response cost $25,000 to $100,000 for a small employer before any lawsuit.",
+          "rhetorical_question": "How many employees do you hold Social Security numbers and direct deposit information for?"
+        }
+      ]
+    },
+    "111211": {
+      "naics_code": "111211",
+      "naics_title": "Potato Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Potato storage is run by ventilation controllers that are monitored remotely.",
+          "why_this_business": "Potatoes are stored 6 to 10 months under controlled pile temperature, humidity, CO2, and airflow. Controllers from Gellert, Industrial Ventilation, and Techmark are used and are usually monitored and adjusted remotely. Pile temperature must be held within a few degrees. Sprout inhibitor application and CO2 levels are also controlled.",
+          "loss_scenario": "A 30 million pound storage building holds $2M to $4M of potatoes. A controller failure or loss of monitoring access causes pressure bruise, pit rot, or blackheart across the pile.",
+          "rhetorical_question": "Are your storage ventilation controls monitored or adjusted remotely?"
+        },
+        {
+          "rank": 2,
+          "headline": "Processor contracts are transacted by EDI on fixed delivery schedules.",
+          "why_this_business": "Contract potatoes are delivered to Lamb Weston, McCain, Simplot, or a chip plant. Delivery slots, quality specifications, and payment are transmitted electronically. Sugar and specific gravity results are held in the processor's system.",
+          "loss_scenario": "Missed delivery windows and unresolved quality settlements. If the processor is down and cannot receive, the grower has no delivery point and no coverage under a property policy.",
+          "rhetorical_question": "What percentage of your crop is committed to a single processor?"
+        },
+        {
+          "rank": 3,
+          "headline": "Seed potato certification depends on lot and testing records.",
+          "why_this_business": "Seed lot certification, virus and blackleg testing, and field inspection results determine whether seed can legally be sold. Records are held by state certification agencies and by the grower.",
+          "loss_scenario": "Loss of certified status converts seed value to table stock value. If a buyer's crop fails, downstream claims are made against the seed grower who cannot document lot history.",
+          "rhetorical_question": "Do you sell certified seed potatoes to other growers?"
+        }
+      ]
+    },
+    "111219": {
+      "naics_code": "111219",
+      "naics_title": "Other Vegetable (except Potato) and Melon Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Your crops are on the FDA Food Traceability List and require records within 24 hours.",
+          "why_this_business": "Melons, leafy greens, tomatoes, cucumbers, peppers, fresh herbs, and sprouts are on the FDA Food Traceability List under FSMA Section 204. The compliance date is July 20, 2028. The rule requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of records to FDA in an electronic sortable spreadsheet within 24 hours of request.",
+          "loss_scenario": "Records that cannot be produced in 24 hours widen the scope of an outbreak investigation. The 2018 romaine advisories reduced demand for growers who were never linked to the outbreak.",
+          "rhetorical_question": "Do you grow any crop on the FDA Food Traceability List, and can you produce lot-level records electronically?"
+        },
+        {
+          "rank": 2,
+          "headline": "Retail buyers require EDI, GS1 labeling, and a current third-party food safety audit.",
+          "why_this_business": "Selling to retailers or foodservice distributors requires GTINs, case labeling, EDI purchase orders and advance ship notices, and a current PrimusGFS, SQF, or GlobalG.A.P. certificate held in a portal. Product cannot ship without electronic confirmation, and the certificate is checked before orders are placed.",
+          "loss_scenario": "Suspension from an approved supplier list during the harvest season. Perishable product cannot be held until the issue is resolved.",
+          "rhetorical_question": "Do you transmit purchase orders or advance ship notices by EDI to your buyers?"
+        },
+        {
+          "rank": 3,
+          "headline": "Seasonal harvest crews create a large file of employee personal information.",
+          "why_this_business": "Fresh vegetable production uses large seasonal crews, employed directly or through a farm labor contractor. Files include I-9 forms, passport and visa copies, Social Security numbers, and direct deposit details. Payroll is run weekly.",
+          "loss_scenario": "A breach of a payroll file covering 400 workers requires notification in every state of residence, credit monitoring, and response to state labor agencies.",
+          "rhetorical_question": "How many seasonal employees do you have at peak, and do you keep copies of their identity documents?"
+        }
+      ]
+    },
+    "111310": {
+      "naics_code": "111310",
+      "naics_title": "Orange Groves",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Freeze protection uses pumps and wind machines that are started remotely.",
+          "why_this_business": "Citrus is protected from freeze events by microsprinkler irrigation and wind machines. These are started based on remote temperature telemetry and are controlled by app or SCADA, usually overnight. The decision window is under an hour.",
+          "loss_scenario": "One unprotected freeze night destroys the fruit crop and can kill young trees. Grove replanting costs $8,000 to $15,000 per acre and takes 4 to 7 years to return to production.",
+          "rhetorical_question": "Are your frost protection pumps or wind machines started or monitored remotely?"
+        },
+        {
+          "rank": 2,
+          "headline": "Greening management is run from multi-year block-level records.",
+          "why_this_business": "HLB, or citrus greening, is managed through tree-by-tree nutrition programs, psyllid scouting maps, injection records, and multi-year block yield and mortality data. This data is held in grove management software and directs the treatment program.",
+          "loss_scenario": "Loss of block records requires restarting the nutrition and psyllid program without historical reference on a disease that kills trees faster than the data can be rebuilt.",
+          "rhetorical_question": "Do you use grove management software to track block-level treatment and yield history?"
+        },
+        {
+          "rank": 3,
+          "headline": "Payment is calculated from pound solids measured in the processor's laboratory.",
+          "why_this_business": "Processing oranges are paid on pound solids, determined by Brix and juice yield measured at the processor and recorded in the processor's system. Fresh fruit is paid on packout percentage calculated at the packinghouse. The grower has no independent measurement.",
+          "loss_scenario": "Unresolved settlement across a season. If the processor cannot receive fruit, there is no alternative outlet for a perishable crop that cannot be held on the tree.",
+          "rhetorical_question": "Is your payment based on grade or yield data generated by the buyer?"
+        }
+      ]
+    },
+    "111320": {
+      "naics_code": "111320",
+      "naics_title": "Citrus (except Orange) Groves",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Frost protection for high-value citrus is automated and remotely controlled.",
+          "why_this_business": "Lemons, grapefruit, mandarins, and limes are freeze sensitive and are protected by remotely controlled microsprinkler and wind machine systems. Per-acre values are higher than oranges. Mandarin acreage in particular carries high revenue per acre.",
+          "loss_scenario": "Total crop loss on acreage grossing $8,000 to $20,000 per acre, plus tree damage on varieties with long establishment periods.",
+          "rhetorical_question": "Are your frost protection systems operated remotely, and what is your revenue per acre?"
+        },
+        {
+          "rank": 2,
+          "headline": "Club and managed varieties require reporting through a grower portal.",
+          "why_this_business": "Managed and club citrus varieties require licensed plantings, reported acreage, quality compliance, and marketing through one designated handler. Compliance is administered through grower portals. The license is what permits the fruit to be sold under the brand.",
+          "loss_scenario": "License compliance failure or inability to report during harvest sends fruit into the generic market at a fraction of branded value.",
+          "rhetorical_question": "Do you grow any licensed or club variety that requires reporting to a handler?"
+        },
+        {
+          "rank": 3,
+          "headline": "Export requires electronic phytosanitary certificates and residue documentation.",
+          "why_this_business": "Specialty citrus exported to Japan, Korea, Canada, and the EU requires phytosanitary certificates issued through APHIS PCIT, cold treatment records, and compliance with destination maximum residue limits. Compliance is verified against your spray records. Permitted chemistries differ by country.",
+          "loss_scenario": "Container detention or rejection on perishable product, and removal from an export program that took years to qualify for.",
+          "rhetorical_question": "Do you export fruit, and do you maintain electronic spray and treatment records?"
+        }
+      ]
+    },
+    "111331": {
+      "naics_code": "111331",
+      "naics_title": "Apple Orchards",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Controlled atmosphere storage holds fruit under continuous computer control for months.",
+          "why_this_business": "Apples are stored at 1.5 to 2.5 percent oxygen and 1 to 3 percent CO2 for up to ten months. Dynamic controlled atmosphere systems monitor and adjust continuously. Rooms are sealed. Fruit held below the lower oxygen limit ferments and CO2 excursions cause internal browning. These systems are networked for remote monitoring.",
+          "loss_scenario": "One CA room holds 100,000 to 200,000 bushels, worth $1M to $3M. A control failure or loss of monitoring access can make the entire room unsellable, and the damage is not visible until the room is opened months later.",
+          "rhetorical_question": "Do you operate controlled atmosphere storage, and is it monitored remotely?"
+        },
+        {
+          "rank": 2,
+          "headline": "Shipping to retail requires packinghouse grading data, GS1 labeling, and EDI.",
+          "why_this_business": "Apples reach retail through optical grading, case labeling, PLU assignment, and EDI order processing. Presize grading data determines packout and payment. There is no manual process for shipping to a national retailer.",
+          "loss_scenario": "Shipping stops during a retail promotion window while fruit continues to age in storage.",
+          "rhetorical_question": "Do you ship to national retail chains that require EDI?"
+        },
+        {
+          "rank": 3,
+          "headline": "Fall retail and u-pick operations process a high volume of card transactions.",
+          "why_this_business": "Most orchards run retail operations in the fall, including u-pick, farm markets, cider sales, and ticketed events. Card transactions are concentrated into roughly eight weekends across POS systems and online ticketing. PCI DSS 4.0 requirements became mandatory on March 31, 2025 and apply regardless of merchant size.",
+          "loss_scenario": "Card brand assessments, forensic investigation, and card reissuance costs after a POS or e-commerce compromise. PCI liability is excluded or sublimited on most package policies.",
+          "rhetorical_question": "Do you accept credit cards at a farm market, u-pick, or online store?"
+        }
+      ]
+    },
+    "111332": {
+      "naics_code": "111332",
+      "naics_title": "Grape Vineyards",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Wine club billing stores customer card data for recurring charges.",
+          "why_this_business": "Vineyards with winery operations run wine clubs that store customer cards for quarterly billing. Tasting room POS, e-commerce, and shipping compliance records add names, addresses, and dates of birth for age verification. This is stored payment data combined with personal information for thousands of customers.",
+          "loss_scenario": "A club database breach exposes stored cards for 3,000 to 15,000 members. Costs include notification, card brand assessments, forensics, and loss of the customer list.",
+          "rhetorical_question": "Do you store customer credit card information for recurring or club billing?"
+        },
+        {
+          "rank": 2,
+          "headline": "Frost protection, irrigation, and pick timing are driven by remote sensor data.",
+          "why_this_business": "Vineyards use remotely monitored frost alarms, wind machines, overhead sprinklers, and soil moisture probes. Brix sampling determines pick date within roughly a 48 hour window. Frost alarms are acted on overnight.",
+          "loss_scenario": "A missed frost event at bud break destroys the primary crop for the season. A mistimed pick moves fruit outside the target Brix and pH range and moves the lot from reserve tier to bulk.",
+          "rhetorical_question": "Do you rely on remote frost alarms or sensor data to make overnight decisions?"
+        },
+        {
+          "rank": 3,
+          "headline": "Label claims must be substantiated with records that TTB can audit.",
+          "why_this_business": "Vintage, varietal, appellation, and vineyard designate claims must be supported by records available for TTB audit. Vineyards supplying wineries must document block, tonnage, and delivery to support those claims. Weight tags and lot records are the supporting evidence.",
+          "loss_scenario": "Inability to substantiate label claims in an audit requires relabeling or destruction of bottled inventory, plus contractual liability to wineries relying on your records.",
+          "rhetorical_question": "Do you supply fruit for vineyard-designate or appellation labeling?"
+        }
+      ]
+    },
+    "111333": {
+      "naics_code": "111333",
+      "naics_title": "Strawberry Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Strawberries require continuous cold chain monitoring and have a five day shelf life.",
+          "why_this_business": "Berries move from field to forced-air precooling within about an hour and must hold 32 to 34 degrees F through to retail. Precooling tunnels, cold rooms, and refrigerated transport are monitored by networked temperature loggers. Buyers reject loads based on temperature data alone.",
+          "loss_scenario": "A cooling or monitoring failure on one day's harvest of 3,000 to 8,000 flats is a total write-off within 48 hours. There is no salvage market.",
+          "rhetorical_question": "Do you use networked temperature monitoring in your coolers or shipping?"
+        },
+        {
+          "rank": 2,
+          "headline": "Hand harvest generates weekly payroll and piece-rate records for a large crew.",
+          "why_this_business": "Strawberries are harvested by hand at piece rate using hundreds of workers, often through H-2A or a farm labor contractor. Files include I-9 forms, visa documents, and direct deposit information. Piece-rate and hours records are legally required in California and Florida.",
+          "loss_scenario": "Breach notification across a large seasonal workforce. In a wage claim, an employer who cannot produce time and pay records faces a legal presumption in favor of the employee's estimate.",
+          "rhetorical_question": "How do you record and store piece-rate and hours worked for your harvest crew?"
+        },
+        {
+          "rank": 3,
+          "headline": "Outbreak traceback is conducted using lot codes and harvest records.",
+          "why_this_business": "Fresh strawberries were the subject of a multistate hepatitis A outbreak investigation in 2022 that publicly named brands and growing regions. Traceback uses lot codes, harvest records, and distribution data. Slow or unavailable records extend the investigation and widen the public advisory.",
+          "loss_scenario": "A regional advisory reduces demand for every grower in the district. Recall expense, crisis management, and public relations costs are covered under cyber and recall policies, not farm property policies.",
+          "rhetorical_question": "Can you trace a specific lot from field to buyer using your current records?"
+        }
+      ]
+    },
+    "111334": {
+      "naics_code": "111334",
+      "naics_title": "Berry (except Strawberry) Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Optical sorting determines whether fruit is sold fresh or for processing.",
+          "why_this_business": "Fresh blueberries are graded by optical and near-infrared sorters that log packout by lot. Fresh pack value is commonly two to three times processing value. The sorter determines which market the fruit enters. Cold chain is monitored continuously after packing.",
+          "loss_scenario": "A sorting or cold chain outage during a two week peak diverts fresh market fruit to processing at a much lower price, or writes off cane berries that will not hold.",
+          "rhetorical_question": "Do you operate optical sorting or automated packing equipment?"
+        },
+        {
+          "rank": 2,
+          "headline": "Direct sales channels make the operation a card-accepting merchant.",
+          "why_this_business": "Berry growers sell through u-pick, farmers markets, roadside stands, CSA subscriptions, and online ordering using mobile POS and e-commerce platforms. PCI DSS 4.0 became fully mandatory on March 31, 2025 and includes e-commerce script controls.",
+          "loss_scenario": "Card brand fines and forensic costs after a POS compromise, plus contractual liability to the acquiring bank. This liability is excluded under a BOP or farmowners policy.",
+          "rhetorical_question": "Do you accept credit cards in person, online, or both?"
+        },
+        {
+          "rank": 3,
+          "headline": "Buyer programs require a current certification verified through a portal.",
+          "why_this_business": "Berries sold to national retailers and export markets require GlobalG.A.P., PrimusGFS, or SQF certification, harvest and spray records, and residue documentation. Certification status is verified through cloud portals before orders are placed.",
+          "loss_scenario": "Loss of approved supplier status during harvest, with perishable product and no time to re-qualify.",
+          "rhetorical_question": "Which third-party food safety certifications do you hold, and where are the records kept?"
+        }
+      ]
+    },
+    "111335": {
+      "naics_code": "111335",
+      "naics_title": "Tree Nut Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Truckloads of nuts are stolen using compromised or fake carrier identities.",
+          "why_this_business": "Almond, pistachio, and walnut loads are stolen by criminals who compromise or impersonate carrier and broker accounts on load boards, produce matching pickup documentation, and collect the load. The product is high value, non-perishable, and difficult to trace after resale. This is an established pattern targeting California tree nuts.",
+          "loss_scenario": "One truckload of almonds or pistachios is $150,000 to $500,000. Because the goods were released voluntarily to a party presenting valid-looking documents, this is generally not covered as a property theft loss.",
+          "rhetorical_question": "How do you verify the identity of a carrier before releasing a load?"
+        },
+        {
+          "rank": 2,
+          "headline": "Irrigation is controlled by SCADA and remote pump control on a permanent crop.",
+          "why_this_business": "Tree nuts are permanent crops with high water demand, irrigated through pressurized microirrigation with remote pump control, flow monitoring, and soil moisture telemetry. Groundwater use is reported under SGMA in California. Orchards take 7 to 10 years to reach full production.",
+          "loss_scenario": "Extended irrigation loss during summer heat kills or permanently damages trees. Almond orchard establishment costs $8,000 to $12,000 per acre and takes about 7 years to return to production.",
+          "rhetorical_question": "Are your irrigation pumps controlled or monitored through a remote system?"
+        },
+        {
+          "rank": 3,
+          "headline": "Payment is made by handlers over 12 to 18 months against their grade data.",
+          "why_this_business": "Tree nuts are delivered to handlers who pool, market, and pay over an extended period based on grade sheets, moisture, and reject data generated in the handler's system. About two thirds of US tree nuts are exported, requiring APHIS phytosanitary certification and aflatoxin testing documentation.",
+          "loss_scenario": "Delayed pool payments and inability to export product already in the warehouse. On a crop paid out over 18 months, a settlement system failure creates a cash flow shortfall.",
+          "rhetorical_question": "Over what period are you paid for your crop after delivery?"
+        }
+      ]
+    },
+    "111336": {
+      "naics_code": "111336",
+      "naics_title": "Fruit and Tree Nut Combination Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Multiple crops extend the critical operating window across most of the year.",
+          "why_this_business": "A combination operation harvests, packs, cools, and ships across most of the year, with different buyers, food safety schemes, labor peaks, and settlement systems for each commodity. There is no period in which a systems outage falls outside a harvest window.",
+          "loss_scenario": "An outage at any point in an eight to ten month operating window occurs during an active harvest with perishable product on the tree or in the cooler.",
+          "rhetorical_question": "In how many months of the year are you actively harvesting or shipping?"
+        },
+        {
+          "rank": 2,
+          "headline": "Permanent plantings are destroyed, not just interrupted, by irrigation failure.",
+          "why_this_business": "Orchards and vineyards have 15 to 40 year productive lives and multi-year establishment periods. They depend on remotely controlled irrigation and frost protection. Unlike annual crops, production cannot be resumed the following season.",
+          "loss_scenario": "Tree or vine mortality from extended irrigation or freeze protection failure requires replanting at $8,000 to $20,000 per acre with 4 to 8 years to full production.",
+          "rhetorical_question": "What is the replanting cost per acre for your orchard or vineyard blocks?"
+        },
+        {
+          "rank": 3,
+          "headline": "Mixed commodities multiply traceability and certification requirements on shared systems.",
+          "why_this_business": "Combination operations often grow crops on the FDA Food Traceability List alongside crops that are not covered, plus commodities with export residue restrictions. Each requires separate lot coding, records, and certification. FSMA 204 applies to the covered items on July 20, 2028 regardless of the other crops grown.",
+          "loss_scenario": "A single records failure affects every commodity because the systems are shared, satisfying neither a traceback investigator nor a certification auditor.",
+          "rhetorical_question": "Do you keep records for all of your crops in the same system?"
+        }
+      ]
+    },
+    "111339": {
+      "naics_code": "111339",
+      "naics_title": "Other Noncitrus Fruit Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Tropical tree fruits are on the FDA Food Traceability List.",
+          "why_this_business": "Papaya, mango, and other tropical tree fruits are covered by FSMA Section 204, with a compliance date of July 20, 2028. The rule requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Papaya has a documented outbreak history.",
+          "loss_scenario": "Records that cannot be produced within 24 hours widen the scope of a traceback and place the operation at the center of the advisory. Costs include recall expense, crisis management, and lost market access.",
+          "rhetorical_question": "Do you grow papaya, mango, or another crop on the FDA Food Traceability List?"
+        },
+        {
+          "rank": 2,
+          "headline": "Stone fruit requires rapid cooling and continuous cold chain monitoring.",
+          "why_this_business": "Peaches, nectarines, plums, cherries, and apricots require hydrocooling or forced-air cooling within hours of picking and continuous cold chain to retail. Cooling and transport are monitored electronically. Cherry harvest windows are measured in days.",
+          "loss_scenario": "A cooling or monitoring failure writes off a full day of harvest. On cherries, one lost week can represent the majority of the crop's marketable value.",
+          "rhetorical_question": "How soon after picking does your fruit enter cooling, and is that process monitored electronically?"
+        },
+        {
+          "rank": 3,
+          "headline": "Fruit clubs and direct shipping involve stored card data and recurring billing.",
+          "why_this_business": "Noncitrus fruit growers sell through u-pick, farm stands, fruit-of-the-month shipping clubs, and online ordering. Shipping clubs require stored cards and recurring billing. Farm stands process high transaction volume in a short season. PCI DSS 4.0 became mandatory on March 31, 2025.",
+          "loss_scenario": "Card compromise with brand assessments, forensics, and reissuance costs, plus loss of customers in a business built on direct relationships.",
+          "rhetorical_question": "Do you operate a shipping club or subscription that stores customer cards?"
+        }
+      ]
+    },
+    "111411": {
+      "naics_code": "111411",
+      "naics_title": "Mushroom Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Growing rooms and compost tunnels are under continuous computer control.",
+          "why_this_business": "Mushroom production uses phase II and III composting tunnels held at set temperatures for pasteurization and conditioning, then growing rooms controlled for air temperature, compost temperature, humidity, CO2, and air exchange. Flushes are triggered by controlled environmental changes. The building supplies the entire growing environment.",
+          "loss_scenario": "Hours of lost environmental control aborts a flush and can contaminate the substrate. This costs the crop, the compost fill, and the room turn, commonly $50,000 to $200,000 per room. Rooms cycle every few weeks.",
+          "rhetorical_question": "Are your growing room and tunnel controls accessible remotely?"
+        },
+        {
+          "rank": 2,
+          "headline": "Mushrooms have a documented Listeria recall history.",
+          "why_this_business": "Enoki and other mushrooms have been subject to repeated multistate Listeria monocytogenes recalls and import alerts. Traceback uses lot codes, grow room records, and distribution data. Listeria is an environmental pathogen, so investigators review facility records in addition to product records.",
+          "loss_scenario": "Recall expense, destruction of distributed product, crisis management, and third-party bodily injury claims. Recall and crisis response costs are covered under cyber and recall policies, not farm property policies.",
+          "rhetorical_question": "Can you identify which rooms and dates a specific shipment came from?"
+        },
+        {
+          "rank": 3,
+          "headline": "Hand harvest runs 52 weeks a year with continuous payroll.",
+          "why_this_business": "Mushrooms are picked by hand indoors year round using large permanent and seasonal crews on piece rate. Unlike field crops, the employee file is active every week of the year and includes I-9 forms, Social Security numbers, and direct deposit details.",
+          "loss_scenario": "Breach notification across a large standing workforce, plus disruption to a weekly payroll with no seasonal pause to absorb the interruption.",
+          "rhetorical_question": "How many employees are on your payroll year round?"
+        }
+      ]
+    },
+    "111419": {
+      "naics_code": "111419",
+      "naics_title": "Other Food Crops Grown Under Cover",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The greenhouse climate computer controls all growing conditions and allows remote access.",
+          "why_this_business": "Greenhouse tomatoes, cucumbers, lettuce, and herbs are grown under Priva, Argus, Hoogendoorn, or Ridder climate computers. These control vents, screens, heating, CO2 dosing, supplemental lighting, and fertigation EC and pH. The systems are designed for remote monitoring and control by the grower and the vendor.",
+          "loss_scenario": "A greenhouse without vent and screen control overheats within hours in summer or freezes in winter. Controlled environment sites commonly hold $2M to $20M in crop and infrastructure.",
+          "rhetorical_question": "Does your climate control system allow remote access by you or your vendor?"
+        },
+        {
+          "rank": 2,
+          "headline": "Tomatoes, cucumbers, leafy greens, and herbs are on the FDA Food Traceability List.",
+          "why_this_business": "FSMA Section 204 covers the crops most commonly grown under cover. The compliance date is July 20, 2028. The rule requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request.",
+          "loss_scenario": "Records that cannot be produced within 24 hours widen the scope of an outbreak investigation and result in product being pulled across the distribution chain.",
+          "rhetorical_question": "Can you produce lot-level traceability records in an electronic spreadsheet format?"
+        },
+        {
+          "rank": 3,
+          "headline": "Retail supply agreements require year-round weekly volume.",
+          "why_this_business": "Controlled environment operations sign year-round supply agreements with retailers specifying weekly volume, often backed by lender or investor covenants. The commitment is to a production schedule rather than a harvest. Downtime is a supply failure.",
+          "loss_scenario": "Breach of a year-round supply agreement, chargebacks or removal from a retail program, and lender covenant issues.",
+          "rhetorical_question": "Do you have supply agreements that commit you to weekly delivery volumes?"
+        }
+      ]
+    },
+    "111421": {
+      "naics_code": "111421",
+      "naics_title": "Nursery and Tree Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Mail-order plant sales run through an e-commerce platform with a short selling season.",
+          "why_this_business": "Nurseries sell direct to consumers online and ship live plants nationwide. Most annual revenue is earned in a six to ten week spring window. The operation runs a shopping cart, stored card data, and a customer database. PCI DSS 4.0 became mandatory on March 31, 2025 and added requirements for monitoring e-commerce payment page scripts.",
+          "loss_scenario": "A cart compromise or ransomware event during the spring window affects the majority of annual revenue. Additional costs include card brand assessments, forensics, and customer notification across all states.",
+          "rhetorical_question": "What percentage of your annual sales occurs in your peak eight weeks, and do you sell online?"
+        },
+        {
+          "rank": 2,
+          "headline": "Interstate shipping requires state phytosanitary certification and quarantine compliance.",
+          "why_this_business": "Shipping nursery stock across state lines requires state phytosanitary certification, nursery licenses, and compliance with quarantine orders for pests including sudden oak death, boxwood blight, emerald ash borer, and spotted lanternfly. Certificates and shipping records are electronic. Quarantine compliance requires documented origin and inspection history per shipment.",
+          "loss_scenario": "A stop-sale order or shipping ban during the spring window while compliance cannot be documented, plus regulatory action if traceback fails during a pest investigation.",
+          "rhetorical_question": "Do you ship nursery stock across state lines, and how are inspection and shipping records stored?"
+        },
+        {
+          "rank": 3,
+          "headline": "Container stock is watered by automated irrigation and dies quickly without it.",
+          "why_this_business": "Container nursery stock holds very little water reserve and is irrigated by automated boom, overhead, and drip systems on timed and sensor-driven controllers. Many are remotely managed. In summer, container stock requires water daily or more often.",
+          "loss_scenario": "Two days without irrigation in summer kills container inventory representing one to five years of growing.",
+          "rhetorical_question": "Is your irrigation controlled by an automated system, and is it monitored remotely?"
+        }
+      ]
+    },
+    "111422": {
+      "naics_code": "111422",
+      "naics_title": "Floriculture Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Revenue is concentrated into fixed holiday dates that cannot be moved.",
+          "why_this_business": "Cut flowers and potted crops are timed to Valentine's Day, Mother's Day, Easter, and Christmas. Crops are programmed months ahead to finish on an exact date and shipped against retail purchase orders through EDI. Product has no value after the holiday passes.",
+          "loss_scenario": "Missing a holiday window writes off crops grown over six months with no salvage value, plus retail chargebacks and possible loss of the program for the following year.",
+          "rhetorical_question": "What percentage of your annual revenue is tied to specific holiday delivery dates?"
+        },
+        {
+          "rank": 2,
+          "headline": "Flowering is controlled by photoperiod lighting and temperature schedules.",
+          "why_this_business": "Floriculture requires precise day and night temperature differentials for height control, photoperiod lighting for flower initiation, and controlled fertigation EC and pH. These are managed by networked climate computers with remote access. A lighting schedule error can prevent flowering across an entire crop.",
+          "loss_scenario": "A photoperiod or temperature control failure delays or prevents flowering on a crop programmed for a specific holiday. Fixed costs are already fully spent at that point.",
+          "rhetorical_question": "Is your greenhouse lighting and temperature program controlled by a networked system?"
+        },
+        {
+          "rank": 3,
+          "headline": "Retail programs require EDI, barcode labeling, and vendor portal access.",
+          "why_this_business": "Selling into mass-market retail requires EDI purchase orders and advance ship notices, UPC and case labeling, vendor-managed inventory reporting, and integration with the retailer's replenishment system. Vendors are measured on fill rate and on-time performance.",
+          "loss_scenario": "Vendor compliance chargebacks and program suspension. Retail floral programs are awarded annually, so a failed holiday affects the following year's contract.",
+          "rhetorical_question": "Do you supply mass-market retailers under an EDI vendor program?"
+        }
+      ]
+    },
+    "111910": {
+      "naics_code": "111910",
+      "naics_title": "Tobacco Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Selling leaf requires current certification held in a third-party database.",
+          "why_this_business": "Major manufacturers and leaf merchants require participation in grower certification programs such as GAP Connections. These programs document labor practices, worker housing, training, and farm compliance. Certification status is verified before purchase.",
+          "loss_scenario": "Loss of certification standing or exposure of labor and housing data threatens the contract relationship, which is the only outlet for the crop.",
+          "rhetorical_question": "Which grower certification programs are you enrolled in?"
+        },
+        {
+          "rank": 2,
+          "headline": "Tobacco uses H-2A labor and holds foreign worker identity documents.",
+          "why_this_business": "Tobacco requires hand labor for transplanting, topping, priming, and housing, supplied largely through H-2A. Files include passports, visas, consular documentation, Social Security numbers, housing assignments, and weekly payroll records.",
+          "loss_scenario": "A breach of an H-2A file triggers notification obligations and attention from the Department of Labor and plaintiff attorneys. Exposure of immigration documents creates direct harm to workers, which increases litigation exposure.",
+          "rhetorical_question": "Do you employ H-2A workers, and do you retain copies of their passports or visas?"
+        },
+        {
+          "rank": 3,
+          "headline": "Curing barns run unattended on programmed temperature and humidity schedules.",
+          "why_this_business": "Flue-cured tobacco is cured in bulk barns over roughly one week on programmed temperature and humidity schedules through yellowing, leaf drying, and stem drying. Barns are monitored by remote alarm and control systems. A barn that runs off schedule ruins the leaf inside it.",
+          "loss_scenario": "A curing failure destroys the leaf in that barn with no recovery. Cured leaf value is roughly $2 to $3 per pound on a crop that is already fully invested.",
+          "rhetorical_question": "Are your curing barns monitored by a remote alarm or control system?"
+        }
+      ]
+    },
+    "111920": {
+      "naics_code": "111920",
+      "naics_title": "Cotton Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Bale ownership is recorded in an electronic warehouse receipt system.",
+          "why_this_business": "US cotton is warehoused and traded using electronic warehouse receipts under the US Warehouse Act, administered through USDA-authorized providers and tied to Permanent Bale Identification numbers. The electronic receipt is the title document for the bale. The bales are stored off-site and the record of ownership is the account entry.",
+          "loss_scenario": "Fraudulent transfer of receipts or loss of account access during a price window. One module is roughly $30,000 to $45,000 and a full crop is commonly seven figures held in electronic title.",
+          "rhetorical_question": "Do you hold electronic warehouse receipts, and who has access to that account?"
+        },
+        {
+          "rank": 2,
+          "headline": "Price is set bale by bale from USDA classing data delivered electronically.",
+          "why_this_business": "Every US bale is classed by USDA AMS for micronaire, staple, strength, color grade, and leaf. Results are delivered electronically to the grower, the gin, and the merchant. Premiums and discounts against base price are applied from that data.",
+          "loss_scenario": "Inability to receive, verify, or dispute classing data across a crop. Premium and discount differences of several cents per pound total $50,000 to $150,000 on a mid-size operation.",
+          "rhetorical_question": "How do you receive and store your USDA classing results?"
+        },
+        {
+          "rank": 3,
+          "headline": "Module tracking, gin scheduling, and CCC loans all run on third-party systems.",
+          "why_this_business": "Round modules are RFID tagged and tracked from field to gin. Gin scheduling determines when cotton is processed. CCC marketing assistance loans are entered and redeemed electronically against warehouse receipts through FSA.",
+          "loss_scenario": "Modules degrading in the field while the gin cannot schedule, plus loan and redemption timing problems that affect the price received.",
+          "rhetorical_question": "Do you use CCC marketing assistance loans against your warehouse receipts?"
+        }
+      ]
+    },
+    "111930": {
+      "naics_code": "111930",
+      "naics_title": "Sugarcane Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Cane must be milled within 24 to 48 hours and one mill controls the schedule.",
+          "why_this_business": "Sucrose inverts quickly after cutting, so cane must be milled within roughly one to two days. Growers deliver to a single mill or cooperative on daily quotas allocated electronically. There is no alternative buyer and no storage option.",
+          "loss_scenario": "Cut cane that cannot be delivered is a near-total loss on that tonnage within two days. A mill systems outage during grinding season is a contingent business interruption loss that farm property policies do not cover.",
+          "rhetorical_question": "How is your daily delivery quota communicated to you by the mill?"
+        },
+        {
+          "rank": 2,
+          "headline": "Payment is calculated from core sample analysis in the mill's laboratory.",
+          "why_this_business": "Growers are paid on recoverable sugar per ton, determined by core sampling in the mill's lab and processed through the mill's accounting system. The grower has no independent measurement.",
+          "loss_scenario": "Unresolved payment disputes across a grinding season. A half point difference in recoverable sugar across 100,000 tons is a substantial six figure amount.",
+          "rhetorical_question": "Is your payment calculated from sugar content measured by the mill?"
+        },
+        {
+          "rank": 3,
+          "headline": "Harvest requires continuous fleet dispatch and permitted field burning.",
+          "why_this_business": "Cane harvest runs a continuous loop of harvesters, wagons, and highway trucks to the mill. Pre-harvest burn permits are issued and tracked by state agencies based on weather and smoke management conditions. Dispatch and permit documentation are electronic.",
+          "loss_scenario": "Fleet idle time of $10,000 to $25,000 per day, plus regulatory exposure if burn authorization and compliance records cannot be produced.",
+          "rhetorical_question": "How do you dispatch and track your harvest fleet during grinding season?"
+        }
+      ]
+    },
+    "111940": {
+      "naics_code": "111940",
+      "naics_title": "Hay Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Hay is sold to remote buyers and is stolen through fraudulent pickup.",
+          "why_this_business": "Hay is sold through online marketplaces, broker networks, and load boards to buyers the grower has not met, often across state lines. Fictitious pickup, where a criminal uses compromised or spoofed carrier credentials to collect a load, is an established freight fraud pattern.",
+          "loss_scenario": "A stolen or unpaid load of premium alfalfa is $6,000 to $12,000 per truck. Organized operations take multiple loads before detection. Goods released to a fraudster are generally not covered as a property theft loss.",
+          "rhetorical_question": "How do you verify a buyer or carrier before releasing a load?"
+        },
+        {
+          "rank": 2,
+          "headline": "Export hay premiums depend on lab testing and certification documents.",
+          "why_this_business": "Compressed alfalfa and timothy exported to Japan, Korea, China, and the Middle East require lab analysis for relative feed value, moisture, and nitrate, plus phytosanitary certification through APHIS PCIT and container-level documentation.",
+          "loss_scenario": "Loads held at port with daily demurrage, and export hay reverting to domestic feed value. The price difference commonly exceeds $60 to $100 per ton.",
+          "rhetorical_question": "Do you sell into the export market, and where are your lab and certification records kept?"
+        },
+        {
+          "rank": 3,
+          "headline": "Baling moisture data prevents spontaneous combustion in stored hay.",
+          "why_this_business": "Hay baled above safe moisture heats through microbial activity and can combust. Baler moisture sensors, preservative applicators, and stack temperature probes are used to prevent this, and readings are increasingly logged and transmitted.",
+          "loss_scenario": "A hay fire destroys the stack, the barn, and adjacent equipment. Stored hay inventory for a commercial operation commonly represents $200,000 to $800,000.",
+          "rhetorical_question": "Do you use moisture sensing or stack temperature monitoring on stored hay?"
+        }
+      ]
+    },
+    "111991": {
+      "naics_code": "111991",
+      "naics_title": "Sugar Beet Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Growers are cooperative shareholders and the cooperative controls delivery and payment.",
+          "why_this_business": "Sugar beet production runs through grower-owned cooperatives that allocate delivery by shares, schedule piling stations, operate tare labs, and pay in installments over the following year. The FBI notice of April 2022 identified agricultural cooperatives as targets during critical seasons and documented six grain cooperatives encrypted within three weeks.",
+          "loss_scenario": "Harvest delivery blocked during the fall window, plus disruption to a payment structure spread over 12 months or more. As a shareholder, the grower absorbs the cooperative's loss as well.",
+          "rhetorical_question": "Are you a shareholder in the cooperative that receives and processes your crop?"
+        },
+        {
+          "rank": 2,
+          "headline": "Beets are stored in outdoor piles and paid on tare lab results.",
+          "why_this_business": "Harvested beets are piled at receiving stations, ventilated to control pile temperature, and paid on sugar percentage and tare determined by laboratory sampling. Piles must be processed on a managed schedule or sugar content declines and rot spreads.",
+          "loss_scenario": "Delayed processing reduces recoverable sugar across the harvest. Inability to verify or dispute tare and sugar results affects payment on the full tonnage.",
+          "rhetorical_question": "How long is your crop held in piles before processing?"
+        },
+        {
+          "rank": 3,
+          "headline": "Sugar beets carry high per-acre input costs paid by wire.",
+          "why_this_business": "Sugar beet production requires high spending per acre on seed, fungicide programs, irrigation, and specialized harvest equipment. Inputs are funded on operating credit and prepaid to suppliers by wire.",
+          "loss_scenario": "A diverted input prepay wire of $150,000 to $500,000 against an operating line sized to the crop plan.",
+          "rhetorical_question": "What is your input cost per acre, and how are supplier prepayments sent?"
+        }
+      ]
+    },
+    "111992": {
+      "naics_code": "111992",
+      "naics_title": "Peanut Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Price is set by federal grading recorded electronically at the buying point.",
+          "why_this_business": "Every load of farmer stock peanuts is officially graded by the Federal-State Inspection Service for kernel size, damage, foreign material, moisture, and segregation class. Results are entered electronically and determine contract price and CCC loan eligibility. A Segregation 2 or 3 classification substantially reduces load value.",
+          "loss_scenario": "Inability to receive, verify, or dispute grade results across a season on a crop where segregation class determines edible market price versus crush value.",
+          "rhetorical_question": "How do you receive and retain grade sheets from your buying point?"
+        },
+        {
+          "rank": 2,
+          "headline": "Aflatoxin traceback runs from the shelling plant back to the farm.",
+          "why_this_business": "Peanuts are subject to FDA aflatoxin action levels and mandatory testing at shelling. Positive results are traced back to farmer stock lots using grade sheets and buying point records, then to specific fields and farms.",
+          "loss_scenario": "Product liability exposure where irrigation, harvest, drying, and storage records cannot be produced to support the grower's position in a traceback.",
+          "rhetorical_question": "Do you maintain irrigation, drying, and storage records by field and lot?"
+        },
+        {
+          "rank": 3,
+          "headline": "Drying wagons run unattended for one to three days per load.",
+          "why_this_business": "Farmer stock peanuts are dried with forced heated air under temperature limits. Excessive temperature causes off-flavor and splits. Insufficient drying causes mold and aflatoxin. Drying runs continuously for 24 to 72 hours per load, controlled automatically and increasingly monitored remotely across a large wagon fleet.",
+          "loss_scenario": "Damaged or moldy loads across a drying yard, converting edible grade peanuts to oil stock or condemned product. The value difference exceeds $500 per ton.",
+          "rhetorical_question": "How many drying wagons do you run at once, and how are they monitored?"
+        }
+      ]
+    },
+    "111998": {
+      "naics_code": "111998",
+      "naics_title": "All Other Miscellaneous Crop Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Specialty crops are sold direct to consumers with stored card data.",
+          "why_this_business": "This category includes maple syrup, hops, culinary herbs, sod, and other specialty crops, most of which have a direct-to-consumer channel with online storefronts and subscription orders. Card data and customer records are held on the operation's systems. PCI DSS 4.0 became mandatory on March 31, 2025 and added e-commerce script controls.",
+          "loss_scenario": "Card compromise with brand assessments, forensics, and notification across all states of customer residence.",
+          "rhetorical_question": "Do you sell direct to consumers online, and do you store customer payment information?"
+        },
+        {
+          "rank": 2,
+          "headline": "Maple sap collection depends on remote vacuum monitoring during a short season.",
+          "why_this_business": "Maple production uses vacuum tubing networks across thousands of taps with electronic vacuum monitoring, leak detection, and reverse osmosis concentration. The season is four to six weeks. A vacuum leak reduces yield across a section and cannot be found by walking the lines daily.",
+          "loss_scenario": "Undetected vacuum loss across a section for a week during a short season reduces sap yield with no opportunity to recover it that year.",
+          "rhetorical_question": "How many taps do you operate, and do you use electronic vacuum monitoring?"
+        },
+        {
+          "rank": 3,
+          "headline": "Specialty premiums are conditional on contracts and certifications.",
+          "why_this_business": "Hops are sold on multi-year contracts specifying variety, alpha acid, and lot certification. Organic, kosher, and specialty certifications require continuously maintained auditable records. Premiums over commodity value depend on documentation available on request.",
+          "loss_scenario": "Loss of certification or contract standing converts premium product to commodity value across a production year, commonly a 40 to 70 percent price reduction.",
+          "rhetorical_question": "Do you hold organic or other certifications that require ongoing recordkeeping?"
+        }
+      ]
+    },
+    "112111": {
+      "naics_code": "112111",
+      "naics_title": "Beef Cattle Ranching and Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Cattle sales are settled by wire days after delivery.",
+          "why_this_business": "Calves and feeders are sold through video auctions, order buyers, and private treaty. Settlement is by wire after delivery. Delivery instructions, weights, and payment details are exchanged by email between parties who transact once or twice a year.",
+          "loss_scenario": "One load of calves is $80,000 to $150,000 and a large sale day can exceed $1M. Once the transfer is authorized, it is a deception loss rather than a covered theft, and banks rarely recover funds after 24 hours.",
+          "rhetorical_question": "How many times a year do you receive payment by wire, and what is the largest amount?"
+        },
+        {
+          "rank": 2,
+          "headline": "USDA requires electronically readable identification for interstate cattle movement.",
+          "why_this_business": "Effective November 5, 2024, APHIS requires official eartags on sexually intact cattle and bison 18 months and older, all dairy cattle, and rodeo and exhibition animals to be both visually and electronically readable for interstate movement. EID numbers are tied to premises IDs, health certificates, and movement records.",
+          "loss_scenario": "Inability to produce EID and movement records blocks interstate sale and shipment and prevents the operation from demonstrating compliance in a disease trace.",
+          "rhetorical_question": "Do you move cattle across state lines, and how do you store your EID and movement records?"
+        },
+        {
+          "rank": 3,
+          "headline": "Remote water and monitoring systems cover ground that is not checked daily.",
+          "why_this_business": "Extensive operations use remote water level and pump monitoring on tanks and wells, cellular and satellite telemetry, GPS collars, and remote gates across large acreage. In dry conditions cattle die within one to two days of losing water. Pastures may not be visited for several days.",
+          "loss_scenario": "Death loss from water failure in summer heat, discovered days late. Cattle values are commonly $2,000 or more per head. Farm policies do not cover losses caused by a control system failure.",
+          "rhetorical_question": "Do you use remote monitoring for stock water or pasture equipment?"
+        }
+      ]
+    },
+    "112112": {
+      "naics_code": "112112",
+      "naics_title": "Cattle Feedlots",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Custom yards hold cattle owned by others and maintain their records.",
+          "why_this_business": "Custom feedlots feed cattle owned by investors, ranchers, and packers. Ownership records, feed billing, health treatment records, and closeout accounting are tracked by lot. The yard is a bailee responsible for the animals and for the records that establish ownership and performance.",
+          "loss_scenario": "Third-party liability to cattle owners for lost performance data, disputed closeouts, and inability to document ownership, plus liability for exposing owners' financial information. Farm policies do not cover third-party data liability.",
+          "rhetorical_question": "What percentage of the cattle in your yard are owned by customers rather than the yard?"
+        },
+        {
+          "rank": 2,
+          "headline": "Feed is formulated and delivered by computerized batching systems.",
+          "why_this_business": "Feedlots use computerized batching and delivery systems such as Micro Technologies and Performance Beef to control ration formulation, mixing accuracy, and bunk calls twice daily. Cattle on high-concentrate finishing rations develop acidosis and bloat if feedings are missed or batches are wrong.",
+          "loss_scenario": "A batching failure across a 20,000 head yard causes death loss and performance setback. Finished cattle are worth $2,200 to $2,800 per head, so a 1 percent death loss is approximately $500,000.",
+          "rhetorical_question": "What software do you use for ration formulation and feed delivery?"
+        },
+        {
+          "rank": 3,
+          "headline": "Yards move large amounts of money weekly by wire and ACH.",
+          "why_this_business": "Feedlots purchase feeder cattle, sell finished cattle to packers, buy commodity feed, and maintain futures and options positions with brokers. Payment traffic is high in both frequency and value and is arranged by email.",
+          "loss_scenario": "Diverted purchase or settlement wires of $250,000 to $2M, or compromise of hedging account credentials resulting in unauthorized positions.",
+          "rhetorical_question": "How many wire transfers does your office send in a typical week?"
+        }
+      ]
+    },
+    "112120": {
+      "naics_code": "112120",
+      "naics_title": "Dairy Cattle and Milk Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Milking equipment is computer controlled and cows must be milked on schedule.",
+          "why_this_business": "Robotic milking systems from Lely and DeLaval and automated rotary and parallel parlors control milking, teat prep, milk metering, conductivity-based mastitis detection, and cleaning cycles. Vendor remote access is standard. Cows must be milked two to three times daily. Unmilked cows develop mastitis and lose production.",
+          "loss_scenario": "Twenty-four hours of milking failure across a 1,000 cow herd causes clinical mastitis, permanent production loss for the lactation, and culling. Culled cows represent $2,000 to $3,500 each in addition to dumped milk.",
+          "rhetorical_question": "Is your milking system computer controlled, and does your vendor have remote access?"
+        },
+        {
+          "rank": 2,
+          "headline": "Milk cooling is a regulated process and out-of-spec milk is rejected.",
+          "why_this_business": "The Grade A Pasteurized Milk Ordinance requires raw milk to be cooled to 45 degrees F or below within two hours of milking. Tank cooling, agitation, and clean-in-place cycles are automated and logged. The cooperative tests every pickup.",
+          "loss_scenario": "Rejected and dumped loads at $2,500 to $5,000 per tanker, possible loss of Grade A permit status, and antibiotic or bacteria count violations that suspend shipping.",
+          "rhetorical_question": "Are your bulk tank temperature and CIP cycles logged automatically?"
+        },
+        {
+          "rank": 3,
+          "headline": "All dairy cattle are covered by the federal electronic identification requirement.",
+          "why_this_business": "The APHIS rule effective November 5, 2024 requires all dairy cattle, regardless of age, to carry electronically readable official identification for interstate movement. DHIA herd records, individual production and health histories, breeding and genomic data, and cooperative quality records are also held electronically.",
+          "loss_scenario": "Loss of individual cow records affects breeding decisions, genomic value, and drug withdrawal tracking. A withdrawal tracking failure can result in an antibiotic residue violation.",
+          "rhetorical_question": "How do you track which cows are under a drug withdrawal period?"
+        }
+      ]
+    },
+    "112130": {
+      "naics_code": "112130",
+      "naics_title": "Dual-Purpose Cattle Ranching and Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The operation is subject to both milk regulation and cattle movement requirements.",
+          "why_this_business": "Dual-purpose operations must meet Grade A milk regulation, cooling and CIP recordkeeping, and cooperative quality testing on the dairy side. They must also meet the APHIS electronic identification requirement effective November 5, 2024 for interstate cattle movement. Both regimes run on the same office systems.",
+          "loss_scenario": "One systems failure creates simultaneous compliance failures in milk quality documentation and animal movement records, affecting both revenue streams at once.",
+          "rhetorical_question": "Do you keep milk quality records and cattle movement records in the same system?"
+        },
+        {
+          "rank": 2,
+          "headline": "Milking, cooling, and feeding equipment are automated and time-critical.",
+          "why_this_business": "Milking must occur on schedule to avoid mastitis and production loss. Milk must be cooled to 45 degrees F within two hours under the PMO. Feed mixing and delivery are computer controlled. All three run through networked systems with vendor remote access.",
+          "loss_scenario": "Simultaneous loss of milking, cooling, and feed control causes dumped milk, mastitis and culling losses, and nutritional setback across the herd.",
+          "rhetorical_question": "Which of your daily operations depend on automated control systems?"
+        },
+        {
+          "rank": 3,
+          "headline": "The operation sells into several markets with separate payment channels.",
+          "why_this_business": "Dual-purpose operations sell fluid milk to a cooperative, cull cows and bull calves to buyers, feeders to yards, and often breeding stock. Each has its own settlement process, and most are arranged by email.",
+          "loss_scenario": "Diverted payments across multiple channels. A compromised mailbox is typically used across several transactions before the pattern is detected.",
+          "rhetorical_question": "How many different buyers pay you in a typical month?"
+        }
+      ]
+    },
+    "112210": {
+      "naics_code": "112210",
+      "naics_title": "Hog and Pig Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Sealed barns depend on mechanical ventilation and animals die quickly without it.",
+          "why_this_business": "Finishing and sow barns are mechanically ventilated sealed buildings controlled by networked controllers with remote monitoring and alarms. Pigs generate substantial heat and have limited ability to regulate body temperature. A ventilation failure in warm weather causes mortality within about an hour.",
+          "loss_scenario": "A 2,400 head finishing barn represents roughly $250,000 to $400,000 in live animals. Multi-barn sites multiply the exposure. Additional costs include carcass disposal and cleanup.",
+          "rhetorical_question": "Are your barn ventilation controllers connected to a network or accessible remotely?"
+        },
+        {
+          "rank": 2,
+          "headline": "Movement permits during a disease outbreak require electronic records.",
+          "why_this_business": "Under the Secure Pork Supply framework, continuity of business during an African swine fever or foot-and-mouth outbreak requires a documented enhanced biosecurity plan, premises identification, and traceable movement records provided to animal health officials to obtain a movement permit.",
+          "loss_scenario": "Without a permit, pigs cannot be moved while farrowing continues to fill barns. Overstocking leads to welfare and performance failures and, in severe cases, euthanasia.",
+          "rhetorical_question": "Do you have a written biosecurity plan and electronic animal movement records?"
+        },
+        {
+          "rank": 3,
+          "headline": "Contract production is administered through the integrator's portal.",
+          "why_this_business": "Most hog production runs under contracts covering pig placement, feed delivery, veterinary protocols, and settlement based on feed conversion, mortality, and closeout performance. Data is collected in the barn and processed in the integrator's system.",
+          "loss_scenario": "Inability to submit daily mortality and feed data or verify settlements, plus lost income if the integrator cannot place pigs or deliver feed during their own outage.",
+          "rhetorical_question": "Do you submit daily production data through an integrator portal or app?"
+        }
+      ]
+    },
+    "112310": {
+      "naics_code": "112310",
+      "naics_title": "Chicken Egg Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Layer houses depend on ventilation and birds die within minutes when it fails.",
+          "why_this_business": "Commercial layer houses are enclosed and mechanically ventilated, controlled by networked climate controllers with remote monitoring. Extension guidance states that poultry can survive only 20 to 30 minutes above 97 degrees F in still air and that birds begin dying within minutes when ventilation fails in hot weather. One house holds 100,000 to 350,000 birds.",
+          "loss_scenario": "A ventilation failure in one house causes mortality valued at roughly $600,000 to $2M, plus 18 months to rebuild the flock and the cost of carcass disposal.",
+          "rhetorical_question": "How many birds are housed under a single controller, and is that controller networked?"
+        },
+        {
+          "rank": 2,
+          "headline": "Shell eggs are on the FDA Food Traceability List.",
+          "why_this_business": "Shell eggs are covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. The FDA Egg Safety Rule separately requires Salmonella Enteritidis testing, environmental sampling, and refrigeration records.",
+          "loss_scenario": "A traceback where records cannot be produced expands a contained investigation into a broad recall. Egg recalls have historically reached hundreds of millions of eggs.",
+          "rhetorical_question": "Can you produce SE testing and lot traceability records in electronic form on request?"
+        },
+        {
+          "rank": 3,
+          "headline": "Avian influenza indemnity requires documentation submitted after depopulation.",
+          "why_this_business": "USDA APHIS indemnity for HPAI-depopulated flocks is conditioned on documentation including biosecurity plan compliance and audit results. HPAI outbreaks from 2022 through 2025 depopulated tens of millions of layers. The indemnity payment is processed after the flock is lost.",
+          "loss_scenario": "Reduced or denied indemnity because biosecurity documentation, audit records, and flock inventories cannot be produced from encrypted systems.",
+          "rhetorical_question": "Where are your biosecurity plan and audit records stored?"
+        }
+      ]
+    },
+    "112320": {
+      "naics_code": "112320",
+      "naics_title": "Broilers and Other Meat Type Chicken Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Tunnel ventilated houses are the only source of cooling for the birds.",
+          "why_this_business": "Broiler houses hold 25,000 to 40,000 birds in sealed buildings where ventilation provides all cooling. Extension guidance states poultry survive only 20 to 30 minutes above 97 degrees F in still air and begin dying within minutes when ventilation fails in hot weather. Controllers from Chore-Time, Rotem, and AP are networked for remote monitoring and alarms.",
+          "loss_scenario": "A house lost to ventilation failure is a total flock loss plus disposal, cleanout, and lost placement cycles. Growers with four to eight houses can lose the equivalent of a year of contract income.",
+          "rhetorical_question": "How do you receive alarms from your house controllers, and are they on the same network?"
+        },
+        {
+          "rank": 2,
+          "headline": "Settlement and ranking are calculated in the integrator's system.",
+          "why_this_business": "Broiler growers are paid on a tournament settlement calculated by the integrator from feed conversion, mortality, condemnations, and livability data. Ranking determines pay per pound, future placements, and contract renewal.",
+          "loss_scenario": "Unverifiable settlements across multiple flocks. If the integrator's systems are down and placements or feed deliveries stop, houses sit empty while loan payments continue.",
+          "rhetorical_question": "What is your monthly loan payment on your poultry houses?"
+        },
+        {
+          "rank": 3,
+          "headline": "Grower contracts require documented biosecurity, welfare audits, and records.",
+          "why_this_business": "Grower contracts and integrator programs require documented biosecurity, welfare audits under NCC or GAP standards, medication and water treatment records, and mortality logs. These are increasingly submitted through the integrator's app.",
+          "loss_scenario": "Contract termination or suspension of placements for audit failure. A poultry house without a contract has no alternative use while the note remains due.",
+          "rhetorical_question": "Which records does your contract require you to maintain and submit?"
+        }
+      ]
+    },
+    "112330": {
+      "naics_code": "112330",
+      "naics_title": "Turkey Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Heavy toms have low heat tolerance and depend entirely on barn ventilation.",
+          "why_this_business": "Market weight tom turkeys generate high body heat and are raised in mechanically ventilated barns with networked controls. Extension guidance states poultry survive only 20 to 30 minutes above 97 degrees F in still air and begin dying within minutes of ventilation failure. Toms at 40 pounds or more have less thermal tolerance than broilers.",
+          "loss_scenario": "A barn of finished toms represents $250,000 to $500,000 in birds at the point of maximum invested cost.",
+          "rhetorical_question": "What is the value of the birds in a single barn at market weight?"
+        },
+        {
+          "rank": 2,
+          "headline": "Turkey flocks carried the largest share of avian influenza losses.",
+          "why_this_business": "Turkey flocks accounted for the largest share of HPAI depopulations during the 2022 to 2025 outbreaks. USDA APHIS indemnity is conditioned on documented biosecurity compliance and audit results. Movement permits during a control area quarantine require records provided to animal health officials.",
+          "loss_scenario": "Denied or reduced indemnity and inability to obtain movement permits during a control area event.",
+          "rhetorical_question": "Have you completed a biosecurity audit, and where is the documentation held?"
+        },
+        {
+          "rank": 3,
+          "headline": "Production is scheduled backward from a fixed holiday date.",
+          "why_this_business": "Whole bird turkey production is timed to Thanksgiving. Placements, processing slots, and retail commitments are set months ahead and coordinated electronically with the processor. Birds that miss their processing slot continue to consume feed and have no alternative market.",
+          "loss_scenario": "Missed processing windows in the fourth quarter leave finished birds unsold with feed costs continuing and retail commitments unfilled.",
+          "rhetorical_question": "How far in advance is your processing schedule set, and how is it communicated?"
+        }
+      ]
+    },
+    "112340": {
+      "naics_code": "112340",
+      "naics_title": "Poultry Hatcheries",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Incubators hold eggs under precise computer control for 21 days.",
+          "why_this_business": "Incubation requires temperature held near 99.5 degrees F within a fraction of a degree, controlled humidity, controlled CO2 and ventilation, and automatic turning several times daily across a 21 day cycle. Single-stage setters are computer controlled with remote monitoring and vendor connectivity. Embryos do not tolerate temperature excursions.",
+          "loss_scenario": "One setter holds 60,000 to 120,000 eggs at $0.50 to $1.50 per egg. A control failure destroys the hatch and the fertile eggs, plus the cost of a missed placement for every grower expecting those chicks.",
+          "rhetorical_question": "How many eggs are in a single setter, and is that setter monitored remotely?"
+        },
+        {
+          "rank": 2,
+          "headline": "A missed hatch leaves grower houses empty across many farms.",
+          "why_this_business": "Hatcheries supply broiler, turkey, and layer growers on placement schedules set weeks ahead. Growers clean, heat, and staff houses for a specific delivery date. A missed hatch leaves those houses empty.",
+          "loss_scenario": "Contractual damages and third-party liability to growers and integrators for missed placements, in addition to the hatchery's own lost production. This is a liability exposure that a farm policy does not cover.",
+          "rhetorical_question": "How many grower farms depend on your placement schedule?"
+        },
+        {
+          "rank": 3,
+          "headline": "NPIP status is required to ship chicks across state lines.",
+          "why_this_business": "The National Poultry Improvement Plan requires documented testing for Salmonella pullorum-typhoid, avian influenza, and Mycoplasma, with flock, hatchery, and shipment records maintained and auditable. NPIP status is a prerequisite for interstate and international shipment.",
+          "loss_scenario": "Suspension of NPIP status halts interstate and export shipment. A disease traceback that cannot be supported with records places every supplied flock under investigation.",
+          "rhetorical_question": "Where are your NPIP testing and shipment records stored?"
+        }
+      ]
+    },
+    "112390": {
+      "naics_code": "112390",
+      "naics_title": "Other Poultry Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Specialty poultry is raised in the same controlled environments as commodity poultry.",
+          "why_this_business": "Ducks, geese, game birds, and ratites are raised in mechanically ventilated houses with networked climate control, brooding heat management, and automated feed and water. Young birds in brooding have a narrow temperature tolerance and die within hours if heat or ventilation control is lost.",
+          "loss_scenario": "Total flock loss in a brooding or grow-out house. Specialty and breeding birds commonly carry values of $30 to $200 per head, well above commodity chicken.",
+          "rhetorical_question": "What is the average value per bird in your flock?"
+        },
+        {
+          "rank": 2,
+          "headline": "Sales are direct and to niche buyers with prepayment and card use.",
+          "why_this_business": "Game birds, heritage breeds, and specialty poultry are sold to restaurants, hunting preserves, breeders, and consumers, often with online ordering, deposits, and shipped live birds or eggs. This involves card acceptance and customer records.",
+          "loss_scenario": "Card compromise, deposit fraud, and loss of customers in a small market where buyers are closely connected.",
+          "rhetorical_question": "Do you take deposits or online orders from customers?"
+        },
+        {
+          "rank": 3,
+          "headline": "Avian influenza control areas apply to all poultry regardless of type.",
+          "why_this_business": "HPAI control area quarantines apply to all poultry. Movement permits require premises identification, flock inventories, and biosecurity documentation submitted to animal health officials. Specialty producers frequently hold breeding lines that cannot be replaced from a commercial hatchery.",
+          "loss_scenario": "Inability to obtain movement permits, plus permanent loss of breeding line records developed over many years if depopulation occurs.",
+          "rhetorical_question": "Do you maintain breeding or pedigree records that could not be replaced?"
+        }
+      ]
+    },
+    "112410": {
+      "naics_code": "112410",
+      "naics_title": "Sheep Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Scrapie program identification and movement records are federally required.",
+          "why_this_business": "The USDA National Scrapie Eradication Program requires official identification for sheep in interstate commerce, with flock ID, individual animal identification, and movement records maintained and available. Traceback in a scrapie investigation uses these records, which are commonly held in flock management software.",
+          "loss_scenario": "Inability to move animals interstate or to support the flock's status in a traceback, which can result in quarantine or designation as a source flock.",
+          "rhetorical_question": "How do you record individual animal identification and movement?"
+        },
+        {
+          "rank": 2,
+          "headline": "Lamb, wool, and breeding stock are sold direct to distant buyers.",
+          "why_this_business": "Sheep operations sell freezer lamb, halves and wholes, wool and fiber, and breeding stock to buyers across the country, often without the buyer seeing the animal. This requires e-commerce, deposits, and stored customer information. PCI DSS 4.0 became mandatory on March 31, 2025.",
+          "loss_scenario": "Card and customer data compromise, plus payment fraud on breeding stock sales that commonly run $500 to $5,000 per animal.",
+          "rhetorical_question": "Do you sell breeding stock or meat direct to customers online?"
+        },
+        {
+          "rank": 3,
+          "headline": "Predator and fence monitoring is the only way losses are detected in time.",
+          "why_this_business": "Extensive sheep operations use remote cameras, GPS collars, virtual fencing, and electric fence monitoring across large pastures. Predation is the largest single cause of death loss in the industry.",
+          "loss_scenario": "Undetected predation or fence failure over several days on a remote pasture. Ewes and lambs are $200 to $400 per head and losses accumulate before discovery.",
+          "rhetorical_question": "Do you use remote cameras, collars, or fence monitoring on your pastures?"
+        }
+      ]
+    },
+    "112420": {
+      "naics_code": "112420",
+      "naics_title": "Goat Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Dairy goat operations are regulated under the Pasteurized Milk Ordinance.",
+          "why_this_business": "Grade A goat milk requires cooling to 45 degrees F within two hours, automated tank monitoring, CIP cycles, and testing on every pickup. Operations that process on-farm into cheese also carry FDA facility registration, process controls, and pathogen testing records.",
+          "loss_scenario": "Dumped milk, rejected loads, and possible permit suspension. On-farm cheese operations face recall exposure if pathogen and process records cannot be produced.",
+          "rhetorical_question": "Do you ship Grade A milk or process dairy products on the farm?"
+        },
+        {
+          "rank": 2,
+          "headline": "Meat and breeding stock sales are concentrated around holiday demand.",
+          "why_this_business": "Meat goats sell into ethnic and holiday markets with demand concentrated around religious holidays, often through online auctions and long-distance buyers paid by wire or payment app. Registered breeding stock sells nationally through online sales.",
+          "loss_scenario": "Payment fraud during a small number of high-demand sale windows, and diverted proceeds on breeding stock transactions of $1,000 to $10,000 per animal.",
+          "rhetorical_question": "How much of your annual sales occurs during holiday demand periods?"
+        },
+        {
+          "rank": 3,
+          "headline": "Buyers require disease testing records before purchase.",
+          "why_this_business": "Goats are covered by the National Scrapie Eradication Program with identification and movement record requirements for interstate commerce. Buyers also require CAE, CL, and Johne's testing records before purchasing breeding stock.",
+          "loss_scenario": "Inability to produce disease testing records reduces breeding stock value to commercial meat value and blocks interstate movement.",
+          "rhetorical_question": "Where do you keep your herd disease testing results?"
+        }
+      ]
+    },
+    "112511": {
+      "naics_code": "112511",
+      "naics_title": "Finfish Farming and Fish Hatcheries",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Oxygen and circulation systems are automated and fish die within minutes without them.",
+          "why_this_business": "Recirculating aquaculture systems and intensive pond and raceway operations require continuous aeration, oxygen injection, water circulation, biofilter function, and temperature control. These are managed by automated controllers with alarm telemetry. Dissolved oxygen crashes kill a tank or pond within minutes to hours.",
+          "loss_scenario": "One RAS tank or raceway can hold $100,000 to $500,000 of fish near market size. A failure causes total mortality plus a biofilter crash that takes weeks to re-establish before restocking.",
+          "rhetorical_question": "How is your dissolved oxygen monitored, and how are alarms delivered?"
+        },
+        {
+          "rank": 2,
+          "headline": "Finfish is on the FDA Food Traceability List.",
+          "why_this_business": "Finfish is covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Aquaculture drug treatment and withdrawal records are separately subject to FDA enforcement.",
+          "loss_scenario": "Failure to produce traceability records during an investigation, plus residue violations if treatment and withdrawal records cannot be reconstructed.",
+          "rhetorical_question": "How do you record drug treatments and withdrawal periods by tank or lot?"
+        },
+        {
+          "rank": 3,
+          "headline": "Hatcheries hold broodstock records and supply scheduled deliveries to grow-out operations.",
+          "why_this_business": "Fish hatcheries maintain broodstock lines, spawning schedules, genetic and pedigree records, and health certification for shipment. Grow-out customers schedule their production year around receiving fingerlings on specific dates. Broodstock lines represent years of selection.",
+          "loss_scenario": "Third-party liability to grow-out customers for missed deliveries, plus permanent loss of pedigree and selection data that cannot be recovered from the fish themselves.",
+          "rhetorical_question": "Do you maintain pedigree or genetic records for your broodstock?"
+        }
+      ]
+    },
+    "112512": {
+      "naics_code": "112512",
+      "naics_title": "Shellfish Farming",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Shellfish tags and harvest records must be retained for 90 days for traceback.",
+          "why_this_business": "Under the National Shellfish Sanitation Program Model Ordinance, every container of shellstock must carry a tag showing harvester, harvest area, and date. Tags and records must be retained 90 days to support traceback. Vibrio and norovirus investigations rely on this chain. Harvest area classifications and closure notices are issued electronically by the state shellfish authority.",
+          "loss_scenario": "Inability to produce harvest records in a traceback triggers harvest area closures affecting every grower in the area, plus product recall and third-party illness claims.",
+          "rhetorical_question": "How do you record and retain harvest tag data, and for how long?"
+        },
+        {
+          "rank": 2,
+          "headline": "Molluscan shellfish is on the FDA Food Traceability List.",
+          "why_this_business": "Molluscan shellfish is covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. This requirement is in addition to NSSP obligations.",
+          "loss_scenario": "A regulatory records failure during an investigation expands a single-farm inquiry into a regional closure.",
+          "rhetorical_question": "Can you produce harvest and shipment records in an electronic spreadsheet format?"
+        },
+        {
+          "rank": 3,
+          "headline": "Harvest area closures are issued electronically with little notice.",
+          "why_this_business": "Shellfish growing areas open and close based on rainfall, biotoxin monitoring, and water quality sampling. Notices are issued electronically by state authorities, sometimes with only hours of warning. Harvesting from a closed area is a regulatory violation regardless of whether the notice was received.",
+          "loss_scenario": "Product recall, license suspension, and potential criminal exposure from harvesting a closed area.",
+          "rhetorical_question": "How do you receive harvest area closure notices from the state?"
+        }
+      ]
+    },
+    "112519": {
+      "naics_code": "112519",
+      "naics_title": "Other Aquaculture",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Water quality in recirculating systems is maintained entirely by machine.",
+          "why_this_business": "Shrimp, crawfish, alligator, and algae operations depend on aeration, water exchange, temperature control, and pH and ammonia management run by automated controllers with remote alarms. Indoor shrimp RAS operates at high stocking density where water chemistry is fully artificial.",
+          "loss_scenario": "Complete stock mortality in a raceway or tank system, plus loss of the biological filter, which takes weeks to re-establish before restocking.",
+          "rhetorical_question": "Which water quality parameters are automatically controlled in your system?"
+        },
+        {
+          "rank": 2,
+          "headline": "Crustaceans are on the FDA Food Traceability List.",
+          "why_this_business": "Crustaceans are covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Drug use and withdrawal records are separately subject to FDA enforcement.",
+          "loss_scenario": "Traceback failure during an illness investigation and residue enforcement if treatment records are unavailable.",
+          "rhetorical_question": "Can you produce lot-level harvest and treatment records electronically?"
+        },
+        {
+          "rank": 3,
+          "headline": "Niche products have few buyers and depend on export permits.",
+          "why_this_business": "Alligator hides, specialty shrimp, ornamental fish, and algae products are sold into narrow markets, often internationally, requiring CITES permits, export documentation, and quality certification. There is limited domestic alternative demand.",
+          "loss_scenario": "Loss of export documentation or permit standing on products with no alternative market, converting inventory into a disposal cost.",
+          "rhetorical_question": "How many buyers purchase your product, and do you export?"
+        }
+      ]
+    },
+    "112910": {
+      "naics_code": "112910",
+      "naics_title": "Apiculture",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Pollination contracts are negotiated remotely and paid in large single payments.",
+          "why_this_business": "Commercial beekeepers move colonies to California for almond pollination under contracts negotiated by email. Placement, frame count inspection, and payment are coordinated remotely with growers and brokers, often on an annual basis. Pollination fees run $180 to $250 per hive.",
+          "loss_scenario": "A diverted pollination settlement of $200,000 to $800,000 for a mid-size operation, received in the payment window that funds the year.",
+          "rhetorical_question": "How many payments per year make up the majority of your revenue?"
+        },
+        {
+          "rank": 2,
+          "headline": "Hive location data is stored in monitoring apps and hive theft is common.",
+          "why_this_business": "Hive theft during almond bloom is an established problem in California, with thousands of colonies stolen annually. Beekeepers use GPS trackers and hive monitoring platforms, which store yard coordinates, placement locations, and hive counts.",
+          "loss_scenario": "Theft of hundreds of colonies at $200 to $400 each in bees and equipment, plus the unfilled pollination contract and lost honey production.",
+          "rhetorical_question": "Do you use GPS tracking or a hive monitoring app that stores yard locations?"
+        },
+        {
+          "rank": 3,
+          "headline": "Treatment and origin records support honey sales and certification.",
+          "why_this_business": "Varroa treatment records, antibiotic use, and residue documentation are required because honey is subject to adulteration testing and import fraud enforcement. Buyers require traceability and country of origin documentation. Organic and specialty certification requires auditable records.",
+          "loss_scenario": "Loss of certification or inability to substantiate origin claims, plus residue exposure if treatment records cannot be produced.",
+          "rhetorical_question": "How do you document hive treatments and honey lot origin?"
+        }
+      ]
+    },
+    "112920": {
+      "naics_code": "112920",
+      "naics_title": "Horses and Other Equine Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Horse sales are negotiated by email and paid by wire at high values.",
+          "why_this_business": "Equine transactions commonly run from $10,000 to seven figures and are negotiated by email between buyers, sellers, agents, and bloodstock advisors who often do not meet in person. Sale terms, vetting results, bills of sale, and wiring instructions are all exchanged by email.",
+          "loss_scenario": "A diverted purchase wire of $50,000 to $500,000 on a single horse, with the buyer, seller, and agent disputing responsibility.",
+          "rhetorical_question": "Do you send or receive wire transfers based on instructions provided by email?"
+        },
+        {
+          "rank": 2,
+          "headline": "Boarding and training operations store client cards for monthly billing.",
+          "why_this_business": "Boarding, training, and lesson operations store client payment cards for recurring monthly billing along with names, addresses, emergency contacts, information on minor participants, and signed liability releases. Many use cloud barn management platforms.",
+          "loss_scenario": "Card and personal information compromise across the client base, including information on minors, with notification obligations and card brand assessments.",
+          "rhetorical_question": "Do you store client credit cards for recurring monthly billing?"
+        },
+        {
+          "rank": 3,
+          "headline": "Registration and health documentation determine what an animal can be sold for.",
+          "why_this_business": "A registered horse's value depends on breed registry papers, pedigree, performance records, a current negative Coggins test, and health certificates for interstate travel. These are increasingly issued and verified electronically through registries and eCVI systems.",
+          "loss_scenario": "Inability to produce registration, breeding, or health documentation blocks transport and reduces the value of animals whose worth is largely based on documentation.",
+          "rhetorical_question": "How do you store registration papers, Coggins tests, and health certificates?"
+        }
+      ]
+    },
+    "112930": {
+      "naics_code": "112930",
+      "naics_title": "Fur-Bearing Animal and Rabbit Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The industry is targeted by activists who publish operator and employee information.",
+          "why_this_business": "Fur and rabbit production has been targeted by animal rights activism including publication of farm addresses, owner and employee names, website defacement, and release of internal records. The objective is publication rather than payment, so paying an extortion demand does not resolve the incident.",
+          "loss_scenario": "Publication of employee names and home addresses and farm locations, leading to harassment, security incidents, and employee resignations. Media liability, crisis management, and extortion response are cyber policy coverages.",
+          "rhetorical_question": "Has your operation ever been the subject of activist attention or public targeting?"
+        },
+        {
+          "rank": 2,
+          "headline": "Enclosed housing depends on ventilation, cooling, and automated watering.",
+          "why_this_business": "Rabbits and fur-bearing animals are housed in enclosed or semi-enclosed buildings with ventilation, cooling, and automated watering. Rabbits suffer mortality above roughly 85 degrees F. Mink are similarly heat sensitive. Loss of automated watering causes death loss within a day.",
+          "loss_scenario": "Mass mortality across a barn from a ventilation, cooling, or watering failure, including breeding stock representing multiple generations of selection.",
+          "rhetorical_question": "Are your ventilation and watering systems automated and remotely monitored?"
+        },
+        {
+          "rank": 3,
+          "headline": "Pelts are sold through international auction with electronic settlement.",
+          "why_this_business": "Pelts are marketed through international auction houses with consignment, grading, and settlement handled electronically, often months after delivery. Export requires CITES and customs documentation. Buyer confidentiality is a business requirement in this industry.",
+          "loss_scenario": "Diverted auction settlements, exposure of buyer and consignment records, and inability to produce export documentation for shipments in transit.",
+          "rhetorical_question": "How long after delivery are you paid, and how is payment transmitted?"
+        }
+      ]
+    },
+    "112990": {
+      "naics_code": "112990",
+      "naics_title": "All Other Animal Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Live animals are sold to distant buyers who pay electronically.",
+          "why_this_business": "This category includes bison, elk, deer, camelids, laboratory animals, and companion animal breeding. Breeding stock and live animals are sold nationally, often without the buyer seeing the animal, with deposits and balances paid by wire or payment app against emailed instructions. Individual animals commonly carry four and five figure values.",
+          "loss_scenario": "Diverted deposits and sale proceeds, and disputes where the buyer states payment was sent and the seller states it was not received.",
+          "rhetorical_question": "Do you take deposits or final payment by wire or payment app?"
+        },
+        {
+          "rank": 2,
+          "headline": "Automated feed, water, and environmental systems cover facilities not checked continuously.",
+          "why_this_business": "Cervid, camelid, and specialty animal operations use automated watering, feeding, environmental control, and remote monitoring across facilities and pastures that are not physically checked around the clock. Water system failure in heat causes same-day mortality in most species.",
+          "loss_scenario": "Death loss on animals worth $1,500 to $25,000 each, discovered late because the monitoring system itself failed.",
+          "rhetorical_question": "How would you be notified if an automatic waterer stopped working?"
+        },
+        {
+          "rank": 3,
+          "headline": "Cervid herd certification depends on unbroken inventory and movement records.",
+          "why_this_business": "Deer and elk farms participate in state and federal chronic wasting disease herd certification programs requiring individual animal identification, inventory reconciliation, mortality testing, and movement records maintained over years. Certification status determines whether animals can move interstate.",
+          "loss_scenario": "Loss of herd certification status resets program enrollment by years and blocks interstate movement during that period.",
+          "rhetorical_question": "How many years of herd inventory and testing records are you required to maintain?"
+        }
+      ]
+    },
+    "113110": {
+      "naics_code": "113110",
+      "naics_title": "Timber Tract Operations",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Standing timber inventory exists only as cruise data and GIS files.",
+          "why_this_business": "Timber tract operations manage inventory through cruise data, GIS stand maps, growth and yield models, LiDAR, and harvest scheduling software. The inventory cannot be observed directly. This data is the basis for valuation, lending, and sale.",
+          "loss_scenario": "Loss of cruise and stand data requires re-cruising at $3 to $8 per acre plus several months of delay. During that period value cannot be substantiated to a lender, buyer, or appraiser.",
+          "rhetorical_question": "How many acres of inventory data do you maintain, and where is it stored?"
+        },
+        {
+          "rank": 2,
+          "headline": "Timber sales use confidential electronic bids.",
+          "why_this_business": "Timber sales are conducted through sealed bids submitted and evaluated electronically. Sale boundaries, volume estimates, and reserve prices are confidential. Disclosure removes the competitive pricing effect. Timber theft and boundary encroachment cases are decided on ownership records, boundary surveys, and harvest authorizations.",
+          "loss_scenario": "Disclosure of bid information reduces sale value by the premium competition would have produced, commonly 10 to 25 percent. A theft or trespass case cannot be supported without records.",
+          "rhetorical_question": "Do you conduct timber sales by sealed bid, and how are bids received and stored?"
+        },
+        {
+          "rank": 3,
+          "headline": "Carbon and easement programs require registry reporting over decades.",
+          "why_this_business": "Forest carbon projects registered with ACR, Verra, or Climate Action Reserve require baseline inventory, ongoing monitoring, verification reports, and reversal risk documentation submitted through registry platforms over commitment periods of 40 to 100 years. Conservation easements carry similar monitoring duties.",
+          "loss_scenario": "Failed verification or inability to substantiate inventory results in credit invalidation, with a contractual obligation to replace credits already sold.",
+          "rhetorical_question": "Are any of your acres enrolled in a carbon or conservation easement program?"
+        }
+      ]
+    },
+    "113210": {
+      "naics_code": "113210",
+      "naics_title": "Forest Nurseries and Gathering of Forest Products",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Seedlings are ordered a year ahead and shipped in a short window.",
+          "why_this_business": "Forest nurseries take orders in summer for delivery the following late winter, lift bareroot seedlings during a narrow dormancy window, and ship refrigerated to contractors and landowners on specific dates. The order book, lift schedule, and shipping logistics are electronic.",
+          "loss_scenario": "Missing the lift and ship window destroys a crop grown for one to three years and prevents reforestation clients from meeting their own replanting deadlines, which creates claims against the nursery.",
+          "rhetorical_question": "How long is your annual shipping window, and how are customer orders tracked?"
+        },
+        {
+          "rank": 2,
+          "headline": "Seed orchard and genetic records represent decades of tree improvement work.",
+          "why_this_business": "Improved seed programs track parent tree selections, progeny test results, family identities, seed lot origins, and genetic gain estimates accumulated over 30 to 50 years. Seed zone and provenance records are required for many federal and state reforestation contracts.",
+          "loss_scenario": "Loss of genetic and provenance records reduces improved seed to unimproved value and disqualifies lots from contracts requiring documented seed source.",
+          "rhetorical_question": "Do you sell improved seed or seedlings that require documented genetic origin?"
+        },
+        {
+          "rank": 3,
+          "headline": "Seedlings and seed are held in monitored cold storage for months.",
+          "why_this_business": "Lifted seedlings and stored seed are held in refrigerated storage under controlled temperature and humidity, monitored electronically. Temperature excursions cause mold, root deterioration, and loss of viability.",
+          "loss_scenario": "A cooler control or monitoring failure damages inventory representing multiple growing seasons. The damage is often not identified until the trees fail after planting.",
+          "rhetorical_question": "Is your cold storage temperature monitored and alarmed?"
+        }
+      ]
+    },
+    "113310": {
+      "naics_code": "113310",
+      "naics_title": "Logging",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Delivery depends on one or two mills and their receiving systems.",
+          "why_this_business": "Logging contractors deliver to a small number of mills operating on quota systems. Delivery allocations, scale tickets, and settlement are handled in the mill's software. When a mill cannot receive or scale, the contractor cannot deliver.",
+          "loss_scenario": "A logging crew with a feller-buncher, skidder, loader, and trucks costs $8,000 to $20,000 per day whether or not it operates. Equipment payments, wages, and insurance continue during a mill outage, and property policies do not respond because nothing owned was damaged.",
+          "rhetorical_question": "How many mills will accept your wood, and what are your daily fixed costs?"
+        },
+        {
+          "rank": 2,
+          "headline": "Payment is calculated from scale tickets generated by the mill.",
+          "why_this_business": "Logging revenue is calculated from weight or scale tickets produced at the mill, applied against species, grade, and quota, then settled electronically weeks later. The contractor has no independent measurement of what was delivered.",
+          "loss_scenario": "Unrecoverable receivables across several weeks of production. For a mid-size crew this is $150,000 to $400,000 of delivered wood with no documentation to support a claim.",
+          "rhetorical_question": "Do you keep your own record of loads delivered, separate from the mill's tickets?"
+        },
+        {
+          "rank": 3,
+          "headline": "Harvesters run onboard computers and the office holds crew and driver files.",
+          "why_this_business": "Cut-to-length harvesters use TimberMatic, Ponsse Opti, or Log Max control systems that measure, buck, and optimize each stem, with production data uploaded for payment. The office holds payroll, workers compensation, and 1099 records, plus DOT driver qualification files for log trucks.",
+          "loss_scenario": "Loss of harvester production data and payroll records, plus breach notification for employee and contractor Social Security numbers and driver files.",
+          "rhetorical_question": "How many drivers and contractors do you hold qualification and payroll files for?"
+        }
+      ]
+    },
+    "114111": {
+      "naics_code": "114111",
+      "naics_title": "Finfish Fishing",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Quota is held in electronic accounts and is required to land fish legally.",
+          "why_this_business": "Federal catch share and IFQ programs hold quota balances in NOAA electronic accounts that are debited at landing. Transfers and leases are conducted online. Landing without sufficient quota in the account is a federal violation. Vessel Monitoring Systems and electronic trip reports are also required within set timeframes.",
+          "loss_scenario": "Loss of account access or inability to file required reports stops legal landings. Quota holdings themselves commonly represent several hundred thousand to several million dollars in transferable value.",
+          "rhetorical_question": "What is the current market value of the quota you hold?"
+        },
+        {
+          "rank": 2,
+          "headline": "Finfish is on the FDA Food Traceability List.",
+          "why_this_business": "Finfish is covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Species substitution and histamine investigations also use landing and handling records.",
+          "loss_scenario": "Regulatory failure during a traceback or seafood fraud investigation, and loss of buyers who require documented chain of custody.",
+          "rhetorical_question": "Can you document chain of custody from landing to buyer for a given trip?"
+        },
+        {
+          "rank": 3,
+          "headline": "Vessel electronics and shoreside settlement are both networked.",
+          "why_this_business": "Commercial vessels run integrated GPS, AIS, ECDIS, autopilot, radar, and satellite communications. The IMO has required cyber risk management in vessel safety management systems since 2021. Settlement with the dock or processor is handled electronically after each trip.",
+          "loss_scenario": "Navigation or communications compromise at sea creates crew safety and hull exposure. Settlement disruption results in unpaid trips with no independent record of the landing.",
+          "rhetorical_question": "Does your vessel safety management system address cyber risk to navigation equipment?"
+        }
+      ]
+    },
+    "114112": {
+      "naics_code": "114112",
+      "naics_title": "Shellfish Fishing",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Crustaceans and molluscan shellfish are both on the FDA Food Traceability List.",
+          "why_this_business": "Both are covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours. Molluscan harvest is additionally governed by NSSP tagging with 90 day record retention for Vibrio and norovirus traceback.",
+          "loss_scenario": "A traceback failure results in closure of a harvest area, which applies to every harvester working that ground until it is resolved.",
+          "rhetorical_question": "How do you record harvest area and date for each container landed?"
+        },
+        {
+          "rank": 2,
+          "headline": "Quota in rationalized fisheries is a digital asset worth more than the vessel.",
+          "why_this_business": "Crab rationalization, scallop and clam ITQ programs, and similar catch share systems hold quota as electronic entries in federal accounts, transferred and leased online. In many of these fisheries the quota is worth more than the vessel.",
+          "loss_scenario": "Account compromise, fraudulent transfer, or loss of access during a short opening. Quota holdings commonly range from several hundred thousand to several million dollars.",
+          "rhetorical_question": "What is the value of your quota compared to the value of your vessel?"
+        },
+        {
+          "rank": 3,
+          "headline": "Openings and closures are issued electronically with little notice.",
+          "why_this_business": "Shellfish areas open and close based on biotoxin monitoring, rainfall, and management decisions communicated by state and federal authorities through electronic notice, sometimes with only hours of warning. Fishing a closed area or period is a violation regardless of whether the notice was received.",
+          "loss_scenario": "Citations, product seizure, license suspension, and recall of product already sold.",
+          "rhetorical_question": "How do you receive notice of openings and closures?"
+        }
+      ]
+    },
+    "114119": {
+      "naics_code": "114119",
+      "naics_title": "Other Marine Fishing",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Federal permits require electronic monitoring and reporting on deadlines.",
+          "why_this_business": "Federally permitted vessels are subject to Vessel Monitoring System requirements, electronic logbook and trip reporting deadlines, observer program coordination, and online permit renewals. Failure to transmit or report is itself a violation.",
+          "loss_scenario": "Permit sanctions, fines, and inability to fish legally while reporting obligations are unmet.",
+          "rhetorical_question": "Which electronic reports are you required to file after each trip, and on what deadline?"
+        },
+        {
+          "rank": 2,
+          "headline": "Vessel systems are networked computers operating offshore.",
+          "why_this_business": "Fishing vessels integrate GPS, AIS, ECDIS, autopilot, sonar, radar, engine monitoring, and satellite communications, increasingly with remote diagnostics and shoreside connectivity. The IMO has required cyber risk management in safety management systems since 2021.",
+          "loss_scenario": "Navigation, propulsion monitoring, or communications compromise offshore creates crew safety and total loss exposure.",
+          "rhetorical_question": "Does your vessel have remote diagnostic or shoreside data connections?"
+        },
+        {
+          "rank": 3,
+          "headline": "Trip settlement and crew shares are calculated from the buyer's records.",
+          "why_this_business": "Fish tickets, prices, deductions, and crew share calculations are generated by the buyer and settled electronically after each trip. Crew are paid on shares of the trip.",
+          "loss_scenario": "Unresolved settlements across multiple trips and unpaid crew, which affects the ability to staff the vessel for subsequent trips.",
+          "rhetorical_question": "How are crew shares calculated and documented after each trip?"
+        }
+      ]
+    },
+    "114210": {
+      "naics_code": "114210",
+      "naics_title": "Hunting and Trapping",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Outfitters collect large deposits a year or more in advance.",
+          "why_this_business": "Guided hunts are booked 12 to 24 months ahead with deposits of $2,000 to $25,000 per hunter, paid by card or wire against emailed invoices, often through booking agents. The parties typically have not met.",
+          "loss_scenario": "Diverted deposits across a booking season. Full season deposits commonly total $150,000 to $500,000. Clients who paid a fraudster generally hold the outfitter responsible for the compromised account.",
+          "rhetorical_question": "How far in advance do you collect deposits, and how are they paid?"
+        },
+        {
+          "rank": 2,
+          "headline": "Client files include passports, firearm details, and personal information.",
+          "why_this_business": "International and domestic hunting clients provide passport copies, visa documentation, firearm serial numbers and import permits, medical information, and emergency contacts. Client lists in this business often include high-net-worth individuals.",
+          "loss_scenario": "Breach of a client file containing passports and firearms documentation, with notification obligations and loss of clients who expect confidentiality.",
+          "rhetorical_question": "Do you retain copies of client passports or firearm documentation?"
+        },
+        {
+          "rank": 3,
+          "headline": "Trophy export and fur sales require federal permits and electronic declarations.",
+          "why_this_business": "Trophy import and export requires USFWS eDecs electronic declarations, CITES permits for listed species, and coordination with customs brokers. Fur trapping requires state tagging, sealing, and pelt records. Wildlife trade enforcement is documentation based.",
+          "loss_scenario": "Trophies and pelts seized or refused entry, permit violations, and enforcement action based on missing documentation.",
+          "rhetorical_question": "Do you handle trophy exports or CITES-listed species?"
+        }
+      ]
+    },
+    "115111": {
+      "naics_code": "115111",
+      "naics_title": "Cotton Ginning",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The gin issues electronic warehouse receipts that establish title to growers' cotton.",
+          "why_this_business": "Gins and associated warehouses operate under the US Warehouse Act using USDA-authorized electronic warehouse receipt systems tied to Permanent Bale Identification numbers. The electronic receipt is the title document. The gin holds cotton belonging to growers and merchants, and ownership is recorded only in these electronic records.",
+          "loss_scenario": "Fraudulent receipt transfers or loss of receipt records creates direct liability to growers, merchants, and lenders holding receipts as collateral. A season's ginned cotton at a mid-size gin is $20M to $60M in value.",
+          "rhetorical_question": "What is the total value of customer cotton held under receipts you issue?"
+        },
+        {
+          "rank": 2,
+          "headline": "The gin season is 60 to 100 days and cannot be extended.",
+          "why_this_business": "Modules arrive continuously from harvest and must be processed before quality degrades. Module tracking, gin scheduling, bale identification, classing data transmission, and grower accounting run on integrated software. Downtime during the season cannot be recovered.",
+          "loss_scenario": "Modules degrading on the yard while scheduling and tracking are unavailable, plus grower claims for quality loss on cotton already accepted. Two weeks of a 100 day season is 20 percent of annual revenue.",
+          "rhetorical_question": "How many days is your ginning season, and what software schedules it?"
+        },
+        {
+          "rank": 3,
+          "headline": "The gin holds production and financial records for every grower it serves.",
+          "why_this_business": "The gin holds module data, bale IDs, USDA classing results, moisture, turnout, seed and lint accounting, and settlement information for each grower, along with bank details used for payment.",
+          "loss_scenario": "Liability to growers whose production and financial data was exposed, plus funds transfer exposure if settlements are paid to altered account details.",
+          "rhetorical_question": "How many growers' financial and production records do you hold?"
+        }
+      ]
+    },
+    "115112": {
+      "naics_code": "115112",
+      "naics_title": "Soil Preparation, Planting, and Cultivating",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The business holds field data belonging to many grower clients.",
+          "why_this_business": "Custom applicators and planting contractors receive clients' field boundaries, soil test results, variable-rate prescriptions, yield history, and application records. This data is held for many growers at once on the contractor's systems.",
+          "loss_scenario": "Third-party liability to grower clients whose agronomic and financial data was exposed. A property policy does not respond because the loss is another party's information.",
+          "rhetorical_question": "How many grower clients' field data do you store on your systems?"
+        },
+        {
+          "rank": 2,
+          "headline": "Prescription files are executed automatically across large acreages.",
+          "why_this_business": "Variable-rate application runs from prescription files loaded into rate controllers and section control systems. A wrong or corrupted file applies the wrong product or rate across the field. The result is not visible for days or weeks.",
+          "loss_scenario": "Crop damage claims from misapplication, plus off-target drift claims from neighboring property. Herbicide injury claims on row crops commonly run $200 to $800 per acre.",
+          "rhetorical_question": "How are prescription files transferred to your equipment, and who verifies them?"
+        },
+        {
+          "rank": 3,
+          "headline": "Pesticide application records are legally required and are the primary defense in a claim.",
+          "why_this_business": "Federal law requires restricted use pesticide application records to be kept for two years. State requirements are often stricter with shorter reporting deadlines. These records are the primary evidence in a drift complaint, worker exposure claim, or residue investigation, and are usually electronic.",
+          "loss_scenario": "Regulatory penalties for missing records, and inability to defend a drift or exposure claim without documentation of what was applied, when, and at what rate.",
+          "rhetorical_question": "How and where do you store your restricted use pesticide application records?"
+        }
+      ]
+    },
+    "115113": {
+      "naics_code": "115113",
+      "naics_title": "Crop Harvesting, Primarily by Machine",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Fleet operations are coordinated by cloud software across multiple states.",
+          "why_this_business": "Custom harvesters operate combines, headers, grain carts, and semis across several states on a schedule set by crop maturity. Routing, acreage tracking, machine telematics, moisture data, and per-acre billing are coordinated through cloud platforms.",
+          "loss_scenario": "Idle crew and fleet costs $10,000 to $25,000 per day. Clients' crops degrade in the field during the delay and may move to another harvester in following seasons.",
+          "rhetorical_question": "What is your daily cost when the fleet is not running?"
+        },
+        {
+          "rank": 2,
+          "headline": "Harvest equipment captures clients' yield data.",
+          "why_this_business": "Harvest equipment records yield, moisture, and field-level production data for every client. That data supports the client's crop insurance APH, cash rent negotiations, landlord reporting, and marketing decisions. It is held on the contractor's machines and accounts.",
+          "loss_scenario": "Third-party liability for exposing or losing client yield data, including consequential damages if a client cannot support a crop insurance claim.",
+          "rhetorical_question": "Do you provide yield data to your clients, and how is it stored and transferred?"
+        },
+        {
+          "rank": 3,
+          "headline": "Interstate operations require DOT, driver, and payroll records.",
+          "why_this_business": "Custom harvesting requires CDL drivers, driver qualification files, hours of service records, medical certificates, DOT registration, and payroll for a seasonal crew that frequently includes H-2A workers from other countries.",
+          "loss_scenario": "Breach notification across a multi-state crew including foreign nationals, plus inability to produce DOT records in an audit or after an accident.",
+          "rhetorical_question": "How many CDL drivers do you maintain qualification files for?"
+        }
+      ]
+    },
+    "115114": {
+      "naics_code": "115114",
+      "naics_title": "Postharvest Crop Activities (except Cotton Ginning)",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The FBI identified grain handlers as a specific ransomware target.",
+          "why_this_business": "The FBI Private Industry Notification of April 2022 documented six grain cooperatives encrypted between September 15 and October 6, 2021 using Conti, BlackMatter, Suncrypt, Sodinokibi, and BlackByte, plus a multi-state grain company hit with Lockbit 2.0 in March 2022. The notice stated that attackers view grain handlers as likely to pay because of their time-sensitive role.",
+          "loss_scenario": "Scale, probe, grading, and settlement systems encrypted during harvest with no ability to receive, grade, or account for grain. Extortion demands against agricultural cooperatives have reached several million dollars.",
+          "rhetorical_question": "What is your daily receiving volume during harvest, and what software runs your scale and grading?"
+        },
+        {
+          "rank": 2,
+          "headline": "Licensed warehouses hold customers' commodity and must reconcile positions.",
+          "why_this_business": "Grain elevators, warehouses, and packing operations hold customers' commodity under federal or state warehouse licensing, issue warehouse receipts, and maintain storage obligation records establishing ownership. Regulators audit position reports and require reconciliation.",
+          "loss_scenario": "Inability to reconcile storage obligations results in regulatory examination, bond claims, direct liability to depositors, and risk to the warehouse license.",
+          "rhetorical_question": "How many bushels of customer-owned grain are on your books?"
+        },
+        {
+          "rank": 3,
+          "headline": "Stored grain condition is managed by automated monitoring and aeration.",
+          "why_this_business": "Stored grain requires temperature cable monitoring, aeration control, moisture management, and fumigation scheduling to prevent insect infestation, mold, and spoilage. These systems are increasingly automated and remotely monitored. Grain going out of condition is identified through monitoring.",
+          "loss_scenario": "Spoilage, insect infestation, or a drying or dust fire across stored inventory that belongs to customers, creating both a property loss and a bailee liability claim.",
+          "rhetorical_question": "Is your bin temperature and aeration monitoring automated?"
+        }
+      ]
+    },
+    "115115": {
+      "naics_code": "115115",
+      "naics_title": "Farm Labor Contractors and Crew Leaders",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The business holds identity documents and payroll data for large numbers of workers.",
+          "why_this_business": "Farm labor contractors maintain I-9 forms, passport and visa copies, consular documentation, Social Security numbers, US and foreign addresses, direct deposit details, and weekly payroll for hundreds or thousands of workers, many of whom are H-2A foreign nationals. The workforce turns over multiple times per year.",
+          "loss_scenario": "A breach requires notification in every state of residence, credit monitoring, and response to the Department of Labor and state agencies. For a workforce of 1,000 or more, costs commonly reach six or seven figures before litigation.",
+          "rhetorical_question": "How many workers do you hold identity documents and Social Security numbers for?"
+        },
+        {
+          "rank": 2,
+          "headline": "Growers contract with the FLC to carry labor compliance responsibility.",
+          "why_this_business": "MSPA registration, joint employer doctrine, and grower contracts place responsibility for wage and hour compliance, worker verification, transportation, and housing documentation on the contractor. Hours, piece rates, transportation logs, and housing inspection records are the evidence in any claim and are held electronically.",
+          "loss_scenario": "In a wage and hour claim, an employer who cannot produce time and pay records faces a legal presumption in favor of the employee's estimate, applied across the workforce.",
+          "rhetorical_question": "How do you record and store hours worked and piece rates for each worker?"
+        },
+        {
+          "rank": 3,
+          "headline": "Weekly payroll for a large workforce is processed on a fixed deadline.",
+          "why_this_business": "Farm labor contractors process large weekly payrolls with direct deposit files, tax deposits, and grower invoicing. This is high-volume, deadline-driven payment activity arranged by email with clients and banks. Payroll diversion, where direct deposit details are altered, is a common attack.",
+          "loss_scenario": "Diverted payroll funds or altered deposit files, plus crews that do not return to work when payment is missed while the grower's crop is in the field.",
+          "rhetorical_question": "What is your weekly payroll amount, and how is your direct deposit file transmitted?"
+        }
+      ]
+    },
+    "115116": {
+      "naics_code": "115116",
+      "naics_title": "Farm Management Services",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The business holds landowner financial records and bank details.",
+          "why_this_business": "Farm managers hold landowner financial records, lease agreements, tax documents, bank account and ACH details for rent distributions, and estate and trust documentation. Many clients are absentee owners, trusts, or estates.",
+          "loss_scenario": "Third-party liability and breach of fiduciary duty claims from landowner clients, plus notification obligations for financial account information. Trust and estate clients typically have legal representation already engaged.",
+          "rhetorical_question": "How many landowner clients' bank account and tax records do you hold?"
+        },
+        {
+          "rank": 2,
+          "headline": "The business disburses other parties' funds on a regular schedule.",
+          "why_this_business": "Farm managers collect cash rent, crop share proceeds, and government payments, then distribute to landowners by ACH or check. They also pay input suppliers and contractors on behalf of clients. Payment instructions are received and sent by email.",
+          "loss_scenario": "Fraudulent instruction losses where a landowner distribution is redirected or a fake vendor invoice is paid from a client account. The manager is generally expected to make the client whole.",
+          "rhetorical_question": "How much money do you disburse on behalf of clients in a typical year?"
+        },
+        {
+          "rank": 3,
+          "headline": "Client recommendations must be supported by records years afterward.",
+          "why_this_business": "Farm managers produce yield analysis, lease structuring, input decisions, marketing recommendations, and farmland valuations that clients act on. If records are lost or altered, the basis for those recommendations cannot be documented in a later dispute.",
+          "loss_scenario": "Professional liability claims that cannot be defended without documentation of the basis for the recommendation, plus loss of multi-year field and financial history clients cannot recreate.",
+          "rhetorical_question": "How many years of client records are you expected to retain?"
+        }
+      ]
+    },
+    "115210": {
+      "naics_code": "115210",
+      "naics_title": "Support Activities for Animal Production",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "The business connects to many client farms' systems.",
+          "why_this_business": "Veterinary services, hoof trimmers, AI technicians, shearers, breeders, and boarding operations connect to client herd management systems, exchange data files, and are often granted portal access. A compromise originating with the service provider can reach multiple client operations.",
+          "loss_scenario": "Contractual and third-party liability when a compromise propagates to client systems, plus loss of the client relationships the business depends on.",
+          "rhetorical_question": "How many client farm systems or portals do you have access to?"
+        },
+        {
+          "rank": 2,
+          "headline": "The business maintains client treatment and withdrawal records.",
+          "why_this_business": "Service providers maintain individual animal treatment records, drug administration and withdrawal times, breeding and genetic data, and client billing information including stored cards. Withdrawal records carry direct FDA and FSIS residue enforcement consequences for the client.",
+          "loss_scenario": "A client ships an animal under withdrawal because treatment records were unavailable, resulting in a residue violation and a claim against the service provider.",
+          "rhetorical_question": "Do you maintain drug treatment and withdrawal records on behalf of your clients?"
+        },
+        {
+          "rank": 3,
+          "headline": "Boarding and training operations hold client payment and personal information.",
+          "why_this_business": "Operations providing boarding, training, and animal services maintain client contact information, emergency contacts, stored payment cards for recurring billing, signed waivers, and information on minor participants in youth programs.",
+          "loss_scenario": "Card and personal information breach with notification obligations and card brand assessments. This liability is excluded or sublimited on a standard package policy.",
+          "rhetorical_question": "Do you store client payment cards or records for minor participants?"
+        }
+      ]
+    },
+    "115310": {
+      "naics_code": "115310",
+      "naics_title": "Support Activities for Forestry",
+      "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+      "policy": {
+        "code": "CYB",
+        "name": "Cyber Liability"
+      },
+      "reasons_ranked_by_importance": [
+        {
+          "rank": 1,
+          "headline": "Consulting foresters hold clients' inventory, boundary, and sale data.",
+          "why_this_business": "Forestry consultants maintain clients' cruise data, GIS stand maps, management plans, boundary surveys, timber sale bid information, and financial terms for many landowner clients at once. Bid confidentiality is what produces competitive pricing for the client.",
+          "loss_scenario": "Third-party liability to landowner clients for exposed inventory and bid information, with damages measured by the price premium competition would have produced.",
+          "rhetorical_question": "How many landowner clients' inventory and sale records do you hold?"
+        },
+        {
+          "rank": 2,
+          "headline": "Fire and emergency contracting requires federal systems and personnel records.",
+          "why_this_business": "Fire suppression, fuels reduction, and emergency response contractors operate under federal contracts requiring SAM.gov registration, incident qualification records, resource ordering through dispatch systems, and personnel qualification and medical documentation for each crew member. Crews mobilize on short notice and invoice against electronically submitted time records.",
+          "loss_scenario": "Inability to mobilize, dispatch, or invoice during fire season, plus breach exposure for crew files containing medical and identification data.",
+          "rhetorical_question": "How quickly are you required to mobilize a crew, and where are qualification records stored?"
+        },
+        {
+          "rank": 3,
+          "headline": "Certification and carbon verification services exist only as documentation.",
+          "why_this_business": "Forestry service providers manage FSC and SFI certification, chain of custody documentation, carbon project inventory and verification, and regulatory filings for clients. These programs consist entirely of records and audit trails.",
+          "loss_scenario": "Client certification suspension or carbon credit invalidation caused by a records failure at the service provider, with contractual liability for the value of the credits or the certification premium.",
+          "rhetorical_question": "Do you manage certification or carbon verification records on behalf of clients?"
+        }
+      ]
+    }
+  }
+}

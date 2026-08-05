@@ -1,0 +1,32 @@
+{
+  "naics_code": "112920",
+  "naics_title": "Horses and Other Equine Production",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Horse sales are negotiated by email and paid by wire at high values.",
+      "why_this_business": "Equine transactions commonly run from $10,000 to seven figures and are negotiated by email between buyers, sellers, agents, and bloodstock advisors who often do not meet in person. Sale terms, vetting results, bills of sale, and wiring instructions are all exchanged by email.",
+      "loss_scenario": "A diverted purchase wire of $50,000 to $500,000 on a single horse, with the buyer, seller, and agent disputing responsibility.",
+      "rhetorical_question": "Do you send or receive wire transfers based on instructions provided by email?"
+    },
+    {
+      "rank": 2,
+      "headline": "Boarding and training operations store client cards for monthly billing.",
+      "why_this_business": "Boarding, training, and lesson operations store client payment cards for recurring monthly billing along with names, addresses, emergency contacts, information on minor participants, and signed liability releases. Many use cloud barn management platforms.",
+      "loss_scenario": "Card and personal information compromise across the client base, including information on minors, with notification obligations and card brand assessments.",
+      "rhetorical_question": "Do you store client credit cards for recurring monthly billing?"
+    },
+    {
+      "rank": 3,
+      "headline": "Registration and health documentation determine what an animal can be sold for.",
+      "why_this_business": "A registered horse's value depends on breed registry papers, pedigree, performance records, a current negative Coggins test, and health certificates for interstate travel. These are increasingly issued and verified electronically through registries and eCVI systems.",
+      "loss_scenario": "Inability to produce registration, breeding, or health documentation blocks transport and reduces the value of animals whose worth is largely based on documentation.",
+      "rhetorical_question": "How do you store registration papers, Coggins tests, and health certificates?"
+    }
+  ]
+}

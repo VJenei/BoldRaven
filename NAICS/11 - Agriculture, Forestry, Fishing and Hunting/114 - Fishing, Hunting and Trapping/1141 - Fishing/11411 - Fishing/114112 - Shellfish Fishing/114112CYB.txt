@@ -1,0 +1,32 @@
+{
+  "naics_code": "114112",
+  "naics_title": "Shellfish Fishing",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Crustaceans and molluscan shellfish are both on the FDA Food Traceability List.",
+      "why_this_business": "Both are covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours. Molluscan harvest is additionally governed by NSSP tagging with 90 day record retention for Vibrio and norovirus traceback.",
+      "loss_scenario": "A traceback failure results in closure of a harvest area, which applies to every harvester working that ground until it is resolved.",
+      "rhetorical_question": "How do you record harvest area and date for each container landed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Quota in rationalized fisheries is a digital asset worth more than the vessel.",
+      "why_this_business": "Crab rationalization, scallop and clam ITQ programs, and similar catch share systems hold quota as electronic entries in federal accounts, transferred and leased online. In many of these fisheries the quota is worth more than the vessel.",
+      "loss_scenario": "Account compromise, fraudulent transfer, or loss of access during a short opening. Quota holdings commonly range from several hundred thousand to several million dollars.",
+      "rhetorical_question": "What is the value of your quota compared to the value of your vessel?"
+    },
+    {
+      "rank": 3,
+      "headline": "Openings and closures are issued electronically with little notice.",
+      "why_this_business": "Shellfish areas open and close based on biotoxin monitoring, rainfall, and management decisions communicated by state and federal authorities through electronic notice, sometimes with only hours of warning. Fishing a closed area or period is a violation regardless of whether the notice was received.",
+      "loss_scenario": "Citations, product seizure, license suspension, and recall of product already sold.",
+      "rhetorical_question": "How do you receive notice of openings and closures?"
+    }
+  ]
+}

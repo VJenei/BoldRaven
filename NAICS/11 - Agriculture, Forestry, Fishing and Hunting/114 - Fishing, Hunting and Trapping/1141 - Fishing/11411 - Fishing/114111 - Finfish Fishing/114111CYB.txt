@@ -1,0 +1,32 @@
+{
+  "naics_code": "114111",
+  "naics_title": "Finfish Fishing",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Quota is held in electronic accounts and is required to land fish legally.",
+      "why_this_business": "Federal catch share and IFQ programs hold quota balances in NOAA electronic accounts that are debited at landing. Transfers and leases are conducted online. Landing without sufficient quota in the account is a federal violation. Vessel Monitoring Systems and electronic trip reports are also required within set timeframes.",
+      "loss_scenario": "Loss of account access or inability to file required reports stops legal landings. Quota holdings themselves commonly represent several hundred thousand to several million dollars in transferable value.",
+      "rhetorical_question": "What is the current market value of the quota you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Finfish is on the FDA Food Traceability List.",
+      "why_this_business": "Finfish is covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Species substitution and histamine investigations also use landing and handling records.",
+      "loss_scenario": "Regulatory failure during a traceback or seafood fraud investigation, and loss of buyers who require documented chain of custody.",
+      "rhetorical_question": "Can you document chain of custody from landing to buyer for a given trip?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vessel electronics and shoreside settlement are both networked.",
+      "why_this_business": "Commercial vessels run integrated GPS, AIS, ECDIS, autopilot, radar, and satellite communications. The IMO has required cyber risk management in vessel safety management systems since 2021. Settlement with the dock or processor is handled electronically after each trip.",
+      "loss_scenario": "Navigation or communications compromise at sea creates crew safety and hull exposure. Settlement disruption results in unpaid trips with no independent record of the landing.",
+      "rhetorical_question": "Does your vessel safety management system address cyber risk to navigation equipment?"
+    }
+  ]
+}

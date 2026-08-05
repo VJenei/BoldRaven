@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Bold Raven</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main id="root-view" class="view">
+  <h1 class="wordmark">BOLD RAVEN</h1>
+  <div class="field-wrap">
+    <input id="code-input"
+           type="text"
+           inputmode="numeric"
+           maxlength="6"
+           autocomplete="off"
+           autocorrect="off"
+           autocapitalize="off"
+           spellcheck="false"
+           aria-label="NAICS code"
+           autofocus>
+    <span id="enter-hint" aria-hidden="true">&#8629;</span>
+  </div>
+</main>
+
+<main id="code-view" class="view" hidden>
+  <header class="code-head">
+    <span id="code-number"></span>
+    <h1 id="code-title"></h1>
+  </header>
+
+  <div class="code-body">
+    <nav id="rail" aria-label="Policies"></nav>
+    <section id="panel" tabindex="-1"></section>
+  </div>
+
+  <footer class="keys">
+    <span><b>TAB</b> / <b>&#8592; &#8594;</b> POLICY</span>
+    <span><b>1&#8211;8</b> JUMP</span>
+    <span><b>ESC</b> RESET</span>
+  </footer>
+</main>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

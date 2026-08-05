@@ -1,0 +1,32 @@
+{
+  "naics_code": "112340",
+  "naics_title": "Poultry Hatcheries",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Incubators hold eggs under precise computer control for 21 days.",
+      "why_this_business": "Incubation requires temperature held near 99.5 degrees F within a fraction of a degree, controlled humidity, controlled CO2 and ventilation, and automatic turning several times daily across a 21 day cycle. Single-stage setters are computer controlled with remote monitoring and vendor connectivity. Embryos do not tolerate temperature excursions.",
+      "loss_scenario": "One setter holds 60,000 to 120,000 eggs at $0.50 to $1.50 per egg. A control failure destroys the hatch and the fertile eggs, plus the cost of a missed placement for every grower expecting those chicks.",
+      "rhetorical_question": "How many eggs are in a single setter, and is that setter monitored remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "A missed hatch leaves grower houses empty across many farms.",
+      "why_this_business": "Hatcheries supply broiler, turkey, and layer growers on placement schedules set weeks ahead. Growers clean, heat, and staff houses for a specific delivery date. A missed hatch leaves those houses empty.",
+      "loss_scenario": "Contractual damages and third-party liability to growers and integrators for missed placements, in addition to the hatchery's own lost production. This is a liability exposure that a farm policy does not cover.",
+      "rhetorical_question": "How many grower farms depend on your placement schedule?"
+    },
+    {
+      "rank": 3,
+      "headline": "NPIP status is required to ship chicks across state lines.",
+      "why_this_business": "The National Poultry Improvement Plan requires documented testing for Salmonella pullorum-typhoid, avian influenza, and Mycoplasma, with flock, hatchery, and shipment records maintained and auditable. NPIP status is a prerequisite for interstate and international shipment.",
+      "loss_scenario": "Suspension of NPIP status halts interstate and export shipment. A disease traceback that cannot be supported with records places every supplied flock under investigation.",
+      "rhetorical_question": "Where are your NPIP testing and shipment records stored?"
+    }
+  ]
+}

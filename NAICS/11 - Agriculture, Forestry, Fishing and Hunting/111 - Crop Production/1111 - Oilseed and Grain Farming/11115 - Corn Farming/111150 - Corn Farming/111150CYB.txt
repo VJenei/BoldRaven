@@ -1,0 +1,32 @@
+{
+  "naics_code": "111150",
+  "naics_title": "Corn Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Grain dryers are network connected and run unattended at high temperature.",
+      "why_this_business": "GSI, Sukup, and Mathews continuous-flow dryers ship with remote monitoring and control of plenum temperature, moisture setpoint, and discharge rate. Corn enters at 22 to 25 percent moisture and is dried at 180 to 220 degrees F. The dryer runs around the clock during harvest and is frequently monitored by phone.",
+      "loss_scenario": "A dryer fire destroys the dryer and adjacent bins. Replacement cost is $150,000 to $500,000 before the value of the grain. Incorrect drying causes stress cracks and damage discounts across all grain that passed through.",
+      "rhetorical_question": "Is your grain dryer or bin monitoring system accessible remotely from a phone or computer?"
+    },
+    {
+      "rank": 2,
+      "headline": "Corn carries the largest input prepay of any row crop.",
+      "why_this_business": "Nitrogen, seed, and chemical prepay is concentrated into a few large payments to cooperatives and retailers, arranged by email. The FBI notice of April 2022 specifically identified attacks on cooperatives that supply seed and fertilizer ahead of planting.",
+      "loss_scenario": "A diverted prepay wire of $200,000 to $800,000. The fertilizer was never booked, so the operation buys nitrogen again at spring spot price on top of the stolen funds.",
+      "rhetorical_question": "What is the dollar amount of your largest input prepayment, and how is it sent?"
+    },
+    {
+      "rank": 3,
+      "headline": "Corn production depends on hybrid-specific data stored in cloud accounts.",
+      "why_this_business": "Variable-rate population, multi-hybrid planting, downforce maps, RTK guidance, and as-applied records are stored in Operations Center or FieldView. Researchers demonstrated in 2021 that Deere's platform allowed owner enumeration and administrative access.",
+      "loss_scenario": "A season planted at flat rate, plus permanent loss of multi-year yield history used for seed selection, cash rent negotiation, and crop insurance APH.",
+      "rhetorical_question": "How many years of yield data do you have stored, and is there a copy outside the cloud account?"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "naics_code": "111910",
+  "naics_title": "Tobacco Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Selling leaf requires current certification held in a third-party database.",
+      "why_this_business": "Major manufacturers and leaf merchants require participation in grower certification programs such as GAP Connections. These programs document labor practices, worker housing, training, and farm compliance. Certification status is verified before purchase.",
+      "loss_scenario": "Loss of certification standing or exposure of labor and housing data threatens the contract relationship, which is the only outlet for the crop.",
+      "rhetorical_question": "Which grower certification programs are you enrolled in?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tobacco uses H-2A labor and holds foreign worker identity documents.",
+      "why_this_business": "Tobacco requires hand labor for transplanting, topping, priming, and housing, supplied largely through H-2A. Files include passports, visas, consular documentation, Social Security numbers, housing assignments, and weekly payroll records.",
+      "loss_scenario": "A breach of an H-2A file triggers notification obligations and attention from the Department of Labor and plaintiff attorneys. Exposure of immigration documents creates direct harm to workers, which increases litigation exposure.",
+      "rhetorical_question": "Do you employ H-2A workers, and do you retain copies of their passports or visas?"
+    },
+    {
+      "rank": 3,
+      "headline": "Curing barns run unattended on programmed temperature and humidity schedules.",
+      "why_this_business": "Flue-cured tobacco is cured in bulk barns over roughly one week on programmed temperature and humidity schedules through yellowing, leaf drying, and stem drying. Barns are monitored by remote alarm and control systems. A barn that runs off schedule ruins the leaf inside it.",
+      "loss_scenario": "A curing failure destroys the leaf in that barn with no recovery. Cured leaf value is roughly $2 to $3 per pound on a crop that is already fully invested.",
+      "rhetorical_question": "Are your curing barns monitored by a remote alarm or control system?"
+    }
+  ]
+}

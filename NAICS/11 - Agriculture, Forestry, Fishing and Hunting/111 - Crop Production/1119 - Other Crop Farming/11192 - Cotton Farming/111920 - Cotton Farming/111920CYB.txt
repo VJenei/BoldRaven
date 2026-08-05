@@ -1,0 +1,32 @@
+{
+  "naics_code": "111920",
+  "naics_title": "Cotton Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Bale ownership is recorded in an electronic warehouse receipt system.",
+      "why_this_business": "US cotton is warehoused and traded using electronic warehouse receipts under the US Warehouse Act, administered through USDA-authorized providers and tied to Permanent Bale Identification numbers. The electronic receipt is the title document for the bale. The bales are stored off-site and the record of ownership is the account entry.",
+      "loss_scenario": "Fraudulent transfer of receipts or loss of account access during a price window. One module is roughly $30,000 to $45,000 and a full crop is commonly seven figures held in electronic title.",
+      "rhetorical_question": "Do you hold electronic warehouse receipts, and who has access to that account?"
+    },
+    {
+      "rank": 2,
+      "headline": "Price is set bale by bale from USDA classing data delivered electronically.",
+      "why_this_business": "Every US bale is classed by USDA AMS for micronaire, staple, strength, color grade, and leaf. Results are delivered electronically to the grower, the gin, and the merchant. Premiums and discounts against base price are applied from that data.",
+      "loss_scenario": "Inability to receive, verify, or dispute classing data across a crop. Premium and discount differences of several cents per pound total $50,000 to $150,000 on a mid-size operation.",
+      "rhetorical_question": "How do you receive and store your USDA classing results?"
+    },
+    {
+      "rank": 3,
+      "headline": "Module tracking, gin scheduling, and CCC loans all run on third-party systems.",
+      "why_this_business": "Round modules are RFID tagged and tracked from field to gin. Gin scheduling determines when cotton is processed. CCC marketing assistance loans are entered and redeemed electronically against warehouse receipts through FSA.",
+      "loss_scenario": "Modules degrading in the field while the gin cannot schedule, plus loan and redemption timing problems that affect the price received.",
+      "rhetorical_question": "Do you use CCC marketing assistance loans against your warehouse receipts?"
+    }
+  ]
+}

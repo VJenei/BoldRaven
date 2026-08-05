@@ -1,0 +1,32 @@
+{
+  "naics_code": "111332",
+  "naics_title": "Grape Vineyards",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Wine club billing stores customer card data for recurring charges.",
+      "why_this_business": "Vineyards with winery operations run wine clubs that store customer cards for quarterly billing. Tasting room POS, e-commerce, and shipping compliance records add names, addresses, and dates of birth for age verification. This is stored payment data combined with personal information for thousands of customers.",
+      "loss_scenario": "A club database breach exposes stored cards for 3,000 to 15,000 members. Costs include notification, card brand assessments, forensics, and loss of the customer list.",
+      "rhetorical_question": "Do you store customer credit card information for recurring or club billing?"
+    },
+    {
+      "rank": 2,
+      "headline": "Frost protection, irrigation, and pick timing are driven by remote sensor data.",
+      "why_this_business": "Vineyards use remotely monitored frost alarms, wind machines, overhead sprinklers, and soil moisture probes. Brix sampling determines pick date within roughly a 48 hour window. Frost alarms are acted on overnight.",
+      "loss_scenario": "A missed frost event at bud break destroys the primary crop for the season. A mistimed pick moves fruit outside the target Brix and pH range and moves the lot from reserve tier to bulk.",
+      "rhetorical_question": "Do you rely on remote frost alarms or sensor data to make overnight decisions?"
+    },
+    {
+      "rank": 3,
+      "headline": "Label claims must be substantiated with records that TTB can audit.",
+      "why_this_business": "Vintage, varietal, appellation, and vineyard designate claims must be supported by records available for TTB audit. Vineyards supplying wineries must document block, tonnage, and delivery to support those claims. Weight tags and lot records are the supporting evidence.",
+      "loss_scenario": "Inability to substantiate label claims in an audit requires relabeling or destruction of bottled inventory, plus contractual liability to wineries relying on your records.",
+      "rhetorical_question": "Do you supply fruit for vineyard-designate or appellation labeling?"
+    }
+  ]
+}

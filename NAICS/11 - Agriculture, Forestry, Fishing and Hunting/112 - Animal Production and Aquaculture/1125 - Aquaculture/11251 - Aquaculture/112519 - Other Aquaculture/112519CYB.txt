@@ -1,0 +1,32 @@
+{
+  "naics_code": "112519",
+  "naics_title": "Other Aquaculture",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Water quality in recirculating systems is maintained entirely by machine.",
+      "why_this_business": "Shrimp, crawfish, alligator, and algae operations depend on aeration, water exchange, temperature control, and pH and ammonia management run by automated controllers with remote alarms. Indoor shrimp RAS operates at high stocking density where water chemistry is fully artificial.",
+      "loss_scenario": "Complete stock mortality in a raceway or tank system, plus loss of the biological filter, which takes weeks to re-establish before restocking.",
+      "rhetorical_question": "Which water quality parameters are automatically controlled in your system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Crustaceans are on the FDA Food Traceability List.",
+      "why_this_business": "Crustaceans are covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Drug use and withdrawal records are separately subject to FDA enforcement.",
+      "loss_scenario": "Traceback failure during an illness investigation and residue enforcement if treatment records are unavailable.",
+      "rhetorical_question": "Can you produce lot-level harvest and treatment records electronically?"
+    },
+    {
+      "rank": 3,
+      "headline": "Niche products have few buyers and depend on export permits.",
+      "why_this_business": "Alligator hides, specialty shrimp, ornamental fish, and algae products are sold into narrow markets, often internationally, requiring CITES permits, export documentation, and quality certification. There is limited domestic alternative demand.",
+      "loss_scenario": "Loss of export documentation or permit standing on products with no alternative market, converting inventory into a disposal cost.",
+      "rhetorical_question": "How many buyers purchase your product, and do you export?"
+    }
+  ]
+}

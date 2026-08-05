@@ -1,0 +1,32 @@
+{
+  "naics_code": "111334",
+  "naics_title": "Berry (except Strawberry) Farming",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Optical sorting determines whether fruit is sold fresh or for processing.",
+      "why_this_business": "Fresh blueberries are graded by optical and near-infrared sorters that log packout by lot. Fresh pack value is commonly two to three times processing value. The sorter determines which market the fruit enters. Cold chain is monitored continuously after packing.",
+      "loss_scenario": "A sorting or cold chain outage during a two week peak diverts fresh market fruit to processing at a much lower price, or writes off cane berries that will not hold.",
+      "rhetorical_question": "Do you operate optical sorting or automated packing equipment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Direct sales channels make the operation a card-accepting merchant.",
+      "why_this_business": "Berry growers sell through u-pick, farmers markets, roadside stands, CSA subscriptions, and online ordering using mobile POS and e-commerce platforms. PCI DSS 4.0 became fully mandatory on March 31, 2025 and includes e-commerce script controls.",
+      "loss_scenario": "Card brand fines and forensic costs after a POS compromise, plus contractual liability to the acquiring bank. This liability is excluded under a BOP or farmowners policy.",
+      "rhetorical_question": "Do you accept credit cards in person, online, or both?"
+    },
+    {
+      "rank": 3,
+      "headline": "Buyer programs require a current certification verified through a portal.",
+      "why_this_business": "Berries sold to national retailers and export markets require GlobalG.A.P., PrimusGFS, or SQF certification, harvest and spray records, and residue documentation. Certification status is verified through cloud portals before orders are placed.",
+      "loss_scenario": "Loss of approved supplier status during harvest, with perishable product and no time to re-qualify.",
+      "rhetorical_question": "Which third-party food safety certifications do you hold, and where are the records kept?"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "naics_code": "111419",
+  "naics_title": "Other Food Crops Grown Under Cover",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The greenhouse climate computer controls all growing conditions and allows remote access.",
+      "why_this_business": "Greenhouse tomatoes, cucumbers, lettuce, and herbs are grown under Priva, Argus, Hoogendoorn, or Ridder climate computers. These control vents, screens, heating, CO2 dosing, supplemental lighting, and fertigation EC and pH. The systems are designed for remote monitoring and control by the grower and the vendor.",
+      "loss_scenario": "A greenhouse without vent and screen control overheats within hours in summer or freezes in winter. Controlled environment sites commonly hold $2M to $20M in crop and infrastructure.",
+      "rhetorical_question": "Does your climate control system allow remote access by you or your vendor?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tomatoes, cucumbers, leafy greens, and herbs are on the FDA Food Traceability List.",
+      "why_this_business": "FSMA Section 204 covers the crops most commonly grown under cover. The compliance date is July 20, 2028. The rule requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request.",
+      "loss_scenario": "Records that cannot be produced within 24 hours widen the scope of an outbreak investigation and result in product being pulled across the distribution chain.",
+      "rhetorical_question": "Can you produce lot-level traceability records in an electronic spreadsheet format?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retail supply agreements require year-round weekly volume.",
+      "why_this_business": "Controlled environment operations sign year-round supply agreements with retailers specifying weekly volume, often backed by lender or investor covenants. The commitment is to a production schedule rather than a harvest. Downtime is a supply failure.",
+      "loss_scenario": "Breach of a year-round supply agreement, chargebacks or removal from a retail program, and lender covenant issues.",
+      "rhetorical_question": "Do you have supply agreements that commit you to weekly delivery volumes?"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "naics_code": "115114",
+  "naics_title": "Postharvest Crop Activities (except Cotton Ginning)",
+  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The FBI identified grain handlers as a specific ransomware target.",
+      "why_this_business": "The FBI Private Industry Notification of April 2022 documented six grain cooperatives encrypted between September 15 and October 6, 2021 using Conti, BlackMatter, Suncrypt, Sodinokibi, and BlackByte, plus a multi-state grain company hit with Lockbit 2.0 in March 2022. The notice stated that attackers view grain handlers as likely to pay because of their time-sensitive role.",
+      "loss_scenario": "Scale, probe, grading, and settlement systems encrypted during harvest with no ability to receive, grade, or account for grain. Extortion demands against agricultural cooperatives have reached several million dollars.",
+      "rhetorical_question": "What is your daily receiving volume during harvest, and what software runs your scale and grading?"
+    },
+    {
+      "rank": 2,
+      "headline": "Licensed warehouses hold customers' commodity and must reconcile positions.",
+      "why_this_business": "Grain elevators, warehouses, and packing operations hold customers' commodity under federal or state warehouse licensing, issue warehouse receipts, and maintain storage obligation records establishing ownership. Regulators audit position reports and require reconciliation.",
+      "loss_scenario": "Inability to reconcile storage obligations results in regulatory examination, bond claims, direct liability to depositors, and risk to the warehouse license.",
+      "rhetorical_question": "How many bushels of customer-owned grain are on your books?"
+    },
+    {
+      "rank": 3,
+      "headline": "Stored grain condition is managed by automated monitoring and aeration.",
+      "why_this_business": "Stored grain requires temperature cable monitoring, aeration control, moisture management, and fumigation scheduling to prevent insect infestation, mold, and spoilage. These systems are increasingly automated and remotely monitored. Grain going out of condition is identified through monitoring.",
+      "loss_scenario": "Spoilage, insect infestation, or a drying or dust fire across stored inventory that belongs to customers, creating both a property loss and a bailee liability claim.",
+      "rhetorical_question": "Is your bin temperature and aeration monitoring automated?"
+    }
+  ]
+}
