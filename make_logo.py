@@ -22,7 +22,7 @@ import os
 import sys
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageDraw
 except ImportError:
     sys.exit("Pillow is required: pip install pillow")
 
@@ -45,14 +45,34 @@ FILL_FAVICON = 0.90
 FILL_TOUCH = 0.78
 FILL_MASKABLE = 0.66
 
+# Corner radius as a fraction of the icon width, matching the usual rounded
+# square convention. Applied ONLY to the favicons, which browsers draw exactly
+# as supplied. The touch icon and the manifest icons are left square on purpose:
+# iOS and Android apply their own mask, and a pre-rounded icon shows a second
+# rounded edge inside theirs.
+RADIUS = 0.22
 
-def render(master, size, fill):
+# The mask is drawn large and scaled down so the curve is smooth at 16px.
+SUPERSAMPLE = 8
+
+
+def rounded_mask(size):
+    big = size * SUPERSAMPLE
+    mask = Image.new("L", (big, big), 0)
+    ImageDraw.Draw(mask).rounded_rectangle(
+        (0, 0, big - 1, big - 1), radius=round(big * RADIUS), fill=255)
+    return mask.resize((size, size), Image.LANCZOS)
+
+
+def render(master, size, fill, rounded=False):
     """Centre the mark on a solid square of the given size."""
     canvas = Image.new("RGBA", (size, size), BG + (255,))
     width = max(1, round(size * fill))
     height = max(1, round(master.height * width / master.width))
     art = master.resize((width, height), Image.LANCZOS)
     canvas.paste(art, ((size - width) // 2, (size - height) // 2), art)
+    if rounded:
+        canvas.putalpha(rounded_mask(size))
     return canvas
 
 
@@ -78,18 +98,18 @@ def main():
     report(mark_path)
 
     targets = [
-        ("favicon-96x96.png", 96, FILL_FAVICON),
-        ("apple-touch-icon.png", 180, FILL_TOUCH),
-        ("web-app-manifest-192x192.png", 192, FILL_MASKABLE),
-        ("web-app-manifest-512x512.png", 512, FILL_MASKABLE),
+        ("favicon-96x96.png", 96, FILL_FAVICON, True),
+        ("apple-touch-icon.png", 180, FILL_TOUCH, False),
+        ("web-app-manifest-192x192.png", 192, FILL_MASKABLE, False),
+        ("web-app-manifest-512x512.png", 512, FILL_MASKABLE, False),
     ]
-    for name, size, fill in targets:
+    for name, size, fill, rounded in targets:
         path = os.path.join(ICON_DIR, name)
-        render(master, size, fill).save(path, "PNG", optimize=True)
+        render(master, size, fill, rounded).save(path, "PNG", optimize=True)
         report(path)
 
     ico_path = os.path.join(ICON_DIR, "favicon.ico")
-    render(master, 256, FILL_FAVICON).save(
+    render(master, 256, FILL_FAVICON, True).save(
         ico_path, "ICO", sizes=[(16, 16), (32, 32), (48, 48)])
     report(ico_path)
 

@@ -47,6 +47,11 @@ because a `#fbbbad` mark on transparency disappears against a light browser tab
 bar. The manifest icons are inset to 66% width so Android's maskable safe zone
 cannot clip the wingtips.
 
+Only the favicons get rounded corners, because browsers draw them exactly as
+supplied. `apple-touch-icon.png` and the manifest icons stay square: iOS and
+Android apply their own mask, and a pre-rounded icon shows a second rounded edge
+inside theirs.
+
 Edit `icon/logo.png` and rerun the script to change the branding everywhere.
 
 ## Running locally
