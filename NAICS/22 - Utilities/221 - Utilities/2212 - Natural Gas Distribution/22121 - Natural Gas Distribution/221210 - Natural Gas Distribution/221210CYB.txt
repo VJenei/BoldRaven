@@ -1,0 +1,31 @@
+{
+  "naics_code": "221210",
+  "naics_title": "Natural Gas Distribution",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pressure control on a distribution system is a life safety function.",
+      "why_this_business": "Gas distribution regulates pressure through district regulator stations monitored and in many cases controlled by SCADA. Over-pressurisation of a low pressure system feeds appliances beyond their design and causes fires and explosions, as the Merrimack Valley incident in 2018 demonstrated with fatal results from a pressure control failure.",
+      "loss_scenario": "An over-pressurisation event causes multiple structure fires, fatalities, and evacuation of a community. Liability, regulatory penalty, and criminal exposure follow, and the loss is measured in hundreds of millions.",
+      "rhetorical_question": "How are your regulator stations monitored, and can pressure setpoints be changed remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "Federal pipeline safety rules require documented integrity management.",
+      "why_this_business": "PHMSA requires distribution integrity management programmes, leak surveys, cathodic protection records, damage prevention, and reporting of incidents. Records demonstrate that the system is being monitored and maintained. States enforce these rules with their own inspectors.",
+      "loss_scenario": "Enforcement for records that cannot be produced, and after any incident the absence of integrity records is treated as evidence of an inadequate programme rather than an IT problem.",
+      "rhetorical_question": "How do you store leak survey, cathodic protection, and integrity management records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Odorisation, gas control, and emergency response all depend on the same systems.",
+      "why_this_business": "Gas control monitors system pressure and flow, dispatches emergency response to odour calls, and coordinates with the transmission supplier on nominations. The call handling and dispatch system is what turns a customer smelling gas into a crew on site.",
+      "loss_scenario": "Delayed emergency response to a gas odour call, which is the specific failure mode that turns a leak into a fatality and an enforcement action.",
+      "rhetorical_question": "What system dispatches your emergency response crews to odour calls?"
+    }
+  ]
+}

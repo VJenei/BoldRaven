@@ -1,0 +1,31 @@
+{
+  "naics_code": "212230",
+  "naics_title": "Copper, Nickel, Lead, and Zinc Mining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Autonomous haulage and mill control run the operation with very few people.",
+      "why_this_business": "Base metal mines increasingly run autonomous haul trucks, remote-operated loaders, and centralised control rooms alongside a distributed control system for crushing, grinding, and flotation. The control layer is the operation. Manual fallback exists for a shift, not for a week.",
+      "loss_scenario": "A week of lost mill throughput at a large copper operation is tens of millions of dollars in deferred revenue, with concentrate delivery commitments unmet.",
+      "rhetorical_question": "Do you operate autonomous or remotely controlled mining equipment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Concentrate sales settle on assay exchange and a quotational pricing period.",
+      "why_this_business": "Concentrate is sold on payable metal determined by assay exchange with the smelter, with treatment and refining charges deducted and final pricing set during an agreed quotational period. Provisional payments are made against shipping documents. Every step is document and data driven.",
+      "loss_scenario": "Lost assay and shipping records leave provisional invoices that cannot be trued up. A single concentrate parcel commonly carries $2M to $10M of payable metal.",
+      "rhetorical_question": "How are your assay exchange and shipping documents stored and transmitted?"
+    },
+    {
+      "rank": 3,
+      "headline": "Tailings and water management are monitored continuously and scrutinised heavily.",
+      "why_this_business": "Base metal operations manage large tailings facilities and acid rock drainage, monitored with piezometers, seepage collection, and water quality sampling. Discharge is permitted under NPDES with reported limits. Monitoring records are the compliance evidence.",
+      "loss_scenario": "A permit exceedance that cannot be explained with monitoring data, or a tailings instrumentation gap, results in enforcement, and in the worst case a dam failure with unlimited consequence.",
+      "rhetorical_question": "Is your environmental monitoring data automatically collected, and where does it reside?"
+    }
+  ]
+}

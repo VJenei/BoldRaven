@@ -1,0 +1,31 @@
+{
+  "naics_code": "221122",
+  "naics_title": "Electric Power Distribution",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Smart meters and the distribution control system reach every customer premises.",
+      "why_this_business": "Advanced metering infrastructure connects hundreds of thousands of endpoints back to the head end system, with remote disconnect capability at many of them. Distribution management, outage management, and volt/VAR control operate field devices remotely across the service territory.",
+      "loss_scenario": "Mass remote disconnect or loss of outage management during a storm restoration is both a service failure and a public safety event, with regulatory investigation by the state commission following automatically.",
+      "rhetorical_question": "Do your meters support remote disconnect, and how is the head end system secured?"
+    },
+    {
+      "rank": 2,
+      "headline": "You hold payment and personal data for every customer in the territory.",
+      "why_this_business": "Utilities hold names, addresses, Social Security numbers collected for credit checks, bank details for automatic payment, and payment card data, plus usage data that reveals occupancy patterns. Medical necessity registries identify customers dependent on powered equipment.",
+      "loss_scenario": "A breach across a customer base of hundreds of thousands triggers notification in every affected state, card brand liability, and commission scrutiny. Medical necessity data adds a health information dimension.",
+      "rhetorical_question": "How many customer records containing payment or Social Security data do you hold?"
+    },
+    {
+      "rank": 3,
+      "headline": "Regulated utilities answer to a commission for every service failure.",
+      "why_this_business": "Distribution utilities operate under state commission oversight with reliability metrics, reporting obligations, and prudency review of costs. An extended outage caused by a cyber incident is examined publicly, and the recoverability of response costs in rates is not guaranteed.",
+      "loss_scenario": "Response and restoration costs disallowed in rate recovery, meaning shareholders rather than ratepayers absorb them, on top of penalties tied to reliability performance.",
+      "rhetorical_question": "Would your incident response costs be recoverable in rates, or absorbed by the company?"
+    }
+  ]
+}

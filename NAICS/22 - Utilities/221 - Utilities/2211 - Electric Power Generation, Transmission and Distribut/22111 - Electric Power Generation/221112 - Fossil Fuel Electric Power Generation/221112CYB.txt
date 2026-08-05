@@ -1,0 +1,31 @@
+{
+  "naics_code": "221112",
+  "naics_title": "Fossil Fuel Electric Power Generation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The plant runs on a distributed control system that is the plant.",
+      "why_this_business": "Boiler, turbine, and balance of plant are operated through a DCS with burner management, turbine control, and emissions control all integrated. Vendors hold remote access for diagnostics and tuning. A combined cycle unit cannot be operated manually in any meaningful sense.",
+      "loss_scenario": "A forced outage on a large unit costs both the replacement power and the capacity performance penalty. In tight markets a multi-day forced outage during a scarcity event runs into millions.",
+      "rhetorical_question": "Does your control system vendor hold remote access to the plant, and how is it controlled?"
+    },
+    {
+      "rank": 2,
+      "headline": "NERC CIP compliance is mandatory and audited.",
+      "why_this_business": "Generation registered to the bulk electric system must meet CIP standards covering electronic security perimeters, physical security of cyber assets, configuration change management, incident response and reporting, and vendor supply chain risk. Audits examine evidence, not intent.",
+      "loss_scenario": "Penalties up to $1 million per violation per day, plus mandatory mitigation plans that consume staff for months.",
+      "rhetorical_question": "When was your last CIP audit, and which standards were you found short on?"
+    },
+    {
+      "rank": 3,
+      "headline": "Continuous emissions monitoring is a legal reporting obligation with no gaps allowed.",
+      "why_this_business": "CEMS data is reported to EPA under Part 75 with strict availability requirements. Missing data is not treated as zero, it is filled with punitive substitute data values that assume the worst emissions rate. Allowance accounting depends on it.",
+      "loss_scenario": "Substitute data assumptions inflate reported emissions and allowance surrender obligations, and monitoring availability shortfalls are themselves violations.",
+      "rhetorical_question": "What happens to your emissions reporting if CEMS data is unavailable for a period?"
+    }
+  ]
+}

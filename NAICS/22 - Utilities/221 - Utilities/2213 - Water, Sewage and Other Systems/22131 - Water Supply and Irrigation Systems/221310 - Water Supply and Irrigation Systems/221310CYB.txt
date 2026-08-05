@@ -1,0 +1,31 @@
+{
+  "naics_code": "221310",
+  "naics_title": "Water Supply and Irrigation Systems",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Water system controllers have been taken over in the United States by foreign actors.",
+      "why_this_business": "In November 2023 a group linked to Iran's Islamic Revolutionary Guard Corps compromised a Unitronics programmable logic controller at a booster station operated by the Municipal Water Authority of Aliquippa, Pennsylvania. CISA identified the device as internet exposed with weak security. Water systems run pumps, valves, and chemical dosing on exactly this class of equipment.",
+      "loss_scenario": "Loss of pressure control or chemical dosing control creates a public health event, boil water notices, and potential contamination. Small systems have no redundancy and few staff.",
+      "rhetorical_question": "Are any of your PLCs or control devices reachable from the internet?"
+    },
+    {
+      "rank": 2,
+      "headline": "EPA has moved from advice to enforcement and most systems are failing.",
+      "why_this_business": "EPA issued an enforcement alert on May 20, 2024 stating that over 70 percent of water systems inspected do not fully comply with Safe Drinking Water Act requirements, with some carrying critical cyber vulnerabilities. Section 1433 requires community water systems serving more than 3,300 people to complete risk and resilience assessments and emergency response plans that include cybersecurity, and to certify them to EPA.",
+      "loss_scenario": "Civil and in serious cases criminal enforcement under the Safe Drinking Water Act, plus the cost of the assessment and remediation programme you were required to have already.",
+      "rhetorical_question": "Have you certified a risk and resilience assessment to EPA, and does it address cybersecurity?"
+    },
+    {
+      "rank": 3,
+      "headline": "Billing systems hold payment and personal data for every connection.",
+      "why_this_business": "Water utilities bill every household and business in the service area, holding names, addresses, bank details for automatic payment, and card data. Many are small municipal operations using a single vendor platform with limited IT support.",
+      "loss_scenario": "Breach notification across the whole customer base, plus loss of billing capability which for a small utility means no revenue while operating costs continue.",
+      "rhetorical_question": "How many customer accounts do you bill, and do you store payment details?"
+    }
+  ]
+}

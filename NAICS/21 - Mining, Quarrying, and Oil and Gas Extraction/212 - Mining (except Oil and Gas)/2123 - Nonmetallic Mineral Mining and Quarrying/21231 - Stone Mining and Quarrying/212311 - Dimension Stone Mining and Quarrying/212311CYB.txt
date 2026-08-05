@@ -1,0 +1,31 @@
+{
+  "naics_code": "212311",
+  "naics_title": "Dimension Stone Mining and Quarrying",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Blocks are cut, matched, and sold against records that establish which slab came from where.",
+      "why_this_business": "Dimension stone is sold on colour, veining, and block or bundle identity. Buyers select specific slabs and expect matched material across a project. Block numbering, quarry location, and slab photographs are the entire basis for that selection and are held digitally.",
+      "loss_scenario": "Loss of block and slab records makes matched inventory unsellable as matched material, which is where the premium lives. Architectural projects reject unmatched substitution outright.",
+      "rhetorical_question": "How do you track block and slab identity from the quarry through to the customer?"
+    },
+    {
+      "rank": 2,
+      "headline": "Saws, wire, and processing equipment run under numerical control.",
+      "why_this_business": "Diamond wire saws, gang saws, bridge saws, and CNC profiling machines cut to programmed dimensions from digital files. Fabrication for a specific project depends on the cut file matching the field measurement. A wrong file destroys the block, which cannot be uncut.",
+      "loss_scenario": "Miscut blocks are a total loss of material worth thousands to tens of thousands of dollars each, plus schedule damage on a construction project that was waiting for it.",
+      "rhetorical_question": "Are your saws and CNC equipment fed by digital cut files from your office network?"
+    },
+    {
+      "rank": 3,
+      "headline": "Explosives and quarry records carry federal and state obligations.",
+      "why_this_business": "Quarries using explosives must keep ATF inventory and transaction records and report theft or loss within 24 hours. MSHA governs the site regardless. Blast logs and seismograph readings are the defence in a neighbour complaint about vibration or dust.",
+      "loss_scenario": "Loss of the explosives licence, plus indefensible nuisance and property damage claims from surrounding property owners.",
+      "rhetorical_question": "Do you use explosives, and where are your blast and inventory records kept?"
+    }
+  ]
+}

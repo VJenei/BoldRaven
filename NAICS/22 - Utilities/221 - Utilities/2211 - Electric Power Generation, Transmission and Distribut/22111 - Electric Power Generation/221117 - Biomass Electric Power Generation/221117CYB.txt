@@ -1,0 +1,31 @@
+{
+  "naics_code": "221117",
+  "naics_title": "Biomass Electric Power Generation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fuel supply is a continuous logistics operation with no large buffer.",
+      "why_this_business": "Biomass plants burn wood waste, agricultural residue, or landfill gas delivered daily by truck against fuel supply agreements. Scale house ticketing records moisture, species, and tonnage, which determines both payment to suppliers and the fuel value burned. On-site fuel storage is typically measured in days.",
+      "loss_scenario": "A ticketing and dispatch failure disrupts fuel receipts within days, forcing derate or shutdown. Suppliers with no way to be paid stop delivering quickly.",
+      "rhetorical_question": "How many days of fuel do you hold on site, and how are deliveries ticketed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Combustion and emissions control run under continuous automated supervision.",
+      "why_this_business": "Variable fuel quality makes combustion control harder than on a fossil unit. Boiler control, ash handling, and emissions control equipment run under DCS, with continuous emissions monitoring reported to the regulator. Fuel variability means the control system is working constantly.",
+      "loss_scenario": "Forced outage plus emissions exceedances during uncontrolled operation, each of which is separately reportable and separately penalised.",
+      "rhetorical_question": "Is your emissions monitoring data recorded on a system connected to your plant network?"
+    },
+    {
+      "rank": 3,
+      "headline": "Renewable energy credits and incentives depend on documented fuel sourcing.",
+      "why_this_business": "Revenue often includes renewable energy credits or state incentives conditional on eligible fuel type and sustainable sourcing. Registries require documented fuel origin, and audits trace credits back to delivery tickets and supplier certifications.",
+      "loss_scenario": "Credits invalidated or clawed back where fuel sourcing cannot be evidenced, removing a revenue stream that often makes the difference between profit and loss.",
+      "rhetorical_question": "Do you generate renewable energy credits that require documented fuel sourcing?"
+    }
+  ]
+}

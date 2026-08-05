@@ -1,0 +1,31 @@
+{
+  "naics_code": "212321",
+  "naics_title": "Construction Sand and Gravel Mining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Ready-mix and paving customers order same day through integrated dispatch.",
+      "why_this_business": "Sand and gravel producers are tied directly into ready-mix and asphalt customer ordering, often through shared dispatch and ticketing platforms. Concrete is placed to a schedule that cannot slip, because crews, pumps, and finishers are already booked.",
+      "loss_scenario": "A dispatch or ticketing failure stops pours across multiple customer job sites, generating delay claims from contractors and permanent loss of accounts to competitors who could deliver.",
+      "rhetorical_question": "Do your customers order material through a shared dispatch or ticketing platform?"
+    },
+    {
+      "rank": 2,
+      "headline": "Wash plants and dredges run under automated control.",
+      "why_this_business": "Sand and gravel processing uses screens, classifiers, wash plants, and in many pits a floating dredge, all under PLC control with water recycling and settling pond management. Product specification depends on classifier control.",
+      "loss_scenario": "Off-specification sand rejected by concrete producers, plus a settling pond or process water incident if level controls fail, which is a reportable discharge.",
+      "rhetorical_question": "Do you operate a dredge or wash plant under automated control?"
+    },
+    {
+      "rank": 3,
+      "headline": "Reserves, permits, and reclamation obligations are documented electronically.",
+      "why_this_business": "Pit permits, mining plans, reclamation bonds, groundwater monitoring, and annual production reporting to the state are all documentary. Aggregate operations are permitted decades in advance and permit conditions are enforced against the record.",
+      "loss_scenario": "Inability to demonstrate compliance with permit conditions and reclamation progress, risking bond forfeiture and permit suspension.",
+      "rhetorical_question": "How do you maintain your permit compliance and reclamation records?"
+    }
+  ]
+}

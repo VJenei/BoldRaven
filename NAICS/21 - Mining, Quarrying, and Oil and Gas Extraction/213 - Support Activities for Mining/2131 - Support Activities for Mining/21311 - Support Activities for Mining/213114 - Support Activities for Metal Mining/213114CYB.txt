@@ -1,0 +1,31 @@
+{
+  "naics_code": "213114",
+  "naics_title": "Support Activities for Metal Mining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Exploration drilling contractors hold clients' unreleased assay results.",
+      "why_this_business": "Drilling and assay contractors generate and hold drill results before the client discloses them. For a listed mining company those results are material non-public information governed by securities rules and technical disclosure standards. Contractors are bound by confidentiality and often by trading restrictions.",
+      "loss_scenario": "Leaked drill results before disclosure expose the client to securities liability and the contractor to a claim for causing it, plus permanent loss of the client relationship in a small industry.",
+      "rhetorical_question": "Do you hold client drill results or assays before they are publicly disclosed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Contractors work inside client mine networks and control systems.",
+      "why_this_business": "Shaft, underground development, and maintenance contractors are given access to mine planning, dispatch, and sometimes control system environments. In an operation running autonomous equipment, that access reaches safety critical systems.",
+      "loss_scenario": "A compromise that propagates into the client's operational technology, with liability far exceeding the contract value and immediate removal from site.",
+      "rhetorical_question": "What level of access do you hold to client operational or control systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Assay laboratories generate the numbers the whole industry trades on.",
+      "why_this_business": "Contract assay laboratories produce the analytical results that set resource estimates, concentrate settlements, and grade control decisions. Sample chain of custody and result integrity are the entire product. Laboratories carry accreditation that depends on demonstrable data integrity.",
+      "loss_scenario": "Compromised or unavailable assay data forces resampling where possible and invalidates decisions already made on it, with loss of accreditation as the worst case.",
+      "rhetorical_question": "How is your laboratory information management system protected and backed up?"
+    }
+  ]
+}

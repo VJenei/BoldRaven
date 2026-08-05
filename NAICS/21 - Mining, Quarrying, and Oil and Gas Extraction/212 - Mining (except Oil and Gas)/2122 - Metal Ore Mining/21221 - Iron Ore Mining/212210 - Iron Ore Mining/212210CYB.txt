@@ -1,0 +1,31 @@
+{
+  "naics_code": "212210",
+  "naics_title": "Iron Ore Mining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Tailings storage facilities are monitored electronically and failure is catastrophic.",
+      "why_this_business": "Tailings dams are instrumented with piezometers, inclinometers, survey prisms, and seepage monitoring feeding continuous dashboards. The Global Industry Standard on Tailings Management makes that monitoring and its records central to demonstrating dam safety. Loss of monitoring means operating a dam blind.",
+      "loss_scenario": "A tailings failure is among the largest single-event losses in industry, with fatalities, downstream destruction, and permanent site closure. Even a monitoring gap without failure can force suspension by the regulator.",
+      "rhetorical_question": "Is your tailings monitoring instrumentation networked, and who can access that data?"
+    },
+    {
+      "rank": 2,
+      "headline": "Concentrator and pellet plant control runs the entire revenue chain.",
+      "why_this_business": "Crushing, grinding, magnetic separation, pelletizing, and induration are supervised by a distributed control system running continuously. Iron ore operations are throughput businesses with very high fixed costs. Restarting an induration furnace after an unplanned stop takes days.",
+      "loss_scenario": "Days of lost pellet production at a large operation is several million dollars, with the furnace restart and off-spec material on top.",
+      "rhetorical_question": "How long does it take to restart your process plant after an unplanned shutdown?"
+    },
+    {
+      "rank": 3,
+      "headline": "Shipments are settled on assay and moisture data exchanged with the buyer.",
+      "why_this_business": "Iron ore and pellets are sold on iron content, silica, alumina, and moisture, determined by sampling at load or discharge and exchanged with the customer. Rail and vessel loading records establish tonnage. Provisional invoices are trued up when assays are agreed.",
+      "loss_scenario": "Unresolved provisional pricing across shipments worth tens of millions, with no assay records to support the final invoice.",
+      "rhetorical_question": "Are your assay and shipment records held in a system separate from your process control network?"
+    }
+  ]
+}

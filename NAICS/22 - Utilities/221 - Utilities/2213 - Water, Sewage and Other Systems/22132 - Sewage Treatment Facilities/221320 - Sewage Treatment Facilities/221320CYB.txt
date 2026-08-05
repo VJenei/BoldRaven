@@ -1,0 +1,31 @@
+{
+  "naics_code": "221320",
+  "naics_title": "Sewage Treatment Facilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A treatment plant taken over remotely spills sewage, and it has happened.",
+      "why_this_business": "Wastewater collection and treatment run on SCADA controlling lift station pumps, valves, aeration, and chemical dosing. The Maroochy Shire case in Australia remains the reference example, where a former contractor used radio access to release hundreds of thousands of litres of sewage into parks and waterways. Collection systems are geographically dispersed and controlled remotely by necessity.",
+      "loss_scenario": "A sanitary sewer overflow is a reportable NPDES violation with cleanup, third-party property claims, and consent decree exposure. Overflows into surface water attract citizen suits as well as regulators.",
+      "rhetorical_question": "How are your lift stations monitored and controlled, and over what communication path?"
+    },
+    {
+      "rank": 2,
+      "headline": "Discharge permits are enforced against monitoring data you generate.",
+      "why_this_business": "NPDES permits set effluent limits monitored continuously and reported in discharge monitoring reports. Missing data is not neutral, and exceedances are self-reported under penalty. Laboratory information and SCADA historian records are the evidence.",
+      "loss_scenario": "Permit violations that cannot be characterised or defended without data, plus penalties assessed per day per parameter, which accumulate quickly across a monitoring gap.",
+      "rhetorical_question": "How is your discharge monitoring data collected and stored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Biological treatment takes weeks to recover from an upset.",
+      "why_this_business": "Activated sludge and other biological processes depend on maintaining a living population under controlled aeration, return rates, and loading. An upset from mis-set aeration or a slug load kills the biology. Reseeding and restabilising a plant takes weeks during which the effluent is out of compliance.",
+      "loss_scenario": "Weeks of continuous permit violation while the plant recovers, with penalties accruing daily and no ability to simply stop accepting flow.",
+      "rhetorical_question": "How long would it take your biological process to recover from a serious upset?"
+    }
+  ]
+}

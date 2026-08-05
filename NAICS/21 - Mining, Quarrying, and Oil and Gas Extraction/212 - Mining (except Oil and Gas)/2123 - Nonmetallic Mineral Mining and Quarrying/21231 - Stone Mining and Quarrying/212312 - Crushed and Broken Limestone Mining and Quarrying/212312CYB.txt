@@ -1,0 +1,31 @@
+{
+  "naics_code": "212312",
+  "naics_title": "Crushed and Broken Limestone Mining and Quarrying",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The scale house is the cash register and every load is a ticket.",
+      "why_this_business": "Aggregate revenue is recorded one truck at a time through scale software such as Command Alkon or Libra, tied to customer accounts, job numbers, and material codes. Tickets feed invoicing and state DOT certification. When the scale system is down, trucks either wait or leave without a billable record.",
+      "loss_scenario": "A busy quarry loads several hundred trucks a day. A week of ticketing failure means unbillable material, disputed accounts, and DOT project documentation that cannot be produced.",
+      "rhetorical_question": "What scale ticketing system do you use, and what happens to loading when it is unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "Crushing and screening plants are automated and feed customers with no inventory buffer.",
+      "why_this_business": "Primary and secondary crushing, screening, and conveying run under PLC control with belt scales and automated feed control. Ready-mix plants, asphalt plants, and highway contractors draw from the quarry the same day they place material. There is little stockpile of the specific gradations in demand.",
+      "loss_scenario": "Plant downtime stops concrete pours and paving on customer job sites, generating delay claims against the quarry from contractors working to a schedule.",
+      "rhetorical_question": "Are your crusher and screening plant controls networked to your office?"
+    },
+    {
+      "rank": 3,
+      "headline": "Aggregate quality certification is a DOT requirement backed by test records.",
+      "why_this_business": "Material supplied to state highway projects must meet gradation, soundness, and abrasion specifications, with certified test results traceable to the stockpile and production date. Lab data and certification records are electronic and are audited by the DOT.",
+      "loss_scenario": "Decertification or rejection of material already placed on a highway project, with removal and replacement cost charged back to the supplier.",
+      "rhetorical_question": "Do you supply state DOT projects, and how are your quality test records stored?"
+    }
+  ]
+}

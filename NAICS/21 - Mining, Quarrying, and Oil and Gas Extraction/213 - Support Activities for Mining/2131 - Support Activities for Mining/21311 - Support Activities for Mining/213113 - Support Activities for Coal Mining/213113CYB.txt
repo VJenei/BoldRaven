@@ -1,0 +1,31 @@
+{
+  "naics_code": "213113",
+  "naics_title": "Support Activities for Coal Mining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Contractors connect to the mine's systems and become a path into them.",
+      "why_this_business": "Contract miners, shaft sinkers, and specialty service firms are granted access to mine networks for planning, surveying, ventilation modelling, and production reporting. A compromise that originates with the contractor reaches the mine operator's environment, which includes safety systems.",
+      "loss_scenario": "Contractual and third-party liability for a compromise that propagates to the mine operator, plus removal from an approved contractor list which ends access to the work.",
+      "rhetorical_question": "How many client mine networks or systems do you have access to?"
+    },
+    {
+      "rank": 2,
+      "headline": "Mine survey and ventilation data are safety documents.",
+      "why_this_business": "Contract surveyors and engineers produce mine maps, ventilation plans, and void surveys that determine where it is safe to mine. Federal law requires accurate mine maps, and inaccurate or unavailable survey data has caused inundation fatalities.",
+      "loss_scenario": "Loss or corruption of survey data creates a direct life safety exposure and professional liability that is not limited to the value of the engagement.",
+      "rhetorical_question": "Do you produce mine maps or ventilation plans that the operator relies on for safety decisions?"
+    },
+    {
+      "rank": 3,
+      "headline": "Field crews carry personnel, training, and medical records.",
+      "why_this_business": "Contractors employ rotating crews with MSHA Part 46 or Part 48 training records, respirator fit testing, and in coal, chest x-ray surveillance under the coal workers health surveillance programme. That is employee health data as well as compliance evidence.",
+      "loss_scenario": "Breach notification covering employee health information, and inability to prove training status during an MSHA inspection, which stops the crew from working.",
+      "rhetorical_question": "Do you retain employee medical surveillance or respirator fit test records?"
+    }
+  ]
+}

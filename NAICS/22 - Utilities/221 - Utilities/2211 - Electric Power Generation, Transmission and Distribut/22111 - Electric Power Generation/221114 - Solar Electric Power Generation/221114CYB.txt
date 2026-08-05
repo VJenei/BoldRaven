@@ -1,0 +1,31 @@
+{
+  "naics_code": "221114",
+  "naics_title": "Solar Electric Power Generation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Inverters are internet connected and accept remote firmware and setpoint changes.",
+      "why_this_business": "Utility scale and distributed solar is managed through inverters, combiner monitoring, and trackers reporting to a cloud platform, usually the manufacturer's. Inverters accept remote firmware updates and grid support setpoint changes under IEEE 1547. Fleets are supervised from a remote operations centre with very few people on site.",
+      "loss_scenario": "Loss of inverter control across a fleet stops generation and, if setpoints are altered, can create grid support behaviour the interconnection agreement does not permit. A 100 MW site loses roughly $10,000 to $30,000 of revenue per day offline.",
+      "rhetorical_question": "Does your inverter manufacturer have remote access to change firmware or setpoints?"
+    },
+    {
+      "rank": 2,
+      "headline": "Trackers, weather stations, and performance data drive the availability guarantee.",
+      "why_this_business": "Single axis trackers follow a scheduled position, and performance is measured against an availability guarantee in the operations and maintenance contract and often in the power purchase agreement. Performance ratio calculations come from irradiance and production data. Stow commands during high wind protect the array.",
+      "loss_scenario": "Failure to stow trackers during a wind event damages modules and racking across large areas. Missed availability guarantees trigger liquidated damages under the O and M agreement.",
+      "rhetorical_question": "How are your trackers commanded to stow during a high wind event?"
+    },
+    {
+      "rank": 3,
+      "headline": "Project financing depends on reported production and covenant compliance.",
+      "why_this_business": "Solar projects carry tax equity and debt structures with covenants tied to reported production, insurance, and operating reports delivered on a schedule. Independent engineers review performance data. The reporting is contractual, not optional.",
+      "loss_scenario": "Missed or unsupportable reporting to lenders and tax equity partners, which can constitute a default under the financing documents independent of the underlying production.",
+      "rhetorical_question": "What production and operating reports are you contractually required to deliver, and how often?"
+    }
+  ]
+}

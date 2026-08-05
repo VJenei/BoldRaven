@@ -1,0 +1,31 @@
+{
+  "naics_code": "211120",
+  "naics_title": "Crude Petroleum Extraction",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Wells, tank batteries, and gathering lines are run by SCADA that is reachable remotely.",
+      "why_this_business": "Producing leases are operated through SCADA and RTUs controlling pumping units, plunger lift, separators, tank levels, and emergency shutdown valves. Pumpers monitor and change setpoints from a phone or a truck. Loss of control means wells shut in, or worse, tanks that keep filling with no level alarm.",
+      "loss_scenario": "A tank overflow or line release from failed level control is a reportable spill under the Clean Water Act with cleanup, EPA and state penalties, and third-party property claims. Production shut in across a lease field runs $50,000 to $500,000 per day depending on rate.",
+      "rhetorical_question": "Are your wells and tank batteries monitored or controlled through a SCADA system accessible from outside the field?"
+    },
+    {
+      "rank": 2,
+      "headline": "Royalty, joint interest billing, and division order payments move by wire every month.",
+      "why_this_business": "Operators distribute royalty and working interest payments to hundreds or thousands of owners, and bill joint interest partners monthly. Owner bank details, division orders, and address changes are submitted by email and web form. Changing a payee's account is a routine request that clerks process constantly.",
+      "loss_scenario": "Fraudulent change of payment instructions on a large working interest owner diverts a monthly settlement of $100,000 to $2M. The operator remains contractually liable to the true owner and pays twice.",
+      "rhetorical_question": "How do you verify a change of bank details submitted by a royalty or working interest owner?"
+    },
+    {
+      "rank": 3,
+      "headline": "Electronic flow measurement data determines allocation, royalties, and severance tax.",
+      "why_this_business": "Custody transfer volumes come from electronic flow computers and are pulled into production accounting. Those numbers set what each interest owner is paid, what severance tax is owed, and what the purchaser remits. There is no manual fallback for a month of missing measurement data.",
+      "loss_scenario": "Unreconstructable measurement data forces estimated allocations, which triggers owner disputes, state audit exposure, and restatement of severance tax filings across every affected well.",
+      "rhetorical_question": "Where is your electronic flow measurement and production accounting data stored, and is there an offline copy?"
+    }
+  ]
+}

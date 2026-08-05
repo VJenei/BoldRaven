@@ -1,0 +1,31 @@
+{
+  "naics_code": "221121",
+  "naics_title": "Electric Bulk Power Transmission and Control",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Grid control centres have been successfully attacked and the playbook is public.",
+      "why_this_business": "Transmission and control operations run energy management systems and SCADA that operate breakers and switches across a wide area. Attackers took Ukrainian distribution operators offline in December 2015 by operating breakers through hijacked operator workstations, and again in 2016 with purpose-built grid malware. The technique is documented and studied.",
+      "loss_scenario": "Unauthorised breaker operation causes wide-area outage with cascading consequences, damage to equipment through out-of-phase switching, and restoration measured in days. Large transformers have lead times measured in years.",
+      "rhetorical_question": "How is your energy management system separated from your corporate network?"
+    },
+    {
+      "rank": 2,
+      "headline": "NERC CIP compliance is mandatory, audited, and heavily penalised at this asset class.",
+      "why_this_business": "Control centres and high impact bulk electric system assets face the strictest CIP requirements, including electronic security perimeters, multi-factor authentication for interactive remote access, configuration monitoring, incident reporting to E-ISAC, and supply chain controls under CIP-013.",
+      "loss_scenario": "Penalties up to $1 million per violation per day. The largest CIP settlements in history have exceeded $10 million for control centre and asset inventory failures.",
+      "rhetorical_question": "Are you registered as a transmission operator, and what is your current CIP impact rating?"
+    },
+    {
+      "rank": 3,
+      "headline": "Operating data and system models are attractive to hostile actors, not just criminals.",
+      "why_this_business": "Transmission operators hold network models, protection settings, contingency analyses, and critical energy infrastructure information. That data describes exactly how to cause maximum damage. It is controlled as CEII by FERC for that reason.",
+      "loss_scenario": "Exfiltration of system models and protection settings is a national security exposure with regulatory consequences, and unlike ransomware, the loss is not reversed by restoring a backup.",
+      "rhetorical_question": "Where is your CEII and protection setting data stored, and who has access to it?"
+    }
+  ]
+}

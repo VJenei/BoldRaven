@@ -1,0 +1,31 @@
+{
+  "naics_code": "212290",
+  "naics_title": "Other Metal Ore Mining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Critical mineral operations attract state-sponsored interest in their technical data.",
+      "why_this_business": "Uranium, rare earth, lithium, and other strategic mineral operations hold resource models, processing flowsheets, and separation chemistry that are of direct national interest to foreign competitors. Separation technology for rare earths in particular is closely held commercial IP.",
+      "loss_scenario": "Theft of process and resource data transfers years of development to a competitor with no recoverable damages, and the loss is often not detected until a rival replicates the flowsheet.",
+      "rhetorical_question": "Does your operation hold proprietary processing or separation technical data?"
+    },
+    {
+      "rank": 2,
+      "headline": "Radiological and licensed materials carry federal reporting duties.",
+      "why_this_business": "Uranium and thorium bearing operations are licensed by NRC or an agreement state, with material control and accounting, effluent monitoring, and reporting requirements. Records demonstrate that licensed material is accounted for. Gaps are treated as serious, not administrative.",
+      "loss_scenario": "An accounting discrepancy that cannot be resolved from records triggers licensing action and possible suspension of operations.",
+      "rhetorical_question": "Are you licensed for radiological material, and how are your material accounting records maintained?"
+    },
+    {
+      "rank": 3,
+      "headline": "Process plants for specialty ores run continuously under distributed control.",
+      "why_this_business": "Solvent extraction, ion exchange, and precipitation circuits run to tight chemistry under DCS control. These circuits are slow to stabilise and off-spec product has no market. Restart after an uncontrolled stop takes days.",
+      "loss_scenario": "Off-specification product and extended restart time, on a product with few buyers and strict purity requirements.",
+      "rhetorical_question": "How long does your process circuit take to return to specification after an unplanned stop?"
+    }
+  ]
+}

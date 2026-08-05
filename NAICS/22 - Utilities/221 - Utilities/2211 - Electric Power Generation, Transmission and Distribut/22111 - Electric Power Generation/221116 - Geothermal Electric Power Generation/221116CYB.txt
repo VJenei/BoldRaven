@@ -1,0 +1,31 @@
+{
+  "naics_code": "221116",
+  "naics_title": "Geothermal Electric Power Generation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The resource is managed through injection and production well control.",
+      "why_this_business": "Geothermal output depends on balancing production and injection across a well field, controlled through SCADA with pump control, flow, pressure, and temperature monitoring. Mismanaged injection damages the reservoir over months in ways that are slow or impossible to reverse. Induced seismicity is monitored and is politically sensitive.",
+      "loss_scenario": "Reservoir damage from mismanaged injection permanently reduces the output of an asset whose entire value is the resource, with no replacement available.",
+      "rhetorical_question": "Is your well field production and injection controlled through a networked system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Plants run continuously as baseload with contracted delivery.",
+      "why_this_business": "Geothermal sells under long-term power purchase agreements as firm baseload, with availability and capacity obligations. The binary or flash cycle plant runs continuously under distributed control with brine handling, non-condensable gas removal, and cooling all interlinked.",
+      "loss_scenario": "Failure to deliver contracted capacity brings liquidated damages under the PPA on top of lost energy revenue, on an asset with high fixed costs and no fuel cost to save when it is down.",
+      "rhetorical_question": "Does your power purchase agreement carry capacity or availability obligations with damages attached?"
+    },
+    {
+      "rank": 3,
+      "headline": "Emissions, brine handling, and seismic monitoring are permit conditions.",
+      "why_this_business": "Geothermal operations monitor hydrogen sulphide emissions, brine chemistry and disposal, and in many jurisdictions induced seismicity under a traffic light protocol tied to a permit. The monitoring record is the compliance evidence and, for seismicity, the basis for continuing to inject at all.",
+      "loss_scenario": "Loss of monitoring data suspends injection under a traffic light protocol, which suspends generation, and unexplained emissions exceedances draw enforcement.",
+      "rhetorical_question": "Do your permits include seismic or emissions monitoring conditions tied to continued operation?"
+    }
+  ]
+}

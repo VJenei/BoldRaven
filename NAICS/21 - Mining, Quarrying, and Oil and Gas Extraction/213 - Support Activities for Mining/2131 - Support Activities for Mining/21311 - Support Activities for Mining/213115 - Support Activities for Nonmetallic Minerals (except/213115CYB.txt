@@ -1,0 +1,31 @@
+{
+  "naics_code": "213115",
+  "naics_title": "Support Activities for Nonmetallic Minerals (except Fuels) Mining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Contract crushing and drilling operations bill on production records.",
+      "why_this_business": "Contractors are paid per ton crushed, per foot drilled, or per hour worked, recorded through production monitoring, scale data, and field tickets. The client verifies against their own records. Without your data you accept whatever the client says.",
+      "loss_scenario": "Unbillable production across the outage, and disputes resolved from the client's records rather than yours on work already performed.",
+      "rhetorical_question": "How is the work you bill for measured and recorded?"
+    },
+    {
+      "rank": 2,
+      "headline": "Blasting contractors carry the explosives licence and the liability.",
+      "why_this_business": "Contract blasters hold ATF licences, maintain daily explosives inventory and transaction records, and must report theft or loss within 24 hours. Blast designs, seismograph data, and pre-blast surveys are the evidence in any neighbour damage claim.",
+      "loss_scenario": "Licence action for records that cannot be produced, and indefensible property damage claims from surrounding owners. Losing the licence ends the business.",
+      "rhetorical_question": "Where are your ATF inventory records and blast logs stored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment fleets are tracked and dispatched electronically across multiple client sites.",
+      "why_this_business": "Contractors move crushers, screens, drills, and loaders between client sites, tracked through telematics and maintenance systems. Utilisation and maintenance scheduling determine profitability, and mobilisation is planned weeks ahead.",
+      "loss_scenario": "Equipment idle or mispositioned across sites during the outage, with mobilisation costs incurred twice and client schedules missed.",
+      "rhetorical_question": "Do you use telematics or fleet software to dispatch equipment between client sites?"
+    }
+  ]
+}
