@@ -43,6 +43,7 @@ body {
 /* ---------------------------------------------------------------- root view */
 
 #root-view {
+  position: relative;
   min-height: 100vh;
   min-height: 100svh;
   display: flex;
@@ -120,6 +121,29 @@ body {
 .field-wrap.filled #enter-hint { opacity: 1; }
 
 .field-wrap.shake { animation: shake 220ms steps(6, end); }
+
+/* Pinned to the bottom so it never shifts the centred lockup. */
+.credit {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: var(--gutter);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 14px;
+  color: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.credit span + span::before {
+  content: "\00b7";
+  margin-right: 14px;
+  color: var(--ui-dim);
+}
 
 @keyframes shake {
   0%   { transform: translateX(0); }
@@ -355,6 +379,12 @@ body {
 }
 
 .keys b { color: var(--ui); font-weight: 700; }
+
+.keys-credit {
+  margin-left: auto;
+  color: var(--ui);
+  text-transform: uppercase;
+}
 
 /* ------------------------------------------------------------------ narrow */
 

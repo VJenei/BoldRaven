@@ -3,6 +3,10 @@
 Static, zero-backend NAICS insurance lookup. Type a 6-digit code, press Enter, read
 the policy-by-policy reasoning.
 
+Live at [boldraven.work](https://boldraven.work).
+
+Copyright (c) 2026 Vincent Jenei. All rights reserved. See [LICENSE](LICENSE).
+
 ## Files
 
 | File | Purpose |
@@ -30,20 +34,20 @@ JSON fails to parse.
 
 ## The logo
 
-`icon/LogoOriginal.png` is pure black with a coral beak, which is invisible against
-the `#292831` background. `make_logo.py` recolours it into the palette (body
-`#fbbbad`, beak `#ee8695`), trims the transparent margin, and writes
-`icon/logo-mark.png`. That derived file is what the page displays. Run it again if
-the source artwork changes:
+`icon/logo.png` is the master artwork: the raven in `#fbbbad` with an `#ee8695`
+beak, on transparency. Every other image is generated from it.
 
 ```bash
 python make_logo.py
 ```
 
-Two files in `icon/` are intentionally not referenced by the site. `favicon.svg` is
-a 521 KB PNG wrapped in an SVG tag, and `LogoSVG.svg` is 174,132 single-pixel
-`<rect>` elements totalling 10.8 MB. The `.ico` and `.png` icons are smaller and
-render better everywhere.
+That writes `logo-mark.png` (transparent, used on the page) plus the favicon,
+touch icon, and manifest icons. The icons are composited onto solid `#292831`
+because a `#fbbbad` mark on transparency disappears against a light browser tab
+bar. The manifest icons are inset to 66% width so Android's maskable safe zone
+cannot clip the wingtips.
+
+Edit `icon/logo.png` and rerun the script to change the branding everywhere.
 
 ## Running locally
 

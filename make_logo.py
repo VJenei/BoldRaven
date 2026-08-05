@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
-"""Derive the on-site logo mark from the source artwork.
+"""Generate every logo and icon asset from the master artwork.
 
     python make_logo.py
 
-The source logo is pure black with a coral beak, which is invisible against the
-#292831 page background. This recolours it into the site palette and trims the
-transparent margin so it can be sized precisely in CSS.
+Master: icon/logo.png  (transparent, already in the site palette)
 
-    body -> #fbbbad   (same tone as body text)
-    beak -> #ee8695   (same tone as headings)
+Outputs
+    icon/logo-mark.png                  transparent, for the page itself
+    icon/favicon-96x96.png              solid background
+    icon/favicon.ico                    solid background, 16/32/48
+    icon/apple-touch-icon.png           solid background, iOS-safe inset
+    icon/web-app-manifest-192x192.png   solid background, maskable-safe inset
+    icon/web-app-manifest-512x512.png   solid background, maskable-safe inset
 
-Run this again if icon/LogoOriginal.png ever changes.
+The page background is #292831 and the mark is #fbbbad, so a transparent icon
+would vanish against a light browser tab bar. Everything except logo-mark.png is
+therefore composited onto a solid #292831 square.
 """
 
 import os
@@ -22,45 +27,71 @@ except ImportError:
     sys.exit("Pillow is required: pip install pillow")
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SOURCE = os.path.join(ROOT, "icon", "LogoOriginal.png")
-OUTPUT = os.path.join(ROOT, "icon", "logo-mark.png")
+ICON_DIR = os.path.join(ROOT, "icon")
+MASTER = os.path.join(ICON_DIR, "logo.png")
 
-BODY = (251, 187, 173)      # #fbbbad
-BEAK = (238, 134, 149)      # #ee8695
+BG = (41, 40, 49)           # #292831
 
-# A pixel is part of the beak when it is clearly warmer than it is cool.
-WARM_THRESHOLD = 40
+# Rendered at 132px wide on the page, so 512 stays sharp when zoomed.
+MARK_WIDTH = 512
 
-# Rendered at 256px wide, so 512 keeps it sharp on high-density displays.
-TARGET_WIDTH = 512
+# Fraction of the icon width taken up by the mark.
+#   0.90  favicons are shown as-is, so fill the square.
+#   0.78  iOS rounds the corners of the touch icon.
+#   0.66  Android maskable icons only guarantee a centred circle of 80%
+#         diameter. A 1.33:1 mark fits inside that circle at 64% width, so
+#         0.66 keeps the wingtips clear of any mask shape.
+FILL_FAVICON = 0.90
+FILL_TOUCH = 0.78
+FILL_MASKABLE = 0.66
+
+
+def render(master, size, fill):
+    """Centre the mark on a solid square of the given size."""
+    canvas = Image.new("RGBA", (size, size), BG + (255,))
+    width = max(1, round(size * fill))
+    height = max(1, round(master.height * width / master.width))
+    art = master.resize((width, height), Image.LANCZOS)
+    canvas.paste(art, ((size - width) // 2, (size - height) // 2), art)
+    return canvas
+
+
+def report(path):
+    print("  %-34s %.1f KB" % (
+        os.path.relpath(path, ROOT), os.path.getsize(path) / 1024.0))
 
 
 def main():
-    if not os.path.isfile(SOURCE):
-        sys.exit("Source artwork not found at " + SOURCE)
+    if not os.path.isfile(MASTER):
+        sys.exit("Master artwork not found at " + MASTER)
 
-    image = Image.open(SOURCE).convert("RGBA")
-
-    box = image.getbbox()
+    master = Image.open(MASTER).convert("RGBA")
+    box = master.getbbox()
     if box:
-        image = image.crop(box)
+        master = master.crop(box)
 
-    pixels = image.load()
-    width, height = image.size
-    for y in range(height):
-        for x in range(width):
-            r, g, b, a = pixels[x, y]
-            if a == 0:
-                continue
-            pixels[x, y] = (BEAK if r - b > WARM_THRESHOLD else BODY) + (a,)
+    # Transparent mark for the page.
+    mark_height = max(1, round(master.height * MARK_WIDTH / master.width))
+    mark = master.resize((MARK_WIDTH, mark_height), Image.LANCZOS)
+    mark_path = os.path.join(ICON_DIR, "logo-mark.png")
+    mark.save(mark_path, "PNG", optimize=True)
+    report(mark_path)
 
-    target_height = max(1, round(height * TARGET_WIDTH / width))
-    image = image.resize((TARGET_WIDTH, target_height), Image.LANCZOS)
-    image.save(OUTPUT, "PNG", optimize=True)
+    targets = [
+        ("favicon-96x96.png", 96, FILL_FAVICON),
+        ("apple-touch-icon.png", 180, FILL_TOUCH),
+        ("web-app-manifest-192x192.png", 192, FILL_MASKABLE),
+        ("web-app-manifest-512x512.png", 512, FILL_MASKABLE),
+    ]
+    for name, size, fill in targets:
+        path = os.path.join(ICON_DIR, name)
+        render(master, size, fill).save(path, "PNG", optimize=True)
+        report(path)
 
-    size_kb = os.path.getsize(OUTPUT) / 1024.0
-    print("wrote %s  %dx%d  %.1f KB" % (
-        os.path.relpath(OUTPUT, ROOT), image.width, image.height, size_kb))
+    ico_path = os.path.join(ICON_DIR, "favicon.ico")
+    render(master, 256, FILL_FAVICON).save(
+        ico_path, "ICO", sizes=[(16, 16), (32, 32), (48, 48)])
+    report(ico_path)
 
 
 if __name__ == "__main__":
