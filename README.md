@@ -130,8 +130,9 @@ The same keys work in the tool and on the generated pages, except `Tab`, `Home` 
 ## Notes
 
 - The tool makes no network requests after page load. `data.js` is loaded once with
-  the page. At full coverage that file lands around 25 MB, so it will need splitting
-  into per-code payloads well before then.
+  the page. It grows about 2.2 KB per policy file, so full coverage lands somewhere
+  near 20 MB and it will need splitting into per-code payloads well before then.
+  See [TODO.md](TODO.md).
 - Policies with no content render as `NO DATA` and are dimmed in the rail.
 - The renderer is schema-driven: `why_this_business`, `loss_scenario`, and
   `rhetorical_question` are labelled `WHY`, `LOSS`, and `ASK`. Any other field in a
