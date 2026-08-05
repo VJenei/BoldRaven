@@ -1,0 +1,31 @@
+{
+  "naics_code": "238190",
+  "naics_title": "Other Foundation, Structure, and Building Exterior Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty structural work is engineered and one failure is catastrophic.",
+      "why_this_business": "This category covers shoring, underpinning, helical piers, waterproofing, and similar specialty structural work performed to engineered designs with monitoring during execution. Underpinning and excavation support hold up adjacent buildings and streets.",
+      "loss_scenario": "Movement or collapse of an adjacent structure, which brings claims from neighbouring owners, municipal enforcement, and litigation decided on the engineered design and monitoring records.",
+      "rhetorical_question": "Do you perform work that supports adjacent structures, and how is monitoring data recorded?"
+    },
+    {
+      "rank": 2,
+      "headline": "Instrumentation and monitoring data proves the work stayed within tolerance.",
+      "why_this_business": "Excavation support and underpinning are monitored with survey points, inclinometers, and crack gauges against defined action and alarm thresholds. Readings are logged continuously and reviewed by the engineer of record. The record is what demonstrates the neighbouring building did not move.",
+      "loss_scenario": "A neighbour damage claim with no monitoring record to rebut it, which in dense urban work is effectively an admission.",
+      "rhetorical_question": "Is your instrumentation and monitoring data logged automatically, and where is it stored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Concealed work is documented once and never again.",
+      "why_this_business": "Waterproofing, damp proofing, drainage, and structural connections are covered permanently as soon as backfill or cladding follows. Photographs and inspection sign-offs at that moment are the only evidence of what was installed.",
+      "loss_scenario": "A latent defect claim within the statute of repose where the concealed condition cannot be evidenced, leaving the contractor to fund excavation and remediation to prove or disprove it.",
+      "rhetorical_question": "How do you document work that will be permanently concealed?"
+    }
+  ]
+}

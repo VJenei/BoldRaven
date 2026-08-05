@@ -1,0 +1,31 @@
+{
+  "naics_code": "238340",
+  "naics_title": "Tile and Terrazzo Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Waterproofing under tile is concealed and its failure is expensive.",
+      "why_this_business": "Wet area tile installation includes waterproof membrane, flood testing, and slope to drain, all covered permanently once tile is set. Flood test records and photographs are the only evidence the assembly was watertight when it was closed.",
+      "loss_scenario": "Water intrusion through a shower or wet area assembly damages construction below and requires demolition of finished tile work to remedy, at the tile contractor's cost when the flood test record cannot be produced.",
+      "rhetorical_question": "Do you flood test wet area membranes and retain the records?"
+    },
+    {
+      "rank": 2,
+      "headline": "Material is selected from batches and dye lots that must be reserved.",
+      "why_this_business": "Natural stone, porcelain, and terrazzo aggregate vary by batch, block, and lot. Architects approve specific samples and material is reserved. Terrazzo is mixed on site to an approved sample and cannot be matched later.",
+      "loss_scenario": "Rejected finish work on a visible floor or wall requiring complete removal and replacement, in a trade where demolition of set tile also damages the substrate.",
+      "rhetorical_question": "How are approved samples and material batch information recorded on your projects?"
+    },
+    {
+      "rank": 3,
+      "headline": "Silica exposure controls are mandatory and documented per task.",
+      "why_this_business": "Cutting, grinding, and polishing tile and terrazzo generate respirable crystalline silica. OSHA requires either specified exposure control methods for each task or objective exposure data, plus written exposure control plans, training, and medical surveillance above the action level.",
+      "loss_scenario": "Citations for missing exposure control documentation, and in a silicosis claim years later the absence of exposure and control records leaves the employer without a defence.",
+      "rhetorical_question": "Do you maintain a written silica exposure control plan and worker medical surveillance records?"
+    }
+  ]
+}

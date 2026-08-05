@@ -1,0 +1,31 @@
+{
+  "naics_code": "237120",
+  "naics_title": "Oil and Gas Pipeline and Related Structures Construction",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pipeline route, alignment, and weld data is security sensitive information.",
+      "why_this_business": "Contractors hold alignment sheets, GPS route data, tie-in locations, and valve station design for pipelines they build. Weld maps and radiographic inspection records identify every joint. This is precisely the information that describes where a pipeline is most vulnerable, and pipelines are designated critical infrastructure.",
+      "loss_scenario": "Disclosure creates a physical security exposure for the operator and contractual liability for the contractor. Pipeline operators are subject to TSA security directives and pass those expectations down to contractors.",
+      "rhetorical_question": "Do you hold pipeline alignment sheets or weld inspection records for completed projects?"
+    },
+    {
+      "rank": 2,
+      "headline": "Weld quality records are the permanent evidence of how the line was built.",
+      "why_this_business": "Every weld is documented with welder qualification, procedure, and non-destructive examination results, retained for the life of the pipeline under PHMSA rules. Hydrostatic test records establish the maximum allowable operating pressure. These records are called for years later after any incident.",
+      "loss_scenario": "After a pipeline failure, absent weld and test records the contractor cannot demonstrate the line was built to specification, which shifts the presumption of liability in an incident that can involve fatalities.",
+      "rhetorical_question": "How long do you retain weld and hydrostatic test records after a project closes?"
+    },
+    {
+      "rank": 3,
+      "headline": "Spreads are large, mobile, and expensive to keep idle.",
+      "why_this_business": "A pipeline spread involves hundreds of workers and heavy equipment moving along a right of way on a fixed seasonal schedule, coordinated through daily production reporting, land access agreements, and environmental permit windows. Weather and permit windows close.",
+      "loss_scenario": "A spread standing idle costs $200,000 or more per day. Missing an environmental window pushes construction into the following season, with the client claiming the resulting delay.",
+      "rhetorical_question": "What does an idle day cost your spread?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "238220",
+  "naics_title": "Plumbing, Heating, and Air-Conditioning Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold remote access to customer building systems for service.",
+      "why_this_business": "Mechanical contractors install and service building automation systems, chillers, boilers, and rooftop units, typically retaining remote monitoring and control access under a service agreement. That access reaches the HVAC control layer of every building on contract, and building automation is a documented entry point into corporate networks.",
+      "loss_scenario": "A compromise through your service access affects many customers simultaneously. Loss of environmental control in a data centre, hospital, or laboratory produces consequential damages far beyond the service contract value.",
+      "rhetorical_question": "How many customer building automation systems can your technicians reach remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "Service dispatch is the business and it runs on one platform.",
+      "why_this_business": "Mechanical service companies dispatch technicians through field service software holding customer sites, equipment histories, service agreements, parts, and billing. Emergency no-heat and no-cooling calls are answered against contracted response times.",
+      "loss_scenario": "Missed contractual response times across a service base, plus unbillable work orders. Service agreements are the recurring revenue that carries the business through slow construction periods.",
+      "rhetorical_question": "What field service platform do you dispatch from, and what happens when it is unavailable?"
+    },
+    {
+      "rank": 3,
+      "headline": "Refrigerant tracking is a federal recordkeeping obligation.",
+      "why_this_business": "EPA rules require certified technicians, leak repair on appliances above threshold charges, and records of refrigerant purchased, added, and recovered. The AIM Act adds allowance tracking and reporting for HFCs. Cylinder purchase and usage records are auditable.",
+      "loss_scenario": "EPA enforcement for records that cannot be produced, with penalties assessed per violation, and loss of the ability to purchase controlled refrigerants.",
+      "rhetorical_question": "How do you record refrigerant purchased, added, and recovered by each technician?"
+    }
+  ]
+}

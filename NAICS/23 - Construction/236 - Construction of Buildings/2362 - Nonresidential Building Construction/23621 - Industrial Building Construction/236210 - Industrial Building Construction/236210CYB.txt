@@ -1,0 +1,31 @@
+{
+  "naics_code": "236210",
+  "naics_title": "Industrial Building Construction",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold drawings and layouts of your clients' production facilities.",
+      "why_this_business": "Industrial builders work from process layouts, utility routing, structural drawings, and equipment arrangements that describe how a client's plant operates. For food, pharmaceutical, chemical, or defence clients this is confidential and in some cases regulated information.",
+      "loss_scenario": "Third-party liability to the client for disclosed facility information, plus loss of a relationship in a sector where prequalification takes years. For chemical facilities the information itself may be security sensitive.",
+      "rhetorical_question": "How many clients' facility drawings are stored on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Federal and defence-related work carries contractual cyber requirements.",
+      "why_this_business": "Contractors handling federal contract information must meet the basic safeguarding requirements of FAR 52.204-21, and those handling controlled unclassified information face DFARS and CMMC obligations. These flow down through subcontracts. Failure to meet them is a contract compliance failure and, under the False Claims Act, potentially more.",
+      "loss_scenario": "Loss of eligibility for federal work, contract termination, and False Claims Act exposure where compliance was represented but not achieved.",
+      "rhetorical_question": "Do any of your contracts flow down federal cybersecurity clauses such as FAR 52.204-21 or DFARS?"
+    },
+    {
+      "rank": 3,
+      "headline": "Industrial projects carry the largest payment applications and the tightest schedules.",
+      "why_this_business": "Plant construction and expansion is scheduled around a client production outage window that cannot move. Payment applications run into millions monthly. Both the schedule and the money flow through project management and accounting systems.",
+      "loss_scenario": "A missed outage window forces the client to run without the new capacity for another cycle, with consequential damages claimed against the contractor, and diverted payment applications in the seven figure range.",
+      "rhetorical_question": "Are your projects tied to a client shutdown window that cannot be rescheduled?"
+    }
+  ]
+}

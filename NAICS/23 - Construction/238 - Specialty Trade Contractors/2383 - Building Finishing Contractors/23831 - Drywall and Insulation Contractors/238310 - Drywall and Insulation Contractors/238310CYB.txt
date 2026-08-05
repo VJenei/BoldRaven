@@ -1,0 +1,31 @@
+{
+  "naics_code": "238310",
+  "naics_title": "Drywall and Insulation Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fire and sound rated assemblies must match a tested design exactly.",
+      "why_this_business": "Rated partitions are built to a specific UL or equivalent tested assembly, with stud spacing, board layers, fastener pattern, and firestopping all prescribed. Submittals record which assembly was approved, and inspection sign-off records confirm it was built that way before it is closed up.",
+      "loss_scenario": "A rated assembly that cannot be shown to match the approved design must be opened and rebuilt, or the certificate of occupancy is withheld. After a fire, the assembly documentation is central to liability.",
+      "rhetorical_question": "How do you record which tested assembly was used and inspected on each rated wall?"
+    },
+    {
+      "rank": 2,
+      "headline": "Labour is large, transient, and heavily subcontracted.",
+      "why_this_business": "Drywall and insulation work uses large crews, frequently through labour subcontractors, with high turnover. Payroll, worker classification, and certificates of insurance are tracked continuously, and on public work certified payroll is required weekly.",
+      "loss_scenario": "Breach exposing payroll records across a large transient workforce, plus wage and hour exposure where hours records cannot be produced and the employee's estimate is presumed correct.",
+      "rhetorical_question": "How many workers are on your payroll or working under your subcontractors at peak?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production is measured and billed by area completed.",
+      "why_this_business": "Drywall is bid and billed by the square foot of completed work by stage, verified against the schedule of values and the general contractor's progress assessment. Material take-offs and production tracking come from the model and field reporting.",
+      "loss_scenario": "Unsupported progress billing that the general contractor reduces, on monthly applications commonly worth hundreds of thousands, with retainage held on top.",
+      "rhetorical_question": "How is completed work measured and submitted for monthly payment?"
+    }
+  ]
+}

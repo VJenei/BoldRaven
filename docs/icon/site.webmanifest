@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Bold Raven",
+  "short_name": "Raven",
+  "description": "Look up a NAICS code and see why that business needs each commercial insurance policy.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#292831",
+  "background_color": "#292831",
+  "icons": [
+    {
+      "src": "/icon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

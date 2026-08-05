@@ -1,0 +1,31 @@
+{
+  "naics_code": "238140",
+  "naics_title": "Masonry Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Material is ordered to a specific colour, blend, and lot.",
+      "why_this_business": "Brick and stone are ordered by colour range and blend, with sample panels approved by the architect and material reserved from a specific run. Late additions from a different lot do not match. Approval records and order details tie the delivered material to the approved sample.",
+      "loss_scenario": "Mismatched masonry on a visible elevation is rejected by the architect and must be taken down and rebuilt, which is entirely rework at the mason's cost.",
+      "rhetorical_question": "How do you record approved sample panels and material lot information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Scaffold and mast climber engineering is documented and inspected.",
+      "why_this_business": "Masonry work depends on scaffold, mast climbing work platforms, and hoists erected to engineered drawings with load limits, inspected before each shift and documented. Scaffold collapse is a mass casualty event.",
+      "loss_scenario": "A collapse with multiple fatalities, investigated against the engineered drawings and inspection records that either exist or do not.",
+      "rhetorical_question": "How are your scaffold engineering drawings and daily inspection records maintained?"
+    },
+    {
+      "rank": 3,
+      "headline": "Payment applications and lien deadlines are unforgiving.",
+      "why_this_business": "Masonry subcontractors bill monthly with lien waivers, and mechanics lien rights expire on statutory deadlines measured from last furnishing of labour or material. Missing a preliminary notice or lien deadline forfeits the security entirely.",
+      "loss_scenario": "Loss of lien rights on an unpaid balance because the dates and notice records were unavailable. On a commercial masonry package that can be several hundred thousand dollars with no recourse.",
+      "rhetorical_question": "How do you track lien notice and filing deadlines across your active projects?"
+    }
+  ]
+}

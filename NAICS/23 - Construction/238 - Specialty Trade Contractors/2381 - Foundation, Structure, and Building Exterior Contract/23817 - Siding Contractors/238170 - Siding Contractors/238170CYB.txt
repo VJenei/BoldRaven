@@ -1,0 +1,31 @@
+{
+  "naics_code": "238170",
+  "naics_title": "Siding Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Homeowner payment and insurance information sits in your files.",
+      "why_this_business": "Siding work is largely residential, sold with deposits and progress payments and frequently funded through a property insurance claim after hail or wind. Files hold homeowner contact details, payment methods, policy and claim numbers, and financing applications.",
+      "loss_scenario": "Notification across the customer base plus exposure of insurance claim data usable for fraud in the homeowner's name. Financing applications add credit information to the same file.",
+      "rhetorical_question": "Do you offer customer financing or handle insurance claim paperwork?"
+    },
+    {
+      "rank": 2,
+      "headline": "Material is ordered by colour and profile to a specific job.",
+      "why_this_business": "Siding, trim, and accessories are ordered in specific colours and profiles, frequently special order with lead times, and colour lots vary. Take-offs are produced from measurements, increasingly from aerial measurement reports.",
+      "loss_scenario": "Wrong or mismatched material delivered to an occupied home, with the exterior partially removed and weeks of lead time to correct, plus a homeowner living in a construction site.",
+      "rhetorical_question": "How are your material take-offs produced and orders placed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Weather barrier installation determines whether the wall stays dry.",
+      "why_this_business": "Siding installation includes the weather resistive barrier, flashing, and drainage details that keep water out of the wall assembly. Photographic documentation of flashing before cladding goes on is the only evidence it was done correctly, because it is permanently concealed.",
+      "loss_scenario": "A water intrusion claim years later on a concealed condition, defensible only with installation photographs, where the remediation cost is the whole wall assembly and not just the siding.",
+      "rhetorical_question": "Do you photograph flashing and weather barrier details before cladding is installed?"
+    }
+  ]
+}

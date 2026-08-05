@@ -1,0 +1,31 @@
+{
+  "naics_code": "238330",
+  "naics_title": "Flooring Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Material is ordered by dye lot and cannot be topped up later.",
+      "why_this_business": "Carpet, tile, wood, and resilient flooring are manufactured in dye lots or runs that vary in shade. Material for a job is ordered together and reserved. Additional material ordered later commonly does not match, and lead times on specified product run weeks.",
+      "loss_scenario": "Shade variation across a floor is rejected by the architect and the whole area is replaced at the contractor's cost, plus schedule damage at the end of a project when flooring is on the critical path to occupancy.",
+      "rhetorical_question": "How do you track dye lot and run information on ordered material?"
+    },
+    {
+      "rank": 2,
+      "headline": "Moisture testing is the condition precedent to every warranty.",
+      "why_this_business": "Flooring over concrete requires relative humidity or calcium chloride testing to documented limits before installation, per ASTM standards, and manufacturer warranties are void without it. Adhesive failure from excess slab moisture is the most common flooring failure mode.",
+      "loss_scenario": "Adhesive failure across a large floor area with the manufacturer warranty voided for lack of moisture test records, leaving the contractor to remove and replace the entire installation.",
+      "rhetorical_question": "Where do you store slab moisture test results for each project?"
+    },
+    {
+      "rank": 3,
+      "headline": "Flooring installs last and absorbs everyone else's delay.",
+      "why_this_business": "Flooring goes in near the end of the schedule after the building is dried in and other trades are out, then furniture and occupancy follow immediately. Scheduling and material staging are coordinated tightly against the substantial completion date.",
+      "loss_scenario": "Overtime and premium labour to recover a schedule you did not cause, with acceleration costs frequently absorbed rather than recovered because the delay documentation was not maintained.",
+      "rhetorical_question": "How do you document delays caused by other trades ahead of your work?"
+    }
+  ]
+}

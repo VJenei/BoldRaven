@@ -1,0 +1,31 @@
+{
+  "naics_code": "238160",
+  "naics_title": "Roofing Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Storm work runs on homeowner insurance claim data.",
+      "why_this_business": "Residential roofers work storm-damaged markets, collecting homeowner names, addresses, insurance carrier and policy numbers, claim numbers, adjuster reports, and mortgage information for endorsed claim cheques. Some hold assignment of benefits documents giving them the claim itself.",
+      "loss_scenario": "A breach exposing insurance policy and claim data across a storm territory hands criminals everything needed to commit insurance fraud in the homeowners' names, and the notification obligation covers everyone in the file.",
+      "rhetorical_question": "Do you retain homeowner insurance policy, claim, or mortgage information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Roof warranties are the product and depend on registered documentation.",
+      "why_this_business": "Manufacturer system warranties on commercial roofs run fifteen to thirty years and require certified installation, inspection, and registration with the manufacturer. The warranty is what the owner is buying. Contractor certification status is held in manufacturer portals.",
+      "loss_scenario": "Warranty registration or certification that cannot be evidenced leaves the contractor absorbing a leak claim the manufacturer would otherwise have covered, on a roof worth hundreds of thousands.",
+      "rhetorical_question": "Which manufacturer certifications do you hold, and where is your warranty registration record?"
+    },
+    {
+      "rank": 3,
+      "headline": "Work is seasonal, weather driven, and scheduled day to day.",
+      "why_this_business": "Roofing production is dispatched daily against weather, material deliveries, and crew availability, with permits and inspections booked in sequence. A tear-off started and not dried in the same day exposes the building interior.",
+      "loss_scenario": "An open roof at the end of the day when scheduling and crew coordination fail, resulting in interior water damage claims from the building owner that far exceed the roofing contract value.",
+      "rhetorical_question": "How are your crews dispatched and jobs sequenced each morning?"
+    }
+  ]
+}

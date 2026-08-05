@@ -1,0 +1,31 @@
+{
+  "naics_code": "237210",
+  "naics_title": "Land Subdivision",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Land closings and lot takedowns settle by wire and are actively targeted.",
+      "why_this_business": "Subdividers buy land, sell finished lots to builders, and close through title companies with funds moved by wire. Closing instructions travel by email between developer, title, lender, and buyer. Real estate closing wire fraud specifically targets this pattern.",
+      "loss_scenario": "A diverted closing wire on a land or lot takedown, commonly $250,000 to several million. Recovery after 24 hours is rare and the escrow shortfall stops the closing.",
+      "rhetorical_question": "How are closing wire instructions confirmed between your office and the title company?"
+    },
+    {
+      "rank": 2,
+      "headline": "Entitlement records are the value of the land.",
+      "why_this_business": "The difference between raw land and finished lots is entitlement: zoning approvals, plat recordings, development agreements, utility will-serve letters, environmental clearances, and permit conditions accumulated over years. That file is the asset.",
+      "loss_scenario": "Loss of the entitlement record makes it impossible to demonstrate to a lender, buyer, or municipality what rights attach to the property, stalling closings and financing on a project carrying land debt.",
+      "rhetorical_question": "How many years of entitlement documentation are held for your active projects?"
+    },
+    {
+      "rank": 3,
+      "headline": "Development is financed on draws tied to reported progress.",
+      "why_this_business": "Land development loans fund horizontal improvements in draws against inspected progress, with lot releases priced into the loan documents. Lenders require reporting on absorption, cost to complete, and budget variance on a schedule.",
+      "loss_scenario": "Draw requests that cannot be supported stall funding while interest accrues on land debt, and covenant reporting failures can constitute default independent of project performance.",
+      "rhetorical_question": "What reporting does your development lender require, and how often?"
+    }
+  ]
+}

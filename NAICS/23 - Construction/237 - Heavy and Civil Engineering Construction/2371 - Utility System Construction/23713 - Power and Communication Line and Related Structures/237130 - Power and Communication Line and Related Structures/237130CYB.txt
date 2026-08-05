@@ -1,0 +1,31 @@
+{
+  "naics_code": "237130",
+  "naics_title": "Power and Communication Line and Related Structures Construction",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You work inside utility networks and hold their system information.",
+      "why_this_business": "Line contractors receive circuit maps, switching orders, protection settings, and outage schedules from the utility client, and are frequently granted access to utility systems for work management. For bulk electric system work, the client is subject to NERC CIP and passes supply chain requirements down under CIP-013.",
+      "loss_scenario": "A compromise reaching the utility through the contractor is a CIP-relevant event for the client, with regulatory consequence for them and removal from the approved contractor list for you.",
+      "rhetorical_question": "Do you hold utility system access or circuit and protection data from your clients?"
+    },
+    {
+      "rank": 2,
+      "headline": "Storm restoration work depends entirely on mobilisation systems.",
+      "why_this_business": "Mutual assistance and storm restoration is dispatched at short notice with crews, equipment, lodging, and daily time capture managed electronically. Billing is by crew hour against a master service agreement and is audited closely by the utility.",
+      "loss_scenario": "Inability to mobilise or to capture time during a storm event, which is where a large share of annual revenue is earned, and unbillable crew hours that are simply lost.",
+      "rhetorical_question": "How is crew time captured and billed during a storm restoration event?"
+    },
+    {
+      "rank": 3,
+      "headline": "Energised work depends on switching and clearance documentation.",
+      "why_this_business": "Work near energised conductors proceeds under a documented clearance and switching order from the utility, with hold tags and grounding recorded. The paperwork is the guarantee that the line is de-energised. Errors here are fatal.",
+      "loss_scenario": "A clearance failure results in electrocution. The liability, OSHA enforcement, and criminal exposure that follow are of a different order from any data loss.",
+      "rhetorical_question": "How are clearances and switching orders received and recorded by your crews?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "238390",
+  "naics_title": "Other Building Finishing Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty finishing systems carry manufacturer certification and warranty conditions.",
+      "why_this_business": "This category covers acoustical treatment, window treatments, specialty coatings, and similar systems installed under manufacturer certification with documented installation requirements. Long-form warranties depend on certified installers and recorded installation conditions.",
+      "loss_scenario": "Warranty declined for lack of documentation, leaving the contractor funding replacement of a specialty system across a whole building.",
+      "rhetorical_question": "Which manufacturer certifications does your work depend on, and where is that status recorded?"
+    },
+    {
+      "rank": 2,
+      "headline": "Finish trades are scheduled into a narrow window before occupancy.",
+      "why_this_business": "Finishing work is sequenced into the final weeks of a project, coordinated with other finish trades, cleaning, and commissioning. The occupancy date is committed to tenants or the owner and rarely moves.",
+      "loss_scenario": "Acceleration cost to hold an occupancy date, or liquidated damages passed down through the general contractor when the date is missed.",
+      "rhetorical_question": "How much of your work falls in the final month before occupancy?"
+    },
+    {
+      "rank": 3,
+      "headline": "Small specialty contractors hold concentrated project and payment data.",
+      "why_this_business": "Specialty finishing firms are small, often with one office administrator handling estimating, billing, lien notices, payroll, and certificates of insurance from a single computer. There is usually no IT function and frequently no verified backup.",
+      "loss_scenario": "A single ransomware event removes billing, payroll, and lien tracking simultaneously in a business with no redundancy and thin working capital.",
+      "rhetorical_question": "How many people in your office can perform billing and payroll if the main computer is unavailable?"
+    }
+  ]
+}

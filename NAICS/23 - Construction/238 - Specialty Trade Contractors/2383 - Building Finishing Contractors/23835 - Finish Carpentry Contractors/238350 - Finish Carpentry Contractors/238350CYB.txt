@@ -1,0 +1,31 @@
+{
+  "naics_code": "238350",
+  "naics_title": "Finish Carpentry Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Millwork is fabricated to field dimensions and cannot be adjusted much.",
+      "why_this_business": "Architectural millwork and casework are detailed from field measurements into shop drawings and CNC files, then fabricated to size in the shop. Wood species, grain matching, and finish are selected and approved. Material sequencing for grain match is decided before cutting.",
+      "loss_scenario": "Millwork fabricated to wrong dimensions or from the wrong material is scrapped. High end architectural millwork carries material and shop labour costs that make a single wrong run a five figure loss with weeks of lead time.",
+      "rhetorical_question": "How are field measurements transferred into your shop drawings and CNC files?"
+    },
+    {
+      "rank": 2,
+      "headline": "Finish work is the last trade before the owner walks the building.",
+      "why_this_business": "Finish carpentry is installed at the end of the project and is what the owner and architect look at during walkthroughs. Punch lists are generated and closed in the project management platform, with photographs and sign-offs tracked item by item.",
+      "loss_scenario": "Retainage and final payment withheld against punch items you cannot demonstrate were closed, on the last and most scrutinised portion of the work.",
+      "rhetorical_question": "How are punch list items assigned to you and signed off as complete?"
+    },
+    {
+      "rank": 3,
+      "headline": "Shop drawing approval is the record of what was agreed.",
+      "why_this_business": "Millwork proceeds only after shop drawings are reviewed and returned by the architect, with comments incorporated. That approval defines what you owe. Fabrication from unapproved or superseded drawings is at your own risk by contract.",
+      "loss_scenario": "A dispute over whether fabricated millwork matches the approved submittal, where without the approval record the architect's position prevails and the work is rebuilt.",
+      "rhetorical_question": "Where are your approved shop drawings and submittal responses stored?"
+    }
+  ]
+}

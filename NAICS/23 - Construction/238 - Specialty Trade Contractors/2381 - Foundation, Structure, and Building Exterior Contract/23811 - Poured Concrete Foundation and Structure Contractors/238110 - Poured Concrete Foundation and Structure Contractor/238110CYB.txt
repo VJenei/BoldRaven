@@ -1,0 +1,31 @@
+{
+  "naics_code": "238110",
+  "naics_title": "Poured Concrete Foundation and Structure Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A pour cannot be paused once it starts.",
+      "why_this_business": "Concrete placement is scheduled with the ready-mix supplier, pump, crew, and finishers all booked to the hour, and the material has a working life measured in hours. Scheduling, batch tickets, and delivery coordination run through supplier dispatch platforms and your own scheduling system.",
+      "loss_scenario": "A cancelled or mistimed pour wastes the delivered concrete, the pump, and a full crew day, and on a placement already started produces a cold joint that may require demolition and replacement of structural work.",
+      "rhetorical_question": "How is a concrete pour scheduled and confirmed with your supplier?"
+    },
+    {
+      "rank": 2,
+      "headline": "Batch tickets and test results are the permanent record of structural strength.",
+      "why_this_business": "Every load arrives with a batch ticket showing mix design, water added, and time. Cylinder break results at 7 and 28 days establish that the concrete met specification. These records are demanded years later in any structural dispute.",
+      "loss_scenario": "A structural defect claim you cannot defend without batch tickets and break results. Remediation of in-place structural concrete is among the most expensive rework in construction.",
+      "rhetorical_question": "Where do you keep batch tickets and cylinder test results after a project closes?"
+    },
+    {
+      "rank": 3,
+      "headline": "Formwork and shoring design is engineered and life safety critical.",
+      "why_this_business": "Formwork, shoring, and reshoring are engineered systems with stamped drawings and load calculations, and removal timing depends on concrete strength data. Formwork collapse during placement is one of the deadliest failure modes in construction.",
+      "loss_scenario": "A collapse causing multiple fatalities, with OSHA enforcement and litigation that turns on whether the engineered design and strength data were followed and documented.",
+      "rhetorical_question": "How are your engineered formwork and shoring drawings stored and issued to the field?"
+    }
+  ]
+}

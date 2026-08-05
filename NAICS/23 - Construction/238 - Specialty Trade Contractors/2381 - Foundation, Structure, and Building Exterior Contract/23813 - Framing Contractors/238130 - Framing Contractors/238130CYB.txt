@@ -1,0 +1,31 @@
+{
+  "naics_code": "238130",
+  "naics_title": "Framing Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Component packages are engineered and manufactured to a specific plan.",
+      "why_this_business": "Roof trusses and floor systems are engineered and fabricated to a layout tied to a specific house or building, delivered as a package. Framers work from that layout and from engineered wood beam specifications. A wrong package fits nothing and lead times run weeks.",
+      "loss_scenario": "Delivered components that do not match the building, with weeks of delay while replacements are engineered and fabricated, and framing crews idle or lost to another builder.",
+      "rhetorical_question": "How are truss and component layouts received and issued to your crews?"
+    },
+    {
+      "rank": 2,
+      "headline": "Framing crews are largely piece rate and heavily subcontracted.",
+      "why_this_business": "Framing runs on piece rate labour and layered subcontracting, with worker classification, payroll records, and workers compensation coverage under constant regulatory scrutiny. Certificates of insurance from every crew are collected and tracked.",
+      "loss_scenario": "Breach exposing worker payroll records, plus inability to produce certificates of insurance, which shifts uninsured injury exposure onto your policy through the general contractor's indemnity chain.",
+      "rhetorical_question": "How do you track certificates of insurance for the crews working under you?"
+    },
+    {
+      "rank": 3,
+      "headline": "You are paid per unit against a builder's production schedule.",
+      "why_this_business": "Framers work for production builders across many homes at once, paid on completion of defined stages verified by the builder's superintendent through the builder's system. Your schedule is set by their release of starts.",
+      "loss_scenario": "Unbillable completed stages and crews with nowhere to work when the builder's scheduling system is unavailable, in a trade where crews leave for another builder within days.",
+      "rhetorical_question": "How are completed stages verified and released for payment by your builders?"
+    }
+  ]
+}

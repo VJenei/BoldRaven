@@ -1,0 +1,31 @@
+{
+  "naics_code": "238910",
+  "naics_title": "Site Preparation Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Utility strikes are the defining catastrophic risk and locate records are the defence.",
+      "why_this_business": "Excavation contractors dig against one-call locate tickets with documented positive response, marked utilities, and in many cases hand-dug potholing to confirm depth. Ticket validity expires and must be renewed. The record proves you dug lawfully.",
+      "loss_scenario": "A gas transmission line strike causes explosion and fatalities. A fibre backbone cut generates carrier claims for downstream business interruption running into millions. Without ticket records the contractor is presumed at fault.",
+      "rhetorical_question": "How do you record locate tickets, positive responses, and photographs before excavating?"
+    },
+    {
+      "rank": 2,
+      "headline": "Grading runs from a digital terrain model through automated machine control.",
+      "why_this_business": "Dozers, excavators, and graders run GPS machine control from a design surface, cutting to grade automatically. The model is the design. Earthwork quantities for payment are calculated from surveys against that same model.",
+      "loss_scenario": "Grading to a wrong or superseded surface across a large site means re-excavating and rehauling material, which on a big site is hundreds of thousands of dollars of pure rework.",
+      "rhetorical_question": "How are design surfaces loaded into your machine control equipment and verified?"
+    },
+    {
+      "rank": 3,
+      "headline": "Stormwater compliance is inspected and enforced on a schedule.",
+      "why_this_business": "Construction sites over one acre operate under a stormwater permit requiring a pollution prevention plan, inspections after rain events and on a fixed interval, and corrective action documentation. Inspection records are the compliance evidence and are frequently kept in a mobile app.",
+      "loss_scenario": "Penalties assessed per day per violation for inspections that cannot be evidenced, plus citizen suit exposure under the Clean Water Act which does not require the regulator to act first.",
+      "rhetorical_question": "How are your stormwater inspections recorded and retained?"
+    }
+  ]
+}

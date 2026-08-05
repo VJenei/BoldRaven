@@ -1,0 +1,31 @@
+{
+  "naics_code": "238120",
+  "naics_title": "Structural Steel and Precast Concrete Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Shop drawings and fabrication files drive machines that cut steel to final size.",
+      "why_this_business": "Detailing produces shop drawings and CNC files from the structural model, driving beam lines, plate processors, and drilling. Steel is cut, coped, and drilled to exact dimension. A wrong or corrupted file produces members that do not fit and cannot be uncut.",
+      "loss_scenario": "Fabricated steel that must be scrapped and remade, at material and shop cost, plus erection delay on a project where steel drives the critical path for every trade behind it.",
+      "rhetorical_question": "Are your fabrication machines driven by files transferred from your detailing system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Erection sequence and crane engineering are safety critical documents.",
+      "why_this_business": "Steel erection follows an engineered sequence with stability bracing, and crane picks are planned with load charts, rigging calculations, and lift plans. OSHA subpart R requires written notification of concrete strength before steel erection over it. These are engineered documents, not informal plans.",
+      "loss_scenario": "A structural collapse during erection or a dropped load, both of which are typically fatal and both of which are investigated against the written lift and erection plans.",
+      "rhetorical_question": "How are your lift plans and erection sequence drawings issued and archived?"
+    },
+    {
+      "rank": 3,
+      "headline": "Mill certifications trace every piece of steel back to its heat.",
+      "why_this_business": "Structural steel carries mill test reports tying material to a heat number with chemistry and mechanical properties, required by code and by the specification. Traceability from mill to member is the evidence that the right grade of steel is in the building.",
+      "loss_scenario": "Inability to demonstrate material traceability, which on a public or institutional project can require destructive testing of installed steel or replacement, at the fabricator's expense.",
+      "rhetorical_question": "How do you retain mill test reports and tie them to fabricated members?"
+    }
+  ]
+}

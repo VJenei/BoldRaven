@@ -1,0 +1,31 @@
+{
+  "naics_code": "238320",
+  "naics_title": "Painting and Wall Covering Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Coating systems are specified and warranted by product and film thickness.",
+      "why_this_business": "Commercial and industrial painting is specified as a system with surface preparation standard, product, and dry film thickness. Inspection records document blast profile, ambient conditions, and measured thickness at the time of application. Manufacturer warranties depend on that documentation.",
+      "loss_scenario": "Coating failure with no application records, leaving the contractor to fund removal and recoating of a structure. On industrial steel, recoating cost far exceeds the original contract value.",
+      "rhetorical_question": "How do you record surface preparation and dry film thickness during application?"
+    },
+    {
+      "rank": 2,
+      "headline": "Lead and hazardous material work carries certification and recordkeeping duties.",
+      "why_this_business": "Work disturbing lead paint in pre-1978 housing and child-occupied facilities is governed by the EPA Renovation, Repair and Painting rule, requiring firm certification, certified renovators, and documented work practices retained for three years. Containment and cleaning verification are documented per job.",
+      "loss_scenario": "EPA penalties per violation per day for records that cannot be produced, and in a childhood lead exposure claim the absence of work practice records is close to indefensible.",
+      "rhetorical_question": "Do you perform work on pre-1978 buildings requiring RRP certification and records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Residential painters work inside occupied homes with customer data.",
+      "why_this_business": "Residential painting involves scheduled access to occupied homes, with customer contact details, payment information, access arrangements, and interior photographs held in a scheduling and CRM system.",
+      "loss_scenario": "Exposure of customer addresses combined with access details and interior photographs, which creates a physical security concern for customers rather than a purely financial one.",
+      "rhetorical_question": "Do you store home access details or interior photographs for your customers?"
+    }
+  ]
+}

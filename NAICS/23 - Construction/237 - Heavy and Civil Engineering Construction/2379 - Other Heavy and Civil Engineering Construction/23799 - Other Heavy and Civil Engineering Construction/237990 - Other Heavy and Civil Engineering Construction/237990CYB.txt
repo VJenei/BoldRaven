@@ -1,0 +1,31 @@
+{
+  "naics_code": "237990",
+  "naics_title": "Other Heavy and Civil Engineering Construction",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Heavy civil projects are large, long, and governed by claims documentation.",
+      "why_this_business": "Dams, marine terminals, tunnels, and similar work run for years under contracts where differing site conditions, delay, and change claims are the norm. The claim is won or lost on daily reports, survey records, photographs, schedule updates, and correspondence, all held digitally.",
+      "loss_scenario": "A change or delay claim worth millions that cannot be substantiated because the contemporaneous record is gone. In heavy civil the claim is often the difference between profit and loss on the job.",
+      "rhetorical_question": "What is the value of the change and delay claims currently open on your projects?"
+    },
+    {
+      "rank": 2,
+      "headline": "Marine, tunnel, and dam work carries specialised safety documentation.",
+      "why_this_business": "Diving operations, confined space entry, hyperbaric work, and controlled blasting all require documented procedures, permits, and qualification records for each worker. OSHA and Corps of Engineers requirements apply, and the records are examined after any incident.",
+      "loss_scenario": "Inability to produce permits and qualification records after an incident, which in this class of work frequently involves fatality and criminal investigation.",
+      "rhetorical_question": "Do you perform diving, tunnelling, or blasting work requiring documented permits?"
+    },
+    {
+      "rank": 3,
+      "headline": "Public infrastructure clients impose their own security requirements.",
+      "why_this_business": "Corps of Engineers, port authority, and transit agency contracts increasingly carry cybersecurity and controlled unclassified information handling requirements, along with facility security clearances for critical infrastructure sites. Design drawings for dams, locks, and ports are security sensitive.",
+      "loss_scenario": "Loss of eligibility for public infrastructure work, plus liability for disclosed drawings of critical facilities.",
+      "rhetorical_question": "Do your public contracts impose information handling or facility security requirements?"
+    }
+  ]
+}

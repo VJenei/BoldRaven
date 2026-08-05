@@ -1,0 +1,623 @@
+/* Bold Raven
+   Palette (no colour outside these five):
+     --bg     #292831  background
+     --body   #fbbbad  body text
+     --title  #ee8695  titles / headings
+     --ui     #4a7a96  UI elements, active state
+     --ui-dim #333f58  UI elements, idle state
+*/
+
+:root {
+  --bg: #292831;
+  --body: #fbbbad;
+  --title: #ee8695;
+  --ui: #4a7a96;
+  --ui-dim: #333f58;
+
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+
+  --gutter: 24px;
+  --rail-w: 284px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { height: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--body);
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Must beat the id selectors below, which set display on the views. */
+[hidden] { display: none !important; }
+
+/* ---------------------------------------------------------------- root view */
+
+#root-view {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: var(--gutter);
+}
+
+/* The mark and the wordmark read as one lockup, so they sit closer to each
+   other than the lockup sits to the input. */
+#mark {
+  width: 132px;
+  height: auto;
+  margin-bottom: -22px;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.wordmark {
+  margin: 0;
+  color: var(--title);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.62em;
+  text-indent: 0.62em;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.field-wrap {
+  position: relative;
+  width: min(320px, 100%);
+}
+
+#code-input {
+  width: 100%;
+  margin: 0;
+  padding: 14px 46px 14px 18px;
+  background: transparent;
+  border: 1px solid var(--ui-dim);
+  border-radius: 2px;
+  color: var(--body);
+  font-family: inherit;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.34em;
+  text-indent: 0.34em;
+  caret-color: var(--ui);
+  outline: none;
+  transition: border-color 90ms linear;
+}
+
+#code-input::placeholder { color: transparent; }
+
+#code-input:focus { border-color: var(--ui); }
+
+.field-wrap.reject #code-input { border-color: var(--title); }
+
+#enter-hint {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  color: var(--ui);
+  font-size: 17px;
+  line-height: 1;
+  opacity: 0;
+  transition: opacity 90ms linear;
+  pointer-events: none;
+  user-select: none;
+}
+
+.field-wrap.filled #enter-hint { opacity: 1; }
+
+.field-wrap.shake { animation: shake 220ms steps(6, end); }
+
+/* Pinned to the bottom so it never shifts the centred lockup. */
+.credit {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: var(--gutter);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 14px;
+  color: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.credit span + span::before {
+  content: "\00b7";
+  margin-right: 14px;
+  color: var(--ui-dim);
+}
+
+@keyframes shake {
+  0%   { transform: translateX(0); }
+  16%  { transform: translateX(-7px); }
+  33%  { transform: translateX(7px); }
+  50%  { transform: translateX(-5px); }
+  66%  { transform: translateX(5px); }
+  83%  { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}
+
+/* ---------------------------------------------------------------- code view */
+
+.code-view {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: var(--gutter);
+  gap: 20px;
+  animation: enter 130ms ease-out;
+}
+
+@keyframes enter {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.code-head {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--ui-dim);
+}
+
+.code-number {
+  color: var(--ui);
+  font-size: 13px;
+  letter-spacing: 0.22em;
+  user-select: all;
+}
+
+.code-title {
+  margin: 0;
+  color: var(--title);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.code-body {
+  display: grid;
+  grid-template-columns: var(--rail-w) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+  flex: 1;
+}
+
+/* rail */
+
+.rail {
+  position: sticky;
+  top: var(--gutter);
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border-left: 1px solid var(--ui-dim);
+}
+
+.rail-item {
+  display: grid;
+  grid-template-columns: 18px 42px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px;
+  padding: 7px 12px;
+  border: 0;
+  border-left: 2px solid transparent;
+  margin-left: -1px;
+  background: transparent;
+  color: var(--ui);
+  font-family: inherit;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 90ms linear, color 90ms linear,
+              border-color 90ms linear;
+}
+
+.rail-item .idx { color: var(--ui-dim); }
+.rail-item .abbr { font-weight: 700; }
+.rail-item .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rail-item.empty { opacity: 0.42; }
+
+.rail-item:hover { background: var(--ui-dim); }
+
+.rail-item.active {
+  background: var(--ui-dim);
+  border-left-color: var(--ui);
+  color: var(--body);
+  opacity: 1;
+}
+
+.rail-item.active .idx { color: var(--ui); }
+
+.rail-item:focus-visible {
+  outline: 1px solid var(--ui);
+  outline-offset: -1px;
+}
+
+/* panel */
+
+.panel { outline: none; }
+
+.panel.swap { animation: swap 110ms ease-out; }
+
+@keyframes swap {
+  from { opacity: 0; transform: translateX(6px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.policy-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 22px;
+}
+
+.policy-head h2 {
+  margin: 0;
+  color: var(--title);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.policy-head .abbr {
+  padding: 2px 7px;
+  border: 1px solid var(--ui-dim);
+  border-radius: 2px;
+  color: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+}
+
+.reasons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 78ch;
+}
+
+.reason { padding: 0 0 22px; }
+
+.reason + .reason {
+  padding-top: 22px;
+  border-top: 1px solid var(--ui-dim);
+}
+
+.reason-head {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.reason-head .rank {
+  color: var(--ui);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+/* The tool renders reason headlines as h3 under a rendered h1; the generated
+   pages render them as h2 under the page h1. Same thing, same look. */
+.reason-head h3,
+.reason-head h2 {
+  margin: 0;
+  color: var(--title);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 8px 12px;
+  margin: 0;
+}
+
+.fields dt {
+  color: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.fields dd {
+  margin: 0;
+  color: var(--body);
+}
+
+.empty-state {
+  margin: 0;
+  color: var(--ui);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* footer */
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding-top: 14px;
+  border-top: 1px solid var(--ui-dim);
+  color: var(--ui-dim);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  user-select: none;
+}
+
+.keys b { color: var(--ui); font-weight: 700; }
+
+.keys-credit {
+  margin-left: auto;
+  color: var(--ui);
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------ narrow */
+
+@media (max-width: 720px) {
+  .code-body {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .rail {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1px;
+    border-left: 0;
+    border-bottom: 1px solid var(--ui-dim);
+    padding-bottom: 10px;
+  }
+
+  .rail-item {
+    grid-template-columns: auto auto;
+    margin-left: 0;
+    border-left: 0;
+    border-bottom: 2px solid transparent;
+  }
+
+  .rail-item .name { display: none; }
+  .rail-item.active { border-left-color: transparent; border-bottom-color: var(--ui); }
+}
+
+/* ------------------------------------------------- generated (static) pages
+
+   Everything below styles the crawlable pages under /naics/. They reuse
+   .code-view, .rail, .panel and .reasons from above so the two surfaces look
+   identical; these rules only cover what a static page has and the tool
+   does not: breadcrumbs, link rails, directory lists, and pagers.          */
+
+.doc { animation: none; }
+
+.doc a { color: var(--ui); text-decoration: none; }
+.doc a:hover { color: var(--body); text-decoration: underline; }
+.doc a:focus-visible { outline: 1px solid var(--ui); outline-offset: 2px; }
+
+.crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  color: var(--ui-dim);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.crumbs .sep { color: var(--ui-dim); }
+.crumbs [aria-current] { color: var(--body); }
+
+.doc .code-title a { color: inherit; }
+.doc .code-title a:hover { color: var(--body); }
+
+/* The rail is <button> in the tool and <a> here. Inherit everything, then put
+   back what an anchor does not get from the shared rule. */
+a.rail-item {
+  text-decoration: none;
+  color: var(--ui);
+}
+
+a.rail-item:hover {
+  color: var(--body);
+  text-decoration: none;
+}
+
+.doc .policy-head h1 {
+  margin: 0;
+  color: var(--title);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.lede {
+  max-width: 72ch;
+  margin: 0 0 26px;
+  color: var(--body);
+  opacity: 0.86;
+}
+
+.panel.wide .dir-list { max-width: none; }
+
+.group {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 30px 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--ui-dim);
+  color: var(--ui);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.group span {
+  color: var(--title);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.dir-list {
+  margin: 0;
+  padding: 0;
+  max-width: 78ch;
+  list-style: none;
+}
+
+.dir-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--ui-dim);
+}
+
+.dir-list li.empty { opacity: 0.42; }
+
+.dir-list li > a {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  min-width: 0;
+}
+
+.dir-code {
+  color: var(--ui);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.14em;
+}
+
+.dir-name { color: var(--body); flex: 1; min-width: 0; }
+.dir-list li > a:hover .dir-name { color: var(--title); }
+
+.dir-note {
+  color: var(--ui-dim);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+
+.chip {
+  padding: 1px 6px;
+  border: 1px solid var(--ui-dim);
+  border-radius: 2px;
+  color: var(--ui);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.chip:hover {
+  border-color: var(--ui);
+  color: var(--body);
+  text-decoration: none;
+}
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 26px;
+  margin-top: 30px;
+  padding-top: 14px;
+  border-top: 1px solid var(--ui-dim);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.keyhint {
+  margin: 14px 0 0;
+  color: var(--ui-dim);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.keyhint b { color: var(--ui); font-weight: 700; }
+
+.doc-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: auto;
+  padding-top: 22px;
+  color: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.doc-foot span + span::before,
+.doc-foot a + span::before {
+  content: "\00b7";
+  margin-right: 14px;
+  color: var(--ui-dim);
+}
+
+/* Sits under the input on the root view without moving the centred lockup. */
+.root-links {
+  margin-top: -18px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.root-links a { color: var(--ui-dim); text-decoration: none; }
+.root-links a:hover { color: var(--ui); }
+
+/* --------------------------------------------------------- reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}

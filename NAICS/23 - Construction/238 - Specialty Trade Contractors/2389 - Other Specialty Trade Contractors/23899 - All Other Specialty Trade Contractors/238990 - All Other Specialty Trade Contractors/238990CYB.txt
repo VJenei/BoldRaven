@@ -1,0 +1,31 @@
+{
+  "naics_code": "238990",
+  "naics_title": "All Other Specialty Trade Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty contractors are paid last and carry the lien risk.",
+      "why_this_business": "Small specialty trades bill through the general contractor with pay-when-paid terms, preliminary notices, and statutory lien deadlines measured from last furnishing. Notice and filing dates are tracked in the office system. Missing a deadline forfeits the security completely.",
+      "loss_scenario": "Loss of lien rights on unpaid balances because deadline tracking was unavailable, on a business with thin margins where one unpaid contract is the year.",
+      "rhetorical_question": "How do you track preliminary notice and lien filing deadlines?"
+    },
+    {
+      "rank": 2,
+      "headline": "Certificates of insurance and prequalification control access to work.",
+      "why_this_business": "General contractors and owners require current certificates of insurance, safety statistics, licensing, and prequalification submitted through vendor management portals. Falling out of compliance in the portal removes you from the bid list automatically, without anyone telling you.",
+      "loss_scenario": "Silent removal from bid lists during the period your compliance documentation lapses, with work awarded to competitors before you notice.",
+      "rhetorical_question": "How many contractor prequalification portals must you keep current to stay eligible for work?"
+    },
+    {
+      "rank": 3,
+      "headline": "Field data capture is the only record of work performed.",
+      "why_this_business": "Specialty trades capture daily time, quantities, photographs, and completed work through mobile apps tied to the project. That record supports billing, backcharge defence, and warranty claims. Paper backup rarely exists any more.",
+      "loss_scenario": "Unbillable work and backcharges you cannot rebut, since the general contractor's records become the only version of events.",
+      "rhetorical_question": "What mobile app do your field crews use to record time and completed work?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "238210",
+  "naics_title": "Electrical Contractors and Other Wiring Installation Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You install and often retain access to the systems that run the building.",
+      "why_this_business": "Electrical contractors install and commission building automation, lighting control, fire alarm, and network infrastructure, and frequently keep remote access for service. Those systems control life safety functions and are connected to the client's network. Your credentials reach into every building you have worked on.",
+      "loss_scenario": "A compromise of your remote access tools reaches many client buildings at once, including fire alarm and access control. Liability runs to every affected owner, not just to your own operation.",
+      "rhetorical_question": "How many client buildings can you reach remotely for service today?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fire alarm and life safety documentation is a legal record.",
+      "why_this_business": "Fire alarm installation, programming, testing, and annual inspection records are required by NFPA 72 and enforced by the authority having jurisdiction. The as-programmed configuration and test records demonstrate the system will operate. Occupancy depends on it.",
+      "loss_scenario": "A certificate of occupancy withheld or revoked where test documentation cannot be produced, and after a fire, the absence of testing records is examined directly in the liability analysis.",
+      "rhetorical_question": "Where are your fire alarm programming and inspection records stored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Prefabrication and panel building run from digital models.",
+      "why_this_business": "Electrical contractors increasingly prefabricate assemblies, racks, and panels in a shop from BIM coordination models, cut to dimensions taken from the coordinated model rather than the field. Panel schedules and circuit directories are generated from the same data.",
+      "loss_scenario": "Prefabricated assemblies built to a wrong or stale model that do not fit, wasting shop labour and material and delaying installation on a coordinated schedule.",
+      "rhetorical_question": "Do you prefabricate assemblies from BIM coordination models?"
+    }
+  ]
+}
