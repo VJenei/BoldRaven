@@ -1,0 +1,31 @@
+{
+  "naics_code": "524298",
+  "naics_title": "All Other Insurance Related Activities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Service providers to insurers sit inside a regulated perimeter.",
+      "why_this_business": "Firms providing inspection, actuarial, rating, salvage, and other services to carriers hold policyholder and claimant data under contracts that pass down state insurance data security obligations. Carriers are required to oversee their vendors and to impose security requirements.",
+      "loss_scenario": "Loss of carrier appointments and contractual indemnity claims, plus in some states direct regulatory obligations as a licensee.",
+      "rhetorical_question": "What data security obligations do your carrier contracts impose on you?"
+    },
+    {
+      "rank": 2,
+      "headline": "Aggregated industry data reveals more than any single carrier's file.",
+      "why_this_business": "Firms serving multiple carriers accumulate loss data, rating information, and claim patterns across the market. That aggregation is commercially sensitive to every carrier that contributed and, in some contexts, raises antitrust sensitivity around information sharing.",
+      "loss_scenario": "Exposure of aggregated carrier data damages every client relationship at once and raises questions about information barriers that are difficult to answer after the fact.",
+      "rhetorical_question": "How is data from competing carriers separated within your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Time-sensitive services affect policyholders directly.",
+      "why_this_business": "Inspection, appraisal, and support services sit on the path between a policyholder and their claim payment or their coverage being bound. Delays are experienced by the policyholder as the carrier failing them.",
+      "loss_scenario": "Delayed inspections and appraisals stalling claims and new business across multiple carriers, with regulatory attention falling on the carriers and contractual consequences on you.",
+      "rhetorical_question": "How many carriers depend on your turnaround times to meet their own service commitments?"
+    }
+  ]
+}

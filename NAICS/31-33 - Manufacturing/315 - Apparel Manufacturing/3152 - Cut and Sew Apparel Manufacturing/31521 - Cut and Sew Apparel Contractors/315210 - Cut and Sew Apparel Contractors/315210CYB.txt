@@ -1,0 +1,31 @@
+{
+  "naics_code": "315210",
+  "naics_title": "Cut and Sew Apparel Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You produce other companies' branded product.",
+      "why_this_business": "Contractors cut and sew to customer patterns and specifications, holding brand owners' designs, patterns, and grading before those styles reach market. Counterfeit production from contractor patterns is a recognised problem.",
+      "loss_scenario": "Design and pattern disclosure enabling counterfeit production of customer styles, with brand owners holding the contractor responsible and terminating the relationship.",
+      "rhetorical_question": "How many brand owners' patterns and designs are held on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Labour compliance is audited by brand customers.",
+      "why_this_business": "Brand owners audit contractors for wage, hour, safety, and worker documentation compliance as a condition of production, with social compliance audits examining payroll and time records directly.",
+      "loss_scenario": "Failed social compliance audits where payroll and time records cannot be produced, with brands terminating production immediately given their own reputational exposure.",
+      "rhetorical_question": "How do you produce payroll and hours records for a brand's social compliance audit?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production schedules are set by retail delivery dates.",
+      "why_this_business": "Contractors produce against cut tickets tied to customer delivery commitments to retailers. The cutting, sewing, and shipping schedule leaves no slack before the retail date.",
+      "loss_scenario": "Missed delivery causing the brand to miss its retail window, with cancelled orders and chargebacks passed down to the contractor who caused the delay.",
+      "rhetorical_question": "How many days between your production completion and your customer's retail delivery date?"
+    }
+  ]
+}

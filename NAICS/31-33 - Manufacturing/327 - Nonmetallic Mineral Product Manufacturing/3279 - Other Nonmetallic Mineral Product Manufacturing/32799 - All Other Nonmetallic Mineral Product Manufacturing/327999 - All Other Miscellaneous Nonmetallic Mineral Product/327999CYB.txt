@@ -1,0 +1,31 @@
+{
+  "naics_code": "327999",
+  "naics_title": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Products serve applications with performance requirements.",
+      "why_this_business": "Manufacturers in this category produce mineral-based products for construction, industrial, and technical applications with specifications determining performance in service. Customers qualify products for specific uses.",
+      "loss_scenario": "Off-specification product failing in application, with consequences determined by the use and, for construction and technical products, remediation reaching the installed work.",
+      "rhetorical_question": "What applications rely on your product's specified performance?"
+    },
+    {
+      "rank": 2,
+      "headline": "Thermal processing runs continuously with high energy input.",
+      "why_this_business": "Kilns, furnaces, and dryers operate continuously at high temperature, with process control determining product properties and equipment integrity. Uncontrolled shutdowns damage refractory and thermal equipment.",
+      "loss_scenario": "Equipment damage from uncontrolled cooling plus lost production, with restart taking days and repair costs measured against equipment that is expensive and slow to rebuild.",
+      "rhetorical_question": "How long does your thermal equipment take to restart after an uncontrolled stop?"
+    },
+    {
+      "rank": 3,
+      "headline": "Silica and dust exposure carries occupational health duties.",
+      "why_this_business": "Mineral processing generates respirable dust including crystalline silica, requiring engineering controls, exposure monitoring, and medical surveillance under OSHA rules, with records retained for decades.",
+      "loss_scenario": "Occupational disease claims arising many years later where exposure records cannot be produced, leaving the employer unable to demonstrate that controls were effective.",
+      "rhetorical_question": "How long are your worker exposure and medical surveillance records retained?"
+    }
+  ]
+}

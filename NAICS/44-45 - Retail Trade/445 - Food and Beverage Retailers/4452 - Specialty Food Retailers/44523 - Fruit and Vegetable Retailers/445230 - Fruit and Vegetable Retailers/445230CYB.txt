@@ -1,0 +1,31 @@
+{
+  "naics_code": "445230",
+  "naics_title": "Fruit and Vegetable Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Most of your inventory is on the FDA Food Traceability List.",
+      "why_this_business": "Leafy greens, melons, tomatoes, cucumbers, peppers, fresh herbs, and sprouts are covered by FSMA Section 204, which requires retailers holding listed foods to maintain traceability lot codes and Key Data Elements and to provide records to FDA in an electronic sortable spreadsheet within 24 hours of request. The compliance date is July 20, 2028.",
+      "loss_scenario": "A traceback that cannot be answered leaves the retailer named in the investigation and unable to narrow the recall, which means clearing the category rather than a lot.",
+      "rhetorical_question": "Can you link produce on your shelf back to the supplier lot it came from?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fresh inventory has no tolerance for a disrupted order cycle.",
+      "why_this_business": "Produce retail orders daily against sales and shrink, with product arriving and moving within days. Ordering, receiving, and markdown decisions are made continuously. Product that sits is written off rather than carried.",
+      "loss_scenario": "Days of disrupted ordering produce both empty shelves and spoiled inventory simultaneously, and a produce retailer's entire draw is freshness.",
+      "rhetorical_question": "How many days of shelf life does your inventory have on arrival?"
+    },
+    {
+      "rank": 3,
+      "headline": "Card acceptance and food assistance payments both run through the register.",
+      "why_this_business": "Produce retailers process card transactions under PCI obligations and frequently accept SNAP electronic benefits, which requires FNS authorisation and carries its own recordkeeping and audit exposure. Retailers are disqualified for irregularities they cannot explain.",
+      "loss_scenario": "Card compromise costs, plus SNAP authorisation withdrawal where transaction records cannot support the activity, which for a neighbourhood grocer removes a large share of sales.",
+      "rhetorical_question": "Do you accept SNAP benefits, and how are those transactions recorded?"
+    }
+  ]
+}

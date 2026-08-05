@@ -1,0 +1,31 @@
+{
+  "naics_code": "811198",
+  "naics_title": "All Other Automotive Repair and Maintenance",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Vehicle service depends on manufacturer data access.",
+      "why_this_business": "Specialised automotive services require access to manufacturer service information, diagnostic platforms, and programming systems, along with parts catalogues identified by VIN. Modern vehicles cannot be serviced from generic information.",
+      "loss_scenario": "Work that cannot be completed with vehicles occupying the shop, and customers without transport while the shop cannot bill for work in progress.",
+      "rhetorical_question": "Which manufacturer systems must you reach to complete a typical job?"
+    },
+    {
+      "rank": 2,
+      "headline": "Customer and vehicle records accumulate over years.",
+      "why_this_business": "Shop systems hold customer contact details, vehicle identification, service histories, and stored payment methods, retained indefinitely for repeat business and warranty support.",
+      "loss_scenario": "Breach notification across current and former customers, with vehicle identification data supporting theft and identity data supporting conventional fraud.",
+      "rhetorical_question": "How many years of customer and vehicle records are in your system?"
+    },
+    {
+      "rank": 3,
+      "headline": "Small shops have no redundancy for the one system they use.",
+      "why_this_business": "Independent shops run scheduling, estimating, parts ordering, invoicing, and customer records through a single management system, frequently on a shop computer with no IT support and no verified backup.",
+      "loss_scenario": "The shop cannot schedule, order parts, or invoice, and for an owner-operated business with thin working capital an extended outage is a solvency event.",
+      "rhetorical_question": "When did you last verify that your shop management backup actually restores?"
+    }
+  ]
+}

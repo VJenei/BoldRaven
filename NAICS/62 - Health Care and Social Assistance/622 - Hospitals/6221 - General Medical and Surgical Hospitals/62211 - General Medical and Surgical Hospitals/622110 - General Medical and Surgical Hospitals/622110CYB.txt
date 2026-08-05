@@ -1,0 +1,31 @@
+{
+  "naics_code": "622110",
+  "naics_title": "General Medical and Surgical Hospitals",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Hospital ransomware forces ambulance diversion and delays care.",
+      "why_this_business": "Hospital attacks have repeatedly forced ambulance diversion, cancellation of surgeries, and reversion to paper for weeks. The 2024 attack on a major health system disrupted care across dozens of hospitals, and research has associated ransomware attacks with increased mortality at affected and neighbouring facilities.",
+      "loss_scenario": "Emergency departments on diversion, elective surgery cancelled, and clinicians practising without records for weeks. Recovery costs at large systems have exceeded $100 million, and the patient harm exposure is separate from the operational loss.",
+      "rhetorical_question": "How long could your hospital operate on paper before patient safety became the primary concern?"
+    },
+    {
+      "rank": 2,
+      "headline": "Connected medical devices are on the same networks as everything else.",
+      "why_this_business": "Infusion pumps, monitors, imaging, and clinical systems are networked, frequently running unsupported operating systems with vendor-controlled patching. Devices deliver medication and monitor patients directly, and FDA has issued repeated safety communications about device vulnerabilities.",
+      "loss_scenario": "Devices unavailable or unsafe to use, with clinical workarounds introducing medication error risk, and a device incident affecting a patient carrying both liability and FDA reporting obligations.",
+      "rhetorical_question": "How many connected medical devices are on your clinical network, and who patches them?"
+    },
+    {
+      "rank": 3,
+      "headline": "You hold the most complete records that exist about your patients.",
+      "why_this_business": "Hospitals hold diagnoses, treatment, imaging, laboratory results, psychiatric and substance use records, financial and insurance data, and employee records, for populations spanning entire communities across decades.",
+      "loss_scenario": "Notification measured in hundreds of thousands or millions, with OCR enforcement, state action, and class litigation, and health record breaches consistently among the most expensive per record of any data category.",
+      "rhetorical_question": "How many patient records does your system hold across all facilities and years?"
+    }
+  ]
+}

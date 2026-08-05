@@ -1,0 +1,31 @@
+{
+  "naics_code": "424610",
+  "naics_title": "Plastics Materials and Basic Forms and Shapes Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Resin is a commodity with rail-scale logistics and volatile pricing.",
+      "why_this_business": "Resin moves in hopper cars and bulk trucks against contracts tied to monthly price settlements. Distributors hold inventory in silos and railcars, with position, in-transit, and forward commitments determining exposure. Railcar demurrage and storage charges accrue continuously.",
+      "loss_scenario": "Unmanaged position through a monthly price move, plus demurrage on railcars that cannot be released or unloaded, which accumulates across a fleet of cars.",
+      "rhetorical_question": "How many railcars of material do you have in transit or on demurrage?"
+    },
+    {
+      "rank": 2,
+      "headline": "Processors run continuously and cannot substitute grade.",
+      "why_this_business": "Injection moulders and extruders run to a qualified resin grade with specific melt flow and additive package. Substitution changes the part. Plants run around the clock and hold limited silo capacity, ordering against a consumption schedule.",
+      "loss_scenario": "A processor running out of qualified resin shuts a line, with the resulting downtime claimed against the distributor and the customer's own delivery failures cascading behind it.",
+      "rhetorical_question": "How many days of resin do your customers hold in their silos?"
+    },
+    {
+      "rank": 3,
+      "headline": "Lot traceability supports quality claims and regulatory use.",
+      "why_this_business": "Resin lots carry certificates of analysis, and material used in food contact or medical applications requires documented compliance with FDA regulations. Traceability from producer lot to customer delivery is the evidence.",
+      "loss_scenario": "A quality or regulatory claim on finished product where the resin lot cannot be traced, leaving the distributor unable to pass the claim back to the producer.",
+      "rhetorical_question": "Do any customers use your material in food contact or medical applications?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "722511",
+  "naics_title": "Full-Service Restaurants",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Restaurant point of sale systems are a long-standing card breach target.",
+      "why_this_business": "Restaurants process card transactions with cards leaving the customer's sight, through point of sale systems that have been repeatedly targeted by malware harvesting card data at the terminal. PCI DSS 4.0 became fully mandatory on March 31, 2025.",
+      "loss_scenario": "Card brand assessments, forensic investigation, and reissuance costs across every card processed during the exposure window, with the merchant agreement assigning those costs to the restaurant.",
+      "rhetorical_question": "When was your point of sale software last updated, and by whom?"
+    },
+    {
+      "rank": 2,
+      "headline": "Service stops entirely when the point of sale stops.",
+      "why_this_business": "Orders route from the terminal to the kitchen display, tickets are fired by course, tabs are managed across a shift, and payment is taken at the table. Service at volume without the system is not achievable in a full-service format.",
+      "loss_scenario": "A restaurant unable to take orders or payment during a service period, with a full book of reservations turned away and food inventory purchased for covers that will not happen.",
+      "rhetorical_question": "Could you run a full Saturday service without your point of sale?"
+    },
+    {
+      "rank": 3,
+      "headline": "Allergen information is communicated through the ordering system.",
+      "why_this_business": "Allergy modifications are entered at the terminal and communicated to the kitchen through the ticket. Verbal communication in a busy kitchen is where allergen errors occur, and the system is the control that prevents it.",
+      "loss_scenario": "An anaphylaxis incident where an allergen modification did not reach the kitchen, which is a serious injury or death exposure with the restaurant unable to demonstrate the request was properly handled.",
+      "rhetorical_question": "How does an allergy request reach the kitchen from the table?"
+    }
+  ]
+}

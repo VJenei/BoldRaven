@@ -1,0 +1,31 @@
+{
+  "naics_code": "315250",
+  "naics_title": "Cut and Sew Apparel Manufacturing (except Contractors)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Seasonal apparel has no value after its window.",
+      "why_this_business": "Apparel is designed, produced, and delivered against retail seasons with delivery dates set months ahead. Retailers cancel late deliveries and goods that miss the season clear at a fraction of ticket.",
+      "loss_scenario": "Cancelled retail orders on a full season's production, with the goods clearing at markdown and the season's margin converted into a write-down.",
+      "rhetorical_question": "What is the value of your seasonal inventory the week after the delivery window closes?"
+    },
+    {
+      "rank": 2,
+      "headline": "Design and pattern files are the product before it exists.",
+      "why_this_business": "Design, patterns, grading, and marker files define the garment and drive automated cutting. Unreleased seasonal designs are commercially sensitive and are copied quickly if they leak.",
+      "loss_scenario": "Leaked designs copied and produced by fast fashion competitors ahead of your own launch, which removes the differentiation the season was built on.",
+      "rhetorical_question": "Do you hold unreleased seasonal designs on your systems right now?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retail vendor compliance is measured and penalised automatically.",
+      "why_this_business": "Apparel ships to retailers under routing guides specifying labelling, packing, advance ship notices, and delivery windows, with chargebacks applied automatically and scorecards affecting future orders.",
+      "loss_scenario": "Chargebacks reaching several percent of invoice value plus reduced orders in the following season, decided by automated systems that do not consider the reason.",
+      "rhetorical_question": "What percentage of your invoice value is lost to vendor compliance chargebacks?"
+    }
+  ]
+}

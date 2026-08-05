@@ -1,0 +1,31 @@
+{
+  "naics_code": "512131",
+  "naics_title": "Motion Picture Theaters (except Drive-Ins)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Films will not play without valid digital keys.",
+      "why_this_business": "Digital cinema content is encrypted and plays only with a key delivery message issued to a specific projector for a specific date range. Keys are managed through the theatre management system. Without valid keys and a functioning system the projector will not show the film.",
+      "loss_scenario": "Showtimes cancelled with audiences already ticketed, on opening weekend when a title earns the majority of its theatrical revenue. Refunds and lost concession sales compound the loss.",
+      "rhetorical_question": "How are your digital cinema keys delivered and managed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ticketing and loyalty hold payment credentials and subscription billing.",
+      "why_this_business": "Theatres sell through their own apps and third-party platforms, with reserved seating, loyalty accounts, gift cards, and increasingly subscription programmes billed to stored cards. PCI DSS 4.0 became fully mandatory on March 31, 2025.",
+      "loss_scenario": "Card compromise across a subscriber base with stored credentials, plus gift card and loyalty balance theft that converts to admissions immediately.",
+      "rhetorical_question": "How many subscribers have payment methods stored for recurring billing?"
+    },
+    {
+      "rank": 3,
+      "headline": "Concession and admission systems are the entire revenue capture.",
+      "why_this_business": "Theatres earn a large share of profit at the concession stand, with point of sale, kiosks, and mobile ordering integrated to the same platform as ticketing. Manual operation at a busy multiplex is not practical.",
+      "loss_scenario": "The site cannot sell tickets or concessions during peak periods, and audiences who cannot be served on a Friday night do not return later that weekend.",
+      "rhetorical_question": "What share of your profit comes from concession sales?"
+    }
+  ]
+}

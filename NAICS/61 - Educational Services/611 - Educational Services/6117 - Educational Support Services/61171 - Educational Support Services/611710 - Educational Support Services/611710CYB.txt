@@ -1,0 +1,31 @@
+{
+  "naics_code": "611710",
+  "naics_title": "Educational Support Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold student data on behalf of schools and districts.",
+      "why_this_business": "Support providers deliver assessment, tutoring, counselling, and administrative services to schools, holding student records under contract. FERPA obligations flow to contractors acting as school officials, and many states impose specific student data privacy requirements on education vendors.",
+      "loss_scenario": "A breach exposing student data where the district carries the notification obligation and the community reaction, and holds the vendor contractually responsible for the cost and the consequences.",
+      "rhetorical_question": "How many districts' student records are held on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "State student data privacy laws impose specific vendor obligations.",
+      "why_this_business": "Many states have enacted student data privacy laws restricting how education vendors may use, retain, and disclose student data, with contractual requirements, deletion obligations, and prohibitions on targeted advertising. Compliance is a condition of contracting with districts.",
+      "loss_scenario": "Statutory and contractual violations independent of any breach, with districts terminating contracts and state education authorities publicising vendors found non-compliant.",
+      "rhetorical_question": "Which state student data privacy laws apply to your contracts?"
+    },
+    {
+      "rank": 3,
+      "headline": "Assessment and instructional delivery is time-bound to the school calendar.",
+      "why_this_business": "Testing windows, instructional programmes, and reporting deadlines are set by the school calendar and by state assessment schedules that do not move. Districts plan instruction around delivery dates.",
+      "loss_scenario": "Missed assessment windows and interrupted instructional programmes, with districts unable to meet their own state reporting obligations and attributing the failure to the vendor.",
+      "rhetorical_question": "What state assessment or reporting windows depend on your delivery?"
+    }
+  ]
+}

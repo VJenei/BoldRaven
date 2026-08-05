@@ -1,0 +1,31 @@
+{
+  "naics_code": "562212",
+  "naics_title": "Solid Waste Landfill",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Scale house records are the revenue and the regulatory record simultaneously.",
+      "why_this_business": "Every load entering a landfill is weighed, classified, and ticketed at the scale house, generating both the invoice and the record of what was accepted. Tonnage reporting to regulators and host communities is calculated from that data, as are per-ton host fees.",
+      "loss_scenario": "Inability to accept and record loads closes the gate, with hauling customers diverting to competitors, and unreconcilable tonnage affecting regulatory reporting, host fees, and airspace accounting.",
+      "rhetorical_question": "What happens at your gate if the scale house system is unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "Environmental monitoring is a permit condition with long tails.",
+      "why_this_business": "Landfills operate under permits requiring groundwater monitoring, landfill gas collection and control, leachate management, and reporting, continuing for decades after closure. Monitoring data demonstrates that containment is working.",
+      "loss_scenario": "Monitoring gaps and unreportable data trigger enforcement, and where contamination is later found, the absence of monitoring records makes it impossible to establish when it began or to defend the containment system.",
+      "rhetorical_question": "How is groundwater and gas monitoring data collected and retained?"
+    },
+    {
+      "rank": 3,
+      "headline": "Landfill gas systems are controlled infrastructure with explosive potential.",
+      "why_this_business": "Gas collection and control systems manage methane through wellfields, blowers, and flares or energy recovery, monitored continuously. Methane migration off site creates explosion risk in nearby structures, and gas system failure causes odour and emissions violations.",
+      "loss_scenario": "Methane migration or an uncontrolled release, which is a public safety exposure with evacuation potential, plus emissions violations and community complaints that draw sustained regulatory attention.",
+      "rhetorical_question": "How is your landfill gas collection system monitored and controlled?"
+    }
+  ]
+}

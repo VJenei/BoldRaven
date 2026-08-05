@@ -1,0 +1,31 @@
+{
+  "naics_code": "424940",
+  "naics_title": "Tobacco Product and Electronic Cigarette Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal law requires you to report your sales to every state you ship into.",
+      "why_this_business": "The PACT Act requires anyone selling cigarettes, smokeless tobacco, or electronic nicotine delivery systems in interstate commerce to register with ATF and the states, and to file monthly reports listing every delivery, including customer names and addresses and quantities. Delivery sales carry additional age verification and shipping restrictions.",
+      "loss_scenario": "Failure to file monthly reports is a federal violation with substantial penalties per offence, and state tax authorities pursue unreported sales aggressively. Records that cannot be produced make each shipment indefensible.",
+      "rhetorical_question": "Do you file PACT Act monthly reports, and how is that data compiled?"
+    },
+    {
+      "rank": 2,
+      "headline": "Excise tax and stamping obligations attach to every unit.",
+      "why_this_business": "Tobacco carries federal and state excise taxes, with stamping requirements, licensed distributor status, and inventory reporting. Tax stamps are controlled inventory in their own right. Diversion between states with different tax rates is a persistent enforcement target.",
+      "loss_scenario": "Tax assessed on unreconciled inventory during an audit, plus licence action. Unaccounted product is presumed diverted and taxed accordingly.",
+      "rhetorical_question": "How do you reconcile tax stamp inventory against product shipped?"
+    },
+    {
+      "rank": 3,
+      "headline": "High value, high tax product is a theft and diversion target.",
+      "why_this_business": "Tobacco carries very high value per case once taxed, resells easily, and is a known cargo theft target. Warehouse and shipment records show exactly what is held and moving.",
+      "loss_scenario": "A stolen trailer of tobacco carries both the product loss and the tax liability, since tax obligations attach regardless of whether the product was stolen.",
+      "rhetorical_question": "What is the taxed value of a full trailer load of your product?"
+    }
+  ]
+}

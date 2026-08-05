@@ -1,0 +1,31 @@
+{
+  "naics_code": "561320",
+  "naics_title": "Temporary Help Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You are the employer of record for a large transient workforce.",
+      "why_this_business": "Temporary staffing firms employ workers assigned to client sites, holding Social Security numbers, identity and work authorisation documents, banking details for direct deposit, and payroll records for very large numbers of people with high turnover.",
+      "loss_scenario": "Breach notification across a workforce spanning many states and many years of past assignments, with payroll diversion exposure on weekly pay runs affecting thousands of workers.",
+      "rhetorical_question": "How many current and former workers' payroll records are held in your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Payroll and billing run weekly with no tolerance for delay.",
+      "why_this_business": "Temporary workers are paid weekly from time captured at client sites, and clients are billed from the same records. Workers in this segment frequently have no financial buffer and cannot absorb a missed pay date.",
+      "loss_scenario": "Workers unpaid on the due date, which causes immediate hardship and mass attrition, and unbillable hours where time records cannot be reconstructed from client sites.",
+      "rhetorical_question": "How is worker time captured at client sites and converted into payroll?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client site placements create access you are responsible for.",
+      "why_this_business": "Assigned workers receive access to client premises and systems, with the staffing firm responsible for screening and for the accuracy of who was placed where. Client contracts impose screening and confidentiality obligations.",
+      "loss_scenario": "Client claims arising from placed workers, where the firm cannot demonstrate screening was performed, plus exposure of client assignment data revealing their staffing and operations.",
+      "rhetorical_question": "How do you evidence that a placed worker was properly screened?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "316110",
+  "naics_title": "Leather and Hide Tanning and Finishing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Tanning is a chemical process with significant environmental exposure.",
+      "why_this_business": "Tanning uses chromium and other chemicals in wet processing, generating wastewater with heavy metals and high organic loading discharged under pretreatment permits with monitoring and reporting. Chrome-bearing waste is separately regulated.",
+      "loss_scenario": "Permit exceedances and reporting failures where monitoring data cannot be produced, with penalties per violation and the receiving authority able to restrict discharge, which stops the tannery entirely.",
+      "rhetorical_question": "What discharge monitoring does your pretreatment permit require?"
+    },
+    {
+      "rank": 2,
+      "headline": "Hide sourcing carries traceability expectations.",
+      "why_this_business": "Leather buyers, particularly in automotive and luxury goods, increasingly require traceability of hides to slaughterhouse and region for deforestation and animal welfare reasons, with documentation audited.",
+      "loss_scenario": "Loss of customer qualification where hide traceability cannot be demonstrated, with automotive and luxury customers removing suppliers who cannot meet their sourcing commitments.",
+      "rhetorical_question": "Can you trace a batch of finished leather back to hide origin?"
+    },
+    {
+      "rank": 3,
+      "headline": "Colour and finish matching is the technical product.",
+      "why_this_business": "Tanneries match colour and finish to customer standards using recipes developed for each specification, with automotive and furniture customers requiring consistency across production spanning months.",
+      "loss_scenario": "Loss of colour recipes means finish that cannot be matched to existing production, with automotive interiors and furniture ranges unable to be completed consistently.",
+      "rhetorical_question": "How many customer colour and finish recipes are held in your systems?"
+    }
+  ]
+}

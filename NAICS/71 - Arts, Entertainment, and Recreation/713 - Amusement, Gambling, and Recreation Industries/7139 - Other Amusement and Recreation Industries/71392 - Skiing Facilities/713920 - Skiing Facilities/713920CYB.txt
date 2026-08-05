@@ -1,0 +1,31 @@
+{
+  "naics_code": "713920",
+  "naics_title": "Skiing Facilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Lift access control and ticketing gate the whole mountain.",
+      "why_this_business": "Access is controlled by RFID passes read at lift gates, with season passes, day tickets, and lesson bookings all linked to guest records. Guests arrive in a concentrated morning window and cannot ski without validated access.",
+      "loss_scenario": "Guests unable to access lifts on a peak day, with refunds, crowd management issues at base areas, and a limited number of operating days in which revenue can be earned.",
+      "rhetorical_question": "How would guests access lifts if your gate system could not validate passes?"
+    },
+    {
+      "rank": 2,
+      "headline": "Snowmaking and lift operations are controlled industrial systems.",
+      "why_this_business": "Snowmaking systems are centrally controlled across the mountain with water, air, and temperature management, and lifts operate under control systems with safety interlocks. Snowmaking windows are narrow and determined by weather.",
+      "loss_scenario": "Missed snowmaking windows that cannot be recovered, leaving terrain unopenable for the season, and lift control failures that are a passenger safety exposure with state tramway authority involvement.",
+      "rhetorical_question": "How many snowmaking hours would you lose if central control were unavailable during a cold window?"
+    },
+    {
+      "rank": 3,
+      "headline": "Season pass programmes hold payment data and personal information.",
+      "why_this_business": "Passes are sold months ahead with photographs, stored payment methods for payment plans, and family and minor records, with pass products frequently linked across multiple resorts.",
+      "loss_scenario": "Exposure of passholder payment and photographic data across a large base, with multi-resort programmes multiplying the affected population beyond your own guests.",
+      "rhetorical_question": "How many season passholders have payment methods stored with you?"
+    }
+  ]
+}

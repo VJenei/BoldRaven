@@ -1,0 +1,31 @@
+{
+  "naics_code": "333998",
+  "naics_title": "All Other Miscellaneous General Purpose Machinery Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Machines ship with control systems you write and support.",
+      "why_this_business": "General purpose machinery includes PLCs, drives, and HMIs programmed by the builder, frequently with remote access for commissioning and support that reaches into customer plant networks.",
+      "loss_scenario": "Remote support access used to reach customer networks, with production stopped at multiple plants and the manufacturer identified as the common entry point.",
+      "rhetorical_question": "How many customer sites do you retain remote access to?"
+    },
+    {
+      "rank": 2,
+      "headline": "Machine safety functions prevent operator injury.",
+      "why_this_business": "Guarding, interlocks, and safety-rated control functions stop machine motion when a person is exposed. Those functions are designed and validated by the machine builder and documented for the customer.",
+      "loss_scenario": "A safety function defect permitting motion with a person exposed, causing serious injury, with the builder's validation records examined and every machine of the design affected.",
+      "rhetorical_question": "How are safety-rated control functions validated and documented per machine?"
+    },
+    {
+      "rank": 3,
+      "headline": "Designs and control code exist only in your systems.",
+      "why_this_business": "Machines are engineered to order with mechanical designs, electrical schematics, and control code produced once for that machine. Customers depend on the builder for support over the machine's life.",
+      "loss_scenario": "Loss of design and control code with machines in build stopped and installed machines unsupportable, leaving customers with equipment nobody can modify or repair.",
+      "rhetorical_question": "How many machine designs and control programmes exist only on your systems?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "561622",
+  "naics_title": "Locksmiths",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Key codes and master key systems open buildings.",
+      "why_this_business": "Locksmiths hold key codes, master key system charts, safe combinations, and access hardware configurations for client buildings including commercial, institutional, and residential premises. A master key chart describes how to open every door in a facility.",
+      "loss_scenario": "Exposure of key codes and master key charts requires rekeying entire facilities at very substantial cost, and until that happens the client's buildings are open to anyone with the data.",
+      "rhetorical_question": "Do you hold master key system charts or safe combinations for client facilities?"
+    },
+    {
+      "rank": 2,
+      "headline": "Service records identify customers, addresses, and their security.",
+      "why_this_business": "Job records document what hardware is installed at which address, when it was serviced, and what weaknesses were noted or remedied. Residential customers include people who called after a break-in or a domestic incident.",
+      "loss_scenario": "Exposure of customer addresses and installed hardware details, which identifies both what protection exists and, for customers with documented vulnerabilities, where it is weakest.",
+      "rhetorical_question": "Do your job records note the hardware and security weaknesses at customer addresses?"
+    },
+    {
+      "rank": 3,
+      "headline": "Electronic access control means you administer client credentials.",
+      "why_this_business": "Locksmiths increasingly install and program electronic locks and access control, holding administrative credentials and issuing user access. Some systems allow remote unlocking and credential changes.",
+      "loss_scenario": "Unauthorised access to client premises through credentials or systems you administer, making the locksmith the origin of a physical security breach with liability for whatever follows.",
+      "rhetorical_question": "Do you retain administrative access to electronic locks you have installed?"
+    }
+  ]
+}

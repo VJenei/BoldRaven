@@ -1,0 +1,31 @@
+{
+  "naics_code": "611691",
+  "naics_title": "Exam Preparation and Tutoring",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Students are frequently minors and their academic weaknesses are recorded.",
+      "why_this_business": "Tutoring services hold student names, ages, schools, diagnostic assessment results, learning difficulties, and progress notes, along with parent contact and payment details. Session schedules identify where a named child will be and when.",
+      "loss_scenario": "Exposure of children's names, schools, learning difficulties, and session schedules, which is both a child safety concern and a disclosure of sensitive educational information about identified minors.",
+      "rhetorical_question": "Do your records document learning difficulties or diagnostic results for named children?"
+    },
+    {
+      "rank": 2,
+      "headline": "Test preparation content is proprietary and its integrity matters.",
+      "why_this_business": "Providers develop proprietary practice materials and, where they handle official test content or administer proctored assessments, are bound by testing body agreements. Test content leakage is pursued aggressively and can invalidate results.",
+      "loss_scenario": "Loss of proprietary content to competitors, and where official test material was involved, claims from the testing body and potential invalidation of results for students who used it.",
+      "rhetorical_question": "Do you handle any official test content under agreement with a testing body?"
+    },
+    {
+      "rank": 3,
+      "headline": "Recurring billing and scheduling drive the operation.",
+      "why_this_business": "Tutoring runs on recurring session schedules with automatic billing to stored payment methods, tutor assignment, and progress tracking. Families book around school terms and examination dates.",
+      "loss_scenario": "Sessions missed in the run-up to examinations that cannot be rescheduled, with families claiming for preparation that did not happen ahead of a fixed test date.",
+      "rhetorical_question": "How many sessions are scheduled in the weeks before a major examination date?"
+    }
+  ]
+}

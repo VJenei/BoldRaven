@@ -1,0 +1,31 @@
+{
+  "naics_code": "325998",
+  "naics_title": "All Other Miscellaneous Chemical Product and Preparation Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Chemical manufacture carries process safety and reporting obligations.",
+      "why_this_business": "Facilities producing chemical products handle hazardous materials in reaction, blending, and filling operations, with threshold quantities triggering process safety management and risk management planning, plus TSCA and community right to know reporting.",
+      "loss_scenario": "An incident with worker injury and community exposure, investigated against process safety documentation, plus reporting violations where chemical inventory and release data cannot be produced.",
+      "rhetorical_question": "Which federal chemical programmes apply to your facility?"
+    },
+    {
+      "rank": 2,
+      "headline": "Formulations are the product and frequently belong to customers.",
+      "why_this_business": "Manufacturers in this category produce to proprietary formulations, their own and their customers', with performance qualified into downstream applications. Formulations represent development investment and confidentiality obligations.",
+      "loss_scenario": "Formulation disclosure destroying proprietary value and breaching customer confidentiality, with contractual liability and loss of the toll manufacturing relationships that fill the plant.",
+      "rhetorical_question": "How many customer formulations are held on your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Product specification failures propagate into customer products.",
+      "why_this_business": "Chemical products are used as ingredients and process materials by customers who qualify them for specific uses. Off-specification material causes failures in the customer's process or product.",
+      "loss_scenario": "Customer production failures and product recalls traced to your material, with claims covering their losses and requalification required before supply resumes.",
+      "rhetorical_question": "How is product specification verified and documented before release?"
+    }
+  ]
+}

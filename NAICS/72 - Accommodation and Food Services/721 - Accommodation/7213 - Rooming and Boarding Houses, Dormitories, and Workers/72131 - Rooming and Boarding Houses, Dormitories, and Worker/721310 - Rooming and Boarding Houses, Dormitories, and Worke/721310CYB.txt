@@ -1,0 +1,31 @@
+{
+  "naics_code": "721310",
+  "naics_title": "Rooming and Boarding Houses, Dormitories, and Workers' Camps",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Resident records identify vulnerable people and where they sleep.",
+      "why_this_business": "Operators hold resident identities, room assignments, emergency contacts, and frequently employer or institutional affiliation. Residents include students, transient workers, and people in insecure housing situations.",
+      "loss_scenario": "Exposure of resident identities and room assignments, which identifies where specific individuals sleep, and for residents avoiding a particular person that is a direct safety exposure.",
+      "rhetorical_question": "Do your records identify which resident occupies which room?"
+    },
+    {
+      "rank": 2,
+      "headline": "Access control secures shared residential buildings.",
+      "why_this_business": "Facilities use electronic access control for building and room entry, with credentials issued and revoked as residents come and go. Shared residential settings depend on that control to keep non-residents out.",
+      "loss_scenario": "Unauthorised access to a residential building, which is a physical safety exposure for residents and, where the operator is a landlord, a habitability and security liability.",
+      "rhetorical_question": "How quickly are access credentials revoked when a resident leaves?"
+    },
+    {
+      "rank": 3,
+      "headline": "Workforce housing ties accommodation to employment records.",
+      "why_this_business": "Workers' camps and employer-provided housing link accommodation to employment, holding worker identity, immigration documentation for guest workers, payroll deductions for housing, and occupancy records subject to inspection.",
+      "loss_scenario": "Exposure of worker immigration and identity documentation for a population that is frequently vulnerable, plus regulatory exposure where housing conditions and deduction records cannot be produced.",
+      "rhetorical_question": "Do you hold immigration or work authorisation documents for resident workers?"
+    }
+  ]
+}

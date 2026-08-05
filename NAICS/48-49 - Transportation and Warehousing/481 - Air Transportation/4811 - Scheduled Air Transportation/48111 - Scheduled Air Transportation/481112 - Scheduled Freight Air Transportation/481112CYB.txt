@@ -1,0 +1,31 @@
+{
+  "naics_code": "481112",
+  "naics_title": "Scheduled Freight Air Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Air cargo moves on a schedule measured in hours and there is no buffer.",
+      "why_this_business": "Scheduled freight operations run tightly connected hub networks where a missed sort cascades across the entire network overnight. Load planning, weight and balance, customs data transmission, and tracking are all system-driven and time-critical.",
+      "loss_scenario": "A missed sort night misplaces freight across the whole network for days. Time-definite service guarantees mean refunds on affected shipments regardless of cause, and pharmaceutical and perishable cargo is destroyed rather than delayed.",
+      "rhetorical_question": "What happens to your network if one night's sort cannot be planned?"
+    },
+    {
+      "rank": 2,
+      "headline": "Advance cargo data must reach customs before the aircraft departs.",
+      "why_this_business": "Air cargo requires advance electronic manifest data to US Customs and participation in air cargo advance screening for inbound shipments. Cargo without transmitted data does not clear and in many cases cannot be loaded.",
+      "loss_scenario": "Freight that cannot be loaded or cleared, with penalties for late or inaccurate manifest data and cargo sitting at origin while the customer's supply chain stops.",
+      "rhetorical_question": "How is your advance electronic manifest data transmitted to customs?"
+    },
+    {
+      "rank": 3,
+      "headline": "High value and pharmaceutical cargo depends on documented handling.",
+      "why_this_business": "Air freight carries the highest value density of any mode, including pharmaceuticals under temperature control, electronics, and precious cargo. Temperature excursion records, chain of custody, and security screening documentation follow each shipment.",
+      "loss_scenario": "Pharmaceutical shipments condemned for unverifiable temperature control, at values that routinely exceed a million dollars per pallet position.",
+      "rhetorical_question": "Do you carry temperature-controlled pharmaceutical freight requiring documented conditions?"
+    }
+  ]
+}

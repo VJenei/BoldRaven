@@ -1,0 +1,31 @@
+{
+  "naics_code": "517121",
+  "naics_title": "Telecommunications Resellers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Reselling does not transfer the regulatory obligation.",
+      "why_this_business": "Resellers hold direct customer relationships and are subject to FCC customer proprietary network information rules, including the protection requirements and the breach notification obligations to the FCC, FBI, and Secret Service updated in 2024. The underlying carrier's compliance does not cover you.",
+      "loss_scenario": "FCC enforcement against the reseller directly for CPNI failures, with no ability to shift responsibility to the facilities-based carrier whose network you resell.",
+      "rhetorical_question": "Do you understand your own CPNI obligations as distinct from your underlying carrier's?"
+    },
+    {
+      "rank": 2,
+      "headline": "Account provisioning is where SIM swap and port-out fraud occurs.",
+      "why_this_business": "Resellers activate service, port numbers, and change SIMs through carrier interfaces. FCC rules require secure customer authentication before SIM changes and port-outs. Reseller staff and their systems are the point where an attacker attempts the transfer.",
+      "loss_scenario": "Customers whose numbers were transferred fraudulently suffer account takeover at their bank and email providers, with claims against the reseller that authorised the change.",
+      "rhetorical_question": "What authentication do your staff perform before porting a number or changing a SIM?"
+    },
+    {
+      "rank": 3,
+      "headline": "Billing and provisioning platforms are the entire operation.",
+      "why_this_business": "Resellers have no network of their own. Their business is the billing platform, provisioning interfaces, and customer care systems that sit between the customer and the underlying carrier. Without them there is no service delivery and no revenue capture.",
+      "loss_scenario": "Inability to provision, bill, or support customers while wholesale costs continue to accrue from the underlying carrier, which is a direct margin loss with no offsetting reduction.",
+      "rhetorical_question": "Do your wholesale costs continue if you cannot bill your customers?"
+    }
+  ]
+}

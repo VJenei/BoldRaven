@@ -1,0 +1,31 @@
+{
+  "naics_code": "325612",
+  "naics_title": "Polish and Other Sanitation Good Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Disinfectant claims are regulated by EPA as pesticides.",
+      "why_this_business": "Products making antimicrobial claims are registered pesticides under FIFRA with approved labels specifying organisms, contact times, and use directions. Efficacy claims must be supported and the label is legally enforceable.",
+      "loss_scenario": "Product distributed with unapproved claims or failing efficacy, with EPA stop sale orders and, where the product was relied on for infection control, exposure where it did not perform as claimed.",
+      "rhetorical_question": "Which of your products carry EPA registration for antimicrobial claims?"
+    },
+    {
+      "rank": 2,
+      "headline": "Formulation errors affect both efficacy and safety.",
+      "why_this_business": "Sanitising and disinfecting products depend on active ingredient concentration for efficacy, with under-concentration producing a product that does not disinfect and over-concentration producing hazard beyond the label.",
+      "loss_scenario": "Under-strength disinfectant used in healthcare and food service where infection control was relied upon, with outbreak exposure, or over-concentrated product causing chemical injury.",
+      "rhetorical_question": "How is active ingredient concentration verified for each batch?"
+    },
+    {
+      "rank": 3,
+      "headline": "Institutional customers depend on continuous supply.",
+      "why_this_business": "Healthcare, food service, and institutional customers use sanitation products continuously as part of documented cleaning and infection control programmes, with products qualified into their procedures.",
+      "loss_scenario": "Customers without qualified sanitation products, unable to execute documented infection control procedures, which in healthcare and food service is a compliance and safety failure.",
+      "rhetorical_question": "Are your products written into customer infection control or food safety procedures?"
+    }
+  ]
+}

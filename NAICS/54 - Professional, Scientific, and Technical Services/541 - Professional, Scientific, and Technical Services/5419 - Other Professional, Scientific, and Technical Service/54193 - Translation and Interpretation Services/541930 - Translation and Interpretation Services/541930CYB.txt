@@ -1,0 +1,31 @@
+{
+  "naics_code": "541930",
+  "naics_title": "Translation and Interpretation Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You translate the most confidential documents your clients produce.",
+      "why_this_business": "Translation providers handle legal filings, patent applications, merger documents, medical records, and immigration files. Material is sent for translation precisely because it must be understood by another party, and it frequently represents the most sensitive material in a matter.",
+      "loss_scenario": "Disclosure of client documents including privileged legal material, unfiled patents, and medical records, with liability under confidentiality terms and, for patents, potential loss of rights through prior disclosure.",
+      "rhetorical_question": "What categories of client documents pass through your systems in a typical month?"
+    },
+    {
+      "rank": 2,
+      "headline": "Medical and legal interpretation involves protected information.",
+      "why_this_business": "Interpreters working in healthcare handle protected health information and are business associates under HIPAA, while legal interpretation involves privileged communications. Session records, assignment details, and any notes carry that sensitivity.",
+      "loss_scenario": "HIPAA exposure as a business associate, and in legal contexts potential privilege issues, with healthcare and legal clients terminating relationships immediately after a confidentiality failure.",
+      "rhetorical_question": "Do your interpreters work in healthcare settings under business associate agreements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Linguist networks are distributed and largely contractor-based.",
+      "why_this_business": "Providers work through networks of freelance translators and interpreters worldwide, distributing client documents to individuals working on their own equipment in many jurisdictions. Control over where documents go and how they are stored is limited.",
+      "loss_scenario": "A breach at a contractor's own machine exposing client material, where the provider is contractually responsible but has no practical control over the environment where the loss occurred.",
+      "rhetorical_question": "How do you control what happens to a client document once it reaches a freelance linguist?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "333132",
+  "naics_title": "Oil and Gas Field Machinery and Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pressure control equipment is what prevents a blowout.",
+      "why_this_business": "Blowout preventers, wellheads, and pressure control equipment are the barrier between a well and an uncontrolled release. API specifications govern design, materials, testing, and traceability, and equipment is certified to those specifications.",
+      "loss_scenario": "Pressure control equipment failing on a well, which is a blowout with fire, fatalities, and environmental release, and the manufacturer's material and test records determining whether the equipment ever met specification.",
+      "rhetorical_question": "How are material certifications and pressure test records retained for equipment serial numbers?"
+    },
+    {
+      "rank": 2,
+      "headline": "Certification and traceability are API and regulatory requirements.",
+      "why_this_business": "API monogram licensing requires a documented quality system with material traceability, testing records, and audit. Offshore equipment is additionally subject to BSEE requirements after the Macondo blowout.",
+      "loss_scenario": "Loss of API licensing where quality records cannot be produced, removing the ability to supply the equipment the business is built on, and requiring customers to verify equipment already in service.",
+      "rhetorical_question": "What records does your API monogram audit require you to produce?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment carries controls and automation supplied with it.",
+      "why_this_business": "Field equipment increasingly ships with control panels, PLCs, and remote monitoring that connect into operator networks. The manufacturer supplies and sometimes supports that software.",
+      "loss_scenario": "Vulnerabilities in supplied control systems giving access into operator networks, with the manufacturer identified as the entry point across every customer that installed the equipment.",
+      "rhetorical_question": "Does your equipment ship with control systems or remote monitoring you support?"
+    }
+  ]
+}

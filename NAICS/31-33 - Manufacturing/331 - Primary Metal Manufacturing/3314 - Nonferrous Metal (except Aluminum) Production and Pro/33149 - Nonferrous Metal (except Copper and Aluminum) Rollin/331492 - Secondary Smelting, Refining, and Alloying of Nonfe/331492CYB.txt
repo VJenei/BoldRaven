@@ -1,0 +1,31 @@
+{
+  "naics_code": "331492",
+  "naics_title": "Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Lead recycling carries severe worker and community exposure controls.",
+      "why_this_business": "Secondary lead smelting, principally battery recycling, is subject to strict lead emissions standards, worker blood lead monitoring, and hygiene controls. Lead exposure causes permanent neurological damage, particularly in children exposed through contaminated dust.",
+      "loss_scenario": "Emissions exceedances producing community lead exposure, which in this industry has produced facility closures, criminal prosecution, and remediation liabilities in the hundreds of millions.",
+      "rhetorical_question": "How are lead emissions and worker blood lead levels monitored and recorded?"
+    },
+    {
+      "rank": 2,
+      "headline": "Molten metal and battery processing are hazardous.",
+      "why_this_business": "Battery breaking and smelting handles acid, lead, and molten metal, with explosion risk from sealed containers and moisture entering furnaces, and acid handling throughout.",
+      "loss_scenario": "Molten metal explosions and acid releases with worker injury, plus environmental releases of acid and lead-bearing material requiring emergency response and remediation.",
+      "rhetorical_question": "How is incoming feed inspected before charging into molten metal?"
+    },
+    {
+      "rank": 3,
+      "headline": "Metal accounting determines settlement with suppliers.",
+      "why_this_business": "Secondary smelters pay for contained metal in scrap determined by assay and weight, with metal accounting reconciling recovery against inputs. Payment terms depend on those measurements.",
+      "loss_scenario": "Unresolvable supplier settlements and metal accounting discrepancies, where the contained metal value is substantial and suppliers dispute recoveries they cannot verify.",
+      "rhetorical_question": "How are incoming assays and recoveries recorded for supplier settlement?"
+    }
+  ]
+}

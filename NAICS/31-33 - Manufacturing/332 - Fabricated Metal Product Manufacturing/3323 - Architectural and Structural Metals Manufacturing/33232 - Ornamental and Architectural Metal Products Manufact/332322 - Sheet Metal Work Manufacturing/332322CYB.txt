@@ -1,0 +1,31 @@
+{
+  "naics_code": "332322",
+  "naics_title": "Sheet Metal Work Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fabrication runs from digital files to automated equipment.",
+      "why_this_business": "Sheet metal fabrication uses laser cutters, punches, and brakes driven by nest and bend programmes generated from customer drawings. Programmes define every cut and bend, and metal is not reworkable once cut.",
+      "loss_scenario": "Parts cut and formed to wrong programmes, scrapped at material and machine time, with customer assemblies waiting on components that must be remade.",
+      "rhetorical_question": "How are nesting and bend programmes generated and verified before cutting?"
+    },
+    {
+      "rank": 2,
+      "headline": "HVAC ductwork is fabricated to project drawings and schedules.",
+      "why_this_business": "Ductwork is fabricated to coordinated drawings for a specific building, with fittings and dimensions matched to the coordinated model. Installation is sequenced with other trades in ceiling spaces.",
+      "loss_scenario": "Ductwork fabricated to superseded coordination, which does not fit the available space, requiring refabrication and delaying the mechanical installation and everything sequenced behind it.",
+      "rhetorical_question": "How is drawing coordination version controlled through to your fabrication?"
+    },
+    {
+      "rank": 3,
+      "headline": "Custom fabrication has no alternative source.",
+      "why_this_business": "Sheet metal components are made to customer designs, frequently as parts of equipment or enclosures with no stock equivalent. Customers designed the part around your capability.",
+      "loss_scenario": "Customer production or installation stopped for want of a fabricated component, with no alternative supplier able to produce it without programming and setup.",
+      "rhetorical_question": "How quickly could another fabricator produce your customers' parts from scratch?"
+    }
+  ]
+}

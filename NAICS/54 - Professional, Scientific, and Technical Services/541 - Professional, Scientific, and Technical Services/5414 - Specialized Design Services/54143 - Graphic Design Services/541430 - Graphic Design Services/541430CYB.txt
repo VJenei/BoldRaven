@@ -1,0 +1,31 @@
+{
+  "naics_code": "541430",
+  "naics_title": "Graphic Design Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Client brand assets and unreleased campaigns sit on your systems.",
+      "why_this_business": "Designers hold logos, brand guidelines, packaging artwork, and campaign creative before launch, along with the working files that clients frequently do not hold themselves. Campaigns are timed to announcements and product releases.",
+      "loss_scenario": "A leaked campaign or unreleased packaging design forfeits the launch and hands competitors advance notice, with client claims measured against the campaign spend rather than the design fee.",
+      "rhetorical_question": "Do you hold unreleased campaign or packaging artwork for clients right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Production deadlines are set by print and media bookings.",
+      "why_this_business": "Artwork must reach printers, publications, and media platforms by booking deadlines that were paid for in advance. Print slots and media placements do not move for a missed file.",
+      "loss_scenario": "Missed print and media deadlines with the placement already bought, so the client loses the media value and claims it against the designer.",
+      "rhetorical_question": "What media or print bookings depend on your file delivery dates?"
+    },
+    {
+      "rank": 3,
+      "headline": "Working files are frequently the only copy in existence.",
+      "why_this_business": "Clients typically receive finished output rather than layered working files, which remain with the designer. Future revisions, format adaptations, and reprints all depend on those files.",
+      "loss_scenario": "Loss of working files means brand assets must be recreated from finished output, degrading quality and costing the client the value of design work already paid for.",
+      "rhetorical_question": "Do your clients hold copies of the layered working files, or only the final output?"
+    }
+  ]
+}

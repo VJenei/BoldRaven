@@ -1,0 +1,31 @@
+{
+  "naics_code": "541360",
+  "naics_title": "Geophysical Surveying and Mapping Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Seismic and survey data is among the most valuable proprietary data in energy.",
+      "why_this_business": "Geophysical data acquisition and processing produces datasets that cost millions to acquire and determine where operators bid and drill. Data is licensed rather than sold, with strict use restrictions, and its value depends entirely on exclusivity.",
+      "loss_scenario": "Exfiltration of seismic data destroys its licensing value permanently and hands competitors or foreign interests the geological picture that the client paid to acquire, with liability to every licensee.",
+      "rhetorical_question": "What is the acquisition cost of the survey data held on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Client exploration activity is market-sensitive information.",
+      "why_this_business": "Knowing which operator commissioned a survey over which acreage reveals exploration intent before lease bidding or drilling. That information is commercially decisive and, for listed companies, potentially material.",
+      "loss_scenario": "Disclosure of survey areas and client identities allows competitors to position ahead of lease sales, with client claims for the resulting competitive loss and, where a public company is involved, securities implications.",
+      "rhetorical_question": "Does your project record reveal which clients are investigating which acreage?"
+    },
+    {
+      "rank": 3,
+      "headline": "Field acquisition is expensive, mobilised, and unrepeatable in the window.",
+      "why_this_business": "Survey crews mobilise with permits, land access agreements, and equipment for a defined acquisition window constrained by weather, wildlife restrictions, and landowner agreements. Data is quality controlled in the field against acquisition parameters.",
+      "loss_scenario": "Lost or corrupted field data requires remobilisation at full cost, and where the permit window has closed, the survey may not be repeatable for a year.",
+      "rhetorical_question": "What does it cost to remobilise a crew if acquired data is lost?"
+    }
+  ]
+}

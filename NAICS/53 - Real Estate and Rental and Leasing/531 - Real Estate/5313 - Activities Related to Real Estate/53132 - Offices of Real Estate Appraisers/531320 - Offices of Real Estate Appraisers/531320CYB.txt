@@ -1,0 +1,31 @@
+{
+  "naics_code": "531320",
+  "naics_title": "Offices of Real Estate Appraisers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Appraisal files hold borrower and property data under retention rules.",
+      "why_this_business": "Appraisers must retain workfiles for a period set by professional standards, generally at least five years or two years after final disposition of any judicial proceeding, containing property data, borrower and client information, comparable analysis, and the reasoning supporting the opinion of value.",
+      "loss_scenario": "Inability to produce a workfile in a state board complaint or litigation is itself a standards violation, independent of whether the appraisal was sound, and licence action follows.",
+      "rhetorical_question": "How are your appraisal workfiles retained, and could you produce one from four years ago?"
+    },
+    {
+      "rank": 2,
+      "headline": "Appraisal management company portals hold your credentials and their data.",
+      "why_this_business": "Appraisers receive assignments through AMC and lender portals containing borrower details, loan information, and property access instructions. Credentials to multiple portals are held by a small office with limited controls.",
+      "loss_scenario": "Compromised portal credentials expose lender and borrower data, with the AMC and lender treating the appraiser as the source and removing them from panels, which ends the flow of assignments.",
+      "rhetorical_question": "How many lender and AMC portals do you hold credentials for?"
+    },
+    {
+      "rank": 3,
+      "headline": "Property access and inspection scheduling reveals when homes are empty.",
+      "why_this_business": "Appraisers schedule inspections with owners and occupants, holding addresses, contact details, access arrangements, and interior photographs of properties across a market area.",
+      "loss_scenario": "Exposure of inspection schedules and interior photographs creates a targeting exposure for burglary at properties whose occupants trusted you with access.",
+      "rhetorical_question": "Do you retain interior photographs and access details after an assignment closes?"
+    }
+  ]
+}

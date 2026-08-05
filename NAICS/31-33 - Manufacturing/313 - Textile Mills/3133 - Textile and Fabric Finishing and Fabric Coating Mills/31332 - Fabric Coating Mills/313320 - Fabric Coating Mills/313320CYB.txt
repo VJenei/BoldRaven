@@ -1,0 +1,31 @@
+{
+  "naics_code": "313320",
+  "naics_title": "Fabric Coating Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Coating formulations and application parameters are proprietary.",
+      "why_this_business": "Coating operations apply polymer, adhesive, and functional coatings to substrates using formulations and process parameters developed for specific performance. Those formulations are the technical asset of the business and frequently include customer-specific development.",
+      "loss_scenario": "Formulation and process disclosure hands competitors the technical basis of the business, and loss of parameters means products that cannot be reproduced to customer specification.",
+      "rhetorical_question": "How are coating formulations and process parameters protected?"
+    },
+    {
+      "rank": 2,
+      "headline": "Solvent-based coating carries fire and emissions exposure.",
+      "why_this_business": "Solvent coating lines operate with flammable solvents, ovens, and vapour recovery or oxidation, under air permits with emissions limits and monitoring. Lower explosive limit monitoring and interlocks prevent explosions in coating ovens.",
+      "loss_scenario": "An oven explosion or fire destroying the coating line and the building, plus emissions exceedances where control equipment operation cannot be demonstrated.",
+      "rhetorical_question": "How are solvent concentration and oven interlocks monitored on your coating lines?"
+    },
+    {
+      "rank": 3,
+      "headline": "Coated products serve technical applications with tight specification.",
+      "why_this_business": "Coated fabrics are used in medical, protective, automotive, and industrial applications with performance requirements tested and certified. Customers qualify the material for specific uses.",
+      "loss_scenario": "Off-specification material entering technical applications where performance is relied upon, with product recall at the customer and liability where protective or medical performance failed.",
+      "rhetorical_question": "What applications do your coated fabrics serve where performance failure causes harm?"
+    }
+  ]
+}

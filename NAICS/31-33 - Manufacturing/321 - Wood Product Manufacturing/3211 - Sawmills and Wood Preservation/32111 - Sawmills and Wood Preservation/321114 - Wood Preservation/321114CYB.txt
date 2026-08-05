@@ -1,0 +1,31 @@
+{
+  "naics_code": "321114",
+  "naics_title": "Wood Preservation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Treatment retention determines whether the product performs.",
+      "why_this_business": "Preservative treatment is specified by retention level for the intended use, verified by assay and recorded per charge. Under-treated wood fails prematurely in ground contact and structural applications, and treatment records are the evidence of conformance.",
+      "loss_scenario": "Under-treated material entering structural and ground contact applications, with premature failure years later and claims that reach back to the treatment records that either exist or do not.",
+      "rhetorical_question": "How are treatment charge records and retention assays maintained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Preservative chemicals are regulated pesticides.",
+      "why_this_business": "Wood preservatives are registered pesticides with EPA requirements for handling, worker protection, and use according to label. Treatment facilities manage chemical storage, drip pads, and containment under RCRA and state requirements.",
+      "loss_scenario": "Environmental release from containment or drip pad failure, with soil and groundwater contamination requiring remediation, plus pesticide use violations where records cannot demonstrate label compliance.",
+      "rhetorical_question": "How is your containment and drip pad system monitored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Treated wood is sold on certification and grade marks.",
+      "why_this_business": "Treated products carry quality marks from accredited agencies certifying that treatment met the standard for the specified use category. Building officials and specifiers rely on those marks.",
+      "loss_scenario": "Loss of certification or product shipped without valid marks, which cannot be used in code-required applications and must be removed from projects where it was installed.",
+      "rhetorical_question": "Which certification agency inspects your treatment, and what records do they examine?"
+    }
+  ]
+}

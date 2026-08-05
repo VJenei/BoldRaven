@@ -1,0 +1,31 @@
+{
+  "naics_code": "611513",
+  "naics_title": "Apprenticeship Training",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Apprentice hour and competency records determine journeyman status.",
+      "why_this_business": "Registered apprenticeship programmes track on-the-job hours, related technical instruction, and competency attainment against standards registered with the Department of Labor or a state agency. Completion certificates depend on documented hours over several years.",
+      "loss_scenario": "Apprentices unable to demonstrate completion of a multi-year programme, with hours worked at employers over years unprovable and careers delayed while records are reconstructed if they can be at all.",
+      "rhetorical_question": "How many years of apprentice hour records does a completion certificate depend on?"
+    },
+    {
+      "rank": 2,
+      "headline": "Joint programmes handle contributions and benefit eligibility.",
+      "why_this_business": "Jointly administered training programmes receive employer contributions under collective bargaining agreements, with eligibility, hours, and fund accounting tracked. Trustees carry fiduciary obligations over the fund.",
+      "loss_scenario": "Unreconcilable contribution and eligibility records, with employer disputes over amounts owed and apprentices' standing in question, plus fiduciary exposure for trustees.",
+      "rhetorical_question": "How are employer contributions and apprentice eligibility reconciled?"
+    },
+    {
+      "rank": 3,
+      "headline": "Participant records include employment and personal data.",
+      "why_this_business": "Programmes hold apprentice identity, Social Security numbers, employment history, wage progression, and evaluations, along with employer and union affiliation data, retained through the programme and beyond.",
+      "loss_scenario": "Breach notification across current and former apprentices, with employment and wage data exposed alongside identity information.",
+      "rhetorical_question": "How many current and former apprentices' records do you hold?"
+    }
+  ]
+}

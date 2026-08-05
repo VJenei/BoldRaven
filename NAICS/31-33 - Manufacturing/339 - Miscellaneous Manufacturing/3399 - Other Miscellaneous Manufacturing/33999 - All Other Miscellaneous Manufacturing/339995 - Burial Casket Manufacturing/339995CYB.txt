@@ -1,0 +1,31 @@
+{
+  "naics_code": "339995",
+  "naics_title": "Burial Casket Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Delivery is measured against a scheduled funeral.",
+      "why_this_business": "Caskets are ordered by funeral homes for a specific service on a specific day, frequently with 24 to 48 hours notice. The service date is fixed and there is no possibility of rescheduling delivery.",
+      "loss_scenario": "Order and dispatch systems unavailable, with caskets not delivered for services already scheduled, and funeral homes forced to substitute or delay services for grieving families.",
+      "rhetorical_question": "How much notice do funeral homes typically give on an order?"
+    },
+    {
+      "rank": 2,
+      "headline": "Funeral goods pricing is federally regulated.",
+      "why_this_business": "The FTC Funeral Rule governs how funeral goods must be priced and disclosed, and manufacturers supply price lists and product information that funeral homes rely on in meeting their disclosure obligations.",
+      "loss_scenario": "Incorrect pricing or product information supplied to funeral homes, with their Funeral Rule disclosures wrong across every family served during the period and FTC exposure passed back.",
+      "rhetorical_question": "How is pricing and product information distributed to the funeral homes you supply?"
+    },
+    {
+      "rank": 3,
+      "headline": "Product is made to order with personalisation.",
+      "why_this_business": "Caskets are built to selected models, interiors, and personalisation including engraved names and dates, driven by order data received hours before the product is needed.",
+      "loss_scenario": "Order data corrupted with wrong personalisation produced, which cannot be corrected before the service and results in a family receiving the wrong product at a funeral.",
+      "rhetorical_question": "How is personalisation data verified before production begins?"
+    }
+  ]
+}

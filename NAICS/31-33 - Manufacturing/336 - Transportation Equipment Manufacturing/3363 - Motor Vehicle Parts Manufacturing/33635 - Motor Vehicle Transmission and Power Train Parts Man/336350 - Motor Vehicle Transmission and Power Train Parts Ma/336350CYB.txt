@@ -1,0 +1,31 @@
+{
+  "naics_code": "336350",
+  "naics_title": "Motor Vehicle Transmission and Power Train Parts Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Transmission failure causes loss of propulsion or unintended movement.",
+      "why_this_business": "Transmissions and driveline components transmit power and, in the case of park mechanisms, hold a vehicle stationary. Failures cause sudden loss of propulsion in traffic or vehicle rollaway.",
+      "loss_scenario": "A component defect causing rollaway or sudden loss of propulsion, with an NHTSA recall and litigation over injuries from vehicles that moved when they should not have.",
+      "rhetorical_question": "Do your components include park or hold functions preventing vehicle movement?"
+    },
+    {
+      "rank": 2,
+      "headline": "Transmission control is software governed.",
+      "why_this_business": "Automatic transmissions are controlled by software determining shift behaviour, torque management, and park engagement, developed under automotive functional safety requirements and programmed into control units at build.",
+      "loss_scenario": "A software defect affecting shift or park behaviour, with an NHTSA recall and a software campaign to vehicles in service, plus liability for incidents during the exposure period.",
+      "rhetorical_question": "How are transmission control software versions controlled at production programming?"
+    },
+    {
+      "rank": 3,
+      "headline": "Manufacturing tolerance and heat treatment determine durability.",
+      "why_this_business": "Gear and shaft durability depends on machining accuracy, case hardening depth, and material quality, all process controlled and verified by destructive sampling rather than full inspection.",
+      "loss_scenario": "Components with inadequate case depth failing after months in service, with warranty claims and recall across every vehicle built with parts from the affected period.",
+      "rhetorical_question": "How are heat treatment records tied to specific production lots?"
+    }
+  ]
+}

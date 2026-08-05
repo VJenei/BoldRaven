@@ -1,0 +1,31 @@
+{
+  "naics_code": "339993",
+  "naics_title": "Fastener, Button, Needle, and Pin Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Small parts on children's products are a choking hazard.",
+      "why_this_business": "Buttons, snaps, and fasteners on children's apparel are subject to small parts and attachment strength requirements, with children's products requiring third party testing and lead and phthalate compliance.",
+      "loss_scenario": "Components detaching from children's apparel, with choking incidents, a CPSC recall of the finished garments across every brand that used the component, and testing records determining responsibility.",
+      "rhetorical_question": "Which of your components go onto children's products requiring third party testing?"
+    },
+    {
+      "rank": 2,
+      "headline": "Components are supplied into other manufacturers' products.",
+      "why_this_business": "Fasteners and trim are supplied to apparel and product manufacturers who build them into finished goods. A component defect becomes a recall of every finished product containing it.",
+      "loss_scenario": "A component defect requiring recall of finished goods across many customers, with recall cost driven by the garments and products rather than the components.",
+      "rhetorical_question": "How many customer products could contain a single lot of your components?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production runs at very high volume with fast delivery expected.",
+      "why_this_business": "Components are produced in millions and shipped against apparel and product production schedules that are already tight, with customers holding little inventory of trim.",
+      "loss_scenario": "Order and production systems unavailable, with customer production lines stopped for want of trim components and their finished goods delivery dates missed.",
+      "rhetorical_question": "How much trim inventory do your customers hold before production stops?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "322220",
+  "naics_title": "Paper Bag and Coated and Treated Paper Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Coating chemistry determines food contact compliance.",
+      "why_this_business": "Coated and treated papers used in food packaging must meet food contact material requirements, with grease resistance historically achieved using PFAS chemistries now subject to state bans and disclosure requirements and FDA phase-out commitments.",
+      "loss_scenario": "Product containing restricted chemistries shipped into states that prohibit them, with enforcement, product withdrawal, and customers who committed publicly to PFAS-free packaging holding you responsible.",
+      "rhetorical_question": "Do your coatings contain PFAS, and into which states do those products ship?"
+    },
+    {
+      "rank": 2,
+      "headline": "Coating lines run continuously with solvent and thermal hazards.",
+      "why_this_business": "Coating and treating lines apply chemistry to a moving web with ovens for drying and curing. Solvent-based coating involves flammable vapour in ovens with explosion protection interlocks.",
+      "loss_scenario": "An oven fire or explosion destroying the coating line, plus off-specification product produced continuously until detected on lines running at high speed.",
+      "rhetorical_question": "How are solvent concentrations and oven interlocks monitored on your coating lines?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer specifications define technical performance.",
+      "why_this_business": "Coated papers are supplied to converters and packagers who qualify them for specific applications requiring barrier, sealing, and printing performance. Substitution is not possible without requalification.",
+      "loss_scenario": "Off-specification material failing in customer converting or sealing operations, with their production and the packaged product claimed against the supplier.",
+      "rhetorical_question": "What performance properties do your customers qualify your material against?"
+    }
+  ]
+}

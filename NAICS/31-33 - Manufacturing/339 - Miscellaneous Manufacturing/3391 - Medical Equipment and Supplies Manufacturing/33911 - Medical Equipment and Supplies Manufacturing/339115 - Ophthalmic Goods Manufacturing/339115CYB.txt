@@ -1,0 +1,31 @@
+{
+  "naics_code": "339115",
+  "naics_title": "Ophthalmic Goods Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Contact lenses are regulated devices worn on the eye.",
+      "why_this_business": "Contact lenses are FDA regulated devices manufactured under the Quality System Regulation with sterility, material, and packaging requirements. Contamination or material defects cause corneal infections that can destroy sight.",
+      "loss_scenario": "A sterility or material defect causing corneal infections and vision loss, with an FDA recall covering every lot from the affected production and litigation over permanent injury.",
+      "rhetorical_question": "How are sterilisation and material records tied to released lens lots?"
+    },
+    {
+      "rank": 2,
+      "headline": "Prescription eyewear is made to individual prescriptions.",
+      "why_this_business": "Lenses are surfaced to individual prescriptions with power, axis, and pupillary measurements from the prescriber. A transcription or processing error produces lenses that cause headaches, distorted vision, and falls.",
+      "loss_scenario": "Prescription data corrupted or misapplied across a production period, with wrong lenses dispensed to patients and every affected prescription requiring remake and patient recall.",
+      "rhetorical_question": "How is prescription data received from prescribers and verified before surfacing?"
+    },
+    {
+      "rank": 3,
+      "headline": "Impact resistance is a federal requirement for all lenses.",
+      "why_this_business": "FDA requires all spectacle lenses to be impact resistant with testing and records supporting the claim, because lens fragments in the eye cause blindness.",
+      "loss_scenario": "Lenses dispensed without supportable impact resistance testing, with eye injuries from shattered lenses and FDA enforcement over records that must be retained.",
+      "rhetorical_question": "How are impact resistance test records retained for lens production?"
+    }
+  ]
+}

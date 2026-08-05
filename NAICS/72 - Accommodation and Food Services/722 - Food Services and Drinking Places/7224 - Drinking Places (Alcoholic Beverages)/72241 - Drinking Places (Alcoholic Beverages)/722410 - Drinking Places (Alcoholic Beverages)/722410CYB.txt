@@ -1,0 +1,31 @@
+{
+  "naics_code": "722410",
+  "naics_title": "Drinking Places (Alcoholic Beverages)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your licence depends on age verification and records.",
+      "why_this_business": "Bars operate under state and local alcohol licences with age verification requirements, hours restrictions, and record obligations. Compliance checks are conducted by regulators, and identification scanning creates the record that verification occurred.",
+      "loss_scenario": "Licence suspension for compliance failures, which for a bar removes the entire revenue basis, plus dram shop exposure where service records cannot be produced after an incident involving an intoxicated patron.",
+      "rhetorical_question": "Does your point of sale scan and record identification for age verification?"
+    },
+    {
+      "rank": 2,
+      "headline": "Card volume is concentrated into a few hours with open tabs.",
+      "why_this_business": "Bars process high card volume in short periods with tabs held open, cards retained behind the bar in some operations, and tips added after authorisation. Point of sale terminals are physically accessible in a busy environment.",
+      "loss_scenario": "Card data compromise through the point of sale or physically skimmed devices, with brand assessments and forensic costs assigned to a single-location merchant by the processing agreement.",
+      "rhetorical_question": "How many card transactions do you process on a busy weekend night?"
+    },
+    {
+      "rank": 3,
+      "headline": "Inventory and pour control determine whether you make money.",
+      "why_this_business": "Beverage cost control depends on inventory tracking, pour measurement, and reconciliation of sales against depletion. Shrinkage from over-pouring, giveaways, and theft is the largest controllable cost in the business.",
+      "loss_scenario": "Inability to reconcile inventory against sales, with shrinkage that goes undetected across a period and directly consumes the margin the business depends on.",
+      "rhetorical_question": "How do you reconcile beverage inventory against recorded sales?"
+    }
+  ]
+}

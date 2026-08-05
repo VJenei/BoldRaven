@@ -1,0 +1,31 @@
+{
+  "naics_code": "334112",
+  "naics_title": "Computer Storage Device Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Storage device firmware controls access to customer data.",
+      "why_this_business": "Drives and storage systems run firmware handling encryption, wear levelling, and access. Firmware defects have exposed data on self-encrypting drives that customers believed were protected.",
+      "loss_scenario": "An encryption or access defect in shipped firmware, with customers who relied on hardware encryption for regulatory compliance discovering their data was never protected, across every drive of the model.",
+      "rhetorical_question": "Does your firmware implement encryption customers rely on for compliance?"
+    },
+    {
+      "rank": 2,
+      "headline": "Enterprise storage is managed over networks by your software.",
+      "why_this_business": "Storage arrays ship with management software, remote support connections, and call-home telemetry linking customer systems to the manufacturer. Those interfaces sit adjacent to the customer's primary data.",
+      "loss_scenario": "A management interface vulnerability or compromise of support connections giving access to customer storage systems, which is direct access to their entire data estate.",
+      "rhetorical_question": "What remote access do you retain to storage systems at customer sites?"
+    },
+    {
+      "rank": 3,
+      "headline": "Storage failure destroys data customers cannot recreate.",
+      "why_this_business": "Firmware defects in storage have caused simultaneous failures across drives with the same power-on hours, taking out multiple drives in a redundant array at once and destroying the data.",
+      "loss_scenario": "A firmware defect causing correlated drive failures across arrays, with customers losing data that redundancy was supposed to protect and claims covering the data, not the drives.",
+      "rhetorical_question": "How is firmware tested against long-duration and wear-related failure modes?"
+    }
+  ]
+}

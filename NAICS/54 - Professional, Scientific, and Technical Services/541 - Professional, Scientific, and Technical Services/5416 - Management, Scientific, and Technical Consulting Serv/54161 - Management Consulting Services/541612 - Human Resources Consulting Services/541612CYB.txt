@@ -1,0 +1,31 @@
+{
+  "naics_code": "541612",
+  "naics_title": "Human Resources Consulting Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold employee data for organisations that are not your employer.",
+      "why_this_business": "HR consultants receive employee census data, compensation, performance records, medical and disability information, and investigation files for client organisations. Benefits and compensation work requires the full population, not a sample.",
+      "loss_scenario": "Breach exposing client employee records including compensation and health information, with the client bearing notification obligations to its own workforce and looking to the consultant for the cost and the fallout.",
+      "rhetorical_question": "How many client organisations' complete employee files are on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Workplace investigations contain highly sensitive material.",
+      "why_this_business": "HR consultants conduct investigations into harassment, discrimination, and misconduct, holding witness statements, complainant identities, and findings that are confidential and frequently privileged. Complainants participate on an expectation of confidentiality.",
+      "loss_scenario": "Exposure of investigation files causes direct personal harm to complainants and witnesses, exposes the client to retaliation claims, and can waive privilege in litigation the client is already facing.",
+      "rhetorical_question": "Do you hold workplace investigation files identifying complainants and witnesses?"
+    },
+    {
+      "rank": 3,
+      "headline": "Benefits work brings HIPAA and ERISA obligations.",
+      "why_this_business": "Consultants advising on health and welfare plans handle protected health information as business associates under HIPAA, and those advising plan fiduciaries operate in an environment where Department of Labor guidance addresses cybersecurity expectations.",
+      "loss_scenario": "HIPAA enforcement against the consultant directly as a business associate, plus fiduciary exposure where the client's plan participants were affected.",
+      "rhetorical_question": "Have you signed business associate agreements with clients regarding their health plans?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "813211",
+  "naics_title": "Grantmaking Foundations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Grant payments are large, scheduled, and instruction-driven.",
+      "why_this_business": "Foundations disburse grants to organisations on approved schedules, with payment instructions and banking details provided by grantees electronically. Grantee bank details change and are updated on request.",
+      "loss_scenario": "Diverted grant payments where the grantee never receives funds intended for programme delivery, with the foundation having discharged its board-approved commitment to a criminal and facing the grantee's continuing need.",
+      "rhetorical_question": "How do you verify a grantee's banking details before releasing a payment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Grantee and applicant data includes sensitive programme information.",
+      "why_this_business": "Foundations hold applications describing grantee operations, finances, beneficiaries, and in some cases work that is politically or personally sensitive for the people involved. Applicants disclose fully in order to be considered.",
+      "loss_scenario": "Exposure of grantee applications revealing programme details, beneficiary information, and organisational vulnerabilities, with harm to grantees working in sensitive areas and reputational damage to the foundation.",
+      "rhetorical_question": "Do your applications describe work that would put grantees or beneficiaries at risk if disclosed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Investment and endowment operations move substantial assets.",
+      "why_this_business": "Foundations manage endowment portfolios with investment manager relationships, capital calls, and transfers, alongside required minimum distribution obligations and regulatory reporting.",
+      "loss_scenario": "Fraudulent transfer instructions against endowment accounts, in amounts reflecting institutional portfolios rather than operating balances, with fiduciary consequences for the board.",
+      "rhetorical_question": "How are investment transfer instructions authenticated?"
+    }
+  ]
+}

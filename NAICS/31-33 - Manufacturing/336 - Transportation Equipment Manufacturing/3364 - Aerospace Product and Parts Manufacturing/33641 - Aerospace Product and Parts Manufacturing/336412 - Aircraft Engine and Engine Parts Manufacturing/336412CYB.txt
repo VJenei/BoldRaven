@@ -1,0 +1,31 @@
+{
+  "naics_code": "336412",
+  "naics_title": "Aircraft Engine and Engine Parts Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Engine part failure causes uncontained failures and accidents.",
+      "why_this_business": "Rotating engine components including discs and blades are life-limited parts whose failure releases fragments at energy the engine casing cannot contain. Uncontained failures have destroyed aircraft structures and caused fatalities.",
+      "loss_scenario": "A material or manufacturing defect in a rotating part causing an uncontained failure, with an accident, an NTSB investigation, and an airworthiness directive requiring inspection or removal of every part from the affected material.",
+      "rhetorical_question": "How is traceability maintained from melt through to installed life-limited parts?"
+    },
+    {
+      "rank": 2,
+      "headline": "Traceability to melt is required for critical rotating parts.",
+      "why_this_business": "Life-limited engine parts are traced to the material melt, with process records for every operation, because a material anomaly requires identifying every part made from that melt across the fleet.",
+      "loss_scenario": "Traceability records unavailable when a material anomaly is identified, requiring removal of every part that could have come from the affected material across engines in worldwide service.",
+      "rhetorical_question": "How long are melt and process traceability records retained?"
+    },
+    {
+      "rank": 3,
+      "headline": "Engine technology is export controlled and heavily targeted.",
+      "why_this_business": "Engine design, materials, and manufacturing processes are export controlled and represent decades of development. State-linked actors have specifically targeted aerospace engine technology.",
+      "loss_scenario": "Theft of engine design and process technology, which is a permanent competitive loss and, if transferred to a restricted party, an export violation with criminal exposure.",
+      "rhetorical_question": "How is access to engine design and process data controlled?"
+    }
+  ]
+}

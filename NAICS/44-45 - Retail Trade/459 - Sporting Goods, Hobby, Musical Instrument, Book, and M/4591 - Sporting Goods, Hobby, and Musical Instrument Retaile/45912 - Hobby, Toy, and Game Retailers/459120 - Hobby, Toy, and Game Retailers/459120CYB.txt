@@ -1,0 +1,31 @@
+{
+  "naics_code": "459120",
+  "naics_title": "Hobby, Toy, and Game Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The fourth quarter is the business.",
+      "why_this_business": "Toy and hobby retail earns the majority of annual revenue between late November and December, against inventory committed months earlier. Allocation, replenishment, and online fulfilment all peak simultaneously and the selling season ends on a fixed date.",
+      "loss_scenario": "A December outage forfeits the year. Inventory bought for the holiday clears at deep markdown in January, converting the peak into a write-down.",
+      "rhetorical_question": "What share of your annual revenue occurs between Thanksgiving and Christmas?"
+    },
+    {
+      "rank": 2,
+      "headline": "Children's product safety obligations reach the retailer.",
+      "why_this_business": "Children's products require certificates supported by third-party testing and tracking labels identifying manufacturer and batch. Retailers that import directly carry those obligations themselves. Recalls for choking, magnet, and battery hazards require identifying affected stock and customers.",
+      "loss_scenario": "Stop sale and CPSC action where certificates cannot be produced for imported product, plus liability exposure in a child injury claim involving goods you imported.",
+      "rhetorical_question": "Do you import any product directly, and where are the compliance certificates kept?"
+    },
+    {
+      "rank": 3,
+      "headline": "Collectible and trading card inventory carries volatile high value.",
+      "why_this_business": "Trading cards, collectibles, and limited releases carry secondary market values far above cost, with allocation and release timing driving demand. Inventory and release schedules are known internally before they are public.",
+      "loss_scenario": "Theft or diversion of high value collectible inventory informed by internal release and stock data, at values that can exceed the store's entire ordinary inventory.",
+      "rhetorical_question": "Do you hold collectible inventory worth substantially more than its purchase cost?"
+    }
+  ]
+}

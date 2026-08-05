@@ -1,0 +1,31 @@
+{
+  "naics_code": "424350",
+  "naics_title": "Clothing and Clothing Accessories Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fashion seasons expire and unsold inventory loses most of its value.",
+      "why_this_business": "Apparel is bought against a season, shipped to a delivery window, and marked down heavily once that window passes. Order books, allocations, and in-transit positions determine whether goods arrive in time to sell at full price.",
+      "loss_scenario": "Goods arriving after the delivery window are cancelled or discounted to clearance, converting a profitable season into an inventory write-down.",
+      "rhetorical_question": "What happens to the value of your inventory once the season's delivery window closes?"
+    },
+    {
+      "rank": 2,
+      "headline": "Retail EDI and marketplace integration control your access to customers.",
+      "why_this_business": "Apparel wholesalers ship to department stores, specialty retail, and online marketplaces through EDI and API integrations with strict labelling, packing, and advance ship notice rules. Marketplace listings depend on continuous inventory and order data feeds.",
+      "loss_scenario": "Chargebacks, cancelled purchase orders, and marketplace listings suppressed for failure to acknowledge or ship orders, which suppresses ranking long after the outage.",
+      "rhetorical_question": "Do you sell through marketplaces that require continuous inventory and order feeds?"
+    },
+    {
+      "rank": 3,
+      "headline": "Import compliance and forced labour enforcement require provenance evidence.",
+      "why_this_business": "Apparel importers face customs classification, origin marking, and forced labour enforcement where shipments are detained and the importer must produce supply chain documentation tracing to raw material. Detention is the default and release requires evidence.",
+      "loss_scenario": "Detained shipments during the selling window, which for seasonal apparel is equivalent to losing the goods entirely even if they are eventually released.",
+      "rhetorical_question": "Could you trace an imported garment back through its supply chain if customs asked?"
+    }
+  ]
+}

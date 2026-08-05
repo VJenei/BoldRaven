@@ -1,0 +1,31 @@
+{
+  "naics_code": "339113",
+  "naics_title": "Surgical Appliance and Supplies Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Sterilisation and lot records support every sterile product claim.",
+      "why_this_business": "Sterile single use devices are released on the basis of validated sterilisation cycles with load records and biological indicator results. A product labelled sterile that was not properly processed causes surgical site infections.",
+      "loss_scenario": "Product released without valid sterilisation records reaching operating rooms, with infections in patients, an FDA recall, and every lot from the affected period withdrawn from hospitals.",
+      "rhetorical_question": "How are sterilisation load records tied to released product lots?"
+    },
+    {
+      "rank": 2,
+      "headline": "Quality system records are the FDA inspection record.",
+      "why_this_business": "Manufacturers must maintain device master records, complaint files, and CAPA records under the Quality System Regulation, produced on inspection. Medical Device Reports are required within specified timeframes.",
+      "loss_scenario": "Inability to produce quality records during inspection, with findings, a warning letter, and potential consent decree restricting the ability to manufacture and distribute.",
+      "rhetorical_question": "How are complaint and CAPA records maintained and backed up?"
+    },
+    {
+      "rank": 3,
+      "headline": "Hospitals hold limited stock of supplies they use daily.",
+      "why_this_business": "Surgical supplies are consumed continuously with hospitals holding days of stock, ordered through distributors and group purchasing arrangements. Supply interruptions become procedure cancellations.",
+      "loss_scenario": "Order and shipping systems unavailable, with hospitals unable to obtain supplies and elective procedures cancelled across the customer base within days.",
+      "rhetorical_question": "How many days of stock do your hospital customers typically hold?"
+    }
+  ]
+}

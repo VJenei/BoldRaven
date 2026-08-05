@@ -1,0 +1,31 @@
+{
+  "naics_code": "424110",
+  "naics_title": "Printing and Writing Paper Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Paper is a commodity carried in volume against volatile pricing.",
+      "why_this_business": "Merchants hold large tonnage inventory bought against mill contracts and sold on shorter terms, with pricing moving on mill announcements. Position, cost basis, and open commitments determine margin on a spread of a few percent.",
+      "loss_scenario": "Unmanaged inventory exposure through a price announcement, where a small percentage move on a large tonnage position exceeds annual profit.",
+      "rhetorical_question": "How do you monitor your inventory position against mill price movements?"
+    },
+    {
+      "rank": 2,
+      "headline": "Printers order to a press schedule that cannot wait.",
+      "why_this_business": "Commercial printers order paper against a job already scheduled on press, in a specific weight, grade, and grain direction. The press time is booked and the customer's delivery date is fixed. Substitution changes the printed result.",
+      "loss_scenario": "A missed delivery idles a press and pushes a print job past its in-home date, with the printer claiming press downtime and the end customer's damages passing back up the chain.",
+      "rhetorical_question": "How quickly are your customers expecting delivery once they place an order?"
+    },
+    {
+      "rank": 3,
+      "headline": "Mill allocations and roll traceability follow specific production runs.",
+      "why_this_business": "Paper is produced in runs with lot and roll numbers, and colour or surface variation between runs is visible in the finished print. Merchants track roll numbers to keep a job on one run and to support claims back to the mill.",
+      "loss_scenario": "A print run ruined by mixed lots, where without roll traceability the merchant cannot claim against the mill and absorbs the printer's spoilage cost.",
+      "rhetorical_question": "How do you track roll and lot numbers through to the customer?"
+    }
+  ]
+}

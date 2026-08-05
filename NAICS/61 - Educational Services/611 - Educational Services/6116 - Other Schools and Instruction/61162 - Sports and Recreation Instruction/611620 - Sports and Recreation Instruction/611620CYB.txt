@@ -1,0 +1,31 @@
+{
+  "naics_code": "611620",
+  "naics_title": "Sports and Recreation Instruction",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold health and emergency information about children.",
+      "why_this_business": "Sports instruction collects participant names, ages, medical conditions, allergies, emergency contacts, and signed waivers, frequently for minors. Coaches and instructors have direct supervised contact with children.",
+      "loss_scenario": "Exposure of children's names, medical information, and session schedules, which is a child safety exposure and a health information disclosure, with parents and youth sports organisations reacting accordingly.",
+      "rhetorical_question": "Do you collect medical and emergency information for minor participants?"
+    },
+    {
+      "rank": 2,
+      "headline": "Signed waivers are the liability defence for an injury-prone activity.",
+      "why_this_business": "Participation depends on executed liability waivers and medical acknowledgements, now generally captured electronically at registration. Sports instruction carries foreseeable injury risk and waivers are the primary defence.",
+      "loss_scenario": "An injury claim where the executed waiver cannot be produced, removing the defence entirely in an activity where injuries are expected and damages for a child's injury are substantial.",
+      "rhetorical_question": "Could you produce a signed waiver for a participant who registered two years ago?"
+    },
+    {
+      "rank": 3,
+      "headline": "Coach screening is expected and sometimes legally required.",
+      "why_this_business": "Youth sports organisations require background screening of coaches and staff, with records demonstrating compliance. Federal law imposes reporting obligations on youth-serving organisations in certain sports contexts.",
+      "loss_scenario": "Inability to demonstrate that coaches were screened, which after any allegation of misconduct is devastating in litigation and to the organisation's standing with governing bodies.",
+      "rhetorical_question": "How do you evidence that every coach in contact with children was screened?"
+    }
+  ]
+}

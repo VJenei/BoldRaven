@@ -1,0 +1,31 @@
+{
+  "naics_code": "311224",
+  "naics_title": "Soybean and Other Oilseed Processing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Solvent extraction is a continuous process with explosion risk.",
+      "why_this_business": "Oilseed crushing uses hexane extraction in a continuous process with solvent recovery, operated under distributed control with gas detection and interlocks. Hexane is highly flammable and the extraction building is a classified hazardous area.",
+      "loss_scenario": "A solvent release and explosion destroying the extraction plant with fatalities, plus environmental release, and a facility that takes years to rebuild while contracted crush commitments go unmet.",
+      "rhetorical_question": "How are solvent recovery and gas detection systems monitored and controlled?"
+    },
+    {
+      "rank": 2,
+      "headline": "Crush margins are managed against futures positions.",
+      "why_this_business": "Processors buy beans and sell oil and meal, managing the crush margin with futures positions across three markets simultaneously. Position visibility determines whether the margin is locked or exposed.",
+      "loss_scenario": "Unhedged or mismatched positions through a market move, where a processor's crush margin exposure across a large volume can exceed annual profit in a matter of days.",
+      "rhetorical_question": "How is your physical position reconciled against your futures hedges daily?"
+    },
+    {
+      "rank": 3,
+      "headline": "Meal and oil customers depend on continuous supply.",
+      "why_this_business": "Soybean meal supplies feed mills and integrators with no substitute at volume, and oil supplies refiners and food manufacturers. Both are delivered on contract into operations with limited storage.",
+      "loss_scenario": "Feed mills and food manufacturers without ingredient supply, with livestock operations affected downstream and contract non-performance claims from customers who cannot source elsewhere quickly.",
+      "rhetorical_question": "How many days of supply do your meal and oil customers hold?"
+    }
+  ]
+}

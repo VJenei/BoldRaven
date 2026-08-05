@@ -1,0 +1,31 @@
+{
+  "naics_code": "312140",
+  "naics_title": "Distilleries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Aging inventory represents years of production sitting in barrels.",
+      "why_this_business": "Whiskey and other aged spirits sit in barrels for years, with warehouse inventory representing accumulated production and enormous value. Barrel tracking records location, fill date, and contents across warehouses holding hundreds of thousands of barrels.",
+      "loss_scenario": "Loss of barrel inventory records means barrels that cannot be located, aged, or blended to specification, with inventory representing years of production and, for a distillery, the majority of its balance sheet value.",
+      "rhetorical_question": "How many barrels are in your warehouses, and how are they tracked?"
+    },
+    {
+      "rank": 2,
+      "headline": "TTB regulation covers production, storage, and removal.",
+      "why_this_business": "Distilled spirits plants operate under federal permits with proof gallon accounting, storage records, and excise tax on removal at high rates. Losses must be documented and TTB reconciles reported production and removals.",
+      "loss_scenario": "Excise tax assessed on unaccounted spirits at full rate, which for distilled spirits is substantial, plus permit exposure where required records cannot be produced.",
+      "rhetorical_question": "How are proof gallons accounted for from production through storage to removal?"
+    },
+    {
+      "rank": 3,
+      "headline": "Distillation and warehousing carry fire and explosion risk.",
+      "why_this_business": "Distillation produces high proof flammable spirit, and warehouses hold enormous quantities of alcohol in wooden barrels. Warehouse fires in this industry have destroyed hundreds of thousands of barrels and burned for days.",
+      "loss_scenario": "A warehouse fire destroying years of aging inventory, which cannot be replaced because the aging time is the product, plus environmental consequences where spirit reaches waterways.",
+      "rhetorical_question": "How much aged inventory is concentrated in a single warehouse?"
+    }
+  ]
+}

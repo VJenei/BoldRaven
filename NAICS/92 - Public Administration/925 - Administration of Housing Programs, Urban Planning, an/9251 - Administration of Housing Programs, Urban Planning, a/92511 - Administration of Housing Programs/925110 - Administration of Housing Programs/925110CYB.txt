@@ -1,0 +1,31 @@
+{
+  "naics_code": "925110",
+  "naics_title": "Administration of Housing Programs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Applicant and tenant files hold complete household data.",
+      "why_this_business": "Housing agencies hold applications with Social Security numbers, income documentation, household composition, criminal and eviction history, disability status, and domestic violence disclosures used to determine eligibility and priority.",
+      "loss_scenario": "Exposure of household financial, criminal, and domestic violence information for applicants and tenants, which affects their ability to obtain housing independently and, for domestic violence disclosures, creates safety risk.",
+      "rhetorical_question": "Do your applications collect domestic violence or criminal history disclosures?"
+    },
+    {
+      "rank": 2,
+      "headline": "Subsidy payments to landlords are scheduled and substantial.",
+      "why_this_business": "Agencies pay housing assistance directly to landlords monthly, with banking details held for each participating property owner. Payment changes are processed on request.",
+      "loss_scenario": "Diverted subsidy payments leaving landlords unpaid, who then pursue tenants for rent the agency was obliged to pay, placing assisted households at risk of eviction through no fault of their own.",
+      "rhetorical_question": "How do you verify a landlord's banking detail change before paying subsidy?"
+    },
+    {
+      "rank": 3,
+      "headline": "Waiting lists and eligibility determinations control access to scarce housing.",
+      "why_this_business": "Housing assistance is rationed through waiting lists that can run for years, with position, preferences, and eligibility determinations recorded. A household's place on the list is a valuable and contested entitlement.",
+      "loss_scenario": "Loss or corruption of waiting list data affecting households who have waited years, with no way to reconstruct position and litigation from applicants who lost their place.",
+      "rhetorical_question": "How long is your waiting list, and how far back does it extend?"
+    }
+  ]
+}

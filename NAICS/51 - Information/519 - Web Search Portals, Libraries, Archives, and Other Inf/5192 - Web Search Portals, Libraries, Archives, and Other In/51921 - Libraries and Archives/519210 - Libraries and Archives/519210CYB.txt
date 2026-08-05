@@ -1,0 +1,31 @@
+{
+  "naics_code": "519210",
+  "naics_title": "Libraries and Archives",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A national library lost its systems for months and rebuilt from scratch.",
+      "why_this_business": "The British Library was hit by ransomware in October 2023 that destroyed much of its technology infrastructure, took its catalogue and services offline for months, and led to publication of exfiltrated staff and user data. Recovery required rebuilding rather than restoring, and the institution published a detailed account of how comprehensive the loss was.",
+      "loss_scenario": "Catalogue, lending, digital collections, and reading room services all stop simultaneously, and for an institution with no commercial revenue the recovery cost falls on a fixed budget and displaces everything else.",
+      "rhetorical_question": "How long could your institution operate if the catalogue were completely unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "Patron records reveal what people read and are protected accordingly.",
+      "why_this_business": "Libraries hold borrowing histories, reading room requests, and research interests tied to named individuals. Most states have statutes specifically protecting library records from disclosure, reflecting how sensitive reading history is considered to be.",
+      "loss_scenario": "Exposure of patron borrowing and research records is a privacy harm the profession has organised itself around preventing for decades, and in many states engages a specific statutory protection.",
+      "rhetorical_question": "How long do you retain individual borrowing and request histories?"
+    },
+    {
+      "rank": 3,
+      "headline": "Digital collections and finding aids are often the only access to the holdings.",
+      "why_this_business": "Archives depend on catalogues and finding aids to make physical holdings locatable, and digitisation programmes create surrogates that are themselves the access copy. An uncatalogued archive is effectively inaccessible even though the material still exists.",
+      "loss_scenario": "Loss of catalogue and finding aid data renders collections unusable until reprocessed, which for large archives represents decades of professional work.",
+      "rhetorical_question": "Could researchers locate anything in your holdings without the catalogue?"
+    }
+  ]
+}

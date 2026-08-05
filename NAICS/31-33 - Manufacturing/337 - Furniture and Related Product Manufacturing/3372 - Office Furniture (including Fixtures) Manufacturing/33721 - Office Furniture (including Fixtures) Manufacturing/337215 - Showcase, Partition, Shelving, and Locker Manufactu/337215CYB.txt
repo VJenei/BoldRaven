@@ -1,0 +1,31 @@
+{
+  "naics_code": "337215",
+  "naics_title": "Showcase, Partition, Shelving, and Locker Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Shelving and storage systems collapse under load.",
+      "why_this_business": "Shelving, racking, and storage systems carry rated loads in retail, warehouse, and institutional settings. Overloaded or under-built systems collapse, and collapse in a warehouse is fatal to anyone in the aisle.",
+      "loss_scenario": "A structural collapse of shelving or racking with injuries or fatalities, and the manufacturer's design calculations and load ratings examined in the investigation.",
+      "rhetorical_question": "How are load ratings established and documented for your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fixtures are made to store and facility layouts.",
+      "why_this_business": "Showcases, partitions, and fixtures are made to specific layouts and dimensions for a store or facility, delivered against an opening date with installation crews scheduled.",
+      "loss_scenario": "Fixtures built to wrong dimensions or delayed, with a store unable to open on its announced date and the retailer assessing the cost of a missed opening.",
+      "rhetorical_question": "How are store layout dimensions captured and verified before production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retail fixture programmes roll out across many locations at once.",
+      "why_this_business": "Fixture programmes are produced and shipped to dozens or hundreds of stores on a rollout schedule, with each location receiving a specific package on a specific date.",
+      "loss_scenario": "Shipping and scheduling systems unavailable during a rollout, with packages arriving at wrong stores or not at all, and the retailer's programme schedule collapsing across every location.",
+      "rhetorical_question": "How many store locations does a typical rollout programme cover?"
+    }
+  ]
+}

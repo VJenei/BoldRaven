@@ -1,0 +1,31 @@
+{
+  "naics_code": "459110",
+  "naics_title": "Sporting Goods Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Firearms transaction records are federally mandated and permanently retained.",
+      "why_this_business": "Retailers holding a federal firearms licence must complete and retain ATF Form 4473 for every transfer, maintain acquisition and disposition records permanently, and report theft or loss of firearms to ATF and local law enforcement within 48 hours. Form 4473 contains the buyer's full identity, address, date and place of birth, and identification details.",
+      "loss_scenario": "Licence revocation for records that cannot be produced ends the ability to deal in firearms. A breach of 4473 records exposes a complete identity file for every firearms purchaser, which is among the most sensitive customer data any retailer holds.",
+      "rhetorical_question": "How are your Form 4473 records and acquisition and disposition book maintained and secured?"
+    },
+    {
+      "rank": 2,
+      "headline": "Background check systems are required for the transaction to proceed.",
+      "why_this_business": "Firearm transfers require a NICS background check initiated at the point of sale, with a proceed response or the expiry of the statutory delay period before transfer. Without access to the check system there is no lawful way to complete a sale.",
+      "loss_scenario": "Firearms sales stop entirely during an outage, and improper transfers made without a completed check are federal violations regardless of the reason.",
+      "rhetorical_question": "What happens to firearms sales at your store if you cannot initiate a background check?"
+    },
+    {
+      "rank": 3,
+      "headline": "Seasonal and licence-driven demand concentrates the year.",
+      "why_this_business": "Hunting seasons, fishing openers, and holiday periods concentrate a large share of annual revenue into short windows tied to fixed dates. Inventory is bought months ahead against those windows.",
+      "loss_scenario": "An outage during opening week or the fourth quarter costs a disproportionate share of the year on seasonal inventory that clears at markdown afterward.",
+      "rhetorical_question": "What share of your annual revenue occurs in your peak season weeks?"
+    }
+  ]
+}

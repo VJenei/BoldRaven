@@ -1,0 +1,31 @@
+{
+  "naics_code": "517112",
+  "naics_title": "Wireless Telecommunications Carriers (except Satellite)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "SIM swap fraud turns your account systems into a key to customers' bank accounts.",
+      "why_this_business": "A SIM swap transfers a customer's number to an attacker's device, defeating text-based authentication for banking, email, and cryptocurrency accounts. The FCC adopted rules requiring carriers to use secure authentication before a SIM change or port-out and to notify customers immediately, because the industry's own processes were being exploited.",
+      "loss_scenario": "Customers drained of funds through accounts protected by their phone number, with claims against the carrier for enabling the transfer and FCC enforcement for inadequate authentication procedures.",
+      "rhetorical_question": "How does your retail and care staff authenticate a customer before changing a SIM?"
+    },
+    {
+      "rank": 2,
+      "headline": "Carriers have been compromised by state-sponsored intrusion.",
+      "why_this_business": "A Chinese state-linked campaign publicly identified in 2024 compromised multiple US carriers and reached systems associated with lawful intercept, obtaining call records and communications of specific targets. Wireless carriers hold location data and communications metadata for entire populations.",
+      "loss_scenario": "Federal investigation, mandatory reporting, and remediation across core network systems, with the added exposure that location and metadata compromise affects individuals who cannot mitigate it themselves.",
+      "rhetorical_question": "How is access to subscriber location and call detail data controlled and logged?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer proprietary network information carries FCC obligations.",
+      "why_this_business": "Carriers must protect CPNI, and under rules updated in 2024 must notify the FCC, FBI, and Secret Service of breaches alongside affected customers. The Commission has imposed very large forfeitures on carriers for mishandling customer location data.",
+      "loss_scenario": "FCC forfeitures reaching tens of millions of dollars, plus notification to multiple federal agencies on short timelines and the class litigation that follows.",
+      "rhetorical_question": "Who inside your organisation can access customer location data, and how is that audited?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "621111",
+  "naics_title": "Offices of Physicians (except Mental Health Specialists)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You cannot practise safely without the electronic health record.",
+      "why_this_business": "Physician offices depend on the EHR for problem lists, medications, allergies, results, and prescribing. Practising without it means seeing patients whose medication and allergy histories are unknown, which is a patient safety decision rather than an inconvenience.",
+      "loss_scenario": "Clinics cancelling schedules for days, with revenue lost entirely because encounters cannot be billed, and clinical risk on every patient seen without their record.",
+      "rhetorical_question": "Would you see a patient without access to their medication and allergy list?"
+    },
+    {
+      "rank": 2,
+      "headline": "You are a HIPAA covered entity with direct enforcement exposure.",
+      "why_this_business": "Practices must conduct a security risk analysis, implement safeguards, and notify patients, HHS, and for breaches over 500 individuals the media. OCR investigates large breaches routinely, and the most common finding in enforcement actions is the absence of an adequate risk analysis.",
+      "loss_scenario": "Civil monetary penalties and a corrective action plan running for years, with the investigation examining whether a compliant risk analysis existed before the incident.",
+      "rhetorical_question": "When did your practice last complete a documented HIPAA security risk analysis?"
+    },
+    {
+      "rank": 3,
+      "headline": "Claims and eligibility run through clearinghouses you do not control.",
+      "why_this_business": "Practices verify eligibility and submit claims electronically through clearinghouses. The February 2024 attack on Change Healthcare left providers nationwide unable to verify coverage or submit claims for weeks, with many unable to meet payroll.",
+      "loss_scenario": "Revenue stops while costs continue. Contingent business interruption from a clearinghouse outage is a cyber coverage, and small practices have very little working capital to absorb weeks without payment.",
+      "rhetorical_question": "How many weeks of payroll could your practice cover with no claims payments arriving?"
+    }
+  ]
+}

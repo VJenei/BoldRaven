@@ -1,0 +1,31 @@
+{
+  "naics_code": "512290",
+  "naics_title": "Other Sound Recording Industries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Audio production for clients holds work that must be delivered on air dates.",
+      "why_this_business": "Businesses in this category produce audiobooks, podcasts, commercials, and audio content against publication and broadcast dates. Session material, edits, and finished masters sit with the producer until delivery, and the client has committed a schedule.",
+      "loss_scenario": "Missed delivery on advertising or broadcast dates, where the client's media buy is already placed and the value of the missed placement far exceeds the production fee.",
+      "rhetorical_question": "Are your deliverables tied to client broadcast or publication dates?"
+    },
+    {
+      "rank": 2,
+      "headline": "Talent and rights records determine what can be used and for how long.",
+      "why_this_business": "Voice talent agreements, music licences, and usage terms limit where and how long audio may be used, with residual and renewal obligations. Using audio beyond its licensed term is an infringement.",
+      "loss_scenario": "Continued use of audio past its licence term generates infringement and residual claims from talent unions and rights holders, with liability accruing per use.",
+      "rhetorical_question": "How do you track licence and usage terms for talent and music in your productions?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client audio archives accumulate over years of relationships.",
+      "why_this_business": "Producers retain client project archives to support revisions, versioning, and reuse, building up years of material representing the client's brand assets. Clients expect that material to be available on request.",
+      "loss_scenario": "Loss of client archives means brand audio, campaign assets, and series continuity cannot be reproduced, and the client rebuilds from scratch at your expense.",
+      "rhetorical_question": "How many years of client project archives do you hold?"
+    }
+  ]
+}

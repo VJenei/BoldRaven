@@ -1,0 +1,31 @@
+{
+  "naics_code": "311513",
+  "naics_title": "Cheese Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Soft and fresh cheeses are on the Food Traceability List.",
+      "why_this_business": "Soft ripened, semi-soft, and fresh soft cheeses are covered by FSMA Section 204, requiring traceability lot codes and Key Data Elements with records producible to FDA in an electronic sortable spreadsheet within 24 hours, compliance date July 20, 2028. These cheeses also carry the highest Listeria risk in dairy.",
+      "loss_scenario": "A Listeria traceback that cannot be answered, expanding a recall across all production and, given Listeria mortality in vulnerable populations, producing wrongful death claims alongside FDA enforcement.",
+      "rhetorical_question": "Can you produce lot-level traceability records for soft cheese within 24 hours?"
+    },
+    {
+      "rank": 2,
+      "headline": "Environmental monitoring in wet processing areas is the control.",
+      "why_this_business": "Listeria establishes in drains, floors, and equipment in wet cheese plants and is controlled by environmental monitoring programmes with sampling, trending, and corrective action. FDA examines those programmes and their records during inspection.",
+      "loss_scenario": "Positive environmental findings that cannot be trended or acted on, and FDA inspection where the monitoring programme cannot be evidenced, which in this category leads directly to enforcement.",
+      "rhetorical_question": "How is your environmental monitoring data recorded and trended?"
+    },
+    {
+      "rank": 3,
+      "headline": "Cheese making is a biological process over long timescales.",
+      "why_this_business": "Culture addition, coagulation, cutting, cooking, pressing, and ageing proceed on defined schedules with temperature and pH control, and aged cheeses occupy ripening rooms for months. A control failure ruins the vat and, in ageing, potentially the room.",
+      "loss_scenario": "Vats lost during make, and ripening room control failures affecting months of accumulated inventory, which represents both the product and the ageing time that cannot be recovered.",
+      "rhetorical_question": "How much cheese is in your ripening rooms, and how long has it been ageing?"
+    }
+  ]
+}

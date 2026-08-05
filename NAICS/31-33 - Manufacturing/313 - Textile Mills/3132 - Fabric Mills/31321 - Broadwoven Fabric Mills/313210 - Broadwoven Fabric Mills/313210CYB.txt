@@ -1,0 +1,31 @@
+{
+  "naics_code": "313210",
+  "naics_title": "Broadwoven Fabric Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Loom control and pattern data drive every metre woven.",
+      "why_this_business": "Modern looms are electronically controlled with pattern, density, and selvedge parameters loaded from design files. Weaving to a wrong pattern or specification produces fabric that cannot be sold for its intended use.",
+      "loss_scenario": "Fabric woven to wrong specification across a production run, which cannot be unwoven and is sold at a fraction of value or scrapped, on rolls representing thousands of metres.",
+      "rhetorical_question": "How are weaving patterns and specifications loaded into your looms?"
+    },
+    {
+      "rank": 2,
+      "headline": "Dye lots and colour matching cannot be reproduced later.",
+      "why_this_business": "Dyeing produces lots with inherent shade variation, matched to customer standards and recorded by lot. Apparel and furnishing customers cut across a lot and cannot mix lots in a single garment or piece.",
+      "loss_scenario": "Lot records lost so that shade cannot be matched for additional yardage, leaving customers unable to complete production and the mill unable to supply matching material.",
+      "rhetorical_question": "How are dye lot records maintained and communicated to customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customers cut to your fabric on a production schedule.",
+      "why_this_business": "Apparel and furnishing manufacturers schedule cutting and sewing against fabric delivery dates tied to retail seasons. Fabric arriving late compresses production that cannot absorb it.",
+      "loss_scenario": "Late fabric causing customers to miss retail delivery windows, with cancelled orders passed back as claims against the mill on seasonal goods that have no later market.",
+      "rhetorical_question": "Are your customers working to fixed retail delivery dates?"
+    }
+  ]
+}

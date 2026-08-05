@@ -1,0 +1,31 @@
+{
+  "naics_code": "339999",
+  "naics_title": "All Other Miscellaneous Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Consumer products carry CPSC reporting and recall duties.",
+      "why_this_business": "Products sold to consumers fall under CPSC jurisdiction with a 24 hour reporting obligation once information about a potential hazard is known, and recall reach depends on distribution records.",
+      "loss_scenario": "A recall that must cover all production because distribution records cannot identify affected lots, with civil penalties added where reporting was late.",
+      "rhetorical_question": "Could you identify which retailers received a specific production run?"
+    },
+    {
+      "rank": 2,
+      "headline": "Products are made to customer specifications with dedicated tooling.",
+      "why_this_business": "Manufacturing in this category is frequently to individual customer designs with tooling, formulations, and processes specific to each product. Customers have no alternative source without new tooling.",
+      "loss_scenario": "Production halted with customers unable to obtain products only you make, and their own sales or production stopped for as long as it takes to tool elsewhere.",
+      "rhetorical_question": "How many customer products are made only with your tooling?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production runs from digital data to automated equipment.",
+      "why_this_business": "Manufacturing runs from product data through automated moulding, machining, and assembly, with formulations, programmes, and settings held in production systems.",
+      "loss_scenario": "Production data lost or corrupted, with runs produced to wrong parameters scrapped and specifications requiring reconstruction while customer delivery dates pass.",
+      "rhetorical_question": "Where are your production specifications and machine programmes stored?"
+    }
+  ]
+}

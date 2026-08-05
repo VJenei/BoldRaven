@@ -1,0 +1,31 @@
+{
+  "naics_code": "311313",
+  "naics_title": "Beet Sugar Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The campaign runs continuously for months and cannot pause.",
+      "why_this_business": "Beet sugar factories operate a continuous campaign through the harvest season, processing beets that are deteriorating in storage piles. The factory runs around the clock because the raw material is degrading and cannot wait.",
+      "loss_scenario": "Factory downtime during campaign with beets deteriorating in piles, representing sugar that is permanently lost, and grower payments based on recoverable sugar that declines every day.",
+      "rhetorical_question": "How much sugar is lost per day of factory downtime during campaign?"
+    },
+    {
+      "rank": 2,
+      "headline": "Grower payment depends on tare lab and processing data.",
+      "why_this_business": "Cooperative and contracted growers are paid on tonnage and sugar content determined at receiving stations and through factory recovery, with payments made in instalments over the following year based on that data.",
+      "loss_scenario": "Unreconstructable grower payment data affecting hundreds of growers who are frequently also the cooperative's owners, with disputes over payments spanning a full crop year.",
+      "rhetorical_question": "How many growers are paid based on data your factory generates?"
+    },
+    {
+      "rank": 3,
+      "headline": "Process control governs extraction, purification, and crystallisation.",
+      "why_this_business": "Diffusion, purification, evaporation, and crystallisation run under distributed control with steam and energy integration across the plant. Crystallisation in particular is sensitive and produces off-specification sugar when disturbed.",
+      "loss_scenario": "Off-specification sugar and reduced recovery across a period, plus the energy and processing cost of reworking material that did not crystallise correctly.",
+      "rhetorical_question": "How long does your crystallisation section take to stabilise after an upset?"
+    }
+  ]
+}

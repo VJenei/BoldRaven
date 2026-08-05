@@ -1,0 +1,31 @@
+{
+  "naics_code": "311352",
+  "naics_title": "Confectionery Manufacturing from Purchased Chocolate",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Allergen control across shared lines is the primary food safety risk.",
+      "why_this_business": "Manufacturers run multiple products across shared equipment with milk, nuts, peanuts, soy, and sesame, controlled by production scheduling, cleaning validation, and label control. Sesame became the ninth major allergen requiring declaration.",
+      "loss_scenario": "An allergen recall with anaphylaxis exposure and a recall scope determined by whether production and distribution records can identify affected lots.",
+      "rhetorical_question": "How do you validate cleaning between allergen-containing and allergen-free runs?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasonal and promotional production is timed to retailer dates.",
+      "why_this_business": "Confectionery ships to seasonal reset dates and promotional windows agreed with retailers months ahead, with packaging and product specific to the season or promotion.",
+      "loss_scenario": "Missed seasonal windows leaving branded seasonal packaging that cannot be sold, with the retailer's shelf reset and the promotion lost entirely.",
+      "rhetorical_question": "How much of your production is packaged for a specific season or promotion?"
+    },
+    {
+      "rank": 3,
+      "headline": "Co-manufacturing means holding other brands' formulations.",
+      "why_this_business": "Many manufacturers in this category produce for brand owners under co-manufacturing agreements, holding customer formulations, specifications, and packaging artwork under confidentiality.",
+      "loss_scenario": "Disclosure of customer formulations to competitors, with contractual liability under the co-manufacturing agreement and loss of the customer relationships that fill the plant.",
+      "rhetorical_question": "How many brand owners' formulations are held on your systems?"
+    }
+  ]
+}

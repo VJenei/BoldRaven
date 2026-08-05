@@ -1,0 +1,31 @@
+{
+  "naics_code": "813319",
+  "naics_title": "Other Social Advocacy Organizations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Membership indicates a position people may not want disclosed.",
+      "why_this_business": "Advocacy organisations hold member and supporter lists where affiliation itself reveals political, social, or personal positions. Depending on the cause and the community, disclosure of membership carries employment, family, and safety consequences.",
+      "loss_scenario": "Exposure of membership identifying individuals with a cause, causing personal and professional harm and, for organisations working on contested issues, targeted harassment of named supporters.",
+      "rhetorical_question": "Would your members face any consequence if their affiliation became public?"
+    },
+    {
+      "rank": 2,
+      "headline": "Opponents are motivated by exposure rather than payment.",
+      "why_this_business": "Organisations on contested issues attract adversaries interested in internal communications, strategy, and supporter identities. Publication is the objective, which removes any possibility of resolving an incident through payment.",
+      "loss_scenario": "Publication of internal material and supporter lists, which cannot be recalled and which produces harassment of named individuals that the organisation cannot protect them from.",
+      "rhetorical_question": "Is there any party who would publish your internal records if they obtained them?"
+    },
+    {
+      "rank": 3,
+      "headline": "Service recipients may be in vulnerable circumstances.",
+      "why_this_business": "Advocacy organisations frequently provide direct services alongside campaigning, holding client records covering immigration status, domestic violence, legal matters, and health circumstances.",
+      "loss_scenario": "Exposure of client circumstances with immigration, safety, and legal consequences for people who came to the organisation for help precisely because it was confidential.",
+      "rhetorical_question": "Do you hold client records covering immigration status or safety circumstances?"
+    }
+  ]
+}

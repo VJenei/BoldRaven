@@ -1,0 +1,31 @@
+{
+  "naics_code": "541611",
+  "naics_title": "Administrative Management and General Management Consulting Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold clients' strategy before it is announced.",
+      "why_this_business": "Management consultants receive financial models, restructuring plans, acquisition targets, and workforce reduction proposals before any of it is public. For listed clients that information is material and non-public.",
+      "loss_scenario": "Leaked strategic plans expose the client to securities issues, competitive damage, and workforce disruption, with claims against the consultant and permanent loss of a relationship built on discretion.",
+      "rhetorical_question": "Do you currently hold unannounced restructuring or transaction plans for any client?"
+    },
+    {
+      "rank": 2,
+      "headline": "Client operational data is provided in bulk to support the work.",
+      "why_this_business": "Engagements require access to financial systems, operational data, customer data, and employee information, frequently extracted in bulk and analysed on consultant systems rather than the client's.",
+      "loss_scenario": "A breach exposing client customer and employee data extracted for analysis, where the client bears the notification obligation and passes the cost and the blame to the consultant.",
+      "rhetorical_question": "What client data is currently held on your systems rather than theirs?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client contracts impose security obligations you must be able to meet.",
+      "why_this_business": "Consulting agreements with large clients include information security requirements, audit rights, and breach notification obligations, and clients in regulated sectors flow down their own regulatory requirements.",
+      "loss_scenario": "Contractual liability defined by the engagement terms rather than the fee, plus failed client security assessments that remove you from preferred supplier lists.",
+      "rhetorical_question": "What security standards do your client contracts require you to maintain?"
+    }
+  ]
+}

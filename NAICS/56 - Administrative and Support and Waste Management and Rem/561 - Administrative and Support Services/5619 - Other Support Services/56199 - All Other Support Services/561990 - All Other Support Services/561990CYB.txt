@@ -1,0 +1,31 @@
+{
+  "naics_code": "561990",
+  "naics_title": "All Other Support Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Support providers hold client data and client obligations.",
+      "why_this_business": "Firms in this category perform functions clients have chosen not to keep in house, holding whatever data the function requires and frequently carrying contractual obligations that flow down the client's own regulatory duties.",
+      "loss_scenario": "Breach exposing client and end-customer data, with notification obligations flowing through each client contract and separate claims from every affected client.",
+      "rhetorical_question": "Whose data do you hold on behalf of clients, and under what contractual terms?"
+    },
+    {
+      "rank": 2,
+      "headline": "Clients cannot perform the function themselves.",
+      "why_this_business": "Outsourced functions are outsourced because the capability was removed internally. When the provider stops, the client has no fallback and the function stops with it.",
+      "loss_scenario": "Client operations interrupted with consequential claims reflecting the client's business rather than the service fee, and clients switching to competitors who were available.",
+      "rhetorical_question": "Could your clients perform your function internally if you were unavailable?"
+    },
+    {
+      "rank": 3,
+      "headline": "Small providers carry aggregated risk with limited defences.",
+      "why_this_business": "Support businesses are frequently small operations serving many clients from shared systems, with no dedicated IT function, no incident response plan, and often no tested backup.",
+      "loss_scenario": "A single incident affecting every client simultaneously, with aggregated liability exceeding the provider's revenue and no capacity to fund forensic investigation or notification.",
+      "rhetorical_question": "How many clients would be affected simultaneously by a single incident at your business?"
+    }
+  ]
+}

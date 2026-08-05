@@ -1,0 +1,31 @@
+{
+  "naics_code": "311119",
+  "naics_title": "Other Animal Food Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Medicated feed manufacturing is FDA regulated with strict records.",
+      "why_this_business": "Feed containing animal drugs is manufactured under FDA current good manufacturing practice requirements, with some products requiring a medicated feed mill licence. Records of formulation, mixing, and drug inclusion rates must be maintained and are inspected.",
+      "loss_scenario": "FDA action for records that cannot be produced, and drug carryover or incorrect inclusion causing violative residues in food animals, which is traced back to the mill and affects every producer that used the feed.",
+      "rhetorical_question": "Do you manufacture medicated feed requiring FDA licensing and drug inclusion records?"
+    },
+    {
+      "rank": 2,
+      "headline": "Feed errors damage entire herds and flocks before detection.",
+      "why_this_business": "Feed is consumed continuously by large populations of animals. A formulation or contamination error affects every animal eating it, and the consequences appear as performance loss, illness, or death across a producer's whole operation.",
+      "loss_scenario": "Herd or flock losses across multiple customers from a single production error, with claims measured by the value of the animals rather than the value of the feed.",
+      "rhetorical_question": "How many animals eat a single day of your production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Batching automation controls what actually goes in.",
+      "why_this_business": "Feed mills run automated batching, grinding, and mixing systems executing formulations with ingredient sequencing and flush procedures to prevent carryover between medicated and non-medicated runs.",
+      "loss_scenario": "Cross-contamination between medicated and non-medicated feed producing residue violations in food animals, which is an FDA matter and a claim from every affected producer.",
+      "rhetorical_question": "How are flush and sequencing procedures controlled between medicated batches?"
+    }
+  ]
+}

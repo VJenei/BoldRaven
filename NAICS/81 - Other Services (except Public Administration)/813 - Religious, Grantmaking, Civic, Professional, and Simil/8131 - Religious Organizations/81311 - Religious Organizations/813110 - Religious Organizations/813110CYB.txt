@@ -1,0 +1,31 @@
+{
+  "naics_code": "813110",
+  "naics_title": "Religious Organizations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Congregational records document faith, family, and personal circumstances.",
+      "why_this_business": "Congregations hold membership records, family relationships, giving histories, pastoral care notes, counselling records, and details of personal crises shared in confidence. Membership itself indicates religious affiliation, which is sensitive in its own right.",
+      "loss_scenario": "Exposure of pastoral and counselling notes causes profound personal harm to members who disclosed in confidence, and in some communities exposure of religious affiliation carries safety consequences.",
+      "rhetorical_question": "Do your records include pastoral care or counselling notes about named individuals?"
+    },
+    {
+      "rank": 2,
+      "headline": "Giving records reveal personal financial circumstances.",
+      "why_this_business": "Organisations record contributions by member for tax receipting, revealing giving levels that members frequently regard as private within their own community. Major donor records include capacity assessments.",
+      "loss_scenario": "Exposure of individual giving levels within a community where members know each other, which causes lasting relational damage, plus payment data from recurring online giving.",
+      "rhetorical_question": "Would your members want each other to know what they give?"
+    },
+    {
+      "rank": 3,
+      "headline": "Youth programmes and safeguarding records are highly sensitive.",
+      "why_this_business": "Congregations operate children's and youth programmes with participant records, parent contacts, volunteer background checks, and safeguarding documentation including any allegations or concerns raised.",
+      "loss_scenario": "Exposure of children's participation records and safeguarding files, which is both a child safety exposure and, where allegations are documented, deeply damaging to identified individuals on both sides.",
+      "rhetorical_question": "Do you hold background check and safeguarding records for youth programme volunteers?"
+    }
+  ]
+}

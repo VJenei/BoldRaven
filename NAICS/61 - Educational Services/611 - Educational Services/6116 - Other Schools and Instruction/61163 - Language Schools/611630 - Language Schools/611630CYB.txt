@@ -1,0 +1,31 @@
+{
+  "naics_code": "611630",
+  "naics_title": "Language Schools",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "International student programmes involve immigration status records.",
+      "why_this_business": "Schools enrolling international students on student visas must be certified and report enrolment, address, and status changes through the federal student and exchange visitor information system. Records include passports, visas, and immigration documentation.",
+      "loss_scenario": "Exposure of immigration status and passport data for students whose visa status depends on the school's reporting, which creates direct personal risk for them and certification consequences for the school.",
+      "rhetorical_question": "Do you enrol students on visas and report to federal immigration systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Certification depends on accurate enrolment and attendance reporting.",
+      "why_this_business": "Schools certified to enrol non-immigrant students must report attendance, programme progress, and status events within prescribed timeframes. Failure to report accurately puts certification at risk and can affect students' lawful status.",
+      "loss_scenario": "Reporting failures putting students out of status through no fault of their own, and school certification withdrawn, which ends the ability to enrol international students entirely.",
+      "rhetorical_question": "What are your reporting deadlines for student status events?"
+    },
+    {
+      "rank": 3,
+      "headline": "Tuition is paid in advance from abroad.",
+      "why_this_business": "International students frequently pay tuition and fees in advance by international wire, arranged by email with the school. Both the student and the school are unfamiliar with each other's banking, which is exactly the gap payment fraud exploits.",
+      "loss_scenario": "Diverted tuition payments where a student paid a fraudster, arrives expecting enrolment, and the school has received nothing, with the student's visa status depending on enrolment proceeding.",
+      "rhetorical_question": "How do international students verify your banking details before wiring tuition?"
+    }
+  ]
+}

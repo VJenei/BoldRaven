@@ -1,0 +1,31 @@
+{
+  "naics_code": "332431",
+  "naics_title": "Metal Can Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Can integrity determines whether food inside stays safe.",
+      "why_this_business": "Food cans are the barrier preserving thermally processed food, with double seam integrity being the critical control. Seam defects allow microbial ingress after retort, which for low acid foods means botulism risk.",
+      "loss_scenario": "Cans with defective seams packed with low acid food, permitting contamination after processing, with a botulism recall and fatality exposure traced to the can rather than the food processor.",
+      "rhetorical_question": "How are seam inspection and teardown results recorded against production?"
+    },
+    {
+      "rank": 2,
+      "headline": "Can lines run at extraordinary speed adjacent to fillers.",
+      "why_this_business": "Can production runs at well over a thousand cans per minute, frequently supplying fillers directly with minimal buffer. Filling lines run at matching speed and stop without cans.",
+      "loss_scenario": "Filling lines stopped for want of cans, with beverage and food production halted and product in process at the filler lost, plus your own line producing nothing at very high fixed cost.",
+      "rhetorical_question": "How many cans per minute does your line produce, and what depends on that supply?"
+    },
+    {
+      "rank": 3,
+      "headline": "Internal coatings carry food contact compliance requirements.",
+      "why_this_business": "Can interiors are coated to prevent metal contact with food, with coating chemistry subject to food contact requirements and BPA-based epoxies subject to increasing restriction and customer specification.",
+      "loss_scenario": "Non-compliant or damaged coating allowing metal migration or corrosion, with recall of packed product and customers who committed publicly to specific coating chemistries holding you responsible.",
+      "rhetorical_question": "How do you document internal coating compliance and integrity?"
+    }
+  ]
+}

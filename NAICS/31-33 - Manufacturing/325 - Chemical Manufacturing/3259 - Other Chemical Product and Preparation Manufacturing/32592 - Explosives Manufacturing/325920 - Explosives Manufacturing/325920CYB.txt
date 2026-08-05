@@ -1,0 +1,31 @@
+{
+  "naics_code": "325920",
+  "naics_title": "Explosives Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Inventory records are federally controlled security documents.",
+      "why_this_business": "Explosives manufacturers are licensed by ATF with requirements for daily inventory records, transaction documentation, storage magazine standards, and reporting of theft or loss within 24 hours. Inventory records are security records as much as commercial ones.",
+      "loss_scenario": "Inventory discrepancies that cannot be reconciled are treated as potential diversion, with ATF investigation, licence action, and federal attention to explosives entering unlawful channels.",
+      "rhetorical_question": "How is your daily explosives inventory recorded and reconciled?"
+    },
+    {
+      "rank": 2,
+      "headline": "The process itself can detonate.",
+      "why_this_business": "Manufacturing energetic materials involves reactions and handling where initiation causes detonation. Process control, remote operation, and separation distances are the controls, and incidents in this industry destroy buildings and kill everyone in them.",
+      "loss_scenario": "A detonation destroying production buildings with fatalities, and depending on quantity and distance, damage to surrounding structures and the community.",
+      "rhetorical_question": "How are your energetic material processes monitored and remotely controlled?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer and shipment data identifies where explosives will be.",
+      "why_this_business": "Records identify which customers hold what quantities, delivery schedules, and magazine locations. That information describes where explosives are stored and when they move.",
+      "loss_scenario": "Exposure of customer inventory and shipment data creating a security exposure across every magazine and shipment described, which cannot be remediated because it concerns other parties' facilities.",
+      "rhetorical_question": "Do your systems record customer magazine locations and delivery schedules?"
+    }
+  ]
+}

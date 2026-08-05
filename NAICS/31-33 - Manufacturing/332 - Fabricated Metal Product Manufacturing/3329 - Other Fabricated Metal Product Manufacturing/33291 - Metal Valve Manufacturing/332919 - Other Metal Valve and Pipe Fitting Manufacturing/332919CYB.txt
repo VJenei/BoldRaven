@@ -1,0 +1,31 @@
+{
+  "naics_code": "332919",
+  "naics_title": "Other Metal Valve and Pipe Fitting Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fittings are pressure-retaining components in piping systems.",
+      "why_this_business": "Valves and fittings hold pressure in piping carrying water, gas, chemicals, and process fluids. Failure releases the contents, and in gas or chemical service the consequence extends well beyond the fitting.",
+      "loss_scenario": "Fitting failures releasing gas or process fluid in installed systems, with fire, explosion, or environmental exposure and recall reaching every installation using product from the affected lots.",
+      "rhetorical_question": "What services and pressures are your fittings rated for?"
+    },
+    {
+      "rank": 2,
+      "headline": "Material and pressure ratings are certified and marked.",
+      "why_this_business": "Fittings are marked with material and pressure class, with the marking relied on by installers and inspectors. Certification depends on material traceability and testing.",
+      "loss_scenario": "Product marked to ratings it does not meet installed in systems by class, requiring identification and replacement of fittings buried in operating piping.",
+      "rhetorical_question": "How are material certifications and pressure ratings tied to marked production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Gas distribution fittings are federally regulated.",
+      "why_this_business": "Fittings for gas piping are subject to pipeline safety requirements with qualification, testing, and traceability. Operators must be able to trace components installed in their systems.",
+      "loss_scenario": "Fittings in gas distribution failing with a leak, fire, or explosion, and the manufacturer's records determining whether the product met the qualification requirements it was supplied under.",
+      "rhetorical_question": "Do any of your products go into regulated gas piping systems?"
+    }
+  ]
+}

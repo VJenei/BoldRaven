@@ -1,0 +1,31 @@
+{
+  "naics_code": "325194",
+  "naics_title": "Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Aromatic and intermediate chemistry is hazardous and continuous.",
+      "why_this_business": "Production of aromatics and chemical intermediates involves flammable and toxic materials in continuous distillation and reaction processes, with benzene and similar materials carrying carcinogen exposure controls.",
+      "loss_scenario": "Fire, explosion, or toxic release with worker fatality exposure and community consequences, plus carcinogen exposure findings where monitoring and control records cannot be produced.",
+      "rhetorical_question": "What carcinogen exposure monitoring does your operation require?"
+    },
+    {
+      "rank": 2,
+      "headline": "Product purity determines usability in downstream synthesis.",
+      "why_this_business": "Intermediates are supplied to chemical manufacturers who use them in further synthesis, where impurities affect reaction yield and product quality. Customers qualify material to tight purity specifications.",
+      "loss_scenario": "Off-specification intermediate causing failed batches at customers, with their reactor time, materials, and downstream product losses claimed against the supplier.",
+      "rhetorical_question": "How is product purity verified against customer specification before shipment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Process knowledge and yields are competitively critical.",
+      "why_this_business": "Reaction conditions, catalyst systems, and separation schemes determine yield and cost, developed over years and constituting the manufacturer's competitive position in commodity chemistry where margins are thin.",
+      "loss_scenario": "Process disclosure eliminating a cost advantage built over years, in a commodity market where the cost position is the only durable differentiator.",
+      "rhetorical_question": "How is your process and yield data protected?"
+    }
+  ]
+}

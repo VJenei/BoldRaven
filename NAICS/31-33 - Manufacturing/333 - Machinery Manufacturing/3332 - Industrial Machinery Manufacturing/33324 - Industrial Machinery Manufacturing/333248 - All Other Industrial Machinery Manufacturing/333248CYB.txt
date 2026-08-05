@@ -1,0 +1,31 @@
+{
+  "naics_code": "333248",
+  "naics_title": "All Other Industrial Machinery Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Machines are engineered to order for one customer process.",
+      "why_this_business": "Industrial machinery in this category is designed for a specific customer application, with engineering, control code, and documentation produced once. Nothing is stock and the design file is the machine.",
+      "loss_scenario": "Loss of engineering and control code for machines in build and in the field, halting production and leaving installed machines unsupportable when they need a change or repair.",
+      "rhetorical_question": "How many machine designs and control programmes exist only on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Machines ship with control systems you wrote and support.",
+      "why_this_business": "Industrial machines include PLCs, drives, and HMIs programmed by the manufacturer, frequently with remote access for commissioning and support that reaches into customer plant networks.",
+      "loss_scenario": "Remote support access used to reach customer networks, with production stopped at multiple plants and the manufacturer identified as the common entry point.",
+      "rhetorical_question": "How many customer sites do you retain remote access to?"
+    },
+    {
+      "rank": 3,
+      "headline": "Machine safety functions prevent operator injury.",
+      "why_this_business": "Guarding, interlocks, light curtains, and safety-rated control functions stop motion when a person is exposed. Those functions are designed, validated, and documented by the machine builder.",
+      "loss_scenario": "A safety function defect permitting motion with a person exposed, causing serious injury, with the machine builder's validation records examined in the investigation and every machine of the design affected.",
+      "rhetorical_question": "How are safety-rated control functions validated and documented per machine?"
+    }
+  ]
+}

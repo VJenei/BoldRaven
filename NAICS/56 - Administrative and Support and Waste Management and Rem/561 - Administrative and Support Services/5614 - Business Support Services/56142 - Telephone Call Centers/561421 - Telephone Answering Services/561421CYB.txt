@@ -1,0 +1,31 @@
+{
+  "naics_code": "561421",
+  "naics_title": "Telephone Answering Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You take messages containing your clients' customers' private information.",
+      "why_this_business": "Answering services handle calls for medical practices, law firms, and service businesses, recording caller names, contact details, and the reason for calling. Medical answering services handle patient information, making them business associates under HIPAA.",
+      "loss_scenario": "Exposure of message logs revealing patient conditions, legal matters, and personal circumstances, with HIPAA obligations where healthcare clients are involved and contractual liability across the client base.",
+      "rhetorical_question": "Do you answer for medical or legal practices, and are those messages retained?"
+    },
+    {
+      "rank": 2,
+      "headline": "After-hours and emergency dispatch depends on you completely.",
+      "why_this_business": "Answering services provide after-hours coverage for medical practices, utilities, property managers, and emergency services, dispatching on-call personnel according to protocols. Clients have no alternative coverage during those hours.",
+      "loss_scenario": "Failure to reach on-call personnel for a medical or emergency call, which is a life safety exposure with liability far beyond the service fee and immediate loss of the client.",
+      "rhetorical_question": "What emergency dispatch protocols do you operate on behalf of clients?"
+    },
+    {
+      "rank": 3,
+      "headline": "Call recordings are retained and are sensitive.",
+      "why_this_business": "Services record calls for quality and dispute purposes, retaining audio containing personal, medical, and financial information disclosed by callers. Recording also triggers state consent requirements that vary by jurisdiction.",
+      "loss_scenario": "Exposure of call recordings containing personal disclosures, plus potential wiretapping and consent exposure where recordings were made in states requiring all-party consent.",
+      "rhetorical_question": "How long are call recordings retained, and where are they stored?"
+    }
+  ]
+}

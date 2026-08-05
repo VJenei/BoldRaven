@@ -1,0 +1,31 @@
+{
+  "naics_code": "488310",
+  "naics_title": "Port and Harbor Operations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The Coast Guard now requires a cybersecurity plan for regulated facilities.",
+      "why_this_business": "The Coast Guard cybersecurity rule took effect July 16, 2025 for MTSA-regulated facilities, requiring reportable cyber incidents to be reported to the National Response Center without delay, personnel training by January 12, 2026, and a designated Cybersecurity Officer, cybersecurity assessment, and approved Cybersecurity Plan by July 16, 2027.",
+      "loss_scenario": "Captain of the Port orders restricting or suspending facility operations until deficiencies are corrected, which closes the terminal to vessel traffic.",
+      "rhetorical_question": "Have you designated a Cybersecurity Officer and begun your Cybersecurity Assessment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Access control and credentialing govern entry to a secure facility.",
+      "why_this_business": "Port facilities control access using Transportation Worker Identification Credential verification, gate systems, and truck appointment platforms. Facility security plans specify how access is controlled and are approved by the Coast Guard.",
+      "loss_scenario": "A compromise of access control is a maritime security incident with Coast Guard enforcement, and an unsecured facility cannot lawfully receive vessels.",
+      "rhetorical_question": "How is TWIC verification and gate access controlled at your facility?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vessel scheduling and berth allocation govern the whole harbour.",
+      "why_this_business": "Port operations coordinate vessel arrivals, berth assignment, pilotage, tug orders, and cargo operations, with vessels arriving on schedules set weeks in advance. A berth that cannot be assigned leaves a vessel at anchor.",
+      "loss_scenario": "Vessels waiting at anchor accrue demurrage of tens of thousands of dollars per day, claimed against the port or the terminal, and the queue compounds with each additional arrival.",
+      "rhetorical_question": "What does a day at anchor cost the vessels calling at your port?"
+    }
+  ]
+}

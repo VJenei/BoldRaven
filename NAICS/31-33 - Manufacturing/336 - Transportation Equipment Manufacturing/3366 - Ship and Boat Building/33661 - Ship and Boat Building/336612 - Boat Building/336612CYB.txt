@@ -1,0 +1,31 @@
+{
+  "naics_code": "336612",
+  "naics_title": "Boat Building",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Boats must meet Coast Guard safety requirements and are recalled.",
+      "why_this_business": "Recreational boats are subject to Coast Guard safety standards covering flotation, fuel systems, and electrical installation, with defect notification and recall obligations administered by the Coast Guard.",
+      "loss_scenario": "A fuel or electrical defect causing a fire or a flotation defect causing a sinking, with a Coast Guard recall, fatalities where the boat was occupied, and hull identification records determining reach.",
+      "rhetorical_question": "How do you maintain hull identification records for recall notification?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fuel and electrical systems in a hull cause fires and explosions.",
+      "why_this_business": "Gasoline vapour accumulates in enclosed bilge spaces, and ventilation, ignition protection, and fuel system integrity are what prevent an explosion when the engine is started.",
+      "loss_scenario": "A fuel system or ventilation defect causing an explosion at startup, with occupants injured or killed on the water where rescue is delayed, and build records examined.",
+      "rhetorical_question": "How are fuel system and ventilation installations documented per hull?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production is seasonal and sold through dealers.",
+      "why_this_business": "Boat production is scheduled ahead of a spring and summer selling season, with dealer orders, floor plan financing, and delivery managed through manufacturer systems.",
+      "loss_scenario": "Production or order systems unavailable ahead of the season, with dealer inventory unfilled through the months that produce the year's sales and demand gone by autumn.",
+      "rhetorical_question": "What share of your annual volume is delivered to dealers before June?"
+    }
+  ]
+}

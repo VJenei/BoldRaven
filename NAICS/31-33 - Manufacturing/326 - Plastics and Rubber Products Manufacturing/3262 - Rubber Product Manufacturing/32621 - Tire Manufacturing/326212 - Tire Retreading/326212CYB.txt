@@ -1,0 +1,31 @@
+{
+  "naics_code": "326212",
+  "naics_title": "Tire Retreading",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Retread failures cause crashes and highway debris.",
+      "why_this_business": "Retreaded tires are used extensively on commercial vehicles, with casing inspection, buffing, and curing determining whether the retread holds. Tread separation on a highway causes loss of control and debris that damages other vehicles.",
+      "loss_scenario": "Retread separations causing crashes and injuries, with the retreader's inspection and process records determining whether the casing should have been retreaded and whether the process was properly controlled.",
+      "rhetorical_question": "How are casing inspection results and cure parameters recorded per tire?"
+    },
+    {
+      "rank": 2,
+      "headline": "Casing history determines whether a tire can be retreaded.",
+      "why_this_business": "Casings are inspected for damage, previous repairs, and age before retreading, with rejection criteria determining suitability. Fleet customers track their casings and expect them returned or accounted for.",
+      "loss_scenario": "Unsuitable casings retreaded and returned to service, with failures in fleet operation, plus disputes with fleet customers over casings that cannot be accounted for.",
+      "rhetorical_question": "How do you track individual customer casings through your process?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fleet customers depend on turnaround and casing accounting.",
+      "why_this_business": "Commercial fleets send casings for retreading and expect return within a turnaround window, tracking their casing inventory as an asset. Trucks wait on tires and fleets manage casing pools closely.",
+      "loss_scenario": "Casing tracking lost with fleets unable to reconcile their asset pool, and turnaround failures leaving trucks without tires, which for a fleet is equipment out of revenue service.",
+      "rhetorical_question": "How many customer casings are in your plant at any time?"
+    }
+  ]
+}

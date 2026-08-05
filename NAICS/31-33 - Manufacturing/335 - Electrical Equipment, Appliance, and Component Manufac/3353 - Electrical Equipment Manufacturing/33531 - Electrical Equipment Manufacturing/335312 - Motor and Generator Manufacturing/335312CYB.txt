@@ -1,0 +1,31 @@
+{
+  "naics_code": "335312",
+  "naics_title": "Motor and Generator Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Motors drive processes that stop when they fail.",
+      "why_this_business": "Electric motors drive pumps, fans, and machinery across industry, with failures stopping the process immediately. Large motors are built to order with long lead times and no shelf spare.",
+      "loss_scenario": "Motor failures across an installed base or production halted with customers unable to obtain replacements, and process plants stopped for the months a replacement motor takes to build.",
+      "rhetorical_question": "What is the lead time on your larger built-to-order motors?"
+    },
+    {
+      "rank": 2,
+      "headline": "Motors in hazardous locations must not become ignition sources.",
+      "why_this_business": "Motors for classified hazardous areas carry explosion-proof or increased safety certifications depending on enclosure construction, clearances, and temperature limits verified in the build.",
+      "loss_scenario": "Motors built outside certified construction installed in hazardous areas, igniting a flammable atmosphere, with an explosion and an investigation examining the certification and build records.",
+      "rhetorical_question": "How are hazardous location certified constructions controlled in your build process?"
+    },
+    {
+      "rank": 3,
+      "headline": "Efficiency standards are federally mandated by motor type.",
+      "why_this_business": "Department of Energy efficiency standards prescribe minimum efficiency for electric motors by type and rating, with compliance certification and enforcement. Non-compliant motors cannot be lawfully sold.",
+      "loss_scenario": "Motors manufactured or sold below required efficiency, which is a DOE violation with penalties and inventory that cannot be sold, plus certification records that must be produced.",
+      "rhetorical_question": "How do you certify and track efficiency compliance by motor model?"
+    }
+  ]
+}

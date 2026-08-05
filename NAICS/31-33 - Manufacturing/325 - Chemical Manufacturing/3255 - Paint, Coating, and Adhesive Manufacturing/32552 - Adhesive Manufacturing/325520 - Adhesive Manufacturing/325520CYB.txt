@@ -1,0 +1,31 @@
+{
+  "naics_code": "325520",
+  "naics_title": "Adhesive Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Adhesive failure causes structural and product failures downstream.",
+      "why_this_business": "Adhesives bond structural components, packaging, and assemblies where failure means the product comes apart. Construction, automotive, and packaging applications all depend on documented bond performance.",
+      "loss_scenario": "Adhesive failing specification incorporated into structural or safety-related assemblies, with product failures and recalls at customers and liability where the bond was load-bearing.",
+      "rhetorical_question": "What structural or safety applications use the adhesives you manufacture?"
+    },
+    {
+      "rank": 2,
+      "headline": "Formulations are proprietary and customer-specific.",
+      "why_this_business": "Adhesive manufacturers develop formulations for specific substrates and processes, frequently in collaboration with customers whose assembly processes are built around the adhesive's open time and cure characteristics.",
+      "loss_scenario": "Formulation disclosure to competitors and loss of customer-specific developments, with the technical relationship that justified the price permanently undermined.",
+      "rhetorical_question": "How many customer-specific formulations are held on your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Reactive chemistry and solvents create process hazards.",
+      "why_this_business": "Adhesive manufacture involves exothermic polymerisation, isocyanates, and flammable solvents, with temperature control and vapour management required. Isocyanate exposure causes occupational asthma with permanent effects.",
+      "loss_scenario": "A runaway reaction or solvent fire, plus worker sensitisation from isocyanate exposure where monitoring and control records determine liability in an occupational disease claim.",
+      "rhetorical_question": "Do you handle isocyanates, and how is exposure monitored?"
+    }
+  ]
+}

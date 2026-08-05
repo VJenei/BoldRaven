@@ -1,0 +1,31 @@
+{
+  "naics_code": "445298",
+  "naics_title": "All Other Specialty Food Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty food retail depends on imported product with compliance duties.",
+      "why_this_business": "Specialty retailers import cheeses, oils, cured meats, and prepared foods subject to FDA prior notice, foreign supplier verification programme obligations for importers, and labelling requirements. Detention at entry stops the product that defines the store.",
+      "loss_scenario": "Shipments refused or detained where importer verification records cannot be produced, and specialty product that arrives late is often past its useful shelf life.",
+      "rhetorical_question": "Do you import product directly, and how are supplier verification records kept?"
+    },
+    {
+      "rank": 2,
+      "headline": "Perishable specialty inventory carries high value and short life.",
+      "why_this_business": "Cheeses, charcuterie, and prepared foods carry high cost per unit and require temperature control and rotation. Case management, markdown, and ordering run against sell-by data. Shrink is the difference between profit and loss.",
+      "loss_scenario": "Ordering and rotation decisions made blind produce both spoilage and out of stocks in a category where the average unit cost is many times that of ordinary grocery.",
+      "rhetorical_question": "What is your average cost per unit of perishable inventory?"
+    },
+    {
+      "rank": 3,
+      "headline": "The customer relationship is personal and data-driven.",
+      "why_this_business": "Specialty food retailers run clienteling, standing orders, and event catering with customer preferences, allergies, and payment details stored. Those relationships are the reason customers pay a premium over a supermarket.",
+      "loss_scenario": "A breach exposing customer data including dietary and allergy information, in a business built entirely on personal trust with a small, high value customer base.",
+      "rhetorical_question": "Do you store customer preferences, allergies, or payment details?"
+    }
+  ]
+}

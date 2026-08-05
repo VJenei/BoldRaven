@@ -1,0 +1,31 @@
+{
+  "naics_code": "322230",
+  "naics_title": "Stationery Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Retail and commercial customers order to seasonal calendars.",
+      "why_this_business": "Stationery products ship to retail against back to school, holiday, and seasonal resets with delivery windows agreed months ahead. Products are frequently dated or seasonally themed with no value after the period.",
+      "loss_scenario": "Missed seasonal windows leaving dated or themed product that cannot be sold, with production cost sunk and shelf space lost for the season.",
+      "rhetorical_question": "What share of your production is seasonal or dated?"
+    },
+    {
+      "rank": 2,
+      "headline": "Custom and imprinted production is customer specific.",
+      "why_this_business": "Commercial stationery and business forms are printed with customer branding, form numbers, and content, produced to order in quantities specific to that customer. Nothing is interchangeable.",
+      "loss_scenario": "Wrong specification production that no other customer can use, with material and print costs lost and the customer waiting on forms their own operations require.",
+      "rhetorical_question": "What proportion of your production is customer-specific imprinted work?"
+    },
+    {
+      "rank": 3,
+      "headline": "Converting lines run continuously with high changeover volume.",
+      "why_this_business": "Cutting, folding, gluing, and binding lines run many short jobs with frequent changeovers driven by job specifications. Setup accuracy determines whether the run produces saleable product.",
+      "loss_scenario": "Setup errors producing scrap across runs, with material and machine time consumed and delivery dates missed on jobs that must be rerun.",
+      "rhetorical_question": "How many separate jobs run through your converting lines in a week?"
+    }
+  ]
+}

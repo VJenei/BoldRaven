@@ -1,0 +1,31 @@
+{
+  "naics_code": "321211",
+  "naics_title": "Hardwood Veneer and Plywood Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Formaldehyde emission standards apply to composite wood products.",
+      "why_this_business": "Hardwood plywood is regulated under EPA formaldehyde emission standards requiring third-party certification, testing, labelling, and record retention. Non-compliant product cannot lawfully be sold or imported.",
+      "loss_scenario": "Product that cannot be certified is unsaleable and, if distributed, subject to enforcement and recall, with EPA penalties and the certification body's involvement.",
+      "rhetorical_question": "How do you maintain formaldehyde emission testing and certification records?"
+    },
+    {
+      "rank": 2,
+      "headline": "Veneer and lay-up production is programme driven.",
+      "why_this_business": "Veneer slicing, clipping, and composing, and panel lay-up follow specifications for grade, species, thickness, and construction. Panel construction determines structural and appearance performance.",
+      "loss_scenario": "Panels produced to wrong construction or grade, unsaleable at specification and sold as downgrade, on production runs representing substantial veneer and press time.",
+      "rhetorical_question": "How are panel construction specifications loaded into production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Hardwood species sourcing carries legality documentation.",
+      "why_this_business": "The Lacey Act prohibits trade in illegally harvested timber and requires import declarations of species and country of harvest, with due care expected. Hardwood species from certain regions attract particular scrutiny.",
+      "loss_scenario": "Lacey Act exposure including seizure and criminal penalties where species and origin cannot be documented, which in this industry has produced significant enforcement actions.",
+      "rhetorical_question": "Can you document species and harvest origin for your veneer supply?"
+    }
+  ]
+}

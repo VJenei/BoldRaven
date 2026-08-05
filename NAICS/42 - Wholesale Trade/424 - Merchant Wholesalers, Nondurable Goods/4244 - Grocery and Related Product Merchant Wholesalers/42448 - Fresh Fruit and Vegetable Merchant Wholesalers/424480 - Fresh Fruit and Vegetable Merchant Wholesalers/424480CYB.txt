@@ -1,0 +1,31 @@
+{
+  "naics_code": "424480",
+  "naics_title": "Fresh Fruit and Vegetable Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Most of what you handle is on the Food Traceability List.",
+      "why_this_business": "Leafy greens, melons, tomatoes, cucumbers, peppers, fresh herbs, sprouts, and tropical tree fruits are all covered by FSMA Section 204, which requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. The compliance date is July 20, 2028.",
+      "loss_scenario": "A traceback that stops at your records turns a single-farm investigation into a commodity-wide advisory. The 2018 romaine advisories destroyed demand for growers and distributors who were never implicated.",
+      "rhetorical_question": "Can you link an outbound case to the specific grower lot it came from?"
+    },
+    {
+      "rank": 2,
+      "headline": "PACA gives your suppliers a trust claim ahead of your lender.",
+      "why_this_business": "Under the Perishable Agricultural Commodities Act, produce sellers hold a statutory trust over the buyer's produce-related inventory and receivables until paid, ahead of secured creditors. Payment terms are short and trust claims are enforced through federal court. Records establish who is owed what.",
+      "loss_scenario": "A payment disruption triggers PACA trust claims from multiple suppliers simultaneously, which takes priority over the lender and can force the business into insolvency within weeks.",
+      "rhetorical_question": "How many days do you have to pay your produce suppliers under PACA?"
+    },
+    {
+      "rank": 3,
+      "headline": "Produce is repriced daily and holds no inventory value.",
+      "why_this_business": "Fresh produce is bought and sold against a market that moves daily, with quality degrading from the moment it arrives. Inventory, pricing, and allocation decisions are made continuously. Product cannot be held through a disruption.",
+      "loss_scenario": "Inventory on the floor becomes worthless within days of a systems outage, and the loss is total rather than deferred.",
+      "rhetorical_question": "How many days can your inventory sit before it has no commercial value?"
+    }
+  ]
+}

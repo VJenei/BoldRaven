@@ -1,0 +1,31 @@
+{
+  "naics_code": "561720",
+  "naics_title": "Janitorial Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your staff have unsupervised after-hours access to client premises.",
+      "why_this_business": "Cleaning is performed after hours across offices, healthcare facilities, financial institutions, and government buildings, with staff holding keys, access credentials, and alarm codes. Assignment records and access data sit in your scheduling systems.",
+      "loss_scenario": "Exposure of access credentials, alarm codes, and cleaning schedules provides unsupervised night-time entry to client premises, with the janitorial provider identified as the source of the physical breach.",
+      "rhetorical_question": "How many client buildings can your staff access after hours?"
+    },
+    {
+      "rank": 2,
+      "headline": "Staff screening records support the trust the contract depends on.",
+      "why_this_business": "Clients require background screening, work authorisation verification, and in secure environments additional clearance for cleaning staff. The provider maintains those records and clients audit them.",
+      "loss_scenario": "Contract loss and client claims where screening cannot be evidenced, particularly after any incident involving theft or misconduct at a client site.",
+      "rhetorical_question": "How do you evidence that assigned staff were screened as the client contract requires?"
+    },
+    {
+      "rank": 3,
+      "headline": "Large hourly workforces generate concentrated payroll data.",
+      "why_this_business": "Janitorial operations employ large numbers of hourly workers, frequently including immigrant workers, with Social Security numbers, work authorisation documents, and banking details held for payroll across high turnover.",
+      "loss_scenario": "Breach exposing identity and work authorisation documents for a workforce that is often vulnerable, plus payroll diversion on a weekly cycle affecting workers with no financial buffer.",
+      "rhetorical_question": "How many current and former workers' identity documents are in your records?"
+    }
+  ]
+}

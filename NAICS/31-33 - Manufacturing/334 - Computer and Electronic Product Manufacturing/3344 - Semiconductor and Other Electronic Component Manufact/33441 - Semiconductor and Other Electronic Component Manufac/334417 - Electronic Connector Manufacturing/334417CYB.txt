@@ -1,0 +1,31 @@
+{
+  "naics_code": "334417",
+  "naics_title": "Electronic Connector Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Connector failure breaks the circuit in whatever it is in.",
+      "why_this_business": "Connectors carry signal and power in vehicles, aircraft, and equipment. Intermittent or failed contacts produce faults that are difficult to diagnose and, in safety systems, disable the function entirely.",
+      "loss_scenario": "Connectors with plating or contact defects failing intermittently across automotive or aerospace applications, with a field problem affecting every vehicle or aircraft using the affected production.",
+      "rhetorical_question": "What safety-related circuits use your connectors?"
+    },
+    {
+      "rank": 2,
+      "headline": "Plating and contact process control determines reliability.",
+      "why_this_business": "Contact reliability depends on plating thickness, base material, and forming, all process controlled and verified by testing. Inadequate plating produces corrosion and intermittent contact after months in service.",
+      "loss_scenario": "Connectors with inadequate plating failing after time in service, with the delayed onset making every unit from an extended production period suspect.",
+      "rhetorical_question": "How are plating thickness and contact test results recorded per lot?"
+    },
+    {
+      "rank": 3,
+      "headline": "Aerospace and defence connectors are qualified and controlled.",
+      "why_this_business": "Military and aerospace connectors are qualified to specifications with approved sources, and designs for defence applications may involve export controlled data. Qualification is a condition of supply.",
+      "loss_scenario": "Loss of qualification or exposure of controlled data, removing eligibility to supply aerospace and defence customers and creating export violation exposure.",
+      "rhetorical_question": "Which of your products are supplied against military or aerospace qualifications?"
+    }
+  ]
+}

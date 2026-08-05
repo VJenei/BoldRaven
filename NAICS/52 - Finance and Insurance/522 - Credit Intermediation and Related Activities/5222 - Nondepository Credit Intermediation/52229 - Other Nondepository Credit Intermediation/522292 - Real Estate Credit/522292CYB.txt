@@ -1,0 +1,31 @@
+{
+  "naics_code": "522292",
+  "naics_title": "Real Estate Credit",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Mortgage closing wire fraud is one of the largest consumer fraud categories.",
+      "why_this_business": "Real estate transactions move large sums by wire between borrower, lender, title, and settlement agents, coordinated by email. Attackers monitor those threads and send substituted wiring instructions at the point of closing. Federal agencies have issued repeated public warnings about this specific scheme.",
+      "loss_scenario": "A borrower's entire down payment, commonly $50,000 to several hundred thousand, sent to a criminal account. Every party in the email chain is sued, and recovery after 24 hours is rare.",
+      "rhetorical_question": "How are wire instructions communicated and verified with borrowers before closing?"
+    },
+    {
+      "rank": 2,
+      "headline": "A mortgage file is the most complete financial dossier that exists.",
+      "why_this_business": "Loan files hold Social Security numbers, tax returns, W-2s, bank statements, asset documentation, credit reports, and appraisals for borrowers and co-borrowers, retained for the life of the loan and through servicing transfers. Large mortgage industry breaches have exposed millions of these files.",
+      "loss_scenario": "Notification across a borrower population whose files support complete identity takeover, with state and federal obligations and class litigation that this sector has repeatedly faced.",
+      "rhetorical_question": "How many complete loan files are retained in your systems, including closed loans?"
+    },
+    {
+      "rank": 3,
+      "headline": "Servicing and escrow administration handle borrowers' money continuously.",
+      "why_this_business": "Servicers collect payments, administer escrow for taxes and insurance, and disburse to taxing authorities and carriers on deadlines. Missed escrow disbursements result in lapsed insurance and delinquent property taxes on borrowers who paid.",
+      "loss_scenario": "Uninsured properties and tax delinquency caused by missed disbursements, with the servicer liable for the resulting losses and facing CFPB attention to servicing failures.",
+      "rhetorical_question": "What happens to escrow disbursements if your servicing system is unavailable at a tax deadline?"
+    }
+  ]
+}

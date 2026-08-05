@@ -1,0 +1,31 @@
+{
+  "naics_code": "312113",
+  "naics_title": "Ice Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Ice is a food product with sanitation requirements.",
+      "why_this_business": "Packaged ice is regulated as a food, with source water, production sanitation, and packaging requirements. Contaminated ice reaches consumers directly in drinks with no further treatment.",
+      "loss_scenario": "A contamination recall on a product distributed to retail and foodservice, with illness claims where contaminated ice reached consumers in beverages.",
+      "rhetorical_question": "How is source water quality and production sanitation documented?"
+    },
+    {
+      "rank": 2,
+      "headline": "Demand is weather-driven and peaks without warning.",
+      "why_this_business": "Ice demand spikes with heat waves and holiday weekends, with retail and foodservice customers ordering against short notice. Production and storage capacity is finite and delivery routes must be dispatched dynamically.",
+      "loss_scenario": "Inability to produce or dispatch during a demand peak, which is where the majority of annual margin is earned, with customers out of stock during the periods that matter most.",
+      "rhetorical_question": "What share of your annual volume ships during summer peak weeks?"
+    },
+    {
+      "rank": 3,
+      "headline": "Freezing and storage systems must run continuously.",
+      "why_this_business": "Ice production and storage depend on refrigeration running continuously, with product melting if storage temperature is lost. Ammonia refrigeration systems above threshold quantities carry process safety obligations.",
+      "loss_scenario": "Stored inventory melted and unsaleable, plus ammonia release exposure where refrigeration systems fail, which is a worker and community safety event with regulatory consequences.",
+      "rhetorical_question": "How is your refrigeration system monitored, and does it use ammonia above threshold quantities?"
+    }
+  ]
+}

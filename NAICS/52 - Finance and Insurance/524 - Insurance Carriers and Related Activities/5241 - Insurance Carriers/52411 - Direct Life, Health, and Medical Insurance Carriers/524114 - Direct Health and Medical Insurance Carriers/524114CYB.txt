@@ -1,0 +1,31 @@
+{
+  "naics_code": "524114",
+  "naics_title": "Direct Health and Medical Insurance Carriers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Health insurers have suffered the largest data breaches in the sector's history.",
+      "why_this_business": "Health plans hold member identity, Social Security numbers, diagnoses, treatment histories, and claims data. The Anthem breach disclosed in 2015 exposed records of approximately 78.8 million people and produced a $16 million HIPAA settlement plus a $115 million class settlement, at the time the largest in each category.",
+      "loss_scenario": "Notification and credit monitoring across tens of millions of members, OCR enforcement, state attorney general actions, and class litigation, with total costs in this sector repeatedly reaching hundreds of millions.",
+      "rhetorical_question": "How many member records with Social Security numbers and diagnosis data do you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "You are a HIPAA covered entity with direct enforcement exposure.",
+      "why_this_business": "Health plans are covered entities under HIPAA with obligations for security risk analysis, access controls, audit controls, and breach notification to individuals, HHS, and for breaches over 500 individuals, the media. OCR investigates large breaches as a matter of course.",
+      "loss_scenario": "Civil monetary penalties and corrective action plans lasting years, with OCR examining whether a compliant risk analysis existed before the incident, which is the most common finding in enforcement actions.",
+      "rhetorical_question": "When did you last complete an enterprise-wide HIPAA security risk analysis?"
+    },
+    {
+      "rank": 3,
+      "headline": "Claims processing failure stops care from being paid for.",
+      "why_this_business": "Adjudication, eligibility verification, and prior authorisation run continuously and providers rely on them in real time. The Change Healthcare attack in 2024 demonstrated how quickly a failure in this layer prevents providers and pharmacies from operating.",
+      "loss_scenario": "Providers unable to verify eligibility or submit claims, patients unable to fill prescriptions, and state regulators and legislators responding within days to what becomes a public access-to-care issue.",
+      "rhetorical_question": "How quickly would providers notice if your eligibility and claims systems were unavailable?"
+    }
+  ]
+}

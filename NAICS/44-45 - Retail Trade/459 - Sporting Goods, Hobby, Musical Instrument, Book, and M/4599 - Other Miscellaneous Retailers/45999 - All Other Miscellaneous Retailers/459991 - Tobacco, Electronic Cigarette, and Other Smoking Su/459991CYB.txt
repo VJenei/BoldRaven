@@ -1,0 +1,31 @@
+{
+  "naics_code": "459991",
+  "naics_title": "Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Delivery sales trigger federal registration and monthly state reporting.",
+      "why_this_business": "The PACT Act requires anyone making delivery sales of cigarettes, smokeless tobacco, or electronic nicotine delivery systems to register with ATF and with each state, and to file monthly reports listing every delivery including customer names, addresses, and quantities. Age verification and shipping restrictions apply separately.",
+      "loss_scenario": "Federal penalties for unfiled reports, state tax assessments on unreported sales, and shipping carrier refusal, which for an online retailer removes the ability to deliver at all.",
+      "rhetorical_question": "Do you ship product to customers, and do you file PACT Act monthly reports?"
+    },
+    {
+      "rank": 2,
+      "headline": "Age verification failures are found through deliberate compliance checks.",
+      "why_this_business": "FDA and state agencies conduct undercover buys at tobacco and vape retailers, with civil penalties escalating to no-tobacco-sale orders for repeat violations. Electronic identification scanning at the register creates the verification record.",
+      "loss_scenario": "A no-tobacco-sale order removes the entire product category, which for a specialist retailer is the whole business.",
+      "rhetorical_question": "Does your point of sale scan and log identification for every age-restricted sale?"
+    },
+    {
+      "rank": 3,
+      "headline": "Excise tax and product authorisation records are audited.",
+      "why_this_business": "Tobacco and nicotine products carry federal and state excise taxes with stamping and licensed purchase requirements, and FDA premarket authorisation status determines what may lawfully be sold. Purchase invoices establish that product came through taxed and licensed channels.",
+      "loss_scenario": "Tax assessed on unreconciled inventory as presumptively untaxed, plus FDA action for selling unauthorised products where purchase records cannot demonstrate what was stocked.",
+      "rhetorical_question": "How do you retain purchase invoices demonstrating taxed and licensed sourcing?"
+    }
+  ]
+}

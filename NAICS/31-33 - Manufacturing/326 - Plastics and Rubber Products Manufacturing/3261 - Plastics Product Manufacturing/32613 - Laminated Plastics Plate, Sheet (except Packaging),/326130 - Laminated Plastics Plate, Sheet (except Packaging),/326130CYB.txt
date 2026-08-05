@@ -1,0 +1,31 @@
+{
+  "naics_code": "326130",
+  "naics_title": "Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Laminate performance depends on press cycle control.",
+      "why_this_business": "Laminates are produced by pressing resin-impregnated layers under heat and pressure, with cycle parameters determining bond, dimensional stability, and electrical or mechanical properties. Electrical laminates in particular have tight property requirements.",
+      "loss_scenario": "Laminate outside specification fabricated into products, with electrical laminates failing dielectric requirements and structural laminates delaminating in service.",
+      "rhetorical_question": "How are press cycle parameters recorded for each production lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Products serve electrical and structural applications with certification.",
+      "why_this_business": "Laminates are used in electrical insulation, circuit boards, and structural applications with flammability, dielectric, and mechanical certifications relied on by customers and required by safety standards.",
+      "loss_scenario": "Material failing certification incorporated into electrical products, with fire and shock exposure where insulation performance was relied upon and recall reaching finished equipment.",
+      "rhetorical_question": "Which safety certifications do your laminates carry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Resin systems and layup schedules are proprietary.",
+      "why_this_business": "Manufacturers develop resin systems and construction schedules delivering specific properties, frequently in collaboration with customers for particular applications. Those formulations are the technical asset.",
+      "loss_scenario": "Formulation and construction disclosure to competitors, and loss of the ability to reproduce customer-qualified materials, stopping supply to applications that were built around them.",
+      "rhetorical_question": "How are your resin systems and construction schedules protected?"
+    }
+  ]
+}

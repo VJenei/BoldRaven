@@ -1,0 +1,31 @@
+{
+  "naics_code": "459410",
+  "naics_title": "Office Supplies and Stationery Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Business accounts order through contracts and integrated catalogues.",
+      "why_this_business": "Commercial customers buy on contract pricing, frequently ordering through punchout catalogues integrated with their own purchasing systems, with negotiated terms and consolidated invoicing. Those integrations are the reason the account exists.",
+      "loss_scenario": "Disconnection from customer procurement systems stops ordering entirely, and business accounts have alternate suppliers already configured in the same platform.",
+      "rhetorical_question": "How many business customers order through catalogues integrated with their own systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Print and copy services handle customers' confidential documents.",
+      "why_this_business": "In-store print services receive customer files containing legal documents, financial records, medical forms, and business confidential material, held on production systems and on the multifunction devices themselves, which retain images on internal storage.",
+      "loss_scenario": "Exposure of customer documents from print systems, which is a third-party confidentiality breach affecting people and businesses who simply wanted copies made.",
+      "rhetorical_question": "How long are customer print files retained on your systems and devices?"
+    },
+    {
+      "rank": 3,
+      "headline": "Technology and equipment sales create service relationships.",
+      "why_this_business": "Retailers in this category sell and service computers, printers, and networking equipment for small business customers, sometimes retaining remote support access. Small business customers rely on that support because they have no IT function of their own.",
+      "loss_scenario": "A compromise through support tooling reaching small business customer systems, where those customers have no capacity to detect or recover from it themselves.",
+      "rhetorical_question": "Do you provide technology support with remote access to customer systems?"
+    }
+  ]
+}

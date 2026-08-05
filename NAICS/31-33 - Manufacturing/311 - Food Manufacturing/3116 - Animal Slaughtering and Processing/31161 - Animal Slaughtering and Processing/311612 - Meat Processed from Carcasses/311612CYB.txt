@@ -1,0 +1,31 @@
+{
+  "naics_code": "311612",
+  "naics_title": "Meat Processed from Carcasses",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Ready to eat meat products carry Listeria risk with fatal consequences.",
+      "why_this_business": "Deli meats and other ready to eat products are consumed without further cooking, and Listeria monocytogenes in post-lethality processing areas has caused multistate outbreaks with deaths. FSIS requires documented control programmes and testing.",
+      "loss_scenario": "A Listeria recall with fatalities, plant closure for remediation, FSIS enforcement, and in serious cases criminal prosecution of executives, which has occurred in this industry.",
+      "rhetorical_question": "How is Listeria control in post-lethality areas documented and verified?"
+    },
+    {
+      "rank": 2,
+      "headline": "Grinding records determine the scope of an E. coli recall.",
+      "why_this_business": "FSIS requires establishments that grind raw beef to keep records identifying source materials and grinding dates, precisely so that a traceback can identify which source lots entered which ground product. Without them the recall covers everything.",
+      "loss_scenario": "A recall expanded across all grinding in a period because source lot records are unavailable, multiplying the recall cost and preventing recovery from the supplier whose material caused it.",
+      "rhetorical_question": "Do your grinding logs identify source lots and dates for each batch?"
+    },
+    {
+      "rank": 3,
+      "headline": "Thermal processing and cold chain are continuously recorded.",
+      "why_this_business": "Cooking, chilling, and cold storage are critical control points with time and temperature recorded continuously to demonstrate lethality and prevent growth. Records are the proof the process was delivered.",
+      "loss_scenario": "Product without verifiable process records treated as adulterated and destroyed, and product already shipped recalled, with FSIS involvement across the affected production.",
+      "rhetorical_question": "How are cooking and chilling critical control point records captured?"
+    }
+  ]
+}

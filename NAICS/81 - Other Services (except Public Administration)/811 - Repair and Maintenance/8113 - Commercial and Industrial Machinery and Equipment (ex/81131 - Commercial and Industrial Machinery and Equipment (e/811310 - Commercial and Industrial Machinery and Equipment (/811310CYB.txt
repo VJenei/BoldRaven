@@ -1,0 +1,31 @@
+{
+  "naics_code": "811310",
+  "naics_title": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold remote access into customer production equipment.",
+      "why_this_business": "Industrial service providers install, commission, and support machinery inside customer plants, frequently retaining remote diagnostic and support connections. Those connections reach operational technology on production floors.",
+      "loss_scenario": "A compromise through service access reaching customer production control systems, which stops manufacturing lines and creates liability far exceeding the service contract value.",
+      "rhetorical_question": "How many customer plants can your technicians reach remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "Equipment configuration backups exist only with you.",
+      "why_this_business": "Commissioned machinery holds site-specific programmes and parameters, with the only backup frequently on the service provider's systems. Customers cannot recreate the configuration from documentation.",
+      "loss_scenario": "After a controller failure the machine cannot be restored to its commissioned state, requiring full recommissioning at the provider's cost while the customer's line remains down.",
+      "rhetorical_question": "Where are the configuration backups for machines you have commissioned?"
+    },
+    {
+      "rank": 3,
+      "headline": "Emergency breakdown response is what customers pay for.",
+      "why_this_business": "Industrial customers contract for response times because a stopped machine stops production. Dispatch, parts availability, and technician assignment run on connected systems, and response is measured in hours.",
+      "loss_scenario": "Failure to respond within contracted times while a customer's production is stopped, with downtime costs claimed against the provider and the service agreement terminated.",
+      "rhetorical_question": "What response times do your service agreements commit you to?"
+    }
+  ]
+}

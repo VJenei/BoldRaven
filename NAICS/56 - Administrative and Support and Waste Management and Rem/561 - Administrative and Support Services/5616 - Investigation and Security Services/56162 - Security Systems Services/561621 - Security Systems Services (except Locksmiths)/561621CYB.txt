@@ -1,0 +1,31 @@
+{
+  "naics_code": "561621",
+  "naics_title": "Security Systems Services (except Locksmiths)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold administrative control of clients' alarms, cameras, and door locks.",
+      "why_this_business": "Alarm and access control integrators install, program, and monitor systems at client premises, retaining administrative access for service. That access can disarm alarms, unlock doors, and view live cameras across every client you support.",
+      "loss_scenario": "A compromise of your service access disables protection and provides live surveillance at many client sites at once. This is direct third-party liability for physical security failures, not a data incident.",
+      "rhetorical_question": "How many client sites can your technicians disarm or unlock remotely today?"
+    },
+    {
+      "rank": 2,
+      "headline": "Central station monitoring is a life safety function.",
+      "why_this_business": "Monitoring centres receive alarm signals and dispatch police, fire, and medical response, operating continuously under UL and industry standards. Signals include panic, fire, and medical alerts from residential and commercial subscribers.",
+      "loss_scenario": "Failure to receive or dispatch on an alarm signal during a fire, burglary, or medical emergency, which is a life safety exposure with liability far beyond the monitoring fee and immediate regulatory and licensing consequences.",
+      "rhetorical_question": "What happens to incoming alarm signals if your central station systems fail?"
+    },
+    {
+      "rank": 3,
+      "headline": "Subscriber records identify who has what protection and when they are away.",
+      "why_this_business": "Monitoring records hold subscriber addresses, system configurations, passcodes, keyholder details, and arming and disarming histories that show occupancy patterns. Cameras add live and recorded video of interiors.",
+      "loss_scenario": "Exposure of subscriber data reveals which premises are protected how, and arming histories show when they are empty, which is a burglary targeting resource with video of the interior attached.",
+      "rhetorical_question": "Does your system record when subscribers arm and disarm, and is video retained?"
+    }
+  ]
+}

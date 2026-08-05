@@ -1,0 +1,31 @@
+{
+  "naics_code": "541110",
+  "naics_title": "Offices of Lawyers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Client confidences are an ethical duty, not a commercial preference.",
+      "why_this_business": "Rules of professional conduct require lawyers to make reasonable efforts to prevent unauthorised disclosure of client information and to safeguard client property. Bar authorities have issued formal opinions on the duty to secure electronic data and to notify clients of a breach affecting their matters.",
+      "loss_scenario": "Disciplinary exposure alongside malpractice claims, and disqualification from matters where privileged material was exposed to an adversary. Clients with their own regulatory obligations will also treat you as the source of their breach.",
+      "rhetorical_question": "Would you be required to notify clients under your bar's rules if their matter files were accessed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Trust accounts hold client money and are strictly regulated.",
+      "why_this_business": "IOLTA and client trust accounts hold settlement proceeds, escrow, and retainers under rules requiring segregation, reconciliation, and prohibition on commingling. Real estate closings and settlement disbursements move large sums on emailed instructions, and law firms are targeted specifically for this.",
+      "loss_scenario": "A diverted settlement or closing disbursement, which creates an immediate trust account shortfall. Bar authorities treat trust account shortfalls as among the most serious violations regardless of cause, and the firm must restore the funds.",
+      "rhetorical_question": "How are disbursement instructions from your trust account verified before funds move?"
+    },
+    {
+      "rank": 3,
+      "headline": "Court deadlines do not move for a systems outage.",
+      "why_this_business": "Filings, discovery responses, and statutory deadlines are fixed by rule and by statute. Electronic filing systems, document management, and calendaring drive compliance. A missed limitation period cannot be cured.",
+      "loss_scenario": "A missed filing or limitation deadline is a malpractice claim measured by the value of the client's lost claim or defence, which can be many multiples of the fee earned on the matter.",
+      "rhetorical_question": "How is your docket and limitations calendar maintained, and is there a copy outside the system?"
+    }
+  ]
+}

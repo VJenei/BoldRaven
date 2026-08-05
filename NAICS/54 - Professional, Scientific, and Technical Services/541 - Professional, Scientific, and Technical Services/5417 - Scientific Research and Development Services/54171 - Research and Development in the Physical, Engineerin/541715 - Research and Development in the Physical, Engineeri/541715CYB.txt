@@ -1,0 +1,31 @@
+{
+  "naics_code": "541715",
+  "naics_title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal research contracts impose cybersecurity requirements directly.",
+      "why_this_business": "Research organisations performing federal work must meet FAR safeguarding requirements and, where controlled unclassified information is involved, DFARS clauses and CMMC obligations. Contract awards are conditioned on compliance and representations about it are made in proposals.",
+      "loss_scenario": "Loss of federal research eligibility, contract termination, and False Claims Act exposure where compliance was represented but not achieved, which has produced substantial settlements in this sector.",
+      "rhetorical_question": "Do your federal research contracts include DFARS or CMMC requirements?"
+    },
+    {
+      "rank": 2,
+      "headline": "Research data represents irreplaceable experimental work.",
+      "why_this_business": "Physical and engineering research generates test data, models, and measurements produced using specialised facilities and instruments over long periods. Many experiments cannot be repeated because the conditions, samples, or funding no longer exist.",
+      "loss_scenario": "Loss of research datasets destroys programmes representing years of work and funding, with grant and contract deliverables unmet and sponsors entitled to remedies.",
+      "rhetorical_question": "Could the experiments behind your current datasets be repeated if the data were lost?"
+    },
+    {
+      "rank": 3,
+      "headline": "Export controlled technical data carries criminal exposure.",
+      "why_this_business": "Research involving defence articles, advanced materials, or controlled technologies is subject to ITAR or EAR, restricting access by foreign nationals including employees and collaborators. A deemed export occurs when controlled data is made accessible to a foreign person, including through a breach.",
+      "loss_scenario": "Export control violations carrying civil and criminal penalties and debarment, where an intrusion by a foreign actor may itself constitute an unauthorised export.",
+      "rhetorical_question": "Is any of your technical data subject to ITAR or EAR access restrictions?"
+    }
+  ]
+}

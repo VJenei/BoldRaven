@@ -1,0 +1,31 @@
+{
+  "naics_code": "611511",
+  "naics_title": "Cosmetology and Barber Schools",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Student aid participation brings federal obligations.",
+      "why_this_business": "Cosmetology schools participating in Title IV hold financial aid applications with family financial data and Social Security numbers, subject to the program participation agreement, the FTC Safeguards Rule, and Department of Education breach reporting expectations.",
+      "loss_scenario": "Loss of Title IV eligibility alongside the breach, which for a school whose students depend on federal aid removes the ability to enrol.",
+      "rhetorical_question": "What proportion of your students rely on federal financial aid?"
+    },
+    {
+      "rank": 2,
+      "headline": "Clock hour tracking determines licensure eligibility.",
+      "why_this_business": "State cosmetology licensure requires documented completion of a specified number of clock hours in defined subject areas, tracked continuously and reported to the state board. Students cannot sit for licensure without verified hours.",
+      "loss_scenario": "Loss of hour records leaves students unable to demonstrate eligibility for licensure, with no way to reconstruct attendance and students facing repetition of training they already completed.",
+      "rhetorical_question": "How are student clock hours recorded and reported to the state board?"
+    },
+    {
+      "rank": 3,
+      "headline": "Clinic operations serve paying public clients.",
+      "why_this_business": "Schools operate student clinics serving the public, taking appointments and payment, and holding client records including service history and sometimes health information relevant to chemical services.",
+      "loss_scenario": "Card data exposure across clinic clients, plus service records that document allergy and sensitivity information relevant to chemical treatments.",
+      "rhetorical_question": "Do you take appointments and payment from public clinic clients?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "813920",
+  "naics_title": "Professional Organizations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Certification and licensure records affect members' careers.",
+      "why_this_business": "Professional bodies hold credential records, continuing education compliance, examination results, and in many cases disciplinary histories, relied on by employers, regulators, and the public to verify a professional's standing.",
+      "loss_scenario": "Exposure of examination results and disciplinary records causes direct professional harm to identified members, and loss of credential records leaves members unable to demonstrate qualifications they earned.",
+      "rhetorical_question": "Do your records include examination results or disciplinary histories for individual members?"
+    },
+    {
+      "rank": 2,
+      "headline": "Member data identifies professionals and their practice details.",
+      "why_this_business": "Organisations hold member contact details, practice information, specialisations, and employment history for professionals across an entire field, frequently including home addresses and personal contact information.",
+      "loss_scenario": "Exposure of a complete professional directory with personal contact details, which is used for targeted fraud against a group with above average earnings and, in some professions, for harassment.",
+      "rhetorical_question": "Do your member records include home addresses and personal contact details?"
+    },
+    {
+      "rank": 3,
+      "headline": "Continuing education compliance supports licence renewal.",
+      "why_this_business": "Many organisations track continuing education credits that members must demonstrate to renew professional licences, reporting to state boards or providing records members submit themselves.",
+      "loss_scenario": "Members unable to demonstrate continuing education compliance at licence renewal, with professional licences at risk through no fault of their own and the organisation unable to reconstruct the record.",
+      "rhetorical_question": "Do members rely on your records to demonstrate continuing education for licence renewal?"
+    }
+  ]
+}

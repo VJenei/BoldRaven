@@ -1,0 +1,31 @@
+{
+  "naics_code": "525190",
+  "naics_title": "Other Insurance Funds",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Self-insured and captive arrangements hold claim data directly.",
+      "why_this_business": "Funds in this category retain risk and administer claims for their members or participants, holding claimant medical records, wage information, and settlement details without a carrier standing between them and the data.",
+      "loss_scenario": "Breach exposing claimant medical and financial records held directly by the fund, with notification obligations and, for health-related claims, potential HIPAA exposure depending on the arrangement.",
+      "rhetorical_question": "Does the fund hold claimant medical records directly rather than through a carrier?"
+    },
+    {
+      "rank": 2,
+      "headline": "Reserve adequacy depends on data that must be reliable.",
+      "why_this_business": "Funds set reserves and contributions based on claim history, exposure data, and actuarial analysis. Regulators and members rely on those calculations, and errors accumulate quietly until the fund is underfunded.",
+      "loss_scenario": "Reserve calculations that cannot be produced or verified, triggering regulatory examination and, where inadequacy is found, member assessments to restore solvency.",
+      "rhetorical_question": "How is your claim and exposure data maintained for actuarial analysis?"
+    },
+    {
+      "rank": 3,
+      "headline": "Member assessments and distributions move real money.",
+      "why_this_business": "Funds collect contributions from and distribute to members based on formulas applied to participation and loss experience. Payment instructions and banking details are held for each member organisation.",
+      "loss_scenario": "Diverted contributions or distributions, with the fund liable to members for amounts that were paid to a fraudulent account, and governance scrutiny from the member board.",
+      "rhetorical_question": "How are member banking details verified before a distribution is made?"
+    }
+  ]
+}

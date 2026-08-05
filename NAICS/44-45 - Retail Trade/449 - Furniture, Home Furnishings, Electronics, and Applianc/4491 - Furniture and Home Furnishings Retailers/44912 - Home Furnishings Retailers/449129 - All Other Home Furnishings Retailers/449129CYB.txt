@@ -1,0 +1,31 @@
+{
+  "naics_code": "449129",
+  "naics_title": "All Other Home Furnishings Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Registry and special order programmes hold third-party personal data.",
+      "why_this_business": "Home furnishing retailers run wedding and gift registries holding the registrant's address, event date, and the names and purchase history of everyone who buys from it. That is personal data about people who never transacted with you directly.",
+      "loss_scenario": "A breach exposing registry data reveals home addresses and event dates, which is both a privacy exposure and a physical security concern flagged repeatedly in the context of wedding registries.",
+      "rhetorical_question": "Do you operate a gift or wedding registry?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasonal and promotional cycles concentrate the year.",
+      "why_this_business": "Home furnishings sell heavily around holidays and seasonal resets, with inventory bought months ahead against those windows. Merchandising, pricing, and replenishment decisions run from sales data during the peak.",
+      "loss_scenario": "An outage during the fourth quarter costs a disproportionate share of annual revenue on seasonal inventory that has little value after the period ends.",
+      "rhetorical_question": "What share of your annual revenue occurs in the fourth quarter?"
+    },
+    {
+      "rank": 3,
+      "headline": "Card acceptance across store and online is fully regulated.",
+      "why_this_business": "Retailers processing card transactions in store and online are contractually bound to PCI DSS, which became fully mandatory in version 4.0 on March 31, 2025, including requirements to monitor scripts on e-commerce payment pages where digital skimming occurs.",
+      "loss_scenario": "Card brand assessments, forensics, and reissuance costs, which the merchant agreement assigns to the retailer regardless of who wrote the website code.",
+      "rhetorical_question": "Who maintains the code on your e-commerce checkout pages?"
+    }
+  ]
+}

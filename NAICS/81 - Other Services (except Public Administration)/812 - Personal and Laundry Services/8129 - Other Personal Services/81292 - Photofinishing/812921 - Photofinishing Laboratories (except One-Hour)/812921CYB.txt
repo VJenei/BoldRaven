@@ -1,0 +1,31 @@
+{
+  "naics_code": "812921",
+  "naics_title": "Photofinishing Laboratories (except One-Hour)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Customer images are personal and irreplaceable.",
+      "why_this_business": "Photofinishing operations receive customer images including film, digital files, and legacy media for scanning and restoration. Much of it is family archive material with no other copy, and the content is inherently private.",
+      "loss_scenario": "Loss of customer images that cannot be recreated, and exposure of private family and personal images, which customers experience as a violation quite separate from any financial loss.",
+      "rhetorical_question": "How much irreplaceable customer image material is on your systems at any time?"
+    },
+    {
+      "rank": 2,
+      "headline": "Order and customer data links images to identified people.",
+      "why_this_business": "Orders link customer identity, contact details, addresses, and payment methods to specific image sets, held in production systems and retained for reorders.",
+      "loss_scenario": "Exposure of images alongside the identity and address of the people in them, which is materially more harmful than either dataset alone.",
+      "rhetorical_question": "How long are customer images retained after an order is fulfilled?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production systems drive automated printing and finishing.",
+      "why_this_business": "Laboratories run automated printing, colour management, and finishing driven by order files, with volume concentrated around holidays and events. Orders are promised against delivery dates.",
+      "loss_scenario": "Production halted with dated orders for holidays and events undelivered, on product that has no value after the occasion it was made for.",
+      "rhetorical_question": "How much of your volume is tied to dated occasions and holidays?"
+    }
+  ]
+}

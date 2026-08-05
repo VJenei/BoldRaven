@@ -1,0 +1,31 @@
+{
+  "naics_code": "541860",
+  "naics_title": "Direct Mail Advertising",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You process client customer lists containing personal data at scale.",
+      "why_this_business": "Direct mail providers receive customer and prospect files with names, addresses, and frequently transaction and demographic data, merged and processed for campaigns. Those individuals have no relationship with the mail provider.",
+      "loss_scenario": "Breach exposing client mailing files affecting millions of individuals, with notification obligations flowing through every client whose list was held and state privacy law exposure.",
+      "rhetorical_question": "How many individual records across all client lists are on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Personalised and regulated mailings carry sensitive content.",
+      "why_this_business": "Direct mail includes financial offers, healthcare communications, and political mail with personalised content. Healthcare mailings may involve protected health information under business associate agreements, and financial mailings involve prescreened credit offers governed by the Fair Credit Reporting Act.",
+      "loss_scenario": "Exposure of health or financial mailing data engages HIPAA or FCRA obligations directly, which is a materially different regime from ordinary marketing data.",
+      "rhetorical_question": "Do any of your mailings contain health or prescreened credit information?"
+    },
+    {
+      "rank": 3,
+      "headline": "Mail drop dates are booked and cannot be moved easily.",
+      "why_this_business": "Campaigns are scheduled around postal induction dates, printing capacity, and client offers with expiry dates. Postal discounts depend on presorting and induction according to plan.",
+      "loss_scenario": "Missed drop dates make offers arrive after expiry, wasting the entire print and postage spend, with the client claiming the campaign cost against the provider.",
+      "rhetorical_question": "What happens to a campaign if the mail misses its scheduled induction date?"
+    }
+  ]
+}

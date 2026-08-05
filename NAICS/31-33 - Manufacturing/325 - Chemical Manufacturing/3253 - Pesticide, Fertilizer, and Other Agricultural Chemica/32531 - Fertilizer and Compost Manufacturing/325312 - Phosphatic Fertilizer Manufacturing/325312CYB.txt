@@ -1,0 +1,31 @@
+{
+  "naics_code": "325312",
+  "naics_title": "Phosphatic Fertilizer Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Phosphogypsum stacks are a long-term containment liability.",
+      "why_this_business": "Phosphate fertilizer production generates phosphogypsum stored in stacks containing acidic process water, with stack stability and water balance managed continuously. Stack failures have caused major releases of acidic water into surface waters.",
+      "loss_scenario": "A stack breach releasing hundreds of millions of gallons of acidic process water, with environmental damage, emergency response, and remediation costs that have exceeded the value of the operations that created them.",
+      "rhetorical_question": "How is stack water level and stability monitored at your facility?"
+    },
+    {
+      "rank": 2,
+      "headline": "Sulfuric acid production and handling is hazardous at scale.",
+      "why_this_business": "Phosphate plants operate sulfuric acid plants and handle acid in bulk, with heat recovery, absorption, and storage systems running continuously. Acid releases cause severe burns and environmental damage.",
+      "loss_scenario": "An acid release with worker injury and environmental damage, and process safety documentation examined by investigators to determine whether the release was preventable.",
+      "rhetorical_question": "How is your sulfuric acid plant and storage monitored and interlocked?"
+    },
+    {
+      "rank": 3,
+      "headline": "Continuous production supplies a seasonal market.",
+      "why_this_business": "Phosphate plants run continuously to supply demand concentrated in application seasons, with product moved by rail and vessel to distribution ahead of the window.",
+      "loss_scenario": "Production lost ahead of an application season with no ability to make it up, and growers without phosphate at the point of application, which affects yield across the acreage that went unfertilised.",
+      "rhetorical_question": "How far ahead of the application season do you build inventory?"
+    }
+  ]
+}

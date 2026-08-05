@@ -1,0 +1,31 @@
+{
+  "naics_code": "321215",
+  "naics_title": "Engineered Wood Member Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Engineered members are structural components designed to a calculation.",
+      "why_this_business": "Laminated veneer lumber, I-joists, and glulam are engineered products manufactured to design values verified by testing and certified by accredited agencies. Buildings are designed assuming those published values.",
+      "loss_scenario": "Members below design value installed as floor and roof structure, with structural failure exposure and the requirement to identify and replace every affected member in buildings already occupied.",
+      "rhetorical_question": "How is production quality control tied to the design values you publish?"
+    },
+    {
+      "rank": 2,
+      "headline": "Component design software produces the layouts builders build from.",
+      "why_this_business": "Truss and engineered component manufacturers use design software to engineer each component for a specific building, producing sealed drawings and cutting data. The design is job specific and drives the saws.",
+      "loss_scenario": "Components manufactured to wrong or superseded designs delivered to a job site, which do not fit and, if installed, do not carry the loads the building requires.",
+      "rhetorical_question": "How are component designs versioned and released to production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Adhesive bonding is the structural mechanism.",
+      "why_this_business": "Engineered members depend on adhesive bonds formed under controlled pressure, temperature, and cure conditions, verified by testing. Bond failure means the member does not behave as designed.",
+      "loss_scenario": "Members with inadequate bonding entering construction, where delamination causes structural failure and every member from the affected production must be traced and replaced.",
+      "rhetorical_question": "How are press and cure parameters recorded for each production run?"
+    }
+  ]
+}

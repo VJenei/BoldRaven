@@ -1,0 +1,31 @@
+{
+  "naics_code": "425120",
+  "naics_title": "Wholesale Trade Agents and Brokers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You arrange payments for goods you never own.",
+      "why_this_business": "Agents and brokers bring buyer and seller together, frequently handling payment instructions, deposits, or funds in transit without ever taking title. Both principals rely on you to relay accurate banking details. Every transaction involves communicating payment instructions by email between parties who may not know each other.",
+      "loss_scenario": "A diverted payment where your compromised mailbox was the channel. Both principals hold you responsible, and you have no goods and no margin to absorb the loss.",
+      "rhetorical_question": "Do payment instructions between your buyers and sellers pass through your email?"
+    },
+    {
+      "rank": 2,
+      "headline": "Your contact list and terms are the entire business asset.",
+      "why_this_business": "A broker's value is knowing who buys, who sells, at what price, and on what terms. There is no inventory, no plant, and no proprietary product. That information exists as a contact database and a transaction history, and it is the only thing a competitor would need.",
+      "loss_scenario": "Disintermediation where principals connect directly using information taken from your systems, which permanently removes the reason for your involvement.",
+      "rhetorical_question": "What is left of your business if your buyers and sellers have each other's details?"
+    },
+    {
+      "rank": 3,
+      "headline": "Commission is claimed from records of your involvement.",
+      "why_this_business": "Broker commission depends on demonstrating that you procured the transaction, with correspondence, quotes, and confirmations as the evidence. Principals dispute commission claims routinely, particularly on repeat business between parties you introduced.",
+      "loss_scenario": "Unrecoverable commission on transactions you procured, where without the record chain the principal simply declines to pay and you have no case.",
+      "rhetorical_question": "How do you evidence that you procured a transaction when commission is disputed?"
+    }
+  ]
+}

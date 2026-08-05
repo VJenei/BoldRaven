@@ -1,0 +1,31 @@
+{
+  "naics_code": "322110",
+  "naics_title": "Pulp Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pulping is a continuous chemical process that cannot be stopped safely.",
+      "why_this_business": "Digesters, recovery boilers, and causticizing run continuously under distributed control at high temperature and pressure. Recovery boilers in particular carry smelt-water explosion risk that is managed by monitoring and interlocks, and shutdowns and startups are the highest risk periods.",
+      "loss_scenario": "A recovery boiler explosion is among the most destructive incidents in industry, destroying the boiler and adjacent structures with fatalities and a rebuild measured in years, during which the mill cannot operate.",
+      "rhetorical_question": "How are your recovery boiler safety interlocks and monitoring protected?"
+    },
+    {
+      "rank": 2,
+      "headline": "Air and water permits are enforced continuously.",
+      "why_this_business": "Pulp mills operate under air permits with continuous emissions monitoring and water discharge permits with monitoring and reporting. Odour and effluent are politically sensitive in mill communities.",
+      "loss_scenario": "Permit exceedances reported and penalised per day per parameter, plus community and regulatory reaction to visible emissions and effluent events that persists well beyond the technical incident.",
+      "rhetorical_question": "What continuous monitoring does your air permit require?"
+    },
+    {
+      "rank": 3,
+      "headline": "Downstream paper mills depend on continuous pulp supply.",
+      "why_this_business": "Integrated and market pulp supplies paper machines that run continuously with limited storage. A pulp interruption stops paper machines, which cannot simply be restarted quickly.",
+      "loss_scenario": "Paper machines down for want of pulp, with the interruption propagating through integrated operations and market customers who have limited alternative supply.",
+      "rhetorical_question": "How many days of pulp storage exist between your mill and the paper machines it supplies?"
+    }
+  ]
+}

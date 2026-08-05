@@ -1,0 +1,31 @@
+{
+  "naics_code": "611610",
+  "naics_title": "Fine Arts Schools",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Most students are children and their data is held with their families'.",
+      "why_this_business": "Music, dance, and art schools enrol children, holding names, ages, photographs, class schedules, emergency contacts, and parent payment methods. Schedules identify exactly where a named child will be at a specific time each week.",
+      "loss_scenario": "Exposure of children's names, photographs, and class schedules is a child safety concern that parents treat entirely differently from ordinary data loss, and enrolment does not survive it.",
+      "rhetorical_question": "Do your records link children's names and photographs to their scheduled class times?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tuition is billed automatically on recurring schedules.",
+      "why_this_business": "Schools bill monthly or term tuition automatically to stored payment methods, with families enrolled continuously across years. Recital fees, costumes, and materials add further charges.",
+      "loss_scenario": "Stored payment data exposed across the family base, plus billing failures that interrupt cash flow for a business with fixed instructor and facility costs.",
+      "rhetorical_question": "How many families have payment methods stored for recurring tuition?"
+    },
+    {
+      "rank": 3,
+      "headline": "Recitals and performances are dated events built around enrolment data.",
+      "why_this_business": "Schools schedule recitals, examinations, and competitions months ahead, with participation, costume orders, and venue commitments driven by enrolment records. Families plan around these dates.",
+      "loss_scenario": "Disrupted recitals and examinations with costumes ordered, venues booked, and families expecting an event that cannot be delivered as planned.",
+      "rhetorical_question": "How far ahead do you commit venues and costume orders for performances?"
+    }
+  ]
+}

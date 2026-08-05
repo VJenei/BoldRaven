@@ -1,0 +1,31 @@
+{
+  "naics_code": "423320",
+  "naics_title": "Brick, Stone, and Related Construction Material Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Material is ordered by colour blend and run and must be reserved.",
+      "why_this_business": "Brick and stone vary by run and blend, with architects approving samples and material reserved from a specific production. Order records tie the approved sample to the reserved material and to the project. Late additions from another run do not match.",
+      "loss_scenario": "Mismatched material delivered to a job requires the installed work to be torn down and rebuilt, with the claim landing on the supplier who could not evidence the reserved run.",
+      "rhetorical_question": "How do you record which production run is reserved against each project?"
+    },
+    {
+      "rank": 2,
+      "headline": "Delivery is scheduled tightly to job sites with limited storage.",
+      "why_this_business": "Heavy material is delivered to sites on a schedule that matches the masonry crew's production, with limited laydown area and cranes or boom trucks booked. Dispatch and scheduling run through order management systems.",
+      "loss_scenario": "Missed or duplicated deliveries stop crews on site and generate backcharges from the contractor for lost crew time.",
+      "rhetorical_question": "How are your deliveries scheduled and dispatched to job sites?"
+    },
+    {
+      "rank": 3,
+      "headline": "Project quotes and pricing are competitive and time-limited.",
+      "why_this_business": "Suppliers quote projects to multiple bidding contractors with pricing held for a period. Those quotes reveal your cost structure and which contractors you support. Quote records are also the basis for honouring pricing after award.",
+      "loss_scenario": "Disclosed quotes damage your position across every bidding contractor, and lost quote records mean disputes over what was promised on projects already awarded.",
+      "rhetorical_question": "How many active project quotes are outstanding at any time?"
+    }
+  ]
+}

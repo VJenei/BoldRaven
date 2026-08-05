@@ -1,0 +1,31 @@
+{
+  "naics_code": "621399",
+  "naics_title": "Offices of All Other Miscellaneous Health Practitioners",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Practitioners hold clinical records under full HIPAA obligations.",
+      "why_this_business": "Practices in this category maintain patient histories, treatment records, and insurance information as covered entities, with security rule obligations that do not scale down for practice size. Many are solo practitioners with no administrative support.",
+      "loss_scenario": "Notification across the patient base and OCR enforcement examining safeguards the practitioner has no dedicated resource to have implemented.",
+      "rhetorical_question": "Who in your practice is responsible for HIPAA security compliance?"
+    },
+    {
+      "rank": 2,
+      "headline": "Patients disclose sensitive information that has no other home.",
+      "why_this_business": "Records document conditions, treatments, and personal circumstances patients have shared in a clinical setting. Depending on the discipline that can include reproductive, sexual, or behavioural health information.",
+      "loss_scenario": "Personal harm to patients from disclosure of clinical information, with claims reflecting those consequences rather than the cost of credit monitoring.",
+      "rhetorical_question": "What sensitive clinical information is held in your patient records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Practice continuity depends on one system with no fallback.",
+      "why_this_business": "Small practices run scheduling, records, and billing on a single platform, frequently cloud-based and selected without a security assessment, with the practitioner as the only administrator.",
+      "loss_scenario": "The practice cannot see or bill patients, and the practitioner personally bears the cost of forensic investigation, notification, and recovery.",
+      "rhetorical_question": "How would you contact your patients if your practice system were unavailable?"
+    }
+  ]
+}

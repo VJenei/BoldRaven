@@ -1,0 +1,31 @@
+{
+  "naics_code": "334210",
+  "naics_title": "Telephone Apparatus Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Telecom equipment carries communications that are legally protected.",
+      "why_this_business": "Telephone apparatus handles call content and signalling subject to CALEA and wiretap law protections. Equipment vulnerabilities permitting interception affect communications privacy directly.",
+      "loss_scenario": "A vulnerability permitting interception or unauthorised call routing across deployed equipment, with carriers and enterprise customers facing their own regulatory exposure and identifying the equipment as the cause.",
+      "rhetorical_question": "Does your equipment handle call content or signalling for carriers?"
+    },
+    {
+      "rank": 2,
+      "headline": "Federal rules restrict equipment from prohibited sources.",
+      "why_this_business": "FCC equipment authorisation rules and the Secure and Trusted Communications Networks Act prohibit certain equipment in networks, with a covered list and reimbursement programme for removal. Component sourcing determines whether your product is affected.",
+      "loss_scenario": "Products containing prohibited components losing authorisation or being placed on a covered list, with removal from customer networks and a market that closes entirely.",
+      "rhetorical_question": "How do you verify component sourcing against prohibited supplier lists?"
+    },
+    {
+      "rank": 3,
+      "headline": "Deployed equipment needs firmware maintained across its service life.",
+      "why_this_business": "Telephone equipment stays in service for many years in carrier and enterprise networks, requiring firmware updates as vulnerabilities are disclosed and support obligations that run for the life of the deployment.",
+      "loss_scenario": "A vulnerability across long-deployed equipment requiring updates to devices in networks that customers may not fully inventory, with unpatched units remaining exposed indefinitely.",
+      "rhetorical_question": "How long do you support firmware for equipment after it ships?"
+    }
+  ]
+}

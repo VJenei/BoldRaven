@@ -1,0 +1,31 @@
+{
+  "naics_code": "445131",
+  "naics_title": "Convenience Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fuel dispensers and tank gauges are the most attacked equipment in retail.",
+      "why_this_business": "Convenience sites run automatic tank gauges, dispenser payment terminals, and site controllers. Researchers have repeatedly found internet-exposed tank gauges across US fuel retail with little or no authentication, and payment card skimming at the pump remains one of the most persistent fraud problems in retail.",
+      "loss_scenario": "Skimmed card data at the pump generates card brand assessments and fraud liability, while manipulated tank gauge data can mask a leak, which is a reportable environmental release with remediation cost.",
+      "rhetorical_question": "Are your tank gauges or site controllers reachable from outside the site?"
+    },
+    {
+      "rank": 2,
+      "headline": "Age-restricted sales are enforced by compliance checks.",
+      "why_this_business": "Tobacco, alcohol, and nicotine sales require age verification at the point of sale, with electronic ID scanning and register prompts creating the record that a check occurred. States and FDA conduct undercover compliance checks and act on failures.",
+      "loss_scenario": "Licence suspension for failed compliance checks removes the categories that drive both traffic and margin, and repeated failures put the fuel and lottery licences at risk too.",
+      "rhetorical_question": "How does your point of sale enforce and record age verification?"
+    },
+    {
+      "rank": 3,
+      "headline": "Small format stores hold cash, lottery, and card data in one system.",
+      "why_this_business": "Convenience sites concentrate cash handling, lottery terminals, money transfer services, and card processing in a small operation with limited staff and often no dedicated IT support. Money services activity brings its own recordkeeping obligations.",
+      "loss_scenario": "A compromise reaching payment and money services data at a business with no capacity to fund forensic investigation or notification, and the merchant agreement makes it the retailer's cost.",
+      "rhetorical_question": "Do you offer money transfer or check cashing services alongside retail?"
+    }
+  ]
+}

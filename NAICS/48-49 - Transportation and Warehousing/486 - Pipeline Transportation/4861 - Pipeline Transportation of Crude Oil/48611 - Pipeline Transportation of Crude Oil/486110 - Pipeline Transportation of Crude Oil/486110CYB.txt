@@ -1,0 +1,31 @@
+{
+  "naics_code": "486110",
+  "naics_title": "Pipeline Transportation of Crude Oil",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pipeline SCADA controls pumps and valves across hundreds of miles.",
+      "why_this_business": "Crude pipelines are operated from control centres directing pump stations, valves, and tankage through SCADA, with leak detection systems monitoring pressure and flow balance. Controllers make throughput and shutdown decisions remotely. Operator qualification and control room management are federally regulated.",
+      "loss_scenario": "A loss of control or a manipulated leak detection signal delays shutdown during a release. Large crude releases carry cleanup, natural resource damages, and criminal exposure, and remediation runs to hundreds of millions.",
+      "rhetorical_question": "How is your control centre network separated from corporate systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "TSA imposes mandatory cybersecurity requirements on pipeline operators.",
+      "why_this_business": "Following the 2021 Colonial Pipeline attack, TSA issued security directives requiring designated pipeline owners and operators to appoint a cybersecurity coordinator, report incidents to CISA within 24 hours, conduct vulnerability assessments, and implement specific mitigation measures with a TSA-approved implementation plan and architecture design review.",
+      "loss_scenario": "TSA civil penalties and mandated remediation, plus the reality that a reportable incident brings regulatory review of every related control simultaneously.",
+      "rhetorical_question": "Do you hold a TSA-approved cybersecurity implementation plan?"
+    },
+    {
+      "rank": 3,
+      "headline": "Nominations, scheduling, and measurement determine who owns what.",
+      "why_this_business": "Crude movements are nominated, scheduled, and allocated with custody transfer measurement determining volumes and quality attributed to each shipper. Common carrier obligations and tariff terms govern allocation when the line is oversubscribed.",
+      "loss_scenario": "Unresolvable allocation and imbalance positions across shippers, with a common carrier obligation to allocate fairly that cannot be evidenced, inviting shipper complaints to the regulator.",
+      "rhetorical_question": "How are shipper nominations and custody transfer volumes recorded?"
+    }
+  ]
+}

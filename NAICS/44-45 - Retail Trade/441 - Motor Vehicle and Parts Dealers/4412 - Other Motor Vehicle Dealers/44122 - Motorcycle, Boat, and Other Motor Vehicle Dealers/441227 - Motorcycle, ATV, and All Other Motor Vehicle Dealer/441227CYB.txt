@@ -1,0 +1,31 @@
+{
+  "naics_code": "441227",
+  "naics_title": "Motorcycle, ATV, and All Other Motor Vehicle Dealers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Powersports dealers arrange financing and carry Safeguards Rule duties.",
+      "why_this_business": "Dealers arranging retail instalment contracts are financial institutions under GLBA, subject to the FTC Safeguards Rule since June 9, 2023, including multi-factor authentication, encryption, a qualified individual, and an incident response plan. Powersports finance volumes are high relative to unit price.",
+      "loss_scenario": "FTC enforcement and breach notification across a large customer base of relatively small transactions, where the per-customer cost of notification does not scale down with deal size.",
+      "rhetorical_question": "How many financed deals do you process in a typical month?"
+    },
+    {
+      "rank": 2,
+      "headline": "Units are small, valuable, and easily stolen.",
+      "why_this_business": "Motorcycles and ATVs can be loaded and removed quickly, and are among the most frequently stolen vehicle types relative to inventory value. Inventory systems record VINs, keys, and unit locations across the lot and storage.",
+      "loss_scenario": "Targeted theft of multiple units informed by inventory data, with floor plan obligations continuing on units that are gone.",
+      "rhetorical_question": "How is your unit and key inventory recorded and secured?"
+    },
+    {
+      "rank": 3,
+      "headline": "Parts, accessories, and service drive most of the gross profit.",
+      "why_this_business": "Powersports margins depend heavily on parts, accessories, and service rather than unit sales, all run through the dealer management system with fitment lookup by model and year. Seasonal service backlogs are scheduled weeks ahead.",
+      "loss_scenario": "Loss of parts lookup and service scheduling removes the profitable side of the business during the riding season, when the work cannot be deferred to a quieter period.",
+      "rhetorical_question": "What share of your gross profit comes from parts and service rather than unit sales?"
+    }
+  ]
+}

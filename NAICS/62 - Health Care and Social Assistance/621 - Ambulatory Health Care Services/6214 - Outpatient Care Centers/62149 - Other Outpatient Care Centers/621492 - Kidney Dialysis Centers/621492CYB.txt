@@ -1,0 +1,31 @@
+{
+  "naics_code": "621492",
+  "naics_title": "Kidney Dialysis Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Missing dialysis is life threatening within days.",
+      "why_this_business": "Patients receive haemodialysis on a fixed schedule, typically three times weekly, and cannot safely miss treatments. Machines, water treatment, and dialysate delivery are controlled systems, and treatment parameters are prescribed per patient and recorded electronically.",
+      "loss_scenario": "Missed or delayed treatments causing fluid overload, hyperkalaemia, and hospitalisation, which is a direct patient harm event with regulatory and clinical consequences and no ability to defer treatment.",
+      "rhetorical_question": "How many days can your patients safely go without treatment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Treatment parameters must be right for each patient every session.",
+      "why_this_business": "Dialysis prescriptions specify dialysate composition, ultrafiltration targets, anticoagulation, and duration, recorded and delivered per patient. Errors in these parameters cause immediate physiological harm.",
+      "loss_scenario": "Treatment delivered on incorrect or unavailable parameters, causing hypotension, fluid or electrolyte derangement, and in serious cases death, with the clinical record unavailable to guide or defend the decision.",
+      "rhetorical_question": "How would staff verify a patient's dialysis prescription if the system were down?"
+    },
+    {
+      "rank": 3,
+      "headline": "Medicare conditions for coverage impose documentation obligations.",
+      "why_this_business": "Dialysis facilities operate under Medicare conditions for coverage with requirements for patient assessments, care plans, water quality monitoring, and quality reporting, surveyed by state agencies and CMS.",
+      "loss_scenario": "Survey deficiencies and condition-level findings where required documentation cannot be produced, with termination from Medicare being the ultimate consequence and the source of nearly all revenue.",
+      "rhetorical_question": "What documentation would a CMS surveyor expect you to produce on request?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "532284",
+  "naics_title": "Recreational Goods Rental",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The signed waiver is the entire liability defence and it is electronic.",
+      "why_this_business": "Rental of watercraft, bikes, ski equipment, and similar goods depends on signed liability waivers and equipment condition acknowledgements, now almost always captured electronically at booking or check-in. The waiver is what stands between the operator and a personal injury claim.",
+      "loss_scenario": "A serious injury claim where the executed waiver cannot be produced, removing the defence the business model is built on, in an activity where injuries are foreseeable and damages are large.",
+      "rhetorical_question": "Could you produce a signed waiver for a customer who rented from you two years ago?"
+    },
+    {
+      "rank": 2,
+      "headline": "Equipment maintenance records determine whether the gear was fit to rent.",
+      "why_this_business": "Rental equipment requires documented inspection and maintenance between rentals, particularly for watercraft, climbing gear, and ski bindings where a mechanical failure causes injury. Binding settings are recorded against the individual renter.",
+      "loss_scenario": "An injury attributed to equipment failure where inspection and setting records cannot be produced, which shifts the presumption against the operator entirely.",
+      "rhetorical_question": "How do you record equipment inspection and setting adjustments for each rental?"
+    },
+    {
+      "rank": 3,
+      "headline": "The season is short and bookings are dated.",
+      "why_this_business": "Recreational rental is intensely seasonal and weather-dependent, with online bookings for specific days and equipment allocated against a finite fleet. Peak weekends carry a disproportionate share of annual revenue.",
+      "loss_scenario": "Lost bookings on peak season days that cannot be recovered, with customers who travelled for the activity turned away and equipment sitting idle.",
+      "rhetorical_question": "How many operating days make up the majority of your annual revenue?"
+    }
+  ]
+}

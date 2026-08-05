@@ -1,0 +1,31 @@
+{
+  "naics_code": "333120",
+  "naics_title": "Construction Machinery Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Machines are connected and receive software from you.",
+      "why_this_business": "Excavators, loaders, and dozers run electronic control units with telematics linking each machine to manufacturer systems for diagnostics, updates, and in some cases remote disabling. The connection is two directional.",
+      "loss_scenario": "Compromise of the telematics platform giving access to machines on active job sites, where unexpected motion of heavy equipment around workers is fatal, plus fleet-wide immobilisation.",
+      "rhetorical_question": "What can be sent to a machine through your telematics platform?"
+    },
+    {
+      "rank": 2,
+      "headline": "Control system defects cause uncommanded machine movement.",
+      "why_this_business": "Hydraulic and drive functions are electronically controlled, with software determining response to operator input and safe states on fault. Machines operate around ground workers.",
+      "loss_scenario": "A software defect causing uncommanded boom or drive movement, striking a worker, with a recall across every machine of the model and regulatory investigation.",
+      "rhetorical_question": "How is machine control software version controlled and released?"
+    },
+    {
+      "rank": 3,
+      "headline": "Emissions compliance is enforced through engine software.",
+      "why_this_business": "Off-road engines are certified to EPA emissions standards with aftertreatment controlled by engine software. EPA enforcement against defeat devices and uncertified configurations carries very large penalties.",
+      "loss_scenario": "Machines shipped with wrong or altered engine calibrations, which is an emissions violation with per-unit penalties, recall, and in serious cases a consent decree.",
+      "rhetorical_question": "How are certified engine calibrations controlled and verified at build?"
+    }
+  ]
+}

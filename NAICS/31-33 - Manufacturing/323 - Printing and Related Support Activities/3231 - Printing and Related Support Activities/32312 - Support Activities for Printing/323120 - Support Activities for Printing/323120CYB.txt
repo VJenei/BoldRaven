@@ -1,0 +1,31 @@
+{
+  "naics_code": "323120",
+  "naics_title": "Support Activities for Printing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Prepress files are the customer's product before it exists.",
+      "why_this_business": "Prepress and platemaking services receive customer artwork, financial documents, and packaging designs, producing plates and files that drive presses. Content includes unreleased campaigns, regulated label copy, and confidential financial material.",
+      "loss_scenario": "Disclosure of unreleased customer content, with contractual liability and, where financial or regulated content is involved, consequences for the customer that exceed the value of the prepress work.",
+      "rhetorical_question": "What confidential customer content passes through your prepress systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Plate and file errors are reproduced across the entire print run.",
+      "why_this_business": "Plates and files define what the press prints. An error in artwork version, colour separation, or regulated label content is reproduced identically across the whole run before anyone reviews the printed output.",
+      "loss_scenario": "An entire print run scrapped for a prepress error, with material, press time, and the customer's deadline lost, and where regulated label content was wrong, recall of the packaged product.",
+      "rhetorical_question": "How is artwork version verified before plates are made?"
+    },
+    {
+      "rank": 3,
+      "headline": "Turnaround times feed printers' press schedules.",
+      "why_this_business": "Prepress services deliver into press schedules booked to the hour, with plates required before the press can run. Delay in prepress idles a press and pushes every job behind it.",
+      "loss_scenario": "Press downtime at customers waiting on plates, with their idle press time and downstream schedule disruption claimed against the prepress provider.",
+      "rhetorical_question": "What press start times depend on your plate delivery?"
+    }
+  ]
+}

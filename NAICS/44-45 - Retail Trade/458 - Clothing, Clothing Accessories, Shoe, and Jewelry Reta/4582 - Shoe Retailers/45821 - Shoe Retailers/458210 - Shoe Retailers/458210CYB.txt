@@ -1,0 +1,31 @@
+{
+  "naics_code": "458210",
+  "naics_title": "Shoe Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Limited releases attract automated buying and account fraud.",
+      "why_this_business": "Footwear retail includes limited and hyped releases where demand vastly exceeds supply and resale value is a multiple of retail. Automated purchasing tools, account takeover, and fraudulent orders target these drops specifically, and raffle and reservation systems are gamed.",
+      "loss_scenario": "Inventory diverted to resellers through fraudulent accounts and bots, with genuine customers excluded and brand relationships damaged where allocation terms were breached.",
+      "rhetorical_question": "Do you handle limited release products, and how are purchase limits enforced?"
+    },
+    {
+      "rank": 2,
+      "headline": "Size level inventory determines whether a sale happens at all.",
+      "why_this_business": "Footwear sells by size within style and colour, so a store with the style but not the size makes no sale. Inventory accuracy at size level, inter-store visibility, and ship-from-store fulfilment all depend on live system data.",
+      "loss_scenario": "Lost sales on inventory you actually hold, plus ship-from-store orders accepted against stock that is not there, generating cancellations that suppress marketplace and site performance.",
+      "rhetorical_question": "How do your staff check size availability across other locations?"
+    },
+    {
+      "rank": 3,
+      "headline": "Card and customer data flows through store and online together.",
+      "why_this_business": "Footwear retailers operate integrated store and online channels with shared customer accounts, saved payment methods, and loyalty balances. PCI DSS 4.0 is fully mandatory, and stored payment credentials raise the value of an account takeover.",
+      "loss_scenario": "Account takeover using stored payment methods to place fraudulent orders, plus card brand liability where the underlying data was taken from your environment.",
+      "rhetorical_question": "Do customer accounts on your site store payment methods for reuse?"
+    }
+  ]
+}

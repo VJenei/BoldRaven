@@ -1,0 +1,31 @@
+{
+  "naics_code": "336413",
+  "naics_title": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Parts must be traceable and conform to approved data.",
+      "why_this_business": "Aircraft parts are produced under FAA production approval to approved design data with traceability and airworthiness documentation accompanying each part. Parts without proper documentation cannot be installed.",
+      "loss_scenario": "Parts in service without supportable conformity documentation, requiring removal from aircraft where they are installed and FAA action against the production approval.",
+      "rhetorical_question": "How are conformity and airworthiness records maintained per part serial or lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Unapproved parts in aviation are a federal enforcement priority.",
+      "why_this_business": "The FAA treats suspected unapproved parts as a safety and enforcement matter, with reporting programmes and investigation. Documentation is what distinguishes an approved part from an unapproved one.",
+      "loss_scenario": "Parts identified as unapproved because documentation cannot be produced, with FAA enforcement, removal from aircraft, and permanent damage to standing as an approved supplier.",
+      "rhetorical_question": "What documentation accompanies your parts to establish airworthiness?"
+    },
+    {
+      "rank": 3,
+      "headline": "Defence and programme data is export controlled.",
+      "why_this_business": "Parts for military aircraft involve technical data controlled under ITAR, with registration, access controls, and licensing requirements. Contracts also impose NIST SP 800-171 and CMMC requirements.",
+      "loss_scenario": "Exposure of controlled technical data or failure to demonstrate compliance, with export violation exposure and loss of defence contract eligibility.",
+      "rhetorical_question": "What is your SPRS score, and how is ITAR data access restricted?"
+    }
+  ]
+}

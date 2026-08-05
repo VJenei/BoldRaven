@@ -1,0 +1,31 @@
+{
+  "naics_code": "524126",
+  "naics_title": "Direct Property and Casualty Insurance Carriers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A carrier lost claims and policy systems for weeks and paid a very large ransom.",
+      "why_this_business": "CNA Financial, a major commercial insurer, disclosed a ransomware attack in March 2021 that disrupted operations and systems, and reporting indicated a payment of approximately $40 million. Insurers hold concentrated personal and commercial data and are targeted because they are known to understand and pay for risk transfer.",
+      "loss_scenario": "Policy administration and claims handling stop simultaneously, leaving policyholders unable to report losses or receive payments at the moment they need the coverage they paid for.",
+      "rhetorical_question": "How would policyholders report a claim if your claims systems were unavailable for two weeks?"
+    },
+    {
+      "rank": 2,
+      "headline": "State insurance data security laws require notification to commissioners.",
+      "why_this_business": "Insurance data security laws adopted in most states require a written information security programme, board oversight, vendor oversight, and notification of a cybersecurity event to the domiciliary commissioner, typically within 72 hours, with obligations flowing to producers as well.",
+      "loss_scenario": "Notification to multiple insurance departments on short deadlines, followed by market conduct examination and potential restrictions on writing business in affected states.",
+      "rhetorical_question": "Which state insurance departments would you need to notify within 72 hours?"
+    },
+    {
+      "rank": 3,
+      "headline": "Claim files hold detailed personal, medical, and financial information.",
+      "why_this_business": "Property and casualty claim files include injury and medical records from liability and workers compensation claims, financial documentation, recorded statements, investigative material, and reserve information. Claims data is retained for years after closure.",
+      "loss_scenario": "Breach exposing medical records within liability claim files, which engages health information sensitivity without the claimant ever having been your policyholder, plus exposure of reserve data that is commercially damaging in litigation.",
+      "rhetorical_question": "Do your claim files contain medical records for third-party claimants?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "331210",
+  "naics_title": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pipe carries pressure ratings verified by testing.",
+      "why_this_business": "Pipe and tube for pressure, structural, and oilfield service is manufactured to standards with hydrostatic testing, dimensional inspection, and non-destructive examination. Test results determine whether each length is acceptable.",
+      "loss_scenario": "Pipe below specification entering pressure or oilfield service, where failure produces releases, blowouts, or structural collapse, with traceability determining which lengths from the affected production must be located.",
+      "rhetorical_question": "How are hydrostatic test and NDE results recorded against individual pipe lengths?"
+    },
+    {
+      "rank": 2,
+      "headline": "Mill certification follows the pipe for the life of the installation.",
+      "why_this_business": "Purchasers require mill test reports tying pipe to heat chemistry and mechanical properties, retained for the life of pressure systems and referenced during inspection and modification decades later.",
+      "loss_scenario": "Pipe in service that cannot be certified, which during a pressure system inspection or modification forces replacement of material that may be functioning perfectly.",
+      "rhetorical_question": "How long do your customers retain mill certifications for pipe you supplied?"
+    },
+    {
+      "rank": 3,
+      "headline": "Welding and forming parameters determine seam integrity.",
+      "why_this_business": "Welded pipe production controls forming, welding current, and heat treatment producing the seam, with non-destructive testing verifying integrity. Seam defects are the failure mode in welded pipe.",
+      "loss_scenario": "Seam defects passing inspection or produced during a period when parameters were not controlled, appearing as failures in service where the pipe is carrying pressure.",
+      "rhetorical_question": "How are welding parameters monitored and linked to production lengths?"
+    }
+  ]
+}

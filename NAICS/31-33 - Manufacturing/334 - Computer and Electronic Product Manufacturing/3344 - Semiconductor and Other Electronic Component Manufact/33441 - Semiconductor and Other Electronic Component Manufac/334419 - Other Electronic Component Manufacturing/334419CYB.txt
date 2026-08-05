@@ -1,0 +1,31 @@
+{
+  "naics_code": "334419",
+  "naics_title": "Other Electronic Component Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Components enter products where failure has consequences.",
+      "why_this_business": "Electronic components are used across automotive, medical, industrial, and aerospace products. A defective component becomes a defect in every finished product that contains it.",
+      "loss_scenario": "A component defect discovered after distribution, with recall covering finished products across many customers and the cost driven by their products rather than yours.",
+      "rhetorical_question": "How many finished products could contain a single lot of your components?"
+    },
+    {
+      "rank": 2,
+      "headline": "Process control determines conformance that inspection cannot see.",
+      "why_this_business": "Component properties depend on materials, process parameters, and testing rather than dimensional inspection. Deviations produce parts that look correct and fail in service.",
+      "loss_scenario": "Components produced outside process limits shipped and assembled, failing in the field, with process records determining the scope of the recall.",
+      "rhetorical_question": "How are process parameters and test results recorded against production lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer qualification and traceability control market access.",
+      "why_this_business": "Automotive, medical, and aerospace customers qualify components through formal approval with lot traceability and change control. Unapproved changes and lost traceability both break the qualification.",
+      "loss_scenario": "Loss of qualification records or traceability, requiring requalification with customers and, for parts already in the field, an inability to bound any problem that emerges.",
+      "rhetorical_question": "How long do you retain lot traceability and test records?"
+    }
+  ]
+}

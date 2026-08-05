@@ -1,0 +1,31 @@
+{
+  "naics_code": "424930",
+  "naics_title": "Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fresh flowers have days of life and the holidays do not move.",
+      "why_this_business": "Cut flowers move from farm to wholesaler to florist within days, largely imported by air with cold chain maintained throughout. Valentine's Day and Mother's Day concentrate enormous volume into fixed dates that cannot be shifted.",
+      "loss_scenario": "Product that misses its window is a total loss, and a systems failure in the days before a major holiday destroys the two most important weeks of the year.",
+      "rhetorical_question": "What share of your annual volume moves in the two weeks around Valentine's Day and Mother's Day?"
+    },
+    {
+      "rank": 2,
+      "headline": "Imported plant material requires inspection and phytosanitary clearance.",
+      "why_this_business": "Cut flowers and nursery stock are imported under APHIS inspection with phytosanitary certificates, and shipments are held or destroyed for pest findings. Documentation must match the shipment exactly and clear before product moves inland.",
+      "loss_scenario": "Shipments held at the port of entry while paperwork is resolved, on product that is losing vase life every hour it sits.",
+      "rhetorical_question": "How much of your product is imported and subject to inspection at entry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Cold chain determines how long the product lasts for the customer.",
+      "why_this_business": "Vase life depends on unbroken cold chain from farm through wholesale to the florist. Coolers and refrigerated delivery are monitored, and every excursion shortens the life the retail customer gets.",
+      "loss_scenario": "Product that fails prematurely at the retail florist generates credits and lost accounts, and a cooler control failure at the wholesale level condemns everything in it.",
+      "rhetorical_question": "How is your cooler temperature monitored and alarmed?"
+    }
+  ]
+}

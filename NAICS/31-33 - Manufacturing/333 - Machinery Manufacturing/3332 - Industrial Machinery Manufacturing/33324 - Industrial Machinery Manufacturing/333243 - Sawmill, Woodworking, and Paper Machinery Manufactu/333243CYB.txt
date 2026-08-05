@@ -1,0 +1,31 @@
+{
+  "naics_code": "333243",
+  "naics_title": "Sawmill, Woodworking, and Paper Machinery Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Machines cut and press with force that kills operators.",
+      "why_this_business": "Saws, planers, presses, and paper machines operate at speeds and forces that cause amputation and crushing. Safety interlocks, guarding, and control software prevent motion when people are exposed.",
+      "loss_scenario": "A control or interlock defect permitting motion during a maintenance or clearing task, with an amputation or fatality and an OSHA investigation examining the machine's safety system design.",
+      "rhetorical_question": "How are machine safety functions validated before a machine ships?"
+    },
+    {
+      "rank": 2,
+      "headline": "Machines run mill production continuously and are supported remotely.",
+      "why_this_business": "Sawmill and paper machinery runs continuous production with PLCs, optimisation software, and remote support connections. Mills operate around the clock and equipment downtime stops the whole line.",
+      "loss_scenario": "Support connections used to reach mill control networks, stopping production, with the mill's daily output value and the manufacturer identified as the access path.",
+      "rhetorical_question": "How do you connect to installed machinery for support and updates?"
+    },
+    {
+      "rank": 3,
+      "headline": "Optimisation software determines yield and is machine-specific.",
+      "why_this_business": "Sawmill scanning and optimisation software determines cutting decisions and directly controls recovery from every log. The software and its configuration are developed for the specific mill.",
+      "loss_scenario": "Loss of optimisation software and configurations, with mills running on manual or default settings at materially reduced recovery until the configuration is rebuilt.",
+      "rhetorical_question": "Do you hold the only copies of mill-specific optimisation configurations?"
+    }
+  ]
+}

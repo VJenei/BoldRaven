@@ -1,0 +1,31 @@
+{
+  "naics_code": "561910",
+  "naics_title": "Packaging and Labeling Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Labels carry regulated content that must be exactly right.",
+      "why_this_business": "Contract packaging and labelling applies content required by law, including ingredient and allergen declarations, drug facts, lot codes, and expiry dates. Artwork versions and label content are controlled documents, and applying a superseded version creates a mislabelled product.",
+      "loss_scenario": "A mislabelled product with an undeclared allergen or wrong drug information triggers recall and, where injury results, product liability with the packager identified as the point of failure.",
+      "rhetorical_question": "How do you control label artwork versions to prevent a superseded version being applied?"
+    },
+    {
+      "rank": 2,
+      "headline": "Lot coding is the basis of every recall.",
+      "why_this_business": "Packaging operations apply lot codes and dates linking finished goods to production runs and input materials. Those codes are what allow a recall to be narrowed to affected product rather than everything.",
+      "loss_scenario": "Loss of lot coding records expands a recall to all product packaged in a period, multiplying the cost many times over and placing it on the packager under the service agreement.",
+      "rhetorical_question": "Could you identify which finished goods came from a specific input lot?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client product and formulation data passes through your operation.",
+      "why_this_business": "Contract packagers receive client formulations, specifications, artwork, and sometimes unreleased product information ahead of launch, under confidentiality obligations in the service agreement.",
+      "loss_scenario": "Disclosure of client formulations and unreleased product information, with contractual liability and loss of clients whose competitive position depended on confidentiality.",
+      "rhetorical_question": "Do you hold client formulations or unreleased product artwork?"
+    }
+  ]
+}

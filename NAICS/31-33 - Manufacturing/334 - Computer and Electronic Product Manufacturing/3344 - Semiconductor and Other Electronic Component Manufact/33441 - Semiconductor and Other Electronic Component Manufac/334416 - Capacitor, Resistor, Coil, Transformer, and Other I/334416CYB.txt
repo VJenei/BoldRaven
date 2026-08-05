@@ -1,0 +1,31 @@
+{
+  "naics_code": "334416",
+  "naics_title": "Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Component failure causes fires in the products they go into.",
+      "why_this_business": "Capacitors and transformers fail short or vent, causing fires in the equipment containing them. Component recalls have driven very large finished product recalls where the component was used across many models.",
+      "loss_scenario": "A component defect causing fires in customer products, with the recall covering every finished product containing the component across every customer, at cost far exceeding the components themselves.",
+      "rhetorical_question": "How many customer products contain components from a single production lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Counterfeit components carrying your markings enter the supply chain.",
+      "why_this_business": "Passive components are widely counterfeited using genuine manufacturers' markings, with counterfeits failing in service. Defence and aerospace supply chains have specific counterfeit avoidance requirements.",
+      "loss_scenario": "Counterfeits bearing your markings failing in aerospace or defence equipment, with investigation, brand damage, and the cost of establishing which parts were genuine.",
+      "rhetorical_question": "How can genuine product be distinguished from counterfeits with your markings?"
+    },
+    {
+      "rank": 3,
+      "headline": "Automotive and aerospace parts are qualified with traceability.",
+      "why_this_business": "Components for automotive and aerospace are qualified through production part approval or aerospace processes with lot traceability, testing records, and change control. Customers audit those records.",
+      "loss_scenario": "Inability to produce traceability records for components already in vehicles or aircraft, expanding any field problem to every product from the affected period.",
+      "rhetorical_question": "How is lot traceability maintained from material through to shipped components?"
+    }
+  ]
+}

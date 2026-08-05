@@ -1,0 +1,31 @@
+{
+  "naics_code": "813910",
+  "naics_title": "Business Associations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Member data reveals the competitive landscape of an industry.",
+      "why_this_business": "Trade associations hold member company data, participation in committees, and frequently aggregated industry statistics contributed confidentially by competing members. Benchmarking programmes collect commercially sensitive operating data.",
+      "loss_scenario": "Exposure of member-contributed operating and pricing data damages every member simultaneously and raises antitrust questions about information sharing that are difficult to answer after the fact.",
+      "rhetorical_question": "Do you collect operating or pricing data from competing member companies?"
+    },
+    {
+      "rank": 2,
+      "headline": "Advocacy positions and member communications are sensitive.",
+      "why_this_business": "Associations coordinate industry positions on regulation and legislation, holding internal strategy, member deliberations, and lobbying activity. Positions under development are commercially and politically sensitive.",
+      "loss_scenario": "Exposure of internal advocacy strategy and member deliberations to regulators, opponents, or the press, damaging the association's effectiveness and members' willingness to participate candidly.",
+      "rhetorical_question": "Do your records contain member deliberations on positions not yet public?"
+    },
+    {
+      "rank": 3,
+      "headline": "Events, certification, and dues generate payment data.",
+      "why_this_business": "Associations run conferences, training, certification programmes, and dues billing, holding member and attendee payment data and, for certification, individual credential records relied on by employers.",
+      "loss_scenario": "Payment data exposure across members and attendees, plus certification records that individuals and employers rely on and that cannot be verified if lost.",
+      "rhetorical_question": "Do you issue certifications that individuals rely on for employment?"
+    }
+  ]
+}

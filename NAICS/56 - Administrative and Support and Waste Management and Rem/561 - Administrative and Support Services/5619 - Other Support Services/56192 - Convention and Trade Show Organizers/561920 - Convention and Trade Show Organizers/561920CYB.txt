@@ -1,0 +1,31 @@
+{
+  "naics_code": "561920",
+  "naics_title": "Convention and Trade Show Organizers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The event happens on its date whether or not your systems work.",
+      "why_this_business": "Trade shows and conventions are booked years ahead with venues, exhibitors, and attendees committing to a fixed date. Registration, badging, floor plans, exhibitor manuals, and lead retrieval all run on connected systems in the days before and during the event.",
+      "loss_scenario": "An event that cannot register or badge attendees on opening morning, with thousands of people arriving and exhibitors who paid for access to them. Refund and reputational exposure across the whole event.",
+      "rhetorical_question": "What happens on opening morning if your registration and badging systems are unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "Attendee and exhibitor databases are the asset the show is built on.",
+      "why_this_business": "Organisers hold attendee registration data, exhibitor contracts, lead retrieval data, and multi-year participation histories. The attendee list is what exhibitors pay for and is closely guarded from competing events.",
+      "loss_scenario": "Exposure of the attendee database allows competing events to target your audience directly, and breach notification covers attendees across many years and jurisdictions.",
+      "rhetorical_question": "How many years of attendee and exhibitor records are held in your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Exhibitor payments and space contracts move large sums ahead of the event.",
+      "why_this_business": "Exhibitors contract and pay for space months in advance, with sponsorship and service orders following. Organisers pay venues, contractors, and suppliers on their own schedules, holding funds in between.",
+      "loss_scenario": "Diverted exhibitor payments or supplier payments, leaving space unpaid and services unbooked, with the event obligation continuing regardless and insolvency risk if funds cannot be recovered.",
+      "rhetorical_question": "What value of exhibitor payments do you hold ahead of your next event?"
+    }
+  ]
+}

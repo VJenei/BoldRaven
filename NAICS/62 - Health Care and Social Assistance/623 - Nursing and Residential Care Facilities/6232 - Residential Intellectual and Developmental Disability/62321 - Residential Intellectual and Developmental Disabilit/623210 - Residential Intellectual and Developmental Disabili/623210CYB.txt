@@ -1,0 +1,31 @@
+{
+  "naics_code": "623210",
+  "naics_title": "Residential Intellectual and Developmental Disability Facilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Residents cannot advocate for themselves or detect misuse.",
+      "why_this_business": "Facilities support residents with intellectual and developmental disabilities, holding diagnoses, behaviour support plans, guardianship documentation, and financial account information. Residents frequently cannot recognise or report exploitation.",
+      "loss_scenario": "Identity and financial exploitation of residents who have no capacity to detect or dispute it, with regulators and advocacy organisations treating the vulnerability as an aggravating factor.",
+      "rhetorical_question": "How many residents would be able to identify misuse of their own information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Individual support plans direct every aspect of daily care.",
+      "why_this_business": "Care is delivered according to individualised support plans covering medication, behaviour supports, communication methods, dietary needs, and medical protocols. Staff turnover is high and the plan is how new staff know what each resident needs.",
+      "loss_scenario": "Care delivered without support plans, with medication errors, behavioural incidents, and choking or aspiration risk for residents with specific dietary and positioning requirements.",
+      "rhetorical_question": "How would new staff know a resident's dietary and behavioural requirements without the plan?"
+    },
+    {
+      "rank": 3,
+      "headline": "Licensing and Medicaid waiver programmes require documentation.",
+      "why_this_business": "Facilities operate under state licensing and Medicaid waiver programmes with requirements for assessments, service documentation, incident reporting, and staff training records, reviewed during monitoring visits.",
+      "loss_scenario": "Licensing action and Medicaid recoupment where service documentation cannot be produced, with the waiver programme being the source of nearly all funding.",
+      "rhetorical_question": "What service documentation does your state waiver programme require you to maintain?"
+    }
+  ]
+}

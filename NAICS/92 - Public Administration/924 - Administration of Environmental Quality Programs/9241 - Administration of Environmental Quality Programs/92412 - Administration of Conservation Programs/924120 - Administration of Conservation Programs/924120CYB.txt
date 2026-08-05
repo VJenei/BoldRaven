@@ -1,0 +1,31 @@
+{
+  "naics_code": "924120",
+  "naics_title": "Administration of Conservation Programs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Species and habitat location data is used against conservation.",
+      "why_this_business": "Conservation agencies hold precise location data for endangered species, sensitive habitats, and archaeological sites gathered through survey and monitoring. That data is directly useful to poachers, collectors, and looters.",
+      "loss_scenario": "Poaching, collection, or looting at locations disclosed from agency data, which for critically endangered populations and archaeological sites is an irreversible loss.",
+      "rhetorical_question": "Do your systems hold precise locations of endangered species or archaeological sites?"
+    },
+    {
+      "rank": 2,
+      "headline": "Licensing and permit systems serve large public populations.",
+      "why_this_business": "Agencies issue hunting, fishing, and recreational licences to large populations through online systems holding identity, payment, and in some cases firearms-related information, with seasonal demand peaks.",
+      "loss_scenario": "Licensing unavailable at the opening of a season, with substantial revenue lost and public frustration, plus exposure of licence holder data across a large population.",
+      "rhetorical_question": "How many licences do you issue in your peak season week?"
+    },
+    {
+      "rank": 3,
+      "headline": "Landowner agreements and easements are long-term legal instruments.",
+      "why_this_business": "Conservation programmes hold easements, cost-share agreements, and management plans with private landowners running for decades, with obligations, payments, and monitoring requirements attached.",
+      "loss_scenario": "Agreements and monitoring records that cannot be produced, leaving obligations unenforceable and landowner payment and compliance histories unreconstructable across long-term commitments.",
+      "rhetorical_question": "How many decades do your conservation easements and agreements run for?"
+    }
+  ]
+}

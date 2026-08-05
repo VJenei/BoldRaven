@@ -1,0 +1,31 @@
+{
+  "naics_code": "923140",
+  "naics_title": "Administration of Veterans' Affairs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Veterans' records combine health, service, and financial data.",
+      "why_this_business": "Agencies administering veterans' programmes hold service records, disability ratings supported by medical evidence, mental health treatment information, and benefit payment details. Veterans' health data includes combat-related and behavioural health information.",
+      "loss_scenario": "Breach exposing veterans' medical and service data, with a population that has repeatedly been targeted for benefit fraud and that includes individuals whose mental health information exposure carries employment and personal consequences.",
+      "rhetorical_question": "Do your records include disability medical evidence and mental health information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Veterans are specifically targeted by benefit fraud schemes.",
+      "why_this_business": "Veterans' benefits are targeted by organised fraud including redirection of payments and fraudulent claims, and veterans are targeted directly by scams referencing their benefits. Payment redirection is a persistent problem.",
+      "loss_scenario": "Redirected benefit payments leaving veterans without income they depend on, and data used to target veterans with convincing fraud referencing their actual benefit circumstances.",
+      "rhetorical_question": "How are changes to a veteran's payment details verified?"
+    },
+    {
+      "rank": 3,
+      "headline": "Benefit determinations require documented evidence over years.",
+      "why_this_business": "Claims and appeals depend on service records, medical evidence, and prior determinations accumulated over decades, with appeals reaching back many years. The evidentiary record is the basis of entitlement.",
+      "loss_scenario": "Claims and appeals unable to proceed where the evidentiary record is unavailable, with veterans waiting longer for determinations they have frequently already waited years for.",
+      "rhetorical_question": "How far back do the records supporting a current claim typically reach?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "488991",
+  "naics_title": "Packing and Crating",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Export packing is documented to international standards.",
+      "why_this_business": "Wood packaging for export must be treated and marked to ISPM 15 standards, with treatment records maintained and subject to audit. Shipments arriving with non-compliant packaging are refused entry, fumigated, or destroyed at the exporter's cost.",
+      "loss_scenario": "Cargo refused at a foreign port for non-compliant packaging, with return freight, destruction, or fumigation costs and the exporter's production schedule disrupted, all claimed against the packer.",
+      "rhetorical_question": "How do you record ISPM 15 treatment and marking for export crates?"
+    },
+    {
+      "rank": 2,
+      "headline": "Crating specifications protect cargo worth far more than the crate.",
+      "why_this_business": "Industrial equipment, aerospace components, and fine art are crated to engineered specifications with shock and tilt indicators, moisture barriers, and blocking designed for the specific item and route. Specifications and photographs document what was built.",
+      "loss_scenario": "Damage in transit to cargo worth hundreds of thousands or millions, where without the packing specification and photographic record the packer cannot demonstrate the crate was built correctly.",
+      "rhetorical_question": "How do you document crate design and packing for high value shipments?"
+    },
+    {
+      "rank": 3,
+      "headline": "Dangerous goods packing is legally certified.",
+      "why_this_business": "Packing hazardous materials for transport requires certified packaging, correct marking and labelling, trained personnel, and a signed shipper's declaration. The declaration is a legal certification that the shipment complies.",
+      "loss_scenario": "An incident involving improperly packed dangerous goods, where the signed declaration and training records determine liability and can carry criminal exposure.",
+      "rhetorical_question": "Do you pack dangerous goods, and where are your training and packaging certification records?"
+    }
+  ]
+}

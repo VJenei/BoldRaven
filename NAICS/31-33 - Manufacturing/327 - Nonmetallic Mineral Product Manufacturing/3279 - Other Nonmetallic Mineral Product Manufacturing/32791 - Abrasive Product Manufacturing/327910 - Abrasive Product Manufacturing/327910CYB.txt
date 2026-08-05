@@ -1,0 +1,31 @@
+{
+  "naics_code": "327910",
+  "naics_title": "Abrasive Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Bonded abrasive wheels burst and kill operators.",
+      "why_this_business": "Grinding wheels operate at high rotational speed with bursting causing fragments to strike operators at lethal velocity. Wheels are manufactured to strength requirements and speed tested before shipment, with safety standards governing design and marking.",
+      "loss_scenario": "A wheel burst causing operator death, with the manufacturer's mixing, curing, and speed test records determining whether the wheel met the standard it was marked to.",
+      "rhetorical_question": "How are speed test results recorded against each production batch of wheels?"
+    },
+    {
+      "rank": 2,
+      "headline": "Bond formulation and curing determine wheel strength.",
+      "why_this_business": "Bonded abrasives are mixed, pressed, and cured to formulations determining the strength of the bond holding the abrasive grain. Under-cured or incorrectly formulated wheels have inadequate burst strength.",
+      "loss_scenario": "Wheels with inadequate strength shipped and in service, where the defect is invisible until the wheel bursts, requiring recall of every wheel from the affected production.",
+      "rhetorical_question": "How are mixing and curing parameters recorded per production batch?"
+    },
+    {
+      "rank": 3,
+      "headline": "Product marking carries the operating speed limit.",
+      "why_this_business": "Wheels are marked with maximum operating speed which operators and machine setters rely on. A mismarked wheel run at a speed it cannot withstand will burst.",
+      "loss_scenario": "Mismarked wheels operated above their actual capability, producing a burst that the operator had no way to anticipate, with marking records determining liability.",
+      "rhetorical_question": "How is speed marking verified against the actual product specification?"
+    }
+  ]
+}

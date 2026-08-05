@@ -1,0 +1,31 @@
+{
+  "naics_code": "521110",
+  "naics_title": "Monetary Authorities-Central Bank",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Central bank payment systems have been attacked and drained.",
+      "why_this_business": "Attackers compromised the Bangladesh central bank in 2016 and issued fraudulent SWIFT payment instructions, moving $81 million that was never recovered, with attempts totalling close to a billion dollars. Central banks operate the settlement rails that the entire financial system depends on, which makes them a strategic target for both criminal and state actors.",
+      "loss_scenario": "Fraudulent settlement instructions move irrecoverable funds, and a settlement system outage halts interbank payments nationally with consequences that extend well beyond any institution's balance sheet.",
+      "rhetorical_question": "How are payment instructions authenticated before they enter the settlement system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Monetary policy and supervisory information moves markets.",
+      "why_this_business": "Central banking functions hold unreleased policy decisions, supervisory findings on individual institutions, and confidential market operations data. Advance knowledge of a policy decision is directly tradeable and supervisory findings affect institution viability.",
+      "loss_scenario": "Leaked policy or supervisory information creates market manipulation exposure and undermines confidence in the institution, which is the principal asset a central bank has.",
+      "rhetorical_question": "How is unreleased policy and supervisory information compartmented?"
+    },
+    {
+      "rank": 3,
+      "headline": "Currency, reserves, and settlement records are the system of record.",
+      "why_this_business": "Central banking functions maintain reserve accounts, settlement balances, and currency operations records for member institutions. Those records are the authoritative statement of what each institution holds.",
+      "loss_scenario": "Unreconcilable settlement and reserve positions across the banking system, which cannot be resolved from any other source and would freeze interbank activity until restored.",
+      "rhetorical_question": "How are reserve and settlement records backed up and independently verifiable?"
+    }
+  ]
+}

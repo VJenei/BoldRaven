@@ -1,0 +1,31 @@
+{
+  "naics_code": "485991",
+  "naics_title": "Special Needs Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You are transporting patients and holding their health information.",
+      "why_this_business": "Non-emergency medical transportation carries patients to dialysis, chemotherapy, and appointments, holding names, addresses, appointment details, diagnoses inferable from destination, mobility requirements, and Medicaid identifiers. Providers billing Medicaid are covered entities or business associates under HIPAA.",
+      "loss_scenario": "HIPAA breach notification and enforcement for a population whose treatment schedules reveal serious medical conditions, plus the state Medicaid agency's own response.",
+      "rhetorical_question": "Do you bill Medicaid, and do you hold patient appointment and condition information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Missing a dialysis trip is a medical event, not a service failure.",
+      "why_this_business": "Patients on dialysis, chemotherapy, and other scheduled treatment must attend on a fixed cycle. Scheduling and dispatch systems assign trips against appointment times and vehicle accessibility requirements. There is no informal substitute for a wheelchair-accessible vehicle at short notice.",
+      "loss_scenario": "Missed treatment appointments causing patient harm, with liability well beyond the trip value and immediate scrutiny from the state Medicaid programme and the broker.",
+      "rhetorical_question": "How many of your riders are travelling to time-critical medical treatment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Medicaid billing is audited and recouped years later.",
+      "why_this_business": "NEMT claims require documented trip records, driver and vehicle credentials, and signatures or electronic verification that the trip occurred. Audits examine claims paid years earlier and extrapolate error rates across the claim population.",
+      "loss_scenario": "Extrapolated recoupment across thousands of trips where documentation is unavailable, which routinely exceeds the value of the claims actually questioned.",
+      "rhetorical_question": "How many years of trip documentation are you required to retain for Medicaid?"
+    }
+  ]
+}

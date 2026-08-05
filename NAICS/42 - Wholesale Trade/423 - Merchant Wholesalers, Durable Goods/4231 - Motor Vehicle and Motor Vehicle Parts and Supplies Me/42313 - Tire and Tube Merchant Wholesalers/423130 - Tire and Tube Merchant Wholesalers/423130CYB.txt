@@ -1,0 +1,31 @@
+{
+  "naics_code": "423130",
+  "naics_title": "Tire and Tube Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal law requires you to record who bought which tires.",
+      "why_this_business": "Tire distributors and independent dealers must record tire identification numbers against purchaser information so that recalled tires can be traced to the consumer, under NHTSA tire registration rules. That database is both a legal obligation and a file of customer names and addresses tied to specific products.",
+      "loss_scenario": "Inability to produce registration records during a recall obstructs a safety campaign and draws NHTSA enforcement, while a breach exposes the customer database you were required to build.",
+      "rhetorical_question": "How do you record tire identification numbers against purchaser details?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tires are high volume, high value, and easily resold.",
+      "why_this_business": "Tire inventory is bulky, valuable, and completely fungible once off the truck, which makes it a persistent cargo theft target. Warehouse and delivery records are the only proof of what shipped and what arrived, and fictitious pickup schemes rely on impersonating legitimate carriers.",
+      "loss_scenario": "A stolen truckload of tires is $50,000 to $150,000, and goods released to a fraudulent carrier are generally not a covered theft because they were handed over voluntarily.",
+      "rhetorical_question": "How do you verify a carrier's identity before releasing a load?"
+    },
+    {
+      "rank": 3,
+      "headline": "Same-day delivery to service accounts depends on routing and inventory data.",
+      "why_this_business": "Tire distributors run multiple daily delivery routes to dealers and service centres from regional inventory, with availability checked live at the point of sale. The customer commits to their consumer based on your stock position.",
+      "loss_scenario": "Missed delivery commitments across a route network, with service accounts sourcing elsewhere for the day and consumers waiting on vehicles that cannot be released.",
+      "rhetorical_question": "How many delivery routes do you dispatch each day from live inventory data?"
+    }
+  ]
+}

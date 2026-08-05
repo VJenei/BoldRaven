@@ -1,0 +1,31 @@
+{
+  "naics_code": "339992",
+  "naics_title": "Musical Instrument Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Tonewood sourcing is restricted by international treaty.",
+      "why_this_business": "Rosewood, ebony, and other tonewoods are listed under CITES with permit requirements, and the Lacey Act requires declaration and prohibits trade in illegally harvested wood. Enforcement in this industry has included criminal proceedings and instrument seizures.",
+      "loss_scenario": "Instruments seized at import or export for missing CITES permits or Lacey Act declarations, with instruments confiscated, penalties assessed, and criminal exposure where documentation was falsified.",
+      "rhetorical_question": "How do you retain CITES permits and Lacey Act declarations for restricted wood purchases?"
+    },
+    {
+      "rank": 2,
+      "headline": "Instruments are built individually with long lead times.",
+      "why_this_business": "Instruments are built to order with specification, wood selection, and finish per unit, taking months. Order records, serial numbers, and build specifications exist for each instrument.",
+      "loss_scenario": "Order and build records lost with instruments in progress unidentifiable, and customers who paid deposits months earlier unable to be matched to work in the shop.",
+      "rhetorical_question": "How are customer orders matched to instruments in progress?"
+    },
+    {
+      "rank": 3,
+      "headline": "Direct to consumer sales carry payment and customer data.",
+      "why_this_business": "Instruments are sold directly and through dealers, with deposits, custom order payments, and customer contact details held for high value transactions.",
+      "loss_scenario": "Customer payment and order data exposed, or fraudulent redirection of a customer deposit on a high value instrument, with state notification obligations and customer trust in a relationship business.",
+      "rhetorical_question": "How are customer deposits and payment details handled and stored?"
+    }
+  ]
+}

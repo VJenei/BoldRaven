@@ -1,0 +1,31 @@
+{
+  "naics_code": "493120",
+  "naics_title": "Refrigerated Warehousing and Storage",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Refrigeration control failure destroys customer product, not yours.",
+      "why_this_business": "Cold storage holds customer inventory at controlled temperatures under continuous monitoring, with refrigeration systems frequently using large ammonia charges. Temperature excursion records determine whether product remains saleable. The stored goods belong to your customers.",
+      "loss_scenario": "A facility holds tens of millions of dollars of customer food product. A control or monitoring failure condemns it, and bailee liability attaches to goods in your custody regardless of who owns them.",
+      "rhetorical_question": "What is the value of customer product in your facility right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ammonia refrigeration is a process safety hazard with federal oversight.",
+      "why_this_business": "Anhydrous ammonia systems above threshold quantities are covered by OSHA process safety management and EPA risk management planning, requiring documented process safety information, mechanical integrity, and emergency response. Ammonia releases are acutely toxic and force evacuation.",
+      "loss_scenario": "An ammonia release causing worker injury and community evacuation, investigated against process safety documentation that either exists or does not, with penalties per violation and potential criminal exposure.",
+      "rhetorical_question": "Is your refrigeration system covered by process safety management requirements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Food traceability duties apply to what you hold.",
+      "why_this_business": "Under FSMA Section 204, entities that hold foods on the Food Traceability List must maintain lot codes and Key Data Elements and produce records to FDA in an electronic sortable spreadsheet within 24 hours of request, with a compliance date of July 20, 2028. Cold storage holds exactly these foods.",
+      "loss_scenario": "A traceback that stalls at your facility expands a recall across every customer whose product passed through, with the warehouse identified as the point where traceability broke.",
+      "rhetorical_question": "Can you produce lot-level receipt and shipment records electronically within a day?"
+    }
+  ]
+}

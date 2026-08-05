@@ -1,0 +1,31 @@
+{
+  "naics_code": "488999",
+  "naics_title": "All Other Support Activities for Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Support providers sit inside their clients' operations.",
+      "why_this_business": "Operators in this category provide services embedded in transportation networks, frequently with access to client dispatch, tracking, and customer data. A compromise at the provider reaches the client's operation and their customers' shipments.",
+      "loss_scenario": "Third-party liability across multiple transportation clients from a single incident, plus removal from approved vendor lists which ends the work.",
+      "rhetorical_question": "How many client transportation systems do you have access to?"
+    },
+    {
+      "rank": 2,
+      "headline": "Service performance is measured against contracted levels.",
+      "why_this_business": "Support contracts specify response times, availability, and reporting, measured from data both parties can see. Transportation clients operate to schedules and pass their own service failures back through the contract chain.",
+      "loss_scenario": "Service level failures triggering contract penalties and termination, on contracts that represent the recurring revenue base of the business.",
+      "rhetorical_question": "What service level commitments do your contracts carry, and how are they measured?"
+    },
+    {
+      "rank": 3,
+      "headline": "Operational data reveals what moves, when, and where.",
+      "why_this_business": "Providers hold shipment schedules, routing, and cargo details for client freight. That information identifies high value cargo, its timing, and its route, which is exactly what organised cargo theft needs.",
+      "loss_scenario": "Cargo theft informed by data taken from your systems, with the client attributing the loss to your breach and claiming accordingly.",
+      "rhetorical_question": "Do your systems hold shipment schedules and cargo descriptions for client freight?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "456191",
+  "naics_title": "Food (Health) Supplement Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Serious adverse event reports must be submitted and records retained.",
+      "why_this_business": "Dietary supplement retailers whose name appears on the label must receive serious adverse event reports, submit them to FDA within 15 business days, and retain related records for six years. Retailers that private label carry the responsibilities of a distributor rather than a passive seller.",
+      "loss_scenario": "FDA enforcement for unsubmitted or undocumented adverse event reports, plus product liability exposure on supplements sold under your own brand where you cannot evidence what you knew and when.",
+      "rhetorical_question": "Do you sell products under your own label, and how are adverse event reports recorded?"
+    },
+    {
+      "rank": 2,
+      "headline": "Health claims and customer advice create regulatory and liability exposure.",
+      "why_this_business": "Supplement marketing is constrained by FDA and FTC rules on structure function claims and substantiation. Retailers holding customer purchase histories and consultation notes are capturing health-adjacent information about what conditions customers are treating.",
+      "loss_scenario": "A breach exposing customer purchase histories that reveal health conditions, which supports privacy claims beyond ordinary retail data, plus FTC exposure for unsubstantiated claims held in your own marketing records.",
+      "rhetorical_question": "Do you record customer consultations or health concerns alongside purchases?"
+    },
+    {
+      "rank": 3,
+      "headline": "Subscription and auto-ship programmes hold stored payment credentials.",
+      "why_this_business": "Supplement retail runs heavily on recurring auto-ship subscriptions with stored cards billed on a schedule. That is stored payment credentials for a large customer base under continuing PCI obligations, fully mandatory in version 4.0 since March 31, 2025.",
+      "loss_scenario": "Compromise of stored payment credentials across a subscription base, with card brand assessments and the loss of the recurring revenue relationship that the business is built on.",
+      "rhetorical_question": "How many customers have cards stored for recurring auto-ship orders?"
+    }
+  ]
+}

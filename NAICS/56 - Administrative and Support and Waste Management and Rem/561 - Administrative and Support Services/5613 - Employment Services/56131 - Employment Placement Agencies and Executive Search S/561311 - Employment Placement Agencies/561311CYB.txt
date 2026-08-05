@@ -1,0 +1,31 @@
+{
+  "naics_code": "561311",
+  "naics_title": "Employment Placement Agencies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Candidate files contain complete identity and employment histories.",
+      "why_this_business": "Placement agencies collect resumes, Social Security numbers for onboarding and tax purposes, identity documents for work authorisation, background check results, and references for large numbers of candidates, most of whom are never placed.",
+      "loss_scenario": "Breach notification across a candidate database including people who applied years ago and were never placed, with background check data engaging Fair Credit Reporting Act obligations for protection and disposal.",
+      "rhetorical_question": "How many candidate records do you hold for people you never placed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Job seekers are targeted through recruitment channels.",
+      "why_this_business": "Recruitment involves unsolicited contact, document exchange, and onboarding paperwork, which attackers imitate to obtain identity documents and banking details from job seekers. A compromised agency mailbox makes fraudulent job offers highly convincing.",
+      "loss_scenario": "Candidates defrauded through communications apparently from your agency, with reputational damage in a market where candidate trust determines whether people apply at all.",
+      "rhetorical_question": "How would a candidate verify that an offer or onboarding request from you is genuine?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client hiring plans are commercially sensitive.",
+      "why_this_business": "Agencies know which clients are hiring, for what roles, at what compensation, and sometimes that a role exists because an incumbent is being replaced. That information is confidential and competitively useful.",
+      "loss_scenario": "Disclosure of client hiring plans and compensation data damages client relationships and, where a replacement search was confidential, causes direct harm to individuals who did not know.",
+      "rhetorical_question": "Do you hold confidential searches to replace employees who are still in post?"
+    }
+  ]
+}

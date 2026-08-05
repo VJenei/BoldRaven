@@ -1,0 +1,31 @@
+{
+  "naics_code": "811490",
+  "naics_title": "Other Personal and Household Goods Repair and Maintenance",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Customer property is held under bailment.",
+      "why_this_business": "Repair businesses take custody of customer goods, frequently valuable or sentimental, recorded on intake with agreed work and condition. The record is the only evidence of what was received and in what state.",
+      "loss_scenario": "Disputes over condition and authorised work, and bailee liability for items lost or damaged, resolved against the party who cannot produce intake documentation.",
+      "rhetorical_question": "How do you record item condition and agreed work at intake?"
+    },
+    {
+      "rank": 2,
+      "headline": "Job tracking and customer notification run the workflow.",
+      "why_this_business": "Small repair operations manage intake, parts ordering, work status, and customer notification through a single system, with customers collecting when notified. Without it, items sit unclaimed and unmatched.",
+      "loss_scenario": "Workflow collapse with items unmatched to owners, customers uncontacted, and no record of what work was agreed or completed.",
+      "rhetorical_question": "How many items are in your workshop, and how would you contact their owners?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer data and payment accumulate without a retention policy.",
+      "why_this_business": "Operations hold customer contact details, addresses, payment methods, and item histories, retained indefinitely because there is no process that ever removes them.",
+      "loss_scenario": "Notification covering customers from many years ago with no ongoing relationship, expanding the affected population well beyond the active customer base.",
+      "rhetorical_question": "How many years of customer records are held in your system?"
+    }
+  ]
+}

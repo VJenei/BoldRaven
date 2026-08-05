@@ -1,0 +1,31 @@
+{
+  "naics_code": "541614",
+  "naics_title": "Process, Physical Distribution, and Logistics Consulting Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You map clients' supply chains in detail.",
+      "why_this_business": "Logistics consultants document supplier relationships, facility locations, inventory positions, transportation lanes, and cost structures. That map identifies exactly where a client's supply chain is concentrated and where it is fragile.",
+      "loss_scenario": "Disclosure of supply chain structure and single points of failure is competitively damaging and, in the wrong hands, an operational targeting resource against the client.",
+      "rhetorical_question": "Do your engagement files identify your clients' single-source suppliers and critical facilities?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cost and rate data is commercially sensitive across the market.",
+      "why_this_business": "Consultants hold negotiated carrier rates, supplier pricing, and cost models across multiple clients in the same industry. That aggregation is valuable and raises questions about information separation between competing clients.",
+      "loss_scenario": "Exposure of negotiated rate structures damages clients' positions with carriers and suppliers simultaneously, and the aggregation across competitors raises questions that are difficult to answer after the fact.",
+      "rhetorical_question": "How is data from competing clients separated within your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Implementation work touches live operational systems.",
+      "why_this_business": "Consultants configuring warehouse management, transportation management, and planning systems work in client production environments with elevated access during implementation and cutover.",
+      "loss_scenario": "Disruption to live distribution operations during implementation, where a client's fulfilment stops and the consequential loss vastly exceeds the consulting fee.",
+      "rhetorical_question": "Do you hold access to client production systems during implementation?"
+    }
+  ]
+}

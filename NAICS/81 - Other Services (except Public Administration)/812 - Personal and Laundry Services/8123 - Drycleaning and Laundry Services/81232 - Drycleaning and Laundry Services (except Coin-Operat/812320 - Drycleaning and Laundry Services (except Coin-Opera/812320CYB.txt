@@ -1,0 +1,31 @@
+{
+  "naics_code": "812320",
+  "naics_title": "Drycleaning and Laundry Services (except Coin-Operated)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold customers' garments and must match them to owners.",
+      "why_this_business": "Cleaners take in garments tagged to customer orders, process them through the plant, and hold them for collection. Items include expensive and irreplaceable garments, and the tagging system is the only link between item and owner.",
+      "loss_scenario": "Garments that cannot be matched to owners, with claims for high value items and no record of what was received, plus bailee liability for items in your custody.",
+      "rhetorical_question": "How many garments are in your plant right now, and how are they matched to owners?"
+    },
+    {
+      "rank": 2,
+      "headline": "Route delivery serves customers who never visit the store.",
+      "why_this_business": "Delivery routes collect and return garments at homes and offices on scheduled days, with route systems holding addresses, access arrangements, and payment methods. Customers leave garments out for collection.",
+      "loss_scenario": "Exposure of customer addresses and delivery schedules with access arrangements, plus missed routes leaving garments uncollected or undelivered against customer expectations.",
+      "rhetorical_question": "Do your route records include home access instructions for customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Environmental compliance for solvents is documented.",
+      "why_this_business": "Drycleaning solvents are regulated with requirements for equipment, leak detection, waste handling, and record retention. Perchloroethylene in particular is subject to specific requirements and phase-out schedules in some jurisdictions.",
+      "loss_scenario": "Environmental enforcement where solvent handling and waste manifests cannot be produced, plus contamination liability at sites where historical solvent use is the subject of investigation.",
+      "rhetorical_question": "How do you retain solvent usage and waste disposal records?"
+    }
+  ]
+}

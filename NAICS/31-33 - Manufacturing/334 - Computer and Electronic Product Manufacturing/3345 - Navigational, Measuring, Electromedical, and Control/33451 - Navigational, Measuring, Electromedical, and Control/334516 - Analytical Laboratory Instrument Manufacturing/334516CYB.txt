@@ -1,0 +1,31 @@
+{
+  "naics_code": "334516",
+  "naics_title": "Analytical Laboratory Instrument Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Regulated laboratories depend on your instruments for data integrity.",
+      "why_this_business": "Instruments in pharmaceutical and clinical laboratories generate data subject to FDA 21 CFR Part 11 requirements for electronic records and audit trails. The instrument software must prevent undetected alteration of results.",
+      "loss_scenario": "Software defects compromising audit trails or record integrity, with customers receiving FDA observations for data integrity, batch records invalidated, and product release decisions called into question.",
+      "rhetorical_question": "Does your instrument software support 21 CFR Part 11 electronic record requirements?"
+    },
+    {
+      "rank": 2,
+      "headline": "Instruments are networked and supported remotely.",
+      "why_this_business": "Laboratory instruments connect to information management systems and receive remote support and updates from the manufacturer, sitting inside pharmaceutical, clinical, and research networks.",
+      "loss_scenario": "Remote support access used to reach customer laboratory networks, stopping analysis and, in pharmaceutical manufacturing, holding product that cannot be released without testing.",
+      "rhetorical_question": "How do your service engineers connect to instruments at customer laboratories?"
+    },
+    {
+      "rank": 3,
+      "headline": "Instrument results drive clinical and release decisions.",
+      "why_this_business": "Analytical results determine whether pharmaceutical batches are released, whether clinical samples are reported, and whether environmental samples pass. Erroneous results propagate into those decisions.",
+      "loss_scenario": "An instrument or software defect producing incorrect results, with pharmaceutical batches released on wrong data or clinical results misreported across the period the defect was present.",
+      "rhetorical_question": "What decisions do your customers make on the basis of instrument results?"
+    }
+  ]
+}

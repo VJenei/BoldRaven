@@ -1,0 +1,31 @@
+{
+  "naics_code": "326140",
+  "naics_title": "Polystyrene Foam Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Foam manufacture involves flammable blowing agents.",
+      "why_this_business": "Expandable polystyrene contains pentane, a flammable hydrocarbon released during expansion and storage. Pentane accumulation in silos, moulding areas, and storage has caused explosions in this industry.",
+      "loss_scenario": "A pentane explosion destroying production areas with worker fatalities, and the finished foam itself burning rapidly once ignited, producing a fire that consumes the facility.",
+      "rhetorical_question": "How is pentane concentration monitored in your expansion and storage areas?"
+    },
+    {
+      "rank": 2,
+      "headline": "Insulation products carry thermal and fire performance ratings.",
+      "why_this_business": "Foam insulation is certified for thermal resistance and flame spread, with those values relied on by building codes and energy compliance. Foam plastic insulation requires thermal barriers and has specific code requirements.",
+      "loss_scenario": "Product below rated thermal performance installed in buildings failing energy code compliance, and flame spread failures creating fire exposure in occupancies where the product was approved on its rating.",
+      "rhetorical_question": "What thermal and flame spread ratings do your products carry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Food service and packaging products face regulatory restrictions.",
+      "why_this_business": "Polystyrene food service products are banned or restricted in a growing number of states and municipalities, with compliance depending on knowing where products ship and what local rules apply.",
+      "loss_scenario": "Product shipped into jurisdictions where it is prohibited, with enforcement against customers who used it and the manufacturer's market access reduced without warning.",
+      "rhetorical_question": "How do you control which products ship into jurisdictions with polystyrene restrictions?"
+    }
+  ]
+}

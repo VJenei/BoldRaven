@@ -1,0 +1,31 @@
+{
+  "naics_code": "327390",
+  "naics_title": "Other Concrete Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Precast structural elements are engineered for specific buildings.",
+      "why_this_business": "Precast beams, panels, and structural elements are engineered and cast for a specific project with reinforcement, connections, and dimensions from approved shop drawings. Each piece is unique to its location in the structure.",
+      "loss_scenario": "Elements cast to wrong drawings that do not fit or do not carry design loads, requiring recasting with curing time and crane schedules missed, and structural risk if installed.",
+      "rhetorical_question": "How are approved shop drawings released into your casting operation?"
+    },
+    {
+      "rank": 2,
+      "headline": "Erection sequences depend on delivery in the right order.",
+      "why_this_business": "Precast is erected in sequence with cranes scheduled, and pieces must arrive in erection order. Storage at site is limited and out of sequence delivery stops the crane.",
+      "loss_scenario": "Erection stopped with crane and crew standing, at costs of thousands per hour, and a construction schedule where precast erection is on the critical path.",
+      "rhetorical_question": "What does a crane and erection crew cost per day on your projects?"
+    },
+    {
+      "rank": 3,
+      "headline": "Prestressing and reinforcement determine structural capacity.",
+      "why_this_business": "Prestressed elements are tensioned to specified forces with release timing determined by concrete strength, all recorded. Errors in tensioning or release produce elements that do not perform as designed.",
+      "loss_scenario": "Elements with incorrect prestress installed in structures, which is a latent structural deficiency requiring assessment of every piece from the affected production.",
+      "rhetorical_question": "How are prestressing forces and release strengths recorded per casting bed?"
+    }
+  ]
+}

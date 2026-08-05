@@ -1,0 +1,31 @@
+{
+  "naics_code": "811121",
+  "naics_title": "Automotive Body, Paint, and Interior Repair and Maintenance",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Insurance estimating platforms are how the work is authorised and paid.",
+      "why_this_business": "Collision repair is estimated, supplemented, and paid through insurer estimating platforms with photographs, parts, and labour operations documented per repair. Direct repair programme participation depends on performance measured through those systems.",
+      "loss_scenario": "Unbillable repairs and unauthorised supplements where estimates and documentation cannot be submitted, plus direct repair programme scorecard damage that reduces referral volume for months.",
+      "rhetorical_question": "How much work in progress is awaiting insurer authorisation in your estimating system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Calibration and structural repair documentation is safety evidence.",
+      "why_this_business": "Structural repairs, airbag replacement, and ADAS calibration must follow manufacturer procedures with documentation demonstrating compliance. In a subsequent collision, that documentation determines whether the repair contributed to injury.",
+      "loss_scenario": "A subsequent collision where the shop cannot demonstrate that structural repair and calibration followed manufacturer procedure, with liability for injuries in a vehicle it returned to service.",
+      "rhetorical_question": "Could you produce the repair procedure documentation for a vehicle you repaired three years ago?"
+    },
+    {
+      "rank": 3,
+      "headline": "You hold customers' vehicles and their insurance information.",
+      "why_this_business": "Shops hold vehicles for extended repairs along with customer contact details, insurance policy and claim numbers, and deductible payment information. Vehicles in the shop are customer property under bailment.",
+      "loss_scenario": "Exposure of customer insurance and claim data usable for fraud, plus bailee liability for vehicles held during repair with keys and access on the premises.",
+      "rhetorical_question": "How many customer vehicles and sets of keys are on your premises overnight?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "481212",
+  "naics_title": "Nonscheduled Chartered Freight Air Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Charter freight exists because the cargo cannot wait.",
+      "why_this_business": "Air charter freight moves aircraft on ground parts, production line parts, medical shipments, and emergency relief, quoted and launched within hours. The customer is chartering because scheduled service is too slow. Quoting, crew and aircraft assignment, and permits are arranged in the same short window.",
+      "loss_scenario": "Missed charter opportunities where the customer's loss from waiting far exceeds the charter price, and reputational damage in a small market where brokers remember who could not respond.",
+      "rhetorical_question": "How quickly are you expected to quote and launch an urgent charter?"
+    },
+    {
+      "rank": 2,
+      "headline": "Overflight and landing permits are country-specific and time-limited.",
+      "why_this_business": "International charter freight requires overflight and landing permits, customs and immigration coordination, and handling arrangements at airports where you have no presence. Permits are obtained per flight against a specific routing and schedule.",
+      "loss_scenario": "An aircraft unable to depart or diverted because permits could not be obtained or evidenced, with crew duty limits expiring and the cargo stranded.",
+      "rhetorical_question": "How are overflight and landing permits obtained and tracked for international trips?"
+    },
+    {
+      "rank": 3,
+      "headline": "Dangerous goods and special cargo carry documentation that must be exact.",
+      "why_this_business": "Charter freight frequently carries dangerous goods, outsized cargo, or live animals requiring specific documentation, acceptance checks, and loading procedures. Errors in dangerous goods declarations are a direct flight safety issue.",
+      "loss_scenario": "An in-flight dangerous goods incident, which is a hull and life safety exposure, investigated against the acceptance and documentation records.",
+      "rhetorical_question": "Do you carry dangerous goods, and how are acceptance checks documented?"
+    }
+  ]
+}

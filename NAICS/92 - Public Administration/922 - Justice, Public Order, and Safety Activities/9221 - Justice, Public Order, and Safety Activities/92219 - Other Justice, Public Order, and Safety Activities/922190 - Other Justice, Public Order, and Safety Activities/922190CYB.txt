@@ -1,0 +1,31 @@
+{
+  "naics_code": "922190",
+  "naics_title": "Other Justice, Public Order, and Safety Activities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Public safety functions depend on connected systems.",
+      "why_this_business": "Agencies in this category support emergency management, public safety communications, and justice functions with systems that other responders depend on. Failures propagate to the agencies being supported.",
+      "loss_scenario": "Degraded capability across multiple responding agencies that depend on your systems, with public safety consequences distributed across the jurisdiction rather than confined to your agency.",
+      "rhetorical_question": "Which other agencies depend on the systems your organisation operates?"
+    },
+    {
+      "rank": 2,
+      "headline": "Justice information carries federal security requirements.",
+      "why_this_business": "Agencies accessing criminal justice information are subject to the FBI CJIS Security Policy with specific authentication, encryption, screening, and audit requirements, and access is revocable for non-compliance.",
+      "loss_scenario": "Loss of criminal justice information access following a security failure, removing capability that the agency's function depends on entirely.",
+      "rhetorical_question": "Are you subject to CJIS security policy requirements, and when were you last audited?"
+    },
+    {
+      "rank": 3,
+      "headline": "Emergency management data supports response planning.",
+      "why_this_business": "Agencies hold hazard assessments, critical infrastructure information, continuity plans, and resource inventories used to plan and execute disaster response. Some of that information is security sensitive.",
+      "loss_scenario": "Exposure of critical infrastructure and vulnerability assessments, which is a security concern for every facility described, and loss of response plans at the point they would be needed.",
+      "rhetorical_question": "Do your plans document critical infrastructure vulnerabilities in your jurisdiction?"
+    }
+  ]
+}

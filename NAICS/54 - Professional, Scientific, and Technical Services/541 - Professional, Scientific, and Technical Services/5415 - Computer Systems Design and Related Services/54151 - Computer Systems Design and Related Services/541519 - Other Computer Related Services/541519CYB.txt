@@ -1,0 +1,31 @@
+{
+  "naics_code": "541519",
+  "naics_title": "Other Computer Related Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Technology service providers are targeted as a route to their clients.",
+      "why_this_business": "Firms providing disaster recovery, data conversion, hardware services, and similar functions hold client data and access. Attackers target service providers specifically because compromising one reaches many organisations.",
+      "loss_scenario": "Client environments and data compromised through the service provider, with liability across the client base and contractual indemnities triggered simultaneously.",
+      "rhetorical_question": "How many client environments do you hold data from or access to?"
+    },
+    {
+      "rank": 2,
+      "headline": "Data conversion and migration means holding complete copies.",
+      "why_this_business": "Migration, conversion, and recovery services take full copies of client databases and file systems, frequently including production data with live personal and financial records. Those copies persist on provider systems after the project ends.",
+      "loss_scenario": "Breach of retained client data copies, exposing records the client believed were only in their own environment, with notification obligations flowing through the client relationship.",
+      "rhetorical_question": "How long do you retain client data copies after a project completes?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment services reach client storage media.",
+      "why_this_business": "Hardware repair, refurbishment, and disposal services handle devices containing client data. Certified destruction and sanitisation are expected, and clients in regulated sectors require documented evidence.",
+      "loss_scenario": "Client data recovered from devices you handled, which is a breach attributable to the service provider and a direct failure of the contractual destruction obligation.",
+      "rhetorical_question": "How do you sanitise and certify destruction of storage media you receive?"
+    }
+  ]
+}

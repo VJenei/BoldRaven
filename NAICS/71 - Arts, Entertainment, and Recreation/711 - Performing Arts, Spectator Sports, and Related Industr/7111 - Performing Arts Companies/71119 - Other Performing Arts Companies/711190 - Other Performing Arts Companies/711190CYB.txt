@@ -1,0 +1,31 @@
+{
+  "naics_code": "711190",
+  "naics_title": "Other Performing Arts Companies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Dated performances cannot be rescheduled once the day passes.",
+      "why_this_business": "Companies contract venues, performers, and technical crews for specific dates, with tickets sold in advance and marketing committed. Performance dates are fixed by venue availability and touring routes.",
+      "loss_scenario": "Cancelled dates with production costs sunk, refunds owed, and presenter contracts breached, on a schedule that cannot absorb replacement dates.",
+      "rhetorical_question": "How far in advance are your performance dates and venues committed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ticketing and patron data run through third-party platforms.",
+      "why_this_business": "Ticketing is handled through platforms holding patron identity, payment methods, and purchase histories. A breach at a major ticketing provider in 2024 exposed data associated with hundreds of millions of customers, demonstrating how concentrated this data has become.",
+      "loss_scenario": "Patron data exposed through the ticketing platform, with the company carrying the audience relationship and the reputational consequence regardless of where the failure occurred.",
+      "rhetorical_question": "Which ticketing platform holds your patron data, and what are its security commitments?"
+    },
+    {
+      "rank": 3,
+      "headline": "Performer contracts and payments are contractual obligations.",
+      "why_this_business": "Companies engage performers under union and individual agreements with payment schedules, and hold performer personal and tax data for payroll. Union agreements impose specific obligations around payment timing.",
+      "loss_scenario": "Missed performer payments breaching union agreements with penalty provisions, plus exposure of performer personal and tax data across the company's engagement history.",
+      "rhetorical_question": "How many performers do you hold tax and payment records for?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "621410",
+  "naics_title": "Family Planning Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Patient records here can expose people to legal and personal danger.",
+      "why_this_business": "Family planning centres hold records of reproductive health services, contraception, pregnancy testing, and in some cases abortion care, tied to identified patients. In the current legal environment these records carry consequences that other clinical records do not, and patients frequently seek care specifically because it is confidential.",
+      "loss_scenario": "Exposure creates legal jeopardy, family and relationship harm, and personal safety risk for identified patients, and the centre becomes a target for further action. This is not remediable by notification and credit monitoring.",
+      "rhetorical_question": "What would exposure of your patient list mean for the individuals on it?"
+    },
+    {
+      "rank": 2,
+      "headline": "Minors and confidential services have specific protections.",
+      "why_this_business": "State laws permit minors to consent to certain reproductive health services confidentially, and Title X programme requirements impose confidentiality obligations including for adolescents. Disclosure to parents or guardians can defeat the entire purpose of the service.",
+      "loss_scenario": "Disclosure of minor patients' confidential care, which breaches specific legal protections and causes direct harm at home, with consequences for the centre's programme participation.",
+      "rhetorical_question": "Do you provide confidential services to minors under state consent laws?"
+    },
+    {
+      "rank": 3,
+      "headline": "The organisation is a target for both criminals and ideological actors.",
+      "why_this_business": "Reproductive health providers face threats from parties motivated to expose patients and staff rather than to extract payment. Staff names, home addresses, and schedules are as sensitive as patient records.",
+      "loss_scenario": "Publication of patient and staff information by an actor with no interest in payment, which means there is nothing to negotiate and no way to prevent release once exfiltration has occurred.",
+      "rhetorical_question": "Has your organisation been the subject of targeted threats or activity?"
+    }
+  ]
+}

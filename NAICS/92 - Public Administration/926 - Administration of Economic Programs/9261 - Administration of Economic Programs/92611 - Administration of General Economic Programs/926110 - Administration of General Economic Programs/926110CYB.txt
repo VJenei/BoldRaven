@@ -1,0 +1,31 @@
+{
+  "naics_code": "926110",
+  "naics_title": "Administration of General Economic Programs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Business assistance programmes hold company financial data.",
+      "why_this_business": "Economic development agencies hold business applications with financial statements, tax returns, employment data, and expansion plans submitted in confidence to obtain incentives, loans, or grants.",
+      "loss_scenario": "Exposure of company financial and expansion information, which is competitively damaging to applicants and reveals unannounced relocation and investment plans that businesses deliberately kept confidential.",
+      "rhetorical_question": "Do you hold unannounced business expansion or relocation plans?"
+    },
+    {
+      "rank": 2,
+      "headline": "Incentive and grant funds are disbursed against agreements.",
+      "why_this_business": "Agencies disburse incentive payments, grants, and loan proceeds to businesses against performance agreements with job and investment commitments, monitored over years.",
+      "loss_scenario": "Diverted disbursements of public funds, and inability to monitor or enforce performance agreements where the underlying records are unavailable, leaving clawback provisions unenforceable.",
+      "rhetorical_question": "How are disbursements to businesses authorised and verified?"
+    },
+    {
+      "rank": 3,
+      "headline": "Programme data supports public accountability and audit.",
+      "why_this_business": "Economic development spending is publicly accountable with reporting on jobs created, investment leveraged, and funds disbursed, subject to audit and legislative oversight.",
+      "loss_scenario": "Audit findings and legislative scrutiny where programme outcomes and disbursements cannot be documented, with future appropriations at risk.",
+      "rhetorical_question": "What programme outcome reporting are you required to produce?"
+    }
+  ]
+}

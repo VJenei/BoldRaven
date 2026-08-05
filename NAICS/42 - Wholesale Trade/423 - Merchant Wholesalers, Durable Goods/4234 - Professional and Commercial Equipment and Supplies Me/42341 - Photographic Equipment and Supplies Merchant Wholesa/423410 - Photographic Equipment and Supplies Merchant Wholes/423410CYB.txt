@@ -1,0 +1,31 @@
+{
+  "naics_code": "423410",
+  "naics_title": "Photographic Equipment and Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Small, serialised, high value goods are a theft and diversion target.",
+      "why_this_business": "Cameras, lenses, and professional imaging equipment are compact, valuable, and serialised, sold through authorised dealer networks with pricing and allocation controls. Inventory records tie serial numbers to shipments and to dealers.",
+      "loss_scenario": "Theft or diversion of high value inventory, and loss of authorised distribution status where serial tracking cannot demonstrate goods went to authorised dealers.",
+      "rhetorical_question": "Do you track serial numbers from receipt through to the dealer who received them?"
+    },
+    {
+      "rank": 2,
+      "headline": "Authorised distribution agreements carry pricing and channel obligations.",
+      "why_this_business": "Manufacturers impose minimum advertised pricing, territory, and authorised dealer requirements enforced from sales reporting. Grey market diversion is policed by serial number tracing back to the distributor who sold the unit.",
+      "loss_scenario": "Loss of the distribution agreement, which for a specialised wholesaler removes the products the business is built on and cannot be replaced.",
+      "rhetorical_question": "What sales reporting do your manufacturers require to maintain your authorised status?"
+    },
+    {
+      "rank": 3,
+      "headline": "The customer base is professionals whose account data is valuable.",
+      "why_this_business": "Accounts include studios, production companies, government agencies, and educational institutions, with credit terms, tax exemption certificates, and purchasing contacts held in the system. Government and institutional accounts carry contract pricing that is commercially sensitive.",
+      "loss_scenario": "Breach exposing account and contract pricing data, plus loss of institutional accounts that require vendor security representations.",
+      "rhetorical_question": "Do you hold government or institutional contract pricing in your systems?"
+    }
+  ]
+}

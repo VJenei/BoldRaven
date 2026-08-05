@@ -1,0 +1,31 @@
+{
+  "naics_code": "455110",
+  "naics_title": "Department Stores",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Department store card breaches are the reference cases for retail cyber loss.",
+      "why_this_business": "Large multi-lane retailers process enormous card volume across stores, e-commerce, and private label credit. The 2013 Target breach compromised roughly 40 million payment cards and 70 million customer records, entering through a third-party HVAC vendor's credentials, and produced settlements and costs in the hundreds of millions.",
+      "loss_scenario": "Card brand assessments, forensic investigation, reissuance, class litigation, and state attorney general settlements scale with cardholder count and have repeatedly reached nine figures in this sector.",
+      "rhetorical_question": "How many payment cards pass through your systems in a year, and which vendors have network access?"
+    },
+    {
+      "rank": 2,
+      "headline": "A private label credit card programme makes you a financial institution.",
+      "why_this_business": "Department stores offering store credit cards participate in consumer lending governed by GLBA, with obligations around safeguarding customer financial information and, through the programme bank, additional contractual security requirements.",
+      "loss_scenario": "Regulatory exposure under financial privacy rules alongside the card brand liability, and programme bank contractual claims where security requirements were not met.",
+      "rhetorical_question": "Do you operate a private label or co-branded credit card programme?"
+    },
+    {
+      "rank": 3,
+      "headline": "Loyalty and customer profile data is a complete behavioural record.",
+      "why_this_business": "Loyalty programmes link identity, contact details, payment methods, and full purchase history across categories. That data is more valuable and more sensitive than the transaction itself because it reveals patterns rather than a single purchase.",
+      "loss_scenario": "Loyalty account takeover drains stored value and points, and exposure of purchase histories creates privacy claims that card data alone would not support.",
+      "rhetorical_question": "How many loyalty accounts hold stored value or saved payment methods?"
+    }
+  ]
+}

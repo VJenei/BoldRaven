@@ -1,0 +1,31 @@
+{
+  "naics_code": "311811",
+  "naics_title": "Retail Bakeries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Custom orders are dated commitments for events that cannot move.",
+      "why_this_business": "Wedding cakes, holiday orders, and celebration cakes are taken weeks ahead with deposits, specifications, and delivery dates tied to events. The order record is the only version of what was agreed.",
+      "loss_scenario": "Customers arriving for a wedding cake that was never made, which is a reputational event that spreads immediately and destroys a local business built on referral.",
+      "rhetorical_question": "How many dated custom orders with deposits are you holding right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Allergen declarations depend on recipe and ingredient records.",
+      "why_this_business": "Bakeries handle wheat, eggs, milk, soy, tree nuts, peanuts, and sesame, with recipes and ingredient sourcing determining what must be declared. Sesame became the ninth major allergen requiring declaration, and shared equipment creates cross-contact.",
+      "loss_scenario": "An allergen incident causing anaphylaxis, with recipe and ingredient records unavailable to demonstrate what was in the product and what controls existed.",
+      "rhetorical_question": "How do you maintain recipe and ingredient records for allergen declarations?"
+    },
+    {
+      "rank": 3,
+      "headline": "Overnight production is planned from forecast and standing orders.",
+      "why_this_business": "Retail bakeries produce overnight for the following day based on forecast, wholesale standing orders, and custom commitments. Production quantity decisions determine both stockouts and waste.",
+      "loss_scenario": "Producing blind means running out by mid-morning or discarding unsold product, both of which destroy margin in a business with high waste sensitivity and short shelf life.",
+      "rhetorical_question": "How is tomorrow's production quantity decided?"
+    }
+  ]
+}

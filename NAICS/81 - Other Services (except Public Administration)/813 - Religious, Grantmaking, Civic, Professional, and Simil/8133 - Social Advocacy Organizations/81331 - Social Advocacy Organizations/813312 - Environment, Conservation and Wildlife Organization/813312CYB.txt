@@ -1,0 +1,31 @@
+{
+  "naics_code": "813312",
+  "naics_title": "Environment, Conservation and Wildlife Organizations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Species location data is used by poachers and collectors.",
+      "why_this_business": "Conservation organisations hold precise location data for endangered species, nest sites, tracked animals, and rare plant populations, gathered through research and monitoring. That data is directly useful to poachers, collectors, and illegal traders.",
+      "loss_scenario": "Poaching or collection at locations disclosed from your data, which for critically endangered populations can be an irreversible conservation loss with no remedy available.",
+      "rhetorical_question": "Do your systems hold precise locations of endangered species or nest sites?"
+    },
+    {
+      "rank": 2,
+      "headline": "Advocacy work creates adversaries with motives beyond money.",
+      "why_this_business": "Organisations campaigning against specific industries or projects attract opposition interested in internal strategy, donor identities, and staff information. The objective is disruption and exposure rather than extortion.",
+      "loss_scenario": "Publication of internal strategy, donor lists, and staff details by an adversary with no interest in payment, which means there is nothing to negotiate and the material circulates permanently.",
+      "rhetorical_question": "Does your advocacy work create opponents with an interest in exposing your internal information?"
+    },
+    {
+      "rank": 3,
+      "headline": "Donor and membership data funds everything.",
+      "why_this_business": "Conservation organisations depend on membership and donor giving, holding contact details, recurring payment methods, and giving histories across large supporter bases.",
+      "loss_scenario": "Payment and supporter data exposure with notification costs funded from charitable revenue, and a giving decline that follows loss of supporter confidence.",
+      "rhetorical_question": "How many supporters have payment methods stored for recurring giving?"
+    }
+  ]
+}

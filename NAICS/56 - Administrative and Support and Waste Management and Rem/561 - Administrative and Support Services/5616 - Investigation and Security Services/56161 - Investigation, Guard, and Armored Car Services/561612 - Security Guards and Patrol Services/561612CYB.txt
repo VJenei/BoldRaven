@@ -1,0 +1,31 @@
+{
+  "naics_code": "561612",
+  "naics_title": "Security Guards and Patrol Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Post orders and site information describe how to defeat client security.",
+      "why_this_business": "Guard companies hold post orders, patrol routes, alarm response procedures, access codes, camera locations, and vulnerability assessments for client sites. That documentation is a complete description of how each site is protected and where it is not.",
+      "loss_scenario": "Exposure of post orders and site security plans hands attackers exactly what they need to defeat protection at client premises, making the guard company the origin of a physical breach at a client site.",
+      "rhetorical_question": "Do your systems hold post orders and access codes for client premises?"
+    },
+    {
+      "rank": 2,
+      "headline": "Officer scheduling and licensing determine lawful coverage.",
+      "why_this_business": "Guard officers require state licensing, training, and in some settings armed permits, with staffing schedules ensuring contracted coverage. Posting an unlicensed officer is a regulatory violation and a liability exposure.",
+      "loss_scenario": "Uncovered posts and unlicensed staffing where scheduling and credential records are unavailable, with contract breach and regulatory action, and after any incident the licensing record is examined first.",
+      "rhetorical_question": "How do you verify officer licensing and training status before assigning a post?"
+    },
+    {
+      "rank": 3,
+      "headline": "Incident reports document what happened and support claims.",
+      "why_this_business": "Officers produce incident reports, patrol logs, and activity records that clients rely on and that become evidence in litigation involving injuries, thefts, and assaults on client premises.",
+      "loss_scenario": "Litigation over an incident at a client site where the patrol logs and incident reports cannot be produced, which in a negligent security claim effectively concedes that the protection was inadequate.",
+      "rhetorical_question": "Could you produce patrol logs and incident reports for a client site from two years ago?"
+    }
+  ]
+}

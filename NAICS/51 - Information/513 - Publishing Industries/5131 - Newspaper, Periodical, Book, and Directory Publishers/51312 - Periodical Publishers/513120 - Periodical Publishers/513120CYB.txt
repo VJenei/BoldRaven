@@ -1,0 +1,31 @@
+{
+  "naics_code": "513120",
+  "naics_title": "Periodical Publishers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Print schedules are locked to press and mailing dates.",
+      "why_this_business": "Magazines and journals work to closing dates, press bookings, and postal drop schedules set months ahead. Advertising is sold against a specific issue. Production files must reach the printer complete and on time.",
+      "loss_scenario": "A missed press date pushes an issue out of its month, with advertisers claiming for placement they paid for and postal and printer bookings forfeited.",
+      "rhetorical_question": "How far ahead is your press date booked, and what is the cost of missing it?"
+    },
+    {
+      "rank": 2,
+      "headline": "Subscriber files hold payment credentials on continuous renewal.",
+      "why_this_business": "Circulation systems hold subscriber names, addresses, payment methods, and automatic renewal authorisations, retained for years across active and lapsed subscribers. Subscription businesses also hold reading and interest data used for targeting.",
+      "loss_scenario": "Breach notification across a subscriber file that includes long-lapsed subscribers, with card data on continuous renewal and interest profiles that may reveal sensitive affiliations.",
+      "rhetorical_question": "How many years of subscriber records, including lapsed subscribers, are retained?"
+    },
+    {
+      "rank": 3,
+      "headline": "Scholarly and trade publishing holds peer review confidentiality.",
+      "why_this_business": "Academic and trade publishers manage peer review with reviewer identities, unpublished manuscripts, and embargoed research. Research embargoes and reviewer anonymity are foundational to the process and to author trust.",
+      "loss_scenario": "Exposure of unpublished research and reviewer identities damages authors' priority claims and destroys the confidentiality the review process depends on, with authors withdrawing submissions.",
+      "rhetorical_question": "Do you manage peer review with unpublished manuscripts and anonymous reviewers?"
+    }
+  ]
+}

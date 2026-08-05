@@ -1,0 +1,31 @@
+{
+  "naics_code": "325991",
+  "naics_title": "Custom Compounding of Purchased Resins",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Compound formulations are developed for specific customer applications.",
+      "why_this_business": "Compounders develop formulations combining resins, fillers, additives, and colourants to meet customer performance requirements, qualified into their products. Those formulations are the technical value of the business.",
+      "loss_scenario": "Formulation disclosure to competitors and loss of the ability to reproduce compounds customers have qualified, with their production stopped and requalification required.",
+      "rhetorical_question": "How many customer-qualified compound formulations do you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Compound properties determine downstream part performance.",
+      "why_this_business": "Compounds are specified by mechanical, thermal, and flame retardant properties that customers rely on in moulded parts, including safety-related applications with certification requirements.",
+      "loss_scenario": "Off-specification compound producing parts that fail performance or flame retardancy requirements, with recall of the customer's parts and liability where the application was safety-related.",
+      "rhetorical_question": "Do your compounds carry flame retardancy or safety certifications?"
+    },
+    {
+      "rank": 3,
+      "headline": "Compounding lines run continuously with tight dosing control.",
+      "why_this_business": "Twin screw compounding meters resin, fillers, and additives continuously to formulation with gravimetric feeders, and dosing accuracy determines whether the compound meets specification.",
+      "loss_scenario": "Off-specification compound produced continuously until testing detects it, shipped and moulded into customer parts before the problem is identified.",
+      "rhetorical_question": "How is additive dosing verified during continuous compounding?"
+    }
+  ]
+}

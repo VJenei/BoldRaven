@@ -1,0 +1,31 @@
+{
+  "naics_code": "624190",
+  "naics_title": "Other Individual and Family Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Client files document personal crises in detail.",
+      "why_this_business": "Counselling, crisis intervention, and family support services hold case notes covering domestic violence, mental health, financial hardship, immigration status, and family conflict for identified individuals who sought help confidentially.",
+      "loss_scenario": "Disclosure causing direct personal harm including safety risk for domestic violence clients and immigration consequences for others, with claims and community consequences that reflect the sensitivity rather than the record count.",
+      "rhetorical_question": "Do your case notes document domestic violence, immigration status, or mental health circumstances?"
+    },
+    {
+      "rank": 2,
+      "headline": "Domestic violence services keep locations deliberately secret.",
+      "why_this_business": "Organisations serving domestic violence survivors withhold shelter locations and client whereabouts from abusers, with confidentiality protected by federal funding conditions under the Violence Against Women Act and state law. Address confidentiality programmes exist for exactly this reason.",
+      "loss_scenario": "Disclosure of a survivor's location to an abuser, which is a foreseeable homicide risk. This is the clearest case in any industry where a data breach can directly cause a death.",
+      "rhetorical_question": "Do your records contain locations that are being deliberately withheld from a specific person?"
+    },
+    {
+      "rank": 3,
+      "headline": "Grant funding requires documented outcomes and client data.",
+      "why_this_business": "Services are funded by government and foundation grants requiring client-level service documentation, demographic reporting, and outcome measurement, with audits and monitoring visits examining the records.",
+      "loss_scenario": "Grant recoupment and loss of future funding where service documentation cannot be produced, on funding that constitutes the organisation's entire budget.",
+      "rhetorical_question": "What client-level reporting do your funders require?"
+    }
+  ]
+}

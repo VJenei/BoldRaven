@@ -1,0 +1,31 @@
+{
+  "naics_code": "541490",
+  "naics_title": "Other Specialized Design Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Design work is delivered against client launch and production dates.",
+      "why_this_business": "Specialised design services deliver into product launches, seasonal collections, and construction schedules with dates set by the client's commitments to retailers, shows, or occupancy. Those dates are fixed before the design work begins.",
+      "loss_scenario": "Missed delivery causing a client to miss a season or a launch, with damages measured by the client's lost commercial opportunity rather than the design fee.",
+      "rhetorical_question": "What client commitments depend on your delivery dates?"
+    },
+    {
+      "rank": 2,
+      "headline": "Client concepts are confidential until they are public.",
+      "why_this_business": "Designers hold unreleased concepts, collections, and product directions under confidentiality obligations. In fashion, consumer goods, and entertainment, advance knowledge of a direction is commercially valuable to competitors.",
+      "loss_scenario": "Disclosure of unreleased client work, with contractual liability under the engagement terms and permanent loss of the client relationship in industries where discretion is expected.",
+      "rhetorical_question": "How is unreleased client work separated and protected on your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Small studios hold everything in one place with no redundancy.",
+      "why_this_business": "Design practices are typically small, with project files, client contacts, invoicing, and archives on a single system or a handful of machines, often without tested backup or any IT support function.",
+      "loss_scenario": "Simultaneous loss of active work, client records, and archives, in a business with no capacity to absorb the recovery cost or the delay to every client at once.",
+      "rhetorical_question": "When did you last verify that your backup actually restores?"
+    }
+  ]
+}

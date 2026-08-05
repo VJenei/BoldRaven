@@ -1,0 +1,31 @@
+{
+  "naics_code": "332721",
+  "naics_title": "Precision Turned Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Parts are held to tolerances that only the process can guarantee.",
+      "why_this_business": "Precision turned parts are produced on multi-spindle and Swiss machines running continuously to tolerances measured in ten-thousandths. Machine offsets and programmes determine conformance, and the machines run unattended between checks.",
+      "loss_scenario": "Thousands of out of tolerance parts produced between inspection intervals on high speed machines, shipped to customers whose assembly depends on the fit, with the entire quantity scrapped.",
+      "rhetorical_question": "How many parts does a machine produce between quality checks?"
+    },
+    {
+      "rank": 2,
+      "headline": "Medical and aerospace parts carry qualification and traceability.",
+      "why_this_business": "Turned parts for medical devices and aerospace are produced under qualified processes with lot traceability, material certification, and validation records. Customers audit those records and regulators may inspect them.",
+      "loss_scenario": "Inability to produce traceability and process records for parts already in devices or aircraft, requiring recall or grounding until the parts can be accounted for.",
+      "rhetorical_question": "Which of your parts require lot traceability and material certification?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer programmes and setups represent years of process development.",
+      "why_this_business": "Each part has a programme, tooling layout, and proven setup developed over time, frequently for parts run continuously for years. Rebuilding a setup from drawings takes days.",
+      "loss_scenario": "Loss of programmes and setup records, halting production across every active job while setups are redeveloped and reproved on machines that earn nothing while idle.",
+      "rhetorical_question": "How long does it take to prove out a new setup on your machines?"
+    }
+  ]
+}

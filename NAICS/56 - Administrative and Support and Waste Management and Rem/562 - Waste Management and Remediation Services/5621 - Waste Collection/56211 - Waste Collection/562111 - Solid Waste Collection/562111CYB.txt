@@ -1,0 +1,31 @@
+{
+  "naics_code": "562111",
+  "naics_title": "Solid Waste Collection",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Route and dispatch systems run collection for entire municipalities.",
+      "why_this_business": "Collection operations dispatch hundreds of trucks against routes, service verification, and onboard computers, with municipal contracts specifying service levels and missed pickup penalties. Uncollected waste accumulates visibly within days.",
+      "loss_scenario": "Missed collections across a service area with contractual penalties, municipal escalation, and public health complaints. Waste does not stop being generated because the routing system is down.",
+      "rhetorical_question": "How many households or businesses would notice within 48 hours if your routes could not run?"
+    },
+    {
+      "rank": 2,
+      "headline": "Billing depends on service verification across thousands of accounts.",
+      "why_this_business": "Commercial and residential accounts are billed from service records, container inventories, and weight data, with onboard systems verifying that a container was serviced. Disputes are resolved from that record.",
+      "loss_scenario": "Unbillable service across the customer base and disputes resolved against you where service verification cannot be produced, on a business with thin margins and high fixed costs.",
+      "rhetorical_question": "How is service to each container verified and turned into a bill?"
+    },
+    {
+      "rank": 3,
+      "headline": "Municipal contracts carry reporting and diversion obligations.",
+      "why_this_business": "Public sector contracts require tonnage reporting, diversion rate documentation, and service level reporting, sometimes with recycling mandates tied to state law. Reporting is a payment condition and a compliance obligation.",
+      "loss_scenario": "Contract payment withheld and compliance findings where tonnage and diversion reporting cannot be produced, with municipal contracts subject to termination and rebid.",
+      "rhetorical_question": "What tonnage and diversion reporting do your municipal contracts require?"
+    }
+  ]
+}

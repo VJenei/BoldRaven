@@ -1,0 +1,31 @@
+{
+  "naics_code": "332313",
+  "naics_title": "Plate Work Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pressure vessels are code-stamped and their failure is explosive.",
+      "why_this_business": "Pressure vessels and plate work are fabricated to ASME code with design calculations, qualified welding procedures, non-destructive examination, and third-party inspection, culminating in a code stamp and data report. The stamp certifies the vessel is safe at pressure.",
+      "loss_scenario": "A vessel failure at pressure, which is an explosive event with fatality potential, and the manufacturer's design, welding, and inspection records determining whether the vessel was ever fit for service.",
+      "rhetorical_question": "How are code data reports and radiographic records retained after a vessel ships?"
+    },
+    {
+      "rank": 2,
+      "headline": "Welding qualification and procedures are audited by inspectors.",
+      "why_this_business": "Code fabrication requires qualified welding procedures, qualified welders, and a documented quality control system audited by the authorised inspection agency. The certificate of authorisation to apply the code stamp depends on it.",
+      "loss_scenario": "Loss of the code stamp authorisation where the quality system and records cannot be demonstrated, which removes the ability to fabricate pressure equipment entirely.",
+      "rhetorical_question": "What does your authorised inspector examine during a code audit?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vessels are engineered and fabricated for one installation.",
+      "why_this_business": "Plate work is designed for specific service conditions, dimensions, and nozzle arrangements at a particular plant, with long fabrication lead times. Nothing is stock.",
+      "loss_scenario": "Vessels fabricated to wrong designs that do not fit the installation or the service, with remake taking months and the customer's plant project delayed accordingly.",
+      "rhetorical_question": "How long is the lead time to refabricate a vessel from scratch?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "324121",
+  "naics_title": "Asphalt Paving Mixture and Block Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Mix designs are approved by the DOT and control every load.",
+      "why_this_business": "Asphalt mixtures are produced to job mix formulas approved by the state DOT, with aggregate gradation, binder content, and temperature controlled at the plant. Every load is produced to a specific approved design for a specific project.",
+      "loss_scenario": "Mix produced outside the approved formula and placed on a highway project, which is rejected on testing and must be removed and replaced at the producer's cost, including the paving labour.",
+      "rhetorical_question": "How is the job mix formula loaded into and verified at your plant?"
+    },
+    {
+      "rank": 2,
+      "headline": "Paving happens in a season and to a temperature window.",
+      "why_this_business": "Asphalt must be produced, transported, and placed within a temperature range, with the paving season limited by weather. Plants supply crews that are already mobilised on a job site with equipment running.",
+      "loss_scenario": "Paving crews idle on site with no mix available, at costs of thousands per hour, and a paving season with fixed weather limits that cannot be extended to recover lost days.",
+      "rhetorical_question": "What does it cost a paving crew to wait for mix?"
+    },
+    {
+      "rank": 3,
+      "headline": "Ticketing and quality records support payment and acceptance.",
+      "why_this_business": "Every load is ticketed with mix type, tonnage, temperature, and time, used for payment and for project acceptance documentation. DOT projects require that documentation for the material to be accepted.",
+      "loss_scenario": "Unbillable material and, more seriously, placed material that cannot be documented and therefore cannot be accepted by the owner, with removal and replacement as the remedy.",
+      "rhetorical_question": "How are load tickets and mix temperature records captured and retained?"
+    }
+  ]
+}

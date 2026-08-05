@@ -1,0 +1,31 @@
+{
+  "naics_code": "488210",
+  "naics_title": "Support Activities for Rail Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Contractors connect to railroad systems and become a path into them.",
+      "why_this_business": "Track maintenance, signal, and car repair contractors are granted access to railroad work order, dispatch, and equipment systems. Railroads designated as higher risk are subject to TSA cybersecurity directives and pass those expectations to contractors.",
+      "loss_scenario": "A compromise reaching the railroad through contractor access is a reportable incident for the railroad and removes the contractor from the approved list, which ends access to the work.",
+      "rhetorical_question": "What access do you hold to railroad systems, and under what agreement?"
+    },
+    {
+      "rank": 2,
+      "headline": "Work in the track requires authority that is granted and recorded.",
+      "why_this_business": "Roadway workers require track authority, protection, and job briefings before occupying the track, documented and communicated through dispatch. Working without proper authority is how roadway workers are killed by trains.",
+      "loss_scenario": "A roadway worker fatality where authority and briefing records cannot be produced, with FRA enforcement and litigation turning on whether protection was properly established.",
+      "rhetorical_question": "How is track authority requested, granted, and recorded for your crews?"
+    },
+    {
+      "rank": 3,
+      "headline": "Car repair and inspection records follow the equipment.",
+      "why_this_business": "Contract car repair generates billing repair cards, inspection records, and component traceability under industry interchange rules. Those records establish what was done, who is billed, and whether the car is in condition to move.",
+      "loss_scenario": "Unbillable repair work under interchange rules, and after a derailment attributed to a component, the absence of repair records leaves the contractor exposed.",
+      "rhetorical_question": "How do you record repairs for billing under interchange rules?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "455211",
+  "naics_title": "Warehouse Clubs and Supercenters",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Membership data ties identity, payment, and purchase history together.",
+      "why_this_business": "Club retail requires membership with verified identity, stored payment methods, business account details for commercial members, and complete purchase history. Membership is the operating model, so every transaction is attributable to a named individual or business.",
+      "loss_scenario": "A breach exposes a fully attributed dataset of identity, payment, and purchasing across millions of members, which is materially more damaging than anonymous card data.",
+      "rhetorical_question": "How many active memberships hold stored payment methods in your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ancillary services bring pharmacy, optical, and fuel obligations into one business.",
+      "why_this_business": "Supercentres operate pharmacies subject to HIPAA and DSCSA, optical departments handling prescriptions, fuel centres with tank gauges and dispenser payment, and tire and auto service. Each carries its own regulatory regime on top of general retail.",
+      "loss_scenario": "A single incident triggering HIPAA breach notification, card brand liability, and environmental reporting simultaneously, each with separate regulators and separate clocks.",
+      "rhetorical_question": "Which regulated services do you operate inside your stores?"
+    },
+    {
+      "rank": 3,
+      "headline": "Supply chain and replenishment run on vendor integration.",
+      "why_this_business": "Large format retail replenishes through vendor-managed and EDI-driven supply chains with continuous inventory and order data exchange. Vendor portal access is granted to thousands of suppliers, which is a very large attack surface as the Target case demonstrated.",
+      "loss_scenario": "Empty shelves across the network within days of a supply chain systems failure, and a compromise arriving through a vendor with legitimate credentials.",
+      "rhetorical_question": "How many vendors hold credentials to your supplier portal?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "331221",
+  "naics_title": "Rolled Steel Shape Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Structural shapes are certified to properties buildings depend on.",
+      "why_this_business": "Rolled shapes are produced to specifications with yield strength, tensile strength, and chemistry certified by mill test report. Structural engineers design assuming those properties, and code requires certified material.",
+      "loss_scenario": "Material below specification fabricated into structures, which is a latent structural deficiency requiring assessment of every building containing steel from the affected production.",
+      "rhetorical_question": "How is material certification tied to specific rolled production?"
+    },
+    {
+      "rank": 2,
+      "headline": "Rolling mills run continuously with heavy equipment at speed.",
+      "why_this_business": "Rolling runs heated material through stands at high speed with roll gap, tension, and temperature controlled together. Cobbles and equipment damage occur when control is lost, and reheat furnaces run continuously.",
+      "loss_scenario": "Equipment damage and lost production, with a rolling mill representing very substantial capital and repair taking weeks while orders go unfilled.",
+      "rhetorical_question": "How is mill control monitored, and what happens on a control failure at rolling speed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fabricators cut to your dimensions on project schedules.",
+      "why_this_business": "Steel shapes are supplied to fabricators cutting and assembling to project drawings with erection dates set. Rolling schedules for specific shapes may run only periodically.",
+      "loss_scenario": "Fabricators without steel for projects with erection scheduled, and rolling schedules that may not repeat for weeks meaning the material cannot simply be reordered.",
+      "rhetorical_question": "How often does your mill roll a specific shape and size?"
+    }
+  ]
+}

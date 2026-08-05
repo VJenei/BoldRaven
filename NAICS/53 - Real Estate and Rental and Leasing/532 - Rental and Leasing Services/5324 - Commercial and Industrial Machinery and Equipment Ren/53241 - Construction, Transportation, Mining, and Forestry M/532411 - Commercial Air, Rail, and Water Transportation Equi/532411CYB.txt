@@ -1,0 +1,31 @@
+{
+  "naics_code": "532411",
+  "naics_title": "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The assets are worth tens or hundreds of millions each.",
+      "why_this_business": "Aircraft, railcars, and vessels are leased under long-term agreements where asset records, maintenance status, and lease documentation determine value and enforceability. Aircraft leases in particular depend on complete maintenance and airworthiness records that travel with the asset.",
+      "loss_scenario": "An aircraft or vessel whose records are incomplete loses substantial value and may be ungroundable for return or remarketing until records are reconstructed, which for aircraft can cost millions and take months.",
+      "rhetorical_question": "What happens to the value of your asset if its maintenance records cannot be produced?"
+    },
+    {
+      "rank": 2,
+      "headline": "Lease terms, security interests, and registrations are legal instruments.",
+      "why_this_business": "Leases are registered internationally under the Cape Town Convention for aircraft, with security interests recorded and priority determined by registration. Rail and marine assets carry their own registration and recording regimes.",
+      "loss_scenario": "Unprovable security interests and lease terms in a lessee default or insolvency, where the ability to repossess a very high value asset depends entirely on documentation.",
+      "rhetorical_question": "Where are your registered lease and security interest records maintained?"
+    },
+    {
+      "rank": 3,
+      "headline": "Lessee compliance and return conditions are monitored continuously.",
+      "why_this_business": "Lessors monitor lessee insurance, maintenance programme compliance, utilisation, and return conditions across the term, with technical records reviewed periodically. Return condition disputes at lease end involve very large sums.",
+      "loss_scenario": "Return condition claims that cannot be substantiated, and lessee insurance lapses that go undetected, leaving a high value asset uninsured in a third party's operation.",
+      "rhetorical_question": "How do you monitor that lessee insurance remains in force throughout the lease?"
+    }
+  ]
+}

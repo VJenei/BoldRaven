@@ -1,0 +1,31 @@
+{
+  "naics_code": "921110",
+  "naics_title": "Executive Offices",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Local government ransomware has shut down entire cities.",
+      "why_this_business": "Municipal and county executive offices coordinate services across departments on shared networks. Ransomware against city governments has repeatedly halted permitting, court operations, utility billing, and emergency support functions for weeks, with recovery costs in the tens of millions where the attack was not contained.",
+      "loss_scenario": "Government services stopped across departments with no revenue mechanism to fund recovery, requiring emergency appropriations or reallocation from services, and public and political consequences that persist through the next election.",
+      "rhetorical_question": "Which departments share the network administered by your office?"
+    },
+    {
+      "rank": 2,
+      "headline": "Public records obligations coexist with confidentiality duties.",
+      "why_this_business": "Executive offices hold records subject to public records laws alongside material that is exempt, including personnel files, security plans, and legal advice. Determining what must be released and what must be withheld requires the records to exist and be searchable.",
+      "loss_scenario": "Inability to meet statutory public records deadlines, and inadvertent release of exempt material including security and personnel information, each carrying its own legal consequence.",
+      "rhetorical_question": "What are your statutory deadlines for responding to public records requests?"
+    },
+    {
+      "rank": 3,
+      "headline": "Payment fraud against government entities is common and large.",
+      "why_this_business": "Governments make substantial vendor and contractor payments, with banking detail changes processed by finance staff. Fraudulent change requests impersonating contractors have cost municipalities millions in single incidents.",
+      "loss_scenario": "A diverted payment to a construction contractor or major vendor, in amounts reflecting public works contracts, with public accountability for the loss and the funds unrecoverable.",
+      "rhetorical_question": "How does your finance office verify a vendor's request to change banking details?"
+    }
+  ]
+}

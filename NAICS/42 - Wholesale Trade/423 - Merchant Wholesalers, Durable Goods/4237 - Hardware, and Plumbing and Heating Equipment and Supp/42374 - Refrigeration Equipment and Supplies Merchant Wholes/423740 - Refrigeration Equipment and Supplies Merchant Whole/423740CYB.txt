@@ -1,0 +1,31 @@
+{
+  "naics_code": "423740",
+  "naics_title": "Refrigeration Equipment and Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Commercial refrigeration failures spoil inventory measured in tons.",
+      "why_this_business": "Distributors supply supermarkets, cold storage, and food processors whose refrigeration cannot fail. Emergency parts availability determines whether a customer loses a store of product. Service contractors order against live inventory in the middle of the night.",
+      "loss_scenario": "A customer losing refrigerated inventory because the emergency part could not be located or shipped. Supermarket refrigerated stock losses run into hundreds of thousands per store.",
+      "rhetorical_question": "Do your customers call you for emergency parts outside business hours?"
+    },
+    {
+      "rank": 2,
+      "headline": "Refrigerant regulation is stricter here than anywhere else in distribution.",
+      "why_this_business": "Commercial refrigeration uses large charges of regulated refrigerants, with leak repair thresholds, certified technician sales restrictions, recordkeeping, and HFC allowance limits under the AIM Act. Distributors are audited on sales records and allowance compliance.",
+      "loss_scenario": "EPA penalties and loss of refrigerant supply eligibility, which removes the ability to serve the customer base at all.",
+      "rhetorical_question": "How do you track refrigerant sales against certification and allowance requirements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment configuration data determines what part fits.",
+      "why_this_business": "Commercial refrigeration systems are engineered assemblies where the correct compressor, valve, or control depends on model, serial, and prior modifications. Distributors hold installed base and configuration records built up over years of service.",
+      "loss_scenario": "Wrong parts shipped against guessed configurations, extending a customer outage that is already destroying product, with the resulting spoilage claimed against the supplier.",
+      "rhetorical_question": "How do you look up equipment configuration when a customer calls with a failure?"
+    }
+  ]
+}

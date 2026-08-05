@@ -1,0 +1,31 @@
+{
+  "naics_code": "423860",
+  "naics_title": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Aircraft parts traceability is a federal airworthiness requirement.",
+      "why_this_business": "Aviation parts distributors maintain traceability to an approved source with airworthiness release documentation such as FAA Form 8130-3, and records identifying the origin of every part. Suspected unapproved parts are an active FAA enforcement and safety priority, and distributors are the traceability link.",
+      "loss_scenario": "Parts without provable traceability are unusable and must be quarantined, and parts already installed may require removal across a fleet. Supplying unapproved parts carries criminal exposure.",
+      "rhetorical_question": "How do you maintain airworthiness traceability documentation for each part in stock?"
+    },
+    {
+      "rank": 2,
+      "headline": "Export controls apply to transportation and defence-related components.",
+      "why_this_business": "Aircraft and marine components are frequently subject to export control under EAR or ITAR, requiring restricted party screening, licensing, and retention of records for five years. Distributors ship internationally as a matter of course.",
+      "loss_scenario": "Export violations carrying substantial civil and criminal penalties, denial of export privileges, and debarment from defence-related work.",
+      "rhetorical_question": "Do you export parts, and how do you screen customers and end uses?"
+    },
+    {
+      "rank": 3,
+      "headline": "AOG demand is measured in hours and priced accordingly.",
+      "why_this_business": "Aircraft on ground requests are the highest urgency and highest margin transactions in aviation distribution, sourced against live inventory and shipped immediately. Operators are losing very large sums per hour the aircraft is grounded.",
+      "loss_scenario": "Missed AOG opportunities during an outage, and reputational damage in a small market where operators remember who could not respond.",
+      "rhetorical_question": "How quickly are you expected to respond to an aircraft on ground request?"
+    }
+  ]
+}

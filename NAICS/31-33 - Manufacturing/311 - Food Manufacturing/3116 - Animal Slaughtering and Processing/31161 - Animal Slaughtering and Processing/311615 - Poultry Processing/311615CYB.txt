@@ -1,0 +1,31 @@
+{
+  "naics_code": "311615",
+  "naics_title": "Poultry Processing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Line speed and continuous flow mean birds arrive whether you can process or not.",
+      "why_this_business": "Poultry plants run continuous evisceration lines at high speed under continuous USDA inspection, with live birds arriving on a schedule set by grower placements weeks earlier. Birds on trucks cannot be sent back and cannot wait long.",
+      "loss_scenario": "Plant shutdown with live birds arriving and no processing capacity, requiring depopulation of birds that have reached market weight, and grower flocks with nowhere to go.",
+      "rhetorical_question": "How many birds arrive at your plant each day against placements made weeks ago?"
+    },
+    {
+      "rank": 2,
+      "headline": "Salmonella and Campylobacter performance standards are enforced.",
+      "why_this_business": "FSIS sets pathogen performance standards for poultry with sampling and public reporting of establishment performance. Establishments failing standards face increased sampling, public listing, and potential enforcement.",
+      "loss_scenario": "Performance standard failures with public listing and customer response, since retail and foodservice buyers use FSIS performance data in supplier decisions.",
+      "rhetorical_question": "How is your pathogen sampling data tracked against FSIS performance standards?"
+    },
+    {
+      "rank": 3,
+      "headline": "USDA inspection and HACCP records govern the right to operate.",
+      "why_this_business": "Plants operate under continuous inspection with HACCP plans, sanitation procedures, and verification records required and reviewed daily. Inspection can be withdrawn and product cannot ship without the mark of inspection.",
+      "loss_scenario": "Suspension of inspection where records cannot be produced, stopping production entirely at a plant processing hundreds of thousands of birds daily with contractual supply obligations to retail and foodservice.",
+      "rhetorical_question": "What would happen if USDA asked for your HACCP verification records today?"
+    }
+  ]
+}

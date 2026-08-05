@@ -1,0 +1,31 @@
+{
+  "naics_code": "423220",
+  "naics_title": "Home Furnishing Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Flammability standards require records that prove compliance per lot.",
+      "why_this_business": "Mattresses, upholstered furniture, and textiles are subject to federal flammability standards with testing, prototype records, and general certificates of conformity required. Records must identify the product, the standard, and the testing that supports the certificate, and must be retained and produced on request.",
+      "loss_scenario": "Inability to produce compliance records leads to CPSC action, stop sale, and recall of distributed product, plus liability exposure in any fire claim involving the goods.",
+      "rhetorical_question": "Where do you keep general certificates of conformity and supporting test records?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasonal and market-driven ordering concentrates the year into a few windows.",
+      "why_this_business": "Home furnishing wholesalers write a large share of annual orders at market events and seasonal resets, then ship against those commitments over months. Order books, allocations, and delivery schedules are held in the ERP and are the entire forward revenue picture.",
+      "loss_scenario": "Loss of the order book after a market means orders that cannot be confirmed or shipped, and retailers reallocating shelf space that is set for the season.",
+      "rhetorical_question": "What share of your annual orders is written at market events?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer and pricing data is the competitive asset.",
+      "why_this_business": "Wholesalers hold retailer-specific pricing, program terms, rebate structures, and sell-through data across their account base. That information tells a competitor exactly which accounts are vulnerable and at what price.",
+      "loss_scenario": "Systematic loss of accounts to a competitor who knows your pricing structure, with no practical way to prove causation or recover damages.",
+      "rhetorical_question": "Where is your customer-specific pricing and program data stored?"
+    }
+  ]
+}

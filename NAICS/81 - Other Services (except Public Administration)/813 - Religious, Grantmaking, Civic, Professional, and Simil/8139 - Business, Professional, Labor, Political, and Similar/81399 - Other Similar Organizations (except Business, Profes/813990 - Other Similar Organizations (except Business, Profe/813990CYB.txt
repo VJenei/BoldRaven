@@ -1,0 +1,31 @@
+{
+  "naics_code": "813990",
+  "naics_title": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Membership and participant records accumulate over decades.",
+      "why_this_business": "Organisations in this category hold member and participant records, contact details, payment methods, and participation histories accumulated over long periods, frequently administered by volunteers or small staffs with no retention policy.",
+      "loss_scenario": "Notification covering members from many years ago with no current relationship, expanding the affected population and the cost far beyond the active membership.",
+      "rhetorical_question": "How many years of member records are held in your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Volunteer administration creates weak and untracked access.",
+      "why_this_business": "Systems are frequently administered by rotating volunteers using shared credentials and personal accounts, with access rarely revoked at handover and no inventory of who holds it.",
+      "loss_scenario": "A compromise that cannot be scoped because access history is unknown, with former officers and volunteers retaining credentials nobody remembers issuing.",
+      "rhetorical_question": "Could you produce a list of everyone with access to your systems today?"
+    },
+    {
+      "rank": 3,
+      "headline": "Payment processing brings merchant liability regardless of size.",
+      "why_this_business": "Organisations collecting dues, event fees, and donations by card are merchants bound by PCI DSS through their processing agreements, fully mandatory in version 4.0 since March 31, 2025, with no exemption for non-profit status or size.",
+      "loss_scenario": "Card brand assessments and forensic costs assigned by the merchant agreement, at amounts an organisation funded by dues and donations cannot absorb.",
+      "rhetorical_question": "Does your organisation know what its merchant agreement makes it liable for?"
+    }
+  ]
+}

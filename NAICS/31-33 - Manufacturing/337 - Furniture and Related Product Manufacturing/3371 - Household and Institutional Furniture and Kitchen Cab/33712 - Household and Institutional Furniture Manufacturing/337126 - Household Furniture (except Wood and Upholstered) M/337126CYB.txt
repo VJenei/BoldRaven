@@ -1,0 +1,31 @@
+{
+  "naics_code": "337126",
+  "naics_title": "Household Furniture (except Wood and Upholstered) Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Furniture stability and structural failure injure users.",
+      "why_this_business": "Metal and plastic household furniture carries load ratings and stability requirements, with CPSC jurisdiction over hazards and a 24 hour reporting obligation once a potential hazard is known.",
+      "loss_scenario": "A CPSC recall for a collapse or tip-over hazard, with the recall reach determined by distribution records and civil penalties where reporting was late.",
+      "rhetorical_question": "Could you identify which retailers received a specific production run?"
+    },
+    {
+      "rank": 2,
+      "headline": "Children's furniture carries additional testing requirements.",
+      "why_this_business": "Products for children are subject to lead and phthalate limits with third party testing and a children's product certificate required, and records must be retained and produced.",
+      "loss_scenario": "Children's products without supportable certificates, which cannot lawfully be sold, with recall and CPSC penalties for distribution of uncertified children's products.",
+      "rhetorical_question": "Which of your products are children's products requiring third party testing?"
+    },
+    {
+      "rank": 3,
+      "headline": "Volume production ships through concentrated retail channels.",
+      "why_this_business": "Furniture ships to large retailers and online marketplaces under vendor compliance requirements with delivery windows, labelling, and packaging enforced by chargeback.",
+      "loss_scenario": "Order and shipping systems unavailable, with chargebacks and missed windows at customers who represent most of the volume and can reallocate shelf and listing space.",
+      "rhetorical_question": "What proportion of your sales goes through your largest customer?"
+    }
+  ]
+}

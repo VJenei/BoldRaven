@@ -1,0 +1,31 @@
+{
+  "naics_code": "333517",
+  "naics_title": "Machine Tool Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Machine tools ship with controls you write and support remotely.",
+      "why_this_business": "Machine tools include CNC controls, drives, and diagnostic software with remote support connections into customer shops. Those connections reach machines that are the customer's entire production capacity.",
+      "loss_scenario": "Support access used to reach customer networks or machines, stopping production across many shops, with the machine tool builder identified as the common entry point.",
+      "rhetorical_question": "How do your service engineers connect to machines at customer sites?"
+    },
+    {
+      "rank": 2,
+      "headline": "Machine tools are export controlled at higher capability levels.",
+      "why_this_business": "Multi-axis machine tools above defined accuracy and axis thresholds are export controlled, with licensing requirements for destinations and end users because of their weapons manufacturing relevance.",
+      "loss_scenario": "Controlled machines or technology reaching a restricted end user, which is an export violation with penalties, denial of export privileges, and criminal exposure.",
+      "rhetorical_question": "Which of your machines fall under export control thresholds?"
+    },
+    {
+      "rank": 3,
+      "headline": "Machine safety functions prevent operator injury.",
+      "why_this_business": "Machine tools have interlocked enclosures, safe speed limits, and safety-rated control functions preventing motion with the door open. Failures expose operators to spindles and tool changers.",
+      "loss_scenario": "A safety function defect permitting motion with an operator exposed, causing serious injury, with the validation records examined and every machine of the model affected.",
+      "rhetorical_question": "How are safety-rated functions validated and documented before a machine ships?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "457210",
+  "naics_title": "Fuel Dealers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You deliver based on tank monitoring, and customers stop checking their own tanks.",
+      "why_this_business": "Heating oil and propane dealers run automatic delivery based on degree day calculations and increasingly on tank telemetry, dispatching before the customer runs out. Customers on automatic delivery rely on that entirely and do not monitor their own levels.",
+      "loss_scenario": "Run-outs during a cold snap leave households without heat, which is a life safety issue for elderly customers and a frozen pipe claim for the property. Propane run-outs also require a system leak check before service resumes.",
+      "rhetorical_question": "How many customers are on automatic delivery based on your calculations rather than their own monitoring?"
+    },
+    {
+      "rank": 2,
+      "headline": "Budget plans and prepay mean you hold customers' money through the season.",
+      "why_this_business": "Fuel dealers collect budget payments and prepurchase contracts through the year against fuel to be delivered in winter. Those balances are customer credits tracked entirely in the dealer's accounting system, and in many states are regulated with bonding or escrow requirements.",
+      "loss_scenario": "Lost prepay and budget balance records leave disputes with every customer over what they have paid for, at the point in the season when they most need delivery.",
+      "rhetorical_question": "What is the total value of customer prepay and budget balances you hold?"
+    },
+    {
+      "rank": 3,
+      "headline": "Delivery routing and driver certification are safety-regulated.",
+      "why_this_business": "Propane and fuel oil delivery requires hazmat-endorsed drivers, documented training, cargo tank inspections, and delivery tickets recording quantity and location. Propane systems require documented leak checks after interruption of service.",
+      "loss_scenario": "A delivery to the wrong tank or an out-of-gas system returned to service without a leak check causes fire or explosion, and the records are what determine whether the dealer followed its own procedures.",
+      "rhetorical_question": "How are delivery tickets and leak check records captured and stored?"
+    }
+  ]
+}

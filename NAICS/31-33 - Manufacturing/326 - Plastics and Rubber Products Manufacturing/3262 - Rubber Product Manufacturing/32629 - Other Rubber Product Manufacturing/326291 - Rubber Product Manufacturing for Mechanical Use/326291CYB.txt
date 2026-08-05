@@ -1,0 +1,31 @@
+{
+  "naics_code": "326291",
+  "naics_title": "Rubber Product Manufacturing for Mechanical Use",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Seals and gaskets prevent releases in critical service.",
+      "why_this_business": "Mechanical rubber goods seal pressure vessels, engines, and process equipment, with failure producing leaks of hydraulic fluid, fuel, or process chemicals. Aerospace and automotive applications carry qualification requirements.",
+      "loss_scenario": "Seal failures causing releases and equipment damage, and in aerospace or automotive applications, recalls reaching finished vehicles and aircraft with traceability determining the scope.",
+      "rhetorical_question": "Are your products qualified into aerospace or automotive applications?"
+    },
+    {
+      "rank": 2,
+      "headline": "Moulding and cure parameters are qualified per part.",
+      "why_this_business": "Parts are moulded and cured to qualified process parameters with material lot traceability required by customer quality systems. Automotive and aerospace customers require production part approval and change control.",
+      "loss_scenario": "Loss of qualified process parameters requiring requalification with every customer, and material traceability failures that prevent narrowing a quality problem to affected lots.",
+      "rhetorical_question": "How many customer-qualified process parameters are held in your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer assembly stops without your components.",
+      "why_this_business": "Mechanical rubber parts are components in customer assemblies with dedicated tooling and no alternative source. Assembly lines run to schedule with limited component inventory.",
+      "loss_scenario": "Customer assembly lines stopped, with automotive line-down charges that are contractual and substantial, applied per hour of stoppage regardless of the component's value.",
+      "rhetorical_question": "What are your customers' line-down charges per hour?"
+    }
+  ]
+}

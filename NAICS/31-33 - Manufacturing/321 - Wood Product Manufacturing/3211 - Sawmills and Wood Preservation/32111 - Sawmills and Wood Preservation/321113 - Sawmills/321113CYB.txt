@@ -1,0 +1,31 @@
+{
+  "naics_code": "321113",
+  "naics_title": "Sawmills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Optimisation systems decide how every log is cut.",
+      "why_this_business": "Modern sawmills scan each log and compute the cutting solution that maximises value, driving carriages, saws, and edgers automatically. That optimisation is the difference between profitable and unprofitable recovery on every log.",
+      "loss_scenario": "Running without optimisation drops lumber recovery materially across every log processed, which on a mill cutting hundreds of thousands of board feet daily is a direct and continuous margin loss.",
+      "rhetorical_question": "How much recovery would you lose per shift running without your optimiser?"
+    },
+    {
+      "rank": 2,
+      "headline": "Grading and scaling determine what you are paid.",
+      "why_this_business": "Lumber is graded and tallied for sale, and logs are scaled for purchase, with both recorded electronically. Those measurements determine payments to log suppliers and revenue from lumber customers.",
+      "loss_scenario": "Unbillable production and unresolvable log payments, with suppliers unpaid and lumber shipped without tally records to support the invoice.",
+      "rhetorical_question": "How are lumber tally and log scale recorded and turned into payment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Continuous mills and dry kilns cannot be stopped cleanly.",
+      "why_this_business": "Sawmills run continuous production lines with kilns operating drying schedules over days. Kiln schedules control moisture and stress relief, and interrupted schedules produce degraded or unsaleable lumber.",
+      "loss_scenario": "Kiln charges ruined by interrupted schedules, representing days of drying capacity and the lumber in them, plus green lumber accumulating with nowhere to go.",
+      "rhetorical_question": "How many days does a kiln charge take, and what happens if the schedule is interrupted?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "541620",
+  "naics_title": "Environmental Consulting Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Site assessment data documents contamination clients have not disclosed.",
+      "why_this_business": "Environmental consultants hold phase I and phase II assessments, sampling results, and remediation records identifying contamination at specific properties. That information affects property value, transactions, and regulatory liability, and some findings have not yet been reported.",
+      "loss_scenario": "Disclosure of contamination findings collapses property transactions, triggers regulatory reporting obligations the client had not yet met, and creates third-party claims from neighbouring owners.",
+      "rhetorical_question": "Do you hold sampling results identifying contamination that has not been publicly reported?"
+    },
+    {
+      "rank": 2,
+      "headline": "Regulatory submissions are deadline-driven and legally binding.",
+      "why_this_business": "Consultants prepare permit applications, discharge monitoring reports, and compliance submissions on behalf of clients against fixed regulatory deadlines. Those submissions are certified and carry penalties for late or inaccurate filing.",
+      "loss_scenario": "Missed regulatory deadlines producing penalties assessed per day, with the client liable to the regulator and looking to the consultant who was responsible for the filing.",
+      "rhetorical_question": "What regulatory filing deadlines do you manage on behalf of clients?"
+    },
+    {
+      "rank": 3,
+      "headline": "Laboratory and monitoring data must be defensible.",
+      "why_this_business": "Environmental data is used in regulatory decisions and litigation, requiring documented chain of custody, laboratory qualification, and data validation. Data that cannot be shown to be defensible is inadmissible and worthless.",
+      "loss_scenario": "Sampling data that cannot be validated requires resampling where conditions allow and invalidates conclusions where they do not, with regulatory decisions and transactions unwound.",
+      "rhetorical_question": "How is chain of custody maintained for the samples and data you handle?"
+    }
+  ]
+}

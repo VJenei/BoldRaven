@@ -1,0 +1,31 @@
+{
+  "naics_code": "423990",
+  "naics_title": "Other Miscellaneous Durable Goods Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Distribution stops entirely when the warehouse system stops.",
+      "why_this_business": "Order entry, pick and pack, shipping, and invoicing all run through connected systems, with carrier integration generating labels and tracking. A warehouse cannot pick to paper at commercial volume, and without labels nothing ships.",
+      "loss_scenario": "Complete cessation of shipping during the outage while payroll, rent, and supplier terms continue, and customers place their next order with a competitor.",
+      "rhetorical_question": "Could your warehouse ship anything at all without your system generating labels?"
+    },
+    {
+      "rank": 2,
+      "headline": "Payment instruction fraud targets both suppliers and customers.",
+      "why_this_business": "Wholesalers process large volumes of supplier payments and customer remittances, with bank detail changes handled as routine administration. Attackers with mailbox access can redirect either direction, and often do both.",
+      "loss_scenario": "A diverted supplier payment or customer remittance in the five to six figure range, repeated across several cycles before detection.",
+      "rhetorical_question": "How does your team verify a request to change bank details?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer, pricing, and supplier data is the whole competitive position.",
+      "why_this_business": "A distributor's value is knowing which customers buy what, at what price, from which source. That information sits in one system and would let a competitor or a supplier bypass you entirely.",
+      "loss_scenario": "Disintermediation where suppliers or competitors approach your accounts directly with your pricing, which is a permanent structural loss rather than a recoverable event.",
+      "rhetorical_question": "What would a competitor be able to do with your customer and pricing file?"
+    }
+  ]
+}

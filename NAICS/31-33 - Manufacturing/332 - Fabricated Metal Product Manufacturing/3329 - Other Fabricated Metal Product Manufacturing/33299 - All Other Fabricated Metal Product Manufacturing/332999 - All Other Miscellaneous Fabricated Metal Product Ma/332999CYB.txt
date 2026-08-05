@@ -1,0 +1,31 @@
+{
+  "naics_code": "332999",
+  "naics_title": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Production is made to customer designs with dedicated tooling.",
+      "why_this_business": "Miscellaneous fabricated metal covers parts made to individual customer designs with specific tooling, programmes, and processes. Customers designed their products around the part and stock equivalents do not exist.",
+      "loss_scenario": "Customer production stopped for want of parts, with no alternative supplier tooled or programmed to make them without weeks of setup.",
+      "rhetorical_question": "How many customer parts are made only with your tooling?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fabrication runs from digital data to automated equipment.",
+      "why_this_business": "Cutting, forming, machining, and welding run from programmes generated from customer models. Programme errors are reproduced across the run and metal cannot be uncut.",
+      "loss_scenario": "Runs produced to wrong programmes, scrapped at material and machine time, with customers waiting on parts and machine capacity consumed by rework.",
+      "rhetorical_question": "How are production programmes verified before a run starts?"
+    },
+    {
+      "rank": 3,
+      "headline": "Parts enter products where failure has consequences.",
+      "why_this_business": "Fabricated metal parts go into equipment, vehicles, structures, and consumer products where the part carries load or performs a function. Material and process records establish conformance after a failure.",
+      "loss_scenario": "Non-conforming parts entering customer products and failing in service, with liability determined by whether process and material records can demonstrate what was made and when.",
+      "rhetorical_question": "How long do you retain material certifications and process records?"
+    }
+  ]
+}

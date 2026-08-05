@@ -1,0 +1,31 @@
+{
+  "naics_code": "333924",
+  "naics_title": "Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Forklifts kill and injure workers every year.",
+      "why_this_business": "Powered industrial trucks are a leading source of workplace fatalities, with stability, braking, and control systems determining whether they tip or strike pedestrians. Design standards govern capacity and stability.",
+      "loss_scenario": "A control, brake, or stability defect causing a tip-over or pedestrian strike fatality, with recall across the installed fleet and regulatory investigation of the design.",
+      "rhetorical_question": "How are stability and brake performance verified before units ship?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fleets are connected and managed from your platform.",
+      "why_this_business": "Industrial trucks include telematics for utilisation, operator access control, and impact detection, connecting fleets at customer sites back to manufacturer and dealer platforms.",
+      "loss_scenario": "Compromise of the fleet platform affecting operator access controls or truck operation across customer warehouses, with safety exposure and fleets immobilised.",
+      "rhetorical_question": "What functions can your telematics platform change on a truck in service?"
+    },
+    {
+      "rank": 3,
+      "headline": "Lithium-ion powered trucks introduce battery fire risk.",
+      "why_this_business": "The category is moving to lithium-ion battery power with charging systems and battery management electronics. Battery fires in warehouses spread through stored product rapidly.",
+      "loss_scenario": "A battery or charger defect causing a warehouse fire, with the building and its contents lost and every unit of the model requiring a battery management update or replacement.",
+      "rhetorical_question": "Do your trucks use lithium-ion batteries with charging systems you supply?"
+    }
+  ]
+}

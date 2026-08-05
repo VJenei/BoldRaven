@@ -1,0 +1,31 @@
+{
+  "naics_code": "314110",
+  "naics_title": "Carpet and Rug Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Tufting and dyeing are programme-driven and produce enormous rolls.",
+      "why_this_business": "Tufting machines execute pattern programmes and dyeing applies colour to whole rolls at once. A pattern or colour error affects the entire roll, and carpet is produced in rolls representing hundreds of square yards.",
+      "loss_scenario": "Rolls produced to wrong pattern or colour, unsaleable at specification and sold as seconds at a fraction of value, on production runs representing substantial material and machine time.",
+      "rhetorical_question": "How much material is in a single production run on your tufting line?"
+    },
+    {
+      "rank": 2,
+      "headline": "Dye lots must match across a commercial installation.",
+      "why_this_business": "Commercial carpet installations use multiple rolls that must match, with dye lot recorded and reserved against a project. Rolls from different lots show visible variation in a continuous floor area.",
+      "loss_scenario": "Mismatched dye lots discovered during installation, requiring the entire area to be pulled and replaced with matching material, and the claim covering both product and installation labour.",
+      "rhetorical_question": "How is dye lot reserved and tracked against a commercial project?"
+    },
+    {
+      "rank": 3,
+      "headline": "Flammability and performance certification support commercial sales.",
+      "why_this_business": "Commercial carpet must meet flammability standards for its installation class, with test certificates required by specifiers and building officials. Testing is tied to specific constructions and production.",
+      "loss_scenario": "Product installed that cannot be certified to the required flammability class, requiring removal and replacement, and liability exposure in a fire where performance was relied upon.",
+      "rhetorical_question": "How are flammability test certificates tied to specific product constructions?"
+    }
+  ]
+}

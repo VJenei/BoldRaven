@@ -1,0 +1,31 @@
+{
+  "naics_code": "441330",
+  "naics_title": "Automotive Parts and Accessories Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Commercial accounts order all day against live inventory.",
+      "why_this_business": "Parts retailers serve repair shops on commercial accounts with multiple deliveries a day, ordering electronically against live store and hub inventory. The shop has the vehicle on the lift and buys from whoever confirms availability first.",
+      "loss_scenario": "Commercial accounts move to the competing store within hours, and repair shops that establish a new supplier relationship during an outage frequently keep it.",
+      "rhetorical_question": "How many commercial accounts order from you electronically each day?"
+    },
+    {
+      "rank": 2,
+      "headline": "Retail transactions are card-based at volume.",
+      "why_this_business": "High transaction counts at low average ticket across multiple registers and an e-commerce channel put the business squarely under PCI DSS, which became fully mandatory in its 4.0 form on March 31, 2025, including new requirements for e-commerce payment page script monitoring.",
+      "loss_scenario": "Card brand assessments, forensic investigation, and reissuance costs after a point of sale or e-commerce compromise. PCI liability is excluded or sublimited on most package policies.",
+      "rhetorical_question": "How many card transactions do you process across your locations in a month?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vehicle fitment data determines whether the right part is sold.",
+      "why_this_business": "Parts lookup depends on year, make, model, engine, and submodel data mapped to part numbers. Selling the wrong part to a shop costs them labour time and destroys the account relationship. The catalogue is not something counter staff can reproduce from memory.",
+      "loss_scenario": "Wrong parts supplied at volume, with commercial accounts claiming lost labour hours and consumers returning goods that were sold in error.",
+      "rhetorical_question": "How do your counter staff identify the correct part for a specific vehicle?"
+    }
+  ]
+}

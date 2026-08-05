@@ -1,0 +1,31 @@
+{
+  "naics_code": "525920",
+  "naics_title": "Trusts, Estates, and Agency Accounts",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Estate and trust records expose family arrangements deliberately kept private.",
+      "why_this_business": "These accounts hold wills, trust instruments, beneficiary identities and conditions, valuations, and distribution terms. Families frequently structure arrangements specifically so that beneficiaries do not know the terms, and some documents address incapacity or family conflict directly.",
+      "loss_scenario": "Exposure causes family disputes and personal harm that no notification or credit monitoring remedies, and fiduciary clients leave immediately when confidentiality fails.",
+      "rhetorical_question": "What family and beneficiary information is contained in the documents you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Distributions are made on instructions under a fiduciary standard.",
+      "why_this_business": "Trustees and agents distribute funds to beneficiaries on instruction or according to trust terms, frequently by wire. Beneficiaries may be elderly, remote, or unfamiliar with the process, which makes impersonation easier and detection slower.",
+      "loss_scenario": "Fraudulent distributions from fiduciary accounts, with the fiduciary obliged to restore the account and facing breach of duty claims judged against a standard higher than ordinary care.",
+      "rhetorical_question": "How is a beneficiary authenticated before a distribution is wired?"
+    },
+    {
+      "rank": 3,
+      "headline": "Asset records establish what the estate or trust actually holds.",
+      "why_this_business": "Accounts hold schedules of assets, valuations, basis records, and transaction history required for accounting to beneficiaries and for tax reporting. Estate administration depends on a complete and accurate inventory.",
+      "loss_scenario": "Unreconstructable asset records prevent accounting to beneficiaries and correct tax filing, with fiduciaries personally exposed for administration failures and beneficiaries entitled to demand a formal accounting.",
+      "rhetorical_question": "Could you produce a complete asset accounting for a trust from your records today?"
+    }
+  ]
+}

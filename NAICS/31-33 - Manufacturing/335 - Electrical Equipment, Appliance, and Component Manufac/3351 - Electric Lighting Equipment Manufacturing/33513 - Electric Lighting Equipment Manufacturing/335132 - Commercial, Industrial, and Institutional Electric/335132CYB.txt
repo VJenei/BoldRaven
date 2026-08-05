@@ -1,0 +1,31 @@
+{
+  "naics_code": "335132",
+  "naics_title": "Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Emergency and exit lighting is life safety equipment.",
+      "why_this_business": "Emergency lighting and exit signs must operate during power failure to allow occupants to evacuate, with listings, battery duration requirements, and periodic testing mandated by fire code.",
+      "loss_scenario": "Emergency lighting failing during an evacuation, with occupants unable to find exits in a fire, and the manufacturer's listing and production records examined after fatalities.",
+      "rhetorical_question": "Do you manufacture emergency or exit lighting with listed battery duration?"
+    },
+    {
+      "rank": 2,
+      "headline": "Networked lighting controls sit inside building networks.",
+      "why_this_business": "Commercial lighting increasingly uses networked control systems with sensors, gateways, and building network connections, supplied and sometimes supported by the fixture manufacturer.",
+      "loss_scenario": "Lighting control systems used as an entry point into customer building and corporate networks, with the manufacturer identified as the path and remediation required across every installation.",
+      "rhetorical_question": "Do your lighting controls connect to customer building networks?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fixtures are engineered and scheduled for specific projects.",
+      "why_this_business": "Commercial fixtures are made to project schedules with specified configurations, voltages, and finishes, delivered to construction sites on a sequence tied to ceiling installation.",
+      "loss_scenario": "Wrong configuration or delayed fixtures at construction sites, with ceiling and electrical work stalled and the manufacturer exposed to delay claims on the project schedule.",
+      "rhetorical_question": "How are project configurations verified before fixtures are released to build?"
+    }
+  ]
+}

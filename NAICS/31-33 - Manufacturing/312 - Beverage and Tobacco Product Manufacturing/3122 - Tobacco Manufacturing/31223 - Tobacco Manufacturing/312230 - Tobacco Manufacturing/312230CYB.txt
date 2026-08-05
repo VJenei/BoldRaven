@@ -1,0 +1,31 @@
+{
+  "naics_code": "312230",
+  "naics_title": "Tobacco Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "FDA regulates tobacco products with premarket authorisation requirements.",
+      "why_this_business": "Tobacco and nicotine products require FDA authorisation, with manufacturers subject to registration, product listing, ingredient reporting, and marketing restrictions. Selling unauthorised products is a federal violation.",
+      "loss_scenario": "Enforcement action for unauthorised products or reporting failures, with product removed from market and the ability to sell specific products lost pending authorisation that may not be granted.",
+      "rhetorical_question": "Which of your products hold FDA marketing authorisation, and how is that tracked?"
+    },
+    {
+      "rank": 2,
+      "headline": "Excise tax and tracking obligations attach to every unit.",
+      "why_this_business": "Tobacco carries substantial federal and state excise taxes with TTB permits, bonding, and reporting on production and removals. Diversion and untaxed product are enforcement priorities.",
+      "loss_scenario": "Excise tax assessed on unreconciled production at rates that make unaccounted product extremely expensive, plus permit and bonding consequences.",
+      "rhetorical_question": "How is production reconciled against taxed removals?"
+    },
+    {
+      "rank": 3,
+      "headline": "Product formulation and ingredient data is proprietary and regulated.",
+      "why_this_business": "Manufacturers hold blend formulations, additive specifications, and processing parameters that are both trade secrets and the subject of mandatory ingredient reporting to FDA.",
+      "loss_scenario": "Formulation disclosure to competitors destroys proprietary product characteristics, and inability to produce ingredient documentation creates regulatory exposure independently.",
+      "rhetorical_question": "How are blend formulations and ingredient specifications protected?"
+    }
+  ]
+}

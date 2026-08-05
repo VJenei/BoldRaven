@@ -1,0 +1,31 @@
+{
+  "naics_code": "561439",
+  "naics_title": "Other Business Service Centers (including Copy Shops)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Customer files sit on your equipment after the job is done.",
+      "why_this_business": "Copy and print centres receive customer files containing legal documents, financial records, medical forms, business plans, and personal identity documents. Multifunction devices retain images on internal storage, and print servers hold submitted jobs.",
+      "loss_scenario": "Exposure of customer documents from print systems and device storage, affecting individuals and businesses who simply wanted copies made and never considered the retention.",
+      "rhetorical_question": "How long are customer print files retained on your systems and devices?"
+    },
+    {
+      "rank": 2,
+      "headline": "Public access computers and networks are in your environment.",
+      "why_this_business": "Centres provide public workstations and internet access where customers enter credentials, complete applications, and access personal accounts. Those machines are shared and are a known target for credential capture.",
+      "loss_scenario": "Customer credentials captured from public workstations, with the centre identified as the point of compromise and liability for the resulting account takeovers.",
+      "rhetorical_question": "How are your public access computers reset and secured between customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Card volume is high and the merchant agreement assigns liability to you.",
+      "why_this_business": "Service centres process high transaction counts across registers and self-service kiosks. Every card-accepting merchant is contractually bound to PCI DSS, fully mandatory in version 4.0 since March 31, 2025, with no small merchant exemption from the liability.",
+      "loss_scenario": "Card brand assessments and forensic costs assigned to the merchant by the processing agreement, at amounts a single location cannot absorb.",
+      "rhetorical_question": "Have you read who pays for a forensic investigation under your merchant agreement?"
+    }
+  ]
+}

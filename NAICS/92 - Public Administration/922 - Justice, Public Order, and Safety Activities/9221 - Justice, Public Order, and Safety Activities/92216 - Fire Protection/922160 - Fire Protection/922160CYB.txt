@@ -1,0 +1,31 @@
+{
+  "naics_code": "922160",
+  "naics_title": "Fire Protection",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Dispatch determines whether apparatus arrives in time.",
+      "why_this_business": "Fire and emergency medical dispatch depends on computer aided dispatch, automatic vehicle location, and pre-incident planning data delivered to responding units. Response time is directly related to survival in fire and cardiac emergencies.",
+      "loss_scenario": "Delayed or misrouted response to structure fires and medical emergencies, which is a preventable death exposure with immediate public and political consequences.",
+      "rhetorical_question": "How would apparatus be dispatched and routed without your CAD system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Pre-incident plans tell crews what they are entering.",
+      "why_this_business": "Departments maintain pre-incident plans documenting building construction, hazardous materials, utility shutoffs, occupancy, and access for commercial and institutional properties. Crews rely on that information en route and on arrival.",
+      "loss_scenario": "Crews entering structures without hazard and construction information, which is a firefighter fatality exposure in buildings with known hazards that the department had documented and could not access.",
+      "rhetorical_question": "How do crews access pre-incident plans for a building while responding to it?"
+    },
+    {
+      "rank": 3,
+      "headline": "Emergency medical operations hold patient records.",
+      "why_this_business": "Departments providing emergency medical services generate patient care reports containing clinical information, making them covered entities under HIPAA with breach notification obligations alongside their public safety role.",
+      "loss_scenario": "HIPAA notification and enforcement for patient care records, which municipal departments frequently do not realise they hold as a covered entity with the same obligations as a hospital.",
+      "rhetorical_question": "Does your department generate patient care reports subject to HIPAA?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "331410",
+  "naics_title": "Nonferrous Metal (except Aluminum) Smelting and Refining",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Smelting handles molten metal and toxic emissions.",
+      "why_this_business": "Copper, lead, zinc, and precious metal smelting operates furnaces at high temperature producing sulfur dioxide, metal fumes, and in lead smelting, lead emissions with strict standards and blood lead monitoring for workers.",
+      "loss_scenario": "Molten metal incidents with fatalities, plus emissions exceedances of lead or sulfur dioxide with community exposure, which in lead smelting has produced facility closures and enormous remediation liabilities.",
+      "rhetorical_question": "What emissions monitoring and worker blood lead surveillance does your operation require?"
+    },
+    {
+      "rank": 2,
+      "headline": "Precious metal accounting must reconcile exactly.",
+      "why_this_business": "Smelters and refiners process precious metal-bearing material with settlement based on assay of contained metal. Metal accounting reconciles input, in-process, and output inventory, and discrepancies indicate either loss or theft.",
+      "loss_scenario": "Unreconcilable metal accounts across processing periods, where the contained value is very high and customers whose material was processed hold the refiner responsible for the difference.",
+      "rhetorical_question": "What value of customer metal is in process in your circuit at any time?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer settlement depends on assay data.",
+      "why_this_business": "Concentrate and scrap suppliers are paid on assay of contained metal determined in the smelter's laboratory, with umpire assay procedures for disputes. Those numbers determine payment on shipments worth millions.",
+      "loss_scenario": "Unresolvable settlements across many suppliers, with disputes on high value material and no independent record supporting the smelter's determination.",
+      "rhetorical_question": "How are assay results recorded and tied to specific supplier shipments?"
+    }
+  ]
+}

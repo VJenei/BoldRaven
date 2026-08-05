@@ -1,0 +1,31 @@
+{
+  "naics_code": "331529",
+  "naics_title": "Other Nonferrous Metal Foundries (except Die-Casting)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty alloy castings serve applications with tight requirements.",
+      "why_this_business": "Foundries in this category cast copper alloys, magnesium, titanium, and specialty materials for marine, aerospace, and industrial applications with alloy-specific handling and property requirements. Magnesium in particular burns and is difficult to extinguish.",
+      "loss_scenario": "A magnesium fire that water cannot extinguish and that spreads through chips and dust, destroying the foundry area, plus castings failing in the qualified applications they serve.",
+      "rhetorical_question": "Do you cast magnesium or other reactive metals, and how is fire risk controlled?"
+    },
+    {
+      "rank": 2,
+      "headline": "Alloy chemistry determines corrosion and mechanical performance.",
+      "why_this_business": "Copper alloy castings for marine and valve applications depend on chemistry for corrosion resistance and strength, verified by analysis per heat. Dezincification and corrosion failures appear years into service.",
+      "loss_scenario": "Off-chemistry castings failing by corrosion in marine or water service years after installation, with claims covering the systems they were installed in.",
+      "rhetorical_question": "How is alloy chemistry verified and recorded per heat poured?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer tooling and qualification concentrate the relationship.",
+      "why_this_business": "Foundries hold customer patterns and qualified processes for parts with no alternative source. Requalification of a new foundry takes months and customers avoid it.",
+      "loss_scenario": "Customer production stopped for want of castings with no qualified alternative source and tooling that exists only at your facility.",
+      "rhetorical_question": "How many parts do you produce for which no other foundry is qualified?"
+    }
+  ]
+}

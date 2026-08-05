@@ -1,0 +1,31 @@
+{
+  "naics_code": "337920",
+  "naics_title": "Blind and Shade Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Window covering cords strangle children.",
+      "why_this_business": "Corded window coverings have killed children for decades, and the mandatory federal rule 16 CFR 1260 now prohibits accessible operating cords on stock products and limits them on custom products. Compliance depends on product design and construction.",
+      "loss_scenario": "Products sold with non-compliant cords, which cannot lawfully be sold, with CPSC recall and, where a child was strangled, litigation in a category where the hazard has been documented for years.",
+      "rhetorical_question": "How do you document compliance with the cord safety rule for each product?"
+    },
+    {
+      "rank": 2,
+      "headline": "Every blind is cut to a specific window.",
+      "why_this_business": "Blinds and shades are made to individual window measurements, cut and assembled to order. A blind cut to the wrong width fits no other window and cannot be resold.",
+      "loss_scenario": "Orders cut to wrong dimensions across a period, scrapped entirely, with customers waiting through the full lead time again and dealer relationships damaged.",
+      "rhetorical_question": "How are customer measurements captured and verified before cutting?"
+    },
+    {
+      "rank": 3,
+      "headline": "Motorised shades are connected devices in homes and buildings.",
+      "why_this_business": "Motorised window coverings include radios, hubs, and cloud connectivity with mobile applications, and in commercial buildings integrate with building management systems.",
+      "loss_scenario": "A vulnerability across connected products giving access to home or building networks, requiring firmware remediation to devices installed in homes and commercial buildings.",
+      "rhetorical_question": "Do your motorised products connect to a platform you operate?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "441222",
+  "naics_title": "Boat Dealers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Marine financing makes you a financial institution under federal law.",
+      "why_this_business": "Boat dealers arranging financing are subject to GLBA and the FTC Safeguards Rule, which requires a written information security programme, a qualified individual, multi-factor authentication, and encryption of customer information. Marine loans are long-term and applications contain full financial disclosure.",
+      "loss_scenario": "FTC enforcement plus breach notification for customers whose complete financial profiles were held for a high value discretionary purchase.",
+      "rhetorical_question": "Do you arrange marine financing, and do you have a written security programme?"
+    },
+    {
+      "rank": 2,
+      "headline": "Vessel documentation and titling is a separate legal chain.",
+      "why_this_business": "Boats are titled through the state or documented with the Coast Guard, with hull identification numbers, bills of sale, and lien releases required to transfer ownership. Documented vessels carry preferred ship mortgages recorded federally.",
+      "loss_scenario": "Inability to produce documentation chains stalls closings and, where liens cannot be evidenced as released, prevents transfer of a vessel already sold and paid for.",
+      "rhetorical_question": "How do you track vessel documentation and lien releases through a sale?"
+    },
+    {
+      "rank": 3,
+      "headline": "Storage and service means you hold customers' property for months.",
+      "why_this_business": "Dealers store, winterise, and service customer vessels, holding valuable property under bailment with records of what was received, what work was authorised, and what condition it was in. Storage contracts and work authorisations are the evidence.",
+      "loss_scenario": "Disputes over authorised work and pre-existing damage on vessels worth hundreds of thousands, resolved against the party without records, plus bailee liability for property in your care.",
+      "rhetorical_question": "What is the value of customer vessels currently in your storage and service care?"
+    }
+  ]
+}

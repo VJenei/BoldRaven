@@ -1,0 +1,31 @@
+{
+  "naics_code": "459140",
+  "naics_title": "Musical Instrument and Supplies Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "School rental programmes hold family payment data and run all year.",
+      "why_this_business": "Band and orchestra rental programmes place instruments with school families on recurring monthly billing, with stored payment methods, contracts, student names, and school affiliations. Rental fleets are tracked by serial number against a specific student and school.",
+      "loss_scenario": "A breach exposing family payment data alongside children's names and school locations, which is a child data exposure rather than an ordinary retail one, plus loss of the recurring billing that funds the fleet.",
+      "rhetorical_question": "How many families are on recurring rental billing with stored payment methods?"
+    },
+    {
+      "rank": 2,
+      "headline": "High value instruments are serialised, consigned, and easily resold.",
+      "why_this_business": "Professional instruments carry high value and strong resale markets, frequently held on consignment for customers or taken in trade. Serial records establish ownership and are the basis of recovery after theft.",
+      "loss_scenario": "Theft of consigned and inventory instruments where the retailer owes the consignor the value regardless, and serial records are needed for any prospect of recovery.",
+      "rhetorical_question": "What is the value of consigned instruments you are currently holding for customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Repair work means customer property is in your care for weeks.",
+      "why_this_business": "Repair and setup departments hold customer instruments for extended periods, with intake condition records, authorised work, and estimates documented. Instruments are often irreplaceable to the owner and sometimes to the market.",
+      "loss_scenario": "Disputes over authorised work and pre-existing condition on instruments worth thousands, resolved against the party without records, plus bailee exposure for property in your custody.",
+      "rhetorical_question": "How do you document condition and authorised work on instruments taken in for repair?"
+    }
+  ]
+}

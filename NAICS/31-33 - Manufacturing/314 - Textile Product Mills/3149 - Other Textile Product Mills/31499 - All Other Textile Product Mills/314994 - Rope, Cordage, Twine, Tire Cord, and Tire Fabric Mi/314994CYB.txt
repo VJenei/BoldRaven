@@ -1,0 +1,31 @@
+{
+  "naics_code": "314994",
+  "naics_title": "Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Rope and cordage failures kill people.",
+      "why_this_business": "Rope and cordage are used in lifting, mooring, climbing, and safety applications with breaking strength specifications and testing. Failure under load causes severe injury and death, and products are certified to standards specifiers rely on.",
+      "loss_scenario": "A rope failure in a lifting or life safety application, with testing and production records determining whether the product met its rating and the manufacturer's liability for the resulting injury or death.",
+      "rhetorical_question": "Are your products used in lifting, mooring, or life safety applications?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tire cord is a structural component of a safety-critical product.",
+      "why_this_business": "Tire cord and fabric provide the structural reinforcement of tires, manufactured to tension, adhesion, and dimensional specifications qualified by tire manufacturers. Defects in reinforcement cause tread separation and blowouts.",
+      "loss_scenario": "Defective reinforcement incorporated into tires, with tire recalls affecting millions of units and traceability from cord lot to tire production determining the scope and the supplier's share of the liability.",
+      "rhetorical_question": "How is your material traced into customer tire production lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Continuous production runs at high speed with tight tension control.",
+      "why_this_business": "Extrusion, twisting, and treating run continuously with tension, twist, and dimensional control determining product properties. Process deviations produce material that fails specification in ways not visible on inspection.",
+      "loss_scenario": "Off-specification material shipped and incorporated into customer products before testing detects it, with recall reaching the finished products rather than stopping at your material.",
+      "rhetorical_question": "How are tension and twist parameters monitored during production?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "423820",
+  "naics_title": "Farm and Garden Machinery and Equipment Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Dealers hold administrative access to farmers' precision agriculture accounts.",
+      "why_this_business": "Equipment dealers set up and support customer accounts on manufacturer platforms such as John Deere Operations Center, transferring field boundaries, prescriptions, and yield data. Dealer staff hold access across many farm accounts. Researchers demonstrated in 2021 that flaws in Deere's platform allowed owner enumeration and administrative access.",
+      "loss_scenario": "Exposure of many farm customers' agronomic and yield data through dealer access, which is third-party liability to every affected farm and destroys the trust the dealership relies on.",
+      "rhetorical_question": "How many customer precision agriculture accounts can your dealership access?"
+    },
+    {
+      "rank": 2,
+      "headline": "The selling and service season is short and immovable.",
+      "why_this_business": "Planting and harvest windows are measured in days, and a dealer that cannot supply parts or dispatch service during them fails customers at the only moment that matters. Parts inventory across dealer locations is checked live during those weeks.",
+      "loss_scenario": "A farmer losing planting or harvest days because parts could not be located, with the resulting yield loss claimed against the dealer and the account lost permanently.",
+      "rhetorical_question": "How do you locate parts across dealer locations during planting and harvest?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment finance and floor plan run against unit records.",
+      "why_this_business": "New and used inventory is floor planned, and customer purchases are financed through manufacturer credit with applications containing personal and farm financial information. Trade-in valuations and unit histories sit in the dealer management system.",
+      "loss_scenario": "A breach exposing customer credit applications and farm financial statements, plus floor plan audit failures where unit records cannot be reconciled.",
+      "rhetorical_question": "Does your dealership process customer finance applications containing personal financial data?"
+    }
+  ]
+}

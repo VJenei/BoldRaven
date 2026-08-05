@@ -1,0 +1,31 @@
+{
+  "naics_code": "316990",
+  "naics_title": "Other Leather and Allied Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Leather goods manufacturing holds brand owners' designs.",
+      "why_this_business": "Manufacturers produce handbags, belts, and accessories for brands under licence or contract, holding designs, patterns, hardware specifications, and brand marks before products launch. Counterfeiting of these categories is extensive.",
+      "loss_scenario": "Design and specification disclosure enabling counterfeit production ahead of launch, with brand owners holding the manufacturer responsible and terminating the relationship permanently.",
+      "rhetorical_question": "Do you hold unreleased designs for branded leather goods?"
+    },
+    {
+      "rank": 2,
+      "headline": "Restricted substances in leather goods are enforced.",
+      "why_this_business": "Leather goods are subject to restricted substance limits including chromium VI and azo dyes in some markets, with testing and documentation required by customers and, for children's products, CPSC lead limits.",
+      "loss_scenario": "Product failing restricted substance testing at the customer or at import, requiring destruction, and for children's products, CPSC recall action.",
+      "rhetorical_question": "How do you document restricted substance compliance for the leather you use?"
+    },
+    {
+      "rank": 3,
+      "headline": "Custom and small batch production is specification driven.",
+      "why_this_business": "Production runs to customer specifications for materials, hardware, dimensions, and finishing, with each order specific and frequently in small quantities. Specifications and patterns define what is made.",
+      "loss_scenario": "Wrong specification production unsaleable to another customer, with material and labour lost and the customer's launch or order date missed.",
+      "rhetorical_question": "How are customer specifications recorded and issued to production?"
+    }
+  ]
+}

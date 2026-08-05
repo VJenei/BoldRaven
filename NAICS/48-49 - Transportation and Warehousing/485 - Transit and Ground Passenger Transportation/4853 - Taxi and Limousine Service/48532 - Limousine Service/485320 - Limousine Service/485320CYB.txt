@@ -1,0 +1,31 @@
+{
+  "naics_code": "485320",
+  "naics_title": "Limousine Service",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Client itineraries identify where important people will be and when.",
+      "why_this_business": "Executive and VIP transport holds passenger names, pickup addresses, destinations, flight details, and schedules for clients who often have security concerns. Corporate accounts book travel for executives whose movements are commercially and personally sensitive.",
+      "loss_scenario": "Exposure of client movement schedules creates a physical security exposure and a confidentiality failure with corporate accounts, which are the stable revenue base of the business.",
+      "rhetorical_question": "Do your reservations record named passengers with addresses and timing?"
+    },
+    {
+      "rank": 2,
+      "headline": "Corporate accounts are billed on records you must be able to produce.",
+      "why_this_business": "Corporate and law firm accounts are invoiced monthly with trip detail, cost codes, and passenger attribution for client billback. Those clients audit invoices and require detail matching their own records.",
+      "loss_scenario": "Unbillable trips and rejected invoices where trip detail cannot be produced, on accounts that represent recurring predictable revenue.",
+      "rhetorical_question": "How much trip detail must you provide for corporate clients to pay an invoice?"
+    },
+    {
+      "rank": 3,
+      "headline": "Reservations for dated events cannot be recreated.",
+      "why_this_business": "Weddings, proms, and events are booked months ahead with deposits, specific vehicles, and timing tied to an event that will not move. The reservation record is the only version of what was agreed.",
+      "loss_scenario": "Customers arriving for events with no vehicle assigned, on dates that cannot be redone, generating claims and public complaints that destroy a local reputation.",
+      "rhetorical_question": "How many dated event reservations with deposits are you currently holding?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "813930",
+  "naics_title": "Labor Unions and Similar Labor Organizations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Membership itself is information workers may need protected.",
+      "why_this_business": "Unions hold membership lists, dues records, employment details, and organising activity data. During organising campaigns, the identity of supporters is precisely what employers would want and what labour law protects. Grievance files document workplace disputes with named individuals.",
+      "loss_scenario": "Exposure of organising committee membership and supporter identities during a campaign, which exposes workers to retaliation and can defeat the campaign entirely, with unfair labour practice consequences that do not undo the harm.",
+      "rhetorical_question": "Do your records identify workers supporting an active organising campaign?"
+    },
+    {
+      "rank": 2,
+      "headline": "Benefit and pension administration involves fiduciary duties.",
+      "why_this_business": "Unions administer or participate in benefit and pension funds holding member Social Security numbers, contribution histories, beneficiary designations, and banking details, with trustees carrying ERISA fiduciary obligations and Department of Labor guidance addressing cybersecurity.",
+      "loss_scenario": "Fraudulent distributions from member benefit accounts and fiduciary breach claims against trustees personally, plus exposure of member financial and family data.",
+      "rhetorical_question": "Do you administer benefit or pension funds holding member account data?"
+    },
+    {
+      "rank": 3,
+      "headline": "Grievance and arbitration files document workplace disputes.",
+      "why_this_business": "Unions hold grievance files, disciplinary records, medical documentation supporting accommodation requests, and internal assessments of members' cases. Members disclose freely because representation depends on it.",
+      "loss_scenario": "Exposure of grievance and medical documentation to employers, which damages members' positions in active disputes and their employment prospects generally.",
+      "rhetorical_question": "Do your grievance files contain members' medical documentation?"
+    }
+  ]
+}

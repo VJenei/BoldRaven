@@ -1,0 +1,31 @@
+{
+  "naics_code": "611692",
+  "naics_title": "Automobile Driving Schools",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Completion certificates are required for licensing.",
+      "why_this_business": "Driver education completion is required for licensing in many states, particularly for minors, with schools certifying hours of classroom and behind-the-wheel instruction to the licensing authority. Certificates are controlled documents in some states.",
+      "loss_scenario": "Students unable to obtain licences because completion cannot be certified, with instruction already paid for and delivered, and licensing authority action where certification records cannot be produced.",
+      "rhetorical_question": "How do you record and certify instruction hours to the licensing authority?"
+    },
+    {
+      "rank": 2,
+      "headline": "Most students are teenagers and you hold their schedules.",
+      "why_this_business": "Driving schools enrol minors, holding names, addresses, ages, parent contact details, and lesson schedules including pickup locations. Instructors are alone in a vehicle with a minor for extended periods.",
+      "loss_scenario": "Exposure of minors' names, addresses, and lesson pickup times, which is a direct child safety concern, plus instructor screening records that must be produced after any allegation.",
+      "rhetorical_question": "Do your records show where and when instructors collect minor students?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vehicle and instructor records support every lesson.",
+      "why_this_business": "Schools must maintain instructor certification, vehicle inspection and insurance, and dual-control equipment records, examined during state audits and after any collision involving a student driver.",
+      "loss_scenario": "State action for records that cannot be produced, and after a collision the instructor certification and vehicle inspection record determines the outcome of litigation involving an inexperienced minor driver.",
+      "rhetorical_question": "How are instructor certification and vehicle inspection records maintained?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "523999",
+  "naics_title": "Miscellaneous Financial Investment Activities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Financial firms are targeted because the payoff is immediate.",
+      "why_this_business": "Firms in this category hold client funds, account access, and financial data in operations that are frequently small relative to the assets they touch. Attackers target the finance sector because compromised access converts to money directly rather than through resale.",
+      "loss_scenario": "Fraudulent transfers from client accounts, with the firm responsible for verifying instructions and bearing losses that can exceed its own capital.",
+      "rhetorical_question": "What is the largest single transfer your firm could execute on a client instruction?"
+    },
+    {
+      "rank": 2,
+      "headline": "Regulatory obligations apply regardless of firm size.",
+      "why_this_business": "Registered firms face books and records, privacy, and incident response requirements including, for advisers and broker-dealers, notification of affected individuals within 30 days under amended Regulation S-P. Small firms carry the same obligations as large ones.",
+      "loss_scenario": "Enforcement for programme deficiencies and notification failures, examined against the same standards applied to firms with dedicated compliance and technology functions.",
+      "rhetorical_question": "Which regulatory incident notification obligations apply to your firm?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client data supports impersonation of both client and firm.",
+      "why_this_business": "Client files hold identity documents, account numbers, holdings, and communication history. That information allows an attacker to impersonate the client convincingly to the firm, and the firm convincingly to the client's other institutions.",
+      "loss_scenario": "Losses at institutions other than yours, caused by information taken from your systems, with those institutions and the client looking to you as the source.",
+      "rhetorical_question": "What could someone do with your client files at your clients' other financial institutions?"
+    }
+  ]
+}

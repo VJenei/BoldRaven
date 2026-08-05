@@ -1,0 +1,31 @@
+{
+  "naics_code": "336992",
+  "naics_title": "Military Armored Vehicle, Tank, and Tank Component Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Vehicle designs are controlled defence technology.",
+      "why_this_business": "Armoured vehicle designs, armour specifications, and survivability data are ITAR controlled defence articles. Armour performance data in particular describes exactly how to defeat the vehicle.",
+      "loss_scenario": "Exposure of armour and survivability data to an adversary, which places deployed crews at direct risk and is a national security matter with criminal and debarment consequences.",
+      "rhetorical_question": "How is access to armour and survivability data restricted and logged?"
+    },
+    {
+      "rank": 2,
+      "headline": "Defence contracts require demonstrated cybersecurity compliance.",
+      "why_this_business": "Contractors handling controlled unclassified information must meet NIST SP 800-171 with an SPRS score, with CMMC requirements in contracts, and classified work adds facility clearance obligations.",
+      "loss_scenario": "Loss of contract eligibility or facility clearance after an incident or failed assessment, ending participation in programmes that constitute the entire business.",
+      "rhetorical_question": "What is your SPRS score, and what CMMC level do your contracts require?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vehicle systems are software governed and crew survival depends on them.",
+      "why_this_business": "Armoured vehicles contain fire suppression, protection, and vehicle control systems under software control. Failure of a protection system during an engagement means crew casualties.",
+      "loss_scenario": "A software or system defect affecting crew protection systems, discovered in operational use, requiring fleet-wide correction and with casualties where the failure occurred in action.",
+      "rhetorical_question": "How is vehicle system software version controlled through production and fielding?"
+    }
+  ]
+}

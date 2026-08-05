@@ -1,0 +1,31 @@
+{
+  "naics_code": "423690",
+  "naics_title": "Other Electronic Parts and Equipment Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Counterfeit electronic components are a documented supply chain crisis.",
+      "why_this_business": "Counterfeit and substandard semiconductors enter through unauthorised brokers and end up in aerospace, defence, and medical products. Federal defence rules impose counterfeit detection and avoidance obligations and require sourcing from authorised distributors or documented alternatives. Traceability records are the evidence of legitimate sourcing.",
+      "loss_scenario": "Counterfeit parts in a defence or medical assembly trigger recall, government investigation, potential False Claims Act exposure, and permanent removal from qualified supplier lists.",
+      "rhetorical_question": "How do you document the source and authorisation chain for each lot of components?"
+    },
+    {
+      "rank": 2,
+      "headline": "Allocation and shortage periods concentrate enormous value in inventory.",
+      "why_this_business": "Semiconductor shortages make ordinary components worth many times list price, and brokers trade actively against real-time inventory and pricing data. Position and cost data determines what to hold and what to sell.",
+      "loss_scenario": "Loss of position visibility during an allocation period, plus theft of inventory whose market value may be many times its book value.",
+      "rhetorical_question": "How does the market value of your inventory compare to its book value today?"
+    },
+    {
+      "rank": 3,
+      "headline": "Component traceability supports customer quality systems.",
+      "why_this_business": "Customers running AS9100, ISO 13485, or automotive quality systems require date code, lot, and manufacturer traceability from their distributors, and audit for it. Certificates of conformance accompany shipments.",
+      "loss_scenario": "Failed customer audits and removal from approved supplier lists, which in regulated manufacturing takes years to regain.",
+      "rhetorical_question": "Which customer quality standards require you to provide lot traceability?"
+    }
+  ]
+}

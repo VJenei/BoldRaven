@@ -1,0 +1,31 @@
+{
+  "naics_code": "921190",
+  "naics_title": "Other General Government Support",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Support functions serve every department at once.",
+      "why_this_business": "Centralised procurement, human resources, records, and facilities functions serve all departments of a governmental unit. A failure in a shared support function affects every service the government delivers.",
+      "loss_scenario": "Government-wide disruption from a single support function failure, with departments unable to procure, pay staff, or access records, and no alternative internal capability.",
+      "rhetorical_question": "How many departments depend on the support functions your office provides?"
+    },
+    {
+      "rank": 2,
+      "headline": "Employee records cover the entire government workforce.",
+      "why_this_business": "Human resources functions hold Social Security numbers, banking details, benefits and medical information, and background investigation results for all government employees, including law enforcement and public safety personnel.",
+      "loss_scenario": "Breach exposing the entire government workforce, with particular sensitivity around law enforcement personnel whose home addresses and family details create personal safety risk.",
+      "rhetorical_question": "Do your employee records include law enforcement personnel and their home addresses?"
+    },
+    {
+      "rank": 3,
+      "headline": "Procurement holds vendor data and competitive information.",
+      "why_this_business": "Procurement functions hold sealed bids, vendor financial information, evaluation scoring, and contract terms. Disclosure of bid information before award undermines the competitive process and can constitute procurement fraud.",
+      "loss_scenario": "Bid information disclosed before award, invalidating procurements, triggering protests, and potentially attracting criminal investigation into how the information was obtained.",
+      "rhetorical_question": "How is sealed bid information protected before the opening date?"
+    }
+  ]
+}

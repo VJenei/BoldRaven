@@ -1,0 +1,31 @@
+{
+  "naics_code": "488390",
+  "naics_title": "Other Support Activities for Water Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Marine terminals and service providers operate inside regulated facilities.",
+      "why_this_business": "Operators in this category work within MTSA-regulated port facilities under approved security plans, with credentialed access and, since July 16, 2025, cybersecurity requirements including incident reporting to the National Response Center and a Cybersecurity Officer, assessment, and plan by July 16, 2027.",
+      "loss_scenario": "Loss of facility access authorisation halts operations entirely, and a compromise originating with your systems is a security incident for the facility operator as well as for you.",
+      "rhetorical_question": "Which regulated facilities do you operate within, and under whose security plan?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cargo surveys and inspection records determine who bears a loss.",
+      "why_this_business": "Marine surveyors, tallymen, and inspection services produce the records establishing cargo condition and quantity at load and discharge. Those documents decide claims between shippers, carriers, and insurers on cargoes worth millions.",
+      "loss_scenario": "Professional liability where survey records cannot be produced, leaving parties to a cargo dispute with no independent evidence and the surveyor blamed for the resulting loss allocation.",
+      "rhetorical_question": "How long do you retain survey and tally records after a cargo operation?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vessel services are scheduled against arrivals that do not wait.",
+      "why_this_business": "Bunkering, provisioning, waste reception, and repair services are scheduled against vessel port stays measured in hours. A vessel sails on its schedule whether or not the service was completed.",
+      "loss_scenario": "Missed service windows leave vessels sailing unprovisioned or unbunkered, with the operator claiming the cost of deviation or delay against the service provider.",
+      "rhetorical_question": "How long is a typical port stay for the vessels you service?"
+    }
+  ]
+}

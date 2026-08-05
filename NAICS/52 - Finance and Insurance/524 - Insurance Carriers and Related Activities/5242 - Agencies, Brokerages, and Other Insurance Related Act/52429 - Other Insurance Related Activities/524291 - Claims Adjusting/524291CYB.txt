@@ -1,0 +1,31 @@
+{
+  "naics_code": "524291",
+  "naics_title": "Claims Adjusting",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Claim files hold medical records for people who are not your clients.",
+      "why_this_business": "Adjusters collect medical records, wage documentation, recorded statements, and investigative material about claimants, who have no relationship with the adjusting firm and did not choose to provide data to it. Workers compensation and liability files are particularly detailed.",
+      "loss_scenario": "Breach exposing claimant medical and financial records, where the affected individuals never contracted with you, plus contractual liability to the carriers whose data you held.",
+      "rhetorical_question": "How many claimant files containing medical records are held in your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Catastrophe response depends on deploying and coordinating at scale.",
+      "why_this_business": "After a major event, adjusting firms deploy hundreds of adjusters coordinated through claims systems assigning inspections, capturing estimates and photographs, and transmitting to carriers. Policyholders are waiting on inspection to begin repairs.",
+      "loss_scenario": "Delayed claims handling during a catastrophe response, which regulators and the public scrutinise intensely, with carrier contracts at risk and state departments of insurance intervening on behalf of policyholders.",
+      "rhetorical_question": "How are adjusters assigned and estimates transmitted during a catastrophe deployment?"
+    },
+    {
+      "rank": 3,
+      "headline": "You are a service provider inside carriers' regulatory perimeter.",
+      "why_this_business": "State insurance data security laws require carriers to oversee third-party service providers and impose security obligations by contract. Adjusting firms are precisely those providers and carry contractual and, in some states, direct obligations.",
+      "loss_scenario": "Loss of carrier panel appointments following a security incident, which for an adjusting firm removes the source of all work, plus indemnity claims under the service agreements.",
+      "rhetorical_question": "What security obligations do your carrier service agreements impose on you?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "325130",
+  "naics_title": "Synthetic Dye and Pigment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Colour formulations are the technical asset.",
+      "why_this_business": "Dye and pigment manufacturers develop formulations and synthesis routes producing specific shades and performance characteristics, matched to customer standards. Those formulations represent long development investment.",
+      "loss_scenario": "Formulation and process disclosure hands competitors the technical basis of the product line, and loss of formulations means colours that cannot be reproduced for customers who have built products around them.",
+      "rhetorical_question": "How are your synthesis routes and colour formulations protected?"
+    },
+    {
+      "rank": 2,
+      "headline": "Batch chemistry runs to tight parameters with hazardous materials.",
+      "why_this_business": "Synthesis involves reactive chemistry with temperature, addition rate, and pH control determining both the product and the safety of the reaction. Runaway reactions in dye chemistry produce fires and toxic releases.",
+      "loss_scenario": "A runaway reaction causing fire or release with worker injury and community exposure, and process safety documentation examined by investigators afterward.",
+      "rhetorical_question": "How are reaction parameters monitored and interlocked during batch chemistry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Colourant regulation covers food, cosmetic, and textile uses.",
+      "why_this_business": "Colour additives for food, drug, and cosmetic use require FDA listing and in many cases batch certification, while textile dyes face restricted substance limits including azo dyes releasing regulated amines.",
+      "loss_scenario": "Uncertified or non-compliant colourant entering food, cosmetic, or textile products, with recall reaching consumer products and regulatory action against the manufacturer.",
+      "rhetorical_question": "Do you produce colour additives requiring FDA batch certification?"
+    }
+  ]
+}

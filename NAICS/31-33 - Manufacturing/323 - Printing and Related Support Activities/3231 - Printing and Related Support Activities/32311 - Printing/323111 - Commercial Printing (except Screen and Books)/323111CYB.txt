@@ -1,0 +1,31 @@
+{
+  "naics_code": "323111",
+  "naics_title": "Commercial Printing (except Screen and Books)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold customers' confidential documents before publication.",
+      "why_this_business": "Commercial printers receive financial statements, annual reports, legal notices, marketing campaigns, and product launch materials before they are public. Financial printing in particular involves material non-public information.",
+      "loss_scenario": "Premature disclosure of financial results or unannounced campaigns, with securities implications for listed customers and contractual liability to every affected client.",
+      "rhetorical_question": "Do you print financial or legal documents before they become public?"
+    },
+    {
+      "rank": 2,
+      "headline": "Variable data printing holds customer mailing lists.",
+      "why_this_business": "Direct mail and personalised printing requires customer databases with names, addresses, and frequently account, health, or financial information used for personalisation. Those individuals have no relationship with the printer.",
+      "loss_scenario": "Breach exposing customer mailing databases containing account and personal data, with notification obligations flowing through the client and, where health or financial data is involved, sector-specific regulation.",
+      "rhetorical_question": "What customer data is loaded into your variable data printing systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Press deadlines are set by mail dates and event dates.",
+      "why_this_business": "Print jobs run to delivery dates tied to mail drops, events, and publication schedules, with press time booked and postal induction scheduled. A missed press slot pushes everything behind it.",
+      "loss_scenario": "Missed mail dates and event deliveries where the customer's campaign or event proceeds without the printed material, with claims measured by the campaign value rather than the print price.",
+      "rhetorical_question": "What customer mail and event dates depend on your press schedule?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "334512",
+  "naics_title": "Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Thermostats and controls are connected devices in homes and buildings.",
+      "why_this_business": "Environmental controls now connect to home and building networks and to manufacturer cloud platforms, with mobile applications, occupancy data, and remote control. Occupancy patterns reveal when a building is empty.",
+      "loss_scenario": "Compromise of the control platform giving access to occupancy data and remote control across an installed base, with privacy exposure and buildings left in unsafe temperature conditions.",
+      "rhetorical_question": "What data do your connected controls send to platforms you operate?"
+    },
+    {
+      "rank": 2,
+      "headline": "Controls prevent equipment operating in unsafe conditions.",
+      "why_this_business": "Environmental and appliance controls include limit functions preventing overheating and unsafe operation, with safety agency listings depending on those functions performing as designed.",
+      "loss_scenario": "A control or firmware defect defeating a limit function, with equipment overheating and causing fires, and recall across every product containing the control.",
+      "rhetorical_question": "Do your controls perform safety limit functions in the equipment they are fitted to?"
+    },
+    {
+      "rank": 3,
+      "headline": "Controls are embedded in other manufacturers' products.",
+      "why_this_business": "Controls are supplied to appliance and equipment manufacturers who build them into their products. A defect in the control becomes a recall of every finished product containing it.",
+      "loss_scenario": "A control defect requiring recall of appliances and equipment across many manufacturers, with the recall cost driven by the finished products rather than the control.",
+      "rhetorical_question": "How many finished product models contain your controls?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "331524",
+  "naics_title": "Aluminum Foundries (except Die-Casting)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Molten aluminium and moisture produce explosions.",
+      "why_this_business": "Aluminium foundries melt and pour metal into sand and permanent moulds, with moisture in moulds, tools, or charge material causing steam explosions. This has killed foundry workers repeatedly.",
+      "loss_scenario": "A molten metal explosion with worker fatalities and severe burns, investigated against moisture control and charge inspection procedures.",
+      "rhetorical_question": "How is moisture controlled in your charge material, tooling, and moulds?"
+    },
+    {
+      "rank": 2,
+      "headline": "Casting quality determines performance in customer applications.",
+      "why_this_business": "Aluminium castings serve automotive, aerospace, and industrial applications with porosity, dimensional, and mechanical requirements verified by testing and radiography. Internal defects are not visible externally.",
+      "loss_scenario": "Castings with internal porosity or wrong properties entering pressure or structural applications, failing in service with the defect invisible until failure.",
+      "rhetorical_question": "How are radiographic and mechanical test results recorded per casting lot?"
+    },
+    {
+      "rank": 3,
+      "headline": "Patterns and tooling are customer-specific assets held at the foundry.",
+      "why_this_business": "Foundries hold customer patterns, core boxes, and permanent moulds with qualified process parameters. Transferring production requires moving tooling and requalifying.",
+      "loss_scenario": "Customer production stopped with no alternative foundry tooled for the parts, and requalification required even if tooling can be moved.",
+      "rhetorical_question": "How many customer-owned patterns and moulds are held at your foundry?"
+    }
+  ]
+}

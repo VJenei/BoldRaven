@@ -1,0 +1,31 @@
+{
+  "naics_code": "488119",
+  "naics_title": "Other Airport Operations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Airport operating systems control access to secure areas.",
+      "why_this_business": "Airports run credentialing and access control for security identification display areas, with badging records, background check results, and door and gate control. TSA requires airport security programmes governing access to sterile and secure areas.",
+      "loss_scenario": "A compromise of access control or badging is a security incident with TSA enforcement, potential suspension of operations, and a credentialling population that must be re-vetted and re-badged.",
+      "rhetorical_question": "How is your badging and access control system protected and monitored?"
+    },
+    {
+      "rank": 2,
+      "headline": "Common use systems run check-in, gates, and baggage for every airline.",
+      "why_this_business": "Airports operate common use passenger processing, flight information displays, baggage handling, and gate management shared across carriers. One system supports every airline at the airport, and baggage systems are physical automation with sortation logic.",
+      "loss_scenario": "Check-in and baggage handling fail for all carriers simultaneously, with flights delayed or cancelled across the airport and bags separated from passengers in volumes that take days to resolve.",
+      "rhetorical_question": "How many airlines depend on your common use systems to operate?"
+    },
+    {
+      "rank": 3,
+      "headline": "Airfield systems and utilities keep the runway usable.",
+      "why_this_business": "Airfield lighting control, navigational aid monitoring, fuel farm systems, and de-icing operations are controlled and monitored electronically. Runway and taxiway lighting configuration is safety critical at night and in low visibility.",
+      "loss_scenario": "Loss of airfield lighting control closes the airport in darkness or low visibility, and incorrect lighting configuration creates a runway incursion or wrong surface landing exposure.",
+      "rhetorical_question": "How is your airfield lighting control system secured and monitored?"
+    }
+  ]
+}

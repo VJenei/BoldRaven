@@ -1,0 +1,31 @@
+{
+  "naics_code": "541211",
+  "naics_title": "Offices of Certified Public Accountants",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The IRS requires tax professionals to have a written security plan.",
+      "why_this_business": "Tax preparers are subject to the FTC Safeguards Rule as financial institutions, and the IRS requires a written information security plan as a condition of maintaining a preparer tax identification number. Guidance is explicit that this is mandatory, not advisory.",
+      "loss_scenario": "IRS and FTC exposure for the absence of a documented plan, examined separately from the breach, plus the practical consequence that compromised preparer credentials are used to file fraudulent returns.",
+      "rhetorical_question": "Do you have a written information security plan as required for your PTIN?"
+    },
+    {
+      "rank": 2,
+      "headline": "Client files hold everything needed to impersonate a taxpayer.",
+      "why_this_business": "Accountants hold Social Security numbers for clients, spouses, and dependants, income documentation, bank account details, and prior year returns. Preparer software credentials allow filing on behalf of every client in the practice.",
+      "loss_scenario": "Fraudulent returns filed for clients using your credentials, which delays legitimate refunds and creates months of remediation per client, plus notification obligations across the whole practice.",
+      "rhetorical_question": "How many client records with Social Security numbers for entire families do you hold?"
+    },
+    {
+      "rank": 3,
+      "headline": "Filing deadlines are statutory and concentrated.",
+      "why_this_business": "Tax practice is driven by filing deadlines with the majority of work compressed into short periods. Extensions exist but penalties and client consequences attach to missed deadlines, and audit and attest engagements carry their own reporting dates.",
+      "loss_scenario": "Missed filing deadlines across a client base during filing season, with penalties and interest that clients will look to the accountant to cover, plus reputational damage in a referral-driven profession.",
+      "rhetorical_question": "How many client returns are due in your busiest filing week?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "621910",
+  "naics_title": "Ambulance Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Dispatch and response is a life safety function.",
+      "why_this_business": "Emergency medical services depend on computer aided dispatch, unit status, and navigation to route the nearest appropriate resource to a call. Response times are measured in minutes and are the difference in cardiac arrest and trauma outcomes.",
+      "loss_scenario": "Delayed or misrouted response to time-critical emergencies, which is a preventable death exposure with liability, regulatory review, and public consequences that are immediate and severe.",
+      "rhetorical_question": "How would units be dispatched and routed if your CAD system failed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Patient care reports are clinical and billing records simultaneously.",
+      "why_this_business": "Electronic patient care reports document assessment, interventions, medications, and transport, used for hospital handover, medical direction review, quality assurance, and billing. Medicare requires documentation of medical necessity for transport.",
+      "loss_scenario": "Unbillable transports and clinical records unavailable for hospital handover and for defence of care decisions, plus payer recoupment where medical necessity cannot be documented.",
+      "rhetorical_question": "How is patient care documentation transferred to receiving hospitals?"
+    },
+    {
+      "rank": 3,
+      "headline": "Controlled substances are carried on every unit.",
+      "why_this_business": "Ambulances carry controlled substances for pain management and sedation under DEA registration, with accountability records for every dose administered, wasted, or restocked. Diversion by personnel is a recognised problem in EMS.",
+      "loss_scenario": "DEA findings where controlled substance records cannot be reconciled, with diversion investigations that the service must respond to using records that no longer exist.",
+      "rhetorical_question": "How are controlled substance administrations and waste documented on each unit?"
+    }
+  ]
+}

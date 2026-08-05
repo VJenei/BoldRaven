@@ -1,0 +1,31 @@
+{
+  "naics_code": "541420",
+  "naics_title": "Industrial Design Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold clients' unreleased product designs.",
+      "why_this_business": "Industrial designers develop product form, function, and manufacturing detail before launch, holding CAD models, prototypes, and specifications for products that have not been announced. Design patents and trade dress depend on the design not being publicly disclosed before filing.",
+      "loss_scenario": "A leaked product design allows competitors to copy ahead of launch and can defeat design patent and trade dress protection through prior disclosure, with the client's entire product programme compromised.",
+      "rhetorical_question": "How many clients' unreleased product designs are on your systems at once?"
+    },
+    {
+      "rank": 2,
+      "headline": "Design files drive tooling that costs more than the design work.",
+      "why_this_business": "Production tooling is cut from design files, with injection moulds and dies costing far more than the design engagement. A wrong or corrupted file produces tooling that must be scrapped or reworked.",
+      "loss_scenario": "Scrapped tooling and a delayed product launch, where the tooling cost alone can exceed the design fee by an order of magnitude and the launch window may be tied to a trade show or season.",
+      "rhetorical_question": "What does the tooling built from your files typically cost?"
+    },
+    {
+      "rank": 3,
+      "headline": "Confidentiality agreements impose direct contractual liability.",
+      "why_this_business": "Design engagements are governed by non-disclosure agreements with specific obligations about how client material is stored, transmitted, and destroyed. Clients in consumer electronics and automotive impose detailed security requirements.",
+      "loss_scenario": "Breach of contractual confidentiality obligations with liability defined by the agreement rather than by the fee, and loss of the client relationships that a small design firm depends on.",
+      "rhetorical_question": "What do your client NDAs require you to do to protect their material?"
+    }
+  ]
+}

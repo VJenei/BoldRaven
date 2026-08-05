@@ -1,0 +1,31 @@
+{
+  "naics_code": "512230",
+  "naics_title": "Music Publishers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The catalogue exists as rights data, not as recordings.",
+      "why_this_business": "A publisher's asset is ownership shares in compositions, documented through agreements, splits, registrations with performing rights organisations, and territory-by-territory claims. The music itself is not the asset. The documentation of who owns what percentage is.",
+      "loss_scenario": "Unprovable ownership shares mean royalties cannot be claimed or are claimed by others, and catalogue valuation for sale or financing collapses without demonstrable rights documentation.",
+      "rhetorical_question": "How are your ownership splits and rights registrations documented and backed up?"
+    },
+    {
+      "rank": 2,
+      "headline": "Royalty collection depends on matching usage to registrations.",
+      "why_this_business": "Royalties flow from performing rights organisations, mechanical licensing collectives, and digital platforms based on registrations matching reported usage. Unmatched usage sits unclaimed. Registration accuracy directly determines income.",
+      "loss_scenario": "Royalties that go unclaimed or misallocated across reporting periods, with recovery of historical unmatched income difficult and often impossible after statutory windows pass.",
+      "rhetorical_question": "How much of your income depends on registrations matching correctly at the collecting societies?"
+    },
+    {
+      "rank": 3,
+      "headline": "Writer agreements and advances are long-term financial obligations.",
+      "why_this_business": "Publishers hold songwriter agreements with advances recoupable against future royalties, tracked over many years. Statement generation, recoupment balances, and payment details are held for writers who depend on this income.",
+      "loss_scenario": "Unreconcilable recoupment balances create disputes with writers and their representatives, and delayed statements breach contractual accounting obligations that carry audit rights.",
+      "rhetorical_question": "How many writer accounts with recoupable advances are you tracking?"
+    }
+  ]
+}

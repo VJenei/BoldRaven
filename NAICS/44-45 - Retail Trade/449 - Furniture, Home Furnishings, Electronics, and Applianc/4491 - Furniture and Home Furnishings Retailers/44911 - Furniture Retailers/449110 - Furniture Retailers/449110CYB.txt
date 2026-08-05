@@ -1,0 +1,31 @@
+{
+  "naics_code": "449110",
+  "naics_title": "Furniture Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "In-store financing brings federal information security obligations.",
+      "why_this_business": "Furniture retailers offering promotional financing arrange credit and are financial institutions under the Gramm-Leach-Bliley Act, subject to the FTC Safeguards Rule. Since June 9, 2023 that requires a written security programme, a qualified individual, multi-factor authentication, encryption of customer information, and an incident response plan.",
+      "loss_scenario": "FTC enforcement plus notification for credit applications containing Social Security numbers, income, and bank details, on a customer base that applied for financing at the counter.",
+      "rhetorical_question": "Do you offer in-store financing, and do you have a written information security programme?"
+    },
+    {
+      "rank": 2,
+      "headline": "Special orders are committed months ahead against a customer deposit.",
+      "why_this_business": "Custom upholstery, finishes, and configurations are ordered to the customer's selection with deposits taken and lead times of eight to twenty weeks. The order record holds the fabric, finish, and configuration selected. Nothing about a custom piece can be reconstructed from memory.",
+      "loss_scenario": "Lost order records mean furniture ordered wrong or not at all, with customers who paid deposits months earlier and no way to reproduce what they selected.",
+      "rhetorical_question": "How many customer special orders with deposits are outstanding right now?"
+    },
+    {
+      "rank": 3,
+      "headline": "Delivery scheduling is the last impression and the most common complaint.",
+      "why_this_business": "Furniture retail schedules home delivery windows, coordinates warehouse pick and load, and manages assembly and damage claims. Customers take time off work for a delivery window. Routing and scheduling run entirely on software.",
+      "loss_scenario": "Missed delivery windows across a full schedule, generating chargebacks, cancelled sales, and public complaints in a category where reviews drive most new customers.",
+      "rhetorical_question": "How many home deliveries do you schedule in a typical week?"
+    }
+  ]
+}

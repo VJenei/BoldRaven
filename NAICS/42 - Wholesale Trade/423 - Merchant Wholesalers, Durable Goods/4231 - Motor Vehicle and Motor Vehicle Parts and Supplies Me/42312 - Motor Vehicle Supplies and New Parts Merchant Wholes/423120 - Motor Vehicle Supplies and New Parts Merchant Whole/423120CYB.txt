@@ -1,0 +1,31 @@
+{
+  "naics_code": "423120",
+  "naics_title": "Motor Vehicle Supplies and New Parts Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Orders arrive electronically all day and cannot be taken by phone at volume.",
+      "why_this_business": "Parts distribution runs on electronic catalogues and ordering integrated with jobbers, repair shops, and dealerships, with multiple deliveries a day on a promised turnaround. Catalogue data ties part numbers to vehicle applications. Shops order the part while the car is on the lift.",
+      "loss_scenario": "An ordering outage sends every repair shop to the competing distributor within hours, and shops that switch supplier during an outage frequently do not switch back.",
+      "rhetorical_question": "How many orders per day arrive through your electronic catalogue and ordering system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Counterfeit parts liability follows the distributor.",
+      "why_this_business": "Counterfeit brake, steering, and airbag components enter the supply chain through unauthorised sourcing. Distributors rely on purchase records, supplier authorisation, and lot traceability to demonstrate they sourced legitimately. Safety-critical counterfeits cause deaths and the resulting litigation traces the chain of distribution.",
+      "loss_scenario": "A product liability claim on a counterfeit safety component where sourcing records cannot be produced, leaving the distributor unable to shift responsibility up the chain.",
+      "rhetorical_question": "How do you document the source and authorisation for safety-critical parts?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer credit accounts are opened remotely and abused deliberately.",
+      "why_this_business": "Distributors extend trade credit to repair shops and jobbers on applications containing business and personal guarantor information, often processed with minimal in-person contact. Fraudulent account openings followed by a large order and disappearance are a recognised pattern in wholesale distribution.",
+      "loss_scenario": "A fraudulent account takes delivery of a large order that is never paid, plus a breach of the credit application file exposing guarantors' personal and financial information.",
+      "rhetorical_question": "What information do you collect on a credit application, and where is it stored?"
+    }
+  ]
+}

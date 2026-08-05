@@ -1,0 +1,31 @@
+{
+  "naics_code": "721199",
+  "naics_title": "All Other Traveler Accommodation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Reservation systems hold guest identity and payment data.",
+      "why_this_business": "Accommodation operators hold guest names, contact details, identity documents where required, payment methods, and stay histories, frequently through third-party booking platforms as well as direct systems.",
+      "loss_scenario": "Breach notification across a guest base spanning many jurisdictions, with payment data and, where identity documents are collected, more damaging identity exposure.",
+      "rhetorical_question": "Do you collect identity documents from guests, and how long are they retained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Access control and guest room systems are increasingly networked.",
+      "why_this_business": "Electronic locks, room controls, and guest device connectivity are managed through property systems. Guests occupy rooms secured by those systems and connect their own devices to property networks.",
+      "loss_scenario": "Unauthorised room access, which is a guest safety exposure rather than a data one, and guest devices compromised through property networks, with the operator identified as the source.",
+      "rhetorical_question": "How are your electronic door locks managed and who can issue credentials?"
+    },
+    {
+      "rank": 3,
+      "headline": "Occupancy and rate management drive the whole economics.",
+      "why_this_business": "Revenue depends on managing rates and availability across direct and platform channels in real time. Rooms are perishable inventory and a night not sold is gone.",
+      "loss_scenario": "Inability to manage rates and availability during peak demand, with rooms unsold or oversold, and channel disconnections that suppress visibility long after the outage.",
+      "rhetorical_question": "How many booking channels does your availability need to stay synchronised across?"
+    }
+  ]
+}

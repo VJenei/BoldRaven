@@ -1,0 +1,31 @@
+{
+  "naics_code": "712110",
+  "naics_title": "Museums",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Collection records establish what you hold and who owns it.",
+      "why_this_business": "Collection management systems record accession, provenance, valuation, condition, and location for every object. Provenance documentation determines whether an object can be lawfully held, lent, or sold, and is central to restitution claims involving looted or improperly acquired items.",
+      "loss_scenario": "Objects whose provenance cannot be documented become unlendable and vulnerable to restitution claims, and loss of location data in a large collection means objects that cannot be found.",
+      "rhetorical_question": "Could you produce complete provenance documentation for a contested object?"
+    },
+    {
+      "rank": 2,
+      "headline": "Security system information describes how the collection is protected.",
+      "why_this_business": "Museums hold building security plans, camera coverage, alarm configurations, and object location and valuation data. Combined, that describes exactly what is worth taking and how it is guarded.",
+      "loss_scenario": "Theft informed by internal security and valuation data, on objects that are frequently irreplaceable and, once stolen, rarely recovered.",
+      "rhetorical_question": "Do your systems hold both object valuations and security arrangements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Donor records fund the institution and contain sensitive assessments.",
+      "why_this_business": "Museums depend on philanthropy, holding donor giving histories, wealth capacity assessments, internal relationship notes, and planned giving and bequest information. Bequest data reveals estate intentions donors have not disclosed to their families.",
+      "loss_scenario": "Exposure of capacity assessments and bequest intentions damages relationships with the major donors who fund operations, and reveals estate plans donors deliberately kept private.",
+      "rhetorical_question": "Do your donor records contain wealth assessments or bequest intentions?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "532310",
+  "naics_title": "General Rental Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Equipment is high value, portable, and frequently stolen.",
+      "why_this_business": "Rental centres hold generators, compressors, tools, and small equipment that is valuable, easily transported, and readily resold. Rental records identify what is out, where it is, and when it is due, and telematics track larger items.",
+      "loss_scenario": "Theft or non-return of equipment identified from your records, and without accurate tracking the loss is discovered only at inventory, by which time recovery is impossible.",
+      "rhetorical_question": "What is the replacement value of equipment currently out on rental?"
+    },
+    {
+      "rank": 2,
+      "headline": "Equipment failure in a customer's hands is your liability.",
+      "why_this_business": "Rented equipment must be inspected and maintained between rentals, with records demonstrating it was serviceable when it left. Injuries from failed equipment, particularly lifts, saws, and powered tools, generate claims against the rental company.",
+      "loss_scenario": "A serious injury claim where maintenance and inspection records cannot be produced, which in practice concedes the defect allegation and exposes the business to damages far exceeding its revenue.",
+      "rhetorical_question": "How do you record inspection and maintenance for each item between rentals?"
+    },
+    {
+      "rank": 3,
+      "headline": "Contractor accounts run on credit against active jobs.",
+      "why_this_business": "Rental centres extend credit to contractors, with equipment delivered to job sites and billed by the day or week. Mechanics lien rights against the project may secure the balance in some states, and delivery records establish the dates.",
+      "loss_scenario": "Uncollectable balances from contractors, and lost lien rights where delivery and job records were unavailable, converting secured exposure into unsecured debt.",
+      "rhetorical_question": "How much of your revenue is on contractor credit accounts?"
+    }
+  ]
+}

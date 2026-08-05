@@ -1,0 +1,31 @@
+{
+  "naics_code": "811122",
+  "naics_title": "Automotive Glass Replacement Shops",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Windscreen replacement now requires ADAS recalibration.",
+      "why_this_business": "Cameras mounted to the windscreen for lane keeping, automatic braking, and adaptive cruise require recalibration after replacement, following manufacturer procedures with documented completion. An uncalibrated system misjudges lane position and obstacle distance.",
+      "loss_scenario": "A collision involving a vehicle whose camera calibration was not performed or cannot be documented, where the glass shop returned a vehicle with safety systems out of specification.",
+      "rhetorical_question": "How do you document recalibration completion after a windscreen replacement?"
+    },
+    {
+      "rank": 2,
+      "headline": "Insurance networks route the work and hold the billing.",
+      "why_this_business": "Glass claims are administered through third-party administrators and insurer networks that dispatch jobs, authorise pricing, and process payment. Shops are dispatched work through those platforms and paid through them.",
+      "loss_scenario": "Loss of network dispatch and billing access removes both the work and the payment mechanism simultaneously, and network scorecards affect future dispatch volume.",
+      "rhetorical_question": "What share of your work is dispatched through insurance networks?"
+    },
+    {
+      "rank": 3,
+      "headline": "Mobile service means scheduling customers at their homes and workplaces.",
+      "why_this_business": "Much of the work is performed at customer locations scheduled through dispatch systems holding addresses, vehicle details, appointment times, and payment methods.",
+      "loss_scenario": "Missed mobile appointments across a route, plus exposure of customer addresses and schedules, with vehicles left with damaged glass and customers waiting.",
+      "rhetorical_question": "How many mobile appointments does your team run in a day?"
+    }
+  ]
+}

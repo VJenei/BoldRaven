@@ -1,0 +1,31 @@
+{
+  "naics_code": "333994",
+  "naics_title": "Industrial Process Furnace and Oven Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fuel-fired furnaces explode when combustion safety fails.",
+      "why_this_business": "Industrial furnaces and ovens burn fuel with burner management systems performing purge, ignition, and flame supervision under NFPA 86. Failure of that sequence allows fuel to accumulate and explode.",
+      "loss_scenario": "A burner management defect or bypassed safety sequence causing a furnace explosion, destroying the plant area with fatalities, and the manufacturer's control design examined in the investigation.",
+      "rhetorical_question": "How is your burner management logic designed and validated against NFPA 86?"
+    },
+    {
+      "rank": 2,
+      "headline": "Furnaces perform the processes that give parts their properties.",
+      "why_this_business": "Process furnaces perform heat treatment, curing, and sintering where temperature uniformity and cycle control determine product properties. Customers qualify the furnace and its records evidence conformance.",
+      "loss_scenario": "Furnace control or recording defects producing parts processed outside specification without any record showing it, with the customer's product affected across an entire period.",
+      "rhetorical_question": "Does your equipment record cycle data used by customers as evidence of conformance?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment is engineered to order and supported remotely.",
+      "why_this_business": "Furnaces are designed for a specific process, product, and plant with control code written for the installation and remote support connections for diagnostics.",
+      "loss_scenario": "Loss of designs and control code, or misuse of support connections, with equipment in build halted and installed furnaces reachable through a path the customer did not expect.",
+      "rhetorical_question": "What remote access do you retain to installed furnace control systems?"
+    }
+  ]
+}

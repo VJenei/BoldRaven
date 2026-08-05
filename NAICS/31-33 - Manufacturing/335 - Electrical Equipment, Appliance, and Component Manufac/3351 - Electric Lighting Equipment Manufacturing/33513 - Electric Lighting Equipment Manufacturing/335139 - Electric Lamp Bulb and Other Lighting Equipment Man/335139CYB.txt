@@ -1,0 +1,31 @@
+{
+  "naics_code": "335139",
+  "naics_title": "Electric Lamp Bulb and Other Lighting Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Lamps and drivers cause fires and electric shock.",
+      "why_this_business": "Lamps, drivers, and lighting equipment carry safety listings covering thermal performance, insulation, and electrical isolation. Failures cause fires in fixtures and shock hazards during installation.",
+      "loss_scenario": "Products causing fires or shock injuries, with a CPSC recall covering every unit distributed and claims from property damage and injuries at each installation.",
+      "rhetorical_question": "How are safety listing requirements controlled through your build process?"
+    },
+    {
+      "rank": 2,
+      "headline": "Efficiency regulations restrict what may lawfully be sold.",
+      "why_this_business": "Department of Energy lamp efficiency standards prohibit sale of lamps below specified efficacy, with enforcement and civil penalties per unit. Compliance depends on tested performance by model.",
+      "loss_scenario": "Non-compliant lamps sold after an effective date, which is a DOE violation with per-unit penalties, plus product that must be withdrawn from distribution and retail.",
+      "rhetorical_question": "How do you track efficiency compliance by model and effective date?"
+    },
+    {
+      "rank": 3,
+      "headline": "High volume retail supply depends on order and shipping systems.",
+      "why_this_business": "Lamps ship in very high volume to retailers and distributors under EDI with labelling, packing, and delivery requirements enforced by chargeback.",
+      "loss_scenario": "Order and shipping systems unavailable, with missed delivery windows, vendor compliance chargebacks, and shelf space at risk with concentrated retail customers.",
+      "rhetorical_question": "What share of your volume goes to your three largest customers?"
+    }
+  ]
+}

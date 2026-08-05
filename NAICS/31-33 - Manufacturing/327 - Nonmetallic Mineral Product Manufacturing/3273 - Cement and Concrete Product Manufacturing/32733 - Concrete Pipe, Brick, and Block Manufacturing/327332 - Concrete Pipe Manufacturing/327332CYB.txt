@@ -1,0 +1,31 @@
+{
+  "naics_code": "327332",
+  "naics_title": "Concrete Pipe Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Buried pipe failures are expensive to discover and repair.",
+      "why_this_business": "Concrete pipe carries structural loads from soil and traffic and conveys stormwater and sewage, manufactured to standards for strength, dimensions, and joint performance. Once buried it is inaccessible.",
+      "loss_scenario": "Pipe below specification failing after burial, with excavation required to locate and replace it under roads and developed areas, at costs many times the pipe value.",
+      "rhetorical_question": "How is pipe strength testing tied to specific production and project shipments?"
+    },
+    {
+      "rank": 2,
+      "headline": "Projects specify pipe by class and joint type.",
+      "why_this_business": "Pipe is manufactured to project specifications for diameter, strength class, reinforcement, and joint configuration, with certification required for acceptance by the owner and engineer.",
+      "loss_scenario": "Wrong class pipe delivered and installed, discovered during inspection or after failure, requiring removal from a trench that has already been backfilled.",
+      "rhetorical_question": "How are project pipe specifications transferred into production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Casting and curing cycles determine strength development.",
+      "why_this_business": "Pipe is cast and cured under controlled conditions with strength developing over the curing period. Reinforcement placement and concrete quality determine the finished strength class.",
+      "loss_scenario": "Pipe shipped before reaching design strength or with incorrect reinforcement, which cannot be assessed after installation without excavation.",
+      "rhetorical_question": "How is strength verified before pipe is released for shipment?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "325620",
+  "naics_title": "Toilet Preparation Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "MoCRA brought federal registration and safety substantiation to cosmetics.",
+      "why_this_business": "The Modernization of Cosmetics Regulation Act requires facility registration, product listing, safety substantiation records, adverse event reporting, and good manufacturing practice requirements for cosmetics, with records retained and available to FDA.",
+      "loss_scenario": "FDA enforcement where safety substantiation and adverse event records cannot be produced, with mandatory recall authority now available to FDA for cosmetics and products removed from market.",
+      "rhetorical_question": "Where are your product safety substantiation records held?"
+    },
+    {
+      "rank": 2,
+      "headline": "Contamination in personal care products injures consumers.",
+      "why_this_business": "Cosmetics and personal care products contact skin, eyes, and mucous membranes, with microbiological contamination and chemical impurities causing infection and injury. Preservative systems and manufacturing hygiene are the controls.",
+      "loss_scenario": "Contaminated product causing eye infections or skin injury, with recall, adverse event reporting, and litigation in a category where consumers apply products daily and to children.",
+      "rhetorical_question": "How is microbiological testing recorded against each production batch?"
+    },
+    {
+      "rank": 3,
+      "headline": "Contract manufacturing means holding brands' formulations.",
+      "why_this_business": "Much of the industry produces for brand owners under contract, holding proprietary formulations, fragrance compositions, and unreleased product developments under confidentiality.",
+      "loss_scenario": "Formulation disclosure to competitors, with contractual liability to brand owners whose products are defined by those formulations and immediate loss of the manufacturing relationships.",
+      "rhetorical_question": "How many brand owners' formulations are held on your systems?"
+    }
+  ]
+}

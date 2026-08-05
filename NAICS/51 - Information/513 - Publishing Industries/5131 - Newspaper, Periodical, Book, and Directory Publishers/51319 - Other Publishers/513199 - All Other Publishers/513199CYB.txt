@@ -1,0 +1,31 @@
+{
+  "naics_code": "513199",
+  "naics_title": "All Other Publishers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Content and rights records are the whole business.",
+      "why_this_business": "Publishers in this category hold content assets, rights agreements, and licensing terms governing what can be published, in which territory, and for how long. The content has value only where the rights to use it can be demonstrated.",
+      "loss_scenario": "Content that cannot be licensed because chain of rights cannot be evidenced, plus infringement exposure where material is used beyond its licensed scope.",
+      "rhetorical_question": "How are your content rights and licensing agreements documented?"
+    },
+    {
+      "rank": 2,
+      "headline": "Publication schedules commit you to dates and to advertisers.",
+      "why_this_business": "Publishers work to production and release schedules with print bookings, distribution, and advertising sold against specific issues or titles. Advertisers pay for placement in a dated product.",
+      "loss_scenario": "Missed publication dates with advertising revenue refundable and distribution slots forfeited, on a schedule that cannot be compressed.",
+      "rhetorical_question": "What advertising or distribution commitments are tied to your publication dates?"
+    },
+    {
+      "rank": 3,
+      "headline": "Subscriber and customer data carries payment credentials.",
+      "why_this_business": "Publishers holding subscription or membership models retain customer contact details and stored payment methods on recurring billing, often for many years including lapsed accounts.",
+      "loss_scenario": "Breach notification across an accumulated customer file, with card data on file and no retention policy having ever removed inactive records.",
+      "rhetorical_question": "How many customer records with stored payment methods do you hold?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "541370",
+  "naics_title": "Surveying and Mapping (except Geophysical) Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Survey records establish property boundaries and are relied on for decades.",
+      "why_this_business": "Land surveys establish boundaries, easements, and encroachments, recorded in plats and field notes that are referenced long after the survey. Licensed surveyors are required to retain records, and boundary disputes turn on the original field evidence and calculations.",
+      "loss_scenario": "A boundary dispute where the field notes and calculations cannot be produced, with professional liability for a survey relied on in a property purchase or construction, and licence board exposure for records retention failures.",
+      "rhetorical_question": "How long are you required to retain field notes and survey records?"
+    },
+    {
+      "rank": 2,
+      "headline": "Construction staking errors are built before they are discovered.",
+      "why_this_business": "Construction surveying sets the position and elevation of structures from design coordinates. Machine control systems on grading equipment work from the same data. An error in the control data is replicated across the site at full scale.",
+      "loss_scenario": "A structure built out of position or at the wrong elevation, where the remedy is demolition and reconstruction and the claim lands entirely on the surveyor.",
+      "rhetorical_question": "How is design coordinate data verified before it is issued to the field?"
+    },
+    {
+      "rank": 3,
+      "headline": "Detailed site and infrastructure data accumulates across clients.",
+      "why_this_business": "Surveyors hold precise spatial data on properties, utilities, and infrastructure, including as-built locations of buried services and facility layouts, retained across many clients and projects.",
+      "loss_scenario": "Disclosure of precise utility and facility location data creates a security concern for infrastructure owners and third-party liability for the surveyor who held it.",
+      "rhetorical_question": "Do you hold as-built utility locations or facility survey data for infrastructure clients?"
+    }
+  ]
+}

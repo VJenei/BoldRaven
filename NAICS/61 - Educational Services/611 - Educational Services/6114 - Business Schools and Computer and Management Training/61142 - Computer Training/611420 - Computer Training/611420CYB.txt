@@ -1,0 +1,31 @@
+{
+  "naics_code": "611420",
+  "naics_title": "Computer Training",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Training environments connect to client and vendor systems.",
+      "why_this_business": "Computer training providers operate lab environments, virtual machines, and vendor-authorised training platforms, frequently with credentials into vendor certification systems and client environments for on-site delivery. Corporate clients grant access for training on their own systems.",
+      "loss_scenario": "A compromise reaching client environments through training access, or misuse of vendor authorisation credentials, with the provider losing both the client and the vendor authorisation that permits it to deliver the training.",
+      "rhetorical_question": "What client or vendor systems can your training environment reach?"
+    },
+    {
+      "rank": 2,
+      "headline": "Certification and examination integrity is contractually policed.",
+      "why_this_business": "Authorised training and testing centres administer vendor certification exams under strict integrity requirements, holding candidate identity data, exam content, and results. Exam content leakage is pursued aggressively by certification bodies.",
+      "loss_scenario": "Loss of testing centre authorisation for an integrity failure, which removes a revenue stream and the credibility that attracts students, plus claims from the certification body over compromised content.",
+      "rhetorical_question": "Do you administer certification exams under a vendor authorisation agreement?"
+    },
+    {
+      "rank": 3,
+      "headline": "Student records include payment data and employer sponsorship.",
+      "why_this_business": "Providers hold student contact details, payment methods, employer billing arrangements, and certification histories, frequently retained indefinitely to support credential verification requests years later.",
+      "loss_scenario": "Breach notification across current and former students, with corporate clients whose employees were trained holding the provider responsible under their training agreements.",
+      "rhetorical_question": "How many years of student and certification records do you retain?"
+    }
+  ]
+}

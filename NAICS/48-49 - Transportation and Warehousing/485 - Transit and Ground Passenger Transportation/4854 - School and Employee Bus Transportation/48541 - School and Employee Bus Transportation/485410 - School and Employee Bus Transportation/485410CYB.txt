@@ -1,0 +1,31 @@
+{
+  "naics_code": "485410",
+  "naics_title": "School and Employee Bus Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your systems hold children's names, addresses, and pickup times.",
+      "why_this_business": "School transportation systems hold student names, home addresses, stop locations and times, route assignments, and often photographs and special needs information. Combined, that data tells anyone exactly where a specific child will be standing alone and when.",
+      "loss_scenario": "A breach exposing student routing data is a child safety exposure of a kind no other data loss matches. Districts, parents, and state education authorities respond accordingly, and the contract will not survive it.",
+      "rhetorical_question": "Does your routing system link named students to stop locations and times?"
+    },
+    {
+      "rank": 2,
+      "headline": "Routing and dispatch decide whether children get to school.",
+      "why_this_business": "Routing software builds and adjusts hundreds of routes against enrolment, special needs requirements, and driver availability, with GPS tracking used by parents and districts. Districts cannot open if buses do not run.",
+      "loss_scenario": "Routes that cannot be built or driven, with schools unable to open and districts invoking contract remedies. A missed route for a special needs student is also a legal compliance failure for the district.",
+      "rhetorical_question": "How are routes built and communicated to drivers each morning?"
+    },
+    {
+      "rank": 3,
+      "headline": "Driver screening for student transport is heavily regulated.",
+      "why_this_business": "School bus drivers require background checks, fingerprinting, licence endorsements, drug and alcohol testing with Clearinghouse queries, and ongoing monitoring, with records available to the district and state. Employing a driver whose clearance lapsed is a serious compliance failure.",
+      "loss_scenario": "Contract termination and state action where driver clearance cannot be evidenced, and if an incident involves such a driver, the liability and public consequences are severe.",
+      "rhetorical_question": "How do you verify that every driver's background clearance is current?"
+    }
+  ]
+}

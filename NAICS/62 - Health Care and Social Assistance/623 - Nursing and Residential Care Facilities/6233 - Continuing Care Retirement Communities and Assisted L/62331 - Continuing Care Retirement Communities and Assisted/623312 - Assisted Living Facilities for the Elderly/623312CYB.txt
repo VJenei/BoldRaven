@@ -1,0 +1,31 @@
+{
+  "naics_code": "623312",
+  "naics_title": "Assisted Living Facilities for the Elderly",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Medication administration and care plans keep residents safe.",
+      "why_this_business": "Assisted living residents receive medication assistance and personal care according to service plans, with electronic records specifying medications, timing, dietary requirements, fall risk, and cognitive status. Staff turnover is high and the record is how care is delivered consistently.",
+      "loss_scenario": "Medication errors and care omissions across a facility of frail residents, with state licensing findings, civil penalties, and family litigation following any resulting harm.",
+      "rhetorical_question": "How would care staff know each resident's medications and care needs without the system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Residents are prime targets for financial exploitation.",
+      "why_this_business": "Facilities hold residents' Social Security numbers, financial account details, power of attorney documentation, and family contacts for a population that is elderly, frequently cognitively impaired, and unable to monitor their accounts.",
+      "loss_scenario": "Financial exploitation of residents who cannot detect it, with adult protective services involvement, licensing consequences, and families holding the facility responsible for the exposure.",
+      "rhetorical_question": "How many residents' Social Security numbers and financial details do you hold?"
+    },
+    {
+      "rank": 3,
+      "headline": "State licensing imposes documentation and staffing requirements.",
+      "why_this_business": "Assisted living is licensed at state level with requirements for resident assessments, service plans, incident reporting, staff training, and staffing levels, examined during inspections and after any complaint.",
+      "loss_scenario": "Licensing deficiencies and civil penalties where assessments, service plans, and training records cannot be produced, with admissions holds or licence revocation in serious cases.",
+      "rhetorical_question": "What resident documentation would a state licensing inspector expect to see?"
+    }
+  ]
+}

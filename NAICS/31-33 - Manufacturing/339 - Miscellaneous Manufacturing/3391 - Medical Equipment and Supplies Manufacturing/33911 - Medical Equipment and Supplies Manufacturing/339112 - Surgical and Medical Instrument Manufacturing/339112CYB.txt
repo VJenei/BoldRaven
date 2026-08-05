@@ -1,0 +1,31 @@
+{
+  "naics_code": "339112",
+  "naics_title": "Surgical and Medical Instrument Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "FDA requires cybersecurity for devices with software.",
+      "why_this_business": "Section 524B of the Federal Food, Drug, and Cosmetic Act requires cyber devices to include a vulnerability management plan, evidence of reasonable assurance of cybersecurity, and a software bill of materials. FDA has refused submissions lacking them since October 2023.",
+      "loss_scenario": "Submissions refused or marketed devices found non-compliant, blocking market entry for products with development already funded and creating enforcement exposure for devices in clinical use.",
+      "rhetorical_question": "Do any of your devices contain software subject to the Section 524B requirements?"
+    },
+    {
+      "rank": 2,
+      "headline": "Design history files and quality records are the regulatory record.",
+      "why_this_business": "Medical device manufacturers must maintain design history files, device master records, and complaint and CAPA records under the Quality System Regulation, produced during FDA inspection. Those records are almost entirely electronic.",
+      "loss_scenario": "Loss or corruption of quality system records, with FDA inspection findings, a warning letter, and inability to demonstrate that devices already distributed were made under a compliant system.",
+      "rhetorical_question": "How are your design history files and device master records backed up?"
+    },
+    {
+      "rank": 3,
+      "headline": "Device traceability determines the scope of any recall.",
+      "why_this_business": "Devices carry unique device identification with lot or serial traceability through distribution to healthcare facilities, which is how a recall reaches the specific devices affected.",
+      "loss_scenario": "A recall that cannot be bounded because distribution and traceability records are unavailable, requiring withdrawal of every device from the period and surgery cancellations at every facility.",
+      "rhetorical_question": "Could you identify which facilities received a specific device lot?"
+    }
+  ]
+}

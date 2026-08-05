@@ -1,0 +1,31 @@
+{
+  "naics_code": "623220",
+  "naics_title": "Residential Mental Health and Substance Abuse Facilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal law protects substance use records more strictly than HIPAA.",
+      "why_this_business": "Federally assisted substance use disorder programmes fall under 42 CFR Part 2, restricting disclosure more tightly than HIPAA and requiring specific patient consent for most disclosures. The rule exists because fear of disclosure prevents people from entering treatment.",
+      "loss_scenario": "Part 2 violations alongside HIPAA exposure, and patient harm including loss of employment, professional licences, and custody arising from disclosure of treatment sought under an explicit confidentiality protection.",
+      "rhetorical_question": "Are your programme records subject to 42 CFR Part 2?"
+    },
+    {
+      "rank": 2,
+      "headline": "Residents are in acute recovery and disclosure causes relapse risk.",
+      "why_this_business": "Residential treatment serves people in early recovery whose stability depends on a controlled environment. Records document relapse history, legal involvement, family circumstances, and drug testing results.",
+      "loss_scenario": "Disclosure causing personal, legal, and employment harm to residents in a fragile stage of recovery, with relapse and its consequences a foreseeable result and claims reflecting that.",
+      "rhetorical_question": "What would disclosure mean for a resident whose employer does not know they are in treatment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Medication and withdrawal management is clinically critical.",
+      "why_this_business": "Facilities manage medically supervised withdrawal and medication assisted treatment, with protocols, dosing, and monitoring documented. Withdrawal from alcohol and benzodiazepines can be fatal without proper management.",
+      "loss_scenario": "Medication and monitoring errors during withdrawal management, which in alcohol and benzodiazepine withdrawal carries mortality risk, with the clinical record unavailable to guide care.",
+      "rhetorical_question": "How would staff verify withdrawal protocols and dosing without your clinical system?"
+    }
+  ]
+}

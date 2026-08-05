@@ -1,0 +1,31 @@
+{
+  "naics_code": "441210",
+  "naics_title": "Recreational Vehicle Dealers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You arrange financing, which makes you subject to the FTC Safeguards Rule.",
+      "why_this_business": "RV dealers arrange retail instalment financing on units frequently exceeding $100,000, which makes them financial institutions under GLBA. The FTC Safeguards Rule has required a written security programme, multi-factor authentication, encryption, and an incident response plan since June 9, 2023.",
+      "loss_scenario": "FTC enforcement plus notification costs across a customer base whose credit files contain complete financial profiles on high value purchases.",
+      "rhetorical_question": "Do you arrange financing on the units you sell?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasonality concentrates the year into a short selling window.",
+      "why_this_business": "RV sales concentrate heavily in spring and early summer, with show season driving a large share of annual orders. Inventory is floor planned year-round but sells in a few months. Service backlogs peak in the same window.",
+      "loss_scenario": "A systems outage during selling season costs a disproportionate share of annual gross while floor plan interest continues on unsold inventory through the off-season.",
+      "rhetorical_question": "What share of your annual units are delivered between March and July?"
+    },
+    {
+      "rank": 3,
+      "headline": "Service work on units under warranty runs through manufacturer systems.",
+      "why_this_business": "Warranty claims on RVs involve multiple component manufacturers, each with their own claim portal, authorisation process, and documentation requirements. Claims denied for late or unsupported submission are absorbed by the dealer.",
+      "loss_scenario": "Warranty claims that cannot be submitted within manufacturer time limits are simply not paid, and RV service departments carry significant warranty volume relative to customer pay.",
+      "rhetorical_question": "How many manufacturer warranty portals does your service department submit claims through?"
+    }
+  ]
+}

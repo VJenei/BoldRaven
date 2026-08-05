@@ -1,0 +1,31 @@
+{
+  "naics_code": "621391",
+  "naics_title": "Offices of Podiatrists",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Small specialty practices carry full HIPAA obligations.",
+      "why_this_business": "Podiatry offices hold patient histories, imaging, surgical records, and insurance data, frequently including diabetic patients whose foot care records document a serious systemic condition. As covered entities they carry full security rule and notification obligations.",
+      "loss_scenario": "HIPAA notification and OCR enforcement, examined against a security risk analysis that small specialty practices frequently have never performed.",
+      "rhetorical_question": "Has your practice ever completed a documented HIPAA security risk analysis?"
+    },
+    {
+      "rank": 2,
+      "headline": "Surgical and wound care documentation supports billing and defence.",
+      "why_this_business": "Procedures and wound care require documented medical necessity, operative notes, and follow-up, supporting payer claims and defending against malpractice allegations. Diabetic wound care carries significant clinical risk and litigation follows poor outcomes.",
+      "loss_scenario": "Payer recoupment where documentation is unavailable, and malpractice defence undermined where the clinical record cannot be produced in a case involving amputation or serious complication.",
+      "rhetorical_question": "Could you produce the complete clinical record for a patient treated four years ago?"
+    },
+    {
+      "rank": 3,
+      "headline": "Practice management and imaging run on one small system.",
+      "why_this_business": "Scheduling, billing, clinical documentation, and digital radiography typically run on a single practice server or cloud platform with no dedicated IT support and frequently no verified backup.",
+      "loss_scenario": "Complete practice shutdown with patients unable to be seen or billed, and imaging histories lost that document progression of chronic conditions over years.",
+      "rhetorical_question": "How long could your practice see patients without your practice management system?"
+    }
+  ]
+}

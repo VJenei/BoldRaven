@@ -1,0 +1,31 @@
+{
+  "naics_code": "445320",
+  "naics_title": "Beer, Wine, and Liquor Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your licence depends on records the state can inspect at any time.",
+      "why_this_business": "Package retailers hold state licences with conditions on purchasing sources, hours, age verification, and record retention. States require invoices and purchase records be kept and available, and licences are revocable. Buying outside the licensed wholesale channel is a serious violation.",
+      "loss_scenario": "Licence suspension or revocation for records that cannot be produced ends the business entirely, since there is no lawful way to sell alcohol without it.",
+      "rhetorical_question": "What purchase records must you retain for your state alcohol regulator?"
+    },
+    {
+      "rank": 2,
+      "headline": "Age verification failures are caught by deliberate compliance checks.",
+      "why_this_business": "States conduct undercover buys at licensed retailers, and failures produce fines, suspension, and in repeat cases revocation. Electronic ID scanning at the register creates the record that verification occurred and is increasingly expected.",
+      "loss_scenario": "Suspension during peak selling periods, plus dram shop and negligent sale exposure where the verification record cannot be produced after an incident involving a minor.",
+      "rhetorical_question": "Does your point of sale scan and record identification for age-restricted sales?"
+    },
+    {
+      "rank": 3,
+      "headline": "Allocated and high value inventory is a theft target.",
+      "why_this_business": "Rare bourbon, allocated spirits, and fine wine carry very high value per bottle and resell instantly on secondary markets. Inventory systems record what is held and when allocations arrive, and staff access to that data is broad.",
+      "loss_scenario": "Theft of allocated inventory that cannot be replaced at any price, informed by internal knowledge of what arrived and where it is stored.",
+      "rhetorical_question": "What is the value of the allocated inventory in your back room right now?"
+    }
+  ]
+}

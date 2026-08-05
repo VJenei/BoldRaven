@@ -1,0 +1,31 @@
+{
+  "naics_code": "311423",
+  "naics_title": "Dried and Dehydrated Food Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Water activity control is the food safety mechanism.",
+      "why_this_business": "Drying reduces water activity below the level supporting microbial growth, and that reduction is the preservation method. Water activity is measured and recorded per lot, and product above the target is not shelf stable.",
+      "loss_scenario": "Product released above target water activity supporting mould and pathogen growth in distribution, with spoilage and potential illness discovered after the product has reached consumers.",
+      "rhetorical_question": "How is water activity measured and recorded for each production lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Low moisture foods have caused large salmonella outbreaks.",
+      "why_this_business": "Salmonella survives for long periods in low moisture environments, and outbreaks linked to dried products including spices, nuts, and powders have required extensive recalls. Environmental monitoring in dry processing areas is the control.",
+      "loss_scenario": "A salmonella recall across product with long shelf life, meaning affected lots remain in distribution and consumer homes for many months, extending the exposure and the recall effort.",
+      "rhetorical_question": "How long does your product remain in distribution and consumer pantries?"
+    },
+    {
+      "rank": 3,
+      "headline": "Ingredient customers incorporate your product into theirs.",
+      "why_this_business": "Dried ingredients are supplied to food manufacturers who incorporate them into finished products distributed further. A contamination event propagates through every downstream product.",
+      "loss_scenario": "A recall cascading through customers' finished products, with the ingredient supplier facing claims from every manufacturer that used the affected lots in their own production.",
+      "rhetorical_question": "How many downstream products could contain a single lot of your ingredient?"
+    }
+  ]
+}

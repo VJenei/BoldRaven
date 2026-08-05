@@ -1,0 +1,31 @@
+{
+  "naics_code": "336510",
+  "naics_title": "Railroad Rolling Stock Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Rolling stock carries passengers and hazardous freight.",
+      "why_this_business": "Locomotives, passenger cars, and freight cars are built to FRA safety standards and AAR specifications, with structural, braking, and in passenger equipment crashworthiness requirements. Failures cause derailments and passenger casualties.",
+      "loss_scenario": "A structural or brake defect causing a derailment, with casualties, hazardous release if the train carried it, and an FRA and NTSB investigation examining the manufacturer's design and build records.",
+      "rhetorical_question": "How are design conformance and inspection records maintained per car or locomotive?"
+    },
+    {
+      "rank": 2,
+      "headline": "Positive train control and locomotive systems are software governed.",
+      "why_this_business": "Locomotives contain control, braking, and positive train control systems whose software governs enforcement of speed and authority limits. PTC is federally mandated on covered routes and its function is safety critical.",
+      "loss_scenario": "A software defect affecting braking enforcement or control, with an overspeed or authority violation causing a collision or derailment, and every unit of the type affected.",
+      "rhetorical_question": "How is locomotive and train control software version controlled through delivery?"
+    },
+    {
+      "rank": 3,
+      "headline": "Tank cars carrying hazardous materials are specification-regulated.",
+      "why_this_business": "Tank cars are built to DOT specifications with material, welding, and testing requirements and certification records, because failure in a derailment releases hazardous material into a community.",
+      "loss_scenario": "Tank cars not built to specification failing in a derailment, releasing hazardous material with evacuation and casualties, and the build and certification records determining liability.",
+      "rhetorical_question": "How are tank car certification and welding records retained after delivery?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "926140",
+  "naics_title": "Regulation of Agricultural Marketing and Commodities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Market data and reports move commodity prices.",
+      "why_this_business": "Agencies collect and publish market reports, production estimates, and inventory data that commodity markets trade on. Advance access to an unreleased report is directly tradeable and the release timing is controlled precisely for that reason.",
+      "loss_scenario": "Premature or unauthorised access to unreleased market data creating trading advantage and market manipulation exposure, with the integrity of the reporting system called into question.",
+      "rhetorical_question": "Do you hold market reports before their scheduled public release time?"
+    },
+    {
+      "rank": 2,
+      "headline": "Licensing and inspection govern who may trade and handle commodities.",
+      "why_this_business": "Agencies license warehouses, dealers, and handlers, conduct inspections and grading, and maintain bonding and financial responsibility records. Licensed status determines who may lawfully operate.",
+      "loss_scenario": "Licensing and inspection records unavailable, with enforcement stalled and licensed entities unable to demonstrate standing, plus grading and inspection results that determine commodity value.",
+      "rhetorical_question": "What licensing and inspection records does your agency maintain?"
+    },
+    {
+      "rank": 3,
+      "headline": "Producer and business data is commercially sensitive.",
+      "why_this_business": "Agencies hold producer production data, marketing records, and business financial information submitted for programme participation, licensing, and enforcement. Individual production data reveals commercial positions.",
+      "loss_scenario": "Exposure of producer and handler commercial data, which reveals positions and volumes that participants submitted under statutory compulsion rather than voluntarily.",
+      "rhetorical_question": "What commercial data do regulated entities submit to you under compulsion?"
+    }
+  ]
+}

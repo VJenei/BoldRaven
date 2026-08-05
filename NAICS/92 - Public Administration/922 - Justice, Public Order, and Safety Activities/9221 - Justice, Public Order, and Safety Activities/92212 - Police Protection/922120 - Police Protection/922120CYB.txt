@@ -1,0 +1,31 @@
+{
+  "naics_code": "922120",
+  "naics_title": "Police Protection",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Dispatch failure is a public safety emergency.",
+      "why_this_business": "Computer aided dispatch, records management, and mobile data terminals coordinate emergency response, unit status, and officer safety information. Attacks on police agencies have forced reversion to radio and paper dispatch with degraded response capability.",
+      "loss_scenario": "Delayed emergency response with officers lacking access to warrant, hazard, and history information at incidents, which is an officer safety and public safety exposure rather than an administrative one.",
+      "rhetorical_question": "How would calls be dispatched and prioritised without your CAD system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Investigative files and informant identities are life-safety information.",
+      "why_this_business": "Agencies hold ongoing investigation files, confidential informant identities, undercover officer information, and intelligence records. Disclosure of an informant's identity is a foreseeable homicide risk.",
+      "loss_scenario": "Exposure of informant and undercover identities leading to violence, and compromise of ongoing investigations that must be abandoned, with consequences that cannot be remediated.",
+      "rhetorical_question": "Do your systems hold confidential informant identities?"
+    },
+    {
+      "rank": 3,
+      "headline": "Criminal justice information carries federal security requirements.",
+      "why_this_business": "Access to criminal justice information through state and federal systems is governed by the FBI CJIS Security Policy, imposing specific requirements for authentication, encryption, personnel screening, and audit, with compliance audited and access revocable.",
+      "loss_scenario": "Loss of CJIS access following a security failure, which removes the ability to run records checks and access criminal history, degrading every officer contact and investigation.",
+      "rhetorical_question": "When was your last CJIS security policy audit, and what were the findings?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "331523",
+  "naics_title": "Nonferrous Metal Die-Casting Foundries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Die casting machines operate at high pressure with molten metal.",
+      "why_this_business": "Die casting injects molten aluminium, zinc, or magnesium at very high pressure into steel dies, with machine control governing shot profile, pressure, and cycle. Molten metal ejection from a die failure is a severe burn hazard.",
+      "loss_scenario": "Molten metal ejection injuring operators, plus die damage requiring repair or replacement of tooling that is expensive and slow to produce.",
+      "rhetorical_question": "How are die casting machine parameters and safety interlocks controlled?"
+    },
+    {
+      "rank": 2,
+      "headline": "Process parameters are qualified per part and per die.",
+      "why_this_business": "Each part has a qualified shot profile, metal temperature, die temperature, and cycle producing acceptable porosity and dimensions. Automotive customers approve those parameters through production part approval.",
+      "loss_scenario": "Loss of qualified parameters requiring requalification with customers, with automotive approval processes taking weeks and production halted throughout.",
+      "rhetorical_question": "How many qualified process parameter sets are stored in your machine controllers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Automotive customers charge for line stoppages.",
+      "why_this_business": "Die castings are components in automotive assemblies delivered just in time with dedicated tooling. Assembly lines run to schedule and stop without components.",
+      "loss_scenario": "Automotive line-down charges that are contractual, substantial, and applied per hour regardless of the component value, plus expedited freight to recover.",
+      "rhetorical_question": "What do your automotive customers charge per hour for a line stoppage?"
+    }
+  ]
+}

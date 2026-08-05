@@ -1,0 +1,31 @@
+{
+  "naics_code": "311919",
+  "naics_title": "Other Snack Food Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Snack lines run continuously at very high rate.",
+      "why_this_business": "Frying, seasoning, and packaging run continuously with product in process throughout the line. Fryer temperature and oil quality control both product quality and fire risk, and seasoning application determines label accuracy.",
+      "loss_scenario": "Product in process lost on a stop, plus fryer fires which are a recognised hazard in snack manufacturing and can destroy a production line and the building around it.",
+      "rhetorical_question": "How is fryer temperature and oil condition monitored and controlled?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasoning changeovers create allergen risk.",
+      "why_this_business": "Multiple flavours run across shared lines with seasonings containing milk, wheat, soy, and other allergens applied downstream of frying. Changeover cleaning and label control prevent cross-contact and mislabelling.",
+      "loss_scenario": "An allergen recall from seasoning carryover or a packaging mismatch, with injury exposure and recall costs across retail distribution.",
+      "rhetorical_question": "How is seasoning changeover cleaning validated between allergen-containing flavours?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retail vendor performance determines shelf space.",
+      "why_this_business": "Snack products ship to retailers under EDI with fill rate and delivery window requirements, with shelf space allocated annually based on performance and velocity data.",
+      "loss_scenario": "Vendor compliance chargebacks and lost shelf facings at the annual reset, which determines the following year's volume regardless of why the failure occurred.",
+      "rhetorical_question": "Which retailers measure your fill rate and apply automatic chargebacks?"
+    }
+  ]
+}

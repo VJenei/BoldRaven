@@ -1,0 +1,31 @@
+{
+  "naics_code": "339910",
+  "naics_title": "Jewelry and Silverware Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Precious metal and stone inventory is high value and portable.",
+      "why_this_business": "Manufacturing holds gold, platinum, and stones with inventory value concentrated in a small physical volume. Inventory records are the only means of detecting diversion, since a missing quantity is not visible.",
+      "loss_scenario": "Inventory records manipulated to conceal theft of precious metal and stones over a period, discovered only at physical count with the loss accumulated across months.",
+      "rhetorical_question": "How frequently is precious metal inventory reconciled against records?"
+    },
+    {
+      "rank": 2,
+      "headline": "Precious metal purchases are large and paid by wire.",
+      "why_this_business": "Metal is purchased at market prices in transactions worth hundreds of thousands, settled by wire transfer against supplier instructions. Payment fraud targets exactly this pattern.",
+      "loss_scenario": "A fraudulent change of banking instructions diverting a metal payment, with funds moved through intermediary accounts and unrecoverable once the transfer settles.",
+      "rhetorical_question": "How are changes to supplier banking instructions verified before payment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Conflict mineral and origin documentation is required.",
+      "why_this_business": "Gold falls within conflict minerals reporting requirements, and diamond supply carries Kimberley Process certification with origin documentation demanded increasingly by customers and regulators.",
+      "loss_scenario": "Inability to produce origin and due diligence documentation, with customers withdrawing and, for reporting companies, disclosure obligations that cannot be supported.",
+      "rhetorical_question": "How is origin and due diligence documentation retained for metal and stone purchases?"
+    }
+  ]
+}

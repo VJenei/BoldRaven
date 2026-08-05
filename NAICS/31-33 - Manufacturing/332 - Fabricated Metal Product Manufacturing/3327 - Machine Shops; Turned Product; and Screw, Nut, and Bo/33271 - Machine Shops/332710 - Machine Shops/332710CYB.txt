@@ -1,0 +1,31 @@
+{
+  "naics_code": "332710",
+  "naics_title": "Machine Shops",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Every part is machined from a customer file on a CNC machine.",
+      "why_this_business": "Machine shops receive customer models and drawings, generate toolpath programmes, and run them on CNC equipment. The programme determines every dimension of the part. Programmes and customer models are the shop's entire working inventory.",
+      "loss_scenario": "Loss of programmes and customer models, requiring every job to be reprogrammed from drawings and reproved on the machine, which takes hours per part across hundreds of active jobs.",
+      "rhetorical_question": "How many CNC programmes are stored on your shop network?"
+    },
+    {
+      "rank": 2,
+      "headline": "Customer drawings and models are confidential and frequently controlled.",
+      "why_this_business": "Machine shops hold customer designs, and defence and aerospace work involves technical data subject to export control under ITAR and EAR. Disclosure of controlled data to foreign persons is a violation regardless of intent.",
+      "loss_scenario": "Exposure of customer designs including export controlled technical data, which is a reportable violation with penalties and potential loss of the registration required to hold defence work.",
+      "rhetorical_question": "Do you hold ITAR or EAR controlled technical data for any customer?"
+    },
+    {
+      "rank": 3,
+      "headline": "Defence contract work requires demonstrated cybersecurity compliance.",
+      "why_this_business": "Shops holding defence contracts with controlled unclassified information must meet NIST SP 800-171 requirements with a score in the Supplier Performance Risk System, and CMMC assessment requirements now appear in contracts. Compliance is a condition of award.",
+      "loss_scenario": "Loss of defence contract eligibility where compliance cannot be evidenced or an incident shows controls were absent, removing the customer base that many shops depend on.",
+      "rhetorical_question": "What is your current SPRS score, and when was your assessment performed?"
+    }
+  ]
+}

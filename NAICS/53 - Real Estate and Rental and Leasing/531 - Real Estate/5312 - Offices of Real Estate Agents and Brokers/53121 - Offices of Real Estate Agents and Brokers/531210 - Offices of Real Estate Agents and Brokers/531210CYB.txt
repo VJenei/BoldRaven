@@ -1,0 +1,31 @@
+{
+  "naics_code": "531210",
+  "naics_title": "Offices of Real Estate Agents and Brokers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your email is the channel criminals use to steal a buyer's down payment.",
+      "why_this_business": "Agents sit in the middle of the transaction, relaying documents and instructions between buyer, seller, lender, and title company. Attackers compromise the agent's mailbox specifically because every party trusts messages from that address, then send substituted wiring instructions at closing.",
+      "loss_scenario": "A buyer's entire down payment, commonly $50,000 to several hundred thousand, sent to a criminal account. The buyer sues the agent, the brokerage, and the title company together, and recovery of the funds is rare.",
+      "rhetorical_question": "Do wiring instructions for your closings ever pass through your email?"
+    },
+    {
+      "rank": 2,
+      "headline": "Client files hold complete financial and identity information.",
+      "why_this_business": "Agents collect pre-approval letters, financial statements, identification, and personal details for buyers and sellers, retained in transaction management systems for years after closing under state record retention requirements.",
+      "loss_scenario": "Breach notification across a client base whose files support identity theft, in a referral-driven business where every affected client is also a source of future work.",
+      "rhetorical_question": "How many years of past client transaction files are stored in your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "MLS and lockbox access controls entry to other people's homes.",
+      "why_this_business": "Agents hold credentials to the multiple listing service and to electronic lockbox systems that open doors at listed properties, many of them occupied. Showing schedules record when owners will be out.",
+      "loss_scenario": "Compromised lockbox or MLS credentials used to enter homes, which is a physical security and safety exposure for sellers and a serious matter for the association and the brokerage.",
+      "rhetorical_question": "How many properties can your lockbox credentials currently open?"
+    }
+  ]
+}

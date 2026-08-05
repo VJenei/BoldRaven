@@ -1,0 +1,31 @@
+{
+  "naics_code": "623110",
+  "naics_title": "Nursing Care Facilities (Skilled Nursing Facilities)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Medication administration for a whole facility depends on the system.",
+      "why_this_business": "Skilled nursing facilities administer complex medication regimens to residents across multiple daily passes, using electronic medication administration records. Residents frequently take a dozen or more medications with interactions and timing that staff cannot reconstruct.",
+      "loss_scenario": "Medication errors across a facility of vulnerable residents, which is a direct patient harm event with survey deficiencies, immediate jeopardy findings, and civil monetary penalties from CMS.",
+      "rhetorical_question": "How would nursing staff verify each resident's medications if the eMAR were unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "CMS survey and reporting obligations are continuous.",
+      "why_this_business": "Facilities operate under Medicare and Medicaid conditions of participation with minimum data set assessments, staffing reporting, quality measures, and infection control documentation, surveyed by state agencies with penalties and termination as remedies.",
+      "loss_scenario": "Survey deficiencies at condition level where required assessments and documentation cannot be produced, with civil monetary penalties, denial of payment for new admissions, and ultimately termination from the programmes that fund the facility.",
+      "rhetorical_question": "What documentation would a state surveyor expect you to produce immediately?"
+    },
+    {
+      "rank": 3,
+      "headline": "Residents are among the most vulnerable people to identity misuse.",
+      "why_this_business": "Facilities hold residents' Social Security numbers, Medicare and Medicaid identifiers, financial account information for resident trust funds, and complete medical histories. Many residents have cognitive impairment and no capacity to detect misuse.",
+      "loss_scenario": "Identity and financial exploitation of residents who cannot monitor or dispute it, with resident trust fund exposure and regulatory attention to elder financial exploitation that treats the facility as responsible.",
+      "rhetorical_question": "Do you hold resident trust fund accounts and Social Security numbers?"
+    }
+  ]
+}

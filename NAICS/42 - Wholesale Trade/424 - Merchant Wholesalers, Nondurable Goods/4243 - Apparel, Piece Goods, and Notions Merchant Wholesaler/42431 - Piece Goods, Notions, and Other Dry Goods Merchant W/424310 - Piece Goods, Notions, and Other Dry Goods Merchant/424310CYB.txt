@@ -1,0 +1,31 @@
+{
+  "naics_code": "424310",
+  "naics_title": "Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fabric is sold by dye lot and cannot be matched later.",
+      "why_this_business": "Textiles vary by dye lot, and garments or furnishings cut from different lots show visible variation. Distributors reserve and track lots against customer orders. Lot records determine whether an order can be filled as a single consistent run.",
+      "loss_scenario": "Mixed lots discovered after cutting means the finished goods are rejected, with the manufacturer claiming both the fabric and the cut and sew labour against the distributor.",
+      "rhetorical_question": "How do you track dye lots against customer orders?"
+    },
+    {
+      "rank": 2,
+      "headline": "Imported goods carry customs and forced labour compliance duties.",
+      "why_this_business": "Textile imports require accurate classification, country of origin marking, and increasingly documentation demonstrating supply chain provenance under forced labour enforcement. Customs detains shipments and requires the importer to produce supply chain evidence.",
+      "loss_scenario": "Detained or excluded shipments with the importer bearing storage, and inability to produce supply chain documentation results in the goods being denied entry entirely.",
+      "rhetorical_question": "Can you document the supply chain origin of your imported textiles?"
+    },
+    {
+      "rank": 3,
+      "headline": "Apparel manufacturing customers work to seasonal deadlines.",
+      "why_this_business": "Piece goods feed cut and sew operations working to seasonal delivery dates for retailers. Fabric arriving late compresses production into a window that cannot absorb it, and the retail delivery date does not move.",
+      "loss_scenario": "Cancelled retail orders passed back as claims against the fabric supplier, on a season that has no second chance.",
+      "rhetorical_question": "Are your customers working to fixed retail delivery dates?"
+    }
+  ]
+}

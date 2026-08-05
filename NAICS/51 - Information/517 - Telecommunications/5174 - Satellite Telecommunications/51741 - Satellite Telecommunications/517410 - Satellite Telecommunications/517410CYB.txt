@@ -1,0 +1,31 @@
+{
+  "naics_code": "517410",
+  "naics_title": "Satellite Telecommunications",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A satellite network was disabled by a cyberattack at the opening of a war.",
+      "why_this_business": "In February 2022 a wiper attack disabled tens of thousands of satellite modems on the KA-SAT network across Europe, coinciding with the invasion of Ukraine and also disrupting unrelated customers including wind turbine monitoring in Germany. Ground segment and modem management infrastructure is the attack surface, not the spacecraft.",
+      "loss_scenario": "Mass modem bricking requires physical replacement of customer equipment across the whole footprint, taking months, with service credits and contract failures throughout.",
+      "rhetorical_question": "How is your ground segment and modem management infrastructure protected?"
+    },
+    {
+      "rank": 2,
+      "headline": "Customers use satellite because there is no alternative connectivity.",
+      "why_this_business": "Satellite serves maritime, aviation, remote industrial, and emergency response customers precisely where terrestrial networks do not reach. Those customers have no fallback path, and some depend on the link for safety communications.",
+      "loss_scenario": "Customers isolated entirely, including vessels and remote sites where the link is the only means of communication, which converts a service outage into a safety exposure.",
+      "rhetorical_question": "How many of your customers have no alternative connectivity if your service fails?"
+    },
+    {
+      "rank": 3,
+      "headline": "Spacecraft command and control is the highest consequence system you run.",
+      "why_this_business": "Satellite operators command spacecraft through ground stations with telemetry, tracking, and command links. Unauthorised commanding can reposition, misconfigure, or permanently disable an asset that cannot be physically reached.",
+      "loss_scenario": "Loss of a satellite is a total loss of an asset costing hundreds of millions with a multi-year replacement lead time, and the service it carried cannot be restored in the interim.",
+      "rhetorical_question": "How is access to spacecraft command and control authenticated and monitored?"
+    }
+  ]
+}

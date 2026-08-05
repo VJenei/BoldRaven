@@ -1,0 +1,31 @@
+{
+  "naics_code": "449210",
+  "naics_title": "Electronics and Appliance Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Serialised high value inventory is a persistent theft and fraud target.",
+      "why_this_business": "Televisions, computers, and appliances are high value, serialised, and instantly resaleable. Organised retail crime targets this category specifically, and inventory systems record what is on hand, in transit, and reserved for pickup.",
+      "loss_scenario": "Theft informed by inventory and pickup data, plus fraudulent order and pickup schemes where goods are released against compromised customer accounts.",
+      "rhetorical_question": "How are online orders verified before goods are released for in-store pickup?"
+    },
+    {
+      "rank": 2,
+      "headline": "Installation and delivery reach inside customers' homes and networks.",
+      "why_this_business": "Retailers install appliances and configure connected devices, televisions, and networking equipment in customers' homes, with technicians holding customer contact details, addresses, access arrangements, and sometimes network credentials.",
+      "loss_scenario": "A breach exposing customer addresses, scheduled delivery times, and details of the high value equipment installed, which is a targeting list for residential burglary.",
+      "rhetorical_question": "Do your technicians record home access details or network credentials?"
+    },
+    {
+      "rank": 3,
+      "headline": "Extended warranty and protection plans create long-lived customer records.",
+      "why_this_business": "Protection plans are sold at the register and administered for years afterward, tying customer identity, payment details, and product serial numbers together in a record retained well beyond the sale.",
+      "loss_scenario": "A breach of long-retained plan records exposes customers who bought years ago and have no current relationship with the store, expanding notification far beyond active customers.",
+      "rhetorical_question": "How many years of protection plan customer records do you retain?"
+    }
+  ]
+}

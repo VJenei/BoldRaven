@@ -1,0 +1,31 @@
+{
+  "naics_code": "721214",
+  "naics_title": "Recreational and Vacation Camps (except Campgrounds)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Camps hold children's health records and know exactly where they are.",
+      "why_this_business": "Camps collect camper names, ages, photographs, medical histories, allergies, medications, immunisation records, and authorised pickup information for children in residential care away from their parents for weeks.",
+      "loss_scenario": "Exposure of children's identities, photographs, health data, and camp location schedules, which is a child safety and health data exposure combined, and parents will not re-enrol after it.",
+      "rhetorical_question": "Do you hold medical records, medications, and photographs for children in your care?"
+    },
+    {
+      "rank": 2,
+      "headline": "Medication administration for minors is a clinical function.",
+      "why_this_business": "Camp health centres administer prescription medication to campers on documented schedules, manage allergies including anaphylaxis, and handle injuries and illness away from parents. Health centre records are the only source of a camper's needs.",
+      "loss_scenario": "Medication errors or missed allergy information for children in residential care, which is a serious clinical harm exposure and a licensing matter in states that regulate camp health services.",
+      "rhetorical_question": "How would health centre staff verify a camper's medications and allergies without their record?"
+    },
+    {
+      "rank": 3,
+      "headline": "Staff screening is required and scrutinised.",
+      "why_this_business": "Camps must document background checks, references, and training for every staff member and volunteer with access to children, examined during accreditation, state licensing, and after any allegation.",
+      "loss_scenario": "Inability to evidence screening, which after any allegation of harm is devastating in litigation, in licensing, and in the response from parents and accrediting bodies.",
+      "rhetorical_question": "How do you evidence that every staff member with camper contact was screened?"
+    }
+  ]
+}

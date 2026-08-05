@@ -1,0 +1,31 @@
+{
+  "naics_code": "327410",
+  "naics_title": "Lime Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Lime kilns run continuously at high temperature.",
+      "why_this_business": "Rotary and vertical kilns calcine limestone continuously, with fuel, feed, and temperature controlled together. Kiln stops require controlled cooling and reheating, with refractory damage a risk on each cycle.",
+      "loss_scenario": "Lost production and refractory damage, with customers including steel mills, water treatment plants, and flue gas treatment operations that consume lime continuously.",
+      "rhetorical_question": "How long does your kiln take to return to production after a stop?"
+    },
+    {
+      "rank": 2,
+      "headline": "Water treatment and environmental customers cannot substitute.",
+      "why_this_business": "Lime is used in drinking water treatment, wastewater treatment, and flue gas desulfurisation, with those customers consuming continuously and holding limited storage. Water treatment plants cannot operate without treatment chemicals.",
+      "loss_scenario": "Water utilities without lime for treatment and pH adjustment, which within days becomes a drinking water compliance and public health situation.",
+      "rhetorical_question": "Do you supply water treatment plants with limited chemical storage?"
+    },
+    {
+      "rank": 3,
+      "headline": "Quicklime is hazardous and reacts violently with water.",
+      "why_this_business": "Quicklime reacts exothermically with water, generating heat sufficient to cause fires and steam explosions in confined spaces, and causes severe chemical burns. Handling, storage, and transport require specific controls.",
+      "loss_scenario": "A hydration event in storage or transport producing fire or steam release, with worker burn injuries and, in confined spaces, fatality potential.",
+      "rhetorical_question": "How is moisture excluded from your quicklime storage and handling systems?"
+    }
+  ]
+}

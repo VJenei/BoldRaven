@@ -1,0 +1,31 @@
+{
+  "naics_code": "611410",
+  "naics_title": "Business and Secretarial Schools",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Title IV participation makes student aid data a regulated asset.",
+      "why_this_business": "Schools participating in federal student aid hold applications, tax information, Social Security numbers, and disbursement records, protected under the program participation agreement and the FTC Safeguards Rule. Suspected breaches involving student aid data must be reported to the Department of Education.",
+      "loss_scenario": "Program participation consequences and enforcement alongside the breach, with loss of Title IV eligibility being existential for institutions whose students depend on federal aid.",
+      "rhetorical_question": "Do you participate in Title IV, and do you have a written security programme covering that data?"
+    },
+    {
+      "rank": 2,
+      "headline": "Enrolment and placement records support regulatory claims.",
+      "why_this_business": "Career-focused schools are subject to state authorisation, accreditation, and federal requirements around completion and placement reporting. Those figures are audited and are the basis of both marketing claims and continued eligibility.",
+      "loss_scenario": "Inability to substantiate completion and placement figures during audit, which for proprietary institutions has repeatedly resulted in enforcement action and loss of eligibility.",
+      "rhetorical_question": "How do you substantiate the placement rates you publish?"
+    },
+    {
+      "rank": 3,
+      "headline": "Instruction and assessment run on the learning platform.",
+      "why_this_business": "Course delivery, assessment, and attendance tracking run through learning management systems, with attendance directly affecting aid eligibility and completion. Online delivery makes the platform the classroom.",
+      "loss_scenario": "Instruction halted with cohorts unable to progress, attendance records unavailable for aid purposes, and refund obligations to students whose programmes were interrupted.",
+      "rhetorical_question": "How is attendance recorded, and what does it affect for your students' aid?"
+    }
+  ]
+}

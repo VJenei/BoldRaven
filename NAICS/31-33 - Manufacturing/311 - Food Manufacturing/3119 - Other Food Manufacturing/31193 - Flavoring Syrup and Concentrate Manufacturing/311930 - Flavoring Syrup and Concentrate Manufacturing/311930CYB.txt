@@ -1,0 +1,31 @@
+{
+  "naics_code": "311930",
+  "naics_title": "Flavoring Syrup and Concentrate Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Concentrate formulations are the most valuable trade secrets in food.",
+      "why_this_business": "Beverage concentrates and flavour formulations are closely held trade secrets, in some cases among the most famous commercial secrets in existence. The formulation is the entire value of the business and its protection depends on the reasonable measures taken to keep it secret.",
+      "loss_scenario": "Formulation disclosure destroys the asset permanently and can defeat trade secret protection retroactively, since courts examine whether reasonable security measures were in place when deciding whether protection existed.",
+      "rhetorical_question": "Could you demonstrate reasonable measures were taken to protect your formulations?"
+    },
+    {
+      "rank": 2,
+      "headline": "Concentrate supplies bottlers who cannot produce without it.",
+      "why_this_business": "Concentrate is shipped to bottlers and foodservice customers who dilute and package it, with no alternative source for a proprietary formulation. Bottling lines run continuously against concentrate supply.",
+      "loss_scenario": "Bottlers unable to produce with no substitute available, halting beverage production across a distribution territory and generating claims that reflect their lost production.",
+      "rhetorical_question": "How many bottlers depend on your concentrate with no alternative source?"
+    },
+    {
+      "rank": 3,
+      "headline": "Batching accuracy determines every downstream product.",
+      "why_this_business": "Concentrate batching weighs and combines flavour components at high accuracy, since the concentrate is diluted many times before consumption. An error is multiplied across every unit of finished beverage produced from it.",
+      "loss_scenario": "An out of specification concentrate batch producing millions of units of off-taste or non-conforming finished beverage at bottlers, with recall and claims across the whole downstream production.",
+      "rhetorical_question": "How many finished units are produced from a single batch of your concentrate?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "331313",
+  "naics_title": "Alumina Refining and Primary Aluminum Production",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Reduction cells cannot be interrupted without freezing.",
+      "why_this_business": "Aluminium smelting runs electrolytic cells continuously at high current, with molten metal and cryolite bath maintained by the current itself. Power interruption of a few hours freezes the cells, and restarting a frozen potline requires rebuilding cells individually.",
+      "loss_scenario": "A frozen potline requiring cell rebuilds costing tens of millions and taking months, with the smelter producing nothing throughout and the fixed cost base continuing.",
+      "rhetorical_question": "How long can your cells survive a power or control interruption before freezing?"
+    },
+    {
+      "rank": 2,
+      "headline": "Molten metal and caustic processes are hazardous continuously.",
+      "why_this_business": "Smelting handles molten aluminium and cryolite, and alumina refining uses hot caustic under pressure. Molten metal water contact produces explosions and caustic releases cause severe burns.",
+      "loss_scenario": "A molten metal explosion or caustic release with worker fatalities, plus equipment destruction in the affected area and investigation of the controls that should have prevented it.",
+      "rhetorical_question": "How are molten metal handling areas protected against water ingress?"
+    },
+    {
+      "rank": 3,
+      "headline": "Power supply is the largest cost and is contracted.",
+      "why_this_business": "Smelters consume enormous quantities of electricity under long-term supply agreements with interruptibility provisions. Power management and load control are integrated with production and are financially decisive.",
+      "loss_scenario": "Inability to manage load against contracted terms, with demand charges and interruption obligations mismanaged, on a cost that represents the largest single input to the operation.",
+      "rhetorical_question": "How is your power load managed against your supply agreement terms?"
+    }
+  ]
+}

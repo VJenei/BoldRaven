@@ -1,0 +1,31 @@
+{
+  "naics_code": "713290",
+  "naics_title": "Other Gambling Industries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Wagering integrity is the entire product.",
+      "why_this_business": "Gambling operations depend on customers believing outcomes and payouts are fair, verified through regulated systems, random number generation, and audited accounting. Any suggestion that systems were manipulated destroys the proposition.",
+      "loss_scenario": "Regulatory investigation and suspension pending verification of system integrity, with customer confidence damaged in a way that persists well beyond the technical remediation.",
+      "rhetorical_question": "How would you demonstrate to a regulator that game outcomes were not affected?"
+    },
+    {
+      "rank": 2,
+      "headline": "Customer accounts hold funds and identity verification data.",
+      "why_this_business": "Operators hold customer deposits, identity documents collected for age and identity verification, and wagering histories, subject to anti-money laundering and responsible gambling obligations including self-exclusion registers.",
+      "loss_scenario": "Customer balances drained through account takeover, and exposure of identity documents and wagering histories including self-exclusion status, which is deeply sensitive personal information.",
+      "rhetorical_question": "Do your records identify customers who have self-excluded from gambling?"
+    },
+    {
+      "rank": 3,
+      "headline": "Anti-money laundering obligations apply directly.",
+      "why_this_business": "Gambling operators above threshold are subject to Bank Secrecy Act obligations requiring AML programmes, transaction reporting, and record retention, with FinCEN and state regulators both enforcing.",
+      "loss_scenario": "Enforcement for reporting and recordkeeping failures where records cannot be produced, with penalties assessed independently of any underlying money laundering.",
+      "rhetorical_question": "What AML records are you required to retain and produce on request?"
+    }
+  ]
+}

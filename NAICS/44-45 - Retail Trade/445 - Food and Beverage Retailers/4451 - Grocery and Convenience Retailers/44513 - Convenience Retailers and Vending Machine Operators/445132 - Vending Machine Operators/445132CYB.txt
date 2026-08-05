@@ -1,0 +1,31 @@
+{
+  "naics_code": "445132",
+  "naics_title": "Vending Machine Operators",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Every machine is a networked payment terminal in an unattended location.",
+      "why_this_business": "Modern vending runs cashless readers connected over cellular to a payment processor, with telemetry reporting sales and inventory back to the operator. The machines sit unattended in public and semi-public locations, and the payment device is physically accessible.",
+      "loss_scenario": "Compromised card readers across a route capture card data continuously until discovered, generating card brand liability across every customer who used the affected machines.",
+      "rhetorical_question": "How many cashless payment devices do you have deployed in the field?"
+    },
+    {
+      "rank": 2,
+      "headline": "Route efficiency depends entirely on telemetry.",
+      "why_this_business": "Operators use machine telemetry to decide which machines to service and what to load, replacing fixed route schedules. Without that data, drivers service machines that do not need it and miss those that are empty, which destroys route economics.",
+      "loss_scenario": "Out of stock machines across the route generate lost sales and location complaints, and locations move to a competing operator when service quality drops.",
+      "rhetorical_question": "How do you decide which machines to service each day?"
+    },
+    {
+      "rank": 3,
+      "headline": "Location contracts depend on commission reporting.",
+      "why_this_business": "Vending locations are held under contracts paying commission on sales, reported from machine data. Location owners audit those reports. Food safety and product rotation obligations also apply to machines holding perishable items.",
+      "loss_scenario": "Commission disputes across many locations where sales data cannot be produced, and contract losses to operators who can report accurately.",
+      "rhetorical_question": "How is commission calculated and reported to your locations?"
+    }
+  ]
+}

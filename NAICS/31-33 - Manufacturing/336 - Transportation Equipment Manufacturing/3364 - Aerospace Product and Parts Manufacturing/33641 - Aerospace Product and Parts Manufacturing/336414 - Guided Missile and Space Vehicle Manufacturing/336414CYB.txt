@@ -1,0 +1,31 @@
+{
+  "naics_code": "336414",
+  "naics_title": "Guided Missile and Space Vehicle Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Everything you design is controlled defence technology.",
+      "why_this_business": "Missile and space vehicle designs are defence articles with technical data controlled under ITAR at the highest sensitivity. Access by a foreign person, including remote access, is an export requiring authorisation.",
+      "loss_scenario": "Exposure of controlled technical data to a foreign actor, which is a national security matter with criminal exposure, debarment, and programme consequences beyond any civil penalty.",
+      "rhetorical_question": "How is access to controlled programme data restricted, logged, and reviewed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Programmes require cleared facilities and demonstrated compliance.",
+      "why_this_business": "Defence programmes require facility clearances, compliance with NIST SP 800-171 and CMMC, and in classified work compliance with the National Industrial Security Program operating manual. Compliance is continuously assessed.",
+      "loss_scenario": "Loss of facility clearance or contract eligibility after an incident or failed assessment, which ends participation in the programmes the business exists to perform.",
+      "rhetorical_question": "What CMMC level and facility clearance do your programmes require?"
+    },
+    {
+      "rank": 3,
+      "headline": "Mission failure has consequences measured in national capability.",
+      "why_this_business": "Vehicles are built in small numbers with enormous per-unit value and mission timelines set by launch windows and national requirements. A defect discovered late affects capability, not just cost.",
+      "loss_scenario": "A design, software, or manufacturing defect causing mission failure, with the vehicle lost, the payload lost, and programme and national capability consequences that dwarf the unit cost.",
+      "rhetorical_question": "What is the value of a single vehicle and the payload it carries?"
+    }
+  ]
+}

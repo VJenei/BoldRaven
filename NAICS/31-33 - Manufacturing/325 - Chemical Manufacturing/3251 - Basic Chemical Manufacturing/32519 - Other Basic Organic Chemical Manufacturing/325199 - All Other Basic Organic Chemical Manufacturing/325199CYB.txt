@@ -1,0 +1,31 @@
+{
+  "naics_code": "325199",
+  "naics_title": "All Other Basic Organic Chemical Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Organic chemistry at scale carries process safety obligations.",
+      "why_this_business": "Facilities produce organic chemicals in reaction and separation processes with flammable, toxic, and reactive materials. Threshold quantities trigger OSHA process safety management and EPA risk management planning with extensive documentation requirements.",
+      "loss_scenario": "An incident with fatality and community exposure, followed by investigation of process safety documentation that determines regulatory, civil, and potentially criminal outcomes.",
+      "rhetorical_question": "Is your facility covered by process safety management, and are your records current?"
+    },
+    {
+      "rank": 2,
+      "headline": "Reaction control failures produce runaway events.",
+      "why_this_business": "Exothermic reactions are controlled by cooling, addition rate, and agitation, with loss of control producing thermal runaway, over-pressure, and release. Emergency relief systems are sized for specific scenarios documented in the process safety information.",
+      "loss_scenario": "A thermal runaway exceeding relief capacity, producing vessel rupture and release with the consequences determined by the material involved and the proximity of workers and community.",
+      "rhetorical_question": "How are reaction temperature and addition rate interlocked in your batch processes?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customers qualify your material into their processes.",
+      "why_this_business": "Chemical customers qualify suppliers and material specifications into their own manufacturing, with change control requiring notification and requalification. Supply interruption forces them to qualify an alternative.",
+      "loss_scenario": "Customers qualifying alternative suppliers during an interruption, which permanently removes the business because requalification back is a cost they will not repeat.",
+      "rhetorical_question": "How long would it take a customer to qualify an alternative supplier?"
+    }
+  ]
+}

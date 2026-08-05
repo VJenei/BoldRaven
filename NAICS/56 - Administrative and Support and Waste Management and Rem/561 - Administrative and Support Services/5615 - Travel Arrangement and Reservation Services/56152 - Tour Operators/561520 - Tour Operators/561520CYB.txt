@@ -1,0 +1,31 @@
+{
+  "naics_code": "561520",
+  "naics_title": "Tour Operators",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You take deposits far in advance for dated departures.",
+      "why_this_business": "Tour operators collect deposits and final payments months ahead of departure for trips with fixed dates, then pay suppliers, airlines, and hotels on their own schedules. Client funds are held throughout, and in some jurisdictions trust or bonding requirements apply.",
+      "loss_scenario": "Diverted client payments or supplier payments, leaving travellers without confirmed arrangements and the operator liable for both the funds and the trip, with insolvency exposure where client money is not recoverable.",
+      "rhetorical_question": "What value of customer deposits are you holding for future departures?"
+    },
+    {
+      "rank": 2,
+      "headline": "Traveller data includes passports, health information, and emergency contacts.",
+      "why_this_business": "Tours require passport details for visas and manifests, dietary and medical information for accommodation, insurance details, and emergency contacts. Adventure and expedition operators collect medical fitness declarations.",
+      "loss_scenario": "Breach exposing passport and medical data across the traveller base, with the medical component engaging health information sensitivity and notification obligations across many jurisdictions.",
+      "rhetorical_question": "Do you collect medical or dietary information from travellers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Departures happen whether or not your systems work.",
+      "why_this_business": "Trips depart on fixed dates with suppliers, guides, and transport booked. Manifests, rooming lists, and supplier confirmations must reach the ground operators before travellers arrive.",
+      "loss_scenario": "Travellers arriving to arrangements that were never confirmed, with the operator paying twice for accommodation and transport and facing claims for the trip's value and the disruption.",
+      "rhetorical_question": "How far ahead do supplier confirmations and manifests need to reach your ground operators?"
+    }
+  ]
+}

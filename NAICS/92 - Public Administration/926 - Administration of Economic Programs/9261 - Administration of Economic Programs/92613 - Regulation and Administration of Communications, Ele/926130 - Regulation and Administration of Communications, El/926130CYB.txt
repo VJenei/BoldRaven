@@ -1,0 +1,31 @@
+{
+  "naics_code": "926130",
+  "naics_title": "Regulation and Administration of Communications, Electric, Gas, and Other Utilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Regulators hold utility infrastructure and vulnerability data.",
+      "why_this_business": "Commissions receive utility filings including system maps, reliability data, infrastructure plans, and security and resilience information as part of rate cases and oversight. Some of this is critical energy infrastructure information.",
+      "loss_scenario": "Exposure of utility infrastructure and vulnerability information across every regulated utility in the jurisdiction, which is a security concern the commission cannot remediate because it concerns facilities it does not operate.",
+      "rhetorical_question": "Do your filings include critical infrastructure or system vulnerability information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Rate proceedings involve confidential commercial data.",
+      "why_this_business": "Rate cases require utilities to submit cost, contract, and operational data, much of it filed under protective order as commercially confidential. Competitors and counterparties would benefit from access.",
+      "loss_scenario": "Disclosure of confidential utility cost and contract data in breach of protective orders, damaging utilities' commercial positions and undermining the commission's ability to obtain candid filings in future.",
+      "rhetorical_question": "How is material filed under protective order separated in your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Consumer complaint records hold personal information.",
+      "why_this_business": "Commissions receive consumer complaints containing account details, payment histories, medical necessity documentation for service protection, and personal circumstances explaining inability to pay.",
+      "loss_scenario": "Exposure of consumer complaint files revealing financial hardship and medical circumstances for identified individuals who contacted the commission for help.",
+      "rhetorical_question": "Do complaint files include medical necessity or financial hardship documentation?"
+    }
+  ]
+}

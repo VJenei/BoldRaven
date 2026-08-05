@@ -1,0 +1,31 @@
+{
+  "naics_code": "335314",
+  "naics_title": "Relay and Industrial Control Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your products are the control layer of industrial plants.",
+      "why_this_business": "Relays, controllers, and industrial control equipment execute the logic that runs and protects industrial processes, including safety functions. Malware families exist that specifically target industrial control equipment.",
+      "loss_scenario": "Vulnerabilities in control products exploited across industrial installations, with process disruption or defeated safety functions, and the manufacturer named as the source across every plant using the product.",
+      "rhetorical_question": "Do your products execute safety or protective functions in customer plants?"
+    },
+    {
+      "rank": 2,
+      "headline": "Firmware updates reach equipment inside plant networks.",
+      "why_this_business": "Industrial controls receive firmware and configuration updates through manufacturer channels into plant control networks that are otherwise segregated. That channel is a trusted path.",
+      "loss_scenario": "Compromise of the firmware distribution path placing malicious code inside plant control networks across many customers, which is a supply chain compromise of critical infrastructure.",
+      "rhetorical_question": "How is firmware signed and authenticated before a device will install it?"
+    },
+    {
+      "rank": 3,
+      "headline": "Safety-rated products carry functional safety certification.",
+      "why_this_business": "Safety relays and controllers are certified to functional safety standards with documented design, failure data, and change control. Certification is tied to specific hardware and firmware versions.",
+      "loss_scenario": "Product shipped outside its certified configuration, invalidating safety functions in machinery and process installations, requiring reassessment at every site that used the product in a safety function.",
+      "rhetorical_question": "How are certified hardware and firmware versions controlled at build and release?"
+    }
+  ]
+}

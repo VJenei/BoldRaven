@@ -1,0 +1,31 @@
+{
+  "naics_code": "541213",
+  "naics_title": "Tax Preparation Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Preparer credentials are used to file fraudulent refund claims.",
+      "why_this_business": "Tax preparers hold electronic filing identification numbers and software credentials permitting returns to be filed on behalf of clients. Compromised preparer accounts are used to file fabricated returns with refunds directed to criminal accounts, using genuine taxpayer identities from your own files.",
+      "loss_scenario": "Fraudulent filings across your client base, with legitimate clients unable to file, refunds delayed for months, and the IRS treating your EFIN as compromised.",
+      "rhetorical_question": "How is access to your electronic filing credentials controlled and monitored?"
+    },
+    {
+      "rank": 2,
+      "headline": "A written security plan is required to maintain your PTIN.",
+      "why_this_business": "The FTC Safeguards Rule applies to tax preparers as financial institutions, and the IRS requires a written information security plan as a condition of holding a preparer tax identification number, with specific expectations around multi-factor authentication and data protection.",
+      "loss_scenario": "Regulatory exposure for a missing or inadequate plan independent of any breach, and loss of the PTIN or EFIN removes the ability to operate at all.",
+      "rhetorical_question": "When was your written information security plan last reviewed and updated?"
+    },
+    {
+      "rank": 3,
+      "headline": "The season is short and every client is waiting.",
+      "why_this_business": "Individual tax preparation compresses most of the year's work into roughly ten weeks, with clients expecting returns filed and refunds received on a timetable. Seasonal staff, extended hours, and volume are all built around that window.",
+      "loss_scenario": "An outage during filing season affects a disproportionate share of annual revenue, and clients who go elsewhere to get filed generally do not come back the following year.",
+      "rhetorical_question": "What share of your annual revenue is earned between January and April?"
+    }
+  ]
+}

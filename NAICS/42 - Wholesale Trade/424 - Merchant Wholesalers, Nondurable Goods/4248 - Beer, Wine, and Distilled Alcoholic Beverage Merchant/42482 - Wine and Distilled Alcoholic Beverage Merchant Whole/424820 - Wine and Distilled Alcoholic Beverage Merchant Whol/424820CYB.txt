@@ -1,0 +1,31 @@
+{
+  "naics_code": "424820",
+  "naics_title": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "State licensing and federal reporting govern every transaction.",
+      "why_this_business": "Distributors operate under federal basic permits and state licences, with excise tax reporting, product registration, and label approval requirements. Records of what was received, from whom, and sold to whom are the basis of both tax and licensing compliance.",
+      "loss_scenario": "Licence or permit action for unproducible records ends the business, and excise tax assessed on estimates during an audit carries penalties across multiple periods.",
+      "rhetorical_question": "Which federal and state permits do you hold, and what reporting do they require?"
+    },
+    {
+      "rank": 2,
+      "headline": "High value spirits inventory is a serious theft target.",
+      "why_this_business": "Allocated bourbon, rare spirits, and fine wine carry extreme value per case and resell instantly through secondary markets. Inventory systems record exactly what is held, where, and when allocations arrive.",
+      "loss_scenario": "Theft of allocated inventory informed by internal data, with individual cases worth thousands and allocations that cannot be replaced at any price.",
+      "rhetorical_question": "What is the value of the highest value pallet in your warehouse?"
+    },
+    {
+      "rank": 3,
+      "headline": "Allocation decisions are commercially sensitive and contested.",
+      "why_this_business": "Scarce products are allocated across retail and on-premise accounts by the distributor, and those decisions are closely watched by accounts who believe they deserve more. Allocation records and account performance data drive the decisions.",
+      "loss_scenario": "Exposure of allocation data damages relationships across the account base simultaneously, and in some states creates regulatory exposure around discrimination between retailers.",
+      "rhetorical_question": "How are product allocations decided and recorded across your accounts?"
+    }
+  ]
+}

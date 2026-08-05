@@ -1,0 +1,31 @@
+{
+  "naics_code": "512250",
+  "naics_title": "Record Production and Distribution",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pre-release leaks destroy a campaign that cannot be run twice.",
+      "why_this_business": "Labels build release campaigns around a coordinated date across streaming platforms, radio, press, and retail. Masters and marketing assets circulate among producers, mixers, mastering engineers, press, and platforms ahead of release, and each holder is a potential leak point.",
+      "loss_scenario": "A leaked release forfeits first-week performance that drives chart position and playlist placement, which determines the commercial trajectory of the record for its whole life.",
+      "rhetorical_question": "How many parties hold your masters before release day?"
+    },
+    {
+      "rank": 2,
+      "headline": "Delivery to streaming platforms is technical and deadline-driven.",
+      "why_this_business": "Releases are delivered to digital service providers weeks ahead with audio, artwork, metadata, and rights information that must conform to platform specifications. Playlist consideration depends on delivering ahead of the deadline.",
+      "loss_scenario": "Missing the delivery window means missing editorial playlist consideration, which for many releases is the difference between commercial success and obscurity.",
+      "rhetorical_question": "How far ahead of release do you deliver to streaming platforms?"
+    },
+    {
+      "rank": 3,
+      "headline": "Royalty accounting runs across thousands of tracks and counterparties.",
+      "why_this_business": "Labels account to artists, producers, featured performers, and rights holders based on streaming and sales data ingested from many platforms, with contractual splits and recoupable advances applied. Statements are contractually required and subject to audit rights.",
+      "loss_scenario": "Unreconcilable royalty accounting triggers artist audits, which routinely find underpayment and carry contractual cost-shifting provisions, plus reputational damage in an industry sensitive to accounting disputes.",
+      "rhetorical_question": "How many artist and rights holder accounts do you calculate royalties for?"
+    }
+  ]
+}

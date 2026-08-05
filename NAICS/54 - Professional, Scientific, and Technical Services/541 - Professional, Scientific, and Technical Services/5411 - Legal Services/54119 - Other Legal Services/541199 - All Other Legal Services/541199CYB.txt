@@ -1,0 +1,31 @@
+{
+  "naics_code": "541199",
+  "naics_title": "All Other Legal Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Legal support providers hold privileged material.",
+      "why_this_business": "eDiscovery vendors, legal process outsourcers, and litigation support providers receive client documents, privileged communications, and case strategy under confidentiality and protective orders issued by courts. Protective orders impose obligations directly on the parties handling the data.",
+      "loss_scenario": "Disclosure of privileged and protected material, with potential waiver of privilege, sanctions for violating a protective order, and liability to the law firm and its client for the consequences in the underlying case.",
+      "rhetorical_question": "Are you subject to protective orders governing how you handle case material?"
+    },
+    {
+      "rank": 2,
+      "headline": "Case data volumes are enormous and concentrated.",
+      "why_this_business": "eDiscovery and document review handle full document populations from litigants, including email archives, financial records, and personal data of employees and third parties who are not parties to the case at all.",
+      "loss_scenario": "A breach exposes complete corporate document populations, affecting the litigant and every individual whose data appeared in the collection, with notification obligations flowing through the client.",
+      "rhetorical_question": "How many gigabytes of client case material are held on your systems at present?"
+    },
+    {
+      "rank": 3,
+      "headline": "Court deadlines govern every deliverable.",
+      "why_this_business": "Production deadlines, hearing dates, and trial schedules are set by courts and cannot be extended unilaterally. Legal support work is scheduled backward from those dates with no slack near trial.",
+      "loss_scenario": "Missed production deadlines exposing the client to sanctions or adverse inference, with the resulting damages claimed against the provider whose delay caused it.",
+      "rhetorical_question": "What court-ordered deadlines depend on your deliverables?"
+    }
+  ]
+}

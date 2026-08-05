@@ -1,0 +1,31 @@
+{
+  "naics_code": "484220",
+  "naics_title": "Specialized Freight (except Used Goods) Trucking, Local",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialized loads cannot be handed to another carrier at short notice.",
+      "why_this_business": "Local specialized trucking moves bulk, tank, flatbed, refrigerated, and heavy haul freight requiring specific equipment, endorsements, and permits. There is no spot capacity for a tanker or a heavy haul on the day. Dispatch matches equipment, driver endorsement, and permit to each load.",
+      "loss_scenario": "Customers with no substitutable capacity are shut down, and in bulk and tank operations a missed delivery can idle a plant that cannot store more raw material.",
+      "rhetorical_question": "How quickly could a customer find replacement capacity for your specialized equipment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Hazardous materials movements carry documented handling and security duties.",
+      "why_this_business": "Hazmat carriers require shipping papers, driver hazmat endorsements with security threat assessment, security plans for certain materials, and emergency response information accompanying the shipment. Records are examined at roadside and after any incident.",
+      "loss_scenario": "Out of service orders and civil penalties for shipping papers that cannot be produced, and after a release, absent security plan and training records the carrier has no defence.",
+      "rhetorical_question": "Do you haul placarded hazardous materials, and where is your security plan documented?"
+    },
+    {
+      "rank": 3,
+      "headline": "Local operations still carry full federal safety obligations.",
+      "why_this_business": "Driver qualification files, drug and alcohol testing with Clearinghouse queries, hours of service, and maintenance records are required regardless of operating radius. Short-haul exceptions change the recordkeeping method, not the obligation.",
+      "loss_scenario": "FMCSA audit findings and, after a crash, the driver file and maintenance records determine the outcome of litigation that will exceed the value of the operation.",
+      "rhetorical_question": "How do you maintain driver qualification and maintenance records?"
+    }
+  ]
+}

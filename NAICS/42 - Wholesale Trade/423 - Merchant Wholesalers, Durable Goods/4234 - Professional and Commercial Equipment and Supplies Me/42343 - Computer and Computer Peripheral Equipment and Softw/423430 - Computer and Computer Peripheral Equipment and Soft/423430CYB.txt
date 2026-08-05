@@ -1,0 +1,31 @@
+{
+  "naics_code": "423430",
+  "naics_title": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You are a link in your customers' technology supply chain.",
+      "why_this_business": "Hardware and software passing through your warehouse is installed on customer networks, including government and regulated environments. Supply chain compromise, where equipment or firmware is altered in transit or at the distributor, is a recognised nation-state technique and the reason federal buyers impose provenance requirements.",
+      "loss_scenario": "Compromised product delivered to customers makes the distributor the origin of every downstream incident, with liability across the entire customer base and likely permanent loss of authorised status.",
+      "rhetorical_question": "What controls prevent tampering with product between receipt and shipment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Licence keys and entitlements are digital goods that can be stolen outright.",
+      "why_this_business": "Software licences, subscription entitlements, and activation keys are held and transmitted electronically. They are directly monetisable, resell instantly on grey markets, and their theft is invisible until the vendor audits.",
+      "loss_scenario": "Stolen licence inventory sold on grey markets, with the vendor charging back the distributor for the value and potentially terminating the agreement.",
+      "rhetorical_question": "How are software licence keys stored and issued to customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "High value inventory in a warehouse is a physical target informed by data.",
+      "why_this_business": "Processors, graphics cards, and enterprise equipment carry very high value per pallet and resell immediately. Inventory systems record exactly what is on hand and where, and shipment records show what moves and when.",
+      "loss_scenario": "Targeted theft informed by inventory data, or a fictitious pickup where a load worth several hundred thousand dollars is released to a fraudulent carrier.",
+      "rhetorical_question": "What is the value of the highest value pallet in your warehouse right now?"
+    }
+  ]
+}

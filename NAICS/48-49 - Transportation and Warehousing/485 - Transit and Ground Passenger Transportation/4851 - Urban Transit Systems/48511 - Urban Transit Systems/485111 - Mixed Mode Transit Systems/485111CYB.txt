@@ -1,0 +1,31 @@
+{
+  "naics_code": "485111",
+  "naics_title": "Mixed Mode Transit Systems",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Transit agencies have been shut down by ransomware and had to carry riders free.",
+      "why_this_business": "Transit systems run computer-aided dispatch, automatic vehicle location, fare collection, and scheduling as one connected environment. Agencies hit by ransomware have opened fare gates and carried passengers without charge for days because collection systems were unavailable, while still operating service.",
+      "loss_scenario": "Fare revenue lost outright for the duration, with no ability to bill retroactively, plus incident response costs borne by an agency with no commercial pricing power to recover them.",
+      "rhetorical_question": "What happens to fare collection if your central systems are unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "Rider payment and reduced-fare data identifies vulnerable people.",
+      "why_this_business": "Fare cards and mobile ticketing link identity to payment methods and complete travel histories. Reduced-fare programmes for seniors, students, and disabled riders require eligibility documentation, which is health and status information about people who depend on the service.",
+      "loss_scenario": "Breach notification across the rider base, with reduced-fare eligibility records carrying health and disability information that engages privacy obligations beyond ordinary payment data.",
+      "rhetorical_question": "What eligibility documentation do you hold for reduced-fare riders?"
+    },
+    {
+      "rank": 3,
+      "headline": "Dispatch and control systems govern vehicle movement across the network.",
+      "why_this_business": "Mixed mode systems coordinate rail and bus operations through control centres with signalling, traction power, and vehicle location systems. Rail modes carry train control obligations, and control centre systems are the safety layer.",
+      "loss_scenario": "Loss of control and dispatch forces manual operation at drastically reduced capacity or suspension of service, and a control system compromise creates collision exposure across a passenger network.",
+      "rhetorical_question": "How is your operations control network separated from your business network?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "327110",
+  "naics_title": "Pottery, Ceramics, and Plumbing Fixture Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Kilns run long firing cycles that cannot be interrupted.",
+      "why_this_business": "Ceramic firing follows temperature curves over many hours with controlled ramp, soak, and cooling. Interrupting a firing ruins the entire kiln load, and tunnel kilns run continuously with ware moving through.",
+      "loss_scenario": "Kiln loads lost representing days of production and the ware in them, plus damage to kiln furniture and refractory where uncontrolled cooling occurs.",
+      "rhetorical_question": "How many hours is a firing cycle, and what happens to the load if it is interrupted?"
+    },
+    {
+      "rank": 2,
+      "headline": "Plumbing fixtures carry code certification and water efficiency ratings.",
+      "why_this_business": "Sanitaryware must meet plumbing code standards with third-party certification, and water consumption ratings are required and regulated at federal and state level. Products cannot be sold without valid certification.",
+      "loss_scenario": "Uncertified product installed that inspectors will not approve, requiring replacement, plus enforcement where water efficiency claims cannot be substantiated.",
+      "rhetorical_question": "Which certifications and water efficiency ratings do your fixtures carry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Glazes and food contact ceramics carry lead and cadmium limits.",
+      "why_this_business": "Ceramic tableware and glazes contacting food are subject to FDA lead and cadmium leaching limits, with testing required. Lead in glazes has been the subject of import alerts and recalls.",
+      "loss_scenario": "Product exceeding leaching limits reaching consumers, with recall, FDA action, and injury claims where lead exposure occurred, particularly affecting children.",
+      "rhetorical_question": "Do you produce food contact ceramics, and how is leaching testing documented?"
+    }
+  ]
+}

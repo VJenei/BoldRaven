@@ -1,0 +1,31 @@
+{
+  "naics_code": "321912",
+  "naics_title": "Cut Stock, Resawing Lumber, and Planing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Production is to customer dimension with no stock alternative.",
+      "why_this_business": "Cut stock is produced to customer specifications for dimension, grade, and moisture content, supplied to furniture, millwork, and component manufacturers who machine it further. Every order is specific.",
+      "loss_scenario": "Wrong dimension or grade production that no other customer can use, with material and machine time lost and the customer's own production halted for want of components.",
+      "rhetorical_question": "What proportion of your production is cut to individual customer specification?"
+    },
+    {
+      "rank": 2,
+      "headline": "Moisture content determines whether the product performs.",
+      "why_this_business": "Wood moves with moisture content, and cut stock is dried to a specified level for the customer's application and environment. Material outside specification warps and shrinks after the customer has machined and assembled it.",
+      "loss_scenario": "Product delivered outside moisture specification causing warping in customers' finished goods, with claims covering the finished furniture or millwork rather than the lumber.",
+      "rhetorical_question": "How is moisture content verified and recorded before shipment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Optimising equipment drives yield on expensive hardwood.",
+      "why_this_business": "Cut stock operations use scanning and optimising saws to maximise clear cutting yield from hardwood lumber, which is the principal cost input. Yield differences of a few percent determine profitability.",
+      "loss_scenario": "Reduced yield across all production run manually, which on expensive hardwood consumes the margin directly and continuously for as long as the optimisation is unavailable.",
+      "rhetorical_question": "What is your yield difference between optimised and manual cutting?"
+    }
+  ]
+}

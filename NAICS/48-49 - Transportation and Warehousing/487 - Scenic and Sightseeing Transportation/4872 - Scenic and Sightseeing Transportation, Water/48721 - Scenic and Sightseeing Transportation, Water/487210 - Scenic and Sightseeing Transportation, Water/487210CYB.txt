@@ -1,0 +1,31 @@
+{
+  "naics_code": "487210",
+  "naics_title": "Scenic and Sightseeing Transportation, Water",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Passenger counts on the water are a life safety record.",
+      "why_this_business": "Excursion vessels operate under a certificate of inspection setting maximum passengers, and the passenger count determines both stability and the search and rescue response if the vessel is in distress. Ticketing systems produce that count.",
+      "loss_scenario": "Boarding without accurate counts risks exceeding certificated capacity, and in a distress event responders do not know how many people are in the water. Passenger vessel casualties have produced some of the most severe maritime liability outcomes.",
+      "rhetorical_question": "How is your passenger count recorded and checked against your certificate of inspection?"
+    },
+    {
+      "rank": 2,
+      "headline": "Coast Guard cybersecurity rules now apply to US-flagged passenger vessels.",
+      "why_this_business": "The Coast Guard cybersecurity rule took effect July 16, 2025 for US-flagged vessels and MTSA-regulated facilities, requiring immediate reporting of reportable cyber incidents to the National Response Center, training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
+      "loss_scenario": "Captain of the Port restrictions removing vessels from service during the operating season, which for a seasonal business is the whole year's revenue.",
+      "rhetorical_question": "Have you assessed whether the Coast Guard cyber rule applies to your vessels?"
+    },
+    {
+      "rank": 3,
+      "headline": "Advance bookings and events are dated and non-transferable.",
+      "why_this_business": "Excursion and charter operators take advance bookings for dinner cruises, weddings, and corporate events, with deposits and guest counts committed months ahead against a specific vessel and date.",
+      "loss_scenario": "Lost event bookings on dates that cannot be redone, with deposits taken and clients arriving for events that were never recorded.",
+      "rhetorical_question": "How many dated events with deposits are you currently holding?"
+    }
+  ]
+}

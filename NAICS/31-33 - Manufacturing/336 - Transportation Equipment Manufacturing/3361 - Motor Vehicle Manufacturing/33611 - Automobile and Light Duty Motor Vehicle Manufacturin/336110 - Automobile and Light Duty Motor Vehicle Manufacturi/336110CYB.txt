@@ -1,0 +1,31 @@
+{
+  "naics_code": "336110",
+  "naics_title": "Automobile and Light Duty Motor Vehicle Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Vehicles are connected computers that can be reached remotely.",
+      "why_this_business": "Vehicles contain dozens of electronic control units, telematics units with cellular connections, and over the air update capability. Remote compromise of vehicle systems has been publicly demonstrated and led to a recall of 1.4 million vehicles.",
+      "loss_scenario": "A remote vulnerability affecting vehicle control functions, with an NHTSA recall of every vehicle of the affected models, a software campaign to vehicles in customers' hands, and accident liability where the vehicles were in motion.",
+      "rhetorical_question": "Can vehicle software be updated or accessed over a cellular connection?"
+    },
+    {
+      "rank": 2,
+      "headline": "Assembly plants run just in time with no inventory buffer.",
+      "why_this_business": "Vehicle assembly runs on sequenced delivery with hours of parts on hand. A plant produces a vehicle every minute and stopping it idles thousands of workers and hundreds of suppliers simultaneously.",
+      "loss_scenario": "Plant systems unavailable with assembly stopped, at losses measured in millions per day per plant, and supplier shipments continuing to arrive with nowhere to go.",
+      "rhetorical_question": "What does an hour of stopped assembly cost at one of your plants?"
+    },
+    {
+      "rank": 3,
+      "headline": "Vehicles collect detailed data about their drivers.",
+      "why_this_business": "Connected vehicles collect location, driving behaviour, and in-cabin data transmitted to manufacturer platforms, with state privacy laws and FTC attention focused on how that data is shared, particularly with insurers and data brokers.",
+      "loss_scenario": "Driver data exposed or shared without proper consent, with state privacy enforcement, class actions across a large owner base, and FTC action where sharing practices were not disclosed.",
+      "rhetorical_question": "What data do your vehicles transmit, and with whom is it shared?"
+    }
+  ]
+}

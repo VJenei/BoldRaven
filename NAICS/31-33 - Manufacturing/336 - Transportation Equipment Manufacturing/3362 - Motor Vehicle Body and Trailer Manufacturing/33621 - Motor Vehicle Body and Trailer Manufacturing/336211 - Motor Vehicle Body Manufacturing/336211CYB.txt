@@ -1,0 +1,31 @@
+{
+  "naics_code": "336211",
+  "naics_title": "Motor Vehicle Body Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Bodies are built to order on customer chassis.",
+      "why_this_business": "Bodies are engineered and built for a specific chassis, application, and customer specification, with weight distribution, mounting, and equipment integration determined per unit. Chassis are supplied by the customer or dealer and sit waiting.",
+      "loss_scenario": "Bodies built to wrong specification or unable to be completed, with customer chassis occupying the yard, delivery commitments missed, and rebuild required on units already fabricated.",
+      "rhetorical_question": "How are customer body specifications captured and released into build?"
+    },
+    {
+      "rank": 2,
+      "headline": "Completed vehicles must meet federal safety standards.",
+      "why_this_business": "Final stage manufacturers certify that the completed vehicle conforms to applicable Federal Motor Vehicle Safety Standards, with documentation supporting the certification and NHTSA jurisdiction over defects.",
+      "loss_scenario": "Vehicles certified without support for the certification, or containing a safety defect, with an NHTSA recall of the completed vehicles and civil penalties for certification failures.",
+      "rhetorical_question": "How do you document conformance supporting your final stage certification?"
+    },
+    {
+      "rank": 3,
+      "headline": "Emergency and specialty bodies carry life safety functions.",
+      "why_this_business": "Ambulance, fire, and utility bodies carry equipment, electrical systems, and structures that responders depend on. Electrical loads, mounting, and structural integrity are engineered per build.",
+      "loss_scenario": "A structural or electrical defect in an emergency vehicle failing during response, with responder or patient harm and the build records determining what was fitted and how.",
+      "rhetorical_question": "Do you build emergency response or specialty bodies with integrated equipment?"
+    }
+  ]
+}

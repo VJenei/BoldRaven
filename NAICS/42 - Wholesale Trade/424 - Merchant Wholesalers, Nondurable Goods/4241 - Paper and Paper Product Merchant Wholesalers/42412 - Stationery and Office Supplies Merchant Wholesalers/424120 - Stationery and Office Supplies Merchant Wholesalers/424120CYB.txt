@@ -1,0 +1,31 @@
+{
+  "naics_code": "424120",
+  "naics_title": "Stationery and Office Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Contract customers order through their own procurement systems.",
+      "why_this_business": "Office supply distribution runs on contract pricing with corporate, government, and institutional accounts ordering through punchout catalogues integrated into their purchasing systems. Item data, contract pricing, and availability flow automatically into the customer's environment.",
+      "loss_scenario": "Disconnection from customer procurement platforms stops ordering entirely, and contract customers have alternate suppliers already loaded in the same system.",
+      "rhetorical_question": "How many customers order through catalogues integrated with their own purchasing systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Next day delivery is the whole service proposition.",
+      "why_this_business": "Office products distribution promises next day delivery on thousands of SKUs from regional distribution centres, with orders cut off in the evening and picked overnight. The value over a retail alternative is availability and speed.",
+      "loss_scenario": "Missed next day commitments across the customer base, on a service promise that is the only reason customers use a distributor rather than buying retail.",
+      "rhetorical_question": "What is your order cut-off time and delivery commitment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Government contract pricing is auditable and confidential.",
+      "why_this_business": "Distributors holding government schedule or cooperative contracts must maintain pricing compliance, report sales, and in some cases certify pricing against commercial rates. Those contracts and their pricing terms are commercially sensitive.",
+      "loss_scenario": "Contract non-compliance findings and repayment obligations, plus exposure of pricing structures that undermines every negotiation you are currently in.",
+      "rhetorical_question": "Do you hold government or cooperative purchasing contracts with reporting obligations?"
+    }
+  ]
+}

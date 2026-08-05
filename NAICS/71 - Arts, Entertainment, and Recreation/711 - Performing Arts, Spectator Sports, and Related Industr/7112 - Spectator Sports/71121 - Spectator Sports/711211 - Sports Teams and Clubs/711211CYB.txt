@@ -1,0 +1,31 @@
+{
+  "naics_code": "711211",
+  "naics_title": "Sports Teams and Clubs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A rival club executive was imprisoned for hacking another team's database.",
+      "why_this_business": "In 2016 a Major League Baseball executive was sentenced to prison for repeatedly accessing another club's proprietary scouting and analytics database, and the league imposed a $2 million fine and forfeiture of draft picks. Proprietary scouting, analytics, and medical data is a genuine competitive asset and rival organisations have been shown to target it.",
+      "loss_scenario": "Competitive loss from exposed scouting and analytics, plus league disciplinary action. The precedent establishes that this is a real and prosecuted threat rather than a theoretical one.",
+      "rhetorical_question": "How is access to your scouting and analytics database controlled and logged?"
+    },
+    {
+      "rank": 2,
+      "headline": "Player medical records are protected and career-defining.",
+      "why_this_business": "Clubs hold player medical records, injury histories, imaging, and treatment plans, subject to collective bargaining confidentiality provisions and, in many arrangements, HIPAA. Injury information affects contract value, trade discussions, and wagering markets.",
+      "loss_scenario": "Exposure of player medical information affects contract negotiations and wagering integrity, with grievances under the collective bargaining agreement and league investigation into how the information escaped.",
+      "rhetorical_question": "Who has access to player medical and injury records within your organisation?"
+    },
+    {
+      "rank": 3,
+      "headline": "Ticketing, access control, and payments run the venue on game day.",
+      "why_this_business": "Digital ticketing, gate access control, concessions, and merchandise all run on connected systems, with tens of thousands of people arriving in a two-hour window for an event that starts at a fixed time.",
+      "loss_scenario": "Fans unable to enter a sold-out venue, with crowd management becoming a public safety issue, plus lost concession and merchandise revenue and broadcast obligations that must be met regardless.",
+      "rhetorical_question": "How would you admit 40,000 ticket holders if digital ticketing failed on game day?"
+    }
+  ]
+}

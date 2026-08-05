@@ -1,0 +1,31 @@
+{
+  "naics_code": "311422",
+  "naics_title": "Specialty Canning",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Low acid and acidified food processing is federally regulated.",
+      "why_this_business": "Specialty canned products including soups, sauces, and prepared foods fall under low acid or acidified food regulations requiring registered processes, trained operators, and continuous processing records. Acidified products depend on pH control to prevent botulism.",
+      "loss_scenario": "Product with unverifiable process or pH records must be destroyed, and product that shipped creates botulism exposure with fatality potential and criminal investigation.",
+      "rhetorical_question": "How are pH and thermal process records captured for each production lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Complex formulations concentrate allergen risk.",
+      "why_this_business": "Specialty canned foods combine dairy, wheat, soy, seafood, and other allergens in formulations produced on shared equipment, with label accuracy depending on formulation control and packaging management.",
+      "loss_scenario": "An allergen recall from a formulation or labelling error, with injury exposure and a recall scope determined by whether affected lots can be identified from production records.",
+      "rhetorical_question": "How is the label verified against the formulation actually produced?"
+    },
+    {
+      "rank": 3,
+      "headline": "Co-packing means producing other companies' products.",
+      "why_this_business": "Specialty canners frequently co-pack for brand owners, holding customer formulations, process authority documentation, and specifications. The co-packer executes processes the brand owner is responsible for.",
+      "loss_scenario": "Loss of customer formulations and scheduled process documentation, which cannot be recreated without a process authority and stops production of every affected customer product.",
+      "rhetorical_question": "Where are your scheduled process filings and customer formulations held?"
+    }
+  ]
+}

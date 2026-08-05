@@ -1,0 +1,31 @@
+{
+  "naics_code": "541890",
+  "naics_title": "Other Services Related to Advertising",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Service providers hold client campaign material before release.",
+      "why_this_business": "Production, fulfilment, and specialty advertising services handle client creative, product information, and campaign timing ahead of launch, under confidentiality obligations in the engagement terms.",
+      "loss_scenario": "Leaked campaign or product information ahead of launch, with the client's investment compromised and liability defined by the confidentiality terms rather than the fee.",
+      "rhetorical_question": "Do you hold unreleased client creative or product information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fulfilment operations hold consumer data from promotions.",
+      "why_this_business": "Promotional fulfilment, rebate processing, and sweepstakes administration collect consumer names, addresses, purchase proof, and sometimes bank details for rebate payment, on behalf of client brands.",
+      "loss_scenario": "Breach exposing consumer promotional data including payment details, with notification obligations and the client brand bearing the reputational consequence of a promotion that harmed its own customers.",
+      "rhetorical_question": "Do you collect consumer data or process payments for client promotions?"
+    },
+    {
+      "rank": 3,
+      "headline": "Deadlines are set by the client's campaign calendar.",
+      "why_this_business": "Services in this category sit inside campaign schedules with launch dates, event dates, and media flights already committed and paid for. Delivery dates are fixed before the work starts.",
+      "loss_scenario": "Missed campaign deadlines where the client's media and event spend is already committed, and the damages reflect that spend rather than the service fee.",
+      "rhetorical_question": "What client campaign dates depend on your delivery?"
+    }
+  ]
+}

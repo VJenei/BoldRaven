@@ -1,0 +1,31 @@
+{
+  "naics_code": "485510",
+  "naics_title": "Charter Bus Industry",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Charters are dated commitments for groups with no alternative.",
+      "why_this_business": "Charters are booked months ahead for school trips, sports teams, tours, and corporate events, with deposits taken and vehicles committed to a specific date and itinerary. The group has no fallback if the bus does not arrive.",
+      "loss_scenario": "Groups stranded on dated trips that cannot be rescheduled, with refunds, alternative transport costs, and claims for the value of the event that was missed.",
+      "rhetorical_question": "How many dated charters with deposits are on your books right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Passenger manifests hold group and often minor data.",
+      "why_this_business": "Charter operators receive passenger manifests for school groups, youth sports, and tours, containing names, ages, emergency contacts, and sometimes medical information for minors. Those lists are provided by the client and belong to them.",
+      "loss_scenario": "Exposure of manifests containing minors' names and emergency contacts, which is a third-party data breach the client organisation will hold you responsible for.",
+      "rhetorical_question": "Do you receive passenger manifests containing minors' details?"
+    },
+    {
+      "rank": 3,
+      "headline": "Passenger carrier safety records are examined intensely after any crash.",
+      "why_this_business": "Motorcoach operators must maintain driver qualification, hours of service, drug and alcohol testing, and maintenance records. Motorcoach crashes involve many casualties and attract NTSB investigation, where records are the central evidence.",
+      "loss_scenario": "A multi-casualty crash where maintenance and hours records cannot be produced, in litigation where the values reflect dozens of passengers.",
+      "rhetorical_question": "How quickly could you produce maintenance and hours records for a specific vehicle and trip?"
+    }
+  ]
+}

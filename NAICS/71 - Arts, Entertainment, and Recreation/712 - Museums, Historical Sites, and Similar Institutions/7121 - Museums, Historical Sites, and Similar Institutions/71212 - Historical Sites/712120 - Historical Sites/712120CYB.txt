@@ -1,0 +1,31 @@
+{
+  "naics_code": "712120",
+  "naics_title": "Historical Sites",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Site and collection records document irreplaceable material.",
+      "why_this_business": "Historical sites hold collection records, archaeological data, conservation histories, and structural documentation for buildings and objects that cannot be replaced. Conservation records document treatments and condition over decades.",
+      "loss_scenario": "Loss of conservation and structural records removes the basis for future treatment decisions on irreplaceable fabric, and archaeological data represents excavation that destroyed the context it recorded.",
+      "rhetorical_question": "How many decades of conservation records exist for your site?"
+    },
+    {
+      "rank": 2,
+      "headline": "Visitor operations and ticketing carry payment data.",
+      "why_this_business": "Sites sell admission, tours, and memberships through ticketing systems holding visitor payment and contact data, with membership programmes billing recurring subscriptions.",
+      "loss_scenario": "Payment data exposure across visitors and members, with card brand liability and notification costs that a site operating on admissions and grants cannot readily absorb.",
+      "rhetorical_question": "How many members have payment methods stored for recurring renewal?"
+    },
+    {
+      "rank": 3,
+      "headline": "Grant and public funding requires documented stewardship.",
+      "why_this_business": "Sites receive public and foundation funding conditioned on preservation standards, visitor reporting, and financial accountability, with records subject to audit and monitoring.",
+      "loss_scenario": "Funding consequences where stewardship and financial documentation cannot be produced, on grants that fund conservation work the site cannot otherwise afford.",
+      "rhetorical_question": "What documentation do your funders require to demonstrate stewardship?"
+    }
+  ]
+}

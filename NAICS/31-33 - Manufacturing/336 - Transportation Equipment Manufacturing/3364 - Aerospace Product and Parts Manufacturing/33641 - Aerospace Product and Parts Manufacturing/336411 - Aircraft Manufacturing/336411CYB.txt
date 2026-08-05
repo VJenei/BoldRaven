@@ -1,0 +1,31 @@
+{
+  "naics_code": "336411",
+  "naics_title": "Aircraft Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Design and production data supports type certification.",
+      "why_this_business": "Aircraft are certificated by the FAA with a type design, production approval, and configuration control. Every part and process is tied to approved data, and the certificate depends on the manufacturer maintaining that data and control.",
+      "loss_scenario": "Loss or corruption of type design and configuration data, with aircraft in production unable to be conformed and delivered, and FAA action against the production certificate.",
+      "rhetorical_question": "How is approved type design data controlled and backed up?"
+    },
+    {
+      "rank": 2,
+      "headline": "Aircraft software is safety critical and certified.",
+      "why_this_business": "Flight control, avionics, and systems software is developed and verified to DO-178C assurance levels with configuration control audited as part of certification. Software errors in flight critical systems have caused fatal accidents.",
+      "loss_scenario": "A software defect or unauthorised change reaching flight critical systems, with an accident, an NTSB investigation, and an airworthiness directive grounding every aircraft of the type.",
+      "rhetorical_question": "How are flight critical software configurations controlled from development to aircraft?"
+    },
+    {
+      "rank": 3,
+      "headline": "Programme and defence data is export controlled and targeted.",
+      "why_this_business": "Aircraft technical data is export controlled under ITAR or EAR depending on the programme, and aerospace manufacturers are among the most persistently targeted by state-linked actors seeking design and programme data.",
+      "loss_scenario": "Theft of design and programme data by a state-linked actor, which is both a permanent competitive loss and an export control and national security matter with contract and debarment consequences.",
+      "rhetorical_question": "How is access to export controlled technical data restricted and logged?"
+    }
+  ]
+}

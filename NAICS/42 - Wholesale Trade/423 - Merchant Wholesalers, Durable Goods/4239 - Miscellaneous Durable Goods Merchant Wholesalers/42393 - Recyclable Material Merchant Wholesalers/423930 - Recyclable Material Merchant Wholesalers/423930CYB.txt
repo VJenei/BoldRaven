@@ -1,0 +1,31 @@
+{
+  "naics_code": "423930",
+  "naics_title": "Recyclable Material Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Scrap transactions require seller identification records by law.",
+      "why_this_business": "State scrap metal laws require dealers to record seller identification, vehicle details, photographs, and material descriptions, with hold periods before processing and reporting to law enforcement. These rules exist because metal theft is pervasive and scrap yards are where stolen material is monetised.",
+      "loss_scenario": "Inability to produce transaction records exposes the dealer to receiving stolen property allegations and licence action, and the records themselves contain identification data for thousands of sellers.",
+      "rhetorical_question": "How do you record seller identification and photographs for scrap transactions?"
+    },
+    {
+      "rank": 2,
+      "headline": "Commodity positions move daily and shipments settle on assay.",
+      "why_this_business": "Scrap is bought at the scale and sold into mills and export markets on grade and analysis, with pricing tied to daily commodity indices. Position, inventory grade, and forward sales must be visible to manage margin on a spread that can invert quickly.",
+      "loss_scenario": "Unmanaged position exposure through a price move, plus quality disputes on shipments where inbound grading records are unavailable to support the outbound claim.",
+      "rhetorical_question": "How do you track inventory by grade against your forward sales commitments?"
+    },
+    {
+      "rank": 3,
+      "headline": "Export shipments carry documentation and screening obligations.",
+      "why_this_business": "A large share of recovered material is exported, requiring accurate commodity classification, customs documentation, and compliance with destination country import restrictions on scrap quality. Containers are rejected at destination for contamination.",
+      "loss_scenario": "Containers rejected at destination and returned or abandoned, with freight both ways and disposal cost, on shipments that may be worth less than the logistics bill.",
+      "rhetorical_question": "What share of your material is exported, and who prepares the documentation?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "336330",
+  "naics_title": "Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Steering and suspension failure causes loss of vehicle control.",
+      "why_this_business": "Steering components, ball joints, and suspension parts carry load and directional control. Failure at speed causes immediate loss of control with crash consequences.",
+      "loss_scenario": "Component failures causing crashes, with an NHTSA recall across every vehicle containing the part and litigation over the collisions themselves.",
+      "rhetorical_question": "How is material and process traceability maintained for steering components?"
+    },
+    {
+      "rank": 2,
+      "headline": "Material and process control determine strength that cannot be inspected.",
+      "why_this_business": "Component strength depends on material specification, forging or casting quality, and heat treatment, verified by testing on samples. A part with correct dimensions may not have the required properties.",
+      "loss_scenario": "Under-strength parts entering vehicles and failing after time in service, with the delayed onset making every part from an extended production period suspect.",
+      "rhetorical_question": "How are heat treatment and material test results recorded per production lot?"
+    },
+    {
+      "rank": 3,
+      "headline": "Automotive programmes run on approved parts and schedules.",
+      "why_this_business": "Parts are supplied under production part approval with dedicated tooling and sequenced delivery to assembly plants that hold hours of inventory.",
+      "loss_scenario": "Assembly plants stopped for want of parts, with line-down charges per hour far exceeding the part value and expedited freight to recover.",
+      "rhetorical_question": "What are your customers' line-down charges per hour?"
+    }
+  ]
+}

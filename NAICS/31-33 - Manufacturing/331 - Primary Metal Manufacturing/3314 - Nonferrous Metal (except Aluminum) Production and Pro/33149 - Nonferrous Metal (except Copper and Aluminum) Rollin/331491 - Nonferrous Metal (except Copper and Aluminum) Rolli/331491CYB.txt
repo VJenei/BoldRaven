@@ -1,0 +1,31 @@
+{
+  "naics_code": "331491",
+  "naics_title": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty alloys serve applications with no substitute.",
+      "why_this_business": "Nickel, titanium, and specialty alloy products serve aerospace, medical, and chemical applications where material properties are qualified and certified. Substitution is not possible without requalification that takes months.",
+      "loss_scenario": "Aerospace and medical customers without qualified material, unable to produce components with no alternative source, and their production programmes stopped.",
+      "rhetorical_question": "How many customers have qualified your material with no approved alternative?"
+    },
+    {
+      "rank": 2,
+      "headline": "Aerospace and medical customers require certification and traceability.",
+      "why_this_business": "Material for aerospace and implantable medical use requires full traceability to melt, process records, and certification under quality systems audited by customers and accreditation bodies.",
+      "loss_scenario": "Material that cannot be certified is unusable and, where already fabricated into aerospace parts or medical implants, requires identification and potentially removal from service or from patients.",
+      "rhetorical_question": "Is your material used in aerospace components or medical implants?"
+    },
+    {
+      "rank": 3,
+      "headline": "Processing parameters determine metallurgical properties.",
+      "why_this_business": "Working and heat treatment develop the microstructure and properties of specialty alloys, with parameters closely controlled and recorded. Properties cannot be verified by dimensional inspection alone.",
+      "loss_scenario": "Material with correct dimensions but wrong microstructure entering critical applications, where the deficiency appears as premature failure in service.",
+      "rhetorical_question": "How are working and heat treatment parameters recorded per production lot?"
+    }
+  ]
+}

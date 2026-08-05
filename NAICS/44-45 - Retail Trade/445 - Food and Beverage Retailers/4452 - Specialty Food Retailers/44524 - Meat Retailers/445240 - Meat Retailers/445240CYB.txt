@@ -1,0 +1,31 @@
+{
+  "naics_code": "445240",
+  "naics_title": "Meat Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Temperature control is the product's safety and it is monitored electronically.",
+      "why_this_business": "Butcher shops and meat retailers hold product in coolers and cases under continuous temperature requirements, with monitoring and logging expected by health inspectors. Grinding and further processing on site adds its own controls and record requirements.",
+      "loss_scenario": "Product held out of temperature must be discarded, and a health department finding of inadequate temperature records can close the operation until corrected.",
+      "rhetorical_question": "How is cooler and case temperature recorded, and for how long is it retained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ground beef traceability drives recall scope.",
+      "why_this_business": "Retail grinding logs are required to record the source materials and dates for each grinding session, so that an E. coli traceback can identify the supplier lots involved. FSIS relies on these records to limit the scope of a recall.",
+      "loss_scenario": "Without grinding logs the traceback expands to every supplier and every day, and the recall covers vastly more product than was ever at risk, with the retailer named publicly.",
+      "rhetorical_question": "Do you maintain grinding logs identifying source lots and dates?"
+    },
+    {
+      "rank": 3,
+      "headline": "Specialty retailers depend on custom orders and holiday demand.",
+      "why_this_business": "Meat retailers take custom orders and pre-orders concentrated around holidays, where a large share of annual revenue is committed weeks in advance. Order records are the only version of what each customer expects and when.",
+      "loss_scenario": "Lost holiday order books mean customers arriving for orders that were never prepared, at the moment that generates the most revenue and the most reputational exposure.",
+      "rhetorical_question": "How many customer orders are you holding for your next holiday period?"
+    }
+  ]
+}

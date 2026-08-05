@@ -1,0 +1,31 @@
+{
+  "naics_code": "311221",
+  "naics_title": "Wet Corn Milling and Starch Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Wet milling is a continuous chemical process that cannot be stopped cleanly.",
+      "why_this_business": "Steeping, separation, refining, and drying run continuously under distributed control, producing starch, sweeteners, oil, and feed products simultaneously. An unplanned stop leaves product in process across the whole plant.",
+      "loss_scenario": "Days of lost production at a plant processing very large volumes, with product in process lost and restart taking further days, while customers on contract supply have no alternative source.",
+      "rhetorical_question": "How long does a full plant restart take after an uncontrolled shutdown?"
+    },
+    {
+      "rank": 2,
+      "headline": "Sweetener and starch customers run continuous operations too.",
+      "why_this_business": "High fructose corn syrup and starch customers include beverage and food manufacturers running continuous lines with limited on-site storage, supplied by tank truck and rail on scheduled deliveries.",
+      "loss_scenario": "Customer production lines stopping for lack of sweetener or starch, with claims reflecting their lost production rather than the value of the material not delivered.",
+      "rhetorical_question": "How many days of ingredient inventory do your customers hold?"
+    },
+    {
+      "rank": 3,
+      "headline": "Food safety and allergen control apply across multiple product streams.",
+      "why_this_business": "Plants produce food, feed, and industrial products from the same corn stream, with segregation required between food and non-food grades and, for identity-preserved and non-GMO streams, additional segregation and documentation.",
+      "loss_scenario": "Cross-contamination between product streams or loss of identity preservation documentation, with food grade product unable to be certified and premium identity-preserved product reverting to commodity value.",
+      "rhetorical_question": "How is segregation between food, feed, and identity-preserved streams documented?"
+    }
+  ]
+}

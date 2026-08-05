@@ -1,0 +1,31 @@
+{
+  "naics_code": "623311",
+  "naics_title": "Continuing Care Retirement Communities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Residents pay very large entrance fees and hold contractual rights.",
+      "why_this_business": "CCRCs collect substantial entrance fees, frequently hundreds of thousands of dollars, under contracts specifying care levels, refund provisions, and continuing obligations for the resident's lifetime. Those contracts and the associated financial records govern relationships lasting decades.",
+      "loss_scenario": "Unreconstructable resident contract and refund records, with disputes over entrance fee refunds and care entitlements involving very large sums and residents or their estates unable to establish their rights.",
+      "rhetorical_question": "What is the typical entrance fee, and where are those contracts held?"
+    },
+    {
+      "rank": 2,
+      "headline": "The community spans independent living through skilled nursing.",
+      "why_this_business": "CCRCs operate multiple care levels on one campus, with health records, medication administration, and assessments for residents in assisted living and skilled nursing subject to HIPAA and CMS requirements, alongside independent living residents with financial and personal data.",
+      "loss_scenario": "A single incident affecting clinical care in skilled nursing, medication administration in assisted living, and financial records across the whole community simultaneously.",
+      "rhetorical_question": "Do your health care and residential systems share infrastructure?"
+    },
+    {
+      "rank": 3,
+      "headline": "Residents are elderly and financially targeted.",
+      "why_this_business": "Communities hold residents' Social Security numbers, financial account information, estate and beneficiary documentation, and health records for a population that is affluent, elderly, and specifically targeted for financial exploitation.",
+      "loss_scenario": "Financial exploitation of elderly residents using data taken from the community, with regulatory attention to elder financial abuse and families holding the community responsible for the exposure.",
+      "rhetorical_question": "What financial and estate information do you hold about your residents?"
+    }
+  ]
+}

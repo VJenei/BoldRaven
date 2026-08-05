@@ -1,0 +1,31 @@
+{
+  "naics_code": "621310",
+  "naics_title": "Offices of Chiropractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Small practices hold complete patient records with minimal protection.",
+      "why_this_business": "Chiropractic offices are typically small businesses holding patient histories, imaging, treatment plans, and insurance information on a practice management system with no dedicated IT support and frequently no tested backup.",
+      "loss_scenario": "Total loss of patient records and scheduling with no capacity to fund recovery, plus HIPAA notification obligations across the entire patient base that the practice must pay for itself.",
+      "rhetorical_question": "Who is responsible for your practice's backups, and when were they last verified?"
+    },
+    {
+      "rank": 2,
+      "headline": "HIPAA obligations apply in full regardless of practice size.",
+      "why_this_business": "Chiropractors transmitting claims electronically are covered entities with the same security rule obligations as a hospital, including risk analysis, safeguards, and breach notification to patients, HHS, and the media for larger breaches.",
+      "loss_scenario": "OCR enforcement examining the risk analysis, safeguards, and business associate agreements, where small practices are frequently found to have none of them documented.",
+      "rhetorical_question": "Do you have signed business associate agreements with every vendor that touches patient data?"
+    },
+    {
+      "rank": 3,
+      "headline": "Personal injury cases make records evidence in litigation.",
+      "why_this_business": "Chiropractic practices treat personal injury patients whose records become evidence in litigation and insurance claims, subject to subpoena and requiring production years afterward. Treatment documentation supports the patient's claim and the practice's billing.",
+      "loss_scenario": "Records unavailable when subpoenaed, undermining patients' claims and exposing the practice to allegations that documentation never supported the billing.",
+      "rhetorical_question": "How often are your records subpoenaed for personal injury litigation?"
+    }
+  ]
+}

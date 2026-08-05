@@ -1,0 +1,31 @@
+{
+  "naics_code": "333413",
+  "naics_title": "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Ventilation equipment controls hazardous exposures.",
+      "why_this_business": "Industrial fans, blowers, and air purification equipment remove contaminants, control dust, and ventilate confined and hazardous spaces. Performance ratings determine whether an installation meets OSHA exposure limits or explosion prevention requirements.",
+      "loss_scenario": "Equipment delivering less than rated performance in installations relying on it for exposure control, with worker overexposure or a dust explosion, and the performance data determining liability.",
+      "rhetorical_question": "Are your products relied on for hazardous exposure or dust control?"
+    },
+    {
+      "rank": 2,
+      "headline": "Performance ratings come from certified test data.",
+      "why_this_business": "Fan and air movement equipment carries certified performance ratings from standardised testing, relied on by engineers in sizing systems. Certification programmes audit the underlying test data.",
+      "loss_scenario": "Products supplied with ratings that cannot be substantiated, requiring replacement in systems already installed and designed around the published performance.",
+      "rhetorical_question": "How is certified performance test data maintained and linked to product models?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment is selected and configured through your systems.",
+      "why_this_business": "Selection software, submittal generation, and order configuration convert engineering requirements into a specific unit. Configuration errors produce equipment that does not fit or perform.",
+      "loss_scenario": "Units built to wrong configurations arriving at construction sites, with mechanical installation delayed and remake lead times measured in weeks.",
+      "rhetorical_question": "How are selection and configuration data verified before a unit is released to build?"
+    }
+  ]
+}

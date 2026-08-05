@@ -1,0 +1,31 @@
+{
+  "naics_code": "811420",
+  "naics_title": "Reupholstery and Furniture Repair",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold customers' furniture for weeks at a time.",
+      "why_this_business": "Reupholstery involves collecting furniture from customers' homes and holding it in the workshop for weeks, with intake records documenting condition, fabric selection, and the agreed work. Pieces are frequently antique or of high sentimental value.",
+      "loss_scenario": "Disputes over condition and agreed work on irreplaceable pieces, resolved against the party without records, plus bailee liability for customer property held on the premises.",
+      "rhetorical_question": "What is the value of customer furniture in your workshop right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fabric selection and orders are specific and non-returnable.",
+      "why_this_business": "Customers select fabrics by pattern, colourway, and dye lot, with material ordered to the yardage required for a specific piece. Cut fabric is not returnable and dye lots vary between orders.",
+      "loss_scenario": "Wrong fabric ordered or insufficient yardage from a matching lot, with material written off and the customer's piece delayed by weeks while a matching lot is sourced if one exists.",
+      "rhetorical_question": "How do you record fabric selection, lot, and yardage against each customer's order?"
+    },
+    {
+      "rank": 3,
+      "headline": "Small workshops run on one system with customer data on it.",
+      "why_this_business": "Operations hold customer contact details, home addresses for collection and delivery, payment methods, and photographs of pieces and interiors, typically on a single computer with no IT support.",
+      "loss_scenario": "Loss of order and customer records with pieces in the workshop that cannot be matched to owners or to the agreed work, plus data exposure the business has no capacity to remediate.",
+      "rhetorical_question": "Could you identify the owner and agreed work for every piece in your workshop from memory?"
+    }
+  ]
+}

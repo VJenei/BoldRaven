@@ -1,0 +1,31 @@
+{
+  "naics_code": "522299",
+  "naics_title": "International, Secondary Market, and All Other Nondepository Credit Intermediation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Loan portfolio data is the asset being bought and sold.",
+      "why_this_business": "Secondary market participants acquire, pool, and sell loan portfolios where the value depends entirely on loan-level data covering borrower credit, collateral, payment history, and documentation completeness. Due diligence files move between counterparties containing complete borrower records.",
+      "loss_scenario": "Loan pools that cannot be valued or sold because loan-level data cannot be produced, plus breach exposure covering borrowers of loans you may have owned only briefly.",
+      "rhetorical_question": "How many borrowers' loan-level records do you hold across acquired portfolios?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cross-border activity brings sanctions and AML obligations.",
+      "why_this_business": "International credit intermediation requires sanctions screening, anti-money laundering programmes, and beneficial ownership verification, with records demonstrating that screening occurred. Sanctions compliance is strict liability and enforcement is aggressive.",
+      "loss_scenario": "Sanctions violations carrying substantial civil penalties on a strict liability basis, where the absence of screening records makes the violation impossible to mitigate.",
+      "rhetorical_question": "How do you evidence sanctions and AML screening on each transaction?"
+    },
+    {
+      "rank": 3,
+      "headline": "Settlement of large transactions runs on emailed instructions.",
+      "why_this_business": "Portfolio purchases, participations, and syndications settle by wire against instructions exchanged between counterparties, law firms, and trustees. Amounts are very large and counterparties frequently transact infrequently with each other.",
+      "loss_scenario": "A diverted settlement in the millions, where the counterparty's obligation is disputed and neither party's insurance responds cleanly to a deception loss.",
+      "rhetorical_question": "How are settlement instructions verified on a portfolio transaction?"
+    }
+  ]
+}

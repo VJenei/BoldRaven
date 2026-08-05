@@ -1,0 +1,31 @@
+{
+  "naics_code": "332812",
+  "naics_title": "Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold customer parts that are already partly finished.",
+      "why_this_business": "Coating services receive customer parts mid-production, apply the finish, and return them. The parts already carry the customer's machining and material cost, and there is frequently no replacement stock.",
+      "loss_scenario": "Customer parts damaged, misprocessed, or unidentifiable, with the customer's full production value lost and their assembly schedule stopped until parts are remade from raw material.",
+      "rhetorical_question": "What is the value of customer parts in your plant at any one time?"
+    },
+    {
+      "rank": 2,
+      "headline": "Coating specification determines corrosion and wear performance.",
+      "why_this_business": "Coatings are applied to specifications defining thickness, adhesion, and salt spray performance, with testing evidencing conformance. Coating failures appear as corrosion months later in the customer's product.",
+      "loss_scenario": "Parts coated outside specification corroding in the field, with warranty claims across every product built with parts from the affected period and the coater's process records determining liability.",
+      "rhetorical_question": "How are coating thickness and test results recorded against customer lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Chemical processes carry environmental permit obligations.",
+      "why_this_business": "Coating operations use chemicals with wastewater discharge permits, air permits, and hazardous waste manifests requiring monitoring and reporting to regulators.",
+      "loss_scenario": "Missed monitoring or reporting deadlines, or an uncontrolled discharge, with permit violations, penalties, and in serious cases suspension of the permit that allows the plant to operate.",
+      "rhetorical_question": "What discharge monitoring and reporting deadlines apply to your permits?"
+    }
+  ]
+}

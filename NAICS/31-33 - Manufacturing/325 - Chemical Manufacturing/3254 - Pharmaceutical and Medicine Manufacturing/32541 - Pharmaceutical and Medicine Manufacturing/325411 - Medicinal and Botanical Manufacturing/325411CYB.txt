@@ -1,0 +1,31 @@
+{
+  "naics_code": "325411",
+  "naics_title": "Medicinal and Botanical Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Active pharmaceutical ingredient manufacture is subject to FDA cGMP.",
+      "why_this_business": "API and botanical extract manufacturers supplying drug products operate under current good manufacturing practice with batch records, testing, deviation investigation, and change control. FDA inspects and issues observations against those records.",
+      "loss_scenario": "Batches that cannot be released for want of complete records, and FDA action including warning letters and import alerts where data integrity is questioned, which stops supply to every customer.",
+      "rhetorical_question": "Could you produce complete batch records for material shipped last year?"
+    },
+    {
+      "rank": 2,
+      "headline": "Data integrity is the focus of FDA enforcement in this sector.",
+      "why_this_business": "FDA has focused heavily on data integrity in pharmaceutical manufacturing, examining audit trails, whether records can be altered, and whether failing results were discarded. Electronic records must comply with Part 11 requirements.",
+      "loss_scenario": "Data integrity findings, which FDA treats as among the most serious observations and which have resulted in import alerts and consent decrees that halt supply from affected facilities entirely.",
+      "rhetorical_question": "Are audit trails enabled and protected on your laboratory and manufacturing systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Your material becomes someone else's finished drug.",
+      "why_this_business": "APIs and extracts are supplied to drug manufacturers who incorporate them into products administered to patients. Contamination or potency errors carry through into the finished drug.",
+      "loss_scenario": "Contaminated or out of specification API reaching patients through customers' finished products, with recall across every product containing the material and patient harm exposure.",
+      "rhetorical_question": "How many finished drug products could contain a single lot of your material?"
+    }
+  ]
+}

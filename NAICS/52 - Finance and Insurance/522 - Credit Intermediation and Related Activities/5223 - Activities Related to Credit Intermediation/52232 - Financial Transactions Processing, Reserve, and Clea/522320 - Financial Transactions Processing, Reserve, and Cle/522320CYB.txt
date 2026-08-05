@@ -1,0 +1,31 @@
+{
+  "naics_code": "522320",
+  "naics_title": "Financial Transactions Processing, Reserve, and Clearinghouse Activities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "When a clearinghouse goes down, an entire industry stops transacting.",
+      "why_this_business": "The February 2024 ransomware attack on Change Healthcare, which processes a very large share of US healthcare transactions, left providers and pharmacies unable to verify coverage or submit claims for weeks, and the associated breach affected approximately 190 million people. Processors and clearinghouses are single points through which enormous transaction volumes flow.",
+      "loss_scenario": "Every client is down simultaneously with no alternative path. Claims from clients for their own business interruption vastly exceed processing revenue, and the breach notification population is measured in the tens of millions.",
+      "rhetorical_question": "How many client organisations would be unable to transact if your platform stopped?"
+    },
+    {
+      "rank": 2,
+      "headline": "You hold transaction data for parties who never chose you.",
+      "why_this_business": "Processors handle data belonging to their clients' customers, including payment credentials, account details, and in healthcare, protected health information. Those individuals have no relationship with the processor and often do not know it exists.",
+      "loss_scenario": "Notification obligations flowing through every client relationship simultaneously, with the processor bearing the cost under contractual indemnities and regulators treating it as the responsible party.",
+      "rhetorical_question": "Whose customers' data passes through your systems, and under what agreements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Settlement finality depends on records that must reconcile exactly.",
+      "why_this_business": "Clearing and settlement functions net obligations between participants and move funds on a settlement cycle. Positions must reconcile precisely, and settlement finality means transfers cannot simply be reversed once complete.",
+      "loss_scenario": "Unreconcilable settlement positions across participants, where the disputes cannot be resolved from any other source and the financial exposure sits with the processor until they are.",
+      "rhetorical_question": "How are settlement positions independently verifiable if your primary records are unavailable?"
+    }
+  ]
+}

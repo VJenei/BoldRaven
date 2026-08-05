@@ -1,0 +1,31 @@
+{
+  "naics_code": "812112",
+  "naics_title": "Beauty Salons",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Client records include chemical history and skin sensitivities.",
+      "why_this_business": "Salons record colour formulas, chemical service histories, patch test results, and skin and scalp sensitivities for each client. Chemical services rely on that history to avoid reactions, and the formula is what reproduces the result.",
+      "loss_scenario": "Chemical reactions from services performed without sensitivity history, and clients whose colour cannot be reproduced, with the correction cost and client loss falling on the salon.",
+      "rhetorical_question": "How would a stylist know a client's colour formula and sensitivities without the record?"
+    },
+    {
+      "rank": 2,
+      "headline": "Booking, payment, and memberships run on one platform.",
+      "why_this_business": "Salons manage appointments across multiple stylists, retail sales, memberships, and stored payment methods through a single system. Appointment slots not filled are permanently lost revenue.",
+      "loss_scenario": "Schedule collapse with clients arriving to no appointment and stylists idle, plus payment data exposure across a client base built over years.",
+      "rhetorical_question": "How many stylists' schedules depend on your booking system each day?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client photographs and personal details are held together.",
+      "why_this_business": "Salons increasingly hold before and after photographs, client contact details, and personal information gathered through consultation, used for marketing and portfolio purposes with varying levels of consent.",
+      "loss_scenario": "Exposure of client photographs alongside identity and contact details, which is a personal privacy harm clients react to strongly and which raises consent questions about the images themselves.",
+      "rhetorical_question": "Do you hold client photographs, and what consent covers their storage?"
+    }
+  ]
+}

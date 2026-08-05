@@ -1,0 +1,31 @@
+{
+  "naics_code": "327331",
+  "naics_title": "Concrete Block and Brick Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Units must meet strength and dimensional standards.",
+      "why_this_business": "Concrete masonry units are produced to standards for compressive strength, absorption, and dimensional tolerance, tested and certified. Masonry design assumes the specified unit strength.",
+      "loss_scenario": "Units below strength installed in load-bearing masonry, with structural capacity below design and remediation requiring demolition and rebuild of the affected walls.",
+      "rhetorical_question": "How is unit strength testing tied to specific production runs?"
+    },
+    {
+      "rank": 2,
+      "headline": "Production runs continuously through curing cycles.",
+      "why_this_business": "Block machines produce continuously with units moving to curing chambers on controlled temperature and humidity cycles. Curing determines strength development, and interrupted cycles produce units that never reach specification.",
+      "loss_scenario": "Curing cycles interrupted with units that must be scrapped, representing days of production, and curing chamber capacity that constrains everything behind it.",
+      "rhetorical_question": "How long is your curing cycle, and what happens to units if it is interrupted?"
+    },
+    {
+      "rank": 3,
+      "headline": "Construction customers order to project schedules.",
+      "why_this_business": "Masonry contractors order units for specific projects with crews scheduled and scaffolding erected. Units are heavy and delivered by the load to sites with limited storage.",
+      "loss_scenario": "Masonry crews idle on site for want of units, with the contractor claiming crew and equipment costs and the project schedule affected.",
+      "rhetorical_question": "How many active projects depend on your delivery schedule?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "336611",
+  "naics_title": "Ship Building and Repairing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Shipyards hold naval programme data under federal requirements.",
+      "why_this_business": "Naval shipbuilding and repair involves controlled unclassified information and, on many programmes, classified work with facility clearance requirements. Contracts impose NIST SP 800-171, CMMC, and export control obligations.",
+      "loss_scenario": "Compromise of naval programme data, which is a national security matter with contract termination, debarment exposure, and investigation, in addition to the loss of the programme itself.",
+      "rhetorical_question": "What is your SPRS score, and what programme data does your yard hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Vessels are built and repaired to classification and regulatory approval.",
+      "why_this_business": "Commercial vessels are built under classification society survey and Coast Guard inspection with approved plans, welding qualification, and testing records. Certificates depend on those records.",
+      "loss_scenario": "Vessels that cannot be certified because design or welding records are unavailable, delaying delivery indefinitely and, for vessels in service, requiring re-examination of structure.",
+      "rhetorical_question": "How are approved plans and welding records controlled through construction?"
+    },
+    {
+      "rank": 3,
+      "headline": "Maritime cybersecurity rules now apply directly.",
+      "why_this_business": "The Coast Guard maritime security cyber rule effective July 16 2025 imposes cybersecurity requirements on regulated facilities, with account and device requirements from January 12 2026 and plan requirements from July 16 2027. Shipyards with regulated facilities fall within it.",
+      "loss_scenario": "Non-compliance found on Coast Guard inspection, with deficiencies, operational restrictions on the facility, and enforcement against a yard whose access to the waterfront is the business.",
+      "rhetorical_question": "Does your yard include a facility regulated under the maritime security rules?"
+    }
+  ]
+}

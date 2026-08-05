@@ -1,0 +1,31 @@
+{
+  "naics_code": "551114",
+  "naics_title": "Corporate, Subsidiary, and Regional Managing Offices",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Head office systems administer the entire enterprise.",
+      "why_this_business": "Corporate offices centralise ERP, human resources, finance, and IT administration for operating locations. Domain administration and enterprise applications reach every site, which is why attackers target head office rather than individual locations.",
+      "loss_scenario": "Every operating location stops simultaneously because the systems they depend on are administered centrally, and recovery must be sequenced across the enterprise rather than performed locally.",
+      "rhetorical_question": "How many operating locations depend on systems administered from your corporate office?"
+    },
+    {
+      "rank": 2,
+      "headline": "Executive communications are targeted specifically.",
+      "why_this_business": "Corporate offices hold board materials, strategic plans, unannounced transactions, and executive communications. Business email compromise targeting finance staff with instructions apparently from executives is one of the highest-loss attack patterns in existence.",
+      "loss_scenario": "Fraudulent payment instructions apparently authorised by an executive, executed by staff who are trained to act on them quickly, in amounts reflecting corporate rather than local authority.",
+      "rhetorical_question": "How does your finance team verify a payment instruction that appears to come from an executive?"
+    },
+    {
+      "rank": 3,
+      "headline": "Enterprise employee data is concentrated in one system.",
+      "why_this_business": "Corporate human resources holds Social Security numbers, banking details, benefits and medical information, and performance records for the entire workforce, together with payroll processing for every location.",
+      "loss_scenario": "Breach notification across the whole workforce, plus payroll diversion where direct deposit details are altered at scale before a pay run.",
+      "rhetorical_question": "How many employee records are held in your central HR and payroll system?"
+    }
+  ]
+}

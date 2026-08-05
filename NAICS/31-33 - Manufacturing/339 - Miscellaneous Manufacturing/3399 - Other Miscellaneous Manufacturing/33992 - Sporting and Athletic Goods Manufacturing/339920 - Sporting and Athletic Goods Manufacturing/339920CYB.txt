@@ -1,0 +1,31 @@
+{
+  "naics_code": "339920",
+  "naics_title": "Sporting and Athletic Goods Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Protective equipment fails when the impact happens.",
+      "why_this_business": "Helmets, pads, and protective equipment are certified to standards through impact testing and are relied on to prevent head and body injury. Equipment that does not meet its standard fails at the moment of the impact it exists for.",
+      "loss_scenario": "Protective equipment below certified performance in use, with head injuries in athletes, a recall, and litigation where the certification was the basis for use in organised sport.",
+      "rhetorical_question": "What certification standards does your protective equipment meet, and how is testing recorded?"
+    },
+    {
+      "rank": 2,
+      "headline": "Consumer products carry CPSC reporting and recall duties.",
+      "why_this_business": "Sporting goods are consumer products with a 24 hour reporting obligation once information about a potential hazard is known, and children's products carry additional lead, phthalate, and third party testing requirements.",
+      "loss_scenario": "A CPSC recall for an injury hazard, with reach determined by distribution records, plus civil penalties where reporting was late or children's product certificates cannot be supported.",
+      "rhetorical_question": "Could you identify which retailers received a specific production run?"
+    },
+    {
+      "rank": 3,
+      "headline": "Sales are concentrated in seasons and at large retailers.",
+      "why_this_business": "Sporting goods sell in sport-specific seasons through large retailers and online marketplaces under vendor compliance requirements with delivery windows and chargebacks.",
+      "loss_scenario": "Order and shipping systems unavailable through a season, with chargebacks, lost sell-through, and shelf space reallocated at the next reset.",
+      "rhetorical_question": "What share of your volume ships in your peak season?"
+    }
+  ]
+}

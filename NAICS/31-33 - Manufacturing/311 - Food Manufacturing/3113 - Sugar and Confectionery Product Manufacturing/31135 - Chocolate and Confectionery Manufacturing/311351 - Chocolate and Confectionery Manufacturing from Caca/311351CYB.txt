@@ -1,0 +1,31 @@
+{
+  "naics_code": "311351",
+  "naics_title": "Chocolate and Confectionery Manufacturing from Cacao Beans",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Bean to bar processing runs continuously over long cycles.",
+      "why_this_business": "Roasting, grinding, conching, and tempering run over extended cycles with conching taking many hours. Tempering determines crystal structure and appearance, and product outside temper is visually defective and unsaleable at premium.",
+      "loss_scenario": "Batches lost from interrupted conching or tempering, representing long cycle times and expensive cocoa, with capacity that cannot be recovered inside a production plan.",
+      "rhetorical_question": "How long is a conching cycle, and what happens if it is interrupted?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cocoa sourcing carries supply chain due diligence obligations.",
+      "why_this_business": "Cocoa supply chains are subject to scrutiny over child labour and deforestation, with customers and increasingly regulators requiring documented traceability to farm or cooperative level and supplier due diligence records.",
+      "loss_scenario": "Inability to evidence supply chain due diligence, with customers removing products and, where import restrictions apply, shipments detained pending documentation the manufacturer cannot produce.",
+      "rhetorical_question": "Can you trace your cocoa back to cooperative or farm level?"
+    },
+    {
+      "rank": 3,
+      "headline": "Allergen and contaminant control protects a mass consumer product.",
+      "why_this_business": "Chocolate manufacturing handles milk, nuts, and soy across shared equipment, and cocoa carries heavy metal considerations that have attracted litigation and state-level warning requirements. Testing and allergen control records are the evidence.",
+      "loss_scenario": "Allergen recall with injury exposure, or consumer litigation over contaminant levels where testing records cannot demonstrate the controls the company claims to operate.",
+      "rhetorical_question": "How are allergen changeovers and contaminant testing documented?"
+    }
+  ]
+}

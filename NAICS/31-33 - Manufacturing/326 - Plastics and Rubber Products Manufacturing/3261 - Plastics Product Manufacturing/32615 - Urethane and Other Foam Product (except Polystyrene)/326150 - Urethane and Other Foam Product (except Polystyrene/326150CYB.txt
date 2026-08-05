@@ -1,0 +1,31 @@
+{
+  "naics_code": "326150",
+  "naics_title": "Urethane and Other Foam Product (except Polystyrene) Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Isocyanate exposure causes permanent occupational disease.",
+      "why_this_business": "Polyurethane foam manufacture uses isocyanates, which are potent respiratory sensitisers causing occupational asthma that is permanent once established. Exposure monitoring, ventilation, and medical surveillance are required controls.",
+      "loss_scenario": "Worker sensitisation ending careers, with occupational disease claims where exposure monitoring and control records determine liability, and OSHA enforcement where the programme cannot be evidenced.",
+      "rhetorical_question": "How is isocyanate exposure monitored and are medical surveillance records maintained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Foam flammability standards apply to furniture and bedding.",
+      "why_this_business": "Flexible foam used in furniture and bedding is subject to flammability standards, with certification and testing records required. Foam is a major fuel load in residential fires and has been the subject of significant regulatory attention.",
+      "loss_scenario": "Non-conforming foam in furniture and mattresses, with fire spread beyond what standards contemplate, and certification records determining liability in fatal residential fires.",
+      "rhetorical_question": "Which flammability standards apply to the foam you produce?"
+    },
+    {
+      "rank": 3,
+      "headline": "Exothermic reaction control prevents fires in curing foam.",
+      "why_this_business": "Foam curing is exothermic, with large buns and blocks generating heat internally that can reach ignition if formulation or cooling is wrong. Foam block fires are a recognised hazard and produce dense toxic smoke.",
+      "loss_scenario": "Internal ignition in curing foam producing a fire that consumes the storage area and the facility, with toxic smoke requiring community response and a total loss of the plant.",
+      "rhetorical_question": "How is exotherm monitored in curing foam blocks?"
+    }
+  ]
+}

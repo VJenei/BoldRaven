@@ -1,0 +1,31 @@
+{
+  "naics_code": "541840",
+  "naics_title": "Media Representatives",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Representation agreements and rate cards define the whole business.",
+      "why_this_business": "Media representatives sell advertising inventory on behalf of publishers and broadcasters under exclusive agreements with commission structures and territory terms. Those agreements and the rate cards are the entire commercial framework.",
+      "loss_scenario": "Loss or disclosure of representation terms and rate structures damages relationships with represented media and with advertisers simultaneously, and commissions cannot be substantiated.",
+      "rhetorical_question": "Where are your representation agreements and negotiated rate records held?"
+    },
+    {
+      "rank": 2,
+      "headline": "Order and billing records determine what you are paid.",
+      "why_this_business": "Representatives book advertising orders, confirm placements, and earn commission on delivered inventory, reconciled against the media owner's own records. Disputes over what was sold and delivered are resolved from those records.",
+      "loss_scenario": "Unrecoverable commission on orders you placed, where the represented media owner's records become the only version and disputes resolve against you.",
+      "rhetorical_question": "How do you evidence orders you placed when commission is disputed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Advertiser and agency relationships are the asset being sold.",
+      "why_this_business": "The value of a media representation firm is its relationships with advertisers and buying agencies, documented as contacts, buying histories, and pipeline. That information would allow a media owner to bypass the representative entirely.",
+      "loss_scenario": "Disintermediation where represented media or competitors reach your advertisers directly using your relationship data, which permanently removes the reason for your role.",
+      "rhetorical_question": "What is left of your business if the media you represent has your advertiser contacts?"
+    }
+  ]
+}

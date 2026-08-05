@@ -1,0 +1,31 @@
+{
+  "naics_code": "713990",
+  "naics_title": "All Other Amusement and Recreation Industries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Signed waivers are the liability defence for participation activities.",
+      "why_this_business": "Recreation businesses depend on executed liability waivers and participant acknowledgements, now captured electronically at booking or check-in. Activities in this category frequently carry foreseeable injury risk.",
+      "loss_scenario": "An injury claim where the executed waiver cannot be produced, removing the defence the risk model depends on, in an activity where injury is foreseeable and damages are substantial.",
+      "rhetorical_question": "Could you produce a signed waiver for a participant from two years ago?"
+    },
+    {
+      "rank": 2,
+      "headline": "Bookings and stored payment data drive the operation.",
+      "why_this_business": "Recreation businesses take advance bookings for dated sessions with deposits and stored payment methods, plus memberships with recurring billing. Capacity is finite and dated.",
+      "loss_scenario": "Lost bookings on dated sessions with participants arriving to no reservation, plus payment data exposure across the customer base.",
+      "rhetorical_question": "How many dated bookings with payment taken are you currently holding?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment condition records support safety and defence.",
+      "why_this_business": "Activities using equipment require documented inspection and maintenance between uses, particularly where a mechanical failure causes injury. Records demonstrate the equipment was serviceable when issued.",
+      "loss_scenario": "An injury attributed to equipment failure where inspection records cannot be produced, which shifts the presumption against the operator entirely.",
+      "rhetorical_question": "How do you document equipment inspection between customer uses?"
+    }
+  ]
+}

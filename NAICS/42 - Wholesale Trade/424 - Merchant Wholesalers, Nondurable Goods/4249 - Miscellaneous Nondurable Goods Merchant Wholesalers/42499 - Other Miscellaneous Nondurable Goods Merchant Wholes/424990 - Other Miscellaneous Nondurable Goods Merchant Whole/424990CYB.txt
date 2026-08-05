@@ -1,0 +1,31 @@
+{
+  "naics_code": "424990",
+  "naics_title": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fulfilment stops completely when the system stops.",
+      "why_this_business": "Order entry, allocation, picking, carrier label generation, and invoicing are one connected process. Without it there are no labels, no pick lists, and no invoices. A distribution warehouse cannot revert to paper at commercial volume.",
+      "loss_scenario": "Total shipping stoppage while fixed costs continue, and customers who source elsewhere during a multi-day outage frequently do not return.",
+      "rhetorical_question": "Could your warehouse ship a single order without your system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Payment redirection fraud works in both directions.",
+      "why_this_business": "Distributors pay many suppliers and collect from many customers, with bank detail changes handled routinely. Attackers with mailbox access redirect outgoing payments, incoming remittances, or both, and the volume of legitimate changes conceals the fraudulent one.",
+      "loss_scenario": "Diverted payments in the five to six figure range per event, typically repeated across several cycles before anyone reconciles.",
+      "rhetorical_question": "How does your team verify a change to supplier or customer bank details?"
+    },
+    {
+      "rank": 3,
+      "headline": "Product compliance documentation follows goods you did not manufacture.",
+      "why_this_business": "Distributors are asked to produce safety data sheets, certificates of conformity, and country of origin documentation for products they resell, sometimes years later. Importers carry the manufacturer's compliance obligations directly.",
+      "loss_scenario": "Regulatory action or customer claims where compliance documentation for resold product cannot be produced, with the importer treated as the responsible party.",
+      "rhetorical_question": "Do you import product, and where is the compliance documentation kept?"
+    }
+  ]
+}

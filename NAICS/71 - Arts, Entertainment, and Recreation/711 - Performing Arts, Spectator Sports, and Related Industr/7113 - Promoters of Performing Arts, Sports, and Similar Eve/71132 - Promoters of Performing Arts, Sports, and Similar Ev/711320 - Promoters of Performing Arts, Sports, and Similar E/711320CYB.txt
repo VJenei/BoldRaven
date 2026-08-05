@@ -1,0 +1,31 @@
+{
+  "naics_code": "711320",
+  "naics_title": "Promoters of Performing Arts, Sports, and Similar Events without Facilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You commit to guarantees before a single ticket is sold.",
+      "why_this_business": "Promoters contract artists with guaranteed fees, book venues, and commit marketing spend months ahead, recovering it from ticket sales. Ticketing data determines whether an event is viable and whether to promote harder or cut losses.",
+      "loss_scenario": "Loss of sales visibility during the on-sale period, when pricing and marketing decisions determine whether the show breaks even, with guarantees payable regardless of attendance.",
+      "rhetorical_question": "What is your exposure on artist guarantees before tickets go on sale?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ticketing holds customer data you never see directly.",
+      "why_this_business": "Customer purchase data sits with the ticketing platform and the venue, with the promoter accessing it for marketing. Responsibility for that data is shared across parties and frequently unclear until there is an incident.",
+      "loss_scenario": "A breach where responsibility between promoter, venue, and platform is disputed, with the promoter's brand on the event and the customer relationship attributed to them.",
+      "rhetorical_question": "Who is contractually responsible for customer data on your events?"
+    },
+    {
+      "rank": 3,
+      "headline": "Artist settlements and deposits move large sums.",
+      "why_this_business": "Promoters pay artist deposits ahead of shows and settle after, with agents and business managers in the payment chain. Amounts are substantial and parties frequently transact only a few times a year.",
+      "loss_scenario": "Diverted artist deposits or settlements, where the artist remains unpaid and will not perform, and the promoter pays twice on a show that has already been marketed and ticketed.",
+      "rhetorical_question": "How are artist deposit and settlement payments verified before release?"
+    }
+  ]
+}

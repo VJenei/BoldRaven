@@ -1,0 +1,31 @@
+{
+  "naics_code": "332119",
+  "naics_title": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Closures must seal or the packaged product spoils.",
+      "why_this_business": "Crowns, caps, and closures seal food and beverage containers, with dimensional accuracy and liner performance determining seal integrity. A closure that does not seal allows spoilage and, in some products, microbial growth.",
+      "loss_scenario": "Closures failing to seal across a production run, with packaged food and beverage spoiling in distribution and recall reaching every product packed with the affected closures.",
+      "rhetorical_question": "How is closure dimensional accuracy and seal performance verified?"
+    },
+    {
+      "rank": 2,
+      "headline": "Progressive dies produce parts at very high rate.",
+      "why_this_business": "Stamping presses run progressive dies producing hundreds of parts per minute. A die or setup problem produces an enormous quantity of defective parts before anyone examines the output.",
+      "loss_scenario": "High volume defective production shipped before detection, plus die damage where a misfeed occurs at speed, with tooling repair taking the press offline.",
+      "rhetorical_question": "How many parts per minute does your press produce, and how is output monitored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Food contact coatings and liners carry compliance requirements.",
+      "why_this_business": "Closures contacting food have coatings and liner materials that must comply with food contact requirements, with BPA and similar substances subject to increasing restriction and customer specification.",
+      "loss_scenario": "Non-compliant coatings or liners in food contact, with recall reaching packed products and customers who made public commitments about packaging materials holding you responsible.",
+      "rhetorical_question": "How do you document coating and liner compliance for food contact closures?"
+    }
+  ]
+}

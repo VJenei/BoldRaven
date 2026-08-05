@@ -1,0 +1,31 @@
+{
+  "naics_code": "444120",
+  "naics_title": "Paint and Wallpaper Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Colour formulas are the reason customers come back.",
+      "why_this_business": "Tinting is done at the counter from formula databases driven by spectrophotometer matching, with custom formulas stored against customers and jobs. A customer returning for more of a matched colour depends entirely on the stored formula being retrievable.",
+      "loss_scenario": "Lost formulas mean colours cannot be rematched. A commercial customer partway through a project has to repaint completed work, and that cost lands on the retailer who lost the formula.",
+      "rhetorical_question": "How many custom colour formulas are stored for your repeat customers?"
+    },
+    {
+      "rank": 2,
+      "headline": "Contractor accounts run on credit tied to active projects.",
+      "why_this_business": "Painting contractors buy on account against jobs, with negotiated project pricing and delivery to sites. Lien rights against the project secure the balance and depend on delivery records and notice deadlines.",
+      "loss_scenario": "Unsecured exposure to thinly capitalised contractors where lien rights were lost because job delivery records were unavailable.",
+      "rhetorical_question": "What proportion of your sales are on contractor credit accounts?"
+    },
+    {
+      "rank": 3,
+      "headline": "Coatings are hazardous products with jurisdictional restrictions.",
+      "why_this_business": "Paints and solvents are regulated for volatile organic compound content, with limits varying by state and air district. Safety data sheets must be supplied to commercial purchasers, and disposal of returned or unsaleable product is regulated.",
+      "loss_scenario": "Regulatory action for selling non-compliant product into a restricted jurisdiction, and inability to supply safety data sheets that commercial customers are legally required to hold.",
+      "rhetorical_question": "Do you sell into jurisdictions with different VOC limits?"
+    }
+  ]
+}

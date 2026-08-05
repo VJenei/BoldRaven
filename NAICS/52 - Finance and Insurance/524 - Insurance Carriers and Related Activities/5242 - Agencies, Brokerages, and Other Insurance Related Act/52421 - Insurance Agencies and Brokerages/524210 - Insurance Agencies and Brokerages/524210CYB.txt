@@ -1,0 +1,31 @@
+{
+  "naics_code": "524210",
+  "naics_title": "Insurance Agencies and Brokerages",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A broker holds every client's coverage, limits, and known weaknesses.",
+      "why_this_business": "Agencies hold applications, loss runs, schedules of values, and policy documents for every commercial and personal client. That file describes what each client owns, where, insured to what limit, and what their loss history and security controls are. Producers are also subject to state insurance data security laws.",
+      "loss_scenario": "A breach exposes a portfolio of client organisations with their vulnerabilities and coverage limits, which has been used to target insureds directly, and every client has a claim against the agency for the disclosure.",
+      "rhetorical_question": "How many commercial clients' applications and loss runs are held in your agency system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Premium trust accounts hold clients' and carriers' money.",
+      "why_this_business": "Agencies collect premium from clients and remit to carriers, holding fiduciary funds in trust accounts under state regulation. Payment instructions to carriers and refunds to clients are arranged electronically, and balances can be substantial around renewal periods.",
+      "loss_scenario": "Diverted premium payments leave clients uninsured in the belief they paid, and the agency liable to carriers for premium never remitted. Trust account shortfalls draw immediate licence action.",
+      "rhetorical_question": "What is the typical balance in your premium trust account, and how are disbursements authorised?"
+    },
+    {
+      "rank": 3,
+      "headline": "Failing to place or bind coverage is a professional liability event.",
+      "why_this_business": "Agencies bind coverage, issue certificates, and process endorsements against deadlines, with clients relying on them to have coverage in force. A binding instruction that is not processed leaves the client uninsured at the moment of a loss.",
+      "loss_scenario": "An uninsured client loss attributed to the agency's failure to bind or endorse, where errors and omissions exposure is measured by the size of the client's uninsured claim rather than the commission.",
+      "rhetorical_question": "How do you confirm that a binding request was actually processed by the carrier?"
+    }
+  ]
+}

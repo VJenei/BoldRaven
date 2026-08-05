@@ -1,0 +1,31 @@
+{
+  "naics_code": "561492",
+  "naics_title": "Court Reporting and Stenotype Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Transcripts are the official record and some proceedings are sealed.",
+      "why_this_business": "Court reporters produce the verbatim record of depositions, hearings, and trials, including proceedings under seal, protective orders, and in camera sessions. Sealed material is protected by court order with contempt exposure for disclosure.",
+      "loss_scenario": "Disclosure of sealed transcripts or material under protective order is a contempt exposure and a direct harm to the parties, with the reporter and their firm sanctioned by the court.",
+      "rhetorical_question": "Do you hold transcripts of proceedings subject to seal or protective order?"
+    },
+    {
+      "rank": 2,
+      "headline": "Deposition material contains testimony and exhibits before trial.",
+      "why_this_business": "Deposition transcripts, video, and exhibits contain sworn testimony, trade secrets, medical records, and financial documents produced in discovery. This material is confidential between the parties and is frequently the core evidence in the case.",
+      "loss_scenario": "Disclosure of deposition testimony and exhibits damages parties' litigation positions and exposes third-party confidential material produced under discovery obligations.",
+      "rhetorical_question": "What confidential exhibits are attached to the transcripts you hold?"
+    },
+    {
+      "rank": 3,
+      "headline": "Delivery deadlines are set by court rules and trial dates.",
+      "why_this_business": "Transcripts are ordered on expedited schedules tied to motion deadlines and trial dates set by the court. Realtime reporting delivers text to counsel during proceedings.",
+      "loss_scenario": "Missed transcript delivery causing parties to miss filing deadlines, with sanctions or lost motions attributed to the reporting service.",
+      "rhetorical_question": "What court deadlines depend on your transcript delivery?"
+    }
+  ]
+}

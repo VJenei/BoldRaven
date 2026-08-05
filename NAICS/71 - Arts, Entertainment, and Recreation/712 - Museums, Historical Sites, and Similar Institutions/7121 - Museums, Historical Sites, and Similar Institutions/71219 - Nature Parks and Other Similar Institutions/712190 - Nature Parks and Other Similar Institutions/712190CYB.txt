@@ -1,0 +1,31 @@
+{
+  "naics_code": "712190",
+  "naics_title": "Nature Parks and Other Similar Institutions",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Reservation and permit systems control access to limited capacity.",
+      "why_this_business": "Parks manage campsite reservations, entry permits, and backcountry allocations through systems that allocate scarce capacity, frequently booked months ahead. Visitors travel long distances against confirmed reservations.",
+      "loss_scenario": "Visitors arriving with reservations that cannot be verified, and capacity that cannot be managed, creating overcrowding and safety issues in areas with limited infrastructure.",
+      "rhetorical_question": "How far ahead are your reservations booked, and how are they verified on arrival?"
+    },
+    {
+      "rank": 2,
+      "headline": "Visitor safety depends on knowing who is where.",
+      "why_this_business": "Backcountry permits and registration records identify who entered, where they intended to go, and when they were due out. Search and rescue operations begin from that information.",
+      "loss_scenario": "A search and rescue operation without permit and itinerary data, where responders do not know who is missing or where to look, in terrain where time directly determines survival.",
+      "rhetorical_question": "How would you identify who is currently in the backcountry if permit records were unavailable?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fee collection and payment data run through park systems.",
+      "why_this_business": "Parks collect entry, camping, and programme fees through kiosks, online systems, and staffed entrances, holding visitor payment data and, for annual passes, recurring customer records.",
+      "loss_scenario": "Payment data exposure across visitors, and fee collection halted with revenue lost during peak season that funds year-round operations.",
+      "rhetorical_question": "What share of your annual revenue is collected during peak visitor season?"
+    }
+  ]
+}

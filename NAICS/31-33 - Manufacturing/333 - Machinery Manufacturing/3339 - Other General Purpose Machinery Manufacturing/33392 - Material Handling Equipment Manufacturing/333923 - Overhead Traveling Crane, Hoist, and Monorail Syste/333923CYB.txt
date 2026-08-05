@@ -1,0 +1,31 @@
+{
+  "naics_code": "333923",
+  "naics_title": "Overhead Traveling Crane, Hoist, and Monorail System Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Cranes drop loads on people when they fail.",
+      "why_this_business": "Overhead cranes and hoists lift loads over occupied plant floors, with rated capacity, brakes, limit switches, and overload protection determining safe operation. A dropped load kills whoever is beneath it.",
+      "loss_scenario": "A brake, structural, or control defect dropping a load with fatal injury, and the manufacturer's design, testing, and load test records examined in the investigation.",
+      "rhetorical_question": "How are load test and inspection records retained for delivered cranes?"
+    },
+    {
+      "rank": 2,
+      "headline": "Capacity ratings depend on design and fabrication records.",
+      "why_this_business": "Cranes are designed to rated capacity with structural calculations, welding, and load testing documented before service. Users rely absolutely on the rated capacity marked on the crane.",
+      "loss_scenario": "Cranes rated beyond their actual capacity in service, which is a latent condition until an overload event, requiring engineering assessment of every crane from the affected period.",
+      "rhetorical_question": "How are structural calculations and load test results retained per crane?"
+    },
+    {
+      "rank": 3,
+      "headline": "Cranes are essential to plant operations with no substitute.",
+      "why_this_business": "Overhead cranes handle material that cannot be moved any other way in steel plants, foundries, and heavy manufacturing. A crane out of service stops the process it serves.",
+      "loss_scenario": "Parts and service unavailable with customer cranes down, and heavy manufacturing operations stopped because material cannot be moved.",
+      "rhetorical_question": "What happens at a customer plant when a crane is out of service?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "812331",
+  "naics_title": "Linen Supply",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Healthcare and hospitality customers cannot operate without linen.",
+      "why_this_business": "Linen supply delivers on scheduled routes to hospitals, hotels, and restaurants that hold minimal inventory. A hospital without clean linen cannot admit patients, and a hotel cannot turn rooms.",
+      "loss_scenario": "Customers unable to operate, with hospitals facing infection control and capacity consequences and hotels unable to sell rooms, and claims that reflect the customer's business rather than the linen contract.",
+      "rhetorical_question": "How many days of linen inventory do your healthcare customers hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Healthcare linen processing is subject to infection control standards.",
+      "why_this_business": "Processing healthcare textiles requires documented wash temperatures, chemical concentrations, and handling separation between soiled and clean, with accreditation programmes and customer audits verifying compliance.",
+      "loss_scenario": "Inadequately processed linen reaching a healthcare facility, which is an infection control incident with patient harm potential, and loss of accreditation that removes the ability to serve healthcare customers.",
+      "rhetorical_question": "How are wash formula parameters recorded and verified for healthcare linen?"
+    },
+    {
+      "rank": 3,
+      "headline": "Inventory tracking follows textiles through a continuous cycle.",
+      "why_this_business": "Linen circulates between plant and customer continuously, tracked by weight or by RFID, with loss and shrinkage being the largest controllable cost. Customer contracts allocate responsibility for losses.",
+      "loss_scenario": "Unreconcilable inventory across customers, with disputes over loss allocation and shrinkage that goes undetected across a period, directly consuming the margin the business runs on.",
+      "rhetorical_question": "How is linen inventory tracked between your plant and customer sites?"
+    }
+  ]
+}

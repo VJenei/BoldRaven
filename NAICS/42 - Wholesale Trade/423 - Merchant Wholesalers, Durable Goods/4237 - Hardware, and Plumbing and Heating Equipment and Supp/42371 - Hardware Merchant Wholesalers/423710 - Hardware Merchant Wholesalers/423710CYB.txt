@@ -1,0 +1,31 @@
+{
+  "naics_code": "423710",
+  "naics_title": "Hardware Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Thousands of SKUs move on small orders that only software can manage.",
+      "why_this_business": "Hardware distribution involves tens of thousands of low value SKUs picked into many small orders daily for retailers and contractors. Pick paths, replenishment, and pricing are all system driven. Manual picking at this SKU count is not achievable.",
+      "loss_scenario": "Order fulfilment stops almost completely during a warehouse system outage, with customers sourcing from the competing distributor for the duration.",
+      "rhetorical_question": "How many SKUs do you stock, and how are orders picked?"
+    },
+    {
+      "rank": 2,
+      "headline": "Retail and co-op customers require electronic ordering and data.",
+      "why_this_business": "Independent retailers, buying groups, and co-ops order electronically and expect catalogue data, pricing files, and inventory availability to flow into their point of sale systems. Item data quality determines whether your products can even be listed.",
+      "loss_scenario": "Customers unable to order or price product, and item data feeds that stop updating, which removes products from retail shelves and online listings.",
+      "rhetorical_question": "Do your customers pull catalogue and pricing data directly from your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Payment fraud targets both ends of the transaction.",
+      "why_this_business": "Distributors pay hundreds of suppliers and collect from hundreds of customers on terms, with remittance and bank detail changes flowing constantly. Both accounts payable and accounts receivable are exposed to instruction fraud.",
+      "loss_scenario": "Diverted supplier payments, or customers deceived into paying a fraudster using your invoice format, where the customer's payment obligation is disputed and the relationship damaged either way.",
+      "rhetorical_question": "How would a customer verify that a change to your remittance details is genuine?"
+    }
+  ]
+}

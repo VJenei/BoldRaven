@@ -1,0 +1,31 @@
+{
+  "naics_code": "531110",
+  "naics_title": "Lessors of Residential Buildings and Dwellings",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Rental applications contain everything needed to steal an identity.",
+      "why_this_business": "Applications collect Social Security numbers, dates of birth, driver licences, employment and income documentation, bank statements, and consent for credit and background screening. Landlords retain files for applicants they rejected as well as tenants they accepted.",
+      "loss_scenario": "Breach notification across current, former, and rejected applicants, many of whom were never customers. Where credit reports were obtained, additional obligations under the Fair Credit Reporting Act apply to how that data is protected and disposed of.",
+      "rhetorical_question": "How long do you keep applications from people you did not rent to?"
+    },
+    {
+      "rank": 2,
+      "headline": "Rent payment portals hold banking credentials and move money monthly.",
+      "why_this_business": "Online rent collection stores tenant bank account and card details for recurring payment, processing on a fixed monthly cycle. Tenants are also targeted by attackers impersonating the landlord with new payment instructions.",
+      "loss_scenario": "Tenants who pay a fraudulent account still owe the rent, creating a dispute with every affected tenant simultaneously, plus card and bank data exposure across the resident base.",
+      "rhetorical_question": "How would a tenant verify that a change to your payment instructions is genuine?"
+    },
+    {
+      "rank": 3,
+      "headline": "Smart locks and access control let you into people's homes.",
+      "why_this_business": "Properties increasingly use electronic access control, smart locks, cameras in common areas, and package systems administered by the landlord or a vendor. That administrative access opens residents' doors.",
+      "loss_scenario": "Unauthorised access to residents' homes, which is a physical safety exposure rather than a data one, and one that residents and courts treat very differently from a payment breach.",
+      "rhetorical_question": "Can your management platform unlock a resident's apartment door?"
+    }
+  ]
+}

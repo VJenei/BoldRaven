@@ -1,0 +1,31 @@
+{
+  "naics_code": "813410",
+  "naics_title": "Civic and Social Organizations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Member records and dues billing hold personal and payment data.",
+      "why_this_business": "Clubs and civic organisations hold member contact details, family information, dues payment methods, and event participation records, frequently accumulated over decades with no retention policy and administered by volunteers.",
+      "loss_scenario": "Payment and member data exposure across a long-standing membership, with notification obligations falling on an organisation run largely by volunteers with no capacity to manage it.",
+      "rhetorical_question": "Who administers your membership system, and are they a volunteer?"
+    },
+    {
+      "rank": 2,
+      "headline": "Volunteer administration means weak and shared access.",
+      "why_this_business": "Systems are administered by rotating volunteer officers with shared credentials, personal email accounts, and handovers that rarely include revoking previous access. Institutional continuity is poor by design.",
+      "loss_scenario": "Access retained by former officers and shared credentials that no one can inventory, with a compromise impossible to scope because nobody knows who had access.",
+      "rhetorical_question": "Could you list everyone who currently has access to your membership system?"
+    },
+    {
+      "rank": 3,
+      "headline": "Events and facilities generate payment and participant data.",
+      "why_this_business": "Organisations run events, facility rentals, and youth programmes, taking payment and holding participant records including, for youth activities, children's data and volunteer background checks.",
+      "loss_scenario": "Payment data exposure alongside children's programme records, with safeguarding documentation that the organisation must produce if any allegation arises.",
+      "rhetorical_question": "Do you run youth programmes with children's records and volunteer screening?"
+    }
+  ]
+}

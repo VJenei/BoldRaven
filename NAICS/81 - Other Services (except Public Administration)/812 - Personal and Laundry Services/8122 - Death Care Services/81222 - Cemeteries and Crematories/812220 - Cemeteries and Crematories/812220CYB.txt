@@ -1,0 +1,31 @@
+{
+  "naics_code": "812220",
+  "naics_title": "Cemeteries and Crematories",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Interment records establish who is buried where.",
+      "why_this_business": "Cemeteries maintain interment records, plot ownership, and burial location data going back many decades. Those records are the only means of locating a specific grave and of establishing who holds interment rights.",
+      "loss_scenario": "Loss of interment records means graves that cannot be located and plot ownership that cannot be established, which causes profound distress to families and creates disputes over rights that may date back generations.",
+      "rhetorical_question": "How many decades of interment records exist only in your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cremation authorisation and identification are legally critical.",
+      "why_this_business": "Cremation requires documented authorisation from the legally authorised person and rigorous identification tracking through the process, since the act is irreversible. State law prescribes authorisation and identification procedures.",
+      "loss_scenario": "A cremation performed without documented authorisation or with an identification error, which is irreversible and produces claims and regulatory action of exceptional severity given that nothing can be remedied.",
+      "rhetorical_question": "How is identification tracked through your cremation process?"
+    },
+    {
+      "rank": 3,
+      "headline": "Endowment care funds are held in perpetuity.",
+      "why_this_business": "Cemeteries hold endowment or perpetual care funds under state regulation, with contributions from each sale invested to fund maintenance indefinitely. Records establish contributions, balances, and obligations spanning generations.",
+      "loss_scenario": "Unreconstructable endowment records with regulators unable to verify that required contributions were made, and obligations to families that extend indefinitely into the future.",
+      "rhetorical_question": "How are endowment care fund contributions and balances recorded?"
+    }
+  ]
+}

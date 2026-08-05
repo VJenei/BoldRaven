@@ -1,0 +1,31 @@
+{
+  "naics_code": "622310",
+  "naics_title": "Specialty (except Psychiatric and Substance Abuse) Hospitals",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty patients have nowhere comparable to go.",
+      "why_this_business": "Rehabilitation, long term acute care, cancer, and children's hospitals serve patients with complex needs and few regional alternatives. Transfers require accepting facilities with the right capability, which may be hours away or unavailable.",
+      "loss_scenario": "Patients who cannot be transferred and cannot be treated safely without records, in facilities where the alternative is a general hospital without the specialist capability.",
+      "rhetorical_question": "Where would your patients be transferred if your facility could not operate?"
+    },
+    {
+      "rank": 2,
+      "headline": "Long stay patients accumulate extensive clinical records.",
+      "why_this_business": "Specialty facilities treat patients over weeks and months with detailed medication regimens, ventilator and device settings, wound care protocols, and rehabilitation progress. Care depends on a longitudinal record that cannot be reconstructed from memory.",
+      "loss_scenario": "Loss of longitudinal records for complex patients on ventilators, complex medication regimens, and specialised protocols, where reconstructing the plan of care introduces error risk at every step.",
+      "rhetorical_question": "How long is a typical patient stay, and how much of their record accumulates during it?"
+    },
+    {
+      "rank": 3,
+      "headline": "Paediatric facilities hold children's records permanently.",
+      "why_this_business": "Children's hospitals retain records into adulthood, holding diagnoses, genetic information, and family data for patients whose entire medical history begins with the institution. Children's identities are attractive because misuse goes undetected for years.",
+      "loss_scenario": "Exposure of children's medical and genetic records with lifelong implications for insurability and privacy, and identity theft that surfaces only when the child reaches adulthood.",
+      "rhetorical_question": "How long do you retain paediatric records after a patient reaches adulthood?"
+    }
+  ]
+}

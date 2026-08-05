@@ -1,0 +1,31 @@
+{
+  "naics_code": "513130",
+  "naics_title": "Book Publishers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Unpublished manuscripts have been stolen through targeted phishing for years.",
+      "why_this_business": "A sustained campaign impersonating editors, agents, and scouts obtained unpublished manuscripts from publishers, agencies, and authors over several years, leading to a federal indictment in 2022. Manuscripts move by email between author, agent, editor, and production long before publication.",
+      "loss_scenario": "A manuscript leak before publication undermines the launch, exposes the publisher to author claims, and in a business built on author trust, the reputational damage affects acquisition of future titles.",
+      "rhetorical_question": "How do editors verify that a manuscript request genuinely comes from the person it claims?"
+    },
+    {
+      "rank": 2,
+      "headline": "Publication dates are announced, marketed, and immovable.",
+      "why_this_business": "Books are announced to retailers, reviewers, and the trade months ahead, with print runs, distribution, and marketing committed to a date. Production files must reach the printer on schedule for physical books to exist on publication day.",
+      "loss_scenario": "A missed publication date with retail placement, review coverage, and author publicity already scheduled, none of which can be recreated for a later date.",
+      "rhetorical_question": "How far ahead of publication are your print and distribution commitments made?"
+    },
+    {
+      "rank": 3,
+      "headline": "Author contracts and royalty accounting run for decades.",
+      "why_this_business": "Publishing agreements govern rights, territories, subsidiary licensing, and royalties over the life of copyright, with advances recouped and statements issued semi-annually. Authors hold audit rights over that accounting.",
+      "loss_scenario": "Unreconcilable royalty accounts across a backlist spanning decades, triggering author audits with cost-shifting provisions and disputes over rights that cannot be resolved without the contract records.",
+      "rhetorical_question": "How many years of author contracts and royalty records do you maintain?"
+    }
+  ]
+}

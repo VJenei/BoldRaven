@@ -1,0 +1,31 @@
+{
+  "naics_code": "423420",
+  "naics_title": "Office Equipment Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The equipment you distribute is networked and stores customer data.",
+      "why_this_business": "Multifunction printers and copiers are network devices with hard drives that retain images of scanned and printed documents. Dealers and distributors configure, monitor, and service these fleets remotely through management platforms with access into customer networks.",
+      "loss_scenario": "A compromise of your fleet management platform reaches customer networks and the stored document images on every device under contract. Liability runs to every affected customer.",
+      "rhetorical_question": "Do you manage or monitor customer print fleets remotely?"
+    },
+    {
+      "rank": 2,
+      "headline": "Managed print and lease agreements create recurring obligations.",
+      "why_this_business": "Revenue comes from service agreements and leases billed on meter readings collected automatically from devices. Meter data drives invoicing, supply replenishment, and service dispatch. Lease portfolios are financed through third parties against those contracts.",
+      "loss_scenario": "Unbillable meter cycles across the customer base and supply replenishment failures, with lease funders requiring contract documentation you cannot produce.",
+      "rhetorical_question": "How are meter readings collected and converted into billing?"
+    },
+    {
+      "rank": 3,
+      "headline": "Device disposal carries data destruction obligations.",
+      "why_this_business": "Returned and end of lease equipment contains customer data on internal storage. Distributors and dealers are expected to sanitise or destroy those drives and to certify it. Customers in regulated sectors require documented destruction.",
+      "loss_scenario": "Customer data recovered from a resold or scrapped device, which is a breach attributable to the distributor and a direct contractual failure to regulated customers.",
+      "rhetorical_question": "How do you sanitise and certify destruction of storage in returned equipment?"
+    }
+  ]
+}

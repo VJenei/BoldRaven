@@ -1,0 +1,31 @@
+{
+  "naics_code": "322291",
+  "naics_title": "Sanitary Paper Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Absorbent hygiene products are regulated and consumer-critical.",
+      "why_this_business": "Tampons and certain feminine hygiene products are regulated medical devices with FDA requirements, and diapers and incontinence products contact skin directly across vulnerable populations including infants and the elderly.",
+      "loss_scenario": "A product safety issue in a device-regulated product requiring recall and FDA reporting, with consumer injury exposure and, for infant products, a public reaction that is disproportionate to any other packaged good.",
+      "rhetorical_question": "Are any of your products regulated as medical devices?"
+    },
+    {
+      "rank": 2,
+      "headline": "Converting lines run at extreme speed with product in process.",
+      "why_this_business": "Hygiene converting lines produce hundreds of units per minute combining multiple materials in a continuous process. Line control governs product assembly, and product in process is scrapped on any stop.",
+      "loss_scenario": "High volume scrap on line stops plus lost production on capital equipment where utilisation determines whether the plant is viable, with retail supply commitments unmet.",
+      "rhetorical_question": "How many units per minute does your converting line produce?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retail supply commitments cover essential household products.",
+      "why_this_business": "Sanitary paper products ship to retail under supply agreements for products consumers regard as essential. Shortages produce visible empty shelves and consumer stockpiling that amplifies the disruption.",
+      "loss_scenario": "Retail out of stocks on essential products with consumer reaction, retailer penalties, and shelf space that competitors fill during the gap.",
+      "rhetorical_question": "How quickly would consumers notice if your product were absent from shelves?"
+    }
+  ]
+}

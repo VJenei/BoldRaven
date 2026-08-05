@@ -1,0 +1,31 @@
+{
+  "naics_code": "332994",
+  "naics_title": "Small Arms, Ordnance, and Ordnance Accessories Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Firearm manufacturing is federally licensed with mandatory records.",
+      "why_this_business": "Manufacturers hold a federal firearms licence with acquisition and disposition records for every firearm by serial number, retained and produced on ATF inspection. Records must be maintained permanently and surrendered if the licence ends.",
+      "loss_scenario": "Loss of acquisition and disposition records, which is a licence violation and defeats firearm tracing, with revocation exposure that ends the ability to manufacture.",
+      "rhetorical_question": "How are your acquisition and disposition records maintained and backed up?"
+    },
+    {
+      "rank": 2,
+      "headline": "Technical data on weapons is export controlled.",
+      "why_this_business": "Firearm and ordnance designs are defence articles with technical data controlled under ITAR, requiring registration and controls on access. Disclosure to a foreign person, including remotely, is an export.",
+      "loss_scenario": "Exposure of controlled technical data, which is a reportable ITAR violation with civil and criminal penalties and potential debarment from defence work.",
+      "rhetorical_question": "How is access to weapon technical data restricted and logged?"
+    },
+    {
+      "rank": 3,
+      "headline": "Firearm defects cause unintentional discharge and injury.",
+      "why_this_business": "Firearms are not subject to CPSC jurisdiction, but manufacturers conduct safety recalls for defects causing unintentional discharge or failure. Locating affected firearms requires serial number records through distribution.",
+      "loss_scenario": "A defect causing unintentional discharges with injuries, and a recall that cannot reach affected firearms because serial number distribution records are unavailable, leaving defective weapons in circulation.",
+      "rhetorical_question": "Could you identify which distributors received specific serial number ranges?"
+    }
+  ]
+}

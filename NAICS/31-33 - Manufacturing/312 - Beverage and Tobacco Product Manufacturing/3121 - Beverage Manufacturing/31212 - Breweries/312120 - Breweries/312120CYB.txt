@@ -1,0 +1,31 @@
+{
+  "naics_code": "312120",
+  "naics_title": "Breweries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Brewing is a biological process running over days and weeks.",
+      "why_this_business": "Mashing, boiling, fermentation, and conditioning proceed over days with temperature, timing, and yeast management controlled throughout. Fermentation cannot be paused, and tank capacity is the constraint on production.",
+      "loss_scenario": "Batches lost in fermentation or conditioning, representing weeks of tank capacity and the ingredients in them, with a production schedule that cannot absorb the loss and customers expecting delivery.",
+      "rhetorical_question": "How many days does a batch occupy a fermentation tank?"
+    },
+    {
+      "rank": 2,
+      "headline": "TTB reporting and excise tax depend on production records.",
+      "why_this_business": "Breweries operate under federal basic permits with excise tax calculated on removals, reported on regular returns, and records of production, transfers, and losses required and inspected by TTB.",
+      "loss_scenario": "Excise tax assessed on estimates during an audit where production and removal records cannot be produced, with penalties and interest, and permit exposure for recordkeeping failures.",
+      "rhetorical_question": "How are production and removal records maintained for TTB reporting?"
+    },
+    {
+      "rank": 3,
+      "headline": "Distribution runs through a regulated three-tier system.",
+      "why_this_business": "Beer moves to wholesalers under franchise-protected territory agreements with depletion reporting, brand registration by state, and label approval requirements. Direct sales are limited by state law.",
+      "loss_scenario": "Inability to report depletions or manage wholesaler relationships, plus brand registration and label compliance failures that prevent lawful sale in specific states.",
+      "rhetorical_question": "In how many states are your brands registered, and how is that tracked?"
+    }
+  ]
+}

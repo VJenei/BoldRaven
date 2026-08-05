@@ -1,0 +1,31 @@
+{
+  "naics_code": "424440",
+  "naics_title": "Poultry and Poultry Product Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Shell eggs are on the Food Traceability List.",
+      "why_this_business": "Shell eggs are covered by FSMA Section 204, requiring traceability lot codes, Key Data Elements, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request, with a compliance date of July 20, 2028. Eggs and poultry also carry a long history of Salmonella traceback investigations.",
+      "loss_scenario": "A traceback that stalls at the distributor widens a recall across every supplier and customer in the chain, and egg recalls have historically run to hundreds of millions of units.",
+      "rhetorical_question": "Can you link a case of eggs back to the producer and lot that supplied it?"
+    },
+    {
+      "rank": 2,
+      "headline": "Poultry supply and price move violently with avian influenza.",
+      "why_this_business": "HPAI outbreaks remove enormous supply from the market in weeks, with prices moving sharply and allocation across customers becoming a daily decision. Forward commitments made before an outbreak become loss-making immediately.",
+      "loss_scenario": "Forward sales commitments that cannot be repriced or sourced during a supply shock, where the distributor buys at market to fill contracts written months earlier.",
+      "rhetorical_question": "How much product do you have committed forward at fixed prices?"
+    },
+    {
+      "rank": 3,
+      "headline": "Cold chain and USDA inspection records travel with the product.",
+      "why_this_business": "Poultry is a USDA-inspected product with establishment numbers, pack dates, and temperature requirements documented through the chain. The Sanitary Transportation rule requires temperature control during transport to be specified and verified.",
+      "loss_scenario": "Product that cannot be verified as temperature-controlled must be condemned, and USDA involvement in a distribution failure escalates quickly.",
+      "rhetorical_question": "How do you document temperature control from receipt through delivery?"
+    }
+  ]
+}

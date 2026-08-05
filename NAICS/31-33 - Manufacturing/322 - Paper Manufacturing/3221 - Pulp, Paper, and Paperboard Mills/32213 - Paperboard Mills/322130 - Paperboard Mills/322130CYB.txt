@@ -1,0 +1,31 @@
+{
+  "naics_code": "322130",
+  "naics_title": "Paperboard Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Board machines run continuously supplying converters on schedule.",
+      "why_this_business": "Paperboard machines run continuously producing to specification for converters who make boxes and packaging. Converters run their own continuous operations with limited board inventory and customer commitments behind them.",
+      "loss_scenario": "Converters without board, stopping their production and their customers' packaging supply, with claims cascading through the packaging chain to consumer goods manufacturers who cannot ship product.",
+      "rhetorical_question": "How many days of board inventory do your converting customers hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Board specification determines packaging performance.",
+      "why_this_business": "Paperboard is produced to caliper, strength, and moisture specifications determining how boxes perform in stacking, shipping, and automated packing. Converters and their customers qualify board for specific applications.",
+      "loss_scenario": "Off-specification board producing boxes that fail in stacking or in automated packing lines, with product damage and line stoppages at the end user claimed back through the chain.",
+      "rhetorical_question": "How is board strength and caliper verified against specification during production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Food contact board carries regulatory requirements.",
+      "why_this_business": "Board used for food packaging must meet food contact material requirements, with recycled content and chemistry controlled and documented. PFAS in food packaging is subject to increasing state restrictions and disclosure requirements.",
+      "loss_scenario": "Board failing food contact requirements incorporated into packaging, with recall reaching packaged food products and regulatory exposure across states with differing restrictions.",
+      "rhetorical_question": "Do you produce food contact board, and how is chemistry compliance documented?"
+    }
+  ]
+}

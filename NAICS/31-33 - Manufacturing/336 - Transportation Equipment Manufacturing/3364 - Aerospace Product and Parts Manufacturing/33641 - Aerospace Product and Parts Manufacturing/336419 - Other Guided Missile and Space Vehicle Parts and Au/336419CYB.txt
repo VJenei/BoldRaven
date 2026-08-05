@@ -1,0 +1,31 @@
+{
+  "naics_code": "336419",
+  "naics_title": "Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Component technical data is export controlled.",
+      "why_this_business": "Parts for missile and space vehicles are defence articles with ITAR controlled technical data, requiring registration, access restriction, and licensing for any transfer including remote access by foreign persons.",
+      "loss_scenario": "Exposure of controlled technical data, which is a reportable violation with criminal exposure and debarment from the defence work the business depends on.",
+      "rhetorical_question": "How is access to ITAR controlled technical data restricted and logged?"
+    },
+    {
+      "rank": 2,
+      "headline": "Defence contracts require demonstrated cybersecurity compliance.",
+      "why_this_business": "Suppliers handling controlled unclassified information must meet NIST SP 800-171 with an SPRS score, with CMMC assessment requirements appearing in contracts as a condition of award.",
+      "loss_scenario": "Loss of contract eligibility where compliance cannot be evidenced or an incident shows controls were absent, ending participation in programmes with no commercial substitute.",
+      "rhetorical_question": "What is your SPRS score, and what CMMC level do your contracts require?"
+    },
+    {
+      "rank": 3,
+      "headline": "Parts are traced because a failure loses a vehicle.",
+      "why_this_business": "Components are produced under qualified processes with full traceability because a single part failure destroys a vehicle and payload worth far more than the entire supply contract.",
+      "loss_scenario": "A part failure causing mission loss, with traceability records determining which other parts from the same production must be withheld, and without them every unit is suspect.",
+      "rhetorical_question": "How long are process and traceability records retained after delivery?"
+    }
+  ]
+}

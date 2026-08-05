@@ -1,0 +1,31 @@
+{
+  "naics_code": "334290",
+  "naics_title": "Other Communications Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Alarm and life safety equipment must function when needed.",
+      "why_this_business": "Fire alarm, security, and signalling equipment monitors buildings and transmits alarms to monitoring centres. Communication path failures mean alarms do not reach anyone, and listings govern the required reliability.",
+      "loss_scenario": "Equipment defects preventing alarm transmission during a fire or intrusion, with fatalities or losses that the system existed to prevent and the manufacturer's listing and design examined.",
+      "rhetorical_question": "Does your equipment transmit fire or security alarms to monitoring centres?"
+    },
+    {
+      "rank": 2,
+      "headline": "Connected devices are deployed and rarely updated.",
+      "why_this_business": "Communications devices are installed in buildings and infrastructure and left in place for years with network connectivity and firmware that owners do not track. Vulnerabilities persist for the life of the installation.",
+      "loss_scenario": "A vulnerability exploited across deployed devices, giving attackers footholds inside customer networks, with the manufacturer required to produce updates for devices whose owners are difficult to reach.",
+      "rhetorical_question": "How do deployed devices receive security updates, and who applies them?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment authorisation depends on the shipped configuration.",
+      "why_this_business": "Radio and communications equipment requires FCC authorisation tied to a tested configuration, with component or firmware changes potentially invalidating the authorisation.",
+      "loss_scenario": "Products shipped outside their authorised configuration, which cannot be lawfully marketed, requiring recall and re-authorisation with FCC enforcement exposure.",
+      "rhetorical_question": "How are authorised hardware and firmware configurations controlled at build?"
+    }
+  ]
+}

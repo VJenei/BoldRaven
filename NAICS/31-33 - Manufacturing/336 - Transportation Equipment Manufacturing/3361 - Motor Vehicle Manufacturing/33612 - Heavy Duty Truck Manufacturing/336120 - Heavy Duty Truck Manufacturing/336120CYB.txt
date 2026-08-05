@@ -1,0 +1,31 @@
+{
+  "naics_code": "336120",
+  "naics_title": "Heavy Duty Truck Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Trucks are connected and receive software over the air.",
+      "why_this_business": "Commercial vehicles run electronic control units, telematics, and remote diagnostics with over the air software delivery. Braking, steering, and driver assistance functions are software controlled on vehicles weighing 80,000 pounds.",
+      "loss_scenario": "A vulnerability affecting control functions on heavy trucks in service, with accident potential proportional to vehicle mass, an NHTSA recall, and a software campaign across a fleet operating on public roads.",
+      "rhetorical_question": "What vehicle functions can be affected by software delivered over the air?"
+    },
+    {
+      "rank": 2,
+      "headline": "Emissions certification is enforced through engine software.",
+      "why_this_business": "Heavy duty engines are certified to EPA and CARB standards with aftertreatment governed by engine calibration. Enforcement against defeat devices and uncertified calibrations has produced settlements in the billions.",
+      "loss_scenario": "Vehicles built or serviced with wrong or altered calibrations, which is an emissions violation with per-vehicle penalties, recall, and potentially a consent decree with ongoing federal oversight.",
+      "rhetorical_question": "How are certified engine calibrations controlled at build and in service?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fleet customers and dealers depend on your systems continuously.",
+      "why_this_business": "Trucks are sold and serviced through dealers using manufacturer systems for parts, warranty, and diagnostics. A truck out of service costs a fleet operator revenue every day it does not run.",
+      "loss_scenario": "Parts and diagnostic systems unavailable with trucks unable to be repaired across the dealer network, and fleet customers pursuing the manufacturer for the revenue lost on idle vehicles.",
+      "rhetorical_question": "How do dealers access diagnostics and order parts from you?"
+    }
+  ]
+}

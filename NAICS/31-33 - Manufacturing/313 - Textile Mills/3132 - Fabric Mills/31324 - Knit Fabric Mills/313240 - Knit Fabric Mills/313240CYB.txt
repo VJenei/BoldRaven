@@ -1,0 +1,31 @@
+{
+  "naics_code": "313240",
+  "naics_title": "Knit Fabric Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Knitting machines execute pattern programmes.",
+      "why_this_business": "Circular and flat knitting machines run programmes defining stitch structure, pattern, and dimensions loaded from design systems. Modern seamless and engineered knitting is entirely programme driven.",
+      "loss_scenario": "Loss of knitting programmes requiring redevelopment of customer patterns, with production halted and development time that customers will not wait through.",
+      "rhetorical_question": "How many customer knitting programmes are stored in your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Dye lot and shade matching govern usability.",
+      "why_this_business": "Knit fabric is dyed in lots with inherent shade variation, and apparel customers must cut a garment from a single lot. Lot records determine whether additional yardage will match.",
+      "loss_scenario": "Customers unable to obtain matching fabric to complete production, with garments already cut from an earlier lot rendered unusable and the mill bearing the claim.",
+      "rhetorical_question": "How do you record and communicate dye lot information to customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fast fashion cycles compress lead times to weeks.",
+      "why_this_business": "Apparel customers work to short seasonal cycles with fabric ordered close to production and retail delivery dates fixed months earlier. There is very little slack between fabric delivery and garment shipment.",
+      "loss_scenario": "Late fabric causing customers to miss retail windows on seasonal goods, with cancelled orders and claims that reflect the retail value rather than the fabric price.",
+      "rhetorical_question": "How many weeks between your fabric delivery and your customer's retail delivery date?"
+    }
+  ]
+}

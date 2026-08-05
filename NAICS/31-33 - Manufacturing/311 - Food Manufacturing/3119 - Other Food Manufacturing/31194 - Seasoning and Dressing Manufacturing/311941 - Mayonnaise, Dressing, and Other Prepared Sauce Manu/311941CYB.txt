@@ -1,0 +1,31 @@
+{
+  "naics_code": "311941",
+  "naics_title": "Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Acidification is the food safety control and it is measured.",
+      "why_this_business": "Dressings and sauces rely on pH control to prevent pathogen growth, with acidified foods regulated by FDA requiring scheduled processes and pH verification records. Product above the target pH is not shelf stable and can support Clostridium botulinum.",
+      "loss_scenario": "Product released above target pH creating a botulism risk, with recall of shelf stable product distributed nationally and regulatory response at the level applied to low acid food failures.",
+      "rhetorical_question": "How is finished product pH verified and recorded for each batch?"
+    },
+    {
+      "rank": 2,
+      "headline": "Egg and dairy ingredients carry salmonella and allergen risk.",
+      "why_this_business": "Mayonnaise and dressings use egg and dairy ingredients carrying salmonella risk if not properly treated, alongside allergen declaration obligations for egg, milk, soy, and mustard. Ingredient specification and supplier verification are the control.",
+      "loss_scenario": "A salmonella or allergen recall traced to an ingredient, with the manufacturer unable to identify affected finished lots and the recall covering everything produced in the period.",
+      "rhetorical_question": "Can you trace an ingredient lot forward to the finished products containing it?"
+    },
+    {
+      "rank": 3,
+      "headline": "Co-packing means holding customers' proprietary formulations.",
+      "why_this_business": "Sauce and dressing manufacturers frequently co-pack for restaurant chains and brand owners whose signature sauces are commercially critical trade secrets held under confidentiality.",
+      "loss_scenario": "Disclosure of a restaurant chain's signature sauce formulation, which is a trade secret loss with contractual liability and the immediate end of a co-packing relationship.",
+      "rhetorical_question": "How many customers' proprietary formulations are held on your systems?"
+    }
+  ]
+}

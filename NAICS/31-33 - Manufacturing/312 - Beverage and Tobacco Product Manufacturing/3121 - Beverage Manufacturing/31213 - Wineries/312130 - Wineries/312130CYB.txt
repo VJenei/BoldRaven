@@ -1,0 +1,31 @@
+{
+  "naics_code": "312130",
+  "naics_title": "Wineries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Harvest and fermentation happen once a year and cannot be repeated.",
+      "why_this_business": "Crush and fermentation occur during a compressed harvest window, with fruit arriving at optimal ripeness and fermentation proceeding under temperature control over days to weeks. The vintage happens once and the fruit does not wait.",
+      "loss_scenario": "Fermentation lost or spoiled during harvest, representing an entire vintage of specific vineyard lots that cannot be replaced until the following year, with the wine that would have been made simply absent.",
+      "rhetorical_question": "How much of your annual production is committed during the harvest window?"
+    },
+    {
+      "rank": 2,
+      "headline": "Direct to consumer sales hold stored payment credentials.",
+      "why_this_business": "Wine clubs bill members quarterly to stored cards, alongside tasting room point of sale and e-commerce with shipping compliance data including dates of birth and signatures. Club membership is the most valuable asset in a DTC winery.",
+      "loss_scenario": "Stored card compromise across a club membership built over a decade, with notification, card brand liability, and cancellation of the recurring revenue the winery depends on.",
+      "rhetorical_question": "How many club members have payment methods stored for recurring shipments?"
+    },
+    {
+      "rank": 3,
+      "headline": "Label claims must be substantiated for TTB.",
+      "why_this_business": "Vintage, varietal, appellation, and vineyard designate claims must be supported by records of fruit source, tonnage, and blending, available for TTB audit. Those claims determine the price the bottle commands.",
+      "loss_scenario": "Inability to substantiate label claims in an audit requiring relabelling or destruction of bottled inventory, on wine whose value depends entirely on the claims made.",
+      "rhetorical_question": "Could you substantiate the appellation and vintage claims on your current release?"
+    }
+  ]
+}

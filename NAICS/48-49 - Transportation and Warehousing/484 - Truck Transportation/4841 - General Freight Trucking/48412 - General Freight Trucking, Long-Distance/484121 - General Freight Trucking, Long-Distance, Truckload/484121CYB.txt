@@ -1,0 +1,31 @@
+{
+  "naics_code": "484121",
+  "naics_title": "General Freight Trucking, Long-Distance, Truckload",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fictitious pickup and identity cloning have grown into the dominant theft method.",
+      "why_this_business": "Strategic cargo theft grew dramatically between 2022 and 2024, with fictitious pickups rising from an average of around 66 a year to several hundred. Criminals clone motor carrier numbers, create fraudulent carrier identities, compromise load board credentials, and use double brokering to take possession of loads legitimately in appearance.",
+      "loss_scenario": "A full truckload of $150,000 to $500,000 diverted, with cargo liability to the shipper attaching to the contracted carrier regardless of who physically took it. Voluntary release generally defeats a theft claim.",
+      "rhetorical_question": "How do you authenticate a carrier or driver before tendering a load?"
+    },
+    {
+      "rank": 2,
+      "headline": "The transportation management system is the whole operation.",
+      "why_this_business": "Load assignment, routing, fuel purchasing, driver settlement, customer billing, and safety compliance all run through a TMS integrated with telematics and ELDs. Long-haul operations coordinate hundreds of trucks across the country in real time.",
+      "loss_scenario": "Trucks running without dispatch and drivers without instructions, with unbillable trips and no visibility of where equipment or freight is. Fixed costs on tractors and trailers continue regardless.",
+      "rhetorical_question": "Where are your trucks right now, and how do you know?"
+    },
+    {
+      "rank": 3,
+      "headline": "Safety and driver qualification records determine whether you can operate.",
+      "why_this_business": "Carriers must maintain driver qualification files, drug and alcohol testing records including Clearinghouse queries, hours of service records, and vehicle maintenance files. FMCSA audits examine these, and after a crash the plaintiff's first request is the driver file.",
+      "loss_scenario": "An unsatisfactory safety rating removes operating authority, and after a serious crash the absence of a driver qualification file is close to indefensible in litigation.",
+      "rhetorical_question": "How many driver qualification files do you maintain, and where?"
+    }
+  ]
+}

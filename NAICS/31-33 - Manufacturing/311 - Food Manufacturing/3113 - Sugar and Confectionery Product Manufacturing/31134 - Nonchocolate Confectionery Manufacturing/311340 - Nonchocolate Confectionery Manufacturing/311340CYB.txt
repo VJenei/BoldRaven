@@ -1,0 +1,31 @@
+{
+  "naics_code": "311340",
+  "naics_title": "Nonchocolate Confectionery Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Undeclared allergens are the leading cause of food recalls.",
+      "why_this_business": "Confectionery lines handle milk, soy, tree nuts, peanuts, and sesame across shared equipment, with allergen control depending on scheduling, cleaning validation, and label accuracy. Label and packaging changes are a frequent source of error.",
+      "loss_scenario": "An allergen recall with anaphylaxis exposure, where the affected lots and their distribution cannot be identified quickly and the recall expands across the whole production period.",
+      "rhetorical_question": "How is allergen labelling verified against the product actually running on the line?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasonal production is timed to fixed holiday dates.",
+      "why_this_business": "Confectionery volume is concentrated around Halloween, Christmas, Valentine's Day, and Easter, with production running months ahead and shipping to retailer reset dates. Seasonal product has no value after the holiday.",
+      "loss_scenario": "Missing a seasonal shipping window leaves product that cannot be sold at any price, with the retailer resetting the aisle and the production cost fully sunk.",
+      "rhetorical_question": "What share of your annual production is seasonal with a fixed shelf date?"
+    },
+    {
+      "rank": 3,
+      "headline": "Cooking and forming lines run continuously to tight parameters.",
+      "why_this_business": "Sugar cooking, depositing, and forming run continuously with temperature and moisture controlling texture and shelf stability. Product outside parameters fails on shelf or in the mouth and is rejected.",
+      "loss_scenario": "Off-specification product across a run that must be scrapped or reworked, on lines where changeover and startup already consume significant capacity.",
+      "rhetorical_question": "How much product is produced between a process upset and its detection?"
+    }
+  ]
+}

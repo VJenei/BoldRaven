@@ -1,0 +1,31 @@
+{
+  "naics_code": "322219",
+  "naics_title": "Other Paperboard Container Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Containers are engineered for specific products and handling.",
+      "why_this_business": "Fibre drums, tubes, and specialty containers are designed for specific contents, weights, and handling systems, with construction determining strength and protection. Some carry hazardous materials packaging certification.",
+      "loss_scenario": "Containers failing in transit with product loss and, where hazardous materials are involved, a release with regulatory reporting and the packaging certification called into question.",
+      "rhetorical_question": "Do any of your containers carry hazardous materials packaging certification?"
+    },
+    {
+      "rank": 2,
+      "headline": "Customer production depends on packaging arriving.",
+      "why_this_business": "Containers are made to order and delivered on schedule to customers who package into them continuously. There is no substitute container and customers hold limited inventory.",
+      "loss_scenario": "Customer packaging lines stopped for want of containers, with their production halted and finished goods that cannot be shipped, claimed against the packaging supplier.",
+      "rhetorical_question": "What happens to your customers' packaging lines if containers do not arrive?"
+    },
+    {
+      "rank": 3,
+      "headline": "Converting equipment runs from job specifications.",
+      "why_this_business": "Winding, cutting, and forming equipment runs from job specifications defining dimensions, construction, and printing for each customer order. Setup and run parameters are held in the production system.",
+      "loss_scenario": "Wrong specification production that fits no customer, with material and setup time lost and orders delayed while jobs are re-specified and rerun.",
+      "rhetorical_question": "How are job specifications transferred to your converting equipment?"
+    }
+  ]
+}

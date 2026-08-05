@@ -1,0 +1,31 @@
+{
+  "naics_code": "621512",
+  "naics_title": "Diagnostic Imaging Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Imaging archives have been found exposed on the public internet.",
+      "why_this_business": "PACS and DICOM servers store patient images with embedded identifiers. Security researchers have repeatedly found unsecured medical imaging servers exposed to the internet worldwide, disclosing millions of studies with patient names, dates of birth, and images.",
+      "loss_scenario": "Mass exposure of patient imaging with identifiers embedded in the files, notification across the patient base, and OCR enforcement where the exposure resulted from a server configured without access controls.",
+      "rhetorical_question": "Is your PACS reachable from outside your network, and how is that access controlled?"
+    },
+    {
+      "rank": 2,
+      "headline": "Imaging equipment is networked medical technology.",
+      "why_this_business": "CT, MRI, and other modalities are computer-controlled systems on the network, frequently running older operating systems with vendor-controlled patching. Equipment downtime idles capital assets costing millions.",
+      "loss_scenario": "Scanners unusable with scheduled patients cancelled and referring physicians sending work elsewhere, on equipment whose utilisation determines whether the centre is profitable.",
+      "rhetorical_question": "Who controls patching and updates on your imaging modalities?"
+    },
+    {
+      "rank": 3,
+      "headline": "Prior studies are essential for comparison and cannot be recreated.",
+      "why_this_business": "Radiological interpretation depends on comparison with prior imaging to assess change over time. Archives extend back years and are clinically necessary for oncology surveillance and chronic disease monitoring.",
+      "loss_scenario": "Loss of the imaging archive removes the comparison basis for every surveillance patient, which cannot be recreated because the historical images document a point in time.",
+      "rhetorical_question": "How many years of prior imaging do your radiologists rely on for comparison?"
+    }
+  ]
+}

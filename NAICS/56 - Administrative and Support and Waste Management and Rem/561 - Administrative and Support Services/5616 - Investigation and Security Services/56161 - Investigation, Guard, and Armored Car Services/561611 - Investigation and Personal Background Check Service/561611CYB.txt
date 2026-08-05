@@ -1,0 +1,31 @@
+{
+  "naics_code": "561611",
+  "naics_title": "Investigation and Personal Background Check Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You are a consumer reporting agency with statutory obligations.",
+      "why_this_business": "Firms providing background checks for employment and tenant screening are consumer reporting agencies under the Fair Credit Reporting Act, required to follow reasonable procedures to assure maximum possible accuracy, provide disclosures, and reinvestigate disputes. Private rights of action carry statutory and punitive damages.",
+      "loss_scenario": "FCRA class litigation over inaccurate reporting or improper disclosure, where statutory damages per consumer across a large report volume produce very substantial settlements, plus regulatory attention from the CFPB and FTC.",
+      "rhetorical_question": "How do you assure the accuracy of the reports you furnish, and how are disputes reinvestigated?"
+    },
+    {
+      "rank": 2,
+      "headline": "Investigation files contain surveillance and personal information about third parties.",
+      "why_this_business": "Investigators hold surveillance records, photographs, location data, financial and relationship information about subjects who are not clients and did not consent. Domestic, insurance fraud, and corporate investigations are inherently intrusive.",
+      "loss_scenario": "Exposure of surveillance and personal data about investigation subjects, with privacy and, in domestic matters, direct physical safety consequences for the individuals involved.",
+      "rhetorical_question": "Do your files contain surveillance records about individuals who never consented?"
+    },
+    {
+      "rank": 3,
+      "headline": "Background check subjects provide complete identity data.",
+      "why_this_business": "Screening requires Social Security numbers, dates of birth, addresses, and identity documents from applicants, submitted through your systems or your client's portal. Applicants are frequently required to provide this as a condition of employment.",
+      "loss_scenario": "Breach exposing complete identity records for job applicants and tenants, most of whom have no ongoing relationship with you and provided the data under compulsion.",
+      "rhetorical_question": "How many applicant identity records do you hold, including for people never hired?"
+    }
+  ]
+}

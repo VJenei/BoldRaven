@@ -1,0 +1,31 @@
+{
+  "naics_code": "516110",
+  "naics_title": "Radio Broadcasting Stations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The Emergency Alert System runs through your equipment.",
+      "why_this_business": "Broadcast stations operate EAS encoder and decoder equipment that receives and retransmits emergency alerts, connected to the internet for CAP message polling. The FCC requires participation, and false or manipulated alerts have been transmitted through compromised station equipment in documented incidents.",
+      "loss_scenario": "Transmission of a false emergency alert causes public panic and draws FCC enforcement, and the station is the identified source regardless of how the message originated.",
+      "rhetorical_question": "How is your EAS equipment secured and how are its default credentials managed?"
+    },
+    {
+      "rank": 2,
+      "headline": "Automation systems keep the station on air with almost no staff.",
+      "why_this_business": "Modern radio runs on automation playing logged content, commercials, and voice tracking from a networked system, frequently across multiple stations from a central hub. Stations operate unattended for much of the day.",
+      "loss_scenario": "Dead air or wrong content on multiple stations simultaneously, with make-goods owed to advertisers for spots that did not run and FCC obligations around required programming and logging.",
+      "rhetorical_question": "How many hours a day does your station run on automation without a person in the building?"
+    },
+    {
+      "rank": 3,
+      "headline": "Traffic and billing systems are how advertising revenue is captured.",
+      "why_this_business": "Commercial scheduling, affidavit of performance, and billing run through traffic systems that log what aired and when. Advertisers and agencies pay against those affidavits and audit them.",
+      "loss_scenario": "Unbillable airtime and inability to produce affidavits of performance, which for agency business means the invoice is simply not paid.",
+      "rhetorical_question": "How do you prove to an advertiser that their spot actually aired?"
+    }
+  ]
+}

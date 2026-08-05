@@ -1,0 +1,31 @@
+{
+  "naics_code": "335999",
+  "naics_title": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Electrical equipment carries safety listings tied to construction.",
+      "why_this_business": "Electrical products carry safety agency listings depending on specified components, insulation, and construction. Deviation from the listed configuration creates fire and shock hazards and voids the certification.",
+      "loss_scenario": "Product built outside listed configuration causing fires or shock injuries, with recall across the installed base and listing agency withdrawal of certification.",
+      "rhetorical_question": "How are listed configurations and component substitutions controlled at build?"
+    },
+    {
+      "rank": 2,
+      "headline": "Products are embedded in other manufacturers' equipment.",
+      "why_this_business": "Electrical components are supplied to equipment manufacturers who build them into their products. A defect becomes a recall of every finished product containing the component.",
+      "loss_scenario": "A component defect requiring recall of finished equipment across many customers, with the recall cost determined by their products rather than yours.",
+      "rhetorical_question": "How many finished product models contain your components?"
+    },
+    {
+      "rank": 3,
+      "headline": "Connected products create obligations after they ship.",
+      "why_this_business": "Electrical equipment increasingly includes connectivity and firmware, requiring the manufacturer to maintain security updates across the installed base for the life of the product.",
+      "loss_scenario": "A vulnerability across deployed products requiring firmware updates to equipment in customer facilities, with unpatched units remaining exposed and the manufacturer named for products left insecure.",
+      "rhetorical_question": "How do deployed products receive firmware updates, and who applies them?"
+    }
+  ]
+}

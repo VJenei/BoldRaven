@@ -1,0 +1,31 @@
+{
+  "naics_code": "519290",
+  "naics_title": "Web Search Portals and All Other Information Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Aggregated information about people is the product and the liability.",
+      "why_this_business": "Businesses in this category compile, index, and provide access to information including personal data drawn from many sources. Individuals in those datasets have no relationship with the business, and state privacy laws increasingly impose registration, access, and deletion obligations on data brokers.",
+      "loss_scenario": "A breach exposes aggregated profiles far more revealing than any single source, affecting people who never chose to be included, with regulatory attention to this sector increasing at state and federal level.",
+      "rhetorical_question": "How many individuals are represented in the datasets you hold or index?"
+    },
+    {
+      "rank": 2,
+      "headline": "Availability is the entire service and users leave immediately.",
+      "why_this_business": "Information services are used at the moment of need, and a user who cannot get an answer goes to an alternative within seconds. There is no queue and no rescheduling. Advertising and subscription revenue both depend on continuous availability.",
+      "loss_scenario": "Traffic and revenue loss during the outage plus lasting user attrition, since users who successfully substitute another service frequently do not return.",
+      "rhetorical_question": "Where do your users go in the first minute that your service is unavailable?"
+    },
+    {
+      "rank": 3,
+      "headline": "Data licensing and source agreements govern what you may publish.",
+      "why_this_business": "Information services license data from providers under agreements restricting use, redistribution, and retention. Those terms define what can lawfully be shown and for how long, and licensors audit compliance.",
+      "loss_scenario": "Breach of source licensing terms leads to termination of the data supply, which for an information service removes the product itself rather than merely a feature.",
+      "rhetorical_question": "How much of your content is licensed from third parties under restricted terms?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "424690",
+  "naics_title": "Other Chemical and Allied Products Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Chemical distribution is a regulated activity with layered federal duties.",
+      "why_this_business": "Distributors handle products subject to TSCA reporting, DOT hazardous materials shipping rules with trained and certified staff, EPA risk management planning for threshold quantities, and safety data sheet distribution obligations. Each carries recordkeeping and reporting requirements.",
+      "loss_scenario": "Hazmat shipping violations assessed per shipment, TSCA and RMP findings, and inability to supply safety data sheets that customers are legally required to hold for products in their workplace.",
+      "rhetorical_question": "Which federal chemical regulations apply to your products, and where are those records held?"
+    },
+    {
+      "rank": 2,
+      "headline": "Customer and product data reveals what is stored where.",
+      "why_this_business": "Inventory and shipment records show quantities and locations of hazardous and potentially dual-use chemicals. That information is of interest to more than ordinary criminals, and chemical facility security has been a persistent federal concern for exactly this reason.",
+      "loss_scenario": "Exposure of chemical inventory and delivery schedules creates a security exposure at your sites and your customers' sites that cannot be remediated by restoring a backup.",
+      "rhetorical_question": "Do your systems record quantities and locations of regulated or hazardous chemicals?"
+    },
+    {
+      "rank": 3,
+      "headline": "Blending and repackaging create product you are responsible for.",
+      "why_this_business": "Distributors that blend, dilute, or repackage become the manufacturer for labelling and liability purposes, with batch records, formulation data, and label content held in the system. Formulations are also trade secrets belonging to you or your principals.",
+      "loss_scenario": "Product liability for a mislabelled or misformulated batch that cannot be reconstructed from batch records, plus loss of formulation trade secrets to competitors.",
+      "rhetorical_question": "Do you blend or repackage product under your own label?"
+    }
+  ]
+}

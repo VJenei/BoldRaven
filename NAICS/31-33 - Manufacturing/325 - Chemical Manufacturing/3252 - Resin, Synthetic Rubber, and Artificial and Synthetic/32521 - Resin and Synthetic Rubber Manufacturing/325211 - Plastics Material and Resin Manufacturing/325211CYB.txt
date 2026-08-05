@@ -1,0 +1,31 @@
+{
+  "naics_code": "325211",
+  "naics_title": "Plastics Material and Resin Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Polymerisation is continuous and reactive.",
+      "why_this_business": "Polymer production runs continuous or semi-batch polymerisation with heat removal, pressure, and catalyst control determining both product properties and reactor safety. Runaway polymerisation produces over-pressure and release.",
+      "loss_scenario": "Reactor incident with fire, explosion, or release, and even without an incident, off-specification polymer produced continuously that cannot be sold into applications requiring the specification.",
+      "rhetorical_question": "How is reactor temperature and pressure control interlocked?"
+    },
+    {
+      "rank": 2,
+      "headline": "Resin grade specifications determine downstream processability.",
+      "why_this_business": "Resin is produced to melt flow, density, and additive specifications that determine how it processes in customers' moulding and extrusion equipment. Converters set machines to those parameters.",
+      "loss_scenario": "Off-specification resin causing processing problems and defective parts at converters, with their machine time, scrap, and finished part losses claimed against the resin producer.",
+      "rhetorical_question": "How are resin grade properties verified and recorded per production lot?"
+    },
+    {
+      "rank": 3,
+      "headline": "Converters run continuously with days of silo capacity.",
+      "why_this_business": "Resin is delivered by railcar and bulk truck into converter silos holding days of supply. Injection moulders and extruders run continuously and cannot substitute an unqualified grade.",
+      "loss_scenario": "Converters running out of qualified resin and stopping production, with their customers' supply affected downstream and claims reflecting their lost production.",
+      "rhetorical_question": "How many days of resin do your converting customers hold in silo?"
+    }
+  ]
+}

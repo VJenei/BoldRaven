@@ -1,0 +1,31 @@
+{
+  "naics_code": "445292",
+  "naics_title": "Confectionery and Nut Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Nut allergens carry the most severe consumer consequences.",
+      "why_this_business": "Confectionery and nut retailers handle tree nuts, peanuts, milk, soy, and sesame, frequently with bulk bins and shared scoops that create cross-contact. Ingredient records and labelling for repackaged bulk product are the retailer's responsibility.",
+      "loss_scenario": "An anaphylactic reaction traced to cross-contact or mislabelled bulk product, where the retailer cannot document ingredient sourcing or handling controls.",
+      "rhetorical_question": "Do you repackage bulk product, and how are ingredients and allergens documented?"
+    },
+    {
+      "rank": 2,
+      "headline": "Four holidays drive the majority of annual sales.",
+      "why_this_business": "Valentine's Day, Easter, Halloween, and Christmas concentrate confectionery demand, with inventory bought months ahead and corporate gift orders taken in the autumn. Seasonal product has no value after its date.",
+      "loss_scenario": "A systems failure in the weeks before a holiday costs a disproportionate share of the year, and seasonal inventory that misses its window is written off entirely.",
+      "rhetorical_question": "What share of your annual revenue occurs in your four peak holiday weeks?"
+    },
+    {
+      "rank": 3,
+      "headline": "Corporate gift programmes hold recipient lists and payment data.",
+      "why_this_business": "Retailers in this category run corporate gifting with recipient name and address lists, shipping schedules, and stored payment details for repeat corporate customers. Those lists are personal data belonging to third parties who never dealt with you.",
+      "loss_scenario": "A breach exposing corporate clients' customer and employee address lists, which is a third-party data exposure the corporate client will hold you responsible for.",
+      "rhetorical_question": "Do you hold recipient address lists for corporate gift programmes?"
+    }
+  ]
+}

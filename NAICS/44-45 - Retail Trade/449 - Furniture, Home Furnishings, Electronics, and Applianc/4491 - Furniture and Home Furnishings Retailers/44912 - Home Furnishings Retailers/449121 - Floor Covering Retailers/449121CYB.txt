@@ -1,0 +1,31 @@
+{
+  "naics_code": "449121",
+  "naics_title": "Floor Covering Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Material is ordered by dye lot and cannot be topped up later.",
+      "why_this_business": "Carpet, tile, and wood vary by dye lot and production run, and material for a job is ordered together against a measurement. Additional material ordered later commonly does not match. Measurement records, lot numbers, and order details define what was bought.",
+      "loss_scenario": "Shade variation across a floor is rejected by the customer and the entire area is replaced at the retailer's cost, including the labour to remove work already installed.",
+      "rhetorical_question": "How do you record dye lot and run information against a customer's order?"
+    },
+    {
+      "rank": 2,
+      "headline": "Measurements drive material quantity and installation labour.",
+      "why_this_business": "Jobs are quoted from field measurements converted to material take-offs with seam layouts and waste allowances. A wrong take-off either short-ships the job or buys unusable excess, and non-returnable cut goods make both expensive.",
+      "loss_scenario": "Short-shipped material stops installers mid-job and the second lot may not match, while over-ordered cut goods are unreturnable and written off against the job margin.",
+      "rhetorical_question": "How are field measurements captured and converted into material orders?"
+    },
+    {
+      "rank": 3,
+      "headline": "Installation is subcontracted and creates liability you carry.",
+      "why_this_business": "Most retailers install through subcontracted crews, tracked for insurance certificates, licensing, and workers compensation coverage. The retailer contracts with the customer and carries the liability for the crew's work and conduct inside the home.",
+      "loss_scenario": "An injury or property damage claim from an installer where the certificate of insurance cannot be produced, which shifts the uninsured exposure onto the retailer's policy.",
+      "rhetorical_question": "How do you track certificates of insurance for your installation crews?"
+    }
+  ]
+}

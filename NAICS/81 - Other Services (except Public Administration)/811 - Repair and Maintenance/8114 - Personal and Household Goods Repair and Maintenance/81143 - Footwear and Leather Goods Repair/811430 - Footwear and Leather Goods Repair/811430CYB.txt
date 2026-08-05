@@ -1,0 +1,31 @@
+{
+  "naics_code": "811430",
+  "naics_title": "Footwear and Leather Goods Repair",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Customer property is held and must be matched to owners.",
+      "why_this_business": "Repair operations take in footwear and leather goods, tag them, and hold them for days or weeks. Items include high value handbags and boots, and intake records are the only link between the item and its owner.",
+      "loss_scenario": "Items that cannot be matched to owners, with claims for high value goods and no record of what was received or what work was agreed.",
+      "rhetorical_question": "How do you match items in your workshop to their owners?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ticketing and payment systems run the counter.",
+      "why_this_business": "Intake, pricing, ready notification, and payment run through a point of sale and job tracking system, with customers collecting on notification. Card payment brings PCI obligations regardless of size.",
+      "loss_scenario": "Inability to take in work, notify customers, or take payment, plus card liability assigned to the merchant by the processing agreement at amounts a single-location business cannot absorb.",
+      "rhetorical_question": "How would you notify customers their items are ready without your system?"
+    },
+    {
+      "rank": 3,
+      "headline": "High value repairs create disproportionate exposure.",
+      "why_this_business": "Repairs on designer handbags and premium footwear involve items worth thousands, held on premises and worked on with irreversible processes such as dyeing and resoling.",
+      "loss_scenario": "Damage or loss of a high value item where the intake record and agreed work cannot be produced, with the claim based on the customer's stated value.",
+      "rhetorical_question": "What is the highest value item currently in your workshop?"
+    }
+  ]
+}

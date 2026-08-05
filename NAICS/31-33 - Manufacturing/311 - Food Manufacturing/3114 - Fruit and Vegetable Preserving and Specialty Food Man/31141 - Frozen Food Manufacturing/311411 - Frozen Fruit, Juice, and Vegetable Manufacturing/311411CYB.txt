@@ -1,0 +1,31 @@
+{
+  "naics_code": "311411",
+  "naics_title": "Frozen Fruit, Juice, and Vegetable Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Frozen produce recalls have involved Listeria with fatalities.",
+      "why_this_business": "Frozen fruit and vegetable products have been the subject of multistate Listeria outbreaks with deaths, leading to very large recalls across many brands because the same processor supplied multiple private labels. Environmental monitoring and lot traceability determine the scope.",
+      "loss_scenario": "A Listeria recall covering every brand and product produced in a period, with wrongful death claims, FDA enforcement, and in serious cases criminal exposure for executives.",
+      "rhetorical_question": "How many customer brands are produced on the lines in your facility?"
+    },
+    {
+      "rank": 2,
+      "headline": "Freezing and cold storage must hold continuously.",
+      "why_this_business": "Individual quick freezing and frozen storage maintain product safety and quality, with temperature monitored continuously. Product that thaws and refreezes is a food safety and quality failure.",
+      "loss_scenario": "A freezing or cold storage control failure condemning inventory measured in millions of pounds, with disposal cost on top of the product loss.",
+      "rhetorical_question": "What is the value of frozen inventory in your storage right now?"
+    },
+    {
+      "rank": 3,
+      "headline": "Several of your inputs are on the Food Traceability List.",
+      "why_this_business": "Fresh produce entering the plant includes items on the FDA Food Traceability List, and manufacturers who transform them carry Key Data Element obligations under FSMA Section 204, with a compliance date of July 20, 2028 and 24-hour record production to FDA.",
+      "loss_scenario": "A traceback that cannot link finished product to incoming produce lots, expanding an investigation across all production and preventing any claim against the grower whose product caused it.",
+      "rhetorical_question": "Can you link a finished frozen lot back to the specific grower lots that went into it?"
+    }
+  ]
+}

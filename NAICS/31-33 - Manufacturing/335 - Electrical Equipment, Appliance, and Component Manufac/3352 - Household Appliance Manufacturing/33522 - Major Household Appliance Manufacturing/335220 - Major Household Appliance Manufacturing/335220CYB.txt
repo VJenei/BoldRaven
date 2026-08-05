@@ -1,0 +1,31 @@
+{
+  "naics_code": "335220",
+  "naics_title": "Major Household Appliance Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Appliance defects cause fires and floods in homes.",
+      "why_this_business": "Ranges, dryers, dishwashers, and washing machines heat, spin, and connect to water and gas in the home. Dryer and range fires and washer and dishwasher floods are established recall categories with very large populations.",
+      "loss_scenario": "A defect causing fires or floods, with a CPSC recall covering millions of units, property damage and injury claims, and civil penalties where the 24 hour reporting obligation was missed.",
+      "rhetorical_question": "Could you identify which serial number ranges contain a specific component?"
+    },
+    {
+      "rank": 2,
+      "headline": "Connected appliances are managed from your platform.",
+      "why_this_business": "Major appliances include connectivity, mobile applications, and remote diagnostics, with cloud platforms holding customer accounts and the ability to change appliance behaviour across the installed base.",
+      "loss_scenario": "Compromise of the connected appliance platform affecting operation of appliances in homes, in products that heat and connect to gas and water, requiring a firmware campaign to millions of units.",
+      "rhetorical_question": "What appliance functions can be changed through your connected platform?"
+    },
+    {
+      "rank": 3,
+      "headline": "Efficiency and refrigerant rules govern what can be sold.",
+      "why_this_business": "Appliances are subject to Department of Energy efficiency standards and, for refrigeration, refrigerant transition requirements under the AIM Act with dates by product type. Compliance is tracked by model and manufacture date.",
+      "loss_scenario": "Product manufactured or sold outside efficiency or refrigerant requirements, with DOE and EPA penalties and inventory that cannot lawfully be sold.",
+      "rhetorical_question": "How do you track efficiency and refrigerant compliance by model and date?"
+    }
+  ]
+}

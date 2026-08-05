@@ -1,0 +1,31 @@
+{
+  "naics_code": "524128",
+  "naics_title": "Other Direct Insurance (except Life, Health, and Medical) Carriers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialty carriers hold underwriting data that reveals client vulnerabilities.",
+      "why_this_business": "Specialty lines underwriting collects detailed information about insured operations, security arrangements, loss history, and known exposures. For cyber, crime, and kidnap and ransom lines, that file describes exactly where the insured is weak.",
+      "loss_scenario": "Exposure of underwriting files hands attackers a directory of insured organisations, their vulnerabilities, and their coverage limits, which has been observed as a targeting method against insureds.",
+      "rhetorical_question": "Do your underwriting files describe your insureds' security controls and coverage limits?"
+    },
+    {
+      "rank": 2,
+      "headline": "State insurance data security laws apply across every licensed state.",
+      "why_this_business": "Insurance data security laws require a written information security programme, risk assessment, third-party oversight, and notification of cybersecurity events to the commissioner, typically within 72 hours. Carriers licensed in many states face parallel obligations.",
+      "loss_scenario": "Simultaneous notification obligations across multiple states with differing requirements, followed by examination and potential restrictions on the licence.",
+      "rhetorical_question": "How many state licences do you hold, and how would you notify them all within 72 hours?"
+    },
+    {
+      "rank": 3,
+      "headline": "Policy administration failure means coverage cannot be confirmed.",
+      "why_this_business": "Policy issuance, endorsement, and certificate production run through administration systems that insureds and their counterparties rely on to prove coverage exists. Contracts, licences, and closings frequently require evidence of insurance on demand.",
+      "loss_scenario": "Insureds unable to obtain certificates or confirm coverage, blocking their own transactions and contracts, with claims against the carrier for the resulting commercial losses.",
+      "rhetorical_question": "How would an insured obtain a certificate of insurance if your systems were unavailable?"
+    }
+  ]
+}

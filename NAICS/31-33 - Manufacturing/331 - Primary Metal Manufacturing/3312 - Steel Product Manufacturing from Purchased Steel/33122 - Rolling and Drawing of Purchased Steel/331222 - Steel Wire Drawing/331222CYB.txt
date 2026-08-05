@@ -1,0 +1,31 @@
+{
+  "naics_code": "331222",
+  "naics_title": "Steel Wire Drawing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Wire is used in applications where failure is catastrophic.",
+      "why_this_business": "Drawn wire is used in prestressing strand, wire rope, springs, and reinforcement with tensile properties determined by drawing and heat treatment. Prestressing strand failure in a structure and wire rope failure in lifting are both catastrophic.",
+      "loss_scenario": "Wire below specification in prestressing or lifting applications, with structural failure or dropped loads causing fatalities, and traceability determining which production is affected.",
+      "rhetorical_question": "Is your wire used in prestressing, lifting, or other load-bearing applications?"
+    },
+    {
+      "rank": 2,
+      "headline": "Drawing and heat treatment determine mechanical properties.",
+      "why_this_business": "Wire properties are developed through controlled reduction and heat treatment, with tensile strength and ductility tested against specification. Process deviations produce wire that meets dimensional requirements but not mechanical ones.",
+      "loss_scenario": "Wire with correct dimensions but inadequate strength shipped and incorporated into products, where the deficiency is invisible until the wire fails under load.",
+      "rhetorical_question": "How are drawing and heat treatment parameters recorded against production coils?"
+    },
+    {
+      "rank": 3,
+      "headline": "Traceability supports customer certification requirements.",
+      "why_this_business": "Customers in construction, automotive, and industrial applications require certification tying wire to rod heat and process records. Certification is a condition of use in code applications.",
+      "loss_scenario": "Material that cannot be certified is unusable in code applications, and where already incorporated into structures or products, may require replacement.",
+      "rhetorical_question": "How is rod heat traceability maintained through drawing to finished coils?"
+    }
+  ]
+}

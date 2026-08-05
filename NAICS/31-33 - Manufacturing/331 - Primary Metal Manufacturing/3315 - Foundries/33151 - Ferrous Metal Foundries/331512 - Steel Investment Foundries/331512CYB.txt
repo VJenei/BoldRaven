@@ -1,0 +1,31 @@
+{
+  "naics_code": "331512",
+  "naics_title": "Steel Investment Foundries",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Investment castings go into aerospace and medical applications.",
+      "why_this_business": "Investment casting produces precision components for aerospace turbines, medical implants, and critical industrial applications, qualified under aerospace and medical quality standards with full traceability and process control.",
+      "loss_scenario": "Non-conforming castings in turbine or implant applications, requiring identification of every part from the affected production, which in aerospace means grounding aircraft and in medical means patients with implanted devices.",
+      "rhetorical_question": "Are your castings used in aerospace turbines or medical implants?"
+    },
+    {
+      "rank": 2,
+      "headline": "Process parameters through shell building and pouring are qualified.",
+      "why_this_business": "Investment casting involves wax pattern production, shell building, dewaxing, and pouring, each with qualified parameters. Aerospace customers approve the process and any change requires requalification.",
+      "loss_scenario": "Loss of qualified process parameters requiring requalification with aerospace and medical customers, a process taking months during which the parts cannot be supplied.",
+      "rhetorical_question": "How long does aerospace requalification of a casting process take?"
+    },
+    {
+      "rank": 3,
+      "headline": "Traceability and quality records are audited continuously.",
+      "why_this_business": "Aerospace and medical quality standards require traceability from raw material through every process step, with records retained and audited. Nadcap and equivalent accreditations depend on demonstrable process control.",
+      "loss_scenario": "Loss of accreditation where records cannot be produced, which removes eligibility to supply aerospace customers entirely and takes years to regain.",
+      "rhetorical_question": "Which quality accreditations does your foundry hold, and what records support them?"
+    }
+  ]
+}

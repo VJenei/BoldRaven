@@ -1,0 +1,31 @@
+{
+  "naics_code": "311813",
+  "naics_title": "Frozen Cakes, Pies, and Other Pastries Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Frozen storage failure condemns high value finished goods.",
+      "why_this_business": "Finished frozen bakery product is held in freezer storage and distributed frozen, with temperature monitored continuously. Product that thaws cannot be refrozen and sold, and finished bakery goods carry substantial value per pallet.",
+      "loss_scenario": "A freezer control or monitoring failure condemning finished inventory, with the loss falling on completed product rather than raw materials and disposal costs on top.",
+      "rhetorical_question": "What is the value of finished goods in your freezer right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Allergen control spans a wide ingredient range.",
+      "why_this_business": "Bakery products combine wheat, milk, egg, soy, tree nuts, peanuts, and sesame across shared production and packaging lines, with allergen control depending on scheduling, cleaning, and label accuracy.",
+      "loss_scenario": "An allergen recall with anaphylaxis exposure and a scope determined by whether production and distribution records can identify affected lots across foodservice and retail customers.",
+      "rhetorical_question": "How many major allergens are handled across your production lines?"
+    },
+    {
+      "rank": 3,
+      "headline": "Seasonal demand concentrates into holiday periods.",
+      "why_this_business": "Frozen dessert and pastry demand concentrates heavily around holidays, with production running months ahead and retailers placing orders for delivery into narrow windows before the holiday.",
+      "loss_scenario": "Missed holiday delivery windows leaving product that has no market after the date, with production cost sunk and retail shelf space lost for the season.",
+      "rhetorical_question": "What share of your annual volume ships into holiday windows?"
+    }
+  ]
+}

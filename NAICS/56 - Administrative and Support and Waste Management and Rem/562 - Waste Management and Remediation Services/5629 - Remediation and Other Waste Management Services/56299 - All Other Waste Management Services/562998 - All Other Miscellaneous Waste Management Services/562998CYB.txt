@@ -1,0 +1,31 @@
+{
+  "naics_code": "562998",
+  "naics_title": "All Other Miscellaneous Waste Management Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Waste services carry regulatory documentation obligations regardless of stream.",
+      "why_this_business": "Firms in this category handle waste streams with tracking, permitting, and disposal documentation requirements under federal and state rules. Generators remain liable for their waste and depend on your records to demonstrate proper handling.",
+      "loss_scenario": "Regulatory enforcement for records that cannot be produced, and generator customers unable to close out their own cradle to grave obligations, with claims flowing back to the service provider.",
+      "rhetorical_question": "What disposal documentation are your customers relying on you to maintain?"
+    },
+    {
+      "rank": 2,
+      "headline": "Service interruption leaves waste accumulating at customer sites.",
+      "why_this_business": "Customers have limited on-site storage and, for regulated waste, legal accumulation time limits. Waste continues to be generated whether or not collection occurs, and exceeding accumulation limits converts a generator into an unpermitted storage facility.",
+      "loss_scenario": "Customers in violation because collection did not occur, with enforcement exposure they will attribute to the service provider and contracts terminated in response.",
+      "rhetorical_question": "How long can your customers accumulate waste before they are in violation?"
+    },
+    {
+      "rank": 3,
+      "headline": "Site and waste stream data reveals customer operations.",
+      "why_this_business": "Waste profiles and service records identify what materials each customer generates, in what quantities, and how their processes operate. For industrial customers that is process intelligence they treat as confidential.",
+      "loss_scenario": "Disclosure of customer waste profiles reveals production processes and volumes to competitors, and identifies hazardous material locations and movement schedules.",
+      "rhetorical_question": "Do your waste profiles reveal your customers' production processes or volumes?"
+    }
+  ]
+}

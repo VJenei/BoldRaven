@@ -1,0 +1,31 @@
+{
+  "naics_code": "518210",
+  "naics_title": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your customers' entire operations sit on your infrastructure.",
+      "why_this_business": "Hosting and infrastructure providers run the systems their customers depend on completely. A ransomware attack on Rackspace in December 2022 took down hosted Exchange environments for thousands of customers, with some losing access to years of email and the provider ultimately discontinuing the service.",
+      "loss_scenario": "Every customer is down simultaneously with no ability to help themselves. Contractual service credits are the smallest part of the exposure, since customers claim for their own business interruption and data loss, and class litigation follows.",
+      "rhetorical_question": "How many customers would be unable to operate at all if your platform failed?"
+    },
+    {
+      "rank": 2,
+      "headline": "You hold your customers' data and their regulatory obligations flow to you.",
+      "why_this_business": "Hosted data frequently includes protected health information under HIPAA business associate agreements, cardholder data under PCI, financial records, and personal data subject to state privacy laws. Customers contractually pass those obligations to the provider.",
+      "loss_scenario": "A single breach triggers HIPAA notification, PCI liability, and state privacy obligations across many customers at once, with each customer holding a separate contractual claim.",
+      "rhetorical_question": "How many business associate agreements or data processing agreements have you signed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Provider credentials reach every customer environment.",
+      "why_this_business": "Administrative access, management agents, and support tooling reach into every hosted environment by design. That access is what makes managed hosting work, and it is also a single set of credentials that unlocks the entire customer base.",
+      "loss_scenario": "A compromise of provider administrative access propagates to every customer environment simultaneously, which is the specific pattern that has produced the largest managed service provider incidents.",
+      "rhetorical_question": "How is administrative access to customer environments authenticated and monitored?"
+    }
+  ]
+}

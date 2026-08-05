@@ -1,0 +1,31 @@
+{
+  "naics_code": "512120",
+  "naics_title": "Motion Picture and Video Distribution",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Distribution holds finished content before anyone else can see it.",
+      "why_this_business": "Distributors hold masters, screeners, trailers, and marketing assets ahead of release, and distribute them to exhibitors, broadcasters, and platforms under strict security terms. Screeners sent for awards and press consideration are a documented leak path.",
+      "loss_scenario": "A pre-release leak collapses opening performance and triggers contractual liability to the rights holder, whose remedy is measured against the full commercial value of the title.",
+      "rhetorical_question": "How are screeners and pre-release assets distributed and tracked?"
+    },
+    {
+      "rank": 2,
+      "headline": "Release windows and territory rights are contractual to the day.",
+      "why_this_business": "Distribution rights are licensed by territory, window, and platform with exact start and end dates. Delivering early or late, or into the wrong territory, breaches the licence. Rights data, avails, and delivery schedules live in rights management systems.",
+      "loss_scenario": "A rights breach exposes the distributor to claims from both the licensor and competing licensees in adjacent territories, and rights management errors can be difficult to unwind once content is live.",
+      "rhetorical_question": "How many territory and window combinations do your rights records track?"
+    },
+    {
+      "rank": 3,
+      "headline": "Delivery to platforms is technical, specified, and deadline-bound.",
+      "why_this_business": "Content is delivered to streaming platforms and broadcasters against detailed technical specifications, metadata requirements, and localisation assets, with hard delivery dates ahead of a scheduled release. Platforms reject non-conforming deliveries.",
+      "loss_scenario": "Missed platform delivery dates mean the title does not appear at its announced release, with marketing spend already committed and the platform's promotional slot lost.",
+      "rhetorical_question": "How far ahead of release must you deliver assets to a streaming platform?"
+    }
+  ]
+}

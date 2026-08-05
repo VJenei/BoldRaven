@@ -1,0 +1,31 @@
+{
+  "naics_code": "311314",
+  "naics_title": "Cane Sugar Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Cane must be processed within days of cutting.",
+      "why_this_business": "Sucrose inverts rapidly after harvest, so cane is delivered continuously during the grinding season and must be processed within roughly one to two days. Mills coordinate grower delivery quotas electronically against milling capacity.",
+      "loss_scenario": "Cut cane that cannot be milled is a near-total loss on that tonnage within days, with growers unable to deliver and the mill unable to accept, and no storage option for either party.",
+      "rhetorical_question": "How quickly must cane be milled after cutting?"
+    },
+    {
+      "rank": 2,
+      "headline": "Grower payment is calculated from mill laboratory analysis.",
+      "why_this_business": "Growers are paid on recoverable sugar per ton determined by core sampling and mill laboratory analysis, with the mill's data being the only measurement. Payment disputes are resolved from those records.",
+      "loss_scenario": "Unresolvable grower payments across a grinding season, with the mill unable to substantiate the analysis on which every payment was based.",
+      "rhetorical_question": "How is recoverable sugar analysis recorded and tied to grower deliveries?"
+    },
+    {
+      "rank": 3,
+      "headline": "The mill runs continuously with cogeneration and process control.",
+      "why_this_business": "Milling, clarification, evaporation, and crystallisation run continuously, frequently with bagasse-fired cogeneration supplying steam and power to the mill and sometimes to the grid. The energy system and process are integrated.",
+      "loss_scenario": "Mill shutdown with cane arriving and deteriorating, plus loss of cogeneration output where power is sold to the grid under an agreement with availability obligations.",
+      "rhetorical_question": "Does your mill export power to the grid under a supply agreement?"
+    }
+  ]
+}

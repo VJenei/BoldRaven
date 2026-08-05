@@ -1,0 +1,31 @@
+{
+  "naics_code": "459910",
+  "naics_title": "Pet and Pet Supplies Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Grooming and veterinary services hold animal and owner records.",
+      "why_this_business": "Retailers offering grooming, training, boarding, or veterinary services hold owner contact details, payment methods on file, vaccination records, and behavioural and medical notes. Boarding and daycare mean holding customers' animals in your care.",
+      "loss_scenario": "A breach exposing owner details and stored payment methods, plus disputes over animal health and authorised treatment where service records cannot be produced. Injury or death of an animal in your care generates claims well beyond its purchase price.",
+      "rhetorical_question": "Do you offer grooming, boarding, or veterinary services with stored customer records?"
+    },
+    {
+      "rank": 2,
+      "headline": "Autoship subscriptions hold stored payment credentials at scale.",
+      "why_this_business": "Pet retail runs heavily on recurring food and supply subscriptions billed automatically to stored cards. Those credentials are held indefinitely for a large customer base under continuing PCI obligations.",
+      "loss_scenario": "Compromise of stored payment credentials across the subscription base, with card brand assessments and loss of the recurring revenue relationship the model depends on.",
+      "rhetorical_question": "How many customers have payment methods stored for recurring orders?"
+    },
+    {
+      "rank": 3,
+      "headline": "Live animals and prescription products carry regulatory duties.",
+      "why_this_business": "Retailers selling live animals face state and USDA requirements on sourcing, health certificates, and record retention, and those selling prescription pet medications must verify veterinary authorisation. Salmonella and zoonotic disease traceback runs on acquisition records.",
+      "loss_scenario": "Regulatory action where sourcing and health records cannot be produced during a disease traceback, plus liability where an animal transmitted infection to a customer.",
+      "rhetorical_question": "Do you sell live animals or prescription medications requiring documented authorisation?"
+    }
+  ]
+}

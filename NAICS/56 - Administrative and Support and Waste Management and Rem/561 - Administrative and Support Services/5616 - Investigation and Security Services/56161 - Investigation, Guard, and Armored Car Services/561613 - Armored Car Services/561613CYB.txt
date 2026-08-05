@@ -1,0 +1,31 @@
+{
+  "naics_code": "561613",
+  "naics_title": "Armored Car Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Route and schedule data is exactly what an armed robbery needs.",
+      "why_this_business": "Armoured transport systems hold routes, timings, crew assignments, vehicle locations, and the value and type of cargo carried. Insider-assisted robberies of cash in transit are a recognised pattern, and the planning information sits in dispatch and route systems.",
+      "loss_scenario": "An armed robbery informed by internal route and cargo data, which carries a risk of crew fatality alongside cash losses that can run into millions on a single vehicle.",
+      "rhetorical_question": "Who can see your live route, timing, and cargo value data?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cash processing and ATM servicing hold customer funds.",
+      "why_this_business": "Carriers operate cash vaults, process deposits, and replenish ATMs, holding customer funds in transit and in vault with reconciliation records establishing what was received and delivered. Bank customers rely on those records for their own reconciliation.",
+      "loss_scenario": "Unreconcilable cash positions across customers, where liability for differences falls on the carrier and the amounts are large because the whole business is moving other people's money.",
+      "rhetorical_question": "What value of customer funds is in your vaults and vehicles at any moment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Crew vetting and licensing are regulatory and insurance requirements.",
+      "why_this_business": "Armed crews require licensing, firearms permits, background screening, and ongoing suitability monitoring, with records demonstrating compliance to regulators, customers, and insurers. Insider involvement in losses makes vetting records central.",
+      "loss_scenario": "Regulatory and customer contract exposure where vetting records cannot be produced, and after an insider-assisted loss, an inability to demonstrate screening is devastating to both the claim and the customer relationship.",
+      "rhetorical_question": "How are crew screening and firearms licensing records maintained?"
+    }
+  ]
+}

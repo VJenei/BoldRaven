@@ -1,0 +1,31 @@
+{
+  "naics_code": "326220",
+  "naics_title": "Rubber and Plastics Hoses and Belting Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Hose and belt failures cause injuries and equipment damage.",
+      "why_this_business": "Hydraulic hose, industrial belting, and pressure hose carry rated working pressures with failure producing high pressure fluid injection injuries, equipment damage, and in conveyor applications entrapment hazards.",
+      "loss_scenario": "Hose failure causing fluid injection injury, which requires surgery and frequently amputation, with the manufacturer's testing and production records determining whether the product met its rating.",
+      "rhetorical_question": "What working pressures are your hoses rated for, and how is that verified in production?"
+    },
+    {
+      "rank": 2,
+      "headline": "Continuous vulcanisation is parameter driven.",
+      "why_this_business": "Rubber products are vulcanised under controlled temperature, pressure, and time, with cure state determining strength and durability. Undercured product looks correct but fails prematurely in service.",
+      "loss_scenario": "Undercured product entering service and failing under pressure or load, with the defect latent until failure and affecting every unit from the production period.",
+      "rhetorical_question": "How are cure parameters recorded against production lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Compound formulations determine performance and resistance.",
+      "why_this_business": "Rubber compounds are formulated for temperature, chemical, and abrasion resistance specific to the application. Compound errors produce products that degrade rapidly in the environment they were sold for.",
+      "loss_scenario": "Compound errors causing premature failure in chemical or high temperature service, with equipment damage and downtime at customers claimed against the manufacturer.",
+      "rhetorical_question": "How are compound formulations controlled and verified before production?"
+    }
+  ]
+}

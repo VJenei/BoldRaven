@@ -1,0 +1,31 @@
+{
+  "naics_code": "335932",
+  "naics_title": "Noncurrent-Carrying Wiring Device Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Boxes and enclosures contain faults and prevent fires.",
+      "why_this_business": "Electrical boxes, enclosures, and fittings contain arcing and faults within the enclosure and maintain the fire rating of assemblies they penetrate. Failure allows a fault to ignite the surrounding construction.",
+      "loss_scenario": "Enclosures failing to contain a fault, with a building fire, and the listing and production records determining whether the product met the construction it was certified to.",
+      "rhetorical_question": "How are listing requirements controlled through your production process?"
+    },
+    {
+      "rank": 2,
+      "headline": "Environmental ratings determine where products can be installed.",
+      "why_this_business": "Enclosures carry ratings for wet, corrosive, and hazardous locations based on tested construction and sealing. Product installed on the strength of a rating it does not meet admits water or ignitable atmospheres.",
+      "loss_scenario": "Enclosures failing their rating in wet or hazardous locations, with electrical faults, fires, or in hazardous areas an ignition event, requiring replacement across every installation.",
+      "rhetorical_question": "What environmental and hazardous location ratings do your products carry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Volume production runs through distribution with no serialisation.",
+      "why_this_business": "Wiring devices ship in bulk through distributors and retailers with lot identification the only means of narrowing a recall to affected production.",
+      "loss_scenario": "A recall extended to all production because lots cannot be traced through distribution, with the cost multiplied across everything shipped in the period.",
+      "rhetorical_question": "How is lot identification maintained through packaging and distribution?"
+    }
+  ]
+}

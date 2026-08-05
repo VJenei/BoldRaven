@@ -1,0 +1,31 @@
+{
+  "naics_code": "926120",
+  "naics_title": "Regulation and Administration of Transportation Programs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Traffic and transit control systems operate in real time.",
+      "why_this_business": "Transportation agencies operate traffic signal systems, variable message signs, tunnel and bridge controls, and traffic management centres. Signal control failures create gridlock and intersection safety hazards immediately.",
+      "loss_scenario": "Signal systems failing or displaying incorrect information across a network, creating collisions and gridlock, and message signs displaying unauthorised content which has occurred where sign controllers were left accessible.",
+      "rhetorical_question": "How is access to your traffic signal and message sign systems controlled?"
+    },
+    {
+      "rank": 2,
+      "headline": "Licensing and registration systems hold data on every driver.",
+      "why_this_business": "Motor vehicle agencies hold driver licence records, photographs, addresses, medical certifications, and vehicle registrations for the entire driving population, with federal Driver's Privacy Protection Act restrictions on disclosure.",
+      "loss_scenario": "Breach exposing driver records including photographs and addresses at population scale, with DPPA implications and identity document data that supports fraudulent licence creation.",
+      "rhetorical_question": "How many driver and vehicle records does your agency hold?"
+    },
+    {
+      "rank": 3,
+      "headline": "Toll and transit payment systems hold account and travel data.",
+      "why_this_business": "Electronic tolling and transit fare systems hold account holders' payment methods, vehicle information, and complete travel histories showing where and when each account travelled.",
+      "loss_scenario": "Exposure of travel histories linked to identified account holders, which is a surveillance-grade movement record, alongside stored payment data across a large account base.",
+      "rhetorical_question": "How long do you retain individual toll and transit travel records?"
+    }
+  ]
+}

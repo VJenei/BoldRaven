@@ -1,0 +1,31 @@
+{
+  "naics_code": "325180",
+  "naics_title": "Other Basic Inorganic Chemical Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Inorganic chemical processes involve acutely hazardous materials.",
+      "why_this_business": "Manufacturing chlorine, acids, and other basic inorganics involves acutely toxic and corrosive materials in continuous processes with safety systems preventing release. Chlorine in particular is toxic at low concentration and travels with the wind.",
+      "loss_scenario": "A toxic gas release requiring community evacuation and causing injury or death, which for chlorine and similar materials is a mass casualty exposure with regulatory and criminal consequences.",
+      "rhetorical_question": "What acutely hazardous materials are handled in quantity at your facility?"
+    },
+    {
+      "rank": 2,
+      "headline": "Risk management planning and process safety are federally required.",
+      "why_this_business": "Facilities with threshold quantities of regulated substances must have risk management plans and process safety management programmes, with hazard analysis, mechanical integrity, and emergency response documentation reviewed by EPA and OSHA.",
+      "loss_scenario": "Enforcement following an incident where process safety documentation is incomplete, with penalties, consent decrees, and criminal referral where knowing violations are found.",
+      "rhetorical_question": "Which regulated substances at your site trigger risk management planning?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customers depend on continuous chemical supply.",
+      "why_this_business": "Basic chemicals supply water treatment, manufacturing, and processing customers who consume continuously with limited storage. Water utilities in particular depend on chlorine and treatment chemicals with days of supply.",
+      "loss_scenario": "Water utilities and manufacturers without treatment chemicals, which for drinking water systems creates a public health situation within days.",
+      "rhetorical_question": "Do you supply water utilities or other customers with days of chemical storage?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "316210",
+  "naics_title": "Footwear Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Safety footwear carries certification and protection obligations.",
+      "why_this_business": "Protective footwear is certified to impact, compression, puncture, and electrical hazard standards with testing tied to constructions. Workers rely on that protection and employers specify certified footwear as required PPE.",
+      "loss_scenario": "Non-conforming safety footwear reaching workers, with injury where the protection failed and certification records determining whether the product met its claimed standard.",
+      "rhetorical_question": "Do you manufacture certified safety footwear, and how is testing tied to production?"
+    },
+    {
+      "rank": 2,
+      "headline": "Lasts, patterns, and tooling define every style.",
+      "why_this_business": "Footwear production depends on lasts, cutting dies, moulds, and digital patterns specific to each style and size. Tooling represents substantial investment and digital pattern data drives cutting and assembly.",
+      "loss_scenario": "Loss of pattern and grading data requiring redevelopment across the size range for every style, with production stopped and tooling that may no longer match the available data.",
+      "rhetorical_question": "How many styles and size grades are defined in your pattern systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Brand customers hold you to delivery and compliance standards.",
+      "why_this_business": "Footwear manufacturers produce for brands with delivery dates tied to retail launches, social compliance audits, and materials restrictions covering restricted substances in adhesives and finishes.",
+      "loss_scenario": "Missed launch dates and failed compliance audits, either of which removes the brand relationship, plus restricted substance findings requiring product destruction.",
+      "rhetorical_question": "What restricted substances lists do your brand customers impose?"
+    }
+  ]
+}

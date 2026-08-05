@@ -1,0 +1,31 @@
+{
+  "naics_code": "524127",
+  "naics_title": "Direct Title Insurance Carriers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Title and settlement is the epicentre of real estate wire fraud.",
+      "why_this_business": "Title companies hold escrow funds and issue wiring instructions to buyers, sellers, and lenders at closing. Criminals compromise email at the title company, the agent, or the buyer and substitute wiring instructions. Federal agencies have issued repeated warnings identifying this as one of the highest-loss fraud categories.",
+      "loss_scenario": "Escrow funds diverted at closing, commonly $100,000 to several million per transaction, with the title company facing claims from the buyer, seller, and lender and the escrow shortfall preventing the closing entirely.",
+      "rhetorical_question": "How are wiring instructions communicated to buyers, and how are changes verified?"
+    },
+    {
+      "rank": 2,
+      "headline": "One carrier's exposure of title documents affected hundreds of millions of records.",
+      "why_this_business": "First American Financial disclosed in 2019 that a document sharing flaw exposed hundreds of millions of title and escrow records including bank account numbers, Social Security numbers, and mortgage documents, resulting in SEC and state regulatory action. Title files are among the most complete financial records that exist.",
+      "loss_scenario": "Regulatory action from state financial regulators and the SEC over disclosure, plus notification across a population whose files support complete identity and account takeover.",
+      "rhetorical_question": "How are closing documents shared with parties to a transaction, and who can access them?"
+    },
+    {
+      "rank": 3,
+      "headline": "Escrow accounts hold other people's money in large amounts.",
+      "why_this_business": "Title and settlement operations hold escrow and trust funds for pending transactions, subject to state regulation, reconciliation requirements, and audit. Balances fluctuate with closing volume and can be very large at any moment.",
+      "loss_scenario": "Escrow shortfalls create immediate regulatory intervention and licence exposure, and the funds belong to consumers and lenders who must be made whole regardless of how the loss occurred.",
+      "rhetorical_question": "What is the typical balance in your escrow accounts, and how often is it reconciled?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "441110",
+  "naics_title": "New Car Dealers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "A single attack on a dealer software vendor shut down roughly 15,000 dealerships.",
+      "why_this_business": "In June 2024 ransomware against CDK Global, the dominant dealer management system provider, took down sales, service, parts, finance, and payroll functions across approximately 15,000 North American dealerships for about three weeks. Dealers reverted to paper and many could not deliver vehicles or process repair orders at all. The Anderson Economic Group estimated direct losses to dealers of roughly $1 billion.",
+      "loss_scenario": "A dealership cannot sell, service, or bill without its DMS. Three weeks of degraded operation at a mid-size store is several hundred thousand dollars of gross profit, and the vendor's insurance does not cover your loss.",
+      "rhetorical_question": "Which dealer management system do you run, and how long could the store operate without it?"
+    },
+    {
+      "rank": 2,
+      "headline": "Federal law treats your dealership as a financial institution.",
+      "why_this_business": "Because dealers arrange financing and leasing, they are financial institutions under the Gramm-Leach-Bliley Act and are subject to the FTC Safeguards Rule. Full compliance has been required since June 9, 2023, including a written information security programme, a designated qualified individual, multi-factor authentication, encryption of customer information, and a written incident response plan. Since May 2024 breaches affecting 500 or more consumers must be reported to the FTC.",
+      "loss_scenario": "FTC enforcement for a programme that cannot be evidenced, on top of the breach itself. This is a regulatory obligation most dealers do not realise they carry until an examiner or a plaintiff's lawyer raises it.",
+      "rhetorical_question": "Do you have a written information security programme and a designated qualified individual under the FTC Safeguards Rule?"
+    },
+    {
+      "rank": 3,
+      "headline": "Every credit application in your system is a complete identity.",
+      "why_this_business": "Deal jackets hold driver licence images, Social Security numbers, dates of birth, income, employment, bank details, and full credit reports for every customer and co-signer, retained for years. A dealership accumulates thousands of complete identities and pulls credit bureau data directly.",
+      "loss_scenario": "A breach of the customer file is a mass identity theft event with notification in every state of residence, class litigation, and credit bureau access agreements at risk.",
+      "rhetorical_question": "How many years of customer credit applications are stored in your system?"
+    }
+  ]
+}

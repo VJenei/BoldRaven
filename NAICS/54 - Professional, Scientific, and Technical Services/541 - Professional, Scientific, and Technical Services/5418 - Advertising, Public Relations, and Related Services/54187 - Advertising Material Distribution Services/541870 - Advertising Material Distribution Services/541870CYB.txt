@@ -1,0 +1,31 @@
+{
+  "naics_code": "541870",
+  "naics_title": "Advertising Material Distribution Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Distribution records are how delivery is proven and paid for.",
+      "why_this_business": "Distributors are paid for delivering material to defined routes, addresses, or locations, with proof of delivery captured by carrier reporting, geolocation, or photographs. Clients audit delivery before paying.",
+      "loss_scenario": "Unbillable distribution where delivery cannot be evidenced, and client disputes resolved against the distributor who cannot produce the record.",
+      "rhetorical_question": "How do you evidence that material was actually delivered to the contracted addresses?"
+    },
+    {
+      "rank": 2,
+      "headline": "Address and routing data is personal data at scale.",
+      "why_this_business": "Distribution operations hold address lists, routing files, and delivery records covering large populations, frequently combined with client targeting criteria that indicate why each household was selected.",
+      "loss_scenario": "Exposure of address lists combined with targeting criteria reveals information about the households selected, with notification obligations flowing through the client relationship.",
+      "rhetorical_question": "How many household addresses are held in your distribution files?"
+    },
+    {
+      "rank": 3,
+      "headline": "Campaigns are dated and the material has no later value.",
+      "why_this_business": "Advertising material carries offers, event dates, and seasonal relevance. Distribution windows are set by the client's campaign, and material delivered late is worthless.",
+      "loss_scenario": "Undelivered or late campaigns where the printed material is a total loss and the client claims the production and distribution cost.",
+      "rhetorical_question": "How much of your distribution is tied to dated offers or events?"
+    }
+  ]
+}

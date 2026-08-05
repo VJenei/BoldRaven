@@ -1,0 +1,31 @@
+{
+  "naics_code": "459310",
+  "naics_title": "Florists",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Two days a year carry a disproportionate share of revenue.",
+      "why_this_business": "Valentine's Day and Mother's Day concentrate enormous order volume into fixed dates that cannot move, with orders taken weeks ahead and delivery routed across a single day. Product is bought in for those dates specifically and has no value afterward.",
+      "loss_scenario": "A systems failure in the days before a major holiday destroys the two most important trading periods of the year, with perishable inventory already purchased and undeliverable orders already paid for.",
+      "rhetorical_question": "What share of your annual revenue moves on Valentine's Day and Mother's Day?"
+    },
+    {
+      "rank": 2,
+      "headline": "Wire service orders arrive from other florists and must be executed blind.",
+      "why_this_business": "Florists exchange orders through wire services, filling arrangements for customers they never speak to, with recipient names, addresses, delivery instructions, and card messages transmitted electronically. Settlement between florists runs through the service monthly.",
+      "loss_scenario": "Wire orders that cannot be received or filled damage relationships across the network and forfeit clearing house standing, and exposure of recipient data reveals home addresses and private messages.",
+      "rhetorical_question": "How many of your orders arrive through a wire service rather than directly?"
+    },
+    {
+      "rank": 3,
+      "headline": "You hold recipient addresses and private messages.",
+      "why_this_business": "Every order contains a recipient's name, home or workplace address, delivery timing, and a personal card message. Funeral, sympathy, and relationship context is often explicit. This is third-party personal data about people who never dealt with you.",
+      "loss_scenario": "A breach exposing recipient addresses, delivery schedules, and personal messages, which carries a privacy dimension well beyond the transaction value and touches people who never chose to give you their data.",
+      "rhetorical_question": "How many recipient addresses and card messages are stored in your order history?"
+    }
+  ]
+}

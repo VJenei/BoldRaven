@@ -1,0 +1,31 @@
+{
+  "naics_code": "333618",
+  "naics_title": "Other Engine Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Engines are emissions certified through their control software.",
+      "why_this_business": "Diesel and other engines are certified to EPA and CARB emissions standards, with aftertreatment and fuel control governed by engine calibration software. Enforcement against defeat devices and uncertified calibrations carries per-engine penalties.",
+      "loss_scenario": "Engines built or serviced with wrong or altered calibrations, which is an emissions violation with penalties calculated per engine, recall, and potentially a consent decree.",
+      "rhetorical_question": "How are certified engine calibrations controlled at build and in service?"
+    },
+    {
+      "rank": 2,
+      "headline": "Engine control software is updated in the field.",
+      "why_this_business": "Engine control units receive calibration updates through service tools and, increasingly, remote connections. The update path reaches engines in vehicles, generators, and equipment in operation.",
+      "loss_scenario": "Compromise of the calibration distribution path pushing incorrect software to engines in service, causing failures or emissions non-compliance across an installed fleet.",
+      "rhetorical_question": "How is engine calibration software authenticated before it reaches an engine?"
+    },
+    {
+      "rank": 3,
+      "headline": "Standby engines run critical facilities during outages.",
+      "why_this_business": "Engine equipment powers generators at hospitals, data centres, and emergency facilities, where the engine must start and carry load when normal power fails. Testing and maintenance records support that assurance.",
+      "loss_scenario": "Engines that fail to start or carry load during an outage at a critical facility, with the consequences of the facility losing power and the manufacturer's records examined.",
+      "rhetorical_question": "Do your engines power standby generation at critical facilities?"
+    }
+  ]
+}

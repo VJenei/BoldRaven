@@ -1,0 +1,31 @@
+{
+  "naics_code": "541513",
+  "naics_title": "Computer Facilities Management Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You operate the client's information systems entirely.",
+      "why_this_business": "Facilities management arrangements place the provider in operational control of a client's IT function, including infrastructure, applications, and data. The client has no independent capability to operate or recover those systems.",
+      "loss_scenario": "The client's entire operation stops and they have no internal function able to respond. Contractual service levels are the smallest part of the exposure compared with the client's business interruption claim.",
+      "rhetorical_question": "Does your client retain any internal capability to operate their systems without you?"
+    },
+    {
+      "rank": 2,
+      "headline": "You hold and process client data under their regulatory obligations.",
+      "why_this_business": "Operating a client's systems means holding whatever data those systems contain, including protected health information, cardholder data, and personal data subject to state privacy laws. Contracts pass those obligations to the provider.",
+      "loss_scenario": "A single breach triggering the client's obligations under multiple regimes at once, with the provider contractually responsible for notification and remediation costs across all of them.",
+      "rhetorical_question": "What regulated data categories sit inside the systems you operate?"
+    },
+    {
+      "rank": 3,
+      "headline": "Concentration means one incident affects every client you serve.",
+      "why_this_business": "Providers operate shared infrastructure, tooling, and staff across multiple client engagements. An incident in the shared layer reaches every client at once rather than being contained to one relationship.",
+      "loss_scenario": "Simultaneous outage and breach across the entire client base, with aggregated liability that can exceed the provider's own revenue by a wide margin.",
+      "rhetorical_question": "What infrastructure or tooling is shared across all of your client engagements?"
+    }
+  ]
+}

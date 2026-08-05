@@ -1,0 +1,31 @@
+{
+  "naics_code": "493190",
+  "naics_title": "Other Warehousing and Storage",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialised storage holds goods with specific handling requirements.",
+      "why_this_business": "This category includes document storage, hazardous material storage, and other specialised facilities where the stored items carry regulatory or confidentiality obligations. Document storage in particular holds clients' records including medical, legal, and financial files.",
+      "loss_scenario": "Exposure or loss of client records that are themselves regulated, which for medical and financial documents triggers the client's own breach obligations and a claim against the storage provider.",
+      "rhetorical_question": "What kind of records or materials do you store on behalf of clients?"
+    },
+    {
+      "rank": 2,
+      "headline": "Inventory location data is the only way stored items can be found.",
+      "why_this_business": "Storage operations track items by location, owner, and retention date, with retrieval requests fulfilled against that index. A facility holding hundreds of thousands of items has no manual method of locating a specific one.",
+      "loss_scenario": "Items that cannot be retrieved for clients who need them, including records required for litigation or regulatory response on deadlines that do not move.",
+      "rhetorical_question": "How quickly are you contractually required to retrieve a stored item?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retention and destruction schedules are contractual and legal obligations.",
+      "why_this_business": "Storage providers manage retention periods and certified destruction on behalf of clients, with destruction certificates provided as evidence. Both premature destruction and failure to destroy create liability.",
+      "loss_scenario": "Records destroyed early that were needed for litigation, or records retained past their required destruction date and then breached, with the client liable and looking to the provider.",
+      "rhetorical_question": "How do you track retention and destruction schedules for client materials?"
+    }
+  ]
+}

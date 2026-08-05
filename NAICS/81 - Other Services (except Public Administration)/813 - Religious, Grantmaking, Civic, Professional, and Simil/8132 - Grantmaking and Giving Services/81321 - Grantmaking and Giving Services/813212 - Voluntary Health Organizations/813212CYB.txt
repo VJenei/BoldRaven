@@ -1,0 +1,31 @@
+{
+  "naics_code": "813212",
+  "naics_title": "Voluntary Health Organizations",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Constituent records identify people with specific health conditions.",
+      "why_this_business": "Health charities hold records of patients, families, and caregivers who engaged because of a diagnosis, along with programme participation, support group attendance, and research registry enrolment. Membership itself discloses a health condition.",
+      "loss_scenario": "Exposure identifying individuals with a specific diagnosis, which is health information disclosure regardless of whether the organisation is a covered entity, causing employment, insurance, and personal harm.",
+      "rhetorical_question": "Does your constituent list identify people by health condition?"
+    },
+    {
+      "rank": 2,
+      "headline": "Patient registries hold clinical data for research.",
+      "why_this_business": "Many organisations operate patient registries collecting diagnosis, treatment, and outcome data from participants who consented for research purposes, sometimes including genetic information.",
+      "loss_scenario": "Exposure of registry data breaks the consent under which it was provided, harms participants, and ends recruitment for research programmes that depend entirely on patient trust.",
+      "rhetorical_question": "What did registry participants consent to regarding the protection of their data?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fundraising operations hold donor payment data at volume.",
+      "why_this_business": "Health charities run large donor programmes with recurring giving, event fundraising, and online donation processing, holding payment methods and giving histories for very large supporter bases.",
+      "loss_scenario": "Payment data exposure across a supporter base, with notification costs funded from charitable revenue and a giving decline that follows breaches at charities specifically.",
+      "rhetorical_question": "How many supporters have payment methods stored for recurring giving?"
+    }
+  ]
+}

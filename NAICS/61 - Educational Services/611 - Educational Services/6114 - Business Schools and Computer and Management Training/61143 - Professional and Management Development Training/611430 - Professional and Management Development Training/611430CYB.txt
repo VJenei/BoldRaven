@@ -1,0 +1,31 @@
+{
+  "naics_code": "611430",
+  "naics_title": "Professional and Management Development Training",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Client training content and participant data are confidential.",
+      "why_this_business": "Providers deliver training built around client-specific material including strategy, processes, and internal case studies, and hold participant lists, assessment results, and development feedback about named employees.",
+      "loss_scenario": "Disclosure of client internal material and individual employee assessments, with the client bearing employee relations consequences and holding the provider responsible under the engagement terms.",
+      "rhetorical_question": "Do you hold individual assessment or feedback data about client employees?"
+    },
+    {
+      "rank": 2,
+      "headline": "Delivery platforms carry the entire programme.",
+      "why_this_business": "Training is delivered through learning platforms, virtual classrooms, and content libraries, with cohorts scheduled around client business calendars. Programmes are frequently tied to client events, onboarding cycles, or compliance deadlines.",
+      "loss_scenario": "Cancelled sessions with cohorts assembled and client executives' time committed, and compliance training deadlines missed where the training was required by regulation.",
+      "rhetorical_question": "Are any of your programmes tied to client compliance deadlines?"
+    },
+    {
+      "rank": 3,
+      "headline": "Proprietary methodology and content is the product.",
+      "why_this_business": "Training firms develop proprietary frameworks, materials, and assessment instruments over years, licensed rather than sold and protected by copyright and confidentiality. Content is distributed to participants and facilitators.",
+      "loss_scenario": "Exfiltration of proprietary content allows competitors to replicate the programme, and once distributed there is no way to withdraw it from circulation.",
+      "rhetorical_question": "How is your proprietary training content protected when distributed to participants?"
+    }
+  ]
+}

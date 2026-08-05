@@ -1,0 +1,31 @@
+{
+  "naics_code": "621498",
+  "naics_title": "All Other Outpatient Care Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Outpatient centres hold clinical records under full HIPAA obligations.",
+      "why_this_business": "Centres in this category deliver clinical services and maintain patient records, diagnoses, and treatment documentation as covered entities, with security rule, risk analysis, and breach notification obligations regardless of size.",
+      "loss_scenario": "HIPAA notification across the patient population with OCR enforcement examining the risk analysis and safeguards, which smaller centres frequently cannot evidence.",
+      "rhetorical_question": "When was your last documented HIPAA security risk analysis?"
+    },
+    {
+      "rank": 2,
+      "headline": "Care delivery stops when clinical systems stop.",
+      "why_this_business": "Outpatient care depends on scheduling, clinical documentation, orders, and results reporting through connected systems. Patients arrive for appointments booked weeks ahead and treatment courses that cannot be interrupted.",
+      "loss_scenario": "Cancelled clinics with patients whose treatment courses are interrupted, and no ability to bill for care that cannot be documented.",
+      "rhetorical_question": "How many patients are scheduled at your centre in a typical week?"
+    },
+    {
+      "rank": 3,
+      "headline": "Payer documentation supports every claim years later.",
+      "why_this_business": "Claims require documented medical necessity, orders, and treatment records, audited by Medicare and commercial payers years after service with extrapolated findings applied across the claim population.",
+      "loss_scenario": "Extrapolated recoupment across thousands of claims where supporting documentation is unavailable, routinely exceeding the value of the claims actually reviewed.",
+      "rhetorical_question": "How many years of clinical documentation are you required to retain for audits?"
+    }
+  ]
+}

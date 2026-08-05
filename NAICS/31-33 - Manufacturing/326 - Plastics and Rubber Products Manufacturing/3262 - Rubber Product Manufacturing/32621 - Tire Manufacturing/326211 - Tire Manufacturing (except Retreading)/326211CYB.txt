@@ -1,0 +1,31 @@
+{
+  "naics_code": "326211",
+  "naics_title": "Tire Manufacturing (except Retreading)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Tire defects cause fatal crashes and enormous recalls.",
+      "why_this_business": "Tires are safety-critical products where tread separation and blowouts cause loss of control at speed. Tire recalls involving defects have covered millions of units, produced fatalities, and resulted in federal legislation on defect reporting.",
+      "loss_scenario": "A defect recall covering millions of tires with fatal crash litigation, NHTSA investigation, and reporting obligations under early warning requirements, at costs that have threatened the survival of manufacturers.",
+      "rhetorical_question": "Could you identify every tire produced during a specific period at a specific plant?"
+    },
+    {
+      "rank": 2,
+      "headline": "Federal law requires defect reporting and tire identification.",
+      "why_this_business": "Manufacturers must submit early warning data to NHTSA on claims and incidents, and every tire carries an identification number encoding plant and production week, used to define recall scope.",
+      "loss_scenario": "Recall scope that cannot be narrowed because production records are unavailable, expanding it across all production in a period, plus reporting failures which carry substantial civil penalties.",
+      "rhetorical_question": "How is tire identification data linked to production and material records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Curing and building processes are continuous and parameter-driven.",
+      "why_this_business": "Tire building and curing run to recipes controlling component placement, cure time, temperature, and pressure. Cure parameters determine the properties of the finished tire, and undercure produces latent defects.",
+      "loss_scenario": "Undercured tires shipped and in service, where the defect appears as separation after months of use, requiring recall of every tire from the affected curing period.",
+      "rhetorical_question": "How are cure parameters recorded and linked to individual tires?"
+    }
+  ]
+}

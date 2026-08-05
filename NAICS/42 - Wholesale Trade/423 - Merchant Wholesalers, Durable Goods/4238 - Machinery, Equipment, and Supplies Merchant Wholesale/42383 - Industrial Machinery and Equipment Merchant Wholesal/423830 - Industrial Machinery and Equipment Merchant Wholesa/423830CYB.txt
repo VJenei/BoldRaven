@@ -1,0 +1,31 @@
+{
+  "naics_code": "423830",
+  "naics_title": "Industrial Machinery and Equipment Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold customers' process and machine configuration data.",
+      "why_this_business": "Distributors specify, install, and support production machinery, holding line layouts, machine programmes, and configuration parameters for customer plants. That data describes how a manufacturer makes its product and is frequently the customer's most closely held know-how.",
+      "loss_scenario": "Third-party liability for disclosed process data, and loss of relationships where the customer's competitive position depends on the confidentiality of what you hold.",
+      "rhetorical_question": "Do you retain machine programmes or process parameters for customer installations?"
+    },
+    {
+      "rank": 2,
+      "headline": "Remote support access reaches customer production floors.",
+      "why_this_business": "Distributors and their manufacturers provide remote diagnostics and support into installed machinery, often through connections that bypass the customer's normal controls because they were set up for convenience during commissioning.",
+      "loss_scenario": "A compromise through remote support reaching customer production control systems, which stops manufacturing lines and creates liability far beyond the equipment value.",
+      "rhetorical_question": "How is your remote support access to customer machinery controlled and logged?"
+    },
+    {
+      "rank": 3,
+      "headline": "Capital equipment orders involve long lead times and staged payments.",
+      "why_this_business": "Machinery is ordered against progress payments, letters of credit, and long build schedules, frequently from overseas manufacturers. Payment milestones and shipping documents move by email between distributor, manufacturer, and customer.",
+      "loss_scenario": "A diverted progress payment on a capital order, commonly $200,000 to $2M, where the manufacturer has not been paid and will not release the equipment.",
+      "rhetorical_question": "What is the largest single payment you send to a manufacturer on a capital order?"
+    }
+  ]
+}

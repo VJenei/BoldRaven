@@ -1,0 +1,31 @@
+{
+  "naics_code": "711212",
+  "naics_title": "Racetracks",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pari-mutuel wagering systems have been manipulated from the inside.",
+      "why_this_business": "Wagering runs through totalisator systems that pool bets, calculate odds, and determine payouts. A 2002 fraud in which a totalisator company employee altered wagers after races were run led to criminal convictions and reshaped industry security practice. Wagering integrity is the entire basis of the business.",
+      "loss_scenario": "Manipulated wagers or payouts, with criminal investigation, racing commission action, and the loss of public confidence that pari-mutuel wagering depends on entirely.",
+      "rhetorical_question": "How is your wagering system access controlled and independently audited?"
+    },
+    {
+      "rank": 2,
+      "headline": "Racing regulation requires extensive records and testing.",
+      "why_this_business": "Racetracks operate under state racing commission licences with requirements covering licensing of participants, medication and drug testing records, race results, and wagering reporting. Integrity records are examined continuously.",
+      "loss_scenario": "Racing commission action where required records cannot be produced, with licence suspension stopping racing entirely and every associated business at the track with it.",
+      "rhetorical_question": "What records does your racing commission require you to produce on demand?"
+    },
+    {
+      "rank": 3,
+      "headline": "Account wagering holds customer funds and identity.",
+      "why_this_business": "Advance deposit wagering accounts hold customer funds, identity verification data, and wagering histories, subject to anti-money laundering obligations and state regulation. Account takeover results in direct theft of customer balances.",
+      "loss_scenario": "Customer account balances drained through takeover, with the track liable to restore funds and regulators examining identity verification and account security controls.",
+      "rhetorical_question": "How are customer wagering accounts authenticated before funds are withdrawn?"
+    }
+  ]
+}

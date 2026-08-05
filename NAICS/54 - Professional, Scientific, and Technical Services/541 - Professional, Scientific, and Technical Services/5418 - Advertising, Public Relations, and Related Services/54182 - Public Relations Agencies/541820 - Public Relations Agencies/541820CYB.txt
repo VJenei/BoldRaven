@@ -1,0 +1,31 @@
+{
+  "naics_code": "541820",
+  "naics_title": "Public Relations Agencies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Crisis communications work means holding the client's worst information.",
+      "why_this_business": "PR agencies are engaged precisely when something has gone wrong, receiving internal investigations, legal analysis, draft statements, and holding statements for scenarios that may never become public. Crisis materials document what the client knew and when.",
+      "loss_scenario": "Disclosure of crisis materials and unpublished holding statements is devastating to the client and can be used directly in litigation and regulatory proceedings against them, with the agency as the identified source.",
+      "rhetorical_question": "Do you hold holding statements for client crises that have not become public?"
+    },
+    {
+      "rank": 2,
+      "headline": "Embargoed announcements are market-sensitive.",
+      "why_this_business": "Agencies hold press releases, earnings materials, and announcement plans under embargo before release, including for listed clients where the content is material non-public information.",
+      "loss_scenario": "Premature release of material information creates securities exposure for the client, regulatory investigation, and immediate termination of the agency relationship.",
+      "rhetorical_question": "Do you handle embargoed material for publicly listed clients?"
+    },
+    {
+      "rank": 3,
+      "headline": "Media contact databases are the agency's working asset.",
+      "why_this_business": "Agencies maintain journalist contact lists, relationship histories, and coverage records built over years. Those relationships and the notes about them are the reason clients hire the agency.",
+      "loss_scenario": "Exposure of media relationship notes damages relationships with journalists permanently, and loss of the database removes the agency's core operating capability.",
+      "rhetorical_question": "How many years of media contacts and relationship notes are in your database?"
+    }
+  ]
+}

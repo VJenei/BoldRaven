@@ -1,0 +1,31 @@
+{
+  "naics_code": "562910",
+  "naics_title": "Remediation Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Site data documents contamination and drives regulatory obligations.",
+      "why_this_business": "Remediation contractors hold sampling data, contaminant concentrations, and delineation of contamination at client sites. Some of that data supports reporting obligations the client has not yet discharged, and all of it affects property value and liability.",
+      "loss_scenario": "Disclosure of contamination data triggers reporting obligations, collapses property transactions, and generates third-party claims from neighbouring owners, with the client attributing all of it to the contractor.",
+      "rhetorical_question": "Do you hold sampling data showing contamination that has not yet been reported?"
+    },
+    {
+      "rank": 2,
+      "headline": "Remediation systems run continuously for years.",
+      "why_this_business": "Pump and treat, soil vapour extraction, and similar systems operate continuously under remote monitoring, with performance data demonstrating that the remedy is working and that contamination is contained. Regulators require reporting on that performance.",
+      "loss_scenario": "System downtime allowing plume migration, which extends the remedy, expands the contaminated area, and can trigger regulatory action for failing to operate the remedy as approved.",
+      "rhetorical_question": "Are your remediation systems monitored remotely, and what happens if monitoring stops?"
+    },
+    {
+      "rank": 3,
+      "headline": "Emergency response work is dispatched under time pressure.",
+      "why_this_business": "Spill and emergency response contractors mobilise within hours to releases that are ongoing, with regulatory notification clocks already running for the responsible party. Dispatch, personnel qualification, and equipment availability all run on your systems.",
+      "loss_scenario": "Delayed emergency response allowing a release to spread, with the responsible party facing greater cleanup liability and regulatory exposure and attributing the escalation to the contractor.",
+      "rhetorical_question": "How quickly are you contractually required to mobilise on an emergency response call?"
+    }
+  ]
+}

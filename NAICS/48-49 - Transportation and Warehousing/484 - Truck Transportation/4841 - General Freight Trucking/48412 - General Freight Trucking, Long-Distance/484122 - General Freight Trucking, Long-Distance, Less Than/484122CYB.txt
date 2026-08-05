@@ -1,0 +1,31 @@
+{
+  "naics_code": "484122",
+  "naics_title": "General Freight Trucking, Long-Distance, Less Than Truckload",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "LTL networks fail all at once because everything moves through terminals.",
+      "why_this_business": "Less than truckload freight is consolidated and rehandled at breakbulk terminals, with each shipment tracked by pro number through multiple handlings. Dock planning, linehaul scheduling, and freight tracking are entirely system-driven. Freight without a readable label and system record is unidentifiable on a dock holding thousands of pieces.",
+      "loss_scenario": "Freight becomes physically unlocatable across the network, with claims for loss on shipments that are sitting somewhere in a terminal. Network throughput collapses because the sort cannot be planned.",
+      "rhetorical_question": "How would you identify and route a shipment on your dock without the system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Rating and billing on LTL is complex and cannot be done manually.",
+      "why_this_business": "LTL pricing involves classification, dimensional rating, accessorials, fuel surcharges, and customer-specific discount agreements applied automatically. Invoices are audited by customers and third-party freight payment providers who dispute discrepancies.",
+      "loss_scenario": "Unbillable or misrated freight across the outage, and customers whose audit processes reject invoices that cannot be supported with rating detail.",
+      "rhetorical_question": "How many customer-specific pricing agreements does your rating engine apply?"
+    },
+    {
+      "rank": 3,
+      "headline": "Cargo theft targets consolidated freight at terminals and in transit.",
+      "why_this_business": "LTL freight includes high value consumer goods and electronics, consolidated at terminals where quantities concentrate. Strategic theft using fraudulent pickup credentials has grown sharply, and terminal systems record exactly what is on hand.",
+      "loss_scenario": "Theft of high value freight informed by system data, with cargo claims from multiple shippers on a single event and carrier liability attaching to each.",
+      "rhetorical_question": "Who can see what high value freight is sitting on your dock tonight?"
+    }
+  ]
+}

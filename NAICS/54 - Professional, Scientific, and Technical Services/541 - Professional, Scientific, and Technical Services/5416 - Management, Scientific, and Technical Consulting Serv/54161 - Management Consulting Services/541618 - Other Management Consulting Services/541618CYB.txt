@@ -1,0 +1,31 @@
+{
+  "naics_code": "541618",
+  "naics_title": "Other Management Consulting Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Consultants hold whatever the client gives them to solve the problem.",
+      "why_this_business": "Specialist consulting engagements require access to the client information relevant to the issue, which frequently means financial, operational, customer, or employee data extracted onto consultant systems for analysis.",
+      "loss_scenario": "Breach exposing client data held for an engagement, with the client's notification obligations and reputational damage passed back through the consulting agreement.",
+      "rhetorical_question": "What client data from past engagements is still sitting on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Engagement findings identify client weaknesses explicitly.",
+      "why_this_business": "Consulting deliverables document what is wrong with the client's operations, controls, or finances, in writing and in detail. Those findings are exactly what a litigant, regulator, or competitor would want.",
+      "loss_scenario": "Disclosure of reports identifying client deficiencies, which can be used against the client in litigation or regulatory proceedings and destroys the candour the engagement depended on.",
+      "rhetorical_question": "Do your deliverables document deficiencies your clients have not yet remediated?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client contracts define liability independently of your fee.",
+      "why_this_business": "Consulting agreements with substantial clients include confidentiality, security, and indemnity provisions with liability caps that are frequently a multiple of fees or uncapped for confidentiality breaches.",
+      "loss_scenario": "Contractual liability that bears no relationship to the value of the engagement, with confidentiality breaches often carved out of the liability cap entirely.",
+      "rhetorical_question": "Do your client contracts cap liability for a confidentiality breach?"
+    }
+  ]
+}

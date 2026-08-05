@@ -1,0 +1,31 @@
+{
+  "naics_code": "541340",
+  "naics_title": "Drafting Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold clients' design files as your entire work product.",
+      "why_this_business": "Drafting services produce and hold CAD files, models, and detail drawings for architects, engineers, and manufacturers. The files are the deliverable and frequently the client's proprietary design, shared under confidentiality terms.",
+      "loss_scenario": "Loss of work in progress requires redrawing at your own cost, and disclosure of client design files breaches confidentiality obligations to clients whose products or buildings are described in them.",
+      "rhetorical_question": "How much client work in progress is held on your systems at any time?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fabrication and construction proceed directly from your files.",
+      "why_this_business": "Detail and shop drawings drive fabrication, cutting, and installation. Errors in a drafted detail are built into steel, millwork, or components before anyone reviews the result against the design intent.",
+      "loss_scenario": "Fabricated components built to an erroneous or superseded drawing, with scrap and rework costs and schedule damage attributed to the drafting service.",
+      "rhetorical_question": "Do fabricators work directly from files you produce?"
+    },
+    {
+      "rank": 3,
+      "headline": "Deadlines are set by construction and production schedules.",
+      "why_this_business": "Drafting deliverables sit on the critical path between design and fabrication, with submittal and release dates set by the construction or production schedule. Delay propagates to everyone downstream.",
+      "loss_scenario": "Delayed release of drawings holding up fabrication and installation, with delay costs claimed by the contractor or manufacturer against the drafting provider.",
+      "rhetorical_question": "What downstream activities are waiting on your next deliverable?"
+    }
+  ]
+}

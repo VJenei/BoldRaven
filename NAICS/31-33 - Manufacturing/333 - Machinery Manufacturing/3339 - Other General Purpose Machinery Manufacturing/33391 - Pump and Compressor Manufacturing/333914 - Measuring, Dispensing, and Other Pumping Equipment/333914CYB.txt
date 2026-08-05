@@ -1,0 +1,31 @@
+{
+  "naics_code": "333914",
+  "naics_title": "Measuring, Dispensing, and Other Pumping Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fuel dispensers are a primary target for card skimming.",
+      "why_this_business": "Fuel dispensers accept payment cards at unattended locations and are attacked with internal skimmers and Bluetooth devices. EMV requirements for dispensers, dispenser security features, and PCI DSS 4.0 all bear on how the equipment protects card data.",
+      "loss_scenario": "A dispenser design or security weakness enabling widespread skimming across the installed base, with card brand action, forensic costs, and remediation to dispensers spread across thousands of sites.",
+      "rhetorical_question": "Do your dispensers handle payment card data, and how is it protected inside the unit?"
+    },
+    {
+      "rank": 2,
+      "headline": "Dispensing accuracy is regulated and inspected.",
+      "why_this_business": "Fuel and product dispensers are commercial measuring devices subject to weights and measures certification, with type approval and field inspection verifying delivered quantity. Firmware determines what the meter reports.",
+      "loss_scenario": "Equipment dispensing outside tolerance or with firmware altering reported quantity, which is a weights and measures violation and, if it favours the seller, consumer fraud exposure across every unit in service.",
+      "rhetorical_question": "How is metrologically sealed firmware controlled and verified in your equipment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Pumping equipment moves hazardous liquids.",
+      "why_this_business": "Pumps handle fuels, chemicals, and process liquids where seal or control failure releases the product. Leak detection and overfill protection are functions the equipment performs.",
+      "loss_scenario": "Equipment failure releasing fuel or chemicals at customer sites, with environmental remediation, regulatory action, and claims from the site owner.",
+      "rhetorical_question": "What liquids does your equipment handle, and what protects against release?"
+    }
+  ]
+}

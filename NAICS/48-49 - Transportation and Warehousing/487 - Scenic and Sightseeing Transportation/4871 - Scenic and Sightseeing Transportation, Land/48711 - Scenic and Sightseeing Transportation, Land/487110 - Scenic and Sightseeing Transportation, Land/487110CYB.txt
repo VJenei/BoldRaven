@@ -1,0 +1,31 @@
+{
+  "naics_code": "487110",
+  "naics_title": "Scenic and Sightseeing Transportation, Land",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Tickets are sold online for dated departures that cannot be repeated.",
+      "why_this_business": "Sightseeing operators sell timed tickets online and through resellers for specific departures, with capacity managed live. Visitors book from out of town around a fixed travel date. There is no way to sell or validate a ticket without the system.",
+      "loss_scenario": "Sales stop and booked visitors cannot be validated at the gate, on departures that run whether full or empty. Peak season days lost cannot be recovered.",
+      "rhetorical_question": "What share of your tickets are sold online in advance?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasonality concentrates the year into a short operating window.",
+      "why_this_business": "Scenic operations run heavily in a summer or holiday season, with fixed costs incurred year-round against revenue earned in a few months. Staffing, scheduling, and capacity planning all run through booking data.",
+      "loss_scenario": "An outage during peak season costs a disproportionate share of annual revenue, and the season does not extend to compensate.",
+      "rhetorical_question": "How many operating weeks generate the majority of your annual revenue?"
+    },
+    {
+      "rank": 3,
+      "headline": "Passenger safety records support the defence in any incident.",
+      "why_this_business": "Vehicle inspection, driver qualification, and passenger count records are required and are the evidence after any incident. Sightseeing vehicles frequently operate on mountain roads and in terrain where a failure has severe consequences.",
+      "loss_scenario": "A vehicle incident where inspection and driver records cannot be produced, in litigation involving multiple passengers and their families.",
+      "rhetorical_question": "How are vehicle inspection and driver qualification records maintained?"
+    }
+  ]
+}

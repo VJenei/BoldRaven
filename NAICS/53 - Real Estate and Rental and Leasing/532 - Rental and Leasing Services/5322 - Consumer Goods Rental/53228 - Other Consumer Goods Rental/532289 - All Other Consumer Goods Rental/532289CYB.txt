@@ -1,0 +1,31 @@
+{
+  "naics_code": "532289",
+  "naics_title": "All Other Consumer Goods Rental",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Rental agreements and customer data accumulate without a retention policy.",
+      "why_this_business": "Consumer rental operations hold identity documents, payment cards, addresses, and rental histories for every customer, frequently retained indefinitely in a point of sale or rental management system with no deletion process.",
+      "loss_scenario": "Breach notification covering customers from many years ago who no longer transact with you, expanding the affected population and the cost well beyond the active customer base.",
+      "rhetorical_question": "How many years of customer records are sitting in your rental system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Inventory tracking is the only record of what is out and with whom.",
+      "why_this_business": "Rental businesses depend on knowing what item is with which customer and when it is due back. Items are individually tracked and frequently high value relative to the rental rate.",
+      "loss_scenario": "Inability to determine what inventory is out means items that are never recovered, and the loss is the full replacement value rather than the outstanding rental charge.",
+      "rhetorical_question": "What is the total value of inventory currently out on rental?"
+    },
+    {
+      "rank": 3,
+      "headline": "Damage disputes are resolved from condition records.",
+      "why_this_business": "Rental businesses assess damage on return against condition documented at check-out, usually with photographs and a signed acknowledgement. Customers dispute damage charges routinely.",
+      "loss_scenario": "Uncollectable damage charges and chargebacks where condition records cannot be produced, and card networks resolve disputes against the merchant without documentation.",
+      "rhetorical_question": "How do you document item condition at check-out and return?"
+    }
+  ]
+}

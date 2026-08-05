@@ -1,0 +1,31 @@
+{
+  "naics_code": "722513",
+  "naics_title": "Limited-Service Restaurants",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Digital ordering and loyalty apps hold customer accounts at scale.",
+      "why_this_business": "Quick service brands operate mobile apps and online ordering with stored payment methods, loyalty balances, and order histories for very large customer bases. Credential stuffing against these accounts is persistent because loyalty balances and stored cards convert directly.",
+      "loss_scenario": "Mass account takeover draining loyalty balances and placing fraudulent orders, with the operator restoring balances and facing notification obligations across a customer base measured in millions for a large brand.",
+      "rhetorical_question": "How much value is outstanding in customer loyalty balances and stored payment methods?"
+    },
+    {
+      "rank": 2,
+      "headline": "Throughput depends entirely on the ordering systems.",
+      "why_this_business": "Drive-thru timers, kitchen display systems, mobile order routing, and delivery platform integration all drive throughput, which is the entire operating model. Speed of service determines revenue in a format built around volume.",
+      "loss_scenario": "Drive-thru and mobile ordering unavailable during peak periods, with throughput collapsing and delivery platform orders failing, which suppresses platform ranking beyond the outage.",
+      "rhetorical_question": "What is your peak hour throughput, and what does it fall to without the ordering systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Franchise networks share systems and standards.",
+      "why_this_business": "Franchised brands mandate point of sale platforms, loyalty systems, and increasingly security standards, with data flowing to brand systems. A vulnerability in a mandated platform exists at every location simultaneously.",
+      "loss_scenario": "A single platform compromise affecting every franchised location at once, with responsibility contested between franchisor and franchisees while notification obligations run.",
+      "rhetorical_question": "Which systems are you required to use under your franchise agreement?"
+    }
+  ]
+}

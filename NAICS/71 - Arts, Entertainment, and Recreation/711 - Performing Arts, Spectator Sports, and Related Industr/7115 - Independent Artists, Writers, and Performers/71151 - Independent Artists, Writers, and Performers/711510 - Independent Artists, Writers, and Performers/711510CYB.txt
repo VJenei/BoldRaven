@@ -1,0 +1,31 @@
+{
+  "naics_code": "711510",
+  "naics_title": "Independent Artists, Writers, and Performers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Unpublished work is the asset and it exists in one place.",
+      "why_this_business": "Independent creators hold manuscripts, compositions, recordings, and artwork in progress, frequently on a single computer with no systematic backup. A sustained phishing campaign against publishing specifically targeted unpublished manuscripts for years, resulting in a federal indictment.",
+      "loss_scenario": "Loss of unpublished work that cannot be recreated, or its disclosure before publication which undermines the release and, for some rights, can affect protection.",
+      "rhetorical_question": "Where is the only copy of your current work in progress?"
+    },
+    {
+      "rank": 2,
+      "headline": "Income comes from many small payers through platforms.",
+      "why_this_business": "Independent creators receive royalties, platform payments, licensing fees, and direct sales through numerous accounts, each with banking details and tax information. Platform account takeover redirects income silently.",
+      "loss_scenario": "Redirected royalty and platform payments discovered months later, with recovery from platforms difficult and the creator having no finance function to notice the absence quickly.",
+      "rhetorical_question": "How many platforms hold your banking details for payment?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fan and customer data comes with direct sales.",
+      "why_this_business": "Creators selling directly hold customer contact and payment information through their own storefronts, mailing lists, and membership platforms, frequently without any security review of the tools chosen.",
+      "loss_scenario": "Customer payment and contact data exposed through a personal storefront, with notification obligations falling on an individual creator with no capacity to fund them.",
+      "rhetorical_question": "Do you sell directly to fans and hold their payment or contact details?"
+    }
+  ]
+}

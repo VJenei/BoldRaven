@@ -1,0 +1,31 @@
+{
+  "naics_code": "551112",
+  "naics_title": "Offices of Other Holding Companies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Shared services mean one compromise reaches every operating company.",
+      "why_this_business": "Holding companies commonly centralise finance, treasury, human resources, and IT for their subsidiaries. Attackers reaching the parent obtain access to every operating business in the group, which is why this structure is targeted.",
+      "loss_scenario": "Simultaneous disruption across every subsidiary, with each operating company's customers, employees, and regulators affected at once and no unaffected part of the group able to assist.",
+      "rhetorical_question": "How many operating subsidiaries share systems administered at the holding company level?"
+    },
+    {
+      "rank": 2,
+      "headline": "Treasury functions concentrate payment authority.",
+      "why_this_business": "Group treasury manages banking relationships, executes payments, and moves funds between entities, frequently with high authorisation limits and cross-entity visibility. That function is the single most valuable target inside a group.",
+      "loss_scenario": "Fraudulent transfers executed with treasury authority, in amounts reflecting group cash positions rather than a single operating company's balance.",
+      "rhetorical_question": "What is the largest single payment your treasury function can authorise?"
+    },
+    {
+      "rank": 3,
+      "headline": "Group employee and financial data is aggregated in one place.",
+      "why_this_business": "Centralised human resources and finance hold payroll, benefits, tax, and personal data for employees across every subsidiary, along with consolidated financial information that is commercially sensitive and, for public groups, potentially material.",
+      "loss_scenario": "Breach notification across the entire group workforce, plus exposure of unreleased consolidated financial information carrying securities implications.",
+      "rhetorical_question": "How many employees across all subsidiaries are in your centralised HR system?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "333613",
+  "naics_title": "Mechanical Power Transmission Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Power transmission components carry load and fail suddenly.",
+      "why_this_business": "Couplings, clutches, chain, and belt drives transmit power in industrial machinery. Failure at load releases stored energy, throws components, and stops the driven equipment immediately.",
+      "loss_scenario": "Component failures at load causing injury from thrown parts and equipment damage, with recall across every customer application using the affected production.",
+      "rhetorical_question": "What load ratings do your components carry, and how are they verified?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ratings depend on material and process control.",
+      "why_this_business": "Rated torque and capacity depend on material specification, heat treatment, and machining accuracy, all process controlled. A component that looks correct may not meet its rating.",
+      "loss_scenario": "Under-strength components entering machinery and failing in service, with every unit from the affected production requiring identification across a distributed customer base.",
+      "rhetorical_question": "How are material and heat treatment records maintained per production lot?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customers buy from distributors expecting immediate availability.",
+      "why_this_business": "Power transmission components are stocked and sold through industrial distributors for breakdown replacement, where the customer's machine is already stopped waiting for the part.",
+      "loss_scenario": "Order and shipping systems unavailable, with distributor stock unreplenished and industrial customers waiting on parts while their machines stand idle.",
+      "rhetorical_question": "How quickly do distributors expect replenishment on breakdown items?"
+    }
+  ]
+}

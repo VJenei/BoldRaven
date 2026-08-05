@@ -1,0 +1,31 @@
+{
+  "naics_code": "332216",
+  "naics_title": "Saw Blade and Handtool Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Blades and tools fail in users' hands.",
+      "why_this_business": "Saw blades, cutting tools, and hand tools are used under load with failure producing fragments at high velocity or tool breakage causing injury. Blade manufacturing controls heat treatment and tensioning that determine whether the blade holds together.",
+      "loss_scenario": "Blade or tool failure causing lacerating or impact injury, with the manufacturer's heat treatment and testing records determining whether the product met specification.",
+      "rhetorical_question": "How are heat treatment and testing records maintained per production lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Consumer and professional tools carry safety standards.",
+      "why_this_business": "Power tool accessories and hand tools are subject to safety standards and, as consumer products, CPSC jurisdiction with reporting obligations. Blade speed ratings and tool capacity limits are relied on by users.",
+      "loss_scenario": "CPSC action and recall for a safety defect, with reporting obligations within 24 hours of obtaining information and civil penalties for delay.",
+      "rhetorical_question": "What safety standards and speed ratings do your products carry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production runs at volume with automated processes.",
+      "why_this_business": "Blade and tool manufacture runs automated forming, heat treatment, and finishing at volume with process parameters determining product properties. Defects propagate across production before testing detects them.",
+      "loss_scenario": "Defective production distributed to retail and professional users before detection, requiring recall across every distribution channel and the products already in use.",
+      "rhetorical_question": "How much production occurs between a process deviation and its detection by testing?"
+    }
+  ]
+}

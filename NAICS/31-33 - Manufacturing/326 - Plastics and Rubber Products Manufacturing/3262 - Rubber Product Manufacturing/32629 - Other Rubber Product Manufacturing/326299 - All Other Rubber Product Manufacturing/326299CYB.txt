@@ -1,0 +1,31 @@
+{
+  "naics_code": "326299",
+  "naics_title": "All Other Rubber Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Rubber products serve applications where failure has consequences.",
+      "why_this_business": "Products in this category serve industrial, medical, and consumer applications with performance requirements. Medical and food contact rubber carries material compliance obligations, and industrial products carry load and pressure ratings.",
+      "loss_scenario": "Product failing in application, with consequences determined by the use, and for medical and food contact products, recall reaching the finished goods.",
+      "rhetorical_question": "What applications do your products serve where failure causes injury or contamination?"
+    },
+    {
+      "rank": 2,
+      "headline": "Compound formulations and cure recipes are proprietary.",
+      "why_this_business": "Manufacturers develop compounds and processing parameters delivering specific properties for customer applications, representing accumulated technical development and frequently customer-specific qualification.",
+      "loss_scenario": "Formulation disclosure to competitors and loss of qualified recipes, stopping production of parts customers have designed around and requiring requalification.",
+      "rhetorical_question": "How many compound formulations and cure recipes are held in your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer quality systems require traceability and approval.",
+      "why_this_business": "Industrial and regulated customers require lot traceability, certificates of conformance, and change control under quality standards, audited periodically as a condition of approved supplier status.",
+      "loss_scenario": "Failed audits and loss of approved supplier status where traceability and process records cannot be demonstrated, which removes the qualified business permanently.",
+      "rhetorical_question": "Which customer quality standards are you audited against?"
+    }
+  ]
+}

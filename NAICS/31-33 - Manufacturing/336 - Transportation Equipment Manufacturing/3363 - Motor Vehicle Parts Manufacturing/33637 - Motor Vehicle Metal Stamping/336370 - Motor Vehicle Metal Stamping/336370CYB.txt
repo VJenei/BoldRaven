@@ -1,0 +1,31 @@
+{
+  "naics_code": "336370",
+  "naics_title": "Motor Vehicle Metal Stamping",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Stampings are structural components determining crash performance.",
+      "why_this_business": "Body structure stampings absorb and direct crash energy, with material grade, forming, and dimensional accuracy determining structural behaviour. Substituted material or forming defects change crash performance.",
+      "loss_scenario": "Stampings of wrong material grade in body structures, with crash performance below design, discovered after vehicles are in service and requiring assessment of every vehicle from the affected production.",
+      "rhetorical_question": "How is steel grade traceability maintained from coil through to shipped stampings?"
+    },
+    {
+      "rank": 2,
+      "headline": "Press lines and dies produce parts at high rate with dedicated tooling.",
+      "why_this_business": "Stamping runs on transfer and progressive dies specific to each part, at high rate, with die and press systems driving the process. Dies exist only at the plant that runs them.",
+      "loss_scenario": "Press systems unavailable or dies damaged, with production stopped and no alternative source, because no other plant holds the tooling for the customer's parts.",
+      "rhetorical_question": "How many customer parts are stamped with tooling that exists only at your plant?"
+    },
+    {
+      "rank": 3,
+      "headline": "Assembly plants run with hours of stamping inventory.",
+      "why_this_business": "Body stampings are shipped to assembly on a schedule with limited inventory. Large stampings cannot be stockpiled economically because of their size.",
+      "loss_scenario": "Assembly plants stopped for want of stampings, with line-down charges per hour and, for body structure parts, no possibility of substitution.",
+      "rhetorical_question": "How many hours of stamping inventory do your customers hold?"
+    }
+  ]
+}

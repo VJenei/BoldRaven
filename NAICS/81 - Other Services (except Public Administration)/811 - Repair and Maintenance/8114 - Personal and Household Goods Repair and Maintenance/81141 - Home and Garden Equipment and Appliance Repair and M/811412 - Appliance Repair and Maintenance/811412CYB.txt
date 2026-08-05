@@ -1,0 +1,31 @@
+{
+  "naics_code": "811412",
+  "naics_title": "Appliance Repair and Maintenance",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Technicians are scheduled into customers' homes.",
+      "why_this_business": "Appliance repair is performed in homes on scheduled appointments, with dispatch systems holding customer addresses, appointment windows, access arrangements, and payment methods.",
+      "loss_scenario": "Exposure of customer addresses and appointment schedules indicates when homes will be occupied and by whom, which is a physical security concern distinct from payment data exposure.",
+      "rhetorical_question": "Do your records include access instructions or notes about when customers are home?"
+    },
+    {
+      "rank": 2,
+      "headline": "Parts identification depends on model and serial lookup.",
+      "why_this_business": "Correct parts are identified from model and serial numbers against manufacturer catalogues, with many parts non-returnable once ordered. Wrong parts extend the customer's outage and are absorbed as cost.",
+      "loss_scenario": "Wrong parts ordered against guessed models, with non-returnable stock written off and customers without functioning refrigeration or laundry for additional days.",
+      "rhetorical_question": "How do your technicians identify the correct part for a specific appliance?"
+    },
+    {
+      "rank": 3,
+      "headline": "Warranty and service contract work is authorised electronically.",
+      "why_this_business": "Much of the work is authorised and paid through manufacturer warranty portals and third-party service contract administrators, with claim submission deadlines and documentation requirements.",
+      "loss_scenario": "Unbillable work where claims cannot be submitted within the administrator's window, on jobs already completed with parts already fitted.",
+      "rhetorical_question": "What proportion of your work is warranty or service contract rather than customer pay?"
+    }
+  ]
+}

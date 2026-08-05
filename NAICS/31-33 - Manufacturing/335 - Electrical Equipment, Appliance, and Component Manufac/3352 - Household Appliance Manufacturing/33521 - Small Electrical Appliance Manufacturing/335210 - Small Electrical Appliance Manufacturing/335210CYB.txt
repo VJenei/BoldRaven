@@ -1,0 +1,31 @@
+{
+  "naics_code": "335210",
+  "naics_title": "Small Electrical Appliance Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Small appliances cause fires and burns and are recalled frequently.",
+      "why_this_business": "Countertop appliances heat, cut, and pressurise in the home, with thermal cutoffs, cord assemblies, and lids the components that fail. This category produces some of the largest consumer recalls.",
+      "loss_scenario": "A CPSC recall covering millions of units for a burn or fire hazard, with the collection and replacement cost, injury claims, and civil penalties where the 24 hour reporting obligation was missed.",
+      "rhetorical_question": "Could you identify which retailers received a specific production run?"
+    },
+    {
+      "rank": 2,
+      "headline": "Battery and cord components are the usual failure point.",
+      "why_this_business": "Lithium-ion powered appliances and cord assemblies cause fires when cells, chargers, or strain relief fail. Component supply changes without notification break the safety listing.",
+      "loss_scenario": "A component change causing fires across production, with the recall covering every unit built after the change and the supplier records determining when it occurred.",
+      "rhetorical_question": "How are component changes by suppliers controlled against your safety listings?"
+    },
+    {
+      "rank": 3,
+      "headline": "Connected appliances collect data and receive updates.",
+      "why_this_business": "Small appliances now include connectivity, mobile applications, and cloud accounts, holding customer accounts and usage data and receiving firmware from the manufacturer.",
+      "loss_scenario": "Customer account data exposed or firmware compromised across a connected product line, with state privacy law exposure and remediation to appliances in millions of homes.",
+      "rhetorical_question": "Do your appliances connect to a platform you operate?"
+    }
+  ]
+}

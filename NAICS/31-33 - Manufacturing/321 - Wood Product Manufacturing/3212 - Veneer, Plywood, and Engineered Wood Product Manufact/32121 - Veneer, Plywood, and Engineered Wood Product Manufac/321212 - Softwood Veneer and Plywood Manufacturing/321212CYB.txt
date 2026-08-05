@@ -1,0 +1,31 @@
+{
+  "naics_code": "321212",
+  "naics_title": "Softwood Veneer and Plywood Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Structural panels carry code-referenced performance ratings.",
+      "why_this_business": "Structural plywood is manufactured to product standards with span ratings and exposure durability certified by accredited agencies, marked on every panel. Building codes reference those ratings and construction relies on them.",
+      "loss_scenario": "Panels shipped without valid certification or below rated performance, installed as structural sheathing and roof decking, with failures and the requirement to remove and replace installed material.",
+      "rhetorical_question": "Which certification agency audits your panel production, and what records do they review?"
+    },
+    {
+      "rank": 2,
+      "headline": "Presses and dryers run continuously at high temperature.",
+      "why_this_business": "Veneer dryers and hot presses operate continuously with temperature, pressure, and time controlling bond quality and panel properties. Dryer fires are a recognised hazard and press cycle deviations produce delamination.",
+      "loss_scenario": "A dryer fire taking the plant offline for months, or panels with inadequate bond entering structural applications where delamination causes failure.",
+      "rhetorical_question": "How is dryer temperature monitored and how is fire detection handled?"
+    },
+    {
+      "rank": 3,
+      "headline": "Continuous production supplies construction on a schedule.",
+      "why_this_business": "Panel production runs continuously supplying distribution and construction on delivery schedules. Construction projects sequence framing around sheathing availability.",
+      "loss_scenario": "Extended downtime with construction customers unable to obtain panels, in a commodity market where buyers switch suppliers immediately and may not switch back.",
+      "rhetorical_question": "How quickly could your customers source panels from an alternative mill?"
+    }
+  ]
+}

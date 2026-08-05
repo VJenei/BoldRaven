@@ -1,0 +1,31 @@
+{
+  "naics_code": "323113",
+  "naics_title": "Commercial Screen Printing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Licensed and branded artwork is held under contract.",
+      "why_this_business": "Screen printers produce apparel and products carrying licensed sports, entertainment, and corporate marks under agreements restricting production, quantities, and distribution, with artwork files held for repeat orders.",
+      "loss_scenario": "Artwork disclosure enabling counterfeit production, with licensor claims and loss of the licensed decoration business that depends entirely on brand owner trust.",
+      "rhetorical_question": "How many licensed brand artwork files are held on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Orders are tied to events and dates that will not move.",
+      "why_this_business": "Screen printed goods are produced for events, teams, promotions, and seasonal sales with delivery dates fixed by the event. Product delivered after the event has no market.",
+      "loss_scenario": "Missed event delivery leaving custom decorated goods that cannot be sold to anyone else, with the full production cost lost and the customer's event proceeding without merchandise.",
+      "rhetorical_question": "How many orders are you holding for dated events?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production is programme and screen driven per design.",
+      "why_this_business": "Each design requires separations, screens, and press setups specific to the artwork and garment. Digital and hybrid printing runs directly from files with colour management controlling output.",
+      "loss_scenario": "Lost artwork and separation files requiring redevelopment for every design, with reorder customers unable to obtain matching product and screens remade at cost.",
+      "rhetorical_question": "How are customer artwork and separation files stored for reorders?"
+    }
+  ]
+}

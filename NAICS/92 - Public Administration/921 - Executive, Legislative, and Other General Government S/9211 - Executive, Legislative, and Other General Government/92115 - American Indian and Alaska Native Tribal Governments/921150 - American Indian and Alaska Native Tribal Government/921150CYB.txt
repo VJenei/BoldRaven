@@ -1,0 +1,31 @@
+{
+  "naics_code": "921150",
+  "naics_title": "American Indian and Alaska Native Tribal Governments",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Tribal governments operate the full range of government functions.",
+      "why_this_business": "Tribal governments run health services, education, law enforcement, courts, housing, social services, and frequently gaming enterprises, holding member records, health data, and enterprise revenue on shared infrastructure.",
+      "loss_scenario": "Simultaneous disruption of health services, government operations, and enterprise revenue, with the enterprise revenue frequently funding the government services that also stopped.",
+      "rhetorical_question": "Which government services and enterprises share infrastructure in your organisation?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tribal health facilities hold protected health information.",
+      "why_this_business": "Tribal health services are covered entities under HIPAA, holding clinical records for member populations, with services frequently being the only accessible healthcare in the area.",
+      "loss_scenario": "HIPAA notification and enforcement alongside interruption of health services for a population with limited alternatives, in communities where travel to alternative care is a significant barrier.",
+      "rhetorical_question": "Do you operate health facilities subject to HIPAA?"
+    },
+    {
+      "rank": 3,
+      "headline": "Enrolment and member records are foundational and sensitive.",
+      "why_this_business": "Tribal governments maintain enrolment records establishing membership, descent, and eligibility for benefits and rights. Those records are culturally and legally significant and are the basis of individual standing within the nation.",
+      "loss_scenario": "Exposure or loss of enrolment records affects members' legal standing and access to benefits, and the records document lineage and family information of deep cultural sensitivity.",
+      "rhetorical_question": "How are enrolment and member records maintained and protected?"
+    }
+  ]
+}

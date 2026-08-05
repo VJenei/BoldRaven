@@ -1,0 +1,31 @@
+{
+  "naics_code": "334220",
+  "naics_title": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Wireless network equipment is critical infrastructure.",
+      "why_this_business": "Base stations, radios, and wireless infrastructure carry public and emergency communications. Equipment compromise affects service across a coverage area and is treated as a national security matter.",
+      "loss_scenario": "A vulnerability or compromise in deployed network equipment affecting carrier service, with outage across coverage areas, FCC reporting obligations for the carrier, and federal investigation of the equipment source.",
+      "rhetorical_question": "What carrier or public safety networks use your equipment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Federal restrictions govern equipment authorisation and sourcing.",
+      "why_this_business": "FCC equipment authorisation rules and the covered list under the Secure and Trusted Communications Networks Act prohibit specified equipment and components in networks, with removal programmes for equipment already deployed.",
+      "loss_scenario": "Products found to contain prohibited components, losing authorisation and requiring removal from carrier networks, which ends the market for the affected product line.",
+      "rhetorical_question": "How is component sourcing verified against the FCC covered list?"
+    },
+    {
+      "rank": 3,
+      "headline": "Public safety radio must work when everything else fails.",
+      "why_this_business": "Land mobile radio and public safety communications equipment supports emergency response, with encryption, interoperability, and availability requirements. Failure occurs precisely during the events it exists for.",
+      "loss_scenario": "Equipment or encryption defects affecting public safety communications during an emergency, with responder safety consequences and jurisdictions replacing systems across an entire agency.",
+      "rhetorical_question": "Does your equipment support public safety or emergency communications?"
+    }
+  ]
+}

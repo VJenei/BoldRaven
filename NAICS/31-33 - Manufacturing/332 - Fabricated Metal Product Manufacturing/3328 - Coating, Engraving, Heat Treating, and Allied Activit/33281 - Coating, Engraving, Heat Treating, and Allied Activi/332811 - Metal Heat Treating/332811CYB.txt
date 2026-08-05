@@ -1,0 +1,31 @@
+{
+  "naics_code": "332811",
+  "naics_title": "Metal Heat Treating",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Heat treatment creates properties that cannot be inspected afterward.",
+      "why_this_business": "Heat treating develops hardness, strength, and toughness through controlled temperature, time, and quench. A part processed to the wrong cycle looks identical to a correct part and only destructive testing or service failure reveals the difference.",
+      "loss_scenario": "Parts processed to wrong cycles shipped to customers and assembled into products, failing in service, with every part processed during the affected period requiring identification across multiple customers.",
+      "rhetorical_question": "How are furnace cycle records tied to specific customer lots?"
+    },
+    {
+      "rank": 2,
+      "headline": "Furnace control systems run the process automatically.",
+      "why_this_business": "Furnaces run recipe-driven cycles under automated control with temperature, atmosphere, and time recorded as the evidence of conformance. Aerospace work requires accreditation with strict instrumentation and record requirements.",
+      "loss_scenario": "Loss or corruption of furnace control and record systems, halting processing entirely and leaving parts in furnaces mid-cycle with no record of what they received.",
+      "rhetorical_question": "How long could your furnaces operate if the control and recording system failed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Accreditation depends on records that are almost entirely digital.",
+      "why_this_business": "Aerospace heat treating accreditation requires pyrometry records, survey data, and cycle charts retained and produced on audit. The accreditation is a condition of supplying aerospace customers.",
+      "loss_scenario": "Loss of accreditation where records cannot be produced, removing eligibility for aerospace work and requiring customers to have parts reprocessed or requalified elsewhere.",
+      "rhetorical_question": "How long do you retain furnace charts and pyrometry records, and where?"
+    }
+  ]
+}

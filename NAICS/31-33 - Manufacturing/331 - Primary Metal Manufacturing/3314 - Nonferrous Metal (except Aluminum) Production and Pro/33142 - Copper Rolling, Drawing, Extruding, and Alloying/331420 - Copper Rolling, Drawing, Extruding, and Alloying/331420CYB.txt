@@ -1,0 +1,31 @@
+{
+  "naics_code": "331420",
+  "naics_title": "Copper Rolling, Drawing, Extruding, and Alloying",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Copper inventory is high value and price-volatile.",
+      "why_this_business": "Copper processing holds substantial metal inventory whose value moves with the exchange, managed with hedging against physical position. Metal accounting tracks copper through the process to reconcile against purchases and sales.",
+      "loss_scenario": "Unmanaged metal position through a price move, plus metal accounting failures where in-process copper cannot be reconciled, in a material valuable enough that discrepancies matter immediately.",
+      "rhetorical_question": "How is your physical copper position reconciled against your hedge position?"
+    },
+    {
+      "rank": 2,
+      "headline": "Electrical products depend on conductivity and dimensional accuracy.",
+      "why_this_business": "Copper conductors, tube, and bar are produced to conductivity, dimensional, and property specifications for electrical and plumbing applications. Conductivity determines current-carrying capacity and heating in service.",
+      "loss_scenario": "Conductor below specification installed in electrical systems where it overheats under rated load, creating fire exposure across every installation containing the affected material.",
+      "rhetorical_question": "How is conductivity verified and recorded against production lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Plumbing tube must meet drinking water requirements.",
+      "why_this_business": "Copper tube for potable water is produced to standards with dimensional and material requirements, certified for drinking water contact and required by plumbing codes.",
+      "loss_scenario": "Non-conforming tube installed in drinking water systems, requiring removal from buildings where it may already be concealed in walls and floors.",
+      "rhetorical_question": "Which drinking water and plumbing standards do your products certify to?"
+    }
+  ]
+}

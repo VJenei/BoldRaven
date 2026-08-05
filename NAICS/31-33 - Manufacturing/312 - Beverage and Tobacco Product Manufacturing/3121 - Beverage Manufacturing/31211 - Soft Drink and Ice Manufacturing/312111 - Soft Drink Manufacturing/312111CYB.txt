@@ -1,0 +1,31 @@
+{
+  "naics_code": "312111",
+  "naics_title": "Soft Drink Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Bottling lines run continuously and stop the whole plant when they fail.",
+      "why_this_business": "Filling, capping, labelling, and packaging run as a continuous high-speed line under integrated control, with syrup batching and carbonation upstream. Lines run thousands of containers per minute and product in process is lost on any stop.",
+      "loss_scenario": "Extended line downtime with retail delivery commitments unmet and product in process discarded, on capital equipment whose utilisation determines whether the plant is profitable.",
+      "rhetorical_question": "How many containers per minute does your line fill, and what stops when it does?"
+    },
+    {
+      "rank": 2,
+      "headline": "Syrup batching accuracy determines every unit produced.",
+      "why_this_business": "Concentrate is diluted and batched to formulation with sweetener, water treatment, and carbonation controlled automatically. An error in batching is multiplied across every container filled from that batch.",
+      "loss_scenario": "Off-specification product across an entire batch reaching retail, with recall and consumer complaints, and brand damage where taste deviation is noticed by consumers.",
+      "rhetorical_question": "How many finished units are produced from a single syrup batch?"
+    },
+    {
+      "rank": 3,
+      "headline": "Water treatment is a food safety and quality control.",
+      "why_this_business": "Beverage water is treated to remove contaminants and standardise chemistry, monitored continuously. Water quality affects both product safety and taste consistency across production.",
+      "loss_scenario": "Product produced with untreated or improperly treated water, which is a food safety issue requiring recall, and quality variation that customers detect immediately.",
+      "rhetorical_question": "How is treated water quality monitored before it enters production?"
+    }
+  ]
+}

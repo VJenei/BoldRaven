@@ -1,0 +1,31 @@
+{
+  "naics_code": "333912",
+  "naics_title": "Air and Gas Compressor Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Compressors handle gas at pressure and fail violently.",
+      "why_this_business": "Compressors raise gas to high pressure, with relief protection, temperature control, and materials determining safe operation. Failure of a pressurised component or handling of flammable gas produces explosion and fire.",
+      "loss_scenario": "A compressor failure releasing flammable gas or rupturing at pressure, with fire, injury, and destruction of the plant area, investigated against the manufacturer's design and test records.",
+      "rhetorical_question": "What gases and pressures do your compressors handle?"
+    },
+    {
+      "rank": 2,
+      "headline": "Plant air and process gas supply stops production when it fails.",
+      "why_this_business": "Compressed air and process gas are utilities that entire plants depend on. Compressor failure stops instrumentation, pneumatics, and process equipment across the site simultaneously.",
+      "loss_scenario": "Compressor failures across an installed base stopping production at customer plants, with claims driven by their production losses rather than the compressor value.",
+      "rhetorical_question": "What stops at a customer plant when your compressor stops?"
+    },
+    {
+      "rank": 3,
+      "headline": "Compressors ship with connected controls and monitoring.",
+      "why_this_business": "Industrial compressors include controllers with network connectivity for monitoring, sequencing, and remote diagnostics that link to manufacturer platforms and sit inside plant networks.",
+      "loss_scenario": "Compromise of compressor controls affecting operation or providing a path into customer plant networks, requiring firmware remediation at every installed site.",
+      "rhetorical_question": "How do your compressor controllers connect back to your monitoring systems?"
+    }
+  ]
+}

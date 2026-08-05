@@ -1,0 +1,31 @@
+{
+  "naics_code": "326113",
+  "naics_title": "Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Technical films serve applications with performance requirements.",
+      "why_this_business": "Films and sheet in this category serve construction, agricultural, medical, and industrial applications with specifications for thickness, strength, and durability that customers depend on for the product's function.",
+      "loss_scenario": "Off-specification material failing in application, with geomembrane, agricultural, or construction failures where the film was the barrier or protection and the consequences extend well beyond the material value.",
+      "rhetorical_question": "What applications rely on your film as a barrier or protective layer?"
+    },
+    {
+      "rank": 2,
+      "headline": "Extrusion runs continuously with tight gauge control.",
+      "why_this_business": "Film and sheet extrusion runs continuously with gauge, width, and property control across the web. Gauge variation and defects render material unusable for applications requiring uniformity.",
+      "loss_scenario": "Off-gauge material produced continuously until detected, consuming resin and line time, on equipment where continuous operation determines profitability.",
+      "rhetorical_question": "How is gauge and web uniformity monitored during extrusion?"
+    },
+    {
+      "rank": 3,
+      "headline": "Resin supply and formulation determine what can be produced.",
+      "why_this_business": "Production depends on qualified resin grades with additive packages formulated for the application, including UV stabilisation for outdoor use. Formulations are matched to customer requirements.",
+      "loss_scenario": "Material produced without correct additive packages failing prematurely in service, with agricultural and construction films degrading in the field and claims covering the application rather than the film.",
+      "rhetorical_question": "How are additive formulations controlled for outdoor and technical applications?"
+    }
+  ]
+}

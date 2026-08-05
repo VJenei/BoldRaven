@@ -1,0 +1,31 @@
+{
+  "naics_code": "562211",
+  "naics_title": "Hazardous Waste Treatment and Disposal",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Treatment processes are controlled and failure releases hazardous material.",
+      "why_this_business": "Incinerators, treatment units, and stabilisation processes run under continuous control with temperature, feed rate, and emissions monitoring required by permit. Loss of control on a thermal treatment unit creates emissions exceedances and potential release.",
+      "loss_scenario": "Permit exceedances reported and penalised per day per parameter, and an uncontrolled release with community exposure, evacuation, and remediation costs alongside criminal exposure for knowing violations.",
+      "rhetorical_question": "What happens to your treatment units if process control is lost?"
+    },
+    {
+      "rank": 2,
+      "headline": "Manifest and tracking obligations run from receipt through final disposal.",
+      "why_this_business": "Facilities must sign, track, and submit manifests through the EPA e-Manifest system, maintain operating records, and demonstrate that waste received was treated and disposed as permitted. Records must be retained and produced on inspection.",
+      "loss_scenario": "RCRA violations assessed per day, plus generators unable to close out their own cradle to grave obligations because the disposal facility cannot certify what happened to their waste.",
+      "rhetorical_question": "How do you demonstrate final disposition of waste received three years ago?"
+    },
+    {
+      "rank": 3,
+      "headline": "Financial assurance and permit conditions depend on accurate records.",
+      "why_this_business": "Permitted facilities must maintain financial assurance for closure and post-closure care, inventory limits, and operating conditions, all demonstrated through records reviewed by regulators. Exceeding permitted inventory is a serious violation.",
+      "loss_scenario": "Permit action or suspension where inventory and operating records cannot be reconciled, which stops the facility from receiving waste and cascades to every generator that depends on it.",
+      "rhetorical_question": "How is permitted inventory tracked and demonstrated to regulators?"
+    }
+  ]
+}

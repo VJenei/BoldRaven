@@ -1,0 +1,31 @@
+{
+  "naics_code": "325413",
+  "naics_title": "In-Vitro Diagnostic Substance Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Diagnostic errors lead to wrong treatment decisions.",
+      "why_this_business": "In-vitro diagnostics produce results clinicians act on, with reagent lot performance determining accuracy. Manufacturing variation causes false results that lead directly to missed diagnoses or unnecessary treatment.",
+      "loss_scenario": "A reagent lot producing false results across every laboratory using it, with patients misdiagnosed and treatment decisions made on wrong information, plus recall and FDA action.",
+      "rhetorical_question": "How many patient results could be affected by a single reagent lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "FDA quality system requirements govern device manufacture.",
+      "why_this_business": "Diagnostic products are medical devices subject to FDA quality system requirements covering design controls, production, complaint handling, and corrective action, with the transition to the harmonised quality management system regulation underway. Records are inspected.",
+      "loss_scenario": "FDA observations and warning letters where quality system records cannot be produced, with consent decrees and import restrictions in serious cases that stop supply to laboratories.",
+      "rhetorical_question": "Could you produce design history and device master records during an FDA inspection?"
+    },
+    {
+      "rank": 3,
+      "headline": "Laboratories cannot test without your reagents.",
+      "why_this_business": "Clinical laboratories run assays on specific platforms with matched reagents, and substituting a different manufacturer requires validation. Supply interruption stops testing for the affected assays.",
+      "loss_scenario": "Laboratories unable to perform tests, delaying diagnosis and treatment decisions across their patient populations, with no alternative reagent available without validation.",
+      "rhetorical_question": "How long would a laboratory take to validate an alternative reagent?"
+    }
+  ]
+}

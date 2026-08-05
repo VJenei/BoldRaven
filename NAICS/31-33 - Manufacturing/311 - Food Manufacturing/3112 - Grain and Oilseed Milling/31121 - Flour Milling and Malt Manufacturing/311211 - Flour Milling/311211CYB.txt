@@ -1,0 +1,31 @@
+{
+  "naics_code": "311211",
+  "naics_title": "Flour Milling",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Flour recalls reach an enormous number of downstream products.",
+      "why_this_business": "Flour is an ingredient in thousands of finished products and is consumed raw in dough and batter, which is how E. coli and salmonella outbreaks linked to flour have occurred. Traceability from wheat receipt through milling to customer is the basis of any recall.",
+      "loss_scenario": "A contamination event where affected lots cannot be identified, expanding the recall across every customer and every product containing your flour, with recall costs borne by the mill.",
+      "rhetorical_question": "Could you identify every customer that received flour from a specific milling period?"
+    },
+    {
+      "rank": 2,
+      "headline": "Milling runs continuously with automated process control.",
+      "why_this_business": "Mills operate continuous cleaning, tempering, grinding, and sifting under process control, with product streams blended to specification. Restarting a mill and returning to specification takes hours and generates off-specification product.",
+      "loss_scenario": "Extended downtime on a continuous operation with customers on just-in-time delivery, plus off-specification flour produced during uncontrolled operation that cannot be sold to specification-driven bakery customers.",
+      "rhetorical_question": "How long does it take your mill to return to specification after an unplanned stop?"
+    },
+    {
+      "rank": 3,
+      "headline": "Grain dust explosion risk is managed by monitoring and control.",
+      "why_this_business": "Grain handling and milling generate combustible dust, with explosion prevention depending on dust collection, bearing temperature monitoring, and equipment interlocks. Grain facility explosions cause fatalities regularly.",
+      "loss_scenario": "A dust explosion destroying the facility with worker fatalities, OSHA enforcement, and a mill that takes years to rebuild while customers move permanently to competitors.",
+      "rhetorical_question": "How is bearing temperature and dust collection performance monitored across your mill?"
+    }
+  ]
+}

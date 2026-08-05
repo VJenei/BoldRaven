@@ -1,0 +1,31 @@
+{
+  "naics_code": "332813",
+  "naics_title": "Electroplating, Plating, Polishing, Anodizing, and Coloring",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Plating baths are controlled processes and losing control ruins parts.",
+      "why_this_business": "Plating lines run on controlled chemistry, current, and time, with automated hoists moving racks between tanks. Deviation produces parts with wrong thickness, poor adhesion, or contamination, visible only through testing.",
+      "loss_scenario": "Full production runs plated out of specification, with customer parts scrapped at their full accumulated value and the customer's assembly stopped.",
+      "rhetorical_question": "How are plating line parameters set and recorded per rack or lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Hydrogen embrittlement in high strength parts is fatal to the part.",
+      "why_this_business": "Plating high strength steel introduces hydrogen that must be baked out within a specified time after plating. Parts not baked in time fail without warning after installation, sometimes months later.",
+      "loss_scenario": "High strength parts not baked within the window, failing in service in vehicles, aircraft, or structures, with delayed failure making every part from the affected period suspect.",
+      "rhetorical_question": "How are plating completion and bake start times recorded for high strength parts?"
+    },
+    {
+      "rank": 3,
+      "headline": "The operation is heavily regulated for chemical and environmental risk.",
+      "why_this_business": "Plating uses cyanides, acids, chromium, and other regulated chemicals with wastewater pretreatment requirements, air permits, hazardous waste manifests, and monitoring obligations under federal and local rules.",
+      "loss_scenario": "Discharge exceedances or missed monitoring with permit violations and penalties, and in a release event, community exposure to plating chemicals with evacuation and emergency response.",
+      "rhetorical_question": "What continuous or periodic monitoring does your pretreatment permit require?"
+    }
+  ]
+}

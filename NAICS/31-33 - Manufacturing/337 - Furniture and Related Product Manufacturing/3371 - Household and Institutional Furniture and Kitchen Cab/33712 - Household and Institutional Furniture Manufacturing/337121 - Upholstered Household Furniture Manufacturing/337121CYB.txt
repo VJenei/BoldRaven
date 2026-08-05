@@ -1,0 +1,31 @@
+{
+  "naics_code": "337121",
+  "naics_title": "Upholstered Household Furniture Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Upholstered furniture is regulated for flammability.",
+      "why_this_business": "Upholstered furniture must meet the federal flammability standard 16 CFR 1640 based on California Technical Bulletin 117-2013, with a required label and records supporting compliance for every unit.",
+      "loss_scenario": "Furniture sold without supportable flammability compliance, with CPSC enforcement, recall from retail and consumers, and litigation where a fire involved the furniture.",
+      "rhetorical_question": "How do you document flammability compliance and labelling per production run?"
+    },
+    {
+      "rank": 2,
+      "headline": "Furniture tip-over and structural failures injure children.",
+      "why_this_business": "Furniture stability and structural integrity are CPSC concerns, with the STURDY Act establishing a mandatory stability standard for clothing storage units and a 24 hour reporting obligation for hazards generally.",
+      "loss_scenario": "A CPSC recall for a stability or structural hazard, with reach determined by distribution records and civil penalties where reporting was late.",
+      "rhetorical_question": "Could you identify which retailers received a specific production run?"
+    },
+    {
+      "rank": 3,
+      "headline": "Product is made to order in a mix of thousands of combinations.",
+      "why_this_business": "Upholstered furniture is built to selected frame, fabric, and configuration combinations for individual orders, with cutting patterns and fabric allocation driven by the order.",
+      "loss_scenario": "Orders lost or built wrong, with fabric cut and unusable, retailers unable to fulfil customer orders, and the delivery lead time restarting from zero on every affected order.",
+      "rhetorical_question": "How many active custom orders are in your production system at once?"
+    }
+  ]
+}

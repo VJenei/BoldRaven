@@ -1,0 +1,31 @@
+{
+  "naics_code": "322299",
+  "naics_title": "All Other Converted Paper Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Converted products are made to customer specification.",
+      "why_this_business": "Converters produce to customer dimensions, materials, and printing for specific applications, with job specifications driving setup and run parameters. Products are components in customers' operations.",
+      "loss_scenario": "Wrong specification production unsaleable elsewhere, with customers whose own production or packaging depends on the component halted.",
+      "rhetorical_question": "What proportion of your output is made to individual customer specification?"
+    },
+    {
+      "rank": 2,
+      "headline": "Food and medical contact applications carry compliance duties.",
+      "why_this_business": "Converted papers used in food packaging and medical applications must meet material and cleanliness requirements with documentation supporting customer compliance obligations.",
+      "loss_scenario": "Non-conforming material entering food or medical packaging, with recall at the customer level and the converter identified as the source of the compliance failure.",
+      "rhetorical_question": "Do your products contact food or medical materials?"
+    },
+    {
+      "rank": 3,
+      "headline": "Converting equipment is programme driven with tight tolerances.",
+      "why_this_business": "Slitting, die cutting, laminating, and finishing run from job data controlling dimensions and registration. Tolerances are tight where products feed into customer automated equipment.",
+      "loss_scenario": "Out of tolerance product jamming customer automated equipment, with their line stoppages claimed against the converter alongside the material cost.",
+      "rhetorical_question": "Do your products feed customer automated equipment requiring tight dimensional tolerance?"
+    }
+  ]
+}

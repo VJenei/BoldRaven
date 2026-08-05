@@ -1,0 +1,31 @@
+{
+  "naics_code": "325613",
+  "naics_title": "Surface Active Agent Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Surfactants are ingredients in thousands of downstream products.",
+      "why_this_business": "Surfactants are supplied to detergent, personal care, and industrial manufacturers who formulate them into finished products. A specification or contamination problem propagates into every product containing the material.",
+      "loss_scenario": "Off-specification or contaminated surfactant reaching consumer and industrial products, with recall cascading through customers' finished goods and claims from every manufacturer affected.",
+      "rhetorical_question": "How many customer products could contain a single lot of your material?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ethoxylation and sulfonation are hazardous reactions.",
+      "why_this_business": "Surfactant manufacture involves ethylene oxide and sulfur trioxide chemistry, both extremely hazardous. Ethylene oxide is flammable, explosive, and carcinogenic with strict exposure limits and emissions controls.",
+      "loss_scenario": "An ethylene oxide release or explosion, which is a catastrophic event with community exposure to a known carcinogen and regulatory response that has closed facilities permanently.",
+      "rhetorical_question": "Do you handle ethylene oxide, and how are emissions and exposure monitored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Product specification is qualified into customer formulations.",
+      "why_this_business": "Customers formulate around surfactant properties including active content, distribution, and impurity profile, qualifying suppliers into their products. Substitution requires reformulation and retesting.",
+      "loss_scenario": "Customers reformulating or qualifying alternative suppliers during an interruption, which permanently removes the business given the cost of requalification.",
+      "rhetorical_question": "How long would a customer take to qualify an alternative surfactant supplier?"
+    }
+  ]
+}

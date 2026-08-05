@@ -1,0 +1,31 @@
+{
+  "naics_code": "423140",
+  "naics_title": "Motor Vehicle Parts (Used) Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal reporting on salvage vehicles is mandatory and traceable.",
+      "why_this_business": "Salvage yards and used parts operations must report vehicles obtained for salvage or dismantling to the National Motor Vehicle Title Information System monthly. Inventory systems hold VIN, part, and donor vehicle records. Stolen vehicle and chop shop investigations run directly against these records.",
+      "loss_scenario": "Failure to report or produce NMVTIS records draws federal and state enforcement, and an inability to demonstrate lawful acquisition of donor vehicles raises the presumption of trafficking in stolen property.",
+      "rhetorical_question": "How do you maintain and submit your NMVTIS salvage reporting?"
+    },
+    {
+      "rank": 2,
+      "headline": "Parts are sold through interchange systems that must know what you have.",
+      "why_this_business": "Used parts are sold nationally through interchange and locator networks that publish live inventory to body shops and other yards. Part grading, donor mileage, and interchange numbers determine whether the part fits and what it is worth. If you are not in the network you do not get the order.",
+      "loss_scenario": "Loss of inventory visibility removes you from the locator network, sending orders to competing yards while your inventory sits.",
+      "rhetorical_question": "Which parts locator networks publish your inventory?"
+    },
+    {
+      "rank": 3,
+      "headline": "Environmental compliance is documented per vehicle.",
+      "why_this_business": "Dismantling requires removal and documented handling of fuel, oil, refrigerant, mercury switches, and airbags, with refrigerant recovery by certified technicians and records retained. State permits impose fluid management and stormwater obligations verified from records.",
+      "loss_scenario": "Environmental enforcement for handling that cannot be evidenced, plus stormwater violations assessed per day, on a site where contamination remediation cost can exceed the value of the business.",
+      "rhetorical_question": "How do you record fluid and refrigerant recovery for each vehicle processed?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "562219",
+  "naics_title": "Other Nonhazardous Waste Treatment and Disposal",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Treatment processes are permitted and monitored.",
+      "why_this_business": "Facilities in this category operate treatment, composting, and processing operations under permits specifying acceptance criteria, process controls, and monitoring. Odour, leachate, and runoff are permit conditions monitored continuously.",
+      "loss_scenario": "Permit exceedances and nuisance complaints, with enforcement assessed per day and, for odour in particular, sustained community and political pressure that threatens the operating permit.",
+      "rhetorical_question": "What monitoring do your permits require, and how is that data captured?"
+    },
+    {
+      "rank": 2,
+      "headline": "Acceptance records establish what you took and from whom.",
+      "why_this_business": "Facilities must document incoming loads, verify they meet acceptance criteria, and reject prohibited materials. Those records establish that unpermitted waste was not accepted and identify the generator if it was.",
+      "loss_scenario": "Prohibited waste accepted without record, leaving the facility unable to identify the generator and bearing the disposal and remediation liability itself.",
+      "rhetorical_question": "How do you document load inspection and acceptance decisions?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer contracts guarantee outlet capacity.",
+      "why_this_business": "Generators and haulers contract for guaranteed disposal capacity, planning their operations around it. Alternatives are limited and frequently much further away.",
+      "loss_scenario": "Customers without a disposal outlet, incurring long-haul costs to alternative facilities and claiming the difference against the contracted facility.",
+      "rhetorical_question": "How far would your customers have to haul if your facility could not accept material?"
+    }
+  ]
+}

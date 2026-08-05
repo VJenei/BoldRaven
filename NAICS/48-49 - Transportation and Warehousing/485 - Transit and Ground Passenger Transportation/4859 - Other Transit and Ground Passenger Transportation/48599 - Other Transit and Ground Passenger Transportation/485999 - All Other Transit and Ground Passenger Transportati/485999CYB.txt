@@ -1,0 +1,31 @@
+{
+  "naics_code": "485999",
+  "naics_title": "All Other Transit and Ground Passenger Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Booking and dispatch platforms are the whole operation.",
+      "why_this_business": "Shuttle, airport transfer, and specialised passenger services run on reservation and dispatch platforms that assign vehicles, communicate with drivers, and process payment. Passengers book in advance for time-critical connections.",
+      "loss_scenario": "Passengers missing flights and connections with no record of their booking, generating refunds and claims for the value of what they missed rather than the fare.",
+      "rhetorical_question": "How many of your passengers are travelling to catch a flight or connection?"
+    },
+    {
+      "rank": 2,
+      "headline": "Contract services carry performance obligations to institutional clients.",
+      "why_this_business": "Operators in this category frequently serve hotels, hospitals, universities, and employers under contracts with defined service levels, reporting, and vehicle and driver requirements. The client's own customers or staff depend on the service.",
+      "loss_scenario": "Service level failures triggering contract remedies and termination, on contracts that represent the predictable base revenue supporting the fleet.",
+      "rhetorical_question": "What service level commitments do your institutional contracts carry?"
+    },
+    {
+      "rank": 3,
+      "headline": "Passenger and payment data accumulates across a large transient customer base.",
+      "why_this_business": "Operators hold passenger names, contact details, pickup addresses, flight information, and stored payment methods across a high volume of one-time and repeat customers, often retained indefinitely.",
+      "loss_scenario": "Breach notification across a customer base spanning many states, with the cost driven by the number of records rather than the size of the operator.",
+      "rhetorical_question": "How many years of passenger booking records are held in your system?"
+    }
+  ]
+}

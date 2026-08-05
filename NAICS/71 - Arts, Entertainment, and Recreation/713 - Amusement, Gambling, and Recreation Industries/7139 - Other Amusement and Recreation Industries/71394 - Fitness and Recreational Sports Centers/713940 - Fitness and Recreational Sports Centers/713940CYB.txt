@@ -1,0 +1,31 @@
+{
+  "naics_code": "713940",
+  "naics_title": "Fitness and Recreational Sports Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Recurring membership billing holds payment credentials indefinitely.",
+      "why_this_business": "Gyms operate on recurring monthly billing to stored cards and bank accounts, with members enrolled for years and cancellation processes that keep records long after membership ends. Membership bases run into thousands per location.",
+      "loss_scenario": "Compromise of stored payment credentials across a large membership base, with card brand assessments, notification, and the cancellation wave that follows a billing breach at a gym.",
+      "rhetorical_question": "How many members have payment methods stored for recurring billing?"
+    },
+    {
+      "rank": 2,
+      "headline": "Access control and biometrics identify members entering the facility.",
+      "why_this_business": "Facilities use keycards, mobile access, and increasingly fingerprint or facial recognition for entry, with 24-hour locations relying entirely on access control with no staff present. Several states regulate biometric data with statutory damages per person.",
+      "loss_scenario": "Biometric data exposure carrying statutory damages under state biometric privacy laws, and access control compromise permitting unauthorised entry to unstaffed facilities overnight.",
+      "rhetorical_question": "Do you use fingerprint or facial recognition for member access?"
+    },
+    {
+      "rank": 3,
+      "headline": "Health information is collected during onboarding.",
+      "why_this_business": "Members complete health questionnaires, fitness assessments, and in some facilities body composition and medical screening, alongside personal training records documenting conditions and injuries.",
+      "loss_scenario": "Exposure of member health information and body composition data, which is personally sensitive and, where medical screening is involved, may engage health privacy expectations members reasonably held.",
+      "rhetorical_question": "What health information do you collect from members at sign-up?"
+    }
+  ]
+}

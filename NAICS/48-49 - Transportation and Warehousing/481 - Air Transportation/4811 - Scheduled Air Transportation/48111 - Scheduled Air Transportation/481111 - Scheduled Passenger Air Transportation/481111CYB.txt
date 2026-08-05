@@ -1,0 +1,31 @@
+{
+  "naics_code": "481111",
+  "naics_title": "Scheduled Passenger Air Transportation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Airlines cannot dispatch aircraft without their operational systems.",
+      "why_this_business": "Flight planning, weight and balance, crew scheduling, maintenance release, and dispatch release are all system-generated and legally required before a flight departs. An aircraft cannot lawfully dispatch without a signed dispatch release and current weight and balance. Airlines have grounded entire fleets over failures in these systems.",
+      "loss_scenario": "A ground stop across a fleet cascades for days as aircraft and crews end up out of position. A major carrier loses tens of millions per day of disruption, plus rebooking, accommodation, and DOT consumer protection obligations.",
+      "rhetorical_question": "Which systems must be working before you can legally dispatch a flight?"
+    },
+    {
+      "rank": 2,
+      "headline": "TSA imposes mandatory cybersecurity requirements on aircraft operators.",
+      "why_this_business": "TSA issued cybersecurity requirements for TSA-regulated aircraft operators requiring network segmentation between information and operational technology, access controls, continuous monitoring, and timely patching, together with a TSA-approved implementation plan and assessment programme. These are enforceable security directives, not guidance.",
+      "loss_scenario": "TSA enforcement action and civil penalties, plus the operational consequence of being required to remediate under a mandated timeline while flying.",
+      "rhetorical_question": "Do you hold a TSA-approved cybersecurity implementation plan?"
+    },
+    {
+      "rank": 3,
+      "headline": "Passenger data includes identity documents and travel patterns.",
+      "why_this_business": "Airlines hold passenger name records with names, dates of birth, passport and identity document numbers, payment cards, frequent flyer balances, and complete travel histories. Loyalty accounts hold transferable value that converts quickly.",
+      "loss_scenario": "Breach notification across millions of passengers spanning multiple jurisdictions, plus loyalty account takeover draining miles that must be reinstated at the airline's cost.",
+      "rhetorical_question": "How many passenger records with passport or identity document data do you hold?"
+    }
+  ]
+}

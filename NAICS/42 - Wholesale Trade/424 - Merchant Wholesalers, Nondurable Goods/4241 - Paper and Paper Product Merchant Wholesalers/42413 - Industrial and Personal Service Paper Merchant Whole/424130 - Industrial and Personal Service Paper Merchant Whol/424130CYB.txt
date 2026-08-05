@@ -1,0 +1,31 @@
+{
+  "naics_code": "424130",
+  "naics_title": "Industrial and Personal Service Paper Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Facility customers run out of consumables and stop functioning.",
+      "why_this_business": "Distributors supply sanitary paper, packaging, and disposables to facilities, food service, and healthcare on regular replenishment schedules. Customers hold small inventory and depend on the delivery cycle. Restrooms and food service operations cannot run without these supplies.",
+      "loss_scenario": "Missed replenishment across a route network, with healthcare and food service customers facing operational and inspection consequences and switching supplier quickly.",
+      "rhetorical_question": "How often do you replenish your customers, and how much stock do they hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Packaging is specified and printed to the customer.",
+      "why_this_business": "Custom printed packaging, bags, and film are produced to a customer's artwork and specification with lead times and minimum runs. Artwork files, plate records, and specification history sit with the distributor.",
+      "loss_scenario": "Lost artwork and specification records mean reordering requires new plates and approvals, adding weeks and cost while the customer runs out of packaging and stops shipping product.",
+      "rhetorical_question": "Do you hold customer artwork and packaging specifications for repeat orders?"
+    },
+    {
+      "rank": 3,
+      "headline": "Low margin distribution depends entirely on system efficiency.",
+      "why_this_business": "This is a high volume, low margin business where profitability comes from route density, pick efficiency, and inventory turns, all managed by software. There is no margin cushion to absorb manual operation.",
+      "loss_scenario": "An outage converts a thin-margin operation into a loss-making one immediately, and the working capital cycle does not pause for the disruption.",
+      "rhetorical_question": "What is your net margin, and how many days of disruption would erase a quarter of profit?"
+    }
+  ]
+}

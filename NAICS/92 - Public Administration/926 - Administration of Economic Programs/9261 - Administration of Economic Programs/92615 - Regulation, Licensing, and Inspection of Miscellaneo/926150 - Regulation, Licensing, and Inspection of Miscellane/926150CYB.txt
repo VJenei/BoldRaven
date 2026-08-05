@@ -1,0 +1,31 @@
+{
+  "naics_code": "926150",
+  "naics_title": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Licensing records determine who may lawfully practise or operate.",
+      "why_this_business": "Agencies license professionals and businesses, holding application data, examination results, disciplinary histories, and current standing. Employers, the public, and other regulators rely on licence verification.",
+      "loss_scenario": "Licence verification unavailable, with employers unable to confirm standing and licensees unable to demonstrate qualifications, plus exposure of disciplinary records that affect individuals' careers directly.",
+      "rhetorical_question": "How many licensees rely on your records to demonstrate their standing?"
+    },
+    {
+      "rank": 2,
+      "headline": "Applications contain personal and financial information.",
+      "why_this_business": "Licensing applications collect Social Security numbers, background check results, financial disclosures, and in some professions medical and substance use history relevant to fitness to practise.",
+      "loss_scenario": "Exposure of licensee background, financial, and health information, which for professionals is career-affecting and was submitted under statutory compulsion as a condition of licensure.",
+      "rhetorical_question": "What background and health information do your applications require?"
+    },
+    {
+      "rank": 3,
+      "headline": "Inspection and enforcement records support regulatory action.",
+      "why_this_business": "Agencies conduct inspections and investigations producing findings, evidence, and enforcement records used to support licence action and prosecution, subject to due process requirements.",
+      "loss_scenario": "Enforcement actions failing where the evidentiary record cannot be produced, with unfit licensees remaining in practice and the agency unable to sustain action already commenced.",
+      "rhetorical_question": "Could you produce the complete investigation record for an enforcement action from three years ago?"
+    }
+  ]
+}

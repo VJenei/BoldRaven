@@ -1,0 +1,31 @@
+{
+  "naics_code": "326111",
+  "naics_title": "Plastics Bag and Pouch Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Food contact packaging carries compliance and traceability duties.",
+      "why_this_business": "Bags and pouches in direct food contact must meet food contact material requirements, with resin and additive compliance documented. Customers rely on that documentation for their own food safety programmes.",
+      "loss_scenario": "Non-compliant packaging in food contact, with recall reaching packaged food products and the packaging manufacturer identified as the source of the compliance failure.",
+      "rhetorical_question": "Do your products contact food directly, and how is material compliance documented?"
+    },
+    {
+      "rank": 2,
+      "headline": "Printed film carries customers' regulated label content.",
+      "why_this_business": "Printed bags and pouches carry ingredient and allergen declarations, drug facts, and regulatory markings. Printing superseded artwork puts wrong regulated information onto the packaged product.",
+      "loss_scenario": "Packaging printed with wrong allergen or ingredient information, packed and distributed, requiring recall of the finished food product with injury exposure where allergens were misdeclared.",
+      "rhetorical_question": "How is artwork version controlled from customer approval to the press?"
+    },
+    {
+      "rank": 3,
+      "headline": "Extrusion and converting run continuously with product in process.",
+      "why_this_business": "Blown film extrusion, printing, and converting run continuously with film in process across the line. Extruders operate at high temperature and product in process is scrapped on any stop.",
+      "loss_scenario": "Product in process lost on line stops plus resin consumed producing waste, and customers whose packaging supply is interrupted unable to ship their own product.",
+      "rhetorical_question": "How much film is in process across your line at any moment?"
+    }
+  ]
+}

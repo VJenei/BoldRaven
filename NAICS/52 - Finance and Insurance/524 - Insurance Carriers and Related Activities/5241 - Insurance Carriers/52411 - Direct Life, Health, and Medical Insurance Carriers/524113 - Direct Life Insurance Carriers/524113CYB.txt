@@ -1,0 +1,31 @@
+{
+  "naics_code": "524113",
+  "naics_title": "Direct Life Insurance Carriers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Underwriting files contain medical history you keep for decades.",
+      "why_this_business": "Life underwriting collects medical questionnaires, attending physician statements, laboratory results, prescription histories, and MIB data. Policies remain in force for decades, so the file is retained far longer than in most industries and covers the insured's health at the time of application and beyond.",
+      "loss_scenario": "A breach exposing medical underwriting data affects policyholders who disclosed conditions confidentially, some of which they have not disclosed elsewhere. State insurance data security laws impose notification and programme requirements on top of general breach law.",
+      "rhetorical_question": "How many years of underwriting files with medical information do you retain?"
+    },
+    {
+      "rank": 2,
+      "headline": "State insurance data security laws impose their own regime.",
+      "why_this_business": "Most states have adopted insurance data security laws based on the NAIC model, requiring a written information security programme, risk assessment, board oversight, third-party service provider oversight, and notification of cybersecurity events to the insurance commissioner, typically within 72 hours.",
+      "loss_scenario": "Notification to multiple state insurance departments on short deadlines, with market conduct examination following, separate from any general breach notification obligation.",
+      "rhetorical_question": "In how many states are you licensed, and what are their cybersecurity event notification deadlines?"
+    },
+    {
+      "rank": 3,
+      "headline": "Policy values and beneficiary changes are targets for fraud.",
+      "why_this_business": "Life policies accumulate cash value that can be borrowed or surrendered, and beneficiary designations can be changed on request. Both are executed on instructions received remotely from policyholders who may be elderly.",
+      "loss_scenario": "Fraudulent surrenders, loans, or beneficiary changes executed against compromised accounts, with the carrier obliged to make the true policyholder or beneficiary whole and facing regulatory attention to senior exploitation.",
+      "rhetorical_question": "How do you authenticate a request to change a beneficiary or surrender a policy?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "562920",
+  "naics_title": "Materials Recovery Facilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Sorting lines are automated and stop the whole facility when they fail.",
+      "why_this_business": "Modern recovery facilities use optical sorters, robotics, eddy current separators, and conveyor control to separate commingled material at high throughput. Manual sorting achieves a fraction of the rate and cannot handle the incoming volume.",
+      "loss_scenario": "Incoming material accumulating faster than it can be processed, with tipping floor capacity exceeded within a day and collection vehicles turned away, backing up across the whole collection network.",
+      "rhetorical_question": "How many hours of tipping floor capacity do you have if the sorting line stops?"
+    },
+    {
+      "rank": 2,
+      "headline": "Commodity sales settle on quality specifications.",
+      "why_this_business": "Recovered materials are sold to mills and processors against specifications for contamination and composition, with loads rejected or downgraded for excess contamination. Quality data and bale records support the sale and any dispute.",
+      "loss_scenario": "Rejected loads returned at your cost, and contamination disputes resolved against you without quality records, on commodities where the margin between revenue and disposal cost is narrow.",
+      "rhetorical_question": "How is outbound bale quality documented for your buyers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Diversion reporting supports municipal contracts and mandates.",
+      "why_this_business": "Facilities report tonnage received, recovered, and residual to municipalities and state agencies, supporting diversion mandates and contract payment. Those figures are audited and drive host community obligations.",
+      "loss_scenario": "Contract payment withheld and compliance findings where tonnage and diversion data cannot be produced, on municipal contracts that represent the guaranteed volume the facility was built around.",
+      "rhetorical_question": "What diversion reporting do your municipal contracts require?"
+    }
+  ]
+}

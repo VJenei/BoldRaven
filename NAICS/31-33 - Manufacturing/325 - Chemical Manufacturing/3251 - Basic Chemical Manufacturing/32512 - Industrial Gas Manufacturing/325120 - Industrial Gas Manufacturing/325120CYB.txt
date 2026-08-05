@@ -1,0 +1,31 @@
+{
+  "naics_code": "325120",
+  "naics_title": "Industrial Gas Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Medical oxygen supply is a patient safety dependency.",
+      "why_this_business": "Industrial gas producers supply medical oxygen to hospitals and home care patients, regulated as a drug by FDA with cGMP requirements. Hospitals and home patients depend on continuous supply, and patients on home oxygen have hours of reserve.",
+      "loss_scenario": "Medical oxygen supply interrupted to hospitals and home patients, which is a life safety event for patients who cannot breathe without it, with regulatory and liability consequences beyond the commercial loss.",
+      "rhetorical_question": "How many home oxygen patients and hospitals depend on your delivery schedule?"
+    },
+    {
+      "rank": 2,
+      "headline": "Air separation units run continuously and restart slowly.",
+      "why_this_business": "Cryogenic air separation runs continuously at very low temperature, with restart after a trip requiring cooldown taking days. Plants supply pipeline customers and merchant liquid distribution simultaneously.",
+      "loss_scenario": "Multi-day outage with pipeline customers, including steel and chemical plants, unable to operate, and merchant liquid customers including hospitals drawing down reserves.",
+      "rhetorical_question": "How many days does an air separation unit take to restart from a full trip?"
+    },
+    {
+      "rank": 3,
+      "headline": "Gas identity and purity errors are fatal.",
+      "why_this_business": "Cylinder filling and distribution must ensure the right gas at the right purity in the right cylinder, with cross-connection and mislabelling being the failure mode. A cylinder labelled as oxygen containing nitrogen kills the patient who receives it.",
+      "loss_scenario": "A mislabelled or cross-filled medical gas cylinder causing patient death, which has occurred in this industry and produces FDA action, criminal investigation, and recall of every cylinder from the affected filling period.",
+      "rhetorical_question": "How is gas identity verified before a cylinder is labelled and released?"
+    }
+  ]
+}

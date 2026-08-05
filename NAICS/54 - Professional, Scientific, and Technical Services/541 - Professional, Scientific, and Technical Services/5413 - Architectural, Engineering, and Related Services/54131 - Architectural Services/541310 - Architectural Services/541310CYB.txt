@@ -1,0 +1,31 @@
+{
+  "naics_code": "541310",
+  "naics_title": "Architectural Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Building drawings describe how to attack the building.",
+      "why_this_business": "Architects hold complete drawing sets and models for buildings including security systems, access routes, structural details, and utility locations. For government, healthcare, financial, and critical infrastructure projects that information is sensitive and frequently subject to contractual confidentiality or federal safeguarding requirements.",
+      "loss_scenario": "Third-party liability to owners for disclosed building information, with the security exposure impossible to remediate once the building exists, and loss of eligibility for sensitive project work.",
+      "rhetorical_question": "How many completed buildings' full drawing sets are held on your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "BIM models are the coordinated design that everyone builds from.",
+      "why_this_business": "Building information models integrate architectural, structural, and mechanical design and are shared with consultants, contractors, and fabricators through cloud platforms. Fabrication and prefabrication run directly from the model.",
+      "loss_scenario": "Loss or corruption of the model stops coordination and fabrication across every trade, and errors propagated from a corrupted model are built before they are discovered.",
+      "rhetorical_question": "How many external parties have access to your live project models?"
+    },
+    {
+      "rank": 3,
+      "headline": "Professional liability follows the drawings for years.",
+      "why_this_business": "Architects carry professional liability for design decisions with statutes of repose running many years after substantial completion. Defending a claim requires the project record, calculations, correspondence, and the drawings as issued.",
+      "loss_scenario": "A design defect claim years later that cannot be defended without the project record, in circumstances where the absence of documentation is treated as an admission.",
+      "rhetorical_question": "How long after completion do you retain full project records, and where?"
+    }
+  ]
+}

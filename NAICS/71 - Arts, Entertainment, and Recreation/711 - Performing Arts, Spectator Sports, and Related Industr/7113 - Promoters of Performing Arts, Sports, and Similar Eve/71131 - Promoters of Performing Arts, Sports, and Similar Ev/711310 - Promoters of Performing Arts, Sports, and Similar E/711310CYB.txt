@@ -1,0 +1,31 @@
+{
+  "naics_code": "711310",
+  "naics_title": "Promoters of Performing Arts, Sports, and Similar Events with Facilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Ticketing platforms concentrate enormous volumes of customer data.",
+      "why_this_business": "Venues sell through ticketing systems holding customer identity, payment methods, and event attendance histories. A 2024 breach affecting a major ticketing provider was reported to involve data associated with hundreds of millions of customers, accessed through a cloud account without multi-factor authentication.",
+      "loss_scenario": "Notification across a customer base measured in millions, with the venue carrying the audience relationship and regulatory attention regardless of whether the platform or the venue was breached.",
+      "rhetorical_question": "Which ticketing platform holds your customer data, and is multi-factor authentication enforced on it?"
+    },
+    {
+      "rank": 2,
+      "headline": "Events happen on a fixed date with thousands of people arriving.",
+      "why_this_business": "Venue operations depend on ticketing, access control, point of sale, and building systems all functioning on event night. Doors open at a fixed time and the crowd arrives whether the systems work or not.",
+      "loss_scenario": "A sold-out event where patrons cannot be admitted, which becomes a crowd safety situation, plus refunds, artist guarantees payable regardless, and lost concession and parking revenue.",
+      "rhetorical_question": "What is your plan if access control fails 30 minutes before doors on a sold-out night?"
+    },
+    {
+      "rank": 3,
+      "headline": "Settlement with artists and promoters happens after every show.",
+      "why_this_business": "Venues settle with artists and promoters against box office receipts, expenses, and contractual guarantees immediately after each event, with substantial sums moving by wire on the night or shortly after.",
+      "loss_scenario": "Diverted settlement payments and unresolvable box office reconciliation, with artists and promoters unpaid and future bookings at risk in a relationship-driven industry.",
+      "rhetorical_question": "How are post-show settlement payments calculated and transmitted?"
+    }
+  ]
+}

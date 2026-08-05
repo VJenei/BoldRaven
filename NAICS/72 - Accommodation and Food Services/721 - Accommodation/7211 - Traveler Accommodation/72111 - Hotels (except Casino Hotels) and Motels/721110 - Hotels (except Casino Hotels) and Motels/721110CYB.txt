@@ -1,0 +1,31 @@
+{
+  "naics_code": "721110",
+  "naics_title": "Hotels (except Casino Hotels) and Motels",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Hotel guest databases have produced some of the largest breaches on record.",
+      "why_this_business": "The Marriott and Starwood breach disclosed in 2018 involved the guest reservation database and affected hundreds of millions of records including passport numbers, resulting in regulatory fines and a multi-state settlement. Hotels hold identity, passport, payment, and stay history data at enormous scale and retain it for years.",
+      "loss_scenario": "Notification across a guest base spanning countries, with passport data exposure engaging foreign regulators alongside US state law, card brand liability, and settlements that in this sector have reached the tens of millions.",
+      "rhetorical_question": "How many years of guest records with passport and payment data do you retain?"
+    },
+    {
+      "rank": 2,
+      "headline": "Property management and key systems control physical access to rooms.",
+      "why_this_business": "The property management system drives reservations, check-in, folio charging, and electronic key encoding. Room keys are issued by that system, and door locks are managed through it. Guests cannot check in or enter rooms without it.",
+      "loss_scenario": "A full hotel unable to check guests in or issue keys, with guests arriving after travel and no manual alternative at scale, plus unauthorised key issuance being a guest safety exposure.",
+      "rhetorical_question": "How would you check in and issue room keys if your property management system failed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Franchise and brand standards impose security requirements.",
+      "why_this_business": "Franchised properties operate under brand standards specifying systems, PCI compliance, and increasingly data security requirements, with the brand holding audit rights. Guest data flows to brand reservation and loyalty systems.",
+      "loss_scenario": "Brand action for standards failures alongside the breach, and where guest data flowed to brand systems, questions of responsibility between franchisee and franchisor that are resolved in litigation.",
+      "rhetorical_question": "What data security requirements does your franchise agreement impose?"
+    }
+  ]
+}

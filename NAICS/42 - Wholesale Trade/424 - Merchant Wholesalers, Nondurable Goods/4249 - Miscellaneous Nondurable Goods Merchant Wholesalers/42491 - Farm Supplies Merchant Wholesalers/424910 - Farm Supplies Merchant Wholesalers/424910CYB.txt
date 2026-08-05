@@ -1,0 +1,31 @@
+{
+  "naics_code": "424910",
+  "naics_title": "Farm Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The FBI specifically warned that attacks are timed to planting and harvest.",
+      "why_this_business": "The FBI notification of April 2022 identified attacks on agricultural cooperatives timed to critical seasons, including a March 2022 Lockbit 2.0 attack on a multi-state company that also supplied seed, fertiliser, and logistics ahead of spring planting. Farm supply is the identified target, not a bystander.",
+      "loss_scenario": "An outage during the prepay and delivery window before planting leaves growers without seed, fertiliser, or chemical at the only time it can be applied, and the yield consequence is claimed against the retailer.",
+      "rhetorical_question": "What proportion of your annual volume moves in the weeks before planting?"
+    },
+    {
+      "rank": 2,
+      "headline": "Fertiliser and chemical storage carries security and reporting duties.",
+      "why_this_business": "Anhydrous ammonia and other fertilisers are subject to EPA risk management planning, DHS reporting for ammonium nitrate, and community right to know reporting of stored quantities. Restricted use pesticides require licensed purchaser verification and sales records.",
+      "loss_scenario": "Regulatory enforcement for sales and inventory records that cannot be produced, plus a security exposure where inventory data reveals quantities and locations of materials of concern.",
+      "rhetorical_question": "How do you record restricted use pesticide sales and applicator licence verification?"
+    },
+    {
+      "rank": 3,
+      "headline": "Prepay balances mean you are holding growers' money.",
+      "why_this_business": "Growers prepay inputs in the autumn for spring delivery, leaving large customer credit balances on the books through the winter. Those balances are unsecured claims against the retailer and are tracked entirely in the accounting system.",
+      "loss_scenario": "Loss of prepay records leaves disputes over what each grower is owed in product, at the moment they need it, with no independent record on the grower's side either.",
+      "rhetorical_question": "What is the total value of customer prepay balances you hold over winter?"
+    }
+  ]
+}

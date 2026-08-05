@@ -1,0 +1,31 @@
+{
+  "naics_code": "921120",
+  "naics_title": "Legislative Bodies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Constituent communications contain personal circumstances.",
+      "why_this_business": "Legislative offices receive constituent correspondence describing immigration matters, benefit problems, medical circumstances, and disputes with agencies, along with casework files containing supporting documentation.",
+      "loss_scenario": "Exposure of constituent casework revealing immigration status, benefit receipt, and medical circumstances for identified individuals who wrote to their representative for help.",
+      "rhetorical_question": "What personal circumstances do constituents disclose in casework correspondence?"
+    },
+    {
+      "rank": 2,
+      "headline": "Legislative deliberation and drafting is confidential before introduction.",
+      "why_this_business": "Bill drafts, amendments, negotiation positions, and internal analysis are developed before public introduction. Advance knowledge of legislative direction has commercial value to affected industries.",
+      "loss_scenario": "Disclosure of draft legislation and negotiating positions before introduction, which undermines the legislative process and can advantage parties with commercial interests in the outcome.",
+      "rhetorical_question": "Do your systems hold draft legislation not yet publicly introduced?"
+    },
+    {
+      "rank": 3,
+      "headline": "Political organisations at this level are targeted by state actors.",
+      "why_this_business": "Legislative bodies and their members are targets for foreign intelligence collection and influence operations, with communications sought for intelligence value and for release timed to political effect.",
+      "loss_scenario": "Exfiltration and publication of internal communications by a state actor, which cannot be negotiated with and which is released for political impact rather than financial gain.",
+      "rhetorical_question": "Has your body received a threat briefing on foreign targeting of legislative institutions?"
+    }
+  ]
+}

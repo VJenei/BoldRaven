@@ -1,0 +1,31 @@
+{
+  "naics_code": "713950",
+  "naics_title": "Bowling Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Scoring, lane control, and point of sale run as one system.",
+      "why_this_business": "Centres operate integrated scoring, lane management, reservations, and point of sale, with leagues, parties, and open play all booked and charged through it. Lanes cannot be assigned or scored without the system.",
+      "loss_scenario": "The centre cannot operate lanes or take payment, with leagues and party bookings unable to proceed on scheduled nights that represent the reliable revenue base.",
+      "rhetorical_question": "Could you run league night if your scoring and lane system were unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "League play is the revenue backbone and it is scheduled by season.",
+      "why_this_business": "Leagues commit for full seasons with standings, handicaps, averages, and payouts tracked across weeks. Bowlers' averages carry across seasons and determine handicaps and prize eligibility.",
+      "loss_scenario": "Loss of league standings and averages mid-season, which cannot be reconstructed and undermines prize distribution and handicap calculation for hundreds of bowlers.",
+      "rhetorical_question": "How many weeks of league standings and averages are held in your system?"
+    },
+    {
+      "rank": 3,
+      "headline": "Party bookings and customer data include minors.",
+      "why_this_business": "Centres book birthday parties and youth leagues, holding parent contact details, payment methods, and children's names and ages, with events scheduled weeks ahead.",
+      "loss_scenario": "Payment data exposure alongside children's booking details, and lost bookings for dated parties that families planned around.",
+      "rhetorical_question": "How many dated party bookings are you holding at any time?"
+    }
+  ]
+}

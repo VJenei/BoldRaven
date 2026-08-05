@@ -1,0 +1,31 @@
+{
+  "naics_code": "325193",
+  "naics_title": "Ethyl Alcohol Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fermentation and distillation run continuously with fire risk.",
+      "why_this_business": "Ethanol plants run continuous fermentation, distillation, and dehydration producing a flammable liquid at large scale, with distillation columns, storage tanks, and loading racks all handling flammable material under control.",
+      "loss_scenario": "Fire or explosion in distillation or storage destroying plant sections, with a rebuild measured in many months and the plant's contracted ethanol supply unmet throughout.",
+      "rhetorical_question": "How are your distillation and storage systems monitored and interlocked?"
+    },
+    {
+      "rank": 2,
+      "headline": "Renewable fuel credits depend on documented production.",
+      "why_this_business": "Ethanol production generates renewable identification numbers under the Renewable Fuel Standard, with generation tied to documented feedstock, production volume, and pathway compliance. Those credits are a substantial component of plant revenue.",
+      "loss_scenario": "Credits that cannot be substantiated are invalidated with EPA enforcement, and RIN fraud has produced criminal prosecutions in this industry, so documentation failures attract serious attention.",
+      "rhetorical_question": "How is RIN generation documented against production and feedstock records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Grain procurement and co-product sales run against markets.",
+      "why_this_business": "Plants buy corn and sell ethanol and distillers grains, with margin determined by the spread across three markets and managed with futures positions. Grain receiving, storage, and co-product loading run continuously.",
+      "loss_scenario": "Unmanaged crush margin exposure through a market move, plus grain receiving and co-product loading stopped, which backs up both grower deliveries and feed customers.",
+      "rhetorical_question": "How is your crush margin position tracked and hedged?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "522110",
+  "naics_title": "Commercial Banking",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal regulators require notification of a serious incident within 36 hours.",
+      "why_this_business": "Banking agencies require a banking organisation to notify its primary federal regulator within 36 hours of determining that a computer-security incident has materially disrupted or degraded, or is reasonably likely to, its operations, ability to deliver products, or the stability of the financial sector. Service providers must notify affected bank customers as well.",
+      "loss_scenario": "A missed notification is a supervisory finding in its own right, and the incident then draws examination of the entire information security programme under the interagency guidelines.",
+      "rhetorical_question": "Who in your organisation is responsible for making a 36-hour regulatory notification?"
+    },
+    {
+      "rank": 2,
+      "headline": "Wire and ACH origination is where the money actually leaves.",
+      "why_this_business": "Banks originate customer payment instructions received by phone, online banking, and email, with business customers moving very large sums. Business email compromise against bank customers routes fraudulent instructions through the bank's own channels, and account takeover of online banking credentials does the same.",
+      "loss_scenario": "Fraudulent transfers where the customer disputes authorisation, and under commercial reasonableness standards the bank bears the loss where its security procedures are found inadequate.",
+      "rhetorical_question": "How are large-value customer payment instructions authenticated before release?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer financial data is protected under GLBA and safeguards rules.",
+      "why_this_business": "Banks hold account numbers, balances, transaction histories, Social Security numbers, and credit files for every customer, protected under the Gramm-Leach-Bliley Act and the interagency information security standards, with customer notification obligations for unauthorised access to sensitive information.",
+      "loss_scenario": "Customer notification, regulatory examination findings, and class litigation, with the reputational effect on deposit gathering being the loss that persists longest.",
+      "rhetorical_question": "How many customer records with Social Security numbers and account data do you hold?"
+    }
+  ]
+}

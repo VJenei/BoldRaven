@@ -1,0 +1,31 @@
+{
+  "naics_code": "561410",
+  "naics_title": "Document Preparation Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You handle the documents clients consider most sensitive.",
+      "why_this_business": "Document preparation services transcribe, format, and produce legal filings, medical reports, financial documents, and personal records. Material is sent because it must be processed, and it frequently contains the most confidential information a client holds.",
+      "loss_scenario": "Disclosure of client documents including privileged legal material and medical records, with contractual liability and, for health information handled as a business associate, direct HIPAA exposure.",
+      "rhetorical_question": "What categories of client documents pass through your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Medical transcription involves protected health information.",
+      "why_this_business": "Transcription of clinical dictation makes the provider a business associate under HIPAA, handling patient identifiers, diagnoses, and treatment details. Work is frequently distributed to transcriptionists working remotely on their own equipment.",
+      "loss_scenario": "HIPAA breach notification and OCR enforcement against the provider directly, plus contractual claims from every healthcare client whose patients were affected.",
+      "rhetorical_question": "Do you transcribe clinical documentation under business associate agreements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Turnaround commitments feed client deadlines.",
+      "why_this_business": "Document preparation supports court filings, medical record completion, and financial reporting with turnaround times measured in hours. Client deadlines are set by courts, regulators, and internal requirements.",
+      "loss_scenario": "Missed client deadlines with consequences including court sanctions and regulatory penalties, claimed against the provider whose delay caused them.",
+      "rhetorical_question": "What client deadlines depend on your turnaround times?"
+    }
+  ]
+}

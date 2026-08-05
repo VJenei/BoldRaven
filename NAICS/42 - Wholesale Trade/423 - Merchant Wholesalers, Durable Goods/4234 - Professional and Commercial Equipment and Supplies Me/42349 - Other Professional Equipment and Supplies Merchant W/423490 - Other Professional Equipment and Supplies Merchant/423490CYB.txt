@@ -1,0 +1,31 @@
+{
+  "naics_code": "423490",
+  "naics_title": "Other Professional Equipment and Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Laboratory and scientific goods carry export control and screening duties.",
+      "why_this_business": "Scientific instruments, reagents, and select equipment are subject to export controls, restricted party screening, and in some cases select agent rules. Distributors must screen customers and destinations and retain records of those checks for five years.",
+      "loss_scenario": "Export violations carry substantial civil and criminal penalties and denial of export privileges, and screening records that cannot be produced make the violation indefensible.",
+      "rhetorical_question": "Do you screen customers against restricted party lists, and where are those records kept?"
+    },
+    {
+      "rank": 2,
+      "headline": "Controlled and hazardous products require documented custody.",
+      "why_this_business": "Distributors in this category handle controlled substances for laboratory use, precursor chemicals, radioactive sources, or biological materials, each with registration, inventory, and reporting obligations to DEA, NRC, or CDC. Inventory discrepancies are treated as potential diversion.",
+      "loss_scenario": "Registration suspension for records that cannot be reconciled, which stops the ability to handle the products the business depends on.",
+      "rhetorical_question": "Do you hold DEA, NRC, or select agent registrations requiring inventory reconciliation?"
+    },
+    {
+      "rank": 3,
+      "headline": "Institutional customers impose their own security requirements.",
+      "why_this_business": "Universities, government laboratories, and defence-related customers require vendor security representations, and federal contracts flow down safeguarding requirements. Purchase histories reveal research programmes and capabilities.",
+      "loss_scenario": "Loss of institutional and federal eligibility, plus third-party concern where purchase data reveals sensitive research activity.",
+      "rhetorical_question": "Do any customer contracts require you to meet specific cybersecurity standards?"
+    }
+  ]
+}

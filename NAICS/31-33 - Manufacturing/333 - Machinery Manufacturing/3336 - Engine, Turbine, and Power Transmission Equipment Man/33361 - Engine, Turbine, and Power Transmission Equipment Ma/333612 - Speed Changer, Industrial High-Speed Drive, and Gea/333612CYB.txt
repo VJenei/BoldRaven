@@ -1,0 +1,31 @@
+{
+  "naics_code": "333612",
+  "naics_title": "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Gearbox failure destroys the machine it drives.",
+      "why_this_business": "Industrial gearboxes and drives transmit power in wind turbines, mills, and heavy machinery. Gear failures at load destroy the drivetrain and, in elevated applications, cause structural damage and falling debris.",
+      "loss_scenario": "Gearboxes with material or heat treatment defects failing across an installed fleet, with replacement requiring cranes and outages at every site and consequential production losses at each.",
+      "rhetorical_question": "What applications use your gearboxes where failure stops production?"
+    },
+    {
+      "rank": 2,
+      "headline": "Gear geometry and heat treatment determine load capacity.",
+      "why_this_business": "Gear capacity depends on tooth geometry, material, and case hardening depth, all set by machine programmes and furnace cycles. Inadequate case depth produces failures after millions of cycles.",
+      "loss_scenario": "Gears with insufficient case depth failing in service after months, with the defect invisible on inspection and every unit built during the affected period requiring identification.",
+      "rhetorical_question": "How are gear grinding data and heat treatment records tied to production lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Units are engineered to specific ratios and duties.",
+      "why_this_business": "Industrial drives are configured for a particular ratio, duty, mounting, and service factor for one application, with long lead times on large units and dedicated tooling for gear sets.",
+      "loss_scenario": "Wrong configuration units built and shipped, unusable in the intended application, with rebuild lead times of months and the customer's project or outage window missed.",
+      "rhetorical_question": "How long is the lead time to build a replacement unit from scratch?"
+    }
+  ]
+}

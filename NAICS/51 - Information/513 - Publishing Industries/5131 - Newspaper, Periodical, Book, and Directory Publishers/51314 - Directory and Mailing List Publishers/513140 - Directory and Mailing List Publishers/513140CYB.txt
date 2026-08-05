@@ -1,0 +1,31 @@
+{
+  "naics_code": "513140",
+  "naics_title": "Directory and Mailing List Publishers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Your product is personal data about people who are not your customers.",
+      "why_this_business": "List publishers compile, enhance, and license databases of names, addresses, contact details, demographics, and behavioural attributes. The individuals in those files never transacted with you and did not choose to be included. Data brokers face increasing state regulation including registration and deletion request obligations.",
+      "loss_scenario": "A breach exposes the entire compiled database, affecting millions of individuals with no relationship to you, and regulatory attention to data brokers is intensifying at both state and federal level.",
+      "rhetorical_question": "How many individual records are in the databases you compile and license?"
+    },
+    {
+      "rank": 2,
+      "headline": "State privacy laws now reach data brokers directly.",
+      "why_this_business": "Several states require data brokers to register and to honour deletion and opt-out requests, with enforcement and penalties for non-compliance. Compliance depends on being able to locate and act on an individual's records across the whole database.",
+      "loss_scenario": "Regulatory penalties for failing to honour deletion requests within statutory deadlines, which requires functioning systems and complete records to accomplish at all.",
+      "rhetorical_question": "Are you registered as a data broker, and how do you process deletion requests?"
+    },
+    {
+      "rank": 3,
+      "headline": "Licensing agreements restrict how licensees may use your data.",
+      "why_this_business": "Lists are licensed for specific uses, campaigns, and periods, with seeded records used to detect unauthorised reuse. Licence terms, usage records, and seeding data are how misuse is detected and proven.",
+      "loss_scenario": "Unauthorised copying of the database eliminates the licensing model entirely, and without usage and seeding records the misuse cannot be proven or pursued.",
+      "rhetorical_question": "How do you detect a licensee using your data beyond the terms of their licence?"
+    }
+  ]
+}

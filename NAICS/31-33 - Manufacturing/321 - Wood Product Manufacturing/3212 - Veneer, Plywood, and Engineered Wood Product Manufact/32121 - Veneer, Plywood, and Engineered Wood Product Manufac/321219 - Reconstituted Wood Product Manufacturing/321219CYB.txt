@@ -1,0 +1,31 @@
+{
+  "naics_code": "321219",
+  "naics_title": "Reconstituted Wood Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Formaldehyde emission standards apply directly to your products.",
+      "why_this_business": "Particleboard and medium density fibreboard are regulated under EPA formaldehyde emission standards requiring third-party certification, quality control testing, labelling, and record retention. Panels must be certified to be lawfully sold.",
+      "loss_scenario": "Uncertified product that cannot be sold and, where distributed, enforcement and recall, with panels already incorporated into furniture and cabinetry by downstream customers.",
+      "rhetorical_question": "How is your formaldehyde emission quality control testing documented?"
+    },
+    {
+      "rank": 2,
+      "headline": "Continuous presses run at high temperature and pressure.",
+      "why_this_business": "Continuous press lines form and cure panels under heat and pressure at high rate, with resin application, mat forming, and press parameters controlling density and properties. Press incidents and dryer fires are the principal hazards.",
+      "loss_scenario": "A fire in the dryer or press section destroying a production line representing very substantial capital, with rebuild times measured in many months.",
+      "rhetorical_question": "How is fire detection handled in your dryer and press sections?"
+    },
+    {
+      "rank": 3,
+      "headline": "Panel properties determine downstream product performance.",
+      "why_this_business": "Panels are produced to density, internal bond, and dimensional specifications relied on by furniture, cabinet, and flooring manufacturers who machine and finish them. Out of specification panels fail in fabrication.",
+      "loss_scenario": "Panels failing in customer fabrication, with claims covering their machining and finishing labour and the finished goods produced from defective material.",
+      "rhetorical_question": "How are panel properties tested and recorded against production lots?"
+    }
+  ]
+}

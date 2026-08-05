@@ -1,0 +1,31 @@
+{
+  "naics_code": "313310",
+  "naics_title": "Textile and Fabric Finishing Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Dyeing and finishing recipes are the technical core of the business.",
+      "why_this_business": "Finishing runs dye recipes, chemical applications, and heat setting programmes controlling colour, hand, and performance. Recipes are developed over years and reproducing a customer's colour and finish depends entirely on them.",
+      "loss_scenario": "Loss of recipes means colours and finishes that cannot be reproduced, with customers whose products depend on consistent appearance unable to continue and the mill unable to serve them.",
+      "rhetorical_question": "How many customer colour and finish recipes are stored in your systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Performance finishes carry certification and regulatory obligations.",
+      "why_this_business": "Flame retardant, water repellent, and antimicrobial finishes carry performance claims requiring testing and, for some chemistries, regulatory registration. PFAS-based repellents are subject to increasing state restrictions and disclosure requirements.",
+      "loss_scenario": "Products failing performance certification, and regulatory exposure where restricted chemistries were applied to goods shipped into jurisdictions that prohibit them.",
+      "rhetorical_question": "Do you apply chemistries subject to state restrictions or disclosure requirements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Wastewater discharge is permitted and monitored.",
+      "why_this_business": "Textile finishing generates wastewater with colour, chemical oxygen demand, and chemical loading discharged under pretreatment permits with monitoring, sampling, and reporting to the receiving treatment works.",
+      "loss_scenario": "Permit exceedances and reporting failures where monitoring data cannot be produced, with penalties per violation and the receiving authority able to restrict or prohibit discharge, which stops production.",
+      "rhetorical_question": "What discharge monitoring and reporting does your pretreatment permit require?"
+    }
+  ]
+}

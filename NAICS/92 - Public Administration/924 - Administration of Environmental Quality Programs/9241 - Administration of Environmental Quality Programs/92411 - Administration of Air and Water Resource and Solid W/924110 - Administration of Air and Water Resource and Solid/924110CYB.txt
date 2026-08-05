@@ -1,0 +1,31 @@
+{
+  "naics_code": "924110",
+  "naics_title": "Administration of Air and Water Resource and Solid Waste Management Programs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Environmental monitoring data supports enforcement and public health.",
+      "why_this_business": "Agencies collect ambient monitoring data, discharge monitoring reports, and compliance information used for enforcement, permitting, and public health decisions including drinking water safety and air quality advisories.",
+      "loss_scenario": "Loss or corruption of monitoring data undermines enforcement actions and permitting decisions, and gaps in drinking water or air quality monitoring create public health exposure the agency cannot detect.",
+      "rhetorical_question": "What public health decisions depend on the monitoring data your agency holds?"
+    },
+    {
+      "rank": 2,
+      "headline": "Permitting controls whether regulated activity may proceed.",
+      "why_this_business": "Agencies issue permits for discharges, emissions, and waste handling, with applications, technical review, and public comment processes running on statutory timelines. Regulated entities cannot lawfully operate without a permit.",
+      "loss_scenario": "Permitting stalled with regulated facilities unable to obtain or renew authorisations, halting construction and operations across the jurisdiction and creating pressure that is political as well as legal.",
+      "rhetorical_question": "How many permit applications are in process with statutory deadlines running?"
+    },
+    {
+      "rank": 3,
+      "headline": "Regulated facility data describes vulnerabilities.",
+      "why_this_business": "Agencies hold facility information including chemical inventories, treatment processes, and risk management plans for regulated sites. That information identifies hazardous material locations and quantities across the jurisdiction.",
+      "loss_scenario": "Exposure of chemical inventory and facility risk data creating a security concern at every regulated site described, which the agency cannot remediate because the information relates to facilities it does not control.",
+      "rhetorical_question": "Do your systems hold chemical inventories and risk management plans for regulated facilities?"
+    }
+  ]
+}

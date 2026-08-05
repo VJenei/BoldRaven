@@ -1,0 +1,31 @@
+{
+  "naics_code": "423910",
+  "naics_title": "Sporting and Recreational Goods and Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Firearms distribution runs on federally mandated records with no tolerance for gaps.",
+      "why_this_business": "Federal firearms licensees must maintain acquisition and disposition records for every firearm, retain them permanently, and make them available to ATF for inspection. Theft or loss of firearms must be reported to ATF and local law enforcement within 48 hours. Records are increasingly electronic.",
+      "loss_scenario": "Records that cannot be produced during an ATF inspection put the licence at risk, and licence revocation ends the ability to deal in firearms entirely. Unreconciled inventory is treated as potential diversion into criminal channels.",
+      "rhetorical_question": "Do you hold a federal firearms licence, and how are your acquisition and disposition records maintained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Inventory records tell a thief exactly what is in the building.",
+      "why_this_business": "Firearms, ammunition, and high value sporting goods are stored in quantity and are among the most targeted burglary and cargo theft goods. Inventory systems record quantities, locations, and shipment schedules.",
+      "loss_scenario": "A targeted burglary or hijacking informed by inventory data. Firearms entering criminal channels also produce an ATF investigation into how the distributor's controls failed.",
+      "rhetorical_question": "Who has access to your live inventory and shipment schedule data?"
+    },
+    {
+      "rank": 3,
+      "headline": "Dealer accounts carry licence verification obligations.",
+      "why_this_business": "Distributors may only ship firearms to licensed dealers, verifying and retaining a copy of the receiving licence. Licence status must be current at the time of shipment. This verification file is both a compliance record and a database of dealer information.",
+      "loss_scenario": "Shipments to a lapsed or invalid licensee are federal violations, and licence verification records that cannot be produced make each shipment indefensible.",
+      "rhetorical_question": "How do you verify and record dealer licence status before shipping?"
+    }
+  ]
+}

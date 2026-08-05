@@ -1,0 +1,31 @@
+{
+  "naics_code": "332111",
+  "naics_title": "Iron and Steel Forging",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Forgings go into safety-critical rotating and load-bearing parts.",
+      "why_this_business": "Forged components are used in crankshafts, axles, aerospace structures, and pressure components where grain flow and integrity determine fatigue life. Forging defects produce fatigue failures in service after millions of cycles.",
+      "loss_scenario": "Forgings with internal defects entering automotive or aerospace applications, failing in service and requiring identification of every part from the affected production, with recall reaching finished vehicles or aircraft.",
+      "rhetorical_question": "How is heat traceability maintained from billet through forging to shipped parts?"
+    },
+    {
+      "rank": 2,
+      "headline": "Forging and heat treatment parameters determine properties.",
+      "why_this_business": "Heating temperature, deformation, and subsequent heat treatment develop the microstructure and mechanical properties. Parameters are qualified per part and recorded, since properties cannot be verified by dimensional inspection.",
+      "loss_scenario": "Parts forged or heat treated outside parameters with correct dimensions but inadequate properties, which is a latent defect appearing as fatigue failure under load.",
+      "rhetorical_question": "How are furnace and forging parameters recorded against production lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Dies and tooling are customer-specific and expensive.",
+      "why_this_business": "Forging dies are made for specific parts at substantial cost, held at the forge with qualified process parameters. There is no alternative source without transferring dies and requalifying.",
+      "loss_scenario": "Customer production stopped with no alternative forge tooled for the part, and requalification required even where dies can be moved.",
+      "rhetorical_question": "How many customer parts do you forge with tooling that exists only at your plant?"
+    }
+  ]
+}

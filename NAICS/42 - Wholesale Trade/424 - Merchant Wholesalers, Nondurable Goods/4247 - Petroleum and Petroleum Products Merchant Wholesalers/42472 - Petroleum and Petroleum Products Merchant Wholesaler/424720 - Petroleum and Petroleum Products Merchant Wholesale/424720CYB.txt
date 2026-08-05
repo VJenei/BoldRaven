@@ -1,0 +1,31 @@
+{
+  "naics_code": "424720",
+  "naics_title": "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Fuel jobbers dispatch deliveries against tank levels they monitor remotely.",
+      "why_this_business": "Jobbers monitor customer and station tank levels through telemetry and dispatch deliveries automatically before run-out. Fleet, agricultural, and retail customers rely on that monitoring rather than checking themselves. Dispatch, routing, and inventory are one connected system.",
+      "loss_scenario": "Run-outs at retail stations and commercial fleets, which stop the customer's operation entirely, and run-dry equipment at commercial sites that requires service to restart.",
+      "rhetorical_question": "How many customer tanks do you monitor by telemetry for automatic replenishment?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cardlock and fleet fuelling systems hold payment credentials.",
+      "why_this_business": "Jobbers operate cardlock sites and issue fleet fuel cards, holding card credentials, driver identifiers, vehicle data, and transaction histories. These systems are payment systems subject to PCI obligations and are attractive because fuel cards convert to cash easily.",
+      "loss_scenario": "Fraudulent fuel card use across a network before detection, plus PCI liability and notification for compromised card data.",
+      "rhetorical_question": "Do you issue fleet fuel cards or operate cardlock sites?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fuel excise tax is calculated per gallon and audited closely.",
+      "why_this_business": "Federal and state fuel taxes are assessed on movement of product, with exemptions for agricultural, off-road, and government use requiring documented certificates. Returns are filed monthly from transaction data and are a frequent audit target.",
+      "loss_scenario": "Tax assessed on estimates during an audit where transaction and exemption certificate records cannot be produced, with penalties and interest across multiple years.",
+      "rhetorical_question": "How do you retain exemption certificates and per-gallon transaction records for tax filings?"
+    }
+  ]
+}

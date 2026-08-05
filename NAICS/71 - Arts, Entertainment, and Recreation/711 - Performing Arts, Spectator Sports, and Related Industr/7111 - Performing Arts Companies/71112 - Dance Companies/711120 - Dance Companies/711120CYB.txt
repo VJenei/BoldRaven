@@ -1,0 +1,31 @@
+{
+  "naics_code": "711120",
+  "naics_title": "Dance Companies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Performances are dated and the company travels to meet them.",
+      "why_this_business": "Dance companies perform on touring schedules with venues, travel, and presenters contracted months ahead. Tour logistics, contracts, and technical requirements are coordinated electronically across venues in different cities.",
+      "loss_scenario": "Cancelled or disrupted tour dates with presenter contracts breached, travel and venue costs incurred, and a touring schedule that cannot be rebuilt inside the season.",
+      "rhetorical_question": "How many contracted performance dates are on your schedule right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Dancer health and injury records are medical information.",
+      "why_this_business": "Companies hold dancer health records, injury histories, physical therapy notes, and return to performance assessments. Injury status affects casting and is career-sensitive information dancers guard carefully.",
+      "loss_scenario": "Exposure of injury histories affects dancers' careers and future engagements, with claims reflecting the professional consequences and a company whose relationship with its artists is damaged.",
+      "rhetorical_question": "Do you hold dancer injury and physical therapy records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Donor and subscriber support funds the deficit.",
+      "why_this_business": "Performing arts organisations run structural deficits covered by philanthropy, holding donor records, giving histories, capacity assessments, and stored payment methods for recurring gifts and subscriptions.",
+      "loss_scenario": "Donor relationship damage from exposure of internal capacity notes and giving data, in an organisation where a small number of major donors determine whether the season happens.",
+      "rhetorical_question": "What proportion of your budget comes from a small number of major donors?"
+    }
+  ]
+}

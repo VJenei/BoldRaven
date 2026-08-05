@@ -1,0 +1,31 @@
+{
+  "naics_code": "334515",
+  "naics_title": "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Test instruments are safety devices used on live equipment.",
+      "why_this_business": "Voltage testers, meters, and test instruments are used to verify that circuits are dead before work begins. An instrument that reads zero on a live circuit kills the person relying on it, and safety ratings govern the categories of circuits they may be used on.",
+      "loss_scenario": "Instruments giving false safe indications or failing at their rated category, with electrocution or arc flash fatalities and recall across every instrument from the affected production.",
+      "rhetorical_question": "What measurement category ratings do your instruments carry?"
+    },
+    {
+      "rank": 2,
+      "headline": "Calibration traceability supports every measurement made.",
+      "why_this_business": "Instruments are calibrated against traceable standards with certificates issued, and customers rely on that traceability for their own quality and regulatory compliance.",
+      "loss_scenario": "Calibration records that cannot be substantiated, with customers unable to support measurements made with the instruments and forced to requalify work performed across the affected period.",
+      "rhetorical_question": "How are calibration certificates generated and retained per instrument serial number?"
+    },
+    {
+      "rank": 3,
+      "headline": "Instruments connect to systems and store measurement data.",
+      "why_this_business": "Test instruments now include connectivity, data logging, and software for analysis and reporting, installed on customer systems and networks in industrial and laboratory environments.",
+      "loss_scenario": "Vulnerabilities in instrument software or firmware providing access into customer networks, with remediation required at every installed site and in regulated laboratories a data integrity investigation.",
+      "rhetorical_question": "What software do you supply that runs on customer systems?"
+    }
+  ]
+}

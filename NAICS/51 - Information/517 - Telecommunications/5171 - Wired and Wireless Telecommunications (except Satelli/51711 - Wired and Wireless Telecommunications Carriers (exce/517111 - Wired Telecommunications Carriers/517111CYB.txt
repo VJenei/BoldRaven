@@ -1,0 +1,31 @@
+{
+  "naics_code": "517111",
+  "naics_title": "Wired Telecommunications Carriers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "State-sponsored actors have compromised US telecommunications carriers.",
+      "why_this_business": "A Chinese state-linked intrusion campaign publicly identified in 2024 compromised multiple US telecommunications carriers, reaching systems associated with lawful intercept and obtaining call records and communications of targeted individuals. Carriers hold the routing and interception infrastructure that makes them a strategic intelligence target rather than merely a criminal one.",
+      "loss_scenario": "A nation-state intrusion is not resolved by restoring backups. It brings federal investigation, congressional attention, mandatory reporting, and remediation across the network, with customer trust consequences that persist for years.",
+      "rhetorical_question": "How is your lawful intercept infrastructure segmented and monitored?"
+    },
+    {
+      "rank": 2,
+      "headline": "Customer proprietary network information is federally protected.",
+      "why_this_business": "FCC rules require carriers to protect customer proprietary network information covering who customers call, when, and what services they use, with specific safeguards and, under rules updated in 2024, breach notification to the FCC, FBI, and Secret Service alongside customers.",
+      "loss_scenario": "FCC enforcement with substantial forfeitures, which the Commission has imposed on major carriers for location and CPNI failures, plus federal law enforcement notification requirements on short timelines.",
+      "rhetorical_question": "What is your CPNI breach notification procedure and who must be notified?"
+    },
+    {
+      "rank": 3,
+      "headline": "Network availability supports emergency services and critical customers.",
+      "why_this_business": "Wired networks carry 911 traffic, alarm circuits, medical monitoring, and payment networks. Outages affecting 911 are separately reportable to the FCC and draw immediate investigation.",
+      "loss_scenario": "A 911 outage is a public safety event with FCC investigation and consent decrees, and carriers have paid multi-million dollar settlements for 911 outages irrespective of cause.",
+      "rhetorical_question": "Does your network carry 911 traffic, and what is your outage reporting obligation?"
+    }
+  ]
+}

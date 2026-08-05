@@ -1,0 +1,31 @@
+{
+  "naics_code": "516210",
+  "naics_title": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold identity and behaviour data at enormous scale.",
+      "why_this_business": "Platforms hold account credentials, payment methods, viewing or posting histories, social graphs, private messages, and inferred interests for very large user populations. State privacy laws grant access, deletion, and opt-out rights that require the ability to locate a person's data across the whole estate.",
+      "loss_scenario": "Breach notification across millions of users spanning every state and multiple countries, with regulatory investigation under state privacy laws and, where children are involved, federal children's privacy enforcement.",
+      "rhetorical_question": "How many user accounts with payment methods and behavioural histories do you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Content licensing and territory restrictions are contractual to the title.",
+      "why_this_business": "Streaming rights are licensed by title, territory, and window, with technical protection and geographic restriction obligations written into the agreements. Rights metadata determines what may be shown to whom and when.",
+      "loss_scenario": "Content served outside its licensed territory or window breaches the licence, and rights holders enforce these terms aggressively because they undermine parallel deals elsewhere.",
+      "rhetorical_question": "How many separate territory and window combinations does your rights system enforce?"
+    },
+    {
+      "rank": 3,
+      "headline": "Availability is the product and outages are public instantly.",
+      "why_this_business": "Streaming and platform services are judged on uptime, and failures are visible to the entire user base simultaneously and reported publicly within minutes. Subscription businesses see cancellations spike during and after outages.",
+      "loss_scenario": "Subscriber churn following a visible outage, plus service credit obligations to distribution partners and advertisers whose inventory did not deliver.",
+      "rhetorical_question": "How quickly does an outage become publicly visible to your entire user base?"
+    }
+  ]
+}

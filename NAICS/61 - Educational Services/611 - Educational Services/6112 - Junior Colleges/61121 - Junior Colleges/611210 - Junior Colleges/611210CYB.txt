@@ -1,0 +1,31 @@
+{
+  "naics_code": "611210",
+  "naics_title": "Junior Colleges",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal student aid participation carries security obligations.",
+      "why_this_business": "Institutions participating in Title IV student aid handle student financial aid data and are required under their program participation agreement to protect it, with the FTC Safeguards Rule applying to that information. Department of Education guidance requires reporting of suspected breaches involving student aid data.",
+      "loss_scenario": "Enforcement and program participation consequences alongside the breach, with student aid eligibility being the funding mechanism the institution depends on.",
+      "rhetorical_question": "Do you have a written information security programme covering student financial aid data?"
+    },
+    {
+      "rank": 2,
+      "headline": "Student records combine education, financial, and health data.",
+      "why_this_business": "Colleges hold FERPA-protected education records, financial aid files with family income and Social Security numbers, health centre records, disability accommodation files, and payment data for tuition. Many students are young adults establishing credit for the first time.",
+      "loss_scenario": "Breach notification across current and former students spanning decades, with financial aid files providing complete family financial profiles and health records engaging separate obligations.",
+      "rhetorical_question": "How many years of former student records are retained in your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Academic operations stop without the student information system.",
+      "why_this_business": "Registration, grading, transcripts, financial aid disbursement, and course delivery all run through connected systems. Term start dates and financial aid disbursement deadlines are fixed and students depend on aid disbursement to pay living costs.",
+      "loss_scenario": "A term unable to start, aid undisbursed to students who cannot pay rent, and transcripts unavailable to students transferring or graduating, with enrolment losses that persist for years.",
+      "rhetorical_question": "What happens to financial aid disbursement if your systems are down at the start of a term?"
+    }
+  ]
+}

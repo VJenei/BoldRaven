@@ -1,0 +1,31 @@
+{
+  "naics_code": "327993",
+  "naics_title": "Mineral Wool Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Insulation fire ratings are relied on in building assemblies.",
+      "why_this_business": "Mineral wool insulation is used in fire-rated assemblies and firestopping with performance certified through tested systems. Density, thickness, and composition determine whether the assembly achieves its rating.",
+      "loss_scenario": "Product below specification installed in fire-rated assemblies and firestopping, with the rating not achieved and, in a fire, compartmentation failing at the point it was needed to protect occupants.",
+      "rhetorical_question": "How is product density and composition verified against fire rating requirements?"
+    },
+    {
+      "rank": 2,
+      "headline": "Melting and fiberising run continuously at extreme temperature.",
+      "why_this_business": "Cupolas and furnaces melt rock and slag at very high temperature with molten material spun into fibre continuously. Molten material handling and the fiberising process are the principal hazards and the process cannot be stopped abruptly.",
+      "loss_scenario": "Molten material release or process upset causing serious burn injuries, plus furnace damage from uncontrolled shutdown requiring extended repair.",
+      "rhetorical_question": "How is your melting and fiberising process monitored and interlocked?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fibre exposure requires controls and monitoring.",
+      "why_this_business": "Manufactured mineral fibres require exposure controls and monitoring, with product stewardship programmes and worker protection expectations. Historical concerns about fibre exposure make monitoring records significant.",
+      "loss_scenario": "Occupational exposure claims where monitoring records cannot demonstrate controls were effective, in a category where the historical parallel to asbestos makes claims attractive to plaintiffs.",
+      "rhetorical_question": "How is worker fibre exposure monitored and recorded?"
+    }
+  ]
+}

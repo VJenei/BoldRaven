@@ -1,0 +1,31 @@
+{
+  "naics_code": "311512",
+  "naics_title": "Creamery Butter Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Churning and continuous butter making run to tight parameters.",
+      "why_this_business": "Continuous butter makers control cream temperature, churning, working, and moisture incorporation to produce butter at a legally defined minimum fat content. Product below the standard cannot be labelled as butter.",
+      "loss_scenario": "Product outside standard of identity that cannot be sold as butter, plus moisture and salt variation that fails customer specification, on a continuous line producing at high rate.",
+      "rhetorical_question": "How is butter moisture and fat content controlled and verified during production?"
+    },
+    {
+      "rank": 2,
+      "headline": "Cream supply arrives continuously and cannot be held.",
+      "why_this_business": "Butter plants receive cream from fluid milk operations and other processors on a continuous basis, with cream having limited shelf life. The upstream plants must move their cream whether or not you can churn.",
+      "loss_scenario": "Cream that cannot be processed with limited alternative outlets, and upstream milk plants unable to balance their own operations, propagating the disruption back through the dairy chain.",
+      "rhetorical_question": "How much cream arrives daily that must be processed within days?"
+    },
+    {
+      "rank": 3,
+      "headline": "Grading and quality determine market value.",
+      "why_this_business": "Butter is graded on flavour, body, colour, and salt, with USDA grading affecting price and market access. Quality defects arise from cream quality, process control, and storage conditions.",
+      "loss_scenario": "Downgraded product across a production period, with the price difference between grades applied to substantial volumes of product already made.",
+      "rhetorical_question": "What is the price difference between grades on a day of production?"
+    }
+  ]
+}

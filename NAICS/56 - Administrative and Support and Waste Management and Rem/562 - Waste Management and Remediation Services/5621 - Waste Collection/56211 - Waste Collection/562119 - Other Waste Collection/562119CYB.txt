@@ -1,0 +1,31 @@
+{
+  "naics_code": "562119",
+  "naics_title": "Other Waste Collection",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Specialised waste streams carry their own regulatory tracking.",
+      "why_this_business": "Collection of medical, electronic, and other specialised waste involves tracking requirements, licensed transport, and documentation demonstrating proper handling. Medical waste in particular is regulated at state level with manifest and treatment documentation.",
+      "loss_scenario": "Regulatory enforcement where tracking documentation cannot be produced, and generator customers unable to demonstrate proper disposal of waste they remain responsible for.",
+      "rhetorical_question": "What tracking documentation are you required to produce for the waste streams you handle?"
+    },
+    {
+      "rank": 2,
+      "headline": "Medical waste collection involves protected information.",
+      "why_this_business": "Medical waste and document destruction services collect material from healthcare facilities that can contain protected health information, making the provider a business associate under HIPAA with contractual and direct obligations.",
+      "loss_scenario": "HIPAA exposure as a business associate where collected material containing patient information was not properly secured or destroyed, with healthcare clients terminating relationships immediately.",
+      "rhetorical_question": "Do you collect material that may contain patient information from healthcare clients?"
+    },
+    {
+      "rank": 3,
+      "headline": "Route and service records support billing and compliance simultaneously.",
+      "why_this_business": "Collection is billed on service frequency and volume, verified by route records, while the same records demonstrate that regulated waste was collected on the required schedule.",
+      "loss_scenario": "Unbillable service combined with compliance gaps, where the same missing records cause both a revenue loss and a regulatory finding.",
+      "rhetorical_question": "How are collections recorded for both billing and regulatory purposes?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "541512",
+  "naics_title": "Computer Systems Design Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "One attack on a managed service provider reached about 1,500 downstream businesses.",
+      "why_this_business": "In July 2021 attackers exploited software used by managed service providers to push ransomware through to their customers, affecting roughly 1,500 downstream organisations in a single operation. Systems integrators and MSPs hold privileged access into many client networks at once, which makes them a force multiplier for attackers.",
+      "loss_scenario": "Every client encrypted simultaneously through your own tooling, with liability across the entire book, and a provider whose access delivered the attack rarely retains its clients afterward.",
+      "rhetorical_question": "How many client networks can your remote management tooling reach right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Privileged credentials to client environments are your working tools.",
+      "why_this_business": "Integrators and managed providers hold domain administrator credentials, remote access, and management agents across client estates by necessity. Those credentials are the single most valuable target an attacker can obtain because they unlock many organisations at once.",
+      "loss_scenario": "Client environments compromised using your credentials, with each client suffering its own breach, notification, and regulatory exposure while attributing all of it to you.",
+      "rhetorical_question": "How are your administrative credentials to client environments stored and protected?"
+    },
+    {
+      "rank": 3,
+      "headline": "Clients depend on you to detect and respond to their incidents.",
+      "why_this_business": "Managed clients rely on the provider for monitoring, patching, backup, and incident response. When the provider is compromised, the client loses both its systems and the party responsible for recovering them at the same moment.",
+      "loss_scenario": "Clients unable to recover because their backups were managed by, and reachable from, the provider that was compromised, which is the specific failure pattern in the largest MSP incidents.",
+      "rhetorical_question": "Are client backups reachable from the same environment that manages their systems?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "333515",
+  "naics_title": "Cutting Tool and Machine Tool Accessory Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Cutting tools break at speed and send fragments.",
+      "why_this_business": "Cutting tools and toolholders run at high rotational speed with rated limits. Failure at speed sends carbide and steel fragments through machine enclosures and into operators, and rated speeds depend on manufacturing quality.",
+      "loss_scenario": "Tool or holder failures at rated speed causing operator injury and machine damage, with recall across every customer running tools from the affected production.",
+      "rhetorical_question": "What speed and load ratings do your products carry?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tool geometry and coating determine performance and are proprietary.",
+      "why_this_business": "Cutting tool geometry, substrate, and coating are developed over years and represent the competitive position of the manufacturer. Grinding programmes encode that geometry.",
+      "loss_scenario": "Theft of grinding programmes and coating parameters, which transfers the manufacturer's technical position to a competitor permanently and cannot be undone.",
+      "rhetorical_question": "How is access to grinding programme and coating parameter data controlled?"
+    },
+    {
+      "rank": 3,
+      "headline": "Machine shops depend on tool delivery to keep spindles turning.",
+      "why_this_business": "Cutting tools are consumables ordered continuously, with shops holding limited stock and relying on next day supply. A shop without tools stops machining.",
+      "loss_scenario": "Order and shipping systems unavailable with customer shops unable to obtain tooling, and machining production stopped across many customers within days.",
+      "rhetorical_question": "How quickly do your customers expect replenishment of consumable tooling?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "311111",
+  "naics_title": "Dog and Cat Food Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pet food recalls kill animals and move fast.",
+      "why_this_business": "Pet food is regulated by FDA with facility registration, preventive controls, and recall authority. Contamination events including aflatoxin, salmonella, and vitamin D excess have killed and sickened large numbers of animals, with recalls traced through production lot records.",
+      "loss_scenario": "A recall that cannot be narrowed to affected lots covers all production in a period, multiplying the cost many times, plus wrongful death claims from owners whose pets died and reputational damage that persists for years.",
+      "rhetorical_question": "Could you identify every customer and retailer that received a specific production lot?"
+    },
+    {
+      "rank": 2,
+      "headline": "Formulation and batching are automated and nutritionally critical.",
+      "why_this_business": "Production runs on automated batching systems weighing and blending ingredients including vitamin and mineral premixes to a formulation. Errors in micronutrient addition, particularly vitamin D, have caused mass animal illness and death.",
+      "loss_scenario": "A batching or formulation error distributed across production before analytical testing detects it, with animals harmed and a recall that reaches every bag produced during the affected period.",
+      "rhetorical_question": "How is micronutrient addition verified during batching?"
+    },
+    {
+      "rank": 3,
+      "headline": "Ingredient traceability supports every recall decision.",
+      "why_this_business": "Manufacturers must trace ingredients from supplier lot through production to finished goods, with FSMA preventive controls requiring supply chain programmes for hazards controlled by suppliers. Contamination frequently originates upstream.",
+      "loss_scenario": "An ingredient contamination event where the affected finished lots cannot be identified, requiring recall of everything and preventing any claim against the supplier whose ingredient caused it.",
+      "rhetorical_question": "Can you trace a supplier ingredient lot forward to every finished product it entered?"
+    }
+  ]
+}

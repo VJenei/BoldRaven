@@ -1,0 +1,31 @@
+{
+  "naics_code": "812199",
+  "naics_title": "Other Personal Care Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Personal care records document treatments and conditions.",
+      "why_this_business": "Providers record client health questionnaires, contraindications, treatment histories, and in many services before and after photographs. Treatments including laser, injectable, and body services carry medical risk and require documented consent.",
+      "loss_scenario": "Exposure of client health information and treatment photographs, which is personally damaging, and consent documentation that cannot be produced in a claim arising from an adverse treatment outcome.",
+      "rhetorical_question": "Do you hold client health questionnaires and treatment photographs?"
+    },
+    {
+      "rank": 2,
+      "headline": "Booking, membership, and payment run on one platform.",
+      "why_this_business": "Services are booked and billed through a single platform with memberships, packages, and stored payment methods, and prepaid packages representing client funds held against future services.",
+      "loss_scenario": "Payment data exposure across the client base plus prepaid package balances that cannot be reconciled, with clients unable to demonstrate what they have already paid for.",
+      "rhetorical_question": "What value of prepaid packages are you holding for clients?"
+    },
+    {
+      "rank": 3,
+      "headline": "Practitioner licensing and training records support the service.",
+      "why_this_business": "Many services require practitioner licensing or certification with training records demonstrating competence for specific treatments, examined during inspection and after any adverse outcome.",
+      "loss_scenario": "Regulatory action where practitioner licensing cannot be evidenced, and in an injury claim the absence of training documentation for the specific treatment is decisive.",
+      "rhetorical_question": "How are practitioner licences and treatment certifications recorded?"
+    }
+  ]
+}

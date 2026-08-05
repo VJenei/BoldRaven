@@ -1,0 +1,31 @@
+{
+  "naics_code": "337910",
+  "naics_title": "Mattress Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Mattresses are subject to two federal flammability standards.",
+      "why_this_business": "Mattresses must meet 16 CFR 1632 for cigarette ignition and 16 CFR 1633 for open flame, with prototype testing, qualification records, and production records that must be retained and produced to CPSC.",
+      "loss_scenario": "Product sold without supportable flammability compliance, with CPSC enforcement, recall from retail and consumers, and litigation where a fire involved the mattress.",
+      "rhetorical_question": "How are 1633 prototype qualification and production records retained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Product is made to order and shipped direct to consumers.",
+      "why_this_business": "Mattresses are built to size and model on order, with a large share shipped directly to consumers who ordered online, carrying home addresses, payment data, and delivery scheduling.",
+      "loss_scenario": "Customer order and payment data exposed, with state privacy notification obligations, card brand exposure, and a direct to consumer business whose customers deal with you and nobody else.",
+      "rhetorical_question": "What customer data do you hold from direct to consumer orders?"
+    },
+    {
+      "rank": 3,
+      "headline": "Chemical content and labelling are regulated by multiple states.",
+      "why_this_business": "Mattress materials are subject to state chemical restrictions including flame retardant bans, labelling requirements, and California Proposition 65 warning obligations, varying by state.",
+      "loss_scenario": "Product sold into states without required labelling or containing restricted chemicals, with state enforcement, Proposition 65 claims, and product withdrawn from those markets.",
+      "rhetorical_question": "How do you track chemical content and state labelling requirements by product?"
+    }
+  ]
+}

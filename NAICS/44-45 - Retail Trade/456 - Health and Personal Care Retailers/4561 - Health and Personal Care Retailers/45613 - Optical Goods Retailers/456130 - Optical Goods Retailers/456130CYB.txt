@@ -1,0 +1,31 @@
+{
+  "naics_code": "456130",
+  "naics_title": "Optical Goods Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Prescriptions and eye examinations make this a health data business.",
+      "why_this_business": "Optical retailers with an associated practice hold examination records, prescriptions, insurance information, and patient identifiers, which is protected health information under HIPAA. Vision benefit claims are submitted electronically to payers.",
+      "loss_scenario": "HIPAA breach notification to patients and HHS with OCR enforcement, plus inability to submit vision claims which stops the insurance-funded portion of revenue.",
+      "rhetorical_question": "Do you hold patient examination records or submit vision insurance claims?"
+    },
+    {
+      "rank": 2,
+      "headline": "Contact lens sales require verified prescriptions and retained records.",
+      "why_this_business": "Under the FTC Contact Lens Rule, sellers must obtain or verify a valid prescription with the prescriber and retain records of that verification for three years. The FTC enforces this actively and has obtained substantial civil penalties from sellers who could not evidence verification.",
+      "loss_scenario": "Civil penalties assessed per violation across a high transaction volume, where the absence of verification records makes every affected sale indefensible.",
+      "rhetorical_question": "How do you record prescription verification for contact lens orders?"
+    },
+    {
+      "rank": 3,
+      "headline": "Lenses are made to order and cannot be substituted from stock.",
+      "why_this_business": "Prescription eyewear is surfaced, coated, and edged to an individual prescription and frame through a laboratory, with job files driving automated equipment. Every job is unique and there is no inventory alternative.",
+      "loss_scenario": "Patients waiting indefinitely with no delivery date, and lost job files requiring the whole order to be re-entered from the original prescription if it can be found at all.",
+      "rhetorical_question": "How many patient jobs are in your laboratory pipeline at any time?"
+    }
+  ]
+}

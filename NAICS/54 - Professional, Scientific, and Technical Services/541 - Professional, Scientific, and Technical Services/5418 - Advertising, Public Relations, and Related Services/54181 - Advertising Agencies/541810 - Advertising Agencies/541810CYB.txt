@@ -1,0 +1,31 @@
+{
+  "naics_code": "541810",
+  "naics_title": "Advertising Agencies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Agencies hold client campaign plans and media spend before launch.",
+      "why_this_business": "Agencies develop creative, media plans, and launch timing months ahead of public release, holding client product information, pricing, and positioning under confidentiality. Competitors gain direct advantage from advance knowledge.",
+      "loss_scenario": "A leaked campaign forfeits the launch impact after the media has already been bought, with the client's investment wasted and the loss claimed against the agency.",
+      "rhetorical_question": "Do you hold unlaunched campaigns and media plans for clients right now?"
+    },
+    {
+      "rank": 2,
+      "headline": "Agencies handle client money for media buying.",
+      "why_this_business": "Agencies place media on behalf of clients, receiving funds and paying publishers and platforms, frequently with substantial sums flowing through agency accounts. Payment instructions to media vendors and invoices to clients move by email.",
+      "loss_scenario": "Diverted media payments where the publisher was never paid and the client's placements do not run, with the agency liable for both the funds and the lost media value.",
+      "rhetorical_question": "How much client media spend passes through your accounts each month?"
+    },
+    {
+      "rank": 3,
+      "headline": "Customer data is used for targeting and is regulated.",
+      "why_this_business": "Agencies receive client customer lists for audience building and targeting, subject to state privacy laws imposing purpose limitations, opt-out rights for targeted advertising, and contractual requirements between controller and processor.",
+      "loss_scenario": "Breach of client customer data, with notification obligations flowing through the client and regulatory exposure for processing beyond the agreed purpose.",
+      "rhetorical_question": "What client customer data are you holding for audience targeting?"
+    }
+  ]
+}

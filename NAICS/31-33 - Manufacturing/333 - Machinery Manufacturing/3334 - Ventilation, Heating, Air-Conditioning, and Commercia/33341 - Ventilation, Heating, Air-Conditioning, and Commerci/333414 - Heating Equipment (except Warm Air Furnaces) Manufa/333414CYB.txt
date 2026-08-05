@@ -1,0 +1,31 @@
+{
+  "naics_code": "333414",
+  "naics_title": "Heating Equipment (except Warm Air Furnaces) Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Combustion equipment causes fires and carbon monoxide deaths.",
+      "why_this_business": "Boilers, heaters, and combustion equipment burn fuel in occupied buildings, with combustion controls, safety shutoffs, and venting design determining whether they operate safely. Failures produce fires and carbon monoxide poisoning.",
+      "loss_scenario": "A control or safety defect causing carbon monoxide poisoning or a fire in an occupied building, with fatalities, and recall across every unit of the model in service.",
+      "rhetorical_question": "What safety shutoff and combustion control functions does your equipment include?"
+    },
+    {
+      "rank": 2,
+      "headline": "Safety listings depend on the exact built configuration.",
+      "why_this_business": "Heating equipment carries safety agency listings tied to specified components, controls, and construction. The listing is what allows installation under code, and inspectors check for it.",
+      "loss_scenario": "Units built with unlisted components or configurations, which cannot be lawfully installed, requiring removal from buildings where they are already commissioned and connected.",
+      "rhetorical_question": "How are listed component substitutions controlled in your build process?"
+    },
+    {
+      "rank": 3,
+      "headline": "Connected controls create a path into installed equipment.",
+      "why_this_business": "Heating equipment increasingly includes connected controls for monitoring, scheduling, and remote diagnostics, linking installed units to manufacturer platforms.",
+      "loss_scenario": "Compromise of connected controls affecting equipment operation across an installed base, in equipment that burns fuel in occupied buildings, requiring a firmware campaign to every unit.",
+      "rhetorical_question": "Do your controls connect to a platform you operate?"
+    }
+  ]
+}

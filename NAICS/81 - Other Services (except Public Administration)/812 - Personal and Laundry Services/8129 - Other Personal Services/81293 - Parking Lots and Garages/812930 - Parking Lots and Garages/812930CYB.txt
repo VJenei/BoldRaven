@@ -1,0 +1,31 @@
+{
+  "naics_code": "812930",
+  "naics_title": "Parking Lots and Garages",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Access control and payment systems gate every vehicle.",
+      "why_this_business": "Garages operate barrier gates, licence plate recognition, ticketing, and payment systems controlling entry and exit. Vehicles cannot leave without payment processing, and a failure traps vehicles inside or forces free egress.",
+      "loss_scenario": "Vehicles unable to exit with queues backing into public roads, or gates opened to free egress with revenue lost entirely for the duration, plus event parking where thousands of vehicles leave simultaneously.",
+      "rhetorical_question": "What happens to vehicles in your garage if the exit payment system fails?"
+    },
+    {
+      "rank": 2,
+      "headline": "Licence plate recognition creates a location history.",
+      "why_this_business": "Plate recognition systems record which vehicles entered which facility and when, retained for enforcement and account management. Combined with monthly parker accounts, that links identified individuals to their movements over time.",
+      "loss_scenario": "Exposure of plate recognition data creates a movement history for identified individuals, which is a surveillance-grade dataset and, for facilities at sensitive locations, reveals attendance patterns.",
+      "rhetorical_question": "How long do you retain licence plate and entry time records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Monthly parker accounts hold recurring payment data.",
+      "why_this_business": "Facilities bill monthly parkers automatically to stored payment methods, with employer-sponsored accounts and validation programmes adding corporate relationships and access credentials.",
+      "loss_scenario": "Stored payment data exposure across monthly parkers, plus access credential compromise permitting free or unauthorised entry to a controlled facility.",
+      "rhetorical_question": "How many monthly parkers have payment methods stored with you?"
+    }
+  ]
+}

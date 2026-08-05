@@ -1,0 +1,31 @@
+{
+  "naics_code": "541940",
+  "naics_title": "Veterinary Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Practice management systems run the clinic entirely.",
+      "why_this_business": "Veterinary practices depend on practice management software for appointments, medical records, prescriptions, laboratory results, imaging, and billing. Veterinary chains and independent practices have both been affected by ransomware that halted clinical operations.",
+      "loss_scenario": "Inability to access patient histories, medication records, and allergy information while animals present for treatment, which forces clinical decisions without records and delays care for emergency cases.",
+      "rhetorical_question": "How would your veterinarians access a patient's medication history if the system were down?"
+    },
+    {
+      "rank": 2,
+      "headline": "Controlled substance records are a DEA requirement.",
+      "why_this_business": "Veterinary practices hold DEA registrations for controlled substances used in anaesthesia and pain management, with requirements for accurate records, biennial inventory, and reporting of losses. Diversion by staff is a recognised problem in veterinary settings.",
+      "loss_scenario": "DEA action for records that cannot be reconciled, and where diversion is suspected the practice must demonstrate its controls, which requires records that exist and are complete.",
+      "rhetorical_question": "How are your controlled substance logs maintained and reconciled?"
+    },
+    {
+      "rank": 3,
+      "headline": "Client payment data and animal records accumulate for years.",
+      "why_this_business": "Practices hold owner contact details, stored payment methods for recurring wellness plans, and complete medical histories for pets over their lifetimes. Wellness plan billing is automatic and continuous.",
+      "loss_scenario": "Breach exposing client payment data across the practice, plus loss of medical histories that cannot be reconstructed and that clients rely on for continuity of care.",
+      "rhetorical_question": "How many clients have payment methods stored for recurring wellness plans?"
+    }
+  ]
+}

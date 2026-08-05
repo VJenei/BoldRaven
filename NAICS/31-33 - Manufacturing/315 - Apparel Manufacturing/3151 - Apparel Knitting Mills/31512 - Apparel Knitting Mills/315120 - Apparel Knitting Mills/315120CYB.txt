@@ -1,0 +1,31 @@
+{
+  "naics_code": "315120",
+  "naics_title": "Apparel Knitting Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Knitting programmes define every garment produced.",
+      "why_this_business": "Seamless and shaped knitting machines execute programmes controlling stitch structure, shaping, and dimensions. Modern knitwear is programmed rather than cut and sewn, and the programme is the garment design.",
+      "loss_scenario": "Loss of knitting programmes stops production and requires redevelopment of every style, with customers whose seasonal deliveries depend on production starting now.",
+      "rhetorical_question": "How many garment programmes are stored in your knitting machine systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Seasonal delivery dates are fixed by retail calendars.",
+      "why_this_business": "Apparel production is scheduled backward from retail delivery dates set months earlier, with fabric, trim, and production capacity committed. Retailers cancel late deliveries rather than accept them.",
+      "loss_scenario": "Cancelled orders on seasonal goods that have no later market, with production cost sunk and the retailer's shelf space filled by another supplier.",
+      "rhetorical_question": "What happens to an order that misses its retail delivery window?"
+    },
+    {
+      "rank": 3,
+      "headline": "Supply chain documentation is required at import.",
+      "why_this_business": "Apparel and textile imports face forced labour enforcement requiring documentation tracing to raw material origin, with shipments detained and the importer required to produce evidence.",
+      "loss_scenario": "Detained shipments during a selling season, which for seasonal apparel is equivalent to losing the goods entirely even if eventually released.",
+      "rhetorical_question": "Could you trace a garment back through its yarn and fibre supply chain?"
+    }
+  ]
+}

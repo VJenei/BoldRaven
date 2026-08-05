@@ -1,0 +1,31 @@
+{
+  "naics_code": "339994",
+  "naics_title": "Broom, Brush, and Mop Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Retail supply runs on vendor systems with enforced compliance.",
+      "why_this_business": "Cleaning products ship to mass retailers, grocery, and distributors under EDI with labelling, packing, routing, and delivery window requirements enforced by chargeback.",
+      "loss_scenario": "Order and shipping systems unavailable, with missed delivery windows, chargebacks applied per shipment, and shelf space at risk with concentrated retail customers.",
+      "rhetorical_question": "What share of your volume ships through your three largest customers?"
+    },
+    {
+      "rank": 2,
+      "headline": "Industrial and food service brushes carry compliance requirements.",
+      "why_this_business": "Brushes used in food processing must meet food contact material requirements and, in many plants, be detectable or colour coded so that a broken bristle can be found before it reaches product.",
+      "loss_scenario": "Bristles or components entering food product at a customer plant, with a foreign material recall covering the production run and the brush identified as the source.",
+      "rhetorical_question": "Do your products go into food processing environments with foreign material controls?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production runs at volume with automated equipment.",
+      "why_this_business": "Brush and broom production runs automated tufting, moulding, and assembly at high rate with machine settings and specifications held in production systems.",
+      "loss_scenario": "Production systems unavailable or settings lost, with lines stopped and customer delivery windows missed while specifications are reconstructed.",
+      "rhetorical_question": "Where are your machine settings and product specifications stored?"
+    }
+  ]
+}

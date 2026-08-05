@@ -1,0 +1,31 @@
+{
+  "naics_code": "424920",
+  "naics_title": "Book, Periodical, and Newspaper Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Returns are a core part of the trade and run on records.",
+      "why_this_business": "Books and periodicals are sold with return rights, with unsold copies returned for credit against publisher terms. Returns processing, credit reconciliation, and stripped cover affidavits are all record-driven. Publisher settlements depend on matching shipments to returns.",
+      "loss_scenario": "Unreconcilable returns and credits across publishers and retailers, where both sides claim different numbers and the party without records absorbs the difference.",
+      "rhetorical_question": "What share of the product you ship comes back as returns for credit?"
+    },
+    {
+      "rank": 2,
+      "headline": "Release dates are legally enforced and strictly timed.",
+      "why_this_business": "Major titles carry strict on-sale dates enforced by publisher embargo agreements, with penalties for early release. Distribution must reach retailers before the date and not be sold before it. Sequencing is managed to the day.",
+      "loss_scenario": "Missed on-sale dates on major titles remove the launch week that generates most of a title's sales, with publisher claims for breach of embargo if product is released early.",
+      "rhetorical_question": "Do you handle titles with contractual on-sale dates and embargo terms?"
+    },
+    {
+      "rank": 3,
+      "headline": "Periodical distribution is a daily perishable operation.",
+      "why_this_business": "Newspapers and magazines have a shelf life measured in days, with draw quantities calculated per outlet and adjusted continuously. Yesterday's product has no value. Route delivery and draw management run on scheduling systems.",
+      "loss_scenario": "Missed delivery days destroy the product entirely rather than delaying it, and outlets that go without stop carrying the title.",
+      "rhetorical_question": "How quickly does the product you deliver lose its value?"
+    }
+  ]
+}

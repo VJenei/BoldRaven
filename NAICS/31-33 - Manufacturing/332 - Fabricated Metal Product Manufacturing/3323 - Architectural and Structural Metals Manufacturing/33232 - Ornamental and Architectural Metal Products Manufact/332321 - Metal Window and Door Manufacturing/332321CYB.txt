@@ -1,0 +1,31 @@
+{
+  "naics_code": "332321",
+  "naics_title": "Metal Window and Door Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Every unit is made to a specific opening.",
+      "why_this_business": "Metal windows, doors, and storefront are fabricated to individual dimensions and configurations for specific openings, from field measurements. Nothing is stock and units that are wrong fit nowhere.",
+      "loss_scenario": "Units fabricated to wrong dimensions delivered to site, requiring remake with lead times of weeks while the building remains open and interior trades wait on enclosure.",
+      "rhetorical_question": "How are field dimensions captured and transferred into your fabrication?"
+    },
+    {
+      "rank": 2,
+      "headline": "Performance ratings support code compliance and insurance.",
+      "why_this_business": "Windows and doors carry certified ratings for structural, water, air, and in coastal areas impact resistance, verified by testing and labelled. Building officials and insurers rely on those labels.",
+      "loss_scenario": "Product installed that cannot be certified to required performance, requiring removal, and in a hurricane or wind event the absence of impact certification is decisive.",
+      "rhetorical_question": "What performance certifications do your products carry, and how are they tied to production?"
+    },
+    {
+      "rank": 3,
+      "headline": "Fire-rated doors and hardware are life safety products.",
+      "why_this_business": "Fire-rated doors and frames must be labelled to a rating with hardware and installation matching the tested assembly. Fire doors are the barrier that permits occupants to escape and firefighters to work.",
+      "loss_scenario": "Non-conforming fire-rated assemblies installed in occupancies, where compartmentation fails during a fire with occupants relying on it, and label records determining the manufacturer's liability.",
+      "rhetorical_question": "Do you produce fire-rated assemblies, and how are labels and listings controlled?"
+    }
+  ]
+}

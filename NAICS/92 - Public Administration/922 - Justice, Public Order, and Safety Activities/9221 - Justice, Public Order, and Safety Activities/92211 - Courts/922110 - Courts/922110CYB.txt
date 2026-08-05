@@ -1,0 +1,31 @@
+{
+  "naics_code": "922110",
+  "naics_title": "Courts",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Court operations have been halted for weeks by ransomware.",
+      "why_this_business": "Courts depend on case management, electronic filing, and docketing systems. Ransomware against court systems has forced closures, suspension of filings, and reversion to paper, with statutory deadlines and speedy trial requirements continuing to run.",
+      "loss_scenario": "Proceedings delayed with statutory deadlines and speedy trial clocks running, defendants held without hearings, and civil matters stalled, creating constitutional and due process exposure separate from the operational cost.",
+      "rhetorical_question": "What happens to speedy trial deadlines if your case management system is unavailable?"
+    },
+    {
+      "rank": 2,
+      "headline": "Sealed records and protected identities are held alongside public ones.",
+      "why_this_business": "Courts hold sealed filings, juvenile records, adoption files, grand jury material, protective order applications, and witness information, in systems that also hold public records. The distinction is enforced by access controls rather than by physical separation.",
+      "loss_scenario": "Disclosure of sealed material including juvenile records, victim identities, and protective order applications, which creates direct safety risk for protected individuals and violates court orders.",
+      "rhetorical_question": "How are sealed and confidential filings separated from public records in your system?"
+    },
+    {
+      "rank": 3,
+      "headline": "The record of proceedings is the authoritative legal record.",
+      "why_this_business": "Court records establish what was filed, ordered, and decided, relied on for appeals, enforcement, and the legal status of individuals and property. There is no alternative source for a court order.",
+      "loss_scenario": "Loss of case records affecting the enforceability of judgments, the status of appeals, and individuals' legal standing, with consequences reaching back through every case in the affected period.",
+      "rhetorical_question": "Is there an authoritative copy of your case records outside the primary system?"
+    }
+  ]
+}

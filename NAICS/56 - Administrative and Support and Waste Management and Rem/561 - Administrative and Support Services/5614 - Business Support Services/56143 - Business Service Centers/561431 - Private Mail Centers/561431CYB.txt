@@ -1,0 +1,31 @@
+{
+  "naics_code": "561431",
+  "naics_title": "Private Mail Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold identity documents and forwarding addresses for every box holder.",
+      "why_this_business": "Commercial mail receiving agencies must obtain and retain a completed USPS Form 1583 with two forms of identification for each box holder, including home address. Those records identify people who are frequently using a box specifically to keep their home address private.",
+      "loss_scenario": "Exposure of box holders' true home addresses and identity documents defeats the privacy the service was purchased for, and for domestic violence survivors and others using a box for safety it is a direct physical risk.",
+      "rhetorical_question": "How many box holders' home addresses and identity documents do you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Mail and package handling makes you a custody point for others' property.",
+      "why_this_business": "Centres receive, hold, and release mail and packages on behalf of customers, with release controlled by identification and authorisation records. Packages include valuable goods and sensitive correspondence.",
+      "loss_scenario": "Mail or packages released to the wrong party where authorisation records cannot be produced, with claims for the contents and, for identity documents and financial mail, follow-on fraud against the customer.",
+      "rhetorical_question": "How do you record who collected a package and under what authorisation?"
+    },
+    {
+      "rank": 3,
+      "headline": "Shipping, printing, and notary services add payment and document exposure.",
+      "why_this_business": "Centres offer shipping, copying, printing, and often notary services, handling customer payment cards and documents. Print jobs and notarised documents contain personal and financial information retained on devices and in records.",
+      "loss_scenario": "Card compromise across a high transaction count operation, plus exposure of customer documents from print systems and notarial records.",
+      "rhetorical_question": "How long are customer print files and notary records retained?"
+    }
+  ]
+}

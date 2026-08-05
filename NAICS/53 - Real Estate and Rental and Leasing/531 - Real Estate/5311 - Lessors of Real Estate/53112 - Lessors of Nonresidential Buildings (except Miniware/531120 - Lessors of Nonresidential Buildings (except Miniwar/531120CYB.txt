@@ -1,0 +1,31 @@
+{
+  "naics_code": "531120",
+  "naics_title": "Lessors of Nonresidential Buildings (except Miniwarehouses)",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Building automation systems control the environment tenants depend on.",
+      "why_this_business": "Commercial buildings run HVAC, lighting, elevators, and access control through building automation systems, frequently with remote vendor access for service. Tenants in data centres, laboratories, and healthcare space depend on environmental control absolutely.",
+      "loss_scenario": "Loss of environmental control damages tenant operations and equipment, with claims under the lease for interference with quiet enjoyment and for the tenant's own losses, which for a laboratory or data centre tenant far exceed the rent.",
+      "rhetorical_question": "Which vendors hold remote access to your building automation systems?"
+    },
+    {
+      "rank": 2,
+      "headline": "Access control systems govern who can enter tenant premises.",
+      "why_this_business": "Landlords administer credentialing, door control, and visitor management across the building, holding the access records for every tenant's staff. Tenants rely on that system as their perimeter security.",
+      "loss_scenario": "Unauthorised physical access to tenant premises, making the landlord the origin of a security incident inside a tenant's business, with liability under the lease and potentially for the tenant's own regulatory exposure.",
+      "rhetorical_question": "Whose staff records and access credentials are held in your building system?"
+    },
+    {
+      "rank": 3,
+      "headline": "Lease and financial records support financing and valuation.",
+      "why_this_business": "Commercial property value derives from the rent roll, lease terms, escalations, and tenant credit. Lenders and investors require that data, and it is confidential to the tenants who negotiated it.",
+      "loss_scenario": "Exposure of lease terms across the rent roll damages your negotiating position with every tenant simultaneously, and lost records complicate financing, sale, and CAM reconciliation.",
+      "rhetorical_question": "What would your tenants do if they learned what each other is paying?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "491110",
+  "naics_title": "Postal Service",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Mail and package data covers essentially the whole population.",
+      "why_this_business": "Postal operations hold addresses, change of address records, package tracking, delivery confirmations, and imaging of mailpieces, covering nearly every household and business. Change of address data in particular is a tool for identity theft and mail redirection fraud.",
+      "loss_scenario": "A breach of address and forwarding data enables mail redirection fraud at scale, which is a precursor to account takeover and identity theft affecting people who never chose to transact with anyone.",
+      "rhetorical_question": "What controls prevent fraudulent change of address submissions?"
+    },
+    {
+      "rank": 2,
+      "headline": "Processing and distribution centres run on automated sortation.",
+      "why_this_business": "Mail and parcels are sorted by automated equipment reading addresses and barcodes at very high speed, with routing decided by the sortation system. Manual sorting at national volume is not achievable.",
+      "loss_scenario": "Mail and parcels accumulating unsorted across the network within hours, with recovery taking far longer than the outage as backlogs compound through every downstream facility.",
+      "rhetorical_question": "What volume of mail passes through your sortation equipment each day?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retail and money services operate at every window.",
+      "why_this_business": "Postal retail sells postage, processes money orders, handles passport applications, and accepts payment cards. Money order issuance carries anti-money laundering recordkeeping obligations, and passport processing involves identity documents.",
+      "loss_scenario": "Exposure of identity document data from passport processing and money services records, which combines financial and identity information in a single incident.",
+      "rhetorical_question": "Do your retail operations handle passport applications or money orders?"
+    }
+  ]
+}

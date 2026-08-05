@@ -1,0 +1,31 @@
+{
+  "naics_code": "713910",
+  "naics_title": "Golf Courses and Country Clubs",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Member data covers affluent households in detail.",
+      "why_this_business": "Clubs hold member and family details, home addresses, stored payment methods for dues and charging privileges, financial statements provided during membership application, and guest records. Membership is frequently a matter of local status and privacy.",
+      "loss_scenario": "Exposure of an affluent membership roster with addresses and financial information, which supports targeted fraud and burglary and is a serious privacy failure in a community where members know each other.",
+      "rhetorical_question": "Do your membership applications include financial statements or net worth information?"
+    },
+    {
+      "rank": 2,
+      "headline": "Irrigation and course systems are networked and control the asset.",
+      "why_this_business": "Course irrigation runs on central control systems managing hundreds of zones, with pump stations and weather stations connected. Turf on greens is a high value asset that dies quickly without correct irrigation, particularly in summer.",
+      "loss_scenario": "Greens and fairways damaged by irrigation failure or over-watering, with putting surfaces taking months to recover and the course unplayable or degraded through the peak season.",
+      "rhetorical_question": "How long would your greens survive an irrigation control failure in midsummer?"
+    },
+    {
+      "rank": 3,
+      "headline": "Club operations run entirely on the membership and POS system.",
+      "why_this_business": "Tee times, dining, retail, member charging, and dues billing all run through connected systems, with members charging to account rather than paying at the point of sale. Monthly billing depends on the accumulated charge record.",
+      "loss_scenario": "Inability to record member charges or bill dues, with revenue unrecoverable where charges were not captured and member disputes over amounts that cannot be substantiated.",
+      "rhetorical_question": "How are member charges captured across dining, retail, and the pro shop?"
+    }
+  ]
+}

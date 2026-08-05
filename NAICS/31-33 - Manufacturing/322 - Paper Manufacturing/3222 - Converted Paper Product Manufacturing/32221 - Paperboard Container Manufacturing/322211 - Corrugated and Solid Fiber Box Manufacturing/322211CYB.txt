@@ -1,0 +1,31 @@
+{
+  "naics_code": "322211",
+  "naics_title": "Corrugated and Solid Fiber Box Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Box plants supply customers who cannot ship product without them.",
+      "why_this_business": "Corrugated boxes are made to order for specific customer products, printed with their branding, and delivered on frequent schedules. Manufacturers hold days of packaging and cannot ship finished goods without boxes.",
+      "loss_scenario": "Customers unable to ship finished product for want of packaging, with claims reflecting their lost sales and, for perishable and seasonal goods, product that cannot be held.",
+      "rhetorical_question": "How many days of box inventory do your customers hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Box design and print files are customer-specific.",
+      "why_this_business": "Every box is designed for a specific product with dimensions, board grade, and printed artwork including customer branding and regulatory markings. Corrugators and die cutters run from those files.",
+      "loss_scenario": "Wrong boxes produced that fit nothing, with material and run time lost, and customers waiting on packaging that must be redesigned and reprinted with plate lead times.",
+      "rhetorical_question": "How many customer box designs and print files are held on your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Corrugators run continuously at high speed.",
+      "why_this_business": "The corrugator combines liners and medium continuously at high speed, feeding converting equipment. It is the constraint on the plant and product in process is lost on any stop.",
+      "loss_scenario": "Corrugator downtime stopping the whole plant, with orders backing up and customer delivery schedules missed across the entire book of business simultaneously.",
+      "rhetorical_question": "What happens to the rest of your plant when the corrugator stops?"
+    }
+  ]
+}

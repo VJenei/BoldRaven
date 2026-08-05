@@ -1,0 +1,31 @@
+{
+  "naics_code": "712130",
+  "naics_title": "Zoos and Botanical Gardens",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Life support systems keep animals and collections alive.",
+      "why_this_business": "Aquariums and zoos run life support systems controlling water quality, temperature, filtration, and oxygenation, with greenhouse climate control for botanical collections. Animals in aquatic exhibits have very short tolerance for life support failure.",
+      "loss_scenario": "Mass mortality in aquatic or climate-controlled exhibits, involving animals that are frequently endangered, individually irreplaceable, and the subject of intense public attachment and media attention.",
+      "rhetorical_question": "How long can your aquatic exhibits survive a life support control failure?"
+    },
+    {
+      "rank": 2,
+      "headline": "Animal records support veterinary care and conservation breeding.",
+      "why_this_business": "Institutions maintain individual animal records covering identification, medical history, genetics, and breeding recommendations, contributed to regional and international studbooks that manage genetic diversity of endangered species across institutions.",
+      "loss_scenario": "Loss of individual animal medical and genetic records compromises veterinary care and breeding programme decisions for endangered species, with consequences extending beyond the institution to the wider conservation programme.",
+      "rhetorical_question": "How are your animal medical and studbook records maintained and shared?"
+    },
+    {
+      "rank": 3,
+      "headline": "Membership and admissions carry high transaction volume.",
+      "why_this_business": "Institutions sell admissions, memberships with recurring billing, education programmes, and events, holding visitor and member payment and contact data at scale, plus children's data from camps and school programmes.",
+      "loss_scenario": "Payment and member data exposure at scale, with children's programme data adding sensitivity, and notification costs falling on a non-profit budget.",
+      "rhetorical_question": "Do you run children's camps or school programmes with minors' data?"
+    }
+  ]
+}

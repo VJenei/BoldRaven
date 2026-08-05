@@ -1,0 +1,31 @@
+{
+  "naics_code": "458320",
+  "naics_title": "Luggage and Leather Goods Retailers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Branded leather goods are heavily counterfeited and diverted.",
+      "why_this_business": "Premium handbags and leather goods are among the most counterfeited product categories, and brand owners enforce authorised channel rules strictly. Purchase records and authorised supplier documentation are the evidence that goods are genuine and lawfully sourced.",
+      "loss_scenario": "Seizure of counterfeit goods and brand owner litigation where sourcing cannot be documented, plus loss of authorised dealer status which removes the products the store is built on.",
+      "rhetorical_question": "How do you document the source and authenticity of the branded goods you stock?"
+    },
+    {
+      "rank": 2,
+      "headline": "High value small goods are a primary organised theft target.",
+      "why_this_business": "Handbags and premium accessories carry very high value in small packages with immediate resale demand through online marketplaces. Inventory, delivery schedules, and stockroom contents are all recorded in systems accessible across the store team.",
+      "loss_scenario": "Organised theft informed by inventory and delivery data, at values that materially affect the profitability of a single-store or small-chain operation.",
+      "rhetorical_question": "What is the retail value of the stock in your back room?"
+    },
+    {
+      "rank": 3,
+      "headline": "Card and clienteling data ties affluent customers to their purchases.",
+      "why_this_business": "Premium retail runs clienteling programmes recording customer preferences, purchase histories, sizes, and contact details, with stored payment methods for repeat customers. That is a list of affluent individuals and what they own.",
+      "loss_scenario": "A breach exposing an affluent customer list with purchase histories and addresses, which supports both fraud and physical targeting and destroys the discretion these customers expect.",
+      "rhetorical_question": "Does your clienteling system record customer addresses alongside purchase history?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "488320",
+  "naics_title": "Marine Cargo Handling",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The terminal operating system is the only way containers can be found.",
+      "why_this_business": "Container terminals track every box by position in the yard, on the vessel, and through the gate using a terminal operating system driving cranes, straddle carriers, and gate transactions. A container yard holding tens of thousands of boxes is unsearchable without it.",
+      "loss_scenario": "Containers become physically unlocatable, gates close, and vessels cannot be worked. Cargo interests, carriers, and truckers all claim against the terminal while demurrage and detention accumulate across thousands of boxes.",
+      "rhetorical_question": "How would you locate a specific container in your yard without the system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Ship to shore cranes are networked industrial machines under scrutiny.",
+      "why_this_business": "Container cranes and yard equipment are increasingly automated and remotely monitored, with connectivity for diagnostics and updates. Federal attention to the security of foreign-manufactured port cranes led to an executive order in 2024 expanding Coast Guard authority over maritime cybersecurity specifically because of this equipment.",
+      "loss_scenario": "Loss or manipulation of crane control is both a productivity failure and a life safety exposure, with containers weighing tens of tons moving over people and vessels.",
+      "rhetorical_question": "Who has remote access to your crane and yard equipment for diagnostics?"
+    },
+    {
+      "rank": 3,
+      "headline": "Coast Guard cybersecurity requirements apply to the facility.",
+      "why_this_business": "Marine cargo handling facilities regulated under MTSA fall within the Coast Guard cybersecurity rule effective July 16, 2025, with immediate incident reporting, training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
+      "loss_scenario": "Coast Guard enforcement and operating restrictions at a facility whose customers have contractual berth windows and no alternative terminal in the port.",
+      "rhetorical_question": "Is your facility subject to a Coast Guard-approved facility security plan?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "321999",
+  "naics_title": "All Other Miscellaneous Wood Product Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Production is to customer specification with dedicated tooling.",
+      "why_this_business": "Manufacturers produce wood products to customer designs using specific tooling, patterns, and CNC programmes. Products are frequently components in customers' finished goods with no alternative source.",
+      "loss_scenario": "Loss of programmes and specifications halting production of customer components, with the customer's own assembly stopped and no alternative supplier tooled to produce the part.",
+      "rhetorical_question": "How many customer-specific programmes and tooling records do you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Wood dust is a combustible dust hazard.",
+      "why_this_business": "Woodworking generates combustible dust requiring collection, housekeeping, and explosion protection on collection systems. Dust collector explosions and fires are a recognised and recurring hazard in wood products manufacturing.",
+      "loss_scenario": "A dust explosion destroying the facility with worker fatalities and OSHA enforcement, in an industry where combustible dust incidents are well documented and the hazard is known.",
+      "rhetorical_question": "How is your dust collection system monitored and protected against explosion?"
+    },
+    {
+      "rank": 3,
+      "headline": "Species and origin documentation supports legal trade.",
+      "why_this_business": "The Lacey Act requires declarations of species and country of harvest for imported wood products and prohibits trade in illegally harvested timber, with due care expected of the importer.",
+      "loss_scenario": "Seizure and penalties where species and origin cannot be documented, with criminal exposure in serious cases and product forfeited.",
+      "rhetorical_question": "Can you document species and harvest origin for the wood you import?"
+    }
+  ]
+}

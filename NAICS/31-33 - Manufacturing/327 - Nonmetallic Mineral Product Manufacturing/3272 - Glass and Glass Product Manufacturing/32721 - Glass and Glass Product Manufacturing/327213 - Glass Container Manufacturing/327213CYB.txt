@@ -1,0 +1,31 @@
+{
+  "naics_code": "327213",
+  "naics_title": "Glass Container Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Container failure in filling or in consumer hands causes injury.",
+      "why_this_business": "Glass containers must withstand internal pressure, thermal shock, and handling, particularly for carbonated beverages where failure produces flying glass. Forming and annealing determine container strength.",
+      "loss_scenario": "Containers bursting in filling lines or in consumers' hands, with injury claims and recall of every container from the affected production, and filling lines shut down for glass contamination cleanup.",
+      "rhetorical_question": "Do your containers hold carbonated products under pressure?"
+    },
+    {
+      "rank": 2,
+      "headline": "Glass in food causes recalls of the packaged product.",
+      "why_this_business": "Glass fragments from container defects or breakage during filling contaminate the food or beverage inside, which is a serious foreign material hazard requiring recall of the packed product.",
+      "loss_scenario": "Glass contamination recalls reaching every product filled during the affected period, with injury exposure and the packer holding the container manufacturer responsible.",
+      "rhetorical_question": "How would a filler trace glass contamination back to a specific container production run?"
+    },
+    {
+      "rank": 3,
+      "headline": "Furnaces and forming machines run continuously at scale.",
+      "why_this_business": "Container plants run furnaces continuously with forming machines producing hundreds of containers per minute. Fillers depend on continuous container supply with limited warehouse buffer.",
+      "loss_scenario": "Fillers without containers stopping beverage and food production, plus furnace damage where an uncontrolled shutdown occurs, requiring a rebuild measured in months.",
+      "rhetorical_question": "How many days of container inventory do your filling customers hold?"
+    }
+  ]
+}

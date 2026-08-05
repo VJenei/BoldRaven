@@ -1,0 +1,31 @@
+{
+  "naics_code": "331318",
+  "naics_title": "Other Aluminum Rolling, Drawing, and Extruding",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Extrusion dies define every profile and are customer specific.",
+      "why_this_business": "Aluminium extrusion runs billet through customer-specific dies producing profiles to dimensional tolerance. Dies are tooling assets, and press recipes control temperature, speed, and quench producing the required properties.",
+      "loss_scenario": "Profiles out of tolerance that will not assemble into customer products, with material and press time lost and customers whose fabrication depends on the profile halted.",
+      "rhetorical_question": "How many customer die and press recipe combinations do you hold?"
+    },
+    {
+      "rank": 2,
+      "headline": "Structural and building profiles carry code requirements.",
+      "why_this_business": "Extruded profiles for windows, curtain wall, and structural applications carry alloy and temper requirements with certification. Building envelope performance depends on profile dimensions and properties.",
+      "loss_scenario": "Profiles at wrong temper or dimension installed in curtain wall and structural applications, with performance failures appearing under wind and thermal loading after installation.",
+      "rhetorical_question": "What structural or building envelope applications use your profiles?"
+    },
+    {
+      "rank": 3,
+      "headline": "Press operations run continuously with heated billet.",
+      "why_this_business": "Extrusion presses run continuously with billet heating, extrusion, quench, and stretch all sequenced. Press control determines dimensional accuracy and metallurgical properties simultaneously.",
+      "loss_scenario": "Off-specification extrusion produced until detected, plus press downtime with customers on delivery schedules and dies that only run on your equipment.",
+      "rhetorical_question": "How are press parameters controlled and recorded for each die and alloy?"
+    }
+  ]
+}

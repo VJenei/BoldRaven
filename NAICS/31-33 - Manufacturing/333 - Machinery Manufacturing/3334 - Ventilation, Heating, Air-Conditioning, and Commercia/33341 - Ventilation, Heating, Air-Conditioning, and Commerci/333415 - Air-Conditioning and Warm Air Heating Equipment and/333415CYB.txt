@@ -1,0 +1,31 @@
+{
+  "naics_code": "333415",
+  "naics_title": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Refrigerant regulation is strict and changing on a schedule.",
+      "why_this_business": "The AIM Act phases down hydrofluorocarbons with EPA rules restricting refrigerants by equipment type and date, and new flammable A2L refrigerants require different equipment design, safety features, and technician handling. Compliance is tracked per model and date.",
+      "loss_scenario": "Equipment manufactured or sold outside refrigerant transition requirements, which is an EPA violation with penalties and product that cannot lawfully be sold, plus safety exposure where A2L design requirements were missed.",
+      "rhetorical_question": "How do you track refrigerant compliance by model and manufacture date?"
+    },
+    {
+      "rank": 2,
+      "headline": "Commercial refrigeration protects food and pharmaceuticals.",
+      "why_this_business": "Refrigeration equipment maintains temperatures that food safety and pharmaceutical storage depend on, with controls and monitoring alarming on excursion. Loss of refrigeration destroys inventory in hours.",
+      "loss_scenario": "Control or monitoring defects allowing temperature excursions without alarm, with food or pharmaceutical inventory destroyed at customer sites and claims for the product as well as the equipment.",
+      "rhetorical_question": "Does your equipment monitor and alarm on temperature excursion?"
+    },
+    {
+      "rank": 3,
+      "headline": "Connected HVAC equipment reaches into building networks.",
+      "why_this_business": "HVAC and refrigeration units ship with connected controls linking to building management systems and manufacturer monitoring platforms. Those connections sit inside customer building networks.",
+      "loss_scenario": "Equipment controls used as an entry point into customer building and corporate networks, with the manufacturer identified as the path and remediation required at every installed site.",
+      "rhetorical_question": "How do your connected units communicate back to your monitoring platform?"
+    }
+  ]
+}

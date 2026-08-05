@@ -1,0 +1,31 @@
+{
+  "naics_code": "532282",
+  "naics_title": "Video Tape and Disc Rental",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Federal law provides statutory damages for disclosing video rental records.",
+      "why_this_business": "The Video Privacy Protection Act specifically prohibits knowing disclosure of personally identifiable information about a consumer's video rentals or purchases, and provides liquidated damages of $2,500 per violation. It is one of very few privacy statutes with per-person statutory damages and no requirement to prove actual harm.",
+      "loss_scenario": "Statutory damages multiplied across every customer whose rental history was disclosed, which converts a modest customer base into a very large claim without any proof of individual harm.",
+      "rhetorical_question": "How many customers' rental histories are stored in your system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Rental histories reveal personal information customers assume is private.",
+      "why_this_business": "Viewing histories indicate interests, beliefs, and sexuality, which is precisely why Congress legislated specifically to protect these records. Customer files link that history to name, address, and payment method.",
+      "loss_scenario": "Personal harm to customers from disclosure of viewing history, combined with the statutory damages framework that makes this category of data uniquely expensive to lose.",
+      "rhetorical_question": "How long do you retain individual customer rental histories?"
+    },
+    {
+      "rank": 3,
+      "headline": "The point of sale system runs the entire operation.",
+      "why_this_business": "Inventory, membership, rental terms, due dates, late fees, and payment all run through a single system. Physical media rental depends on knowing what is out, with whom, and when it is due.",
+      "loss_scenario": "Inability to check out or receive returns, and loss of the record of what inventory is currently in customers' hands, which is unrecoverable without customer cooperation.",
+      "rhetorical_question": "How would you know what inventory is currently rented out without your system?"
+    }
+  ]
+}

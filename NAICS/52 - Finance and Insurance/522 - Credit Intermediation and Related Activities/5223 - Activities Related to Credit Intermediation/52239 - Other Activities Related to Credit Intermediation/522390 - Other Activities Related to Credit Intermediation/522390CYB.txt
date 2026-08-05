@@ -1,0 +1,31 @@
+{
+  "naics_code": "522390",
+  "naics_title": "Other Activities Related to Credit Intermediation",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Money services businesses carry direct anti-money laundering obligations.",
+      "why_this_business": "Money transmitters, check cashers, and currency dealers must register with FinCEN, maintain a written AML programme with a compliance officer, training, and independent review, file suspicious activity and currency transaction reports, and retain records. These obligations are enforced criminally as well as civilly.",
+      "loss_scenario": "FinCEN and Department of Justice enforcement where the programme and its records cannot be evidenced, with penalties that have reached hundreds of millions for large institutions and criminal exposure for individuals.",
+      "rhetorical_question": "Where are your suspicious activity report records and AML programme documentation held?"
+    },
+    {
+      "rank": 2,
+      "headline": "Transaction records identify senders, recipients, and amounts.",
+      "why_this_business": "Money transmission records hold sender and recipient identity documents, addresses, relationships, and amounts, frequently for immigrant and unbanked populations sending funds abroad. Those records reveal family connections and immigration-adjacent information.",
+      "loss_scenario": "A breach exposing remittance records affects a population that is often already vulnerable and distrustful of formal institutions, and the data enables targeted fraud against both sender and recipient.",
+      "rhetorical_question": "How many customer transaction records with identity documents do you retain?"
+    },
+    {
+      "rank": 3,
+      "headline": "Agent networks extend your compliance obligation to locations you do not control.",
+      "why_this_business": "Money transmitters operate through agent locations conducting transactions under the principal's licence and compliance programme. The principal remains responsible for agent conduct, training, and monitoring.",
+      "loss_scenario": "Regulatory action against the principal for agent conduct, and a compromise at an agent location reaching the principal's systems and customer data.",
+      "rhetorical_question": "How many agent locations transact under your licence and access your systems?"
+    }
+  ]
+}

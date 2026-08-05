@@ -1,0 +1,31 @@
+{
+  "naics_code": "531190",
+  "naics_title": "Lessors of Other Real Estate Property",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Lease documents define rights that run for decades.",
+      "why_this_business": "Ground leases, land leases, and similar arrangements run for very long terms with escalation formulas, renewal options, and use restrictions negotiated at inception. The document is the only statement of what each party may do, and the original counterparties are frequently long gone.",
+      "loss_scenario": "Disputes over rights and obligations that cannot be resolved without the executed documents and their amendments, on interests worth far more than the annual rent.",
+      "rhetorical_question": "Where are the executed originals and amendments for your long-term leases held?"
+    },
+    {
+      "rank": 2,
+      "headline": "Rent, royalty, and escalation calculations depend on maintained data.",
+      "why_this_business": "Payments under these leases are frequently formula-driven, tied to indices, percentage of revenue, or production. Calculating what is owed requires the lease terms, the historical basis, and the reported figures from the tenant.",
+      "loss_scenario": "Under-collection that persists undetected across a long term, where escalations were not applied and the shortfall compounds over years before anyone reconciles.",
+      "rhetorical_question": "How are escalations and formula-based rents calculated and verified each period?"
+    },
+    {
+      "rank": 3,
+      "headline": "Payment instruction fraud targets infrequent large transactions.",
+      "why_this_business": "Lease payments, buyouts, and transfers involve large sums between parties who transact rarely, arranged by email through attorneys and agents. The infrequency means neither party has a routine for verifying instructions.",
+      "loss_scenario": "A diverted payment on a lease buyout or transfer, in amounts that reflect the capitalised value of a long-term interest rather than a monthly rent.",
+      "rhetorical_question": "How are payment instructions verified on an infrequent, high-value transaction?"
+    }
+  ]
+}

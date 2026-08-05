@@ -1,0 +1,31 @@
+{
+  "naics_code": "624120",
+  "naics_title": "Services for the Elderly and Persons with Disabilities",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Client records identify vulnerable people living alone.",
+      "why_this_business": "In-home services hold client addresses, entry arrangements, health conditions, cognitive status, medication needs, and schedules identifying when a caregiver will and will not be present. Clients are frequently elderly, isolated, and cognitively impaired.",
+      "loss_scenario": "Exposure of addresses and schedules for isolated elderly clients with cognitive impairment, which is a targeting resource for burglary and financial exploitation against people who cannot protect themselves.",
+      "rhetorical_question": "Do your records identify clients who live alone and when caregivers are present?"
+    },
+    {
+      "rank": 2,
+      "headline": "Missed visits leave dependent clients without essential support.",
+      "why_this_business": "Services include meal delivery, personal care, medication reminders, and transportation for clients who cannot manage independently. Scheduling and dispatch determine whether a caregiver arrives.",
+      "loss_scenario": "Clients left without meals, medication assistance, or personal care, with health deterioration and, for isolated clients, no one else to notice. Adult protective services and funder scrutiny follow.",
+      "rhetorical_question": "What happens to a client who depends on you for daily meals or medication if a visit is missed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Public funding requires documented service delivery.",
+      "why_this_business": "Programmes are funded through Medicaid waivers, Older Americans Act funding, and state programmes requiring documented service units, client assessments, and in many cases electronic visit verification.",
+      "loss_scenario": "Funding recoupment and programme sanctions where service documentation cannot be produced, on funding streams that constitute nearly all revenue.",
+      "rhetorical_question": "How is service delivery documented and verified for your funders?"
+    }
+  ]
+}

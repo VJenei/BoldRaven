@@ -1,0 +1,31 @@
+{
+  "naics_code": "621491",
+  "naics_title": "HMO Medical Centers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Integrated care and coverage means one incident affects both.",
+      "why_this_business": "HMO medical centres combine clinical delivery with plan administration, holding treatment records, eligibility, claims, and member financial data in a connected environment. The organisation is both a provider and a health plan for HIPAA purposes.",
+      "loss_scenario": "A single incident triggering covered entity obligations across both clinical and plan functions, with members losing both their care access and their coverage administration at once.",
+      "rhetorical_question": "Do your clinical and plan administration systems share infrastructure?"
+    },
+    {
+      "rank": 2,
+      "headline": "Members have no alternative provider inside the plan.",
+      "why_this_business": "Closed panel models direct members to the plan's own facilities and physicians. When those facilities cannot operate, members cannot simply go elsewhere without leaving network coverage and paying out of pocket.",
+      "loss_scenario": "Members unable to obtain covered care, with out of network costs, regulatory complaints to state insurance and health authorities, and access to care becoming a public issue quickly.",
+      "rhetorical_question": "Where do your members go for care if your facilities cannot operate?"
+    },
+    {
+      "rank": 3,
+      "headline": "Scale means a breach affects an entire covered population.",
+      "why_this_business": "Integrated organisations hold complete clinical and coverage records for their whole membership, combining diagnoses, treatment, prescriptions, and financial data in a single record per member.",
+      "loss_scenario": "Notification across the entire membership with the most complete health record of each individual exposed, which is a materially richer dataset than either a provider or a plan holds alone.",
+      "rhetorical_question": "How many members' combined clinical and coverage records do you hold?"
+    }
+  ]
+}

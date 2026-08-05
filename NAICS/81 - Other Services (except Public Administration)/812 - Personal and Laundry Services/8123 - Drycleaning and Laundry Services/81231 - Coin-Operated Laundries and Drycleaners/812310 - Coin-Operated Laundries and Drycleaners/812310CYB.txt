@@ -1,0 +1,31 @@
+{
+  "naics_code": "812310",
+  "naics_title": "Coin-Operated Laundries and Drycleaners",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Cashless payment systems hold customer stored value.",
+      "why_this_business": "Modern laundromats operate card and app-based payment with stored value accounts, loyalty balances, and machine control over networked payment systems. Customers load value in advance.",
+      "loss_scenario": "Stored value balances drained or unrecoverable, with the operator liable to restore customer funds, and machines that cannot be activated without the payment network.",
+      "rhetorical_question": "How much customer stored value is held in your payment system?"
+    },
+    {
+      "rank": 2,
+      "headline": "Unattended sites depend entirely on remote monitoring.",
+      "why_this_business": "Many locations operate unattended with remote monitoring of machine status, payment, cameras, and door access. There is no staff member to notice a problem or intervene.",
+      "loss_scenario": "Machines out of service or door access compromised at unattended sites, with no one present to identify the issue and customers unable to use a facility they may have travelled to.",
+      "rhetorical_question": "How many of your locations operate without staff present?"
+    },
+    {
+      "rank": 3,
+      "headline": "Machine networking connects utilities and equipment.",
+      "why_this_business": "Networked machines report status, usage, and faults, and control water, gas, and electrical consumption. Utility cost is the largest variable expense and machine faults can cause flooding or gas issues.",
+      "loss_scenario": "Machine faults undetected causing water damage to the premises and neighbouring units, plus utility consumption that cannot be monitored or controlled.",
+      "rhetorical_question": "How would you learn of a machine flooding an unattended location?"
+    }
+  ]
+}

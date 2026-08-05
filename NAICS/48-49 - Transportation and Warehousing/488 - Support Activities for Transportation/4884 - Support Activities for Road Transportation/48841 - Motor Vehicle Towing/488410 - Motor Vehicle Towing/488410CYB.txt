@@ -1,0 +1,31 @@
+{
+  "naics_code": "488410",
+  "naics_title": "Motor Vehicle Towing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold vehicles and everything inside them.",
+      "why_this_business": "Towing and impound operations take custody of vehicles and their contents, including personal property, documents, and sometimes firearms or cash. Intake records, photographs, and property inventories are the only evidence of what was in the vehicle when it arrived.",
+      "loss_scenario": "Property claims from vehicle owners that cannot be rebutted without intake inventories and photographs, plus regulatory complaints in a sector where consumer protection agencies are already attentive.",
+      "rhetorical_question": "How do you record vehicle contents and condition at intake?"
+    },
+    {
+      "rank": 2,
+      "headline": "Police rotation and motor club dispatch are the source of most work.",
+      "why_this_business": "Towing companies receive dispatch from police rotations, motor clubs, and roadside assistance platforms, with response time performance measured and rotation position at stake. Digital dispatch platforms assign calls in seconds to whoever accepts first.",
+      "loss_scenario": "Removal from a police rotation or motor club network for missed response times, which removes the majority of call volume and is difficult to regain.",
+      "rhetorical_question": "What share of your calls come from police rotation or motor club platforms?"
+    },
+    {
+      "rank": 3,
+      "headline": "Lien and notification processes are legally prescribed and time-bound.",
+      "why_this_business": "Disposing of unclaimed vehicles requires statutory notice to registered owners and lienholders, obtained through state records, with prescribed waiting periods and documentation before sale. Getting the process wrong exposes the operator to conversion claims.",
+      "loss_scenario": "Conversion liability for vehicles sold without proper notice, plus storage fees that cannot be collected because the lien process was not properly documented.",
+      "rhetorical_question": "How do you track statutory notice deadlines for unclaimed vehicles?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "423730",
+  "naics_title": "Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Refrigerant sales are federally restricted and recorded.",
+      "why_this_business": "Distributors may only sell regulated refrigerants to certified technicians, must verify certification, and must retain sales records. The AIM Act adds allowance-based limits and reporting on HFCs, with an aggressive phase-down schedule and enforcement against unlawful imports and sales.",
+      "loss_scenario": "EPA enforcement for sales records that cannot be produced, with penalties per violation and loss of the ability to sell controlled refrigerants, which for an HVAC distributor removes a core product line.",
+      "rhetorical_question": "How do you verify and record technician certification for refrigerant sales?"
+    },
+    {
+      "rank": 2,
+      "headline": "The season concentrates the year into a few brutal weeks.",
+      "why_this_business": "HVAC distribution is intensely seasonal, with a large share of annual revenue moving during heat waves and cold snaps when contractors need equipment the same day. Inventory allocation across branches is managed continuously during those periods.",
+      "loss_scenario": "A systems outage during a heat wave forfeits the highest margin period of the year, with contractors buying from whoever has stock and homeowners without cooling.",
+      "rhetorical_question": "What share of your annual revenue moves during peak season weeks?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment is serialised for warranty and rebate registration.",
+      "why_this_business": "Furnaces, condensers, and air handlers are registered by serial number for warranty, with manufacturer rebates and utility efficiency incentives claimed against installation records. Registration data ties equipment to a contractor and an address.",
+      "loss_scenario": "Forfeited manufacturer rebates and unregistered warranties, plus disputes with contractors whose customers cannot claim warranty coverage on equipment you supplied.",
+      "rhetorical_question": "How are equipment serial numbers recorded and registered for warranty?"
+    }
+  ]
+}

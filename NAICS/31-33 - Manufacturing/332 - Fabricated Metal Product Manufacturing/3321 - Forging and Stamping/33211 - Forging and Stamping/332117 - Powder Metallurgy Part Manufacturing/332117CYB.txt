@@ -1,0 +1,31 @@
+{
+  "naics_code": "332117",
+  "naics_title": "Powder Metallurgy Part Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Sintering parameters determine part strength.",
+      "why_this_business": "Powder metal parts are compacted and sintered under controlled temperature and atmosphere, with sintering developing the strength of the part. Under-sintered parts have correct dimensions but inadequate strength.",
+      "loss_scenario": "Under-sintered parts entering automotive and industrial assemblies, failing under load with the deficiency invisible until failure and traceability determining which parts are affected.",
+      "rhetorical_question": "How are sintering furnace parameters recorded against production lots?"
+    },
+    {
+      "rank": 2,
+      "headline": "Powder blends and compaction are qualified per part.",
+      "why_this_business": "Each part has a qualified powder blend, compaction pressure, and tooling producing the required density and dimensions. Automotive customers approve those parameters through formal production part approval.",
+      "loss_scenario": "Loss of qualified parameters requiring requalification with customers, halting production during an approval process that takes weeks in automotive supply.",
+      "rhetorical_question": "How many qualified part parameters are stored in your production systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Metal powders present combustible dust hazards.",
+      "why_this_business": "Fine metal powders including aluminium and iron are combustible, with handling, blending, and collection systems requiring explosion protection. Metal dust fires cannot be extinguished with water.",
+      "loss_scenario": "A metal dust explosion or fire in powder handling, which propagates through connected equipment and cannot be fought conventionally, destroying production areas with fatality potential.",
+      "rhetorical_question": "How are your powder handling and dust collection systems protected against explosion?"
+    }
+  ]
+}

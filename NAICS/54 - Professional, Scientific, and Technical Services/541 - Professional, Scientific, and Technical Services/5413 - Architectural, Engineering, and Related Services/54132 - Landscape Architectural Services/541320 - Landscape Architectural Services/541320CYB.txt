@@ -1,0 +1,31 @@
+{
+  "naics_code": "541320",
+  "naics_title": "Landscape Architectural Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Site design records support permits and long-term obligations.",
+      "why_this_business": "Landscape architects produce grading, drainage, planting, and irrigation designs that support permits, stormwater approvals, and maintenance obligations running for years after construction. Regulatory approvals reference the approved drawings.",
+      "loss_scenario": "Inability to produce the approved design in a permit compliance dispute or a drainage failure claim, where the record determines whether the design or the construction was at fault.",
+      "rhetorical_question": "How long are your approved site plans and permit documentation retained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Drainage and grading design failures cause property damage.",
+      "why_this_business": "Site grading and stormwater design determine where water goes. Errors cause flooding of adjacent property, structural damage, and regulatory violations, and claims arise years after completion when a large storm reveals the deficiency.",
+      "loss_scenario": "Flood damage claims from the owner and neighbouring properties, defended only with the design calculations and approved drawings that either exist or do not.",
+      "rhetorical_question": "Where are your drainage calculations and approved grading plans stored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Project deliverables are tied to construction and permitting schedules.",
+      "why_this_business": "Design deliverables feed permit submissions and construction sequencing, with review cycles at agencies that have their own calendars. Missing a submission date can delay a project by a full review cycle.",
+      "loss_scenario": "Delayed permitting pushing construction into an unfavourable season, with the owner claiming the resulting cost against the design team.",
+      "rhetorical_question": "What agency submission deadlines depend on your deliverables?"
+    }
+  ]
+}

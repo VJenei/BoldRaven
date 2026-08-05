@@ -1,0 +1,31 @@
+{
+  "naics_code": "812922",
+  "naics_title": "One-Hour Photofinishing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Customer images pass through your systems and stay there.",
+      "why_this_business": "Retail photofinishing receives customer images from devices and media, processed through kiosks and production systems that retain files after the order. Content is personal and frequently sensitive.",
+      "loss_scenario": "Exposure of customer images retained on kiosks and production systems, which customers had no reason to believe were kept and which are frequently deeply personal.",
+      "rhetorical_question": "How long do customer images remain on your kiosks and production systems after printing?"
+    },
+    {
+      "rank": 2,
+      "headline": "Kiosks are self-service devices in public retail space.",
+      "why_this_business": "Order kiosks accept media and device connections from customers in unsupervised retail environments, with cached data and network connections back to production systems.",
+      "loss_scenario": "Kiosks used to capture customer data or as an entry point to the retail network, with the customer content on them exposed and the store network reached through a public-facing device.",
+      "rhetorical_question": "How are your self-service kiosks isolated from your store network?"
+    },
+    {
+      "rank": 3,
+      "headline": "Turnaround promises are the service proposition.",
+      "why_this_business": "The format is defined by rapid turnaround, with customers waiting or returning within the hour. Production and payment run on connected systems in a retail setting.",
+      "loss_scenario": "Orders that cannot be produced or collected, with customers who chose the format specifically for speed going elsewhere permanently.",
+      "rhetorical_question": "What happens to waiting customers if production is unavailable?"
+    }
+  ]
+}

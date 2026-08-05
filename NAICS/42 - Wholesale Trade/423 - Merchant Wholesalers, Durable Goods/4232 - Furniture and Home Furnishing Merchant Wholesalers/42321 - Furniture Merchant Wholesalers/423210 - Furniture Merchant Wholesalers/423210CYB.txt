@@ -1,0 +1,31 @@
+{
+  "naics_code": "423210",
+  "naics_title": "Furniture Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Imported inventory is committed months ahead against forecast.",
+      "why_this_business": "Furniture wholesalers place container orders with overseas factories months before delivery, financed by letters of credit or open account, tracked through purchase orders, container bookings, and customs entries. Forecast, purchase order, and in-transit data determine what can be promised to retailers.",
+      "loss_scenario": "Loss of purchase order and in-transit visibility means containers arriving with no matched order, demurrage at the port, and inability to allocate goods to the retailers who ordered them.",
+      "rhetorical_question": "How many containers are in transit against orders at any given time?"
+    },
+    {
+      "rank": 2,
+      "headline": "Retail customers order through EDI and hold you to compliance standards.",
+      "why_this_business": "Furniture retailers and e-commerce channels order through EDI with advance ship notices, labelling standards, and routing guides. Non-compliant shipments are charged back automatically. Drop-ship programmes require order and tracking data to flow within hours.",
+      "loss_scenario": "Vendor compliance chargebacks and suspension from drop-ship programmes, where reinstatement requires a performance record you cannot build while your systems are down.",
+      "rhetorical_question": "Which of your customers require EDI and impose vendor compliance chargebacks?"
+    },
+    {
+      "rank": 3,
+      "headline": "Damage claims are resolved from delivery documentation.",
+      "why_this_business": "Furniture is bulky, easily damaged, and moved through LTL and final mile carriers. Concealed damage claims are decided on delivery receipts, photographs, and inspection records. Freight claims must be filed within carrier time limits.",
+      "loss_scenario": "Unrecoverable freight claims where documentation cannot be produced within the carrier's filing window, leaving the wholesaler absorbing damage caused by someone else.",
+      "rhetorical_question": "How do you document and file freight damage claims within carrier deadlines?"
+    }
+  ]
+}

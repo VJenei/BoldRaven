@@ -1,0 +1,31 @@
+{
+  "naics_code": "311421",
+  "naics_title": "Fruit and Vegetable Canning",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Thermal processing failure causes botulism.",
+      "why_this_business": "Low acid canned foods are regulated under FDA rules requiring scheduled processes established by a process authority, trained operators, and continuous records of retort time, temperature, and pressure. Under-processing permits Clostridium botulinum growth, which is fatal.",
+      "loss_scenario": "A process deviation that cannot be evaluated against records requires the entire production to be held or destroyed, and product that shipped creates a botulism exposure with fatalities and criminal investigation.",
+      "rhetorical_question": "How are retort process records captured, reviewed, and retained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Process deviations require documented evaluation.",
+      "why_this_business": "Any deviation from the scheduled process must be identified, evaluated by a process authority, and the affected product segregated and dispositioned, with records maintained and available to FDA. Records are the entire basis of demonstrating safety.",
+      "loss_scenario": "Product with unevaluated deviations that cannot be released, and FDA action where deviation records are incomplete, which for a low acid canner is treated with maximum seriousness.",
+      "rhetorical_question": "What happens to product when a retort deviation cannot be evaluated against records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Seasonal packing runs against a crop that will not wait.",
+      "why_this_business": "Canning operations run intensive seasonal packs timed to crop maturity, with raw product arriving continuously for a period of weeks. The crop cannot be held and the pack window does not extend.",
+      "loss_scenario": "Downtime during pack season with raw product spoiling in receiving, growers unable to deliver, and annual production capacity permanently lost for that crop year.",
+      "rhetorical_question": "How many weeks is your pack season, and what happens to the crop if you cannot run?"
+    }
+  ]
+}

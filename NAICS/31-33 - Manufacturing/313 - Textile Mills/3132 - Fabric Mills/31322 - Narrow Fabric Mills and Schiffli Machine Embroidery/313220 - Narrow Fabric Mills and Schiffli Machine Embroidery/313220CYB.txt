@@ -1,0 +1,31 @@
+{
+  "naics_code": "313220",
+  "naics_title": "Narrow Fabric Mills and Schiffli Machine Embroidery",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Narrow fabrics are components in safety-critical products.",
+      "why_this_business": "Webbing produced by narrow fabric mills is used in seat belts, harnesses, slings, and military applications with tensile strength specifications and testing requirements. Failure of the webbing means failure of the safety device.",
+      "loss_scenario": "Webbing below strength specification incorporated into safety products, with failure causing injury or death and traceability determining which products contain the affected material.",
+      "rhetorical_question": "Is your webbing used in fall protection, restraint, or lifting applications?"
+    },
+    {
+      "rank": 2,
+      "headline": "Design and pattern files drive automated production.",
+      "why_this_business": "Narrow weaving and embroidery machines execute pattern files defining design, colour sequence, and stitch. Customer designs including licensed and branded artwork are held as production files.",
+      "loss_scenario": "Loss of pattern files requiring redigitisation of customer designs, and disclosure of licensed and branded artwork with contractual liability to brand owners.",
+      "rhetorical_question": "How many customer design and pattern files are held on your systems?"
+    },
+    {
+      "rank": 3,
+      "headline": "Testing and certification records support product claims.",
+      "why_this_business": "Products with strength, flame resistance, or performance claims require testing with records tying results to production lots. Customers and regulators rely on those certificates.",
+      "loss_scenario": "Product that cannot be certified is unusable in its intended application, and existing certificates that cannot be supported undermine every product already supplied.",
+      "rhetorical_question": "How are test results tied to specific production lots?"
+    }
+  ]
+}

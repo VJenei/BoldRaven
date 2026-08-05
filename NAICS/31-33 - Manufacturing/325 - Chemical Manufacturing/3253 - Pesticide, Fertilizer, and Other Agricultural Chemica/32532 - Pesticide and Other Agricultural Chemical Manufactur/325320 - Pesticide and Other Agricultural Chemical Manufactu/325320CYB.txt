@@ -1,0 +1,31 @@
+{
+  "naics_code": "325320",
+  "naics_title": "Pesticide and Other Agricultural Chemical Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Pesticide registration and label content are federally controlled.",
+      "why_this_business": "Pesticides are registered with EPA under FIFRA with the label being legally enforceable, specifying uses, rates, and precautions. Producing or distributing product with an unapproved label or formulation is a federal violation.",
+      "loss_scenario": "Product produced to a wrong formulation or labelled with superseded content, distributed to applicators who apply it accordingly, with EPA enforcement, recall, and crop damage or exposure claims from misapplication.",
+      "rhetorical_question": "How is registered label content version controlled through to the printing of containers?"
+    },
+    {
+      "rank": 2,
+      "headline": "Formulation errors cause crop destruction across large acreage.",
+      "why_this_business": "Pesticide formulation and packaging determine what applicators put on crops. Contamination or wrong active ingredient causes crop damage across every acre treated, and herbicide contamination in particular destroys sensitive crops.",
+      "loss_scenario": "Contaminated or misformulated product applied across thousands of acres, with crop losses claimed against the manufacturer and the affected acreage identified only as damage appears over weeks.",
+      "rhetorical_question": "How is formulation verified before product is packaged and released?"
+    },
+    {
+      "rank": 3,
+      "headline": "Production reporting and inventory are federally tracked.",
+      "why_this_business": "Producers must register establishments with EPA and file annual production reports, and pesticide products are subject to recordkeeping and inspection. Some active ingredients carry additional security and reporting requirements.",
+      "loss_scenario": "EPA enforcement for reporting and recordkeeping failures, plus security concerns where inventory of restricted materials cannot be reconciled.",
+      "rhetorical_question": "How are production volumes recorded for your EPA establishment reporting?"
+    }
+  ]
+}

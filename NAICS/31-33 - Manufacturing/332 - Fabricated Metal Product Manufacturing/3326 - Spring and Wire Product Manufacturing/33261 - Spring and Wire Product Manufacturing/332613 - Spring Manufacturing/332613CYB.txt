@@ -1,0 +1,31 @@
+{
+  "naics_code": "332613",
+  "naics_title": "Spring Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Spring failure causes injury and equipment damage.",
+      "why_this_business": "Springs store energy, and failure releases it suddenly. Garage door springs, valve springs, and industrial springs all fail in ways that cause injury or equipment damage, with material and heat treatment determining fatigue life.",
+      "loss_scenario": "Spring failures across a production lot causing injuries and equipment damage, with the fatigue deficiency invisible on inspection and traceability determining which springs must be located.",
+      "rhetorical_question": "What applications use your springs where sudden failure causes injury?"
+    },
+    {
+      "rank": 2,
+      "headline": "Material and heat treatment determine fatigue life.",
+      "why_this_business": "Spring performance depends on wire specification, forming, and stress relief or heat treatment producing the required fatigue properties. Springs are cycled millions of times and fatigue failures appear only after extended service.",
+      "loss_scenario": "Springs with inadequate fatigue life failing across the field after months or years, with warranty and injury claims across an entire production period.",
+      "rhetorical_question": "How are wire specification and heat treatment recorded against production lots?"
+    },
+    {
+      "rank": 3,
+      "headline": "Automotive customers qualify parts and charge for stoppages.",
+      "why_this_business": "Springs are components in automotive and industrial assemblies with production part approval, dedicated tooling, and just in time delivery. Assembly lines run to schedule with limited inventory.",
+      "loss_scenario": "Automotive line stoppages with contractual charges per hour that vastly exceed the component value, plus expedited freight to recover the schedule.",
+      "rhetorical_question": "What are your automotive customers' line-down charges?"
+    }
+  ]
+}

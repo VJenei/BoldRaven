@@ -1,0 +1,31 @@
+{
+  "naics_code": "327120",
+  "naics_title": "Clay Building Material and Refractories Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Refractories fail in service at extreme temperature.",
+      "why_this_business": "Refractory products line furnaces, kilns, and vessels operating at very high temperature, with composition and installation determining service life. Refractory failure in a steel or glass furnace releases molten material.",
+      "loss_scenario": "Refractory failure in a customer furnace producing a molten breakout, which is a catastrophic event at the customer's facility with worker fatality potential and equipment destruction.",
+      "rhetorical_question": "What temperatures and materials do your refractories contain in service?"
+    },
+    {
+      "rank": 2,
+      "headline": "Tunnel kilns and continuous firing cannot stop cleanly.",
+      "why_this_business": "Brick and refractory production runs continuous tunnel kilns with ware moving through firing zones over many hours. Stopping the kiln damages the load, the kiln car furniture, and the refractory lining.",
+      "loss_scenario": "Ware in the kiln lost and kiln damage from uncontrolled cooling, with restart taking days and production capacity lost during the period.",
+      "rhetorical_question": "How long does your tunnel kiln take to restart after an uncontrolled stop?"
+    },
+    {
+      "rank": 3,
+      "headline": "Building products carry code performance requirements.",
+      "why_this_business": "Brick and clay building materials must meet standards for strength, absorption, and durability, with testing and certification relied on by specifiers and building officials.",
+      "loss_scenario": "Product below specification installed in building facades, with durability failures appearing over years and remediation requiring facade replacement.",
+      "rhetorical_question": "How is product testing tied to specific production runs?"
+    }
+  ]
+}

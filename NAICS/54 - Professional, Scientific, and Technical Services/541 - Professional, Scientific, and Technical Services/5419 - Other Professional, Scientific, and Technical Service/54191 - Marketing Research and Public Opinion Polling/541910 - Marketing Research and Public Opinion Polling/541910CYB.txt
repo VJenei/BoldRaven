@@ -1,0 +1,31 @@
+{
+  "naics_code": "541910",
+  "naics_title": "Marketing Research and Public Opinion Polling",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Respondents participate on an explicit promise of confidentiality.",
+      "why_this_business": "Survey and panel research collects opinions, behaviours, and personal characteristics from identified respondents who agreed to participate on the basis that responses would be confidential or anonymised. Political and sensitive topic research collects views respondents would not state publicly.",
+      "loss_scenario": "Exposure of linked respondent identities and responses breaks the specific promise that obtained participation, causes personal harm where topics are sensitive, and destroys panel participation rates permanently.",
+      "rhetorical_question": "Can respondent identities be linked to their individual responses in your data?"
+    },
+    {
+      "rank": 2,
+      "headline": "Client research reveals strategy before it is executed.",
+      "why_this_business": "Research is commissioned to test products, pricing, messaging, and positioning before launch. The research itself tells a competitor what the client is planning and what tested well or badly.",
+      "loss_scenario": "Disclosure of client research hands competitors both the strategic direction and the testing results, with claims against the research firm under the engagement confidentiality terms.",
+      "rhetorical_question": "Do you hold unreleased product or pricing research for clients?"
+    },
+    {
+      "rank": 3,
+      "headline": "Panel databases are large aggregations of personal data.",
+      "why_this_business": "Research firms maintain panels with demographic profiles, participation histories, incentive payment details, and accumulated response data across many studies for hundreds of thousands of individuals.",
+      "loss_scenario": "Breach of the panel database exposes a rich profile of each panellist accumulated across studies, with notification obligations and the collapse of the panel that is the firm's operating asset.",
+      "rhetorical_question": "How many panellists' profiles and response histories are held in your database?"
+    }
+  ]
+}

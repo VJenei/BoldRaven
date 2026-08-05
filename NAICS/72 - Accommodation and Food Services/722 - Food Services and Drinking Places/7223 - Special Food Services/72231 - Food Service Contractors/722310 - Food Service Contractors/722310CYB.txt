@@ -1,0 +1,31 @@
+{
+  "naics_code": "722310",
+  "naics_title": "Food Service Contractors",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You feed populations that cannot go elsewhere.",
+      "why_this_business": "Contract food service operates in hospitals, schools, prisons, and remote sites where the population is captive and meals are not optional. Menu planning, ordering, production, and dietary requirements run on connected systems.",
+      "loss_scenario": "Meals not delivered in a hospital or correctional setting, which is a care and security issue rather than a service failure, with contract remedies and immediate client escalation.",
+      "rhetorical_question": "What happens at your client sites if meals cannot be produced tomorrow?"
+    },
+    {
+      "rank": 2,
+      "headline": "Dietary and allergen requirements are individual and clinical.",
+      "why_this_business": "Healthcare and school food service delivers therapeutic diets, texture modifications, and allergen-free meals to named individuals, with requirements recorded per patient or student. Getting one wrong causes aspiration, anaphylaxis, or clinical harm.",
+      "loss_scenario": "An allergen or texture error reaching a named individual, which in a hospital or school is a serious injury or death exposure with the contractor identified as responsible.",
+      "rhetorical_question": "How do your staff verify an individual patient or student's dietary requirements?"
+    },
+    {
+      "rank": 3,
+      "headline": "Food traceability applies to what you receive and serve.",
+      "why_this_business": "Contractors handling foods on the FDA Food Traceability List carry lot code and Key Data Element requirements with records producible to FDA within 24 hours, with a compliance date of July 20, 2028, alongside HACCP and health department obligations.",
+      "loss_scenario": "A traceback that cannot be answered during an outbreak investigation at a hospital or school, expanding the scope of the response and placing the contractor at the centre of it.",
+      "rhetorical_question": "Could you identify which lots were served at a specific site on a specific day?"
+    }
+  ]
+}

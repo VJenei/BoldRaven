@@ -1,0 +1,31 @@
+{
+  "naics_code": "423610",
+  "naics_title": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Long lead time gear is quoted, reserved, and released against project schedules.",
+      "why_this_business": "Switchgear, transformers, and distribution equipment carry lead times measured in many months and are engineered to order. Distributors hold submittal packages, approved drawings, and release schedules tied to construction milestones.",
+      "loss_scenario": "Lost release and submittal records delay engineered gear on projects where the equipment is already on the critical path, with the contractor claiming delay against the distributor.",
+      "rhetorical_question": "What is the current lead time on the engineered gear you supply?"
+    },
+    {
+      "rank": 2,
+      "headline": "Copper content makes inventory a persistent theft target.",
+      "why_this_business": "Wire and cable carry high copper value, resell easily through scrap channels, and are stocked in bulk. Inventory records show exactly what is held and where, and shipment records show what is moving.",
+      "loss_scenario": "Theft of wire inventory, or a fictitious pickup of a wire load worth $100,000 or more, released voluntarily to a fraudulent carrier and therefore not a covered theft.",
+      "rhetorical_question": "How is your wire and cable inventory secured and verified against records?"
+    },
+    {
+      "rank": 3,
+      "headline": "Contractor project quotes carry your pricing across the market.",
+      "why_this_business": "Distributors quote the same project to multiple bidding contractors, holding pricing for a period after award. Those quotes disclose your cost basis and manufacturer support levels, and are the contractual basis for pricing after the contractor wins.",
+      "loss_scenario": "Disclosed pricing damages your competitive position across the market, and lost quote records leave disputes over honoured pricing on awarded projects.",
+      "rhetorical_question": "How many project quotes are outstanding and price-protected at any time?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "424950",
+  "naics_title": "Paint, Varnish, and Supplies Merchant Wholesalers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Colour matching and tinting formulas are the service you sell.",
+      "why_this_business": "Distributors tint to formula at the counter using dispensing equipment driven by formula databases, and hold custom formulas for commercial customers and repeat jobs. A customer returning for more of a custom colour depends entirely on the stored formula.",
+      "loss_scenario": "Lost custom formulas mean colours cannot be rematched, and a commercial customer with a partially painted project has to repaint completed work at your cost.",
+      "rhetorical_question": "How many custom colour formulas do you hold for repeat customers?"
+    },
+    {
+      "rank": 2,
+      "headline": "Coatings are regulated hazardous products with jurisdictional limits.",
+      "why_this_business": "Paints and solvents are regulated for volatile organic compound content, which varies by state and air district, and are shipped as hazardous materials with DOT documentation and trained staff. Safety data sheets must be supplied to commercial purchasers.",
+      "loss_scenario": "Selling non-compliant VOC product into a restricted jurisdiction brings regulatory action, and hazmat shipping violations are assessed per shipment.",
+      "rhetorical_question": "Do you ship into jurisdictions with different VOC limits, and how is that controlled?"
+    },
+    {
+      "rank": 3,
+      "headline": "Contractor accounts run on credit against project schedules.",
+      "why_this_business": "Painting contractors buy on account against active jobs, with pricing negotiated per project and material delivered to sites. Lien rights against the project secure the balance and depend on delivery records and notice deadlines.",
+      "loss_scenario": "Lost lien rights on delivered material, converting secured project exposure into unsecured debt against a contractor with thin capitalisation.",
+      "rhetorical_question": "How do you track job-specific deliveries for lien notice purposes?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "321992",
+  "naics_title": "Prefabricated Wood Building Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Buildings are engineered and fabricated to project-specific designs.",
+      "why_this_business": "Prefabricated and modular buildings are engineered for a specific site, code, and loading, with sealed drawings and fabrication data driving production. The design accounts for site conditions and local code.",
+      "loss_scenario": "Modules fabricated to wrong or superseded designs delivered to site, which do not fit, do not meet code, and cannot be corrected without returning them to the plant.",
+      "rhetorical_question": "How are project-specific engineered designs released to fabrication?"
+    },
+    {
+      "rank": 2,
+      "headline": "Set dates require cranes, crews, and site readiness simultaneously.",
+      "why_this_business": "Module delivery and setting is scheduled with cranes, crews, transport permits, and site preparation all coordinated for a specific day. Everything must arrive together.",
+      "loss_scenario": "A missed set date with crane and crew costs incurred, transport permits expired, and the project schedule pushed by weeks while everything is rebooked.",
+      "rhetorical_question": "What does a missed set day cost in crane and crew time?"
+    },
+    {
+      "rank": 3,
+      "headline": "Third-party inspection certifies factory-built construction.",
+      "why_this_business": "Factory-built buildings are inspected in the plant by third-party agencies against approved plans, with labels applied certifying compliance. Local officials accept the label in place of field inspection of concealed work.",
+      "loss_scenario": "Buildings shipped without valid certification that local officials will not accept, requiring opening concealed work for field inspection or returning the modules entirely.",
+      "rhetorical_question": "Which third-party agency inspects your production, and what records do they require?"
+    }
+  ]
+}

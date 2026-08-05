@@ -1,0 +1,31 @@
+{
+  "naics_code": "522310",
+  "naics_title": "Mortgage and Nonmortgage Loan Brokers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Brokers sit in the email chain where closing wire fraud is executed.",
+      "why_this_business": "Loan brokers coordinate between borrower, lender, title, and settlement agent, with documents and instructions flowing through their mailbox. Attackers compromise the broker's email specifically because it is the hub of the transaction and the broker is trusted by every other party.",
+      "loss_scenario": "A borrower's closing funds diverted, with the broker identified as the compromised party and sued by the borrower, the lender, and the title company together.",
+      "rhetorical_question": "Does your email carry closing instructions between borrowers, lenders, and title companies?"
+    },
+    {
+      "rank": 2,
+      "headline": "You collect complete borrower documentation and often keep it.",
+      "why_this_business": "Brokers gather Social Security numbers, tax returns, bank statements, and identity documents to submit applications to multiple lenders. That documentation is frequently retained in the broker's own systems long after the loan closes or is declined.",
+      "loss_scenario": "Breach notification and FTC Safeguards Rule enforcement, since brokers are financial institutions under GLBA and have been covered by the amended rule since June 9, 2023.",
+      "rhetorical_question": "How long do you retain borrower documentation for applications that never closed?"
+    },
+    {
+      "rank": 3,
+      "headline": "Lender portal access is granted to a small office with limited controls.",
+      "why_this_business": "Brokers hold credentials to multiple lender origination portals containing borrower data and pricing. Small brokerages often share credentials, lack multi-factor authentication, and have no formal offboarding when staff leave.",
+      "loss_scenario": "Compromised broker credentials used to submit fraudulent applications or extract borrower data from lender systems, with the lender treating the broker as the source and terminating the relationship.",
+      "rhetorical_question": "How many lender portals do your staff hold credentials for, and is MFA enabled on each?"
+    }
+  ]
+}

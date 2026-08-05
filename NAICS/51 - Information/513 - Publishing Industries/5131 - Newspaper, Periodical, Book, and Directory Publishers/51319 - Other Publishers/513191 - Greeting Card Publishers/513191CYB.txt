@@ -1,0 +1,31 @@
+{
+  "naics_code": "513191",
+  "naics_title": "Greeting Card Publishers",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Seasonal shipping windows are fixed by the calendar.",
+      "why_this_business": "Greeting card sales are driven by dated occasions, with retailers resetting displays weeks ahead of each season. Production, print, and distribution are scheduled backward from those reset dates. Cards arriving after the reset are not merchandised.",
+      "loss_scenario": "Missing a seasonal shipping window means the product is not on shelf for the occasion, and there is no market for the product afterward.",
+      "rhetorical_question": "How far ahead of each occasion must product reach the retailer?"
+    },
+    {
+      "rank": 2,
+      "headline": "Artwork and designs are the asset and they are digital.",
+      "why_this_business": "Publishers hold original artwork, licensed illustration, and design libraries built over decades, together with licensing agreements governing what may be used and where. Character and property licences carry strict usage terms.",
+      "loss_scenario": "Loss of design archives destroys the ability to reissue proven designs, and unauthorised use of licensed properties generates claims from licensors with the publisher unable to evidence permitted use.",
+      "rhetorical_question": "How are your design archives and licensing agreements stored?"
+    },
+    {
+      "rank": 3,
+      "headline": "Retail customers impose vendor compliance requirements.",
+      "why_this_business": "Card publishers ship to national retailers under EDI with labelling, packing, and delivery window requirements enforced through automatic chargebacks. Display and planogram data flows both ways.",
+      "loss_scenario": "Vendor compliance chargebacks and loss of shelf space at the annual reset, which is decided once a year and determines the following year's revenue.",
+      "rhetorical_question": "Which retailers score your compliance and apply automatic chargebacks?"
+    }
+  ]
+}

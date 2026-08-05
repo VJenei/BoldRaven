@@ -1,0 +1,31 @@
+{
+  "naics_code": "561440",
+  "naics_title": "Collection Agencies",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "You hold debtor financial data for people who never chose to deal with you.",
+      "why_this_business": "Agencies receive account data, balances, Social Security numbers, employment information, and contact details for debtors from creditors. Debtors have no relationship with the agency and did not consent to the transfer of their information.",
+      "loss_scenario": "Breach exposing debtor financial data across purchased and placed portfolios, affecting people already in financial distress, with notification obligations and regulatory attention from the CFPB and state authorities.",
+      "rhetorical_question": "How many debtor records did you receive from creditors rather than from the individuals themselves?"
+    },
+    {
+      "rank": 2,
+      "headline": "Collection activity is regulated with statutory damages per violation.",
+      "why_this_business": "The Fair Debt Collection Practices Act and Regulation F govern communications, frequency, disclosures, and validation, with private rights of action and statutory damages. Contact records and validation notices are the defence in every claim.",
+      "loss_scenario": "Collection activity against wrong parties or beyond permitted frequency arising from corrupted account data, generating statutory damages per debtor plus class exposure and CFPB attention.",
+      "rhetorical_question": "What controls prevent collection contact against the wrong person or beyond permitted frequency?"
+    },
+    {
+      "rank": 3,
+      "headline": "Credit reporting from your data affects consumers directly.",
+      "why_this_business": "Agencies furnish information to credit bureaus and must maintain accuracy and investigate disputes under the Fair Credit Reporting Act. Furnished data affects consumers' credit access for years.",
+      "loss_scenario": "Inaccurate furnishing arising from data corruption, with FCRA claims carrying statutory and punitive damages, and dispute investigations that cannot be completed within statutory deadlines.",
+      "rhetorical_question": "How do you investigate a consumer dispute if the underlying account data is unavailable?"
+    }
+  ]
+}

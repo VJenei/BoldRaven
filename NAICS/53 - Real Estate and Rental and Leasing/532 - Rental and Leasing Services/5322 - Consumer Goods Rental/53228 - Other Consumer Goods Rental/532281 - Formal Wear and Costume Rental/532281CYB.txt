@@ -1,0 +1,31 @@
+{
+  "naics_code": "532281",
+  "naics_title": "Formal Wear and Costume Rental",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Every order is for a dated event that will not wait.",
+      "why_this_business": "Formal wear is reserved months ahead for weddings, proms, and events, with measurements taken per person, garments sourced and fitted to arrive before the date. Wedding parties often order across multiple locations for a single event.",
+      "loss_scenario": "A wedding party without garments on the day, which cannot be remedied, generating claims and public complaints that in this industry travel immediately through social media and destroy local reputation.",
+      "rhetorical_question": "How many dated events are you currently holding orders for?"
+    },
+    {
+      "rank": 2,
+      "headline": "Measurement and fitting records are personal and specific.",
+      "why_this_business": "Orders record detailed body measurements linked to named individuals, along with event dates, contact details, and payment methods. Customers provide that information reluctantly and expect it to stay private.",
+      "loss_scenario": "Exposure of measurement records tied to named individuals is a personal privacy harm that customers experience as humiliating rather than merely financial.",
+      "rhetorical_question": "Do your order records link individual measurements to named customers?"
+    },
+    {
+      "rank": 3,
+      "headline": "Peak seasons concentrate the year into a few months.",
+      "why_this_business": "Prom and wedding seasons drive the overwhelming majority of volume, with inventory bought and staff hired against those windows. Orders placed months ahead all deliver within the same short period.",
+      "loss_scenario": "A systems failure during peak season affects every event in the period simultaneously, and the season does not extend to allow recovery.",
+      "rhetorical_question": "What share of your annual revenue falls in your peak two or three months?"
+    }
+  ]
+}

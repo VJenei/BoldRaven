@@ -1,0 +1,31 @@
+{
+  "naics_code": "624221",
+  "naics_title": "Temporary Shelters",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Shelter location and resident identity are safety information.",
+      "why_this_business": "Domestic violence and homeless shelters hold resident identities, locations, and circumstances, with domestic violence shelter addresses deliberately withheld from abusers. Federal funding conditions and state law impose strict confidentiality on this data.",
+      "loss_scenario": "Disclosure of a resident's location to a person they fled, which is a foreseeable and potentially fatal outcome, and confidentiality violations that carry funding and legal consequences on top.",
+      "rhetorical_question": "Is your shelter location or resident list deliberately withheld from specific individuals?"
+    },
+    {
+      "rank": 2,
+      "headline": "Homeless management information systems hold sensitive client data.",
+      "why_this_business": "HUD-funded programmes participate in homeless management information systems recording client identity, disability status, health conditions, veteran status, and service history, shared across participating agencies in a community.",
+      "loss_scenario": "Exposure of client records including disability and health data across an entire community's homeless services population, with HUD funding consequences and harm to people already in crisis.",
+      "rhetorical_question": "What client data do you enter into your community's homeless management information system?"
+    },
+    {
+      "rank": 3,
+      "headline": "Residents have no alternative if the shelter cannot operate.",
+      "why_this_business": "Shelters provide the only accommodation available to residents that night, with bed availability, intake, and referral coordinated across a community. Capacity is limited and demand exceeds it, particularly in cold weather.",
+      "loss_scenario": "Residents turned away or intake halted because bed availability and eligibility cannot be verified, leaving people without shelter in conditions where exposure is a genuine risk to life.",
+      "rhetorical_question": "How is bed availability tracked and communicated across your community's shelters?"
+    }
+  ]
+}

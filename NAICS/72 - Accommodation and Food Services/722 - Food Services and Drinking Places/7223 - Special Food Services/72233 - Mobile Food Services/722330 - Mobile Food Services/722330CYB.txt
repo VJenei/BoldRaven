@@ -1,0 +1,31 @@
+{
+  "naics_code": "722330",
+  "naics_title": "Mobile Food Services",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "The point of sale on the truck is the entire business.",
+      "why_this_business": "Mobile food operations run card payment through mobile point of sale devices over cellular, with no cash-only fallback for most customers. Service is at a fixed location for a limited window and the queue does not wait.",
+      "loss_scenario": "Inability to take payment during a service window, which for a truck at an event or a lunch rush is the entire day's revenue, and food already prepared that cannot be sold.",
+      "rhetorical_question": "What proportion of your sales are card rather than cash?"
+    },
+    {
+      "rank": 2,
+      "headline": "Event bookings and permits are dated and location-specific.",
+      "why_this_business": "Mobile operators book festivals, corporate events, and commissary and permit slots for specific dates and locations, frequently with deposits paid. Health permits are location and jurisdiction specific.",
+      "loss_scenario": "Missed event bookings with deposits paid and food purchased, on dates that represent a disproportionate share of monthly revenue for a single-unit operator.",
+      "rhetorical_question": "How many event bookings are you holding with deposits already paid?"
+    },
+    {
+      "rank": 3,
+      "headline": "Food safety records are required despite the small scale.",
+      "why_this_business": "Mobile units are inspected by health departments with requirements for temperature logs, commissary agreements, water and waste handling, and food handler certification. Records are examined during inspection.",
+      "loss_scenario": "Permit suspension where temperature logs and certification records cannot be produced, which stops operation entirely for a business with a single revenue-generating unit.",
+      "rhetorical_question": "How are your temperature logs and food handler certifications recorded?"
+    }
+  ]
+}

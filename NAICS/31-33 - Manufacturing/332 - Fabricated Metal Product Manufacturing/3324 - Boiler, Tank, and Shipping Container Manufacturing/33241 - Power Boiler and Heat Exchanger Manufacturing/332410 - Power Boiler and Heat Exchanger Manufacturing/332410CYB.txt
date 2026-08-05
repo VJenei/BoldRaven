@@ -1,0 +1,31 @@
+{
+  "naics_code": "332410",
+  "naics_title": "Power Boiler and Heat Exchanger Manufacturing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Boilers fail explosively and are code-regulated for that reason.",
+      "why_this_business": "Power boilers are fabricated to ASME code with design calculations, qualified welding, non-destructive examination, hydrostatic testing, and third-party inspection culminating in a code stamp. Boiler explosions historically killed so many people that the code exists because of them.",
+      "loss_scenario": "A boiler failure at pressure and temperature, which is a catastrophic explosion with fatalities and destruction of the plant area, investigated against the fabrication and inspection records.",
+      "rhetorical_question": "How are your code data reports, radiographs, and test records retained?"
+    },
+    {
+      "rank": 2,
+      "headline": "Code stamp authorisation depends on a demonstrable quality system.",
+      "why_this_business": "The certificate of authorisation to apply the code stamp requires a quality control manual, qualified procedures, and records audited by the authorised inspection agency and the certifying body.",
+      "loss_scenario": "Loss of code stamp authorisation where the quality system cannot be evidenced, which removes the ability to fabricate boilers and pressure equipment entirely.",
+      "rhetorical_question": "What would your authorised inspector find if they audited your records today?"
+    },
+    {
+      "rank": 3,
+      "headline": "Equipment is engineered for one installation with long lead times.",
+      "why_this_business": "Boilers and heat exchangers are designed for specific process conditions, duties, and connections at a particular plant, with fabrication taking months. Plant projects and outages are scheduled around delivery.",
+      "loss_scenario": "Equipment fabricated to wrong specification requiring remake over months, with the customer's plant outage window missed and the project delayed a full cycle.",
+      "rhetorical_question": "How long is the fabrication lead time for your typical equipment?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "naics_code": "323117",
+  "naics_title": "Books Printing",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Publication dates are announced and immovable.",
+      "why_this_business": "Book printing runs to publication dates set months ahead with retail placement, review coverage, and author publicity scheduled. Print and bind must complete in time for distribution to retail before the on-sale date.",
+      "loss_scenario": "Missed publication dates with retail placement and publicity already scheduled, which cannot be recreated later, and publishers claiming for the launch that did not happen.",
+      "rhetorical_question": "How far ahead of publication must books reach the distributor?"
+    },
+    {
+      "rank": 2,
+      "headline": "You hold manuscripts before they are published.",
+      "why_this_business": "Printers receive complete manuscripts and cover artwork ahead of publication, including titles under embargo where early disclosure is commercially damaging. High profile titles are targets for leaks.",
+      "loss_scenario": "A manuscript leak before publication undermining the launch, with publisher and author claims and the printer's reputation in a small industry where trust determines who gets the work.",
+      "rhetorical_question": "Do you hold embargoed manuscripts ahead of their publication dates?"
+    },
+    {
+      "rank": 3,
+      "headline": "Print runs are committed and unsold copies are returned.",
+      "why_this_business": "Print quantities are set against forecast with the economics depending on run length, and unsold books return to the publisher for credit. Reprint decisions depend on sales data and turnaround.",
+      "loss_scenario": "Wrong quantities printed or reprints delayed, with either excess inventory that will be returned and pulped or stockouts during the launch window that is the majority of a title's sales.",
+      "rhetorical_question": "How quickly must you turn around a reprint during a title's launch?"
+    }
+  ]
+}

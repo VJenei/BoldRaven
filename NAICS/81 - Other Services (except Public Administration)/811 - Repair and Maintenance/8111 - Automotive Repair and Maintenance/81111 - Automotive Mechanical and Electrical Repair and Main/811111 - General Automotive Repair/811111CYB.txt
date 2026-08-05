@@ -1,0 +1,31 @@
+{
+  "naics_code": "811111",
+  "naics_title": "General Automotive Repair",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Modern repair requires manufacturer diagnostic access to the vehicle.",
+      "why_this_business": "Diagnosis and repair depend on scan tools connected to the vehicle network and to manufacturer service information and programming portals. Module programming, key coding, and calibration require authenticated access to those systems, and there is no manual alternative.",
+      "loss_scenario": "Vehicles that cannot be diagnosed, programmed, or returned to customers, occupying bays and customer loaner arrangements while the shop cannot bill for work in progress.",
+      "rhetorical_question": "How many vehicles in your bays right now require manufacturer portal access to complete?"
+    },
+    {
+      "rank": 2,
+      "headline": "Repair orders hold customer identity, vehicle, and payment data.",
+      "why_this_business": "Shop management systems hold customer contact details, vehicle identification numbers, service histories, key codes in some cases, and stored payment methods, retained across years of service relationships.",
+      "loss_scenario": "Exposure of customer data with vehicle identification and, where held, key or security code information, which supports vehicle theft in addition to conventional identity exposure.",
+      "rhetorical_question": "Do your records include vehicle key or security codes?"
+    },
+    {
+      "rank": 3,
+      "headline": "ADAS calibration records document safety-critical work.",
+      "why_this_business": "Advanced driver assistance systems require documented calibration after windscreen replacement, alignment, and collision repair. Calibration records demonstrate the system was returned to specification, and an uncalibrated system fails in circumstances where it is relied upon.",
+      "loss_scenario": "A collision involving a vehicle whose ADAS calibration cannot be documented, where the shop cannot demonstrate the work was performed correctly and the systems were verified.",
+      "rhetorical_question": "How do you document ADAS calibration completion for each vehicle?"
+    }
+  ]
+}

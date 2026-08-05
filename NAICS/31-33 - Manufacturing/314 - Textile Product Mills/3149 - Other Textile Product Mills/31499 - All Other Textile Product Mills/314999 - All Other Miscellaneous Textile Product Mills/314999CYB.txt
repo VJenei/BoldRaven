@@ -1,0 +1,31 @@
+{
+  "naics_code": "314999",
+  "naics_title": "All Other Miscellaneous Textile Product Mills",
+  "policy": {
+    "code": "CYB",
+    "name": "Cyber Liability"
+  },
+  "reasons_ranked_by_importance": [
+    {
+      "rank": 1,
+      "headline": "Products in this category serve technical and safety applications.",
+      "why_this_business": "Manufacturers produce technical textiles for filtration, protection, medical, and industrial uses with performance specifications and testing requirements. Customers qualify materials for applications where failure has consequences.",
+      "loss_scenario": "Material failing specification in a technical application, with customer product recall and liability where protective or filtration performance was relied upon.",
+      "rhetorical_question": "What technical applications do your products serve, and what happens when they fail?"
+    },
+    {
+      "rank": 2,
+      "headline": "Made to order production means every run is specific.",
+      "why_this_business": "Products are produced to customer specification, dimension, and material with no interchangeable stock. Specifications and production records define what was made and for whom.",
+      "loss_scenario": "Wrong specification production unsaleable to any other customer, plus customer production halted where your component is required.",
+      "rhetorical_question": "What proportion of your production is made to individual customer specification?"
+    },
+    {
+      "rank": 3,
+      "headline": "Traceability supports customer quality systems.",
+      "why_this_business": "Customers operating quality systems require lot traceability, certificates of conformance, and material documentation from suppliers, audited periodically as a condition of approved supplier status.",
+      "loss_scenario": "Failed customer audits and removal from approved supplier lists where traceability cannot be demonstrated, which in regulated customer industries takes years to regain.",
+      "rhetorical_question": "Which customers audit your traceability as a condition of supply?"
+    }
+  ]
+}
