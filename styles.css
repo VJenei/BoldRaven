@@ -53,6 +53,16 @@ body {
   padding: var(--gutter);
 }
 
+/* The mark and the wordmark read as one lockup, so they sit closer to each
+   other than the lockup sits to the input. */
+#mark {
+  width: 132px;
+  height: auto;
+  margin-bottom: -22px;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 .wordmark {
   margin: 0;
   color: var(--title);

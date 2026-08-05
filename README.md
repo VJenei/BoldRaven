@@ -12,6 +12,8 @@ the policy-by-policy reasoning.
 | `app.js` | All behaviour. No dependencies. |
 | `data.js` | Generated. Every code, title, and policy payload. |
 | `build.py` | Regenerates `data.js` from the `NAICS/` tree. |
+| `make_logo.py` | Regenerates `icon/logo-mark.png` from the source artwork. |
+| `icon/` | Favicon suite, web app manifest, and the derived on-site mark. |
 | `NAICS/` | Source data. One folder per code, 8 policy files each. |
 
 ## Rebuilding data
@@ -25,6 +27,23 @@ python build.py
 It walks every `<code> - <title>` folder, reads the eight `<code><POLICY>.txt` files,
 skips empty ones, and writes `data.js`. It exits non-zero and names the file if any
 JSON fails to parse.
+
+## The logo
+
+`icon/LogoOriginal.png` is pure black with a coral beak, which is invisible against
+the `#292831` background. `make_logo.py` recolours it into the palette (body
+`#fbbbad`, beak `#ee8695`), trims the transparent margin, and writes
+`icon/logo-mark.png`. That derived file is what the page displays. Run it again if
+the source artwork changes:
+
+```bash
+python make_logo.py
+```
+
+Two files in `icon/` are intentionally not referenced by the site. `favicon.svg` is
+a 521 KB PNG wrapped in an SVG tag, and `LogoSVG.svg` is 174,132 single-pixel
+`<rect>` elements totalling 10.8 MB. The `.ico` and `.png` icons are smaller and
+render better everywhere.
 
 ## Running locally
 

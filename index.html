@@ -4,12 +4,34 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#292831">
 <title>Bold Raven</title>
+<meta name="description" content="Look up a 6-digit NAICS code and see why that specific business needs each commercial insurance policy.">
+
+<!-- Icons. favicon.svg and LogoSVG.svg are deliberately not linked: both are
+     raster data wrapped in SVG (521 KB and 10.8 MB), so the .ico and .png are
+     smaller and sharper for every browser that matters. -->
+<link rel="icon" href="icon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Bold Raven">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="icon/site.webmanifest">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bold Raven">
+<meta property="og:description" content="Look up a 6-digit NAICS code and see why that specific business needs each commercial insurance policy.">
+<meta property="og:image" content="icon/web-app-manifest-512x512.png">
+<meta name="twitter:card" content="summary">
+
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <main id="root-view" class="view">
+  <img id="mark" src="icon/logo-mark.png" width="512" height="386" alt="" decoding="async">
   <h1 class="wordmark">BOLD RAVEN</h1>
   <div class="field-wrap">
     <input id="code-input"
