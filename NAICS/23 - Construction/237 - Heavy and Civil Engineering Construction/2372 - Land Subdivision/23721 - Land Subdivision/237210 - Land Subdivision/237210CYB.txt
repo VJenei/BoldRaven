@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Land closings and lot takedowns settle by wire and are actively targeted.",
-      "why_this_business": "Subdividers buy land, sell finished lots to builders, and close through title companies with funds moved by wire. Closing instructions travel by email between developer, title, lender, and buyer. Real estate closing wire fraud specifically targets this pattern.",
-      "loss_scenario": "A diverted closing wire on a land or lot takedown, commonly $250,000 to several million. Recovery after 24 hours is rare and the escrow shortfall stops the closing.",
-      "rhetorical_question": "How are closing wire instructions confirmed between your office and the title company?"
+      "headline": "Lot closings move very large sums by wire.",
+      "points": [
+        "Lot sales to builders and buyers close by wire on scheduled dates.",
+        "Wiring instructions are sent and altered by email.",
+        "A diverted closing wire takes the full lot proceeds."
+      ],
+      "rhetorical_question": "How are wiring instructions delivered before a lot closing?"
     },
     {
       "rank": 2,
-      "headline": "Entitlement records are the value of the land.",
-      "why_this_business": "The difference between raw land and finished lots is entitlement: zoning approvals, plat recordings, development agreements, utility will-serve letters, environmental clearances, and permit conditions accumulated over years. That file is the asset.",
-      "loss_scenario": "Loss of the entitlement record makes it impossible to demonstrate to a lender, buyer, or municipality what rights attach to the property, stalling closings and financing on a project carrying land debt.",
-      "rhetorical_question": "How many years of entitlement documentation are held for your active projects?"
+      "headline": "Entitlement and engineering files are the value of the land.",
+      "points": [
+        "Approvals, plats, engineering plans, and studies represent years of work.",
+        "Those documents are what make raw land developable.",
+        "Recreating an entitlement package takes years, not weeks."
+      ],
+      "rhetorical_question": "Where are your entitlement approvals and engineering plans stored?"
     },
     {
       "rank": 3,
-      "headline": "Development is financed on draws tied to reported progress.",
-      "why_this_business": "Land development loans fund horizontal improvements in draws against inspected progress, with lot releases priced into the loan documents. Lenders require reporting on absorption, cost to complete, and budget variance on a schedule.",
-      "loss_scenario": "Draw requests that cannot be supported stall funding while interest accrues on land debt, and covenant reporting failures can constitute default independent of project performance.",
-      "rhetorical_question": "What reporting does your development lender require, and how often?"
+      "headline": "Bonds, permits, and deadlines are tracked by date.",
+      "points": [
+        "Improvement bonds, permit expirations, and approval conditions carry hard deadlines.",
+        "Missing a deadline can void an approval already obtained.",
+        "Re-entitlement means starting the public process again."
+      ],
+      "rhetorical_question": "How are your permit and approval deadlines tracked?"
     }
   ]
 }

@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Connected audio and video devices sit inside homes with microphones and cameras.",
-      "why_this_business": "Smart speakers, streaming devices, and connected displays include microphones, cameras, and network connections in private spaces. Compromise of those devices is surveillance of the customer's home.",
-      "loss_scenario": "A vulnerability permitting access to microphones or cameras across an installed base, with state privacy law exposure, FTC action for unfair practices, and consumer claims in a category where the harm is intimate.",
+      "headline": "Your products have microphones and cameras in private homes.",
+      "points": [
+        "Smart speakers, streaming devices, and displays sit in living spaces.",
+        "They include microphones, cameras, and network connections.",
+        "Compromise of those devices is surveillance of the customer's home."
+      ],
       "rhetorical_question": "Do your products include microphones or cameras with network connectivity?"
     },
     {
       "rank": 2,
-      "headline": "Viewing and listening data is regulated personal information.",
-      "why_this_business": "Devices collect what customers watch and listen to, which is protected under the Video Privacy Protection Act with statutory damages of 2,500 dollars per person, and under state privacy laws. Sharing that data with advertisers is a recognised enforcement target.",
-      "loss_scenario": "Viewing data disclosed or shared without proper consent, with VPPA class actions where statutory damages multiply across a large installed base regardless of demonstrated harm.",
+      "headline": "Viewing data is regulated personal information.",
+      "points": [
+        "Devices collect what customers watch and listen to.",
+        "Video viewing data carries specific statutory protection and damages.",
+        "Sharing it with advertisers is a recognised enforcement target."
+      ],
       "rhetorical_question": "What viewing or listening data do your devices collect, and who receives it?"
     },
     {
       "rank": 3,
       "headline": "Firmware updates are the only way to fix shipped products.",
-      "why_this_business": "Consumer audio and video devices remain in homes for years, with security depending on firmware updates the manufacturer builds and delivers. Devices whose owners never update stay vulnerable.",
-      "loss_scenario": "A vulnerability requiring updates across millions of devices, with a large proportion never updating and remaining exploitable, and the manufacturer named in enforcement for products left insecure.",
+      "points": [
+        "Devices stay in homes for years with security depending on updates.",
+        "A large proportion of devices never update.",
+        "Those units stay exploitable indefinitely."
+      ],
       "rhetorical_question": "What proportion of your deployed devices are running current firmware?"
     }
   ]

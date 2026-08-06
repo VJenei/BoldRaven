@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Paper machines run continuously and a break costs the whole run.",
-      "why_this_business": "Paper machines run continuously at high speed with wet end chemistry, drying, and reeling controlled throughout. A sheet break stops production, and restarting requires threading and returning to specification, taking hours.",
-      "loss_scenario": "Extended downtime on a machine representing enormous capital, with production that cannot be recovered and customers on contract supply with limited inventory.",
-      "rhetorical_question": "How long does it take to restart a paper machine and return to saleable production?"
+      "headline": "The paper machine runs continuously and stopping is expensive.",
+      "points": [
+        "Stock preparation, forming, pressing, and drying run as one continuous line.",
+        "Machines run for weeks between planned stops.",
+        "An unplanned stop wastes stock and takes many hours to restart."
+      ],
+      "rhetorical_question": "What does an hour of unplanned downtime cost on your paper machine?"
     },
     {
       "rank": 2,
-      "headline": "Grade specifications are tight and customers run your paper on their equipment.",
-      "why_this_business": "Paper is produced to basis weight, caliper, brightness, and strength specifications, with printers and converters running it on equipment set for those parameters. Off-specification paper causes breaks and defects in customer operations.",
-      "loss_scenario": "Off-specification paper causing customer press breaks and spoilage, with claims covering their production losses and the printed work ruined rather than just the paper supplied.",
-      "rhetorical_question": "How is grade specification monitored and recorded during production?"
+      "headline": "Grade specifications are matched to customer equipment.",
+      "points": [
+        "Basis weight, caliper, and strength are controlled continuously and tested.",
+        "Printers and converters run their equipment to that specification.",
+        "Off specification paper breaks on their press and stops their production."
+      ],
+      "rhetorical_question": "How are your grade specifications tested and recorded per reel?"
     },
     {
       "rank": 3,
-      "headline": "Energy and chemical recovery are integrated into the process.",
-      "why_this_business": "Mills operate integrated energy systems with steam and power generation, chemical recovery, and water treatment all interconnected with the paper machines. A failure in the utility layer stops the whole mill.",
-      "loss_scenario": "Mill-wide shutdown from a utility or recovery system failure, with restart taking days and the entire integrated operation offline rather than a single machine.",
-      "rhetorical_question": "How many production systems depend on your integrated energy and recovery plant?"
+      "headline": "Environmental monitoring is continuous and reported.",
+      "points": [
+        "Air and water discharge are monitored and reported to regulators automatically.",
+        "Reported data determines compliance with permits.",
+        "Gaps or corrupted data are treated as exceedances."
+      ],
+      "rhetorical_question": "How is your environmental monitoring data recorded and reported?"
     }
   ]
 }

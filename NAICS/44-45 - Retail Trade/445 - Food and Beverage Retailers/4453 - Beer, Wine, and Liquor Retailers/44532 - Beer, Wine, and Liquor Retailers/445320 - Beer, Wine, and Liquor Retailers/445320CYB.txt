@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your licence depends on records the state can inspect at any time.",
-      "why_this_business": "Package retailers hold state licences with conditions on purchasing sources, hours, age verification, and record retention. States require invoices and purchase records be kept and available, and licences are revocable. Buying outside the licensed wholesale channel is a serious violation.",
-      "loss_scenario": "Licence suspension or revocation for records that cannot be produced ends the business entirely, since there is no lawful way to sell alcohol without it.",
-      "rhetorical_question": "What purchase records must you retain for your state alcohol regulator?"
+      "headline": "Age verification is a licence condition.",
+      "points": [
+        "Alcohol sales require age verification with compliance checks by regulators.",
+        "Violations affect the licence that lets you trade.",
+        "Losing the licence closes the business entirely."
+      ],
+      "rhetorical_question": "How is age verification performed and recorded at your registers?"
     },
     {
       "rank": 2,
-      "headline": "Age verification failures are caught by deliberate compliance checks.",
-      "why_this_business": "States conduct undercover buys at licensed retailers, and failures produce fines, suspension, and in repeat cases revocation. Electronic ID scanning at the register creates the record that verification occurred and is increasingly expected.",
-      "loss_scenario": "Suspension during peak selling periods, plus dram shop and negligent sale exposure where the verification record cannot be produced after an incident involving a minor.",
-      "rhetorical_question": "Does your point of sale scan and record identification for age-restricted sales?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 3,
-      "headline": "Allocated and high value inventory is a theft target.",
-      "why_this_business": "Rare bourbon, allocated spirits, and fine wine carry very high value per bottle and resell instantly on secondary markets. Inventory systems record what is held and when allocations arrive, and staff access to that data is broad.",
-      "loss_scenario": "Theft of allocated inventory that cannot be replaced at any price, informed by internal knowledge of what arrived and where it is stored.",
-      "rhetorical_question": "What is the value of the allocated inventory in your back room right now?"
+      "headline": "High value inventory is portable and easily resold.",
+      "points": [
+        "Premium spirits and wine carry high value in small volume.",
+        "Inventory records are the only control over shrinkage.",
+        "Diversion is invisible until a physical count."
+      ],
+      "rhetorical_question": "How frequently is your high value inventory reconciled against records?"
     }
   ]
 }

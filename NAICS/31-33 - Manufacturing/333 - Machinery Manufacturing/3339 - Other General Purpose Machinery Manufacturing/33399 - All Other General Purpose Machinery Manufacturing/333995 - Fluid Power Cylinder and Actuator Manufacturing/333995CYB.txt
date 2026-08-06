@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Cylinders hold loads and dropping them kills people.",
-      "why_this_business": "Hydraulic and pneumatic cylinders hold and move loads on lifts, presses, and equipment. Failure of a rod, seal, or end cap releases the load and, on suspended equipment, drops it.",
-      "loss_scenario": "A cylinder failure dropping a suspended load or press ram with fatal injury, and every cylinder from the affected production requiring identification across customer equipment.",
+      "points": [
+        "Cylinders hold and move loads on lifts, presses, and equipment.",
+        "Rod, seal, or end cap failure releases the load.",
+        "On suspended equipment the load falls on whoever is beneath."
+      ],
       "rhetorical_question": "Do your cylinders hold suspended loads in customer equipment?"
     },
     {
       "rank": 2,
       "headline": "Pressure rating depends on material, welding, and testing.",
-      "why_this_business": "Cylinder capacity depends on tube material, weld quality at end caps, and rod specification, verified by pressure testing before shipment. Failure occurs at pressure with stored energy release.",
-      "loss_scenario": "Cylinders that were never properly tested failing at pressure, with injection injuries and equipment damage, and test records determining which units are affected.",
+      "points": [
+        "Tube material, end cap welds, and rod specification determine capacity.",
+        "Pressure testing before shipment verifies it.",
+        "Failure at pressure releases stored energy into the operator."
+      ],
       "rhetorical_question": "How are pressure test results recorded against cylinder serial numbers?"
     },
     {
       "rank": 3,
-      "headline": "Equipment manufacturers run to schedule on your components.",
-      "why_this_business": "Cylinders are supplied to construction, agricultural, and industrial equipment builders on production schedules with qualified designs and approved processes.",
-      "loss_scenario": "Equipment assembly lines stopped for want of cylinders, with line-down charges and expedited freight far exceeding the component value.",
+      "headline": "Equipment builders run to schedule on your components.",
+      "points": [
+        "Cylinders are qualified and delivered on production schedules.",
+        "Assembly plants hold days of inventory at most.",
+        "Line-down charges far exceed the component value."
+      ],
       "rhetorical_question": "Which equipment manufacturers run to schedule on your components?"
     }
   ]

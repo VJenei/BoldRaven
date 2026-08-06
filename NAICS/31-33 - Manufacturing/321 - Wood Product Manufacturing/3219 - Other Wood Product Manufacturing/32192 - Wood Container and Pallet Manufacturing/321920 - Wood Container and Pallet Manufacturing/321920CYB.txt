@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Export packaging requires treatment certification.",
-      "why_this_business": "Wood packaging used in international shipping must be heat treated or fumigated and marked to ISPM 15, with treatment records maintained and subject to audit. Non-compliant packaging causes shipments to be refused at destination.",
-      "loss_scenario": "Customer cargo refused entry at foreign ports because packaging was non-compliant, with return freight, fumigation, or destruction costs and the customer's production schedule disrupted, all claimed against the packaging supplier.",
-      "rhetorical_question": "How do you document ISPM 15 heat treatment for export pallets?"
+      "headline": "Export pallets require heat treatment and a stamp.",
+      "points": [
+        "International shipping requires treated wood packaging with a certification stamp.",
+        "Treatment records support every stamped pallet.",
+        "Untreated or unstamped wood packaging is rejected or destroyed at the border."
+      ],
+      "rhetorical_question": "How are your heat treatment records linked to stamped pallets?"
     },
     {
       "rank": 2,
-      "headline": "Pallet failure damages customer product and injures workers.",
-      "why_this_business": "Pallets carry loaded product through warehouses and on forklifts, with load capacity determined by construction. Pallet failure drops loads, damaging product and injuring workers in the vicinity.",
-      "loss_scenario": "A pallet failure dropping a loaded pallet, with product damage and worker injury, and construction specifications determining whether the pallet was fit for the load it carried.",
-      "rhetorical_question": "What load capacity are your pallets designed for, and how is construction controlled?"
+      "headline": "Customers cannot ship without pallets.",
+      "points": [
+        "Manufacturers and distributors need pallets to move every shipment.",
+        "Pallets are ordered and delivered on continuous schedules.",
+        "A supply gap stops the customer's shipping entirely."
+      ],
+      "rhetorical_question": "How much pallet inventory do your customers hold before shipping stops?"
     },
     {
       "rank": 3,
-      "headline": "High volume production runs on automated nailing lines.",
-      "why_this_business": "Pallet production runs automated nailing and assembly lines at high rate to specifications for dimension, board placement, and fastener pattern. Customers order to specific designs for their handling systems.",
-      "loss_scenario": "Pallets produced to wrong specification that do not work in customer automated handling systems, jamming conveyors and racking, with the customer's operation disrupted.",
-      "rhetorical_question": "Do your customers use automated handling that requires exact pallet dimensions?"
+      "headline": "Production runs to customer sizes and specifications.",
+      "points": [
+        "Pallets and crates are built to specific dimensions and load requirements.",
+        "Wrong sizes do not fit racking or automated handling.",
+        "Product that does not fit is unusable at the customer's plant."
+      ],
+      "rhetorical_question": "How are customer size and load specifications recorded before production?"
     }
   ]
 }

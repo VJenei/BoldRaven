@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Rental applications contain everything needed to steal an identity.",
-      "why_this_business": "Applications collect Social Security numbers, dates of birth, driver licences, employment and income documentation, bank statements, and consent for credit and background screening. Landlords retain files for applicants they rejected as well as tenants they accepted.",
-      "loss_scenario": "Breach notification across current, former, and rejected applicants, many of whom were never customers. Where credit reports were obtained, additional obligations under the Fair Credit Reporting Act apply to how that data is protected and disposed of.",
-      "rhetorical_question": "How long do you keep applications from people you did not rent to?"
+      "headline": "Tenant files hold everything needed for identity theft.",
+      "points": [
+        "Applications carry social security numbers, income, employment, and bank details.",
+        "Credit and background checks add more.",
+        "Every affected tenant and applicant must be notified."
+      ],
+      "rhetorical_question": "How many tenant applications and files do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Rent payment portals hold banking credentials and move money monthly.",
-      "why_this_business": "Online rent collection stores tenant bank account and card details for recurring payment, processing on a fixed monthly cycle. Tenants are also targeted by attackers impersonating the landlord with new payment instructions.",
-      "loss_scenario": "Tenants who pay a fraudulent account still owe the rent, creating a dispute with every affected tenant simultaneously, plus card and bank data exposure across the resident base.",
-      "rhetorical_question": "How would a tenant verify that a change to your payment instructions is genuine?"
+      "headline": "Rent payments are diverted by fake landlord instructions.",
+      "points": [
+        "Tenants pay rent electronically against instructions from you.",
+        "Fraudsters send fake banking changes to tenants directly.",
+        "Tenants pay, you are not paid, and both of you lose."
+      ],
+      "rhetorical_question": "How do you communicate payment instructions to tenants?"
     },
     {
       "rank": 3,
-      "headline": "Smart locks and access control let you into people's homes.",
-      "why_this_business": "Properties increasingly use electronic access control, smart locks, cameras in common areas, and package systems administered by the landlord or a vendor. That administrative access opens residents' doors.",
-      "loss_scenario": "Unauthorised access to residents' homes, which is a physical safety exposure rather than a data one, and one that residents and courts treat very differently from a payment breach.",
-      "rhetorical_question": "Can your management platform unlock a resident's apartment door?"
+      "headline": "Building access and cameras are connected systems.",
+      "points": [
+        "Access control, cameras, and smart locks run on networked systems.",
+        "Those systems know who enters and when.",
+        "Compromise gives an intruder entry and a record of when to use it."
+      ],
+      "rhetorical_question": "What building access and camera systems are connected to your network?"
     }
   ]
 }

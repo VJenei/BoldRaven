@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Nonwovens are used in medical and filtration applications with performance requirements.",
-      "why_this_business": "Nonwoven fabrics are used in surgical gowns, masks, filtration media, and hygiene products with barrier, filtration efficiency, and biocompatibility requirements. Medical applications carry FDA device implications for the finished product.",
-      "loss_scenario": "Material failing performance specification incorporated into medical or filtration products, with recall of finished devices and liability where protective performance was relied upon.",
-      "rhetorical_question": "Is your material used in medical devices or respiratory protection?"
+      "headline": "Lines run continuously as one controlled process.",
+      "points": [
+        "Web forming, bonding, and finishing run continuously at high speed.",
+        "Product properties depend on holding process parameters throughout.",
+        "An unplanned stop wastes material and takes hours to restart."
+      ],
+      "rhetorical_question": "Is your production line run by a central process control system?"
     },
     {
       "rank": 2,
-      "headline": "Continuous web processes run at high speed with tight control.",
-      "why_this_business": "Spunbond, meltblown, and needlepunch lines run continuously producing web at high speed, with basis weight, uniformity, and bonding controlled throughout. Web breaks and out of specification production consume expensive polymer.",
-      "loss_scenario": "Off-specification web produced continuously until detected, consuming polymer and line time, on capital equipment where utilisation determines profitability.",
-      "rhetorical_question": "How is basis weight and uniformity monitored during continuous production?"
+      "headline": "Medical and filtration products carry performance requirements.",
+      "points": [
+        "Nonwovens used in medical and filtration applications are tested to specific performance.",
+        "Customers qualify your material into regulated products.",
+        "Off specification material fails in a mask, filter, or medical device."
+      ],
+      "rhetorical_question": "What performance testing records do you keep for medical or filtration products?"
     },
     {
       "rank": 3,
-      "headline": "Customer qualification takes months and is difficult to regain.",
-      "why_this_business": "Medical and filtration customers qualify nonwoven materials through extensive testing before use, and requalification after a supply interruption or specification change is lengthy.",
-      "loss_scenario": "Customers sourcing alternative material during a supply interruption and completing requalification with a competitor, which permanently removes the business.",
-      "rhetorical_question": "How long does it take a customer to qualify your material for a medical application?"
+      "headline": "Customers formulate their products around your material.",
+      "points": [
+        "Hygiene, medical, and industrial customers qualify your specific material.",
+        "Substitution requires requalification, which takes months.",
+        "A supply interruption stops their production, not just yours."
+      ],
+      "rhetorical_question": "How long would a customer need to qualify a substitute for your material?"
     }
   ]
 }

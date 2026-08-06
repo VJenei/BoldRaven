@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A cyberattack on a steel mill caused massive physical damage to a blast furnace.",
-      "why_this_business": "A German steel mill was attacked through its office network, from which attackers reached production systems and prevented a blast furnace from shutting down properly, causing massive physical damage. Steel mills run furnaces, casters, and rolling mills where loss of control produces molten metal releases and equipment destruction.",
-      "loss_scenario": "Furnace or caster damage from uncontrolled operation, with molten metal breakout endangering workers and equipment repair measured in months, during which the mill produces nothing.",
-      "rhetorical_question": "How is your office network separated from furnace and caster control systems?"
+      "headline": "Molten metal does not wait for anyone.",
+      "points": [
+        "Furnaces, casters, and rolling mills run as one continuously controlled process.",
+        "Metal already melted must be cast or it freezes in the vessel.",
+        "A frozen ladle or caster means days of demolition, not a restart."
+      ],
+      "rhetorical_question": "What happens to metal in process if your control systems stop?"
     },
     {
       "rank": 2,
-      "headline": "Molten metal operations are unforgiving of control failures.",
-      "why_this_business": "Electric arc furnaces, ladles, and continuous casters handle molten steel at temperatures around 1600 degrees Celsius, with water cooling systems adjacent. Molten metal contacting water produces steam explosions that kill.",
-      "loss_scenario": "A steam explosion or molten metal breakout with multiple fatalities, destruction of the caster or furnace area, and an investigation examining every control and interlock that should have prevented it.",
-      "rhetorical_question": "How are your water cooling systems interlocked with molten metal operations?"
+      "headline": "Mill test reports certify every heat you ship.",
+      "points": [
+        "Chemistry and mechanical results are tied to heat numbers on every certificate.",
+        "Fabricators and inspectors rely on those certificates for structural work.",
+        "Steel that cannot be traced to a certified heat is rejected on site."
+      ],
+      "rhetorical_question": "How are your mill test reports generated and linked to heat numbers?"
     },
     {
       "rank": 3,
-      "headline": "Mill certifications trace every heat to its chemistry and properties.",
-      "why_this_business": "Steel is sold with mill test reports tying material to a heat number with chemistry and mechanical properties, required by structural, pressure vessel, and aerospace customers. Traceability from heat through rolling to shipment is the basis of every certification.",
-      "loss_scenario": "Material that cannot be certified is unusable in code applications, and where uncertified steel has already been fabricated into structures, the remedy may be removal and replacement.",
-      "rhetorical_question": "How is heat traceability maintained from the furnace through to shipped product?"
+      "headline": "Casting and rolling run at temperatures that kill instantly.",
+      "points": [
+        "Automated controls hold molten metal, water cooling, and rolling in balance.",
+        "Water contacting molten metal causes a steam explosion.",
+        "Explosions in steel mills have killed multiple workers at once."
+      ],
+      "rhetorical_question": "What automated interlocks separate water from molten metal in your plant?"
     }
   ]
 }

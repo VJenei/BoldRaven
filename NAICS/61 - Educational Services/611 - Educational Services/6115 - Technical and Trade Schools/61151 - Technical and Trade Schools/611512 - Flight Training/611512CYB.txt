@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Training records determine whether a pilot can be certificated.",
-      "why_this_business": "Flight schools maintain training records, endorsements, flight time, and instructor sign-offs required for certification and for meeting experience requirements. FAA requires records be maintained and made available, and TSA requires vetting for certain flight training of foreign nationals.",
-      "loss_scenario": "Students unable to demonstrate flight experience and endorsements required for a checkride, with hours flown at their own expense unprovable and the training effectively repeated.",
-      "rhetorical_question": "How are student flight time and instructor endorsements recorded and backed up?"
+      "headline": "Training records support certificate applications.",
+      "points": [
+        "Flight hours, endorsements, and training records support pilot certification.",
+        "Federal examiners verify those records directly.",
+        "Students cannot be certificated without them."
+      ],
+      "rhetorical_question": "How are your student flight hour and endorsement records maintained?"
     },
     {
       "rank": 2,
-      "headline": "Security vetting of flight students is federally mandated.",
-      "why_this_business": "Training foreign nationals in aircraft requires TSA security threat assessment through the Alien Flight Student Program, with the school responsible for verifying approval before training begins and maintaining associated records.",
-      "loss_scenario": "Training provided without documented TSA approval is a federal violation with enforcement against the school, and the records demonstrating compliance are the entire defence.",
-      "rhetorical_question": "How do you verify and record TSA approval before training a foreign national?"
+      "headline": "Aircraft maintenance records determine airworthiness.",
+      "points": [
+        "Airworthiness depends on documented maintenance and inspection records.",
+        "Regulators inspect those records directly.",
+        "An aircraft without records cannot legally fly."
+      ],
+      "rhetorical_question": "How are your aircraft maintenance and inspection records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Aircraft maintenance and airworthiness records govern dispatch.",
-      "why_this_business": "Training aircraft require documented inspections, airworthiness directive compliance, and component tracking. Aircraft cannot legally fly without current records, and student pilots are flying them.",
-      "loss_scenario": "Aircraft grounded until records are reconstructed, with a fleet unable to fly and students unable to progress, and after any accident the maintenance record is the first thing examined.",
-      "rhetorical_question": "How are aircraft maintenance and inspection records maintained for your fleet?"
+      "headline": "Scheduling runs aircraft and instructors continuously.",
+      "points": [
+        "Aircraft, instructors, and students are scheduled around weather and availability.",
+        "Training progress depends on continuity.",
+        "A scheduling failure cancels lessons across the whole student body."
+      ],
+      "rhetorical_question": "How are your aircraft and instructor schedules managed?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Contractors order all day and expect same-day counter and delivery service.",
-      "why_this_business": "Plumbing and hydronic distributors serve contractors who are on a job with a problem right now, ordering by phone, counter, and app against live branch inventory. Availability across branches determines whether the contractor waits or goes elsewhere.",
-      "loss_scenario": "An outage sends contractors to the competing wholesaler on the same street, and contractor loyalty in this trade follows whoever had the part today.",
-      "rhetorical_question": "How do your counter staff check inventory across branches?"
+      "headline": "Contractors order for jobs happening today.",
+      "points": [
+        "Plumbing and heating contractors order against work already in progress.",
+        "Customers are without water or heat while they wait.",
+        "A supply gap idles crews and leaves buildings without service."
+      ],
+      "rhetorical_question": "How many deliveries a day do your contractor customers depend on?"
     },
     {
       "rank": 2,
-      "headline": "Project quotes and submittal packages carry engineered equipment.",
-      "why_this_business": "Commercial hydronic work involves boilers, pumps, and specialties quoted against engineered specifications, with submittal packages approved by the engineer before release. Long lead equipment is released to a project schedule.",
-      "loss_scenario": "Lost submittal and release records delay engineered equipment on projects, with delay claims from the mechanical contractor and possible substitution to a competitor's product.",
-      "rhetorical_question": "How many engineered equipment submittals are in process at any time?"
+      "headline": "Drinking water products carry lead compliance requirements.",
+      "points": [
+        "Products contacting drinking water must meet lead limits and certification.",
+        "Plumbing codes require that certification for installation.",
+        "Non-compliant product cannot lawfully be installed."
+      ],
+      "rhetorical_question": "How do you verify and retain lead-free certification for water contact products?"
     },
     {
       "rank": 3,
-      "headline": "Contractor credit and lien rights secure most of the receivable.",
-      "why_this_business": "Material is supplied to contractors on credit, secured by mechanics lien rights against the project that depend on preliminary notices and deadlines running from delivery dates. Job accounts must be tracked separately from general accounts to preserve those rights.",
-      "loss_scenario": "Lost lien rights on material already delivered, converting secured project exposure into unsecured trade debt against a contractor who may be insolvent.",
-      "rhetorical_question": "How do you track job-specific deliveries for lien notice purposes?"
+      "headline": "Project orders are quoted and released over months.",
+      "points": [
+        "Large project material is quoted, reserved, and released in stages.",
+        "Those commitments are tracked electronically.",
+        "Lost records mean material committed and unbillable."
+      ],
+      "rhetorical_question": "How are your project quotes and material releases tracked?"
     }
   ]
 }

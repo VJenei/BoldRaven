@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Children's products require certificates backed by third-party testing.",
-      "why_this_business": "Children's products must be tested by a CPSC-accepted laboratory and accompanied by a children's product certificate identifying the product, the rules it complies with, and the testing that supports it. Tracking labels must allow identification of the manufacturer and production batch. Importers carry these duties directly.",
-      "loss_scenario": "Product detained at import or subject to stop sale where certificates cannot be produced, plus CPSC civil penalties which have reached into the millions for recall and reporting failures.",
-      "rhetorical_question": "Where do you store children's product certificates and supporting test reports?"
+      "headline": "Children's product compliance follows through to you.",
+      "points": [
+        "Testing certificates and compliance documentation must accompany children's products.",
+        "Retailers require that documentation before accepting goods.",
+        "Uncertified product cannot lawfully be sold onward."
+      ],
+      "rhetorical_question": "How do you verify and retain children's product certificates from suppliers?"
     },
     {
       "rank": 2,
-      "headline": "Recalls must reach retailers and consumers through your distribution records.",
-      "why_this_business": "Toy recalls for choking, magnet, and battery hazards require identifying every retailer that received the affected batch. CPSC requires reporting of potential hazards within 24 hours of obtaining information, and the recall's effectiveness is judged on how much product is recovered.",
-      "loss_scenario": "An obstructed recall with hazardous product remaining in children's hands, drawing CPSC enforcement and severe reputational and liability consequences.",
-      "rhetorical_question": "Could you identify every retailer that received a specific production batch?"
+      "headline": "The year is decided in the fourth quarter.",
+      "points": [
+        "Retail orders are placed months ahead and shipped into narrow windows.",
+        "Missed shipments cannot be recovered after December.",
+        "Shelf space is lost at the following year's line review."
+      ],
+      "rhetorical_question": "What share of your annual volume ships between August and November?"
     },
     {
       "rank": 3,
-      "headline": "Seasonality concentrates the year into the fourth quarter.",
-      "why_this_business": "Toy and hobby distribution ships the majority of annual volume between September and December against retailer orders placed months earlier. Allocation, shipping, and EDI compliance all peak simultaneously.",
-      "loss_scenario": "An outage in the fourth quarter forfeits the year. Retailers cancel unfilled orders rather than accept late delivery, because the selling season ends on a fixed date.",
-      "rhetorical_question": "What share of your annual shipments occur between September and December?"
+      "headline": "Recalls in this category are large and urgent.",
+      "points": [
+        "Distribution records determine which retailers received affected product.",
+        "Reporting obligations apply once a hazard is known.",
+        "Without records the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which retailers received a specific production lot?"
     }
   ]
 }

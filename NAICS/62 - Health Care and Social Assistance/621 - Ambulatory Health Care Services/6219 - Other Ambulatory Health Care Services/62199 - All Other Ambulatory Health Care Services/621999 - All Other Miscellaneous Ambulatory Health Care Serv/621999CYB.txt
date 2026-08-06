@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Clinical services carry HIPAA obligations regardless of setting.",
-      "why_this_business": "Providers in this category deliver health services and hold patient records, diagnoses, and treatment documentation as covered entities, with security rule and breach notification obligations that apply in full.",
-      "loss_scenario": "HIPAA notification and OCR enforcement examining safeguards and risk analysis, with the organisation bearing costs it has no dedicated budget for.",
-      "rhetorical_question": "Has your organisation documented a HIPAA security risk analysis?"
+      "headline": "Patient records are federally protected.",
+      "points": [
+        "Clinical and billing records are held per patient.",
+        "Health privacy law requires notification of every affected patient.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Patients depend on scheduled services they cannot easily replace.",
-      "why_this_business": "Services in this category are frequently specialised with limited alternative providers in a region, delivered on schedules patients build their care around.",
-      "loss_scenario": "Patients unable to receive services with no accessible alternative, which for ongoing treatment is a clinical interruption rather than an inconvenience.",
-      "rhetorical_question": "How many alternative providers exist for the services you deliver?"
+      "headline": "Care delivery depends on connected systems.",
+      "points": [
+        "Scheduling, records, and clinical data run on connected systems.",
+        "Patients depend on scheduled care.",
+        "Patients arrive whether or not the systems are running."
+      ],
+      "rhetorical_question": "What happens to scheduled care if your systems are unavailable?"
     },
     {
       "rank": 3,
-      "headline": "Billing documentation supports claims audited years later.",
-      "why_this_business": "Claims to Medicare, Medicaid, and commercial payers require documented medical necessity and service records, audited retrospectively with extrapolation applied across the claim population.",
-      "loss_scenario": "Extrapolated recoupment across the claim history where documentation cannot be produced, at amounts that frequently exceed the claims actually examined.",
-      "rhetorical_question": "How many years of billing documentation are you required to retain?"
+      "headline": "Claims and cash flow depend on submission.",
+      "points": [
+        "Billing and claims run electronically to payers.",
+        "Payment arrives weeks after submission.",
+        "Payroll and rent do not pause while claims are stuck."
+      ],
+      "rhetorical_question": "How long could you operate without submitting claims?"
     }
   ]
 }

@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Underground mining equipment is safety-approved by MSHA.",
-      "why_this_business": "Equipment used in gassy underground mines requires MSHA approval for permissibility, with designs, materials, and manufacturing controls that prevent equipment from igniting methane. Approvals attach to specific documented configurations.",
-      "loss_scenario": "Equipment built outside its approved configuration entering an underground mine, igniting methane, with an explosion killing miners and an MSHA investigation examining the manufacturer's build records.",
-      "rhetorical_question": "How are MSHA approved configurations controlled through your build process?"
+      "headline": "Underground equipment is safety approved in an exact configuration.",
+      "points": [
+        "Equipment for gassy mines is approved so it cannot ignite methane.",
+        "Approvals attach to specific documented configurations.",
+        "Equipment built outside that configuration is an ignition source underground."
+      ],
+      "rhetorical_question": "How are approved configurations controlled through your build process?"
     },
     {
       "rank": 2,
-      "headline": "Machines carry loads and personnel where failure is fatal.",
-      "why_this_business": "Roof supports, continuous miners, and hoisting equipment hold the ground open and move people underground. Structural or control failures collapse workings or drop conveyances.",
-      "loss_scenario": "A structural or control defect causing a roof fall or hoist failure with multiple fatalities, and the manufacturer's design and fabrication records examined in the investigation.",
+      "headline": "Your equipment holds the ground and carries people.",
+      "points": [
+        "Roof supports, miners, and hoists hold workings open and move personnel.",
+        "Structural or control failures collapse workings or drop conveyances.",
+        "The consequence is multiple fatalities underground."
+      ],
       "rhetorical_question": "Does your equipment support ground or carry personnel underground?"
     },
     {
       "rank": 3,
-      "headline": "Mines run continuously and equipment downtime is measured in tonnes.",
-      "why_this_business": "Mining equipment supports continuous production, with parts and service supplied by the manufacturer. Mines hold limited spares because equipment is large and specific.",
-      "loss_scenario": "Parts and service systems unavailable with mine production stopped, and daily production value at a large mine running into millions.",
+      "headline": "Mines stop producing when your equipment stops.",
+      "points": [
+        "Mining equipment supports continuous production with few spares held.",
+        "Parts and service come from you.",
+        "Daily production value at a large mine runs into millions."
+      ],
       "rhetorical_question": "What does a day of stopped production cost your mining customers?"
     }
   ]

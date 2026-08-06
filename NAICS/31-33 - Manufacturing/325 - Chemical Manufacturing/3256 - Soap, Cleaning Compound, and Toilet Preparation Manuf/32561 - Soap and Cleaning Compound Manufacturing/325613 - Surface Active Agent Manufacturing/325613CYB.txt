@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Surfactants are ingredients in thousands of downstream products.",
-      "why_this_business": "Surfactants are supplied to detergent, personal care, and industrial manufacturers who formulate them into finished products. A specification or contamination problem propagates into every product containing the material.",
-      "loss_scenario": "Off-specification or contaminated surfactant reaching consumer and industrial products, with recall cascading through customers' finished goods and claims from every manufacturer affected.",
-      "rhetorical_question": "How many customer products could contain a single lot of your material?"
+      "headline": "Your product is an ingredient in thousands of formulations.",
+      "points": [
+        "Surfactants go into detergents, personal care, and industrial products.",
+        "Customers formulate around your exact specification.",
+        "Off specification material ruins their formulation batch."
+      ],
+      "rhetorical_question": "How are your product specifications tested and recorded per lot?"
     },
     {
       "rank": 2,
-      "headline": "Ethoxylation and sulfonation are hazardous reactions.",
-      "why_this_business": "Surfactant manufacture involves ethylene oxide and sulfur trioxide chemistry, both extremely hazardous. Ethylene oxide is flammable, explosive, and carcinogenic with strict exposure limits and emissions controls.",
-      "loss_scenario": "An ethylene oxide release or explosion, which is a catastrophic event with community exposure to a known carcinogen and regulatory response that has closed facilities permanently.",
-      "rhetorical_question": "Do you handle ethylene oxide, and how are emissions and exposure monitored?"
+      "headline": "Reaction control determines product quality and safety.",
+      "points": [
+        "Ethoxylation and similar reactions run under strict temperature and pressure control.",
+        "Runaway reactions in these processes are violent.",
+        "A control failure is an explosion, not a quality issue."
+      ],
+      "rhetorical_question": "What safety interlocks protect your reactions, and how are they verified?"
     },
     {
       "rank": 3,
-      "headline": "Product specification is qualified into customer formulations.",
-      "why_this_business": "Customers formulate around surfactant properties including active content, distribution, and impurity profile, qualifying suppliers into their products. Substitution requires reformulation and retesting.",
-      "loss_scenario": "Customers reformulating or qualifying alternative suppliers during an interruption, which permanently removes the business given the cost of requalification.",
-      "rhetorical_question": "How long would a customer take to qualify an alternative surfactant supplier?"
+      "headline": "Formulations and process routes are proprietary.",
+      "points": [
+        "Process conditions and product design determine performance.",
+        "That knowledge is the competitive position.",
+        "Once copied it cannot be recovered."
+      ],
+      "rhetorical_question": "Where are your process parameters stored, and who can access them?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Refrigerant sales are federally restricted and recorded.",
-      "why_this_business": "Distributors may only sell regulated refrigerants to certified technicians, must verify certification, and must retain sales records. The AIM Act adds allowance-based limits and reporting on HFCs, with an aggressive phase-down schedule and enforcement against unlawful imports and sales.",
-      "loss_scenario": "EPA enforcement for sales records that cannot be produced, with penalties per violation and loss of the ability to sell controlled refrigerants, which for an HVAC distributor removes a core product line.",
-      "rhetorical_question": "How do you verify and record technician certification for refrigerant sales?"
+      "headline": "Peak season demand cannot be rescheduled.",
+      "points": [
+        "Heating and cooling failures happen in extreme weather.",
+        "Contractors order equipment for customers with no heat or cooling.",
+        "A supply gap during a heat wave is a health emergency for occupants."
+      ],
+      "rhetorical_question": "How does your order system handle peak season demand surges?"
     },
     {
       "rank": 2,
-      "headline": "The season concentrates the year into a few brutal weeks.",
-      "why_this_business": "HVAC distribution is intensely seasonal, with a large share of annual revenue moving during heat waves and cold snaps when contractors need equipment the same day. Inventory allocation across branches is managed continuously during those periods.",
-      "loss_scenario": "A systems outage during a heat wave forfeits the highest margin period of the year, with contractors buying from whoever has stock and homeowners without cooling.",
-      "rhetorical_question": "What share of your annual revenue moves during peak season weeks?"
+      "headline": "Refrigerant rules restrict what you may sell and when.",
+      "points": [
+        "Refrigerant transition dates restrict equipment by type and date.",
+        "Sales and certification records support compliance.",
+        "Non-compliant inventory cannot lawfully be sold."
+      ],
+      "rhetorical_question": "How do you track refrigerant compliance for the equipment you stock?"
     },
     {
       "rank": 3,
-      "headline": "Equipment is serialised for warranty and rebate registration.",
-      "why_this_business": "Furnaces, condensers, and air handlers are registered by serial number for warranty, with manufacturer rebates and utility efficiency incentives claimed against installation records. Registration data ties equipment to a contractor and an address.",
-      "loss_scenario": "Forfeited manufacturer rebates and unregistered warranties, plus disputes with contractors whose customers cannot claim warranty coverage on equipment you supplied.",
-      "rhetorical_question": "How are equipment serial numbers recorded and registered for warranty?"
+      "headline": "Contractors order for jobs happening today.",
+      "points": [
+        "Equipment and parts are ordered against work already scheduled.",
+        "Crews are on site waiting for delivery.",
+        "A supply gap idles crews across multiple jobs."
+      ],
+      "rhetorical_question": "How many deliveries a day do your contractor customers depend on?"
     }
   ]
 }

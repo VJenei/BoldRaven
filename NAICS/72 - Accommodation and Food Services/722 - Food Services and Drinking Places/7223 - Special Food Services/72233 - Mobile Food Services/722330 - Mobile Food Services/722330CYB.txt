@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The point of sale on the truck is the entire business.",
-      "why_this_business": "Mobile food operations run card payment through mobile point of sale devices over cellular, with no cash-only fallback for most customers. Service is at a fixed location for a limited window and the queue does not wait.",
-      "loss_scenario": "Inability to take payment during a service window, which for a truck at an event or a lunch rush is the entire day's revenue, and food already prepared that cannot be sold.",
-      "rhetorical_question": "What proportion of your sales are card rather than cash?"
+      "headline": "Card payments are the majority of sales.",
+      "points": [
+        "Mobile payment terminals process cards at every location.",
+        "Card security requirements apply to that handling.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your mobile payment system handle card data?"
     },
     {
       "rank": 2,
-      "headline": "Event bookings and permits are dated and location-specific.",
-      "why_this_business": "Mobile operators book festivals, corporate events, and commissary and permit slots for specific dates and locations, frequently with deposits paid. Health permits are location and jurisdiction specific.",
-      "loss_scenario": "Missed event bookings with deposits paid and food purchased, on dates that represent a disproportionate share of monthly revenue for a single-unit operator.",
-      "rhetorical_question": "How many event bookings are you holding with deposits already paid?"
+      "headline": "Location and schedule drive every day's sales.",
+      "points": [
+        "Locations, permits, and schedules are published to customers.",
+        "Customers find you through social media and apps.",
+        "A day without a published location is a day without customers."
+      ],
+      "rhetorical_question": "How do you publish your locations and schedule to customers?"
     },
     {
       "rank": 3,
-      "headline": "Food safety records are required despite the small scale.",
-      "why_this_business": "Mobile units are inspected by health departments with requirements for temperature logs, commissary agreements, water and waste handling, and food handler certification. Records are examined during inspection.",
-      "loss_scenario": "Permit suspension where temperature logs and certification records cannot be produced, which stops operation entirely for a business with a single revenue-generating unit.",
-      "rhetorical_question": "How are your temperature logs and food handler certifications recorded?"
+      "headline": "Food safety records are inspected on site.",
+      "points": [
+        "Temperature, sanitation, and permit records are checked by inspectors.",
+        "Mobile units are inspected without notice.",
+        "Records you cannot produce close the unit for the day."
+      ],
+      "rhetorical_question": "What food safety and permit records do you keep on the unit?"
     }
   ]
 }

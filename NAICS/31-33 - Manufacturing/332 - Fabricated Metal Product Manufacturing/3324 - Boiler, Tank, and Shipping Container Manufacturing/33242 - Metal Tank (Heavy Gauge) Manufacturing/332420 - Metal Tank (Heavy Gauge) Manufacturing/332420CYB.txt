@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Tanks hold hazardous contents and their failure releases them.",
-      "why_this_business": "Storage tanks are fabricated to standards with design, welding, and testing requirements, holding fuels, chemicals, and process materials. Tank failure releases the entire contents at once.",
-      "loss_scenario": "A tank failure releasing hazardous contents, with fire, environmental, and community exposure depending on the material, and the fabrication and testing records determining liability.",
+      "headline": "A tank failure releases everything at once.",
+      "points": [
+        "Tanks hold fuels, chemicals, and process materials.",
+        "Design, welding, and testing determine whether the tank holds.",
+        "Failure releases the entire contents in one event."
+      ],
       "rhetorical_question": "What materials do your tanks hold in service?"
     },
     {
       "rank": 2,
-      "headline": "Pressure tanks are code-stamped and inspected.",
-      "why_this_business": "Pressure vessels and tanks fabricated to ASME code require qualified welding, examination, testing, and third-party inspection with a code stamp and data report. Non-code tanks carry API and other standards with their own requirements.",
-      "loss_scenario": "Loss of code authorisation or vessels that cannot be certified, which removes the ability to supply pressure equipment and leaves fabricated vessels unusable.",
-      "rhetorical_question": "Which codes and standards do your tanks carry, and how are the records retained?"
+      "headline": "Pressure tanks are code stamped and inspected.",
+      "points": [
+        "Code fabrication requires qualified welding, examination, and third party inspection.",
+        "Non-code tanks carry their own standards and requirements.",
+        "Vessels that cannot be certified are unusable."
+      ],
+      "rhetorical_question": "Which codes and standards do your tanks carry, and how are records retained?"
     },
     {
       "rank": 3,
-      "headline": "Field-erected tanks are built to project-specific designs.",
-      "why_this_business": "Large tanks are fabricated and erected on site to designs for a specific location, service, and foundation, with welding and testing performed in the field under inspection.",
-      "loss_scenario": "Tanks erected to wrong design or with unverifiable field welding, requiring testing or reconstruction of a structure that is already built and connected to the customer's process.",
+      "headline": "Field erected tanks are built to project designs.",
+      "points": [
+        "Large tanks are erected on site with field welding under inspection.",
+        "Design is specific to the location, service, and foundation.",
+        "A tank erected wrong must be tested or rebuilt in place."
+      ],
       "rhetorical_question": "How are field welding and inspection records captured on erection projects?"
     }
   ]

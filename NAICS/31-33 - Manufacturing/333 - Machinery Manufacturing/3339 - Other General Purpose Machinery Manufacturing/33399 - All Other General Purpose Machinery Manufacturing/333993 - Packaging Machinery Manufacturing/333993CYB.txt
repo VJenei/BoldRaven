@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Packaging machines apply labels that carry legal information.",
-      "why_this_business": "Fillers, labellers, and coders apply ingredient statements, allergen declarations, lot codes, and expiry dates. Regulators and recalls depend on that information being correct on the pack.",
-      "loss_scenario": "Machines applying wrong labels or codes across a customer's production, with an undeclared allergen recall and the packaging equipment identified as the cause.",
+      "headline": "Your machines apply the label that carries the allergen statement.",
+      "points": [
+        "Fillers, labellers, and coders apply ingredients, allergens, lot codes, and dates.",
+        "Recalls depend on that information being correct on the pack.",
+        "Wrong labels mean an undeclared allergen recall for the customer."
+      ],
       "rhetorical_question": "Does your equipment apply labels or codes carrying allergen or date information?"
     },
     {
       "rank": 2,
-      "headline": "Machines are connected and supported remotely into food plants.",
-      "why_this_business": "Packaging machinery includes PLCs and HMIs with remote access for commissioning and support, reaching into food and pharmaceutical plant networks that run continuous production.",
-      "loss_scenario": "Remote access used to reach customer plant networks, stopping packaging lines with product backed up behind them and the machine builder identified as the entry point.",
+      "headline": "You connect remotely into food plant networks.",
+      "points": [
+        "Controllers and interfaces ship with remote access for commissioning and support.",
+        "Those plants run continuous production.",
+        "You become the entry point with product backing up behind the line."
+      ],
       "rhetorical_question": "How do your engineers connect remotely to machines at customer plants?"
     },
     {
       "rank": 3,
-      "headline": "Machines are engineered for a specific pack format and line.",
-      "why_this_business": "Packaging equipment is configured for particular pack sizes, materials, and line speeds, with format parts and control recipes specific to each product the customer runs.",
-      "loss_scenario": "Loss of machine configurations and recipes, with customers unable to change over between products and lines running only whatever they were last set for.",
+      "headline": "Machines hold recipes for every pack format.",
+      "points": [
+        "Format parts and control recipes are specific to each product the customer runs.",
+        "Changeover between products depends on those recipes.",
+        "Without them the line runs only what it was last set for."
+      ],
       "rhetorical_question": "Where are machine recipes and format configurations stored?"
     }
   ]

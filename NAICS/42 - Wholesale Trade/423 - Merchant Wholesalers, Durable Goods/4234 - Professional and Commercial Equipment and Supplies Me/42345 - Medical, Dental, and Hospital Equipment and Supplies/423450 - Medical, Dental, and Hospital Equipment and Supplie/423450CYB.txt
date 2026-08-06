@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Hospitals cannot substitute supply during an outage.",
-      "why_this_business": "Distributors supply hospitals and surgery centres on daily or just-in-time delivery against group purchasing contracts, with low on-site inventory by design. Surgical schedules are built around expected supply. Implants and specialty items are often single-sourced.",
-      "loss_scenario": "Cancelled surgical procedures because supply did not arrive, which is a patient care event and a contract failure. Hospital supply contracts carry performance obligations and switching a distributor mid-contract is disruptive but achievable.",
-      "rhetorical_question": "How many hours of on-site inventory do your hospital customers hold?"
+      "headline": "Hospitals hold days of supplies, not weeks.",
+      "points": [
+        "Facilities order continuously and hold minimal stock.",
+        "Surgical and clinical supplies are consumed daily.",
+        "Supply interruptions become cancelled procedures within days."
+      ],
+      "rhetorical_question": "How many days of stock do your hospital customers typically hold?"
     },
     {
       "rank": 2,
-      "headline": "Device traceability and recall response are regulatory obligations.",
-      "why_this_business": "Medical device distributors must maintain distribution records enabling traceback and support recalls, with unique device identifiers on labelling. FDA can require a distributor to identify every customer that received a recalled lot, quickly.",
-      "loss_scenario": "Inability to identify recipients of a recalled device lot obstructs a safety recall, draws FDA enforcement, and leaves patients with implanted or in-use devices unidentified.",
-      "rhetorical_question": "Could you identify every customer that received a specific device lot within 24 hours?"
+      "headline": "Device traceability determines recall reach.",
+      "points": [
+        "Devices carry unique identification with lot traceability through distribution.",
+        "Your records determine which facilities received affected product.",
+        "Without them the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which facilities received a specific device lot?"
     },
     {
       "rank": 3,
-      "headline": "You may be handling protected health information for your customers.",
-      "why_this_business": "Distributors supporting patient-specific ordering, custom implants, or home delivery frequently receive patient identifiers, which makes them a business associate under HIPAA with a signed business associate agreement and direct regulatory liability.",
-      "loss_scenario": "A HIPAA breach with notification to affected patients and to HHS, plus direct enforcement against the distributor as a business associate, which is separate from any claim by the hospital.",
-      "rhetorical_question": "Have you signed business associate agreements with any of your healthcare customers?"
+      "headline": "Cold chain products degrade without recorded temperature.",
+      "points": [
+        "Reagents, biologics, and some devices require controlled storage and shipping.",
+        "Temperature is monitored and recorded as a condition of use.",
+        "Product out of range must be destroyed, not sold."
+      ],
+      "rhetorical_question": "How is temperature monitored and recorded for your cold chain products?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "State law requires you to record and report who sold you each item.",
-      "why_this_business": "Secondhand dealers are generally required to record seller identification, item descriptions and serial numbers, and to transmit those records to law enforcement, with hold periods before resale. These rules exist because used goods retail is where stolen property is monetised.",
-      "loss_scenario": "Licence action and receiving stolen property exposure where acquisition records cannot be produced, plus a breach exposing identification data for every person who sold you an item.",
-      "rhetorical_question": "How do you record seller identification and report acquisitions to law enforcement?"
+      "headline": "Purchase records support theft investigations.",
+      "points": [
+        "Seller identification and item records are required in most jurisdictions.",
+        "Police use those records to trace stolen property.",
+        "Missing records are enforceable violations."
+      ],
+      "rhetorical_question": "What seller identification and item records does your jurisdiction require?"
     },
     {
       "rank": 2,
-      "headline": "Consignment means you are selling other people's property.",
-      "why_this_business": "Consignment retailers hold goods owned by customers, tracked by item with agreed pricing, markdown schedules, and payout terms. The consignor is owed the proceeds when the item sells. Reconciliation depends entirely on item-level records.",
-      "loss_scenario": "Unreconcilable consignor accounts where neither party can establish what was received, what sold, and what is owed, across hundreds of individual consignors.",
-      "rhetorical_question": "How many active consignors are you holding goods for?"
+      "headline": "Recalled products can be resold unknowingly.",
+      "points": [
+        "Used goods can include products already recalled for safety.",
+        "Screening against recall lists depends on your records.",
+        "Reselling a recalled product is an enforceable violation."
+      ],
+      "rhetorical_question": "How do you screen incoming merchandise against recall lists?"
     },
     {
       "rank": 3,
-      "headline": "Item-level inventory is the only way the business functions.",
-      "why_this_business": "Every item is unique, priced individually, and cannot be replaced by another. There is no SKU-level replenishment. The inventory system is the only record of what exists, what it is priced at, and who owns it.",
-      "loss_scenario": "Loss of item-level inventory data means the store cannot price, cannot locate, and cannot reconcile consignments, which is closer to losing the merchandise than losing a system.",
-      "rhetorical_question": "How many individually priced unique items are in your inventory?"
+      "headline": "Card payments and customer records run through your systems.",
+      "points": [
+        "Point of sale processes cards and consignment records hold seller details.",
+        "Consignors are owed money against those records.",
+        "Every affected person must be notified."
+      ],
+      "rhetorical_question": "What seller, consignor, and payment data do you store?"
     }
   ]
 }

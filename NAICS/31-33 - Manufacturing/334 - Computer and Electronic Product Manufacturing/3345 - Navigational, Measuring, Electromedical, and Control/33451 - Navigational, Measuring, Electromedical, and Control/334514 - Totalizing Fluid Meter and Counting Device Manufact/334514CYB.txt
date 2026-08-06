@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Meters determine what customers are billed.",
-      "why_this_business": "Fluid meters measure quantities used for commercial billing, subject to weights and measures approval and periodic verification. Firmware determines what the meter registers and reports.",
-      "loss_scenario": "Meters registering incorrectly across an installed base, with billing disputes, regulatory action for measurement outside tolerance, and replacement or recalibration of every meter in service.",
+      "headline": "Your meters determine what customers are billed.",
+      "points": [
+        "Meters measure quantities used for commercial billing under approval.",
+        "Firmware determines what the meter registers and reports.",
+        "Every meter in service must be recalibrated or replaced when wrong."
+      ],
       "rhetorical_question": "How is metrologically sealed firmware controlled and verified in your meters?"
     },
     {
       "rank": 2,
-      "headline": "Utility meters are read remotely over networks.",
-      "why_this_business": "Meters increasingly include communications for automated reading, connecting to utility networks and back-office systems. Consumption data reveals occupancy and activity patterns.",
-      "loss_scenario": "Compromise of the metering communication path allowing manipulation of readings or disconnection functions across a utility's service territory, with revenue and service consequences at scale.",
+      "headline": "Utility meters are read and disconnected remotely.",
+      "points": [
+        "Meters include communications for automated reading and service control.",
+        "Consumption data reveals occupancy and activity patterns.",
+        "Remote disconnection at scale is a service and revenue event."
+      ],
       "rhetorical_question": "Do your meters support remote reading or disconnection over a network?"
     },
     {
       "rank": 3,
-      "headline": "Custody transfer measurement carries very large financial value.",
-      "why_this_business": "Meters used for custody transfer of fuels and process fluids determine the value of transactions measured in thousands of barrels or cubic feet, with accuracy requirements and calibration records.",
-      "loss_scenario": "Custody transfer meters measuring outside tolerance, with financial disputes across every transaction in the affected period and the meter manufacturer's calibration records determining responsibility.",
+      "headline": "Custody transfer measurement carries very large value.",
+      "points": [
+        "Meters determine the value of transactions in barrels or cubic feet.",
+        "Accuracy requirements and calibration records support that.",
+        "Disputes cover every transaction in the affected period."
+      ],
       "rhetorical_question": "Are your meters used for custody transfer measurement?"
     }
   ]

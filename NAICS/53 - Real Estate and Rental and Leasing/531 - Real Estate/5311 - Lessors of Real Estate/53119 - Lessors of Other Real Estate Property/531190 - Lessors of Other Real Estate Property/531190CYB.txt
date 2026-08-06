@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Lease documents define rights that run for decades.",
-      "why_this_business": "Ground leases, land leases, and similar arrangements run for very long terms with escalation formulas, renewal options, and use restrictions negotiated at inception. The document is the only statement of what each party may do, and the original counterparties are frequently long gone.",
-      "loss_scenario": "Disputes over rights and obligations that cannot be resolved without the executed documents and their amendments, on interests worth far more than the annual rent.",
-      "rhetorical_question": "Where are the executed originals and amendments for your long-term leases held?"
+      "headline": "Lease and payment records govern every relationship.",
+      "points": [
+        "Lease terms, rents, and tenant records are held per property.",
+        "Payments run automatically against those records.",
+        "Wrong records mean billing and collection errors across the portfolio."
+      ],
+      "rhetorical_question": "Where are your lease and tenant records held?"
     },
     {
       "rank": 2,
-      "headline": "Rent, royalty, and escalation calculations depend on maintained data.",
-      "why_this_business": "Payments under these leases are frequently formula-driven, tied to indices, percentage of revenue, or production. Calculating what is owed requires the lease terms, the historical basis, and the reported figures from the tenant.",
-      "loss_scenario": "Under-collection that persists undetected across a long term, where escalations were not applied and the shortfall compounds over years before anyone reconciles.",
-      "rhetorical_question": "How are escalations and formula-based rents calculated and verified each period?"
+      "headline": "Payment instructions are targeted by fraud.",
+      "points": [
+        "Tenants pay electronically against instructions from you.",
+        "Fraudsters send fake banking changes directly to tenants.",
+        "Tenants pay, you are not paid, and both of you lose."
+      ],
+      "rhetorical_question": "How do you communicate payment instructions to tenants?"
     },
     {
       "rank": 3,
-      "headline": "Payment instruction fraud targets infrequent large transactions.",
-      "why_this_business": "Lease payments, buyouts, and transfers involve large sums between parties who transact rarely, arranged by email through attorneys and agents. The infrequency means neither party has a routine for verifying instructions.",
-      "loss_scenario": "A diverted payment on a lease buyout or transfer, in amounts that reflect the capitalised value of a long-term interest rather than a monthly rent.",
-      "rhetorical_question": "How are payment instructions verified on an infrequent, high-value transaction?"
+      "headline": "Property and title records establish what you own.",
+      "points": [
+        "Deeds, surveys, and title documents establish ownership and boundaries.",
+        "Those records support every transaction and dispute.",
+        "Reconstructing them takes months and legal cost."
+      ],
+      "rhetorical_question": "Where are your property and title records stored?"
     }
   ]
 }

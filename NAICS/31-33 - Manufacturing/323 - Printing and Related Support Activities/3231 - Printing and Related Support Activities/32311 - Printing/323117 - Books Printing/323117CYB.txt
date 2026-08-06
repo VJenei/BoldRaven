@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Publication dates are announced and immovable.",
-      "why_this_business": "Book printing runs to publication dates set months ahead with retail placement, review coverage, and author publicity scheduled. Print and bind must complete in time for distribution to retail before the on-sale date.",
-      "loss_scenario": "Missed publication dates with retail placement and publicity already scheduled, which cannot be recreated later, and publishers claiming for the launch that did not happen.",
-      "rhetorical_question": "How far ahead of publication must books reach the distributor?"
+      "headline": "You hold manuscripts before publication.",
+      "points": [
+        "Book files arrive weeks or months before the release date.",
+        "Publishers build launches, embargoes, and reviews around that date.",
+        "A leaked manuscript destroys the launch and breaches your contract."
+      ],
+      "rhetorical_question": "What manuscripts do you hold for titles not yet published?"
     },
     {
       "rank": 2,
-      "headline": "You hold manuscripts before they are published.",
-      "why_this_business": "Printers receive complete manuscripts and cover artwork ahead of publication, including titles under embargo where early disclosure is commercially damaging. High profile titles are targets for leaks.",
-      "loss_scenario": "A manuscript leak before publication undermining the launch, with publisher and author claims and the printer's reputation in a small industry where trust determines who gets the work.",
-      "rhetorical_question": "Do you hold embargoed manuscripts ahead of their publication dates?"
+      "headline": "Print runs are scheduled to a fixed publication date.",
+      "points": [
+        "Books must arrive at distributors and retailers before the on-sale date.",
+        "Printing, binding, and shipping are scheduled to that date.",
+        "A missed date means empty shelves on launch day."
+      ],
+      "rhetorical_question": "How are your print schedules tied to publisher on-sale dates?"
     },
     {
       "rank": 3,
-      "headline": "Print runs are committed and unsold copies are returned.",
-      "why_this_business": "Print quantities are set against forecast with the economics depending on run length, and unsold books return to the publisher for credit. Reprint decisions depend on sales data and turnaround.",
-      "loss_scenario": "Wrong quantities printed or reprints delayed, with either excess inventory that will be returned and pulped or stockouts during the launch window that is the majority of a title's sales.",
-      "rhetorical_question": "How quickly must you turn around a reprint during a title's launch?"
+      "headline": "Presses and binderies run from digital files continuously.",
+      "points": [
+        "Prepress, printing, and binding run from customer files automatically.",
+        "Wrong files print at full run length before anyone checks.",
+        "A wrong run is scrap at full paper, ink, and binding cost."
+      ],
+      "rhetorical_question": "How are customer files proofed and verified before printing?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Refractories fail in service at extreme temperature.",
-      "why_this_business": "Refractory products line furnaces, kilns, and vessels operating at very high temperature, with composition and installation determining service life. Refractory failure in a steel or glass furnace releases molten material.",
-      "loss_scenario": "Refractory failure in a customer furnace producing a molten breakout, which is a catastrophic event at the customer's facility with worker fatality potential and equipment destruction.",
-      "rhetorical_question": "What temperatures and materials do your refractories contain in service?"
+      "headline": "Kiln cycles run for days and cannot be interrupted.",
+      "points": [
+        "Tunnel kilns run continuous firing cycles at very high temperature.",
+        "An interruption ruins everything in the kiln and damages the kiln itself.",
+        "Restart takes days of controlled heating."
+      ],
+      "rhetorical_question": "Are your kilns run by automated temperature profile controls?"
     },
     {
       "rank": 2,
-      "headline": "Tunnel kilns and continuous firing cannot stop cleanly.",
-      "why_this_business": "Brick and refractory production runs continuous tunnel kilns with ware moving through firing zones over many hours. Stopping the kiln damages the load, the kiln car furniture, and the refractory lining.",
-      "loss_scenario": "Ware in the kiln lost and kiln damage from uncontrolled cooling, with restart taking days and production capacity lost during the period.",
-      "rhetorical_question": "How long does your tunnel kiln take to restart after an uncontrolled stop?"
+      "headline": "Refractories fail in furnaces and let molten metal out.",
+      "points": [
+        "Refractory products line furnaces holding molten metal and glass.",
+        "A refractory failure releases molten material.",
+        "The consequence is a fire and fatality risk, not a lining replacement."
+      ],
+      "rhetorical_question": "What furnace applications use your refractory products?"
     },
     {
       "rank": 3,
-      "headline": "Building products carry code performance requirements.",
-      "why_this_business": "Brick and clay building materials must meet standards for strength, absorption, and durability, with testing and certification relied on by specifiers and building officials.",
-      "loss_scenario": "Product below specification installed in building facades, with durability failures appearing over years and remediation requiring facade replacement.",
-      "rhetorical_question": "How is product testing tied to specific production runs?"
+      "headline": "Building products carry structural and durability ratings.",
+      "points": [
+        "Brick and clay products carry strength, absorption, and freeze-thaw ratings.",
+        "Specifiers and code officials rely on those ratings.",
+        "Product below rating fails in walls after installation."
+      ],
+      "rhetorical_question": "How are your product test results linked to production runs?"
     }
   ]
 }

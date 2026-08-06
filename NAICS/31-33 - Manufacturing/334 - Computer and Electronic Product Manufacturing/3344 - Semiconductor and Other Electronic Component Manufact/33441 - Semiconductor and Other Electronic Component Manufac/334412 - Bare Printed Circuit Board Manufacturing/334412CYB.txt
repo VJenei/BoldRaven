@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Board files are the customer's complete circuit design.",
-      "why_this_business": "Fabricators receive Gerber and design files containing the full layout of the customer's product, frequently before it is released. Defence and aerospace boards involve export controlled technical data.",
-      "loss_scenario": "Exposure of customer board designs including controlled technical data, which is a contract breach and, for controlled data, a reportable export violation with penalties.",
+      "points": [
+        "Fabrication files contain the full layout of the customer's product.",
+        "Much of it arrives before the product is released.",
+        "Defence and aerospace boards add export control obligations."
+      ],
       "rhetorical_question": "Do you hold board designs subject to export control or pre-release confidentiality?"
     },
     {
       "rank": 2,
       "headline": "Defence work requires demonstrated cybersecurity compliance.",
-      "why_this_business": "Board fabricators supplying defence programmes handle controlled unclassified information subject to NIST SP 800-171 with an SPRS score, and CMMC requirements now appear in contracts as a condition of award.",
-      "loss_scenario": "Loss of defence contract eligibility where compliance cannot be evidenced, removing programme work that fabricators build capacity around.",
-      "rhetorical_question": "What is your SPRS score, and when was your assessment performed?"
+      "points": [
+        "Contracts with controlled information require documented controls and a score.",
+        "Assessment requirements appear in contracts as a condition of award.",
+        "Losing eligibility removes the programme work you built capacity around."
+      ],
+      "rhetorical_question": "What is your supplier risk score, and when was your assessment performed?"
     },
     {
       "rank": 3,
-      "headline": "Fabrication runs from digital files through automated processes.",
-      "why_this_business": "Boards are imaged, drilled, plated, and tested from digital data with no manual step that would catch a wrong file. Panels are processed in batches and errors consume the whole batch.",
-      "loss_scenario": "Panels fabricated from wrong or corrupted files, scrapped at full processing cost, with customer product builds delayed by the fabrication lead time to remake them.",
+      "headline": "Fabrication runs from files with no manual check.",
+      "points": [
+        "Boards are imaged, drilled, plated, and tested from digital data.",
+        "Panels process in batches and errors consume the whole batch.",
+        "Customer product builds wait for the full fabrication lead time."
+      ],
       "rhetorical_question": "How is design data verified before panels enter the process?"
     }
   ]

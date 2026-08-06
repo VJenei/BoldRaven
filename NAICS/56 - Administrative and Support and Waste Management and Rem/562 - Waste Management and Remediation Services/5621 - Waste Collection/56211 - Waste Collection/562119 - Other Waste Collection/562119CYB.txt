@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialised waste streams carry their own regulatory tracking.",
-      "why_this_business": "Collection of medical, electronic, and other specialised waste involves tracking requirements, licensed transport, and documentation demonstrating proper handling. Medical waste in particular is regulated at state level with manifest and treatment documentation.",
-      "loss_scenario": "Regulatory enforcement where tracking documentation cannot be produced, and generator customers unable to demonstrate proper disposal of waste they remain responsible for.",
-      "rhetorical_question": "What tracking documentation are you required to produce for the waste streams you handle?"
+      "headline": "Collection routes serve customers on a schedule.",
+      "points": [
+        "Routes, assignments, and service records run on connected systems.",
+        "Customers expect collection on a defined day.",
+        "Uncollected waste creates health and compliance problems."
+      ],
+      "rhetorical_question": "How are your collection routes and service records managed?"
     },
     {
       "rank": 2,
-      "headline": "Medical waste collection involves protected information.",
-      "why_this_business": "Medical waste and document destruction services collect material from healthcare facilities that can contain protected health information, making the provider a business associate under HIPAA with contractual and direct obligations.",
-      "loss_scenario": "HIPAA exposure as a business associate where collected material containing patient information was not properly secured or destroyed, with healthcare clients terminating relationships immediately.",
-      "rhetorical_question": "Do you collect material that may contain patient information from healthcare clients?"
+      "headline": "Waste documentation follows every load.",
+      "points": [
+        "Manifests and shipping documentation accompany regulated waste.",
+        "Regulators trace waste through those records.",
+        "Waste without documentation cannot lawfully move."
+      ],
+      "rhetorical_question": "How is your waste documentation generated and retained?"
     },
     {
       "rank": 3,
-      "headline": "Route and service records support billing and compliance simultaneously.",
-      "why_this_business": "Collection is billed on service frequency and volume, verified by route records, while the same records demonstrate that regulated waste was collected on the required schedule.",
-      "loss_scenario": "Unbillable service combined with compliance gaps, where the same missing records cause both a revenue loss and a regulatory finding.",
-      "rhetorical_question": "How are collections recorded for both billing and regulatory purposes?"
+      "headline": "Customer accounts hold addresses and payment data.",
+      "points": [
+        "Records carry addresses, service levels, and payment information.",
+        "Recurring billing runs against those records.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer account and payment data do you store?"
     }
   ]
 }

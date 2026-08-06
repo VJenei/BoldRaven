@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Component failure on a two wheeled vehicle causes rider injury.",
-      "why_this_business": "Frames, forks, brakes, and wheels on motorcycles and bicycles fail in ways that put the rider on the road immediately. There is no structure protecting the rider, so component failures produce serious injuries.",
-      "loss_scenario": "A frame, fork, or brake defect causing rider crashes, with an NHTSA or CPSC recall depending on the product and litigation over injuries that are typically severe.",
+      "headline": "Component failure puts the rider on the road.",
+      "points": [
+        "Frames, forks, brakes, and wheels fail with nothing protecting the rider.",
+        "Injuries in this category are typically severe.",
+        "Recall covers every unit from the affected production."
+      ],
       "rhetorical_question": "Could you identify which production runs contain a specific component lot?"
     },
     {
       "rank": 2,
-      "headline": "Electric bicycle batteries cause fires in homes and buildings.",
-      "why_this_business": "Electric bicycles and their batteries have caused fatal residential fires, prompting local ordinances requiring certification to UL standards and federal attention. Charging occurs indoors in living spaces.",
-      "loss_scenario": "Battery fires in residential buildings with fatalities, a CPSC recall, and jurisdictions prohibiting sale of products not certified to the applicable standards.",
-      "rhetorical_question": "Are your battery systems certified to the UL standards required by local ordinances?"
+      "headline": "Electric bicycle batteries cause fatal building fires.",
+      "points": [
+        "Batteries are charged indoors in living spaces.",
+        "Fires in residential buildings have killed occupants.",
+        "Local ordinances now require certification to specific standards."
+      ],
+      "rhetorical_question": "Are your battery systems certified to the standards required by local ordinances?"
     },
     {
       "rank": 3,
-      "headline": "Motorcycles are vehicles subject to federal safety standards.",
-      "why_this_business": "Motorcycles must conform to Federal Motor Vehicle Safety Standards with NHTSA jurisdiction over defects, requiring owner notification and remedy, and defect reporting obligations on the manufacturer.",
-      "loss_scenario": "An NHTSA recall requiring owner notification and remedy, with civil penalties where defect reporting obligations were not met and litigation over crashes during the exposure period.",
+      "headline": "Motorcycles are vehicles with federal recall obligations.",
+      "points": [
+        "Federal safety standards and defect jurisdiction apply.",
+        "Recalls require owner notification and remedy.",
+        "Late defect reporting carries civil penalties on top of the recall."
+      ],
       "rhetorical_question": "How are owner and registration records maintained for recall notification?"
     }
   ]

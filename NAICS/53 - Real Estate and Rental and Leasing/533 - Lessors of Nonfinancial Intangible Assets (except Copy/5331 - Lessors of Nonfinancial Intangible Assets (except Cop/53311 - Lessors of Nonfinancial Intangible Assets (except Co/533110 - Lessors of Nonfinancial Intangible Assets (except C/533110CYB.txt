@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The asset exists only as documentation.",
-      "why_this_business": "Patents, trademarks, trade secrets, and franchise rights are licensed for royalties, and their value depends entirely on registration records, licence agreements, assignment chains, and evidence of use. There is no physical asset to fall back on.",
-      "loss_scenario": "An unprovable chain of title or licence terms makes the right unenforceable and unlicensable, which destroys the revenue stream even though the underlying registration still exists.",
-      "rhetorical_question": "Where are your assignment chains and executed licence agreements held?"
+      "headline": "The asset is information and copying it is theft.",
+      "points": [
+        "Patents, trademarks, formulas, and know-how are the entire asset.",
+        "Unlike physical property, copying leaves the original intact.",
+        "Once disclosed the exclusivity cannot be restored."
+      ],
+      "rhetorical_question": "Where is your licensed intellectual property documented and stored?"
     },
     {
       "rank": 2,
-      "headline": "Trade secrets stop being assets the moment they are disclosed.",
-      "why_this_business": "Trade secret protection depends on the owner taking reasonable measures to keep the information secret. Disclosure ends the right permanently, and courts examine whether the owner's security measures were reasonable when deciding whether protection existed at all.",
-      "loss_scenario": "A breach that discloses a licensed trade secret destroys the asset outright and may defeat the legal protection retroactively, since inadequate security undermines the claim that reasonable measures were taken.",
-      "rhetorical_question": "Could you demonstrate that you took reasonable measures to protect your trade secrets?"
+      "headline": "Licence terms govern every permitted use.",
+      "points": [
+        "Territory, field, and term restrictions determine what licensees may do.",
+        "Royalties are calculated from those records.",
+        "Wrong records mean unenforceable licences and uncollectable royalties."
+      ],
+      "rhetorical_question": "Where are your licence agreements and royalty records held?"
     },
     {
       "rank": 3,
-      "headline": "Royalty collection depends on licensee reporting and audit rights.",
-      "why_this_business": "Licence income is calculated from licensee-reported usage, sales, or production, verified through audit rights exercised periodically. Reporting records and historical calculations are the basis for both collection and audit.",
-      "loss_scenario": "Under-collection across licensees that cannot be identified or recovered, with audit rights unusable because the baseline records against which to compare are gone.",
-      "rhetorical_question": "How do you verify that licensees are reporting their usage accurately?"
+      "headline": "Royalty reporting arrives from licensees electronically.",
+      "points": [
+        "Licensees report usage and pay royalties on that basis.",
+        "Audit rights depend on comparing reported and actual use.",
+        "Lost records mean royalties you cannot verify or collect."
+      ],
+      "rhetorical_question": "How is licensee royalty reporting received and reconciled?"
     }
   ]
 }

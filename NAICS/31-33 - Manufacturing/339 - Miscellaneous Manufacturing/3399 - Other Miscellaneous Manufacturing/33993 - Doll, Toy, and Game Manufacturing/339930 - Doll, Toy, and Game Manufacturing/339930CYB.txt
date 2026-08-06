@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Children's products carry mandatory testing and certification.",
-      "why_this_business": "Toys are children's products subject to lead, phthalate, and small parts requirements with third party testing by a CPSC-accepted laboratory and a Children's Product Certificate required for every product.",
-      "loss_scenario": "Product distributed without supportable test certificates, which cannot lawfully be sold, with CPSC recall, penalties, and retailers removing the entire line.",
-      "rhetorical_question": "How are third party test reports and Children's Product Certificates retained per product?"
+      "headline": "Children's products require testing and a certificate.",
+      "points": [
+        "Lead, phthalate, and small parts requirements all apply.",
+        "Third party testing and a certificate are required for every product.",
+        "Uncertified product cannot lawfully be sold and retailers pull the line."
+      ],
+      "rhetorical_question": "How are third party test reports and children's product certificates retained per product?"
     },
     {
       "rank": 2,
       "headline": "Connected toys collect data from children.",
-      "why_this_business": "Toys with microphones, cameras, or app connectivity collect data from children under 13, which is regulated by COPPA with verifiable parental consent requirements and FTC enforcement including substantial civil penalties.",
-      "loss_scenario": "Children's data collected without proper consent or exposed in a breach, with FTC enforcement under COPPA where penalties are assessed per violation and reputational damage in a category built on parental trust.",
+      "points": [
+        "Toys with microphones, cameras, or apps collect data from children under thirteen.",
+        "Verifiable parental consent is legally required.",
+        "Penalties are assessed per violation in a category built on parental trust."
+      ],
       "rhetorical_question": "Do any of your products collect data from children through an app or connection?"
     },
     {
       "rank": 3,
       "headline": "The year is decided in the fourth quarter.",
-      "why_this_business": "Toy sales concentrate in the holiday season with retail orders placed months ahead, shipped into narrow windows under vendor compliance requirements. Missed shipments cannot be recovered after December.",
-      "loss_scenario": "Order and shipping systems unavailable in the autumn shipping window, with holiday volume lost, chargebacks applied, and shelf space lost at the following year's line review.",
+      "points": [
+        "Retail orders are placed months ahead and shipped into narrow windows.",
+        "Missed shipments cannot be recovered after December.",
+        "Shelf space is lost at the following year's line review."
+      ],
       "rhetorical_question": "What share of your annual volume ships between August and November?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Roll form tooling is customer-specific and dimensionally exact.",
-      "why_this_business": "Roll forming runs coil through progressive roll stations producing a specific profile, with tooling made for that profile and setup determining dimensional accuracy. Customers assemble the profile into their products.",
-      "loss_scenario": "Out of tolerance profile that will not assemble, with material and setup time lost and customers whose assembly depends on the component halted.",
-      "rhetorical_question": "How many customer-specific roll sets and setup parameters do you hold?"
+      "headline": "Roll tooling is customer specific and dimensionally exact.",
+      "points": [
+        "Roll sets are made for one profile and held at your plant.",
+        "Customers assemble that profile into their products.",
+        "Out of tolerance profile will not assemble at all."
+      ],
+      "rhetorical_question": "How many customer roll sets and setup parameters do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Structural and building profiles carry code requirements.",
-      "why_this_business": "Roll formed structural members, decking, and framing carry load capacity and coating requirements referenced in building codes, with certification based on material and section properties.",
-      "loss_scenario": "Members below capacity installed as structural framing and decking, which is a latent deficiency requiring assessment of buildings already constructed with the affected material.",
+      "headline": "Structural profiles carry load ratings used in building design.",
+      "points": [
+        "Framing, decking, and structural members carry rated capacity.",
+        "Designers specify members based on those ratings.",
+        "Members below capacity are a deficiency in completed buildings."
+      ],
       "rhetorical_question": "Do your profiles carry structural load ratings used in building design?"
     },
     {
       "rank": 3,
-      "headline": "Continuous lines run coil at speed with in-line operations.",
-      "why_this_business": "Roll forming lines run continuously with punching, notching, and cutting integrated, driven by job data specifying lengths, hole patterns, and quantities. Errors are reproduced across the run before anyone inspects output.",
-      "loss_scenario": "Full runs produced with wrong hole patterns or lengths, scrapped at material and run cost, and customers waiting on components with the line rescheduled.",
-      "rhetorical_question": "How is job data loaded into your roll forming line and verified before running?"
+      "headline": "Lines run continuously with punching and cutting inline.",
+      "points": [
+        "Job data defines lengths, hole patterns, and quantities for every run.",
+        "Errors are reproduced across the whole run before inspection.",
+        "A wrong run is scrap at full coil and machine cost."
+      ],
+      "rhetorical_question": "How is job data loaded into your roll forming line and verified?"
     }
   ]
 }

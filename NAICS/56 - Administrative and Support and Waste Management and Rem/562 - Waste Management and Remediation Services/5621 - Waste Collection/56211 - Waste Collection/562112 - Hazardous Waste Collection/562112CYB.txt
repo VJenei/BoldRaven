@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Hazardous waste manifests are federal legal documents filed electronically.",
-      "why_this_business": "Hazardous waste shipments require a uniform hazardous waste manifest tracked from generator to disposal, submitted through the EPA e-Manifest system. The manifest establishes chain of custody and cradle to grave liability under RCRA, and copies must be retained for three years.",
-      "loss_scenario": "Shipments that cannot be manifested cannot lawfully move, and missing manifest records are RCRA violations assessed per day per violation, with generators unable to demonstrate proper disposal of their own waste.",
-      "rhetorical_question": "How do you submit and retain manifests through the EPA e-Manifest system?"
+      "headline": "Manifests track hazardous waste from cradle to grave.",
+      "points": [
+        "Federal manifests document every shipment from generator to disposal.",
+        "Electronic manifest submission is required.",
+        "Waste without a valid manifest cannot lawfully move."
+      ],
+      "rhetorical_question": "How are your hazardous waste manifests generated and submitted?"
     },
     {
       "rank": 2,
-      "headline": "Generator customers depend on you for their own compliance.",
-      "why_this_business": "Generators are liable for their waste from cradle to grave and rely on the transporter's documentation to demonstrate proper handling. Accumulation time limits mean waste cannot simply sit at the generator site while you recover.",
-      "loss_scenario": "Generators exceeding accumulation time limits because collection did not occur, which converts them into unpermitted storage facilities and creates enforcement exposure they will attribute to you.",
-      "rhetorical_question": "How long can your generator customers legally accumulate waste before collection?"
+      "headline": "Wrong waste characterisation causes dangerous reactions.",
+      "points": [
+        "Waste profiles determine handling, packaging, and disposal.",
+        "Incompatible wastes combined react violently.",
+        "Drivers and facility workers are injured by the mistake."
+      ],
+      "rhetorical_question": "How are waste profiles verified before collection and consolidation?"
     },
     {
       "rank": 3,
-      "headline": "Waste profile data describes what is being handled and where.",
-      "why_this_business": "Profiles document waste composition, hazard characteristics, generator identity, and quantities. That information identifies dangerous materials, their locations, and their movement schedules.",
-      "loss_scenario": "Exposure of waste profile and routing data creates a security concern around hazardous materials movements and reveals generator processes and waste streams that customers treat as confidential.",
-      "rhetorical_question": "Do your systems record what hazardous materials are collected from which sites and when?"
+      "headline": "Generators depend on scheduled collection.",
+      "points": [
+        "Accumulation time limits apply to waste held by generators.",
+        "Exceeding those limits is a violation for the generator.",
+        "A missed collection puts your customer in violation."
+      ],
+      "rhetorical_question": "What accumulation time limits do your customers work against?"
     }
   ]
 }

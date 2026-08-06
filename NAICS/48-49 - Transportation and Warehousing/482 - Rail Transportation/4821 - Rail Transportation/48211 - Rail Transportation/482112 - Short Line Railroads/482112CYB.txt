@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Short lines run the first and last mile for shippers with no alternative.",
-      "why_this_business": "Short lines connect industrial customers to the national network, often as the only rail service available. Customers ship bulk commodities where truck substitution is impractical or impossible. Interchange with Class I carriers is coordinated electronically.",
-      "loss_scenario": "A customer plant unable to ship or receive by rail shuts down within days when the commodity cannot move by truck, and the resulting claim far exceeds the freight revenue.",
-      "rhetorical_question": "How many of your customers have no practical alternative to rail?"
+      "headline": "Shippers on your line have no alternative.",
+      "points": [
+        "Customers are connected to the network only through your track.",
+        "Plants and elevators load and unload on your schedule.",
+        "A stoppage cuts them off from the rail network entirely."
+      ],
+      "rhetorical_question": "How many shippers depend on your line as their only rail connection?"
     },
     {
       "rank": 2,
-      "headline": "Interchange and car accounting run on industry data systems.",
-      "why_this_business": "Railroads exchange waybills, car location messages, and interchange records through industry systems, and car hire settlement depends on accurate reporting of when cars were received and delivered. Revenue division between carriers is calculated from that data.",
-      "loss_scenario": "Unreported interchange and car hire, which means both lost revenue divisions and accumulating car hire charges on equipment you cannot account for.",
-      "rhetorical_question": "How do you report car movements and interchange to the industry systems?"
+      "headline": "Dispatch and interchange run electronically.",
+      "points": [
+        "Car movements, interchange, and billing run through connected systems.",
+        "Class one railroads exchange data with you continuously.",
+        "Cars you cannot track are cars you cannot bill or deliver."
+      ],
+      "rhetorical_question": "How are car movements and interchange recorded with connecting railroads?"
     },
     {
       "rank": 3,
-      "headline": "Small railroads carry the same safety obligations as large ones.",
-      "why_this_business": "Track inspection records, employee certification, hours of service, and hazardous materials handling are federally regulated regardless of railroad size. FRA inspects and requires records be produced. Short lines have very small administrative staffs.",
-      "loss_scenario": "FRA enforcement for records that cannot be produced, and after any derailment the inspection record is the first thing examined in determining liability.",
-      "rhetorical_question": "How are your track inspection and employee certification records maintained?"
+      "headline": "Hazardous materials move on your track.",
+      "points": [
+        "Manifests identify what is in each car and where it is.",
+        "Responders rely on that data during a derailment.",
+        "A derailment without accurate data delays the correct response."
+      ],
+      "rhetorical_question": "How is hazardous materials manifest data recorded and provided to responders?"
     }
   ]
 }

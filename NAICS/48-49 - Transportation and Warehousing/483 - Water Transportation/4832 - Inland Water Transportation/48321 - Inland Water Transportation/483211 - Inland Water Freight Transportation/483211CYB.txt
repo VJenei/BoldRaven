@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Barge tows move enormous tonnage through locks on a coordinated schedule.",
-      "why_this_business": "Inland towing moves grain, coal, chemicals, and petroleum in tows that transit a lock and dam system with scheduling coordinated with the Corps of Engineers. Tow makeup, barge tracking, and lock scheduling are electronic. A single tow can carry the equivalent of over a thousand trucks.",
-      "loss_scenario": "Tows unable to be tracked or scheduled block the river system, and barges lost from tracking are physically somewhere on thousands of miles of waterway with cargo aboard.",
-      "rhetorical_question": "How do you track individual barges and their cargo across the river system?"
+      "headline": "Tow and barge movements run on connected systems.",
+      "points": [
+        "Fleeting, dispatch, and lock scheduling run electronically.",
+        "Barges carry bulk cargo and hazardous materials.",
+        "Loss of tracking means barges nobody can locate or account for."
+      ],
+      "rhetorical_question": "How are your barge movements and fleeting recorded?"
     },
     {
       "rank": 2,
-      "headline": "Coast Guard cybersecurity requirements apply to US-flagged towing vessels.",
-      "why_this_business": "Towing vessels are US-flagged and subject to the Coast Guard cybersecurity rule effective July 16, 2025, requiring immediate reporting of reportable cyber incidents, personnel training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
-      "loss_scenario": "Enforcement and operational restrictions on a fleet that is already capacity constrained, with cargo commitments unmet.",
-      "rhetorical_question": "How many of your vessels fall under the Coast Guard cybersecurity rule?"
+      "headline": "Cargo documentation follows every barge.",
+      "points": [
+        "Manifests identify cargo, ownership, and hazardous content.",
+        "Responders and terminals rely on that documentation.",
+        "A release without accurate data delays the correct response."
+      ],
+      "rhetorical_question": "How is hazardous cargo manifest data recorded and provided?"
     },
     {
       "rank": 3,
-      "headline": "Tank barge transfers are pollution events waiting on a control failure.",
-      "why_this_business": "Petroleum and chemical barges transfer cargo through automated systems with level monitoring, overfill protection, and documented transfer procedures. Inland waterways are drinking water sources and a release moves downstream immediately.",
-      "loss_scenario": "An inland oil or chemical spill carries removal costs, natural resource damages, and drinking water intake closures. Liability under the Oil Pollution Act attaches regardless of fault.",
-      "rhetorical_question": "How are cargo transfer and overfill protection systems monitored during a transfer?"
+      "headline": "Shipper production depends on your schedule.",
+      "points": [
+        "Cargo moves against mill, elevator, and plant schedules.",
+        "Shippers hold limited inventory at either end.",
+        "A missed movement stops production at the receiving plant."
+      ],
+      "rhetorical_question": "What production depends on your scheduled movements?"
     }
   ]
 }

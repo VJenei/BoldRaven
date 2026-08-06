@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ready to eat refrigerated foods carry the highest Listeria risk.",
-      "why_this_business": "Prepared salads, sandwiches, and refrigerated meals are consumed without cooking and held at refrigeration where Listeria can grow slowly. Environmental monitoring and post-processing controls are the primary defence and FDA examines them closely.",
-      "loss_scenario": "A Listeria recall with fatalities in vulnerable populations, plant closure for remediation, and regulatory and potentially criminal exposure, which this category has repeatedly experienced.",
-      "rhetorical_question": "How is Listeria environmental monitoring conducted in your ready to eat areas?"
+      "headline": "Product has days of shelf life and reaches consumers fast.",
+      "points": [
+        "Fresh prepared foods are made and delivered within days.",
+        "There is no kill step after packing for many products.",
+        "Contamination reaches consumers before testing would find it."
+      ],
+      "rhetorical_question": "How many days pass between production and consumption of your product?"
     },
     {
       "rank": 2,
-      "headline": "Shelf life is measured in days and production is daily.",
-      "why_this_business": "Prepared foods are produced daily against orders with code dates measured in days, delivered to retail and foodservice immediately. Product not delivered within its window is written off entirely.",
-      "loss_scenario": "Production and delivery interrupted with product expiring in the plant and customers out of stock, on a category where retail shelf space is filled by a competitor the same day.",
-      "rhetorical_question": "What is the shelf life of your product when it leaves the plant?"
+      "headline": "Listeria control in ready to eat food is closely inspected.",
+      "points": [
+        "Environmental monitoring and sanitation records establish listeria control.",
+        "Listeria persists in equipment and drains for years.",
+        "Ready to eat listeria outbreaks have caused deaths."
+      ],
+      "rhetorical_question": "What environmental monitoring records do you keep for listeria?"
     },
     {
       "rank": 3,
-      "headline": "Ingredients on the Food Traceability List enter your products.",
-      "why_this_business": "Leafy greens, tomatoes, cucumbers, herbs, cheeses, and seafood used in prepared foods are on the FDA Food Traceability List, with Key Data Element obligations at transformation under FSMA Section 204 and 24-hour record production, compliance date July 20, 2028.",
-      "loss_scenario": "A traceback that cannot link finished product to incoming ingredient lots, expanding the recall across all production and preventing recovery from the supplier responsible.",
-      "rhetorical_question": "Can you link a finished prepared food lot to the specific produce lots it contained?"
+      "headline": "Cold chain and traceability determine recall size.",
+      "points": [
+        "Temperature is monitored from production through delivery.",
+        "Lot codes link packs to production runs and to customers.",
+        "Without traceability the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific production lot?"
     }
   ]
 }

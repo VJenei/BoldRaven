@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Grooming and veterinary services hold animal and owner records.",
-      "why_this_business": "Retailers offering grooming, training, boarding, or veterinary services hold owner contact details, payment methods on file, vaccination records, and behavioural and medical notes. Boarding and daycare mean holding customers' animals in your care.",
-      "loss_scenario": "A breach exposing owner details and stored payment methods, plus disputes over animal health and authorised treatment where service records cannot be produced. Injury or death of an animal in your care generates claims well beyond its purchase price.",
-      "rhetorical_question": "Do you offer grooming, boarding, or veterinary services with stored customer records?"
+      "headline": "Pet food recalls kill animals and move fast.",
+      "points": [
+        "Contaminated pet food has killed pets in national recalls.",
+        "Your receiving and sales records determine what you have and sold.",
+        "Owners react to pet food recalls harder than to any human food recall."
+      ],
+      "rhetorical_question": "How do you receive recall notices and identify affected stock?"
     },
     {
       "rank": 2,
-      "headline": "Autoship subscriptions hold stored payment credentials at scale.",
-      "why_this_business": "Pet retail runs heavily on recurring food and supply subscriptions billed automatically to stored cards. Those credentials are held indefinitely for a large customer base under continuing PCI obligations.",
-      "loss_scenario": "Compromise of stored payment credentials across the subscription base, with card brand assessments and loss of the recurring revenue relationship the model depends on.",
-      "rhetorical_question": "How many customers have payment methods stored for recurring orders?"
+      "headline": "Live animal care runs on automated systems.",
+      "points": [
+        "Aquarium, reptile, and small animal systems run on automated climate and filtration.",
+        "Animals die within hours when those systems fail.",
+        "The loss is live inventory and a public welfare incident."
+      ],
+      "rhetorical_question": "Are your live animal systems monitored with automatic alarms?"
     },
     {
       "rank": 3,
-      "headline": "Live animals and prescription products carry regulatory duties.",
-      "why_this_business": "Retailers selling live animals face state and USDA requirements on sourcing, health certificates, and record retention, and those selling prescription pet medications must verify veterinary authorisation. Salmonella and zoonotic disease traceback runs on acquisition records.",
-      "loss_scenario": "Regulatory action where sourcing and health records cannot be produced during a disease traceback, plus liability where an animal transmitted infection to a customer.",
-      "rhetorical_question": "Do you sell live animals or prescription medications requiring documented authorisation?"
+      "headline": "Grooming and service bookings hold customer records.",
+      "points": [
+        "Appointments, pet records, and payment details are held per customer.",
+        "Services are booked into scheduled slots.",
+        "A lost schedule cancels appointments across many customers."
+      ],
+      "rhetorical_question": "How are your service bookings and customer records maintained?"
     }
   ]
 }

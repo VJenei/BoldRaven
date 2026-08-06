@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Services are scheduled to a date and cannot be delayed.",
-      "why_this_business": "Funerals are arranged within days of a death, coordinating cemetery, clergy, transportation, obituary, and family logistics against a fixed service time. Families are in acute grief and arrangements involve many parties.",
-      "loss_scenario": "A service that cannot proceed as arranged, which causes profound harm to a grieving family at the worst moment of their lives and produces reputational damage in a community-based business built entirely on trust.",
-      "rhetorical_question": "How many services are scheduled at your firm in the next week?"
+      "headline": "Services are scheduled and cannot be moved.",
+      "points": [
+        "Services, cremations, and burials are scheduled with families and clergy.",
+        "Families travel and take time off around those dates.",
+        "A failure means a service that does not happen as promised."
+      ],
+      "rhetorical_question": "How are your service schedules and arrangements recorded?"
     },
     {
       "rank": 2,
-      "headline": "Decedent and family records contain complete identity data.",
-      "why_this_business": "Funeral homes collect decedent Social Security numbers, dates of birth, military records, and family member details to complete death certificates, insurance claims, and benefit applications. Identity theft using deceased persons' data is a recognised fraud pattern.",
-      "loss_scenario": "Exposure of decedent and family identity data enabling fraud against estates and surviving family members, which occurs at a point when the family has no capacity to monitor or respond.",
-      "rhetorical_question": "How many decedent and family records with Social Security numbers do you hold?"
+      "headline": "Federal rules govern pricing disclosure.",
+      "points": [
+        "Price lists must be provided and disclosed in a specific way.",
+        "Regulators conduct undercover compliance checks.",
+        "Violations carry penalties and enforcement action."
+      ],
+      "rhetorical_question": "How is your price list generated and provided to families?"
     },
     {
       "rank": 3,
-      "headline": "Preneed contracts are long-term financial obligations.",
-      "why_this_business": "Preneed funeral contracts are sold years or decades in advance with funds held in trust or insurance-funded, regulated at state level with reporting and reserve requirements. The contract determines what the family receives when the time comes.",
-      "loss_scenario": "Preneed records that cannot be reconstructed, with families unable to demonstrate what was purchased and the firm unable to demonstrate its trust obligations to the regulator.",
-      "rhetorical_question": "How many preneed contracts are on your books, and how far back do they go?"
+      "headline": "Preneed funds are held in trust for years.",
+      "points": [
+        "Prearranged funeral funds are held under state trust requirements.",
+        "Those funds are held for decades before use.",
+        "Records establish what is owed to each family."
+      ],
+      "rhetorical_question": "How are your preneed contracts and trust records maintained?"
     }
   ]
 }

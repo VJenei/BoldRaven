@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You operate building systems on the client's behalf.",
-      "why_this_business": "Facilities support providers run HVAC, access control, life safety, and utility systems inside client premises, frequently with remote monitoring and vendor connections. Clients include government, healthcare, and data centre operations where environmental control is critical.",
-      "loss_scenario": "Loss of environmental or access control at client facilities, with damage to client operations and equipment far exceeding the service contract value, plus security consequences where access control was involved.",
-      "rhetorical_question": "Which client building systems can you operate remotely?"
+      "headline": "You operate building systems for clients.",
+      "points": [
+        "HVAC, access control, and building systems are operated on the client's behalf.",
+        "Those systems are networked and remotely accessible.",
+        "Tenants and occupants depend on them continuously."
+      ],
+      "rhetorical_question": "What client building systems do you operate and access?"
     },
     {
       "rank": 2,
-      "headline": "Base and government support contracts carry security requirements.",
-      "why_this_business": "Facilities support at federal and military installations requires personnel security clearances, controlled access, and contractual cybersecurity obligations under FAR and DFARS clauses. Facility layouts and system information are frequently controlled.",
-      "loss_scenario": "Loss of contract eligibility and clearance sponsorship, plus disclosure of installation information that carries national security consequences and criminal exposure.",
-      "rhetorical_question": "Do your contracts include federal safeguarding or clearance requirements?"
+      "headline": "You hold access to client facilities.",
+      "points": [
+        "Keys, codes, and access credentials for client buildings are held by you.",
+        "That access reaches secure and occupied areas.",
+        "Compromise gives an intruder entry to client premises."
+      ],
+      "rhetorical_question": "What client facility access credentials do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Your workforce has physical access to client premises around the clock.",
-      "why_this_business": "Support staff hold keys, access credentials, and after-hours entry to client facilities, with assignment and credentialing records held in your systems along with staff background check results.",
-      "loss_scenario": "Exposure of access credentials and staffing schedules provides a route into client premises, making the provider the origin of a physical security incident inside a client's business.",
-      "rhetorical_question": "How many client facilities can your staff credentials open?"
+      "headline": "Service commitments are contractual and measured.",
+      "points": [
+        "Response times and service levels are specified and measured.",
+        "Clients depend on those commitments for their own operations.",
+        "Missed commitments carry contractual penalties."
+      ],
+      "rhetorical_question": "What service level commitments do your contracts carry?"
     }
   ]
 }

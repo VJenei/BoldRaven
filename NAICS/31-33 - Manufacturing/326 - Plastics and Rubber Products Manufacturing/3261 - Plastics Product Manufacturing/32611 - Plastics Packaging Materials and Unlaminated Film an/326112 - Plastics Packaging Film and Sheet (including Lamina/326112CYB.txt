@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Barrier structures determine whether packaged food stays safe.",
-      "why_this_business": "Laminated packaging films provide oxygen and moisture barriers determining product shelf life and safety. Structure specification, lamination bond, and seal integrity are the performance characteristics customers depend on.",
-      "loss_scenario": "Film failing barrier or seal specification, with packaged food spoiling or becoming unsafe within its stated shelf life, and recall reaching the packaged product across every customer using the affected film.",
-      "rhetorical_question": "How are barrier properties and seal integrity verified against specification?"
+      "headline": "Barrier performance determines whether packaged food keeps.",
+      "points": [
+        "Film structure and thickness determine oxygen and moisture barrier.",
+        "Customers set shelf life based on that barrier.",
+        "Film below specification spoils product on the shelf."
+      ],
+      "rhetorical_question": "How are your film barrier specifications tested and recorded per lot?"
     },
     {
       "rank": 2,
-      "headline": "Lamination adhesives carry migration compliance requirements.",
-      "why_this_business": "Adhesives and inks in laminated food packaging must not migrate into food, with compliance documented through material specifications and in some cases migration testing. Primary aromatic amine migration from adhesives is a specific concern.",
-      "loss_scenario": "Migration of adhesive components into packaged food, with recall of the food product and regulatory attention to the packaging manufacturer's material compliance controls.",
-      "rhetorical_question": "How do you document adhesive and ink compliance for food contact structures?"
+      "headline": "Food contact compliance applies to every layer.",
+      "points": [
+        "Resins, adhesives, and inks contacting food must meet contact requirements.",
+        "Certification records support that use.",
+        "Non-compliant film recalls the customer's packed food."
+      ],
+      "rhetorical_question": "What food contact compliance records do you retain for your film?"
     },
     {
       "rank": 3,
-      "headline": "Customers qualify film structures into their packaging lines.",
-      "why_this_business": "Packaging films are qualified for specific products and run on customer form fill seal equipment with settings matched to the film. Substitution requires requalification and machine adjustment.",
-      "loss_scenario": "Customers with packaging lines stopped and no qualified alternative film, unable to package product that continues to be produced upstream.",
-      "rhetorical_question": "How long would it take a customer to qualify an alternative film for their line?"
+      "headline": "Customers run packaging lines set up for your exact film.",
+      "points": [
+        "Sealing, forming, and running behaviour are qualified into their equipment.",
+        "Substitution requires requalification on their line.",
+        "Off specification film stops their packaging line."
+      ],
+      "rhetorical_question": "How are your film specifications tested and recorded per roll?"
     }
   ]
 }

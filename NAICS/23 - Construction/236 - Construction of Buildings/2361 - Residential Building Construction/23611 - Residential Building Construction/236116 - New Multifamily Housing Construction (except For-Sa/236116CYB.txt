@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Monthly payment applications move large sums through a predictable cycle.",
-      "why_this_business": "Multifamily projects run on AIA payment applications submitted monthly to the owner and lender, with conditional and unconditional lien waivers exchanged across dozens of subcontractors. The timing is known to anyone reading the email traffic, and the amounts are large.",
-      "loss_scenario": "A diverted payment application or subcontractor payment of $200,000 to $2M. Unpaid subcontractors file liens against the project, which puts the general contractor in default with the owner and the lender.",
-      "rhetorical_question": "What is the value of a typical monthly payment application on your projects?"
+      "headline": "Payment applications and draws move very large sums.",
+      "points": [
+        "Monthly pay applications move hundreds of thousands to subcontractors and suppliers.",
+        "Banking instructions arrive by email and are changed the same way.",
+        "One diverted payment must be funded twice to keep the job moving."
+      ],
+      "rhetorical_question": "How are changes to subcontractor banking details verified before payment?"
     },
     {
       "rank": 2,
-      "headline": "Schedule is the contract, and delay damages are written in.",
-      "why_this_business": "Multifamily contracts carry substantial completion dates with liquidated damages, and the schedule is maintained in project management software coordinating dozens of trades. Lease-up commitments and construction loan interest run against the completion date.",
-      "loss_scenario": "Liquidated damages commonly run $1,000 to $10,000 per day, plus extended general conditions and loan interest, for delay you cannot attribute to an excusable cause.",
-      "rhetorical_question": "Do your contracts carry liquidated damages for late completion, and at what daily rate?"
+      "headline": "The schedule carries liquidated damages by the day.",
+      "points": [
+        "Completion dates are contractual with damages assessed for each day late.",
+        "Trade sequencing and inspections are managed in project software.",
+        "Days lost to a systems failure are charged against you."
+      ],
+      "rhetorical_question": "What are the liquidated damages per day on your current projects?"
     },
     {
       "rank": 3,
-      "headline": "Prevailing wage and workforce records are audited on subsidised projects.",
-      "why_this_business": "Multifamily developments financed with tax credits or public funds require certified payroll, prevailing wage compliance, and often local hiring documentation for every worker on site including subcontractors. Certified payroll contains full names, addresses, and Social Security numbers.",
-      "loss_scenario": "Breach exposing worker Social Security numbers across every trade on the project, plus withheld payment and debarment risk if certified payroll cannot be produced on demand.",
-      "rhetorical_question": "Do you collect certified payroll containing Social Security numbers from your subcontractors?"
+      "headline": "Plans and models drive fabrication and installation.",
+      "points": [
+        "Drawings, models, and shop drawings are issued electronically to every trade.",
+        "Work built to a superseded revision has to be torn out.",
+        "Rework on a structure is measured in weeks."
+      ],
+      "rhetorical_question": "How are drawing revisions controlled and issued to your trades?"
     }
   ]
 }

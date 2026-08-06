@@ -1,7 +1,6 @@
 {
   "naics_code": "111320",
   "naics_title": "Citrus (except Orange) Groves",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Frost protection for high-value citrus is automated and remotely controlled.",
-      "why_this_business": "Lemons, grapefruit, mandarins, and limes are freeze sensitive and are protected by remotely controlled microsprinkler and wind machine systems. Per-acre values are higher than oranges. Mandarin acreage in particular carries high revenue per acre.",
-      "loss_scenario": "Total crop loss on acreage grossing $8,000 to $20,000 per acre, plus tree damage on varieties with long establishment periods.",
-      "rhetorical_question": "Are your frost protection systems operated remotely, and what is your revenue per acre?"
+      "headline": "Groves take years to establish and one event to lose.",
+      "points": [
+        "Irrigation and frost protection are run by automated and remote controls.",
+        "A control failure during a freeze or drought kills mature trees.",
+        "Replanted trees produce nothing for several seasons."
+      ],
+      "rhetorical_question": "Are your frost protection or irrigation systems monitored or controlled remotely?"
     },
     {
       "rank": 2,
-      "headline": "Club and managed varieties require reporting through a grower portal.",
-      "why_this_business": "Managed and club citrus varieties require licensed plantings, reported acreage, quality compliance, and marketing through one designated handler. Compliance is administered through grower portals. The license is what permits the fruit to be sold under the brand.",
-      "loss_scenario": "License compliance failure or inability to report during harvest sends fruit into the generic market at a fraction of branded value.",
-      "rhetorical_question": "Do you grow any licensed or club variety that requires reporting to a handler?"
+      "headline": "Fresh citrus is packed and shipped on booked slots.",
+      "points": [
+        "Harvest crews and packinghouse capacity are scheduled by date.",
+        "Fruit degrades on the tree once it passes maturity.",
+        "Missing the fresh market drops the fruit to juice value."
+      ],
+      "rhetorical_question": "How are your harvest crews and packinghouse deliveries scheduled?"
     },
     {
       "rank": 3,
-      "headline": "Export requires electronic phytosanitary certificates and residue documentation.",
-      "why_this_business": "Specialty citrus exported to Japan, Korea, Canada, and the EU requires phytosanitary certificates issued through APHIS PCIT, cold treatment records, and compliance with destination maximum residue limits. Compliance is verified against your spray records. Permitted chemistries differ by country.",
-      "loss_scenario": "Container detention or rejection on perishable product, and removal from an export program that took years to qualify for.",
-      "rhetorical_question": "Do you export fruit, and do you maintain electronic spray and treatment records?"
+      "headline": "Disease quarantine rules control where your fruit may go.",
+      "points": [
+        "Regulated areas restrict movement of fruit and plant material.",
+        "Grove records and treatment history support movement permits.",
+        "Fruit that cannot be documented cannot be moved."
+      ],
+      "rhetorical_question": "What treatment and movement records do you keep for your groves?"
     }
   ]
 }

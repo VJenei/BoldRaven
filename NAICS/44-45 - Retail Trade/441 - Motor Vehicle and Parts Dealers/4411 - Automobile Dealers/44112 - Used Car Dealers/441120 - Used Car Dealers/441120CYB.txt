@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The FTC Safeguards Rule applies to you the same as a franchised store.",
-      "why_this_business": "Independent dealers that arrange or extend financing are financial institutions under GLBA and must meet the FTC Safeguards Rule, which since June 9, 2023 requires a written security programme, a qualified individual, multi-factor authentication, encryption, and an incident response plan. Buy-here-pay-here operations extend credit directly and hold even more customer financial data.",
-      "loss_scenario": "FTC enforcement plus breach costs, against a business with far less compliance infrastructure than a franchise dealer and no manufacturer support to fall back on.",
-      "rhetorical_question": "Do you arrange or extend financing for your customers?"
+      "headline": "You hold a complete credit file on every buyer.",
+      "points": [
+        "Credit applications carry social security numbers, income, and bank details.",
+        "Federal safeguards rules require a written security programme for that data.",
+        "Every buyer must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many completed credit applications are stored in your systems?"
     },
     {
       "rank": 2,
-      "headline": "Payment devices and starter interrupt systems are connected to vehicles you sold.",
-      "why_this_business": "Buy-here-pay-here dealers install GPS tracking and starter interrupt devices to enforce payment, controlled through a web platform. Those systems can locate and disable a customer's vehicle remotely, and they hold location histories for every financed customer.",
-      "loss_scenario": "Unauthorised disabling of vehicles, potentially while in use, creates a bodily injury exposure. Exposure of customer location histories is a serious privacy claim in its own right.",
-      "rhetorical_question": "Do you use GPS or starter interrupt devices on financed vehicles?"
+      "headline": "Title and lien records determine whether you can sell.",
+      "points": [
+        "Titles, lien releases, and payoff records are tracked electronically.",
+        "A vehicle without a clear title cannot be sold to anyone.",
+        "Buyers cannot register a car you cannot title."
+      ],
+      "rhetorical_question": "How are your title and lien payoff records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Titles and inventory records establish what you can legally sell.",
-      "why_this_business": "Independent dealers hold titles, odometer disclosures, reconditioning records, and vehicle history reports against a floor-planned or owned inventory. State dealer licensing requires records be retained and produced on inspection, and title fraud investigations run directly on these records.",
-      "loss_scenario": "Licence action for records that cannot be produced, and units without provable title that cannot be sold, which for a small dealer is the entire working capital tied up on the lot.",
-      "rhetorical_question": "How do you track titles and odometer disclosures for units in inventory?"
+      "headline": "Inventory is listed and priced through online channels.",
+      "points": [
+        "Vehicles are acquired, priced, and listed through auction and marketplace systems.",
+        "Almost every buyer arrives through an online listing.",
+        "Inventory you cannot list is inventory depreciating on the lot."
+      ],
+      "rhetorical_question": "How do buyers find your inventory, and what systems host those listings?"
     }
   ]
 }

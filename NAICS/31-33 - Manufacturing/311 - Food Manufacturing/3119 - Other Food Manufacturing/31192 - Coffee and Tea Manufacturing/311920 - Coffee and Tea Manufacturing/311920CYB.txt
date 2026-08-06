@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Roast profiles are the product and they exist as data.",
-      "why_this_business": "Coffee roasting follows profiles controlling time and temperature curves that determine flavour, developed over years and executed by automated roasters. The profile is the recipe and reproducing a blend depends on it.",
-      "loss_scenario": "Loss of roast profiles means blends that cannot be reproduced consistently, which for a specialty roaster is the entire product identity and for a commercial roaster breaks customer specifications.",
-      "rhetorical_question": "How many roast profiles are stored in your roaster control systems?"
+      "headline": "Roast profiles are the product and they are digital.",
+      "points": [
+        "Roast curves define flavour and are stored and executed by roaster controls.",
+        "Blends and profiles are developed over years and define the brand.",
+        "Losing profiles means the product cannot be reproduced consistently."
+      ],
+      "rhetorical_question": "Where are your roast profiles and blend formulas stored?"
     },
     {
       "rank": 2,
-      "headline": "Green coffee inventory is a commodity position.",
-      "why_this_business": "Roasters buy green coffee against forward commitments and futures positions, holding substantial inventory whose value moves with the market. Position and cost basis determine margin on every sale.",
-      "loss_scenario": "Unmanaged position exposure through a coffee market move, where price volatility in this commodity is high and a large inventory position can erase annual margin.",
-      "rhetorical_question": "How is your green coffee position tracked against your forward sales?"
+      "headline": "Green coffee purchasing moves large sums by wire.",
+      "points": [
+        "Green coffee is bought from importers and origins and paid by transfer.",
+        "A faked banking change diverts an entire container payment.",
+        "Inventory is bought months ahead of sale."
+      ],
+      "rhetorical_question": "How are changes to supplier banking details verified before payment?"
     },
     {
       "rank": 3,
-      "headline": "Certification claims depend on documented chain of custody.",
-      "why_this_business": "Organic, fair trade, and origin claims require documented chain of custody from producer through import to roasting, audited by certifying bodies. Those claims carry substantial price premiums.",
-      "loss_scenario": "Certification suspended where chain of custody documentation cannot be produced, with certified product reverting to commodity value and customers who buy specifically on those claims moving elsewhere.",
-      "rhetorical_question": "Which certifications do you hold, and where is the chain of custody documentation?"
+      "headline": "Origin and certification claims must be documented.",
+      "points": [
+        "Organic, fair trade, and single origin claims require supply chain documentation.",
+        "Certifiers audit those records directly.",
+        "Unsupported claims mean product that cannot be sold as labelled."
+      ],
+      "rhetorical_question": "What certification and origin documentation do you retain for your coffee?"
     }
   ]
 }

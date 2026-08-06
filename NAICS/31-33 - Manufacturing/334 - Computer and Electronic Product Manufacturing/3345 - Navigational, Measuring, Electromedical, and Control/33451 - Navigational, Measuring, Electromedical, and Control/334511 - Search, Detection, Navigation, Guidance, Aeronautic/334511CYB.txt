@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Almost everything you design is export controlled defence technology.",
-      "why_this_business": "Navigation, guidance, radar, and detection systems are defence articles with technical data controlled under ITAR, requiring registration, access controls, and licensing. Disclosure to a foreign person, including remotely, is an export.",
-      "loss_scenario": "Exposure of controlled technical data to a foreign actor, which is a reportable ITAR violation with civil and criminal penalties, potential debarment, and a national security investigation.",
-      "rhetorical_question": "How is access to ITAR controlled technical data restricted and logged?"
+      "headline": "Almost everything you design is controlled defence technology.",
+      "points": [
+        "Navigation, guidance, radar, and detection systems are defence articles.",
+        "Access by a foreign person, including remotely, is an export.",
+        "That is a reportable violation with criminal and debarment exposure."
+      ],
+      "rhetorical_question": "How is access to controlled technical data restricted and logged?"
     },
     {
       "rank": 2,
       "headline": "Defence contracts require demonstrated cybersecurity compliance.",
-      "why_this_business": "Contractors handling controlled unclassified information must meet NIST SP 800-171 with an SPRS score, and CMMC assessment requirements now appear in contracts. Classified programme work carries additional facility security requirements.",
-      "loss_scenario": "Loss of contract eligibility or facility clearance where compliance cannot be evidenced or an incident occurred, which ends participation in the programmes the business exists for.",
-      "rhetorical_question": "What is your SPRS score, and what CMMC level do your contracts require?"
+      "points": [
+        "Contracts with controlled information require documented controls and assessment.",
+        "Classified work adds facility security requirements.",
+        "Losing eligibility ends participation in the programmes the business exists for."
+      ],
+      "rhetorical_question": "What is your supplier risk score, and what assessment level do your contracts require?"
     },
     {
       "rank": 3,
       "headline": "Instrument failure causes aircraft and vessel accidents.",
-      "why_this_business": "Navigation and flight instruments are relied on for control and position, with airworthiness approval and rigorous software assurance requirements. Erroneous indications cause controlled flight into terrain and collisions.",
-      "loss_scenario": "A software or hardware defect producing erroneous indications, with an accident, an NTSB investigation, and an airworthiness directive grounding every aircraft with the affected equipment.",
+      "points": [
+        "Navigation and flight instruments are relied on for control and position.",
+        "Erroneous indications cause controlled flight into terrain and collisions.",
+        "A directive grounds every aircraft with the affected equipment."
+      ],
       "rhetorical_question": "What software assurance level applies to your flight-critical instruments?"
     }
   ]

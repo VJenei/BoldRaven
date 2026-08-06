@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Graphite electrodes are consumed continuously by steel mills.",
-      "why_this_business": "Electric arc furnaces consume graphite electrodes continuously and cannot operate without them. Supply is concentrated among few producers and mills hold limited stock.",
-      "loss_scenario": "Production or shipping stopped with mills unable to obtain electrodes, and steel production halted across customers at a daily value far exceeding the electrode price.",
+      "headline": "Steel mills consume electrodes continuously and hold few.",
+      "points": [
+        "Electric arc furnaces cannot operate without graphite electrodes.",
+        "Supply is concentrated among very few producers.",
+        "Mills hold limited stock and stop when it runs out."
+      ],
       "rhetorical_question": "How many days of electrode stock do your steel customers hold?"
     },
     {
       "rank": 2,
-      "headline": "Graphitisation is a long, energy-intensive, controlled process.",
-      "why_this_business": "Electrode production runs baking and graphitisation cycles taking weeks at very high temperature under process control. An interrupted or misrun cycle ruins product representing weeks of throughput and enormous energy input.",
-      "loss_scenario": "Furnace control loss during graphitisation, with product ruined, weeks of capacity lost, and delivery commitments to mills missed with no way to compress the cycle.",
+      "headline": "Graphitisation runs for weeks and cannot be interrupted.",
+      "points": [
+        "Baking and graphitisation cycles run at very high temperature for weeks.",
+        "An interrupted cycle ruins product representing weeks of throughput.",
+        "The cycle cannot be compressed to catch up."
+      ],
       "rhetorical_question": "How long is a graphitisation cycle, and what happens if control is lost partway?"
     },
     {
       "rank": 3,
-      "headline": "Specialty carbon products serve regulated and strategic applications.",
-      "why_this_business": "Carbon and graphite products go into nuclear, aerospace, semiconductor, and defence applications with qualification, traceability, and in some cases export control requirements.",
-      "loss_scenario": "Loss of qualification records or exposure of controlled technical data, removing eligibility for the highest value applications and creating export violation exposure.",
+      "headline": "Specialty products serve regulated and strategic applications.",
+      "points": [
+        "Products go into nuclear, aerospace, semiconductor, and defence applications.",
+        "Qualification, traceability, and export control requirements apply.",
+        "Losing records removes eligibility for the highest value work."
+      ],
       "rhetorical_question": "Which of your products are supplied against nuclear, aerospace, or defence qualifications?"
     }
   ]

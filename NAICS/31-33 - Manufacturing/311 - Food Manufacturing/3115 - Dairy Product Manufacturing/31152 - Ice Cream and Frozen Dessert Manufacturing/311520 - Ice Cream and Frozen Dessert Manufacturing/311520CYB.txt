@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Frozen dessert Listeria recalls have caused deaths.",
-      "why_this_business": "Ice cream is a ready to eat product consumed without further processing, and Listeria contamination in frozen dessert plants has produced multistate outbreaks with fatalities and total product withdrawals. Environmental monitoring is the primary control.",
-      "loss_scenario": "A Listeria recall with deaths, total product withdrawal, plant closure for remediation, and criminal investigation, which is the pattern this category has already experienced.",
-      "rhetorical_question": "How is Listeria environmental monitoring conducted and recorded in your facility?"
+      "headline": "Listeria has caused fatal ice cream recalls.",
+      "points": [
+        "Listeria survives freezing and persists in plant equipment and drains.",
+        "Environmental monitoring and sanitation records are inspected.",
+        "Ice cream listeria outbreaks have killed consumers and closed plants."
+      ],
+      "rhetorical_question": "What environmental monitoring records do you keep for listeria?"
     },
     {
       "rank": 2,
-      "headline": "Freezing and cold chain must hold from production to consumer.",
-      "why_this_business": "Product is frozen, hardened, and held frozen through distribution and retail. Temperature abuse causes ice crystal formation and, where product partially thaws, food safety concerns. Monitoring runs through production, storage, and transport.",
-      "loss_scenario": "Product that cannot be verified as continuously frozen must be destroyed, and freezer control failures condemn inventory measured in millions of units.",
-      "rhetorical_question": "How is frozen storage temperature monitored and alarmed out of hours?"
+      "headline": "The cold chain must hold from plant to freezer case.",
+      "points": [
+        "Hardening, storage, and distribution temperatures are recorded continuously.",
+        "Product that softens and refreezes is defective and unsafe.",
+        "A refrigeration failure can lose an entire warehouse."
+      ],
+      "rhetorical_question": "Is your freezer temperature monitored and recorded automatically?"
     },
     {
       "rank": 3,
-      "headline": "Allergen control across flavours on shared equipment is complex.",
-      "why_this_business": "Ice cream lines run many flavours containing nuts, peanuts, wheat, soy, and eggs across shared freezers and filling lines, with allergen control depending on scheduling, cleaning, and label control. Inclusions and variegates multiply the allergen count.",
-      "loss_scenario": "An allergen recall with anaphylaxis exposure in a product frequently eaten by children, and a recall scope determined by whether production records can identify affected lots and their distribution.",
-      "rhetorical_question": "How many allergens run across your shared production lines?"
+      "headline": "Allergen and label control decide whether product can ship.",
+      "points": [
+        "Nuts, milk, eggs, and soy move through shared equipment and flavour changeovers.",
+        "Changeover, cleaning, and label controls prove separation.",
+        "An undeclared allergen recalls every package from that run."
+      ],
+      "rhetorical_question": "How are allergen changeover and label controls documented per run?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Spices have caused salmonella outbreaks and carry adulteration risk.",
-      "why_this_business": "Spices are low moisture products where salmonella survives, imported from many origins, and are subject to economically motivated adulteration with fillers, dyes, and undeclared allergens. FDA has identified spice adulteration as a specific vulnerability requiring preventive controls.",
-      "loss_scenario": "A salmonella recall or an adulteration finding, with spices used as ingredients across many downstream products, and undeclared allergenic fillers creating injury exposure at the consumer.",
-      "rhetorical_question": "How do you verify the authenticity and composition of imported spice lots?"
+      "headline": "Spices carry salmonella and are used raw.",
+      "points": [
+        "Imported spices have repeatedly tested positive for salmonella.",
+        "Treatment validation and testing records establish control.",
+        "Spices are added to food after cooking, so contamination survives to the plate."
+      ],
+      "rhetorical_question": "What treatment validation and testing records do you keep for incoming spices?"
     },
     {
       "rank": 2,
-      "headline": "Extract and flavour formulations are proprietary and valuable.",
-      "why_this_business": "Flavour and extract manufacturers develop proprietary formulations and extraction processes for customers, holding both their own intellectual property and customer-specific formulations under confidentiality.",
-      "loss_scenario": "Formulation disclosure destroys proprietary value permanently and exposes customer formulations, with contractual liability and loss of the development relationships the business depends on.",
-      "rhetorical_question": "How are proprietary formulations and customer-specific developments protected?"
+      "headline": "Adulteration and substitution are enforcement priorities.",
+      "points": [
+        "Spice authenticity testing detects substitution and undeclared additives.",
+        "Supply chain documentation supports every origin and purity claim.",
+        "Adulterated product is seized and the customer's product recalled."
+      ],
+      "rhetorical_question": "What authenticity and purity testing do you perform on incoming material?"
     },
     {
       "rank": 3,
-      "headline": "Ingredient customers incorporate your product into everything.",
-      "why_this_business": "Spices and extracts are supplied to food manufacturers who use small quantities in many products. A single contaminated lot can enter hundreds of finished products across multiple manufacturers.",
-      "loss_scenario": "A recall cascading through customers' finished goods across the industry, with claims from every manufacturer whose products contained the affected material.",
-      "rhetorical_question": "How many downstream products could contain a single lot of your ingredient?"
+      "headline": "Your ingredient goes into countless customer products.",
+      "points": [
+        "Spices and extracts are used across food manufacturing at low inclusion rates.",
+        "One lot reaches an enormous number of finished products.",
+        "The recall cost is their finished goods, not your spice."
+      ],
+      "rhetorical_question": "How many customer products could contain a single lot of your product?"
     }
   ]
 }

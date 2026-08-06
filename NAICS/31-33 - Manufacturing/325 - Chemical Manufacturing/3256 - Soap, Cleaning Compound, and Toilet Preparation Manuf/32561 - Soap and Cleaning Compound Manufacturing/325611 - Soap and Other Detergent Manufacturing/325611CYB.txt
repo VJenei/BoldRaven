@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Concentrated products cause injury when packaging or labelling fails.",
-      "why_this_business": "Detergents and cleaning products are corrosive or irritant concentrates, with child-resistant packaging required for some products and warning labels required under federal hazardous substances rules. Liquid laundry packets in particular have caused serious child injuries.",
-      "loss_scenario": "Packaging or labelling failures leading to child ingestion or chemical injury, with CPSC action, recall, and litigation in a product category that has already attracted regulatory attention for child safety.",
-      "rhetorical_question": "Do your products require child-resistant packaging or hazard warnings?"
+      "headline": "Concentrated products cause chemical burns when formulated wrong.",
+      "points": [
+        "Active concentration is controlled and verified per batch.",
+        "Over-concentrated product injures the person using it.",
+        "Injury claims follow every unit from the affected batch."
+      ],
+      "rhetorical_question": "How are your batch formulations verified before product release?"
     },
     {
       "rank": 2,
-      "headline": "Batching accuracy determines both performance and safety.",
-      "why_this_business": "Detergent manufacture batches surfactants, builders, enzymes, and fragrances to formulation, with concentration determining cleaning performance and safety. Over-concentration produces a more hazardous product than the label describes.",
-      "loss_scenario": "Product batched outside formulation causing skin and eye injuries beyond what the label warns of, with recall and injury claims where the product was more hazardous than represented.",
-      "rhetorical_question": "How is batch concentration verified before filling and labelling?"
+      "headline": "Packaging and labelling carry safety and regulatory content.",
+      "points": [
+        "Warnings, first aid statements, and child resistant packaging are required.",
+        "Concentrated packets have caused poisonings in children.",
+        "A labelling or packaging failure is a recall and an injury claim."
+      ],
+      "rhetorical_question": "How are your label warnings and packaging requirements controlled?"
     },
     {
       "rank": 3,
-      "headline": "High speed filling lines run continuously to retail demand.",
-      "why_this_business": "Filling, capping, and packaging run at high rate supplying retail on continuous replenishment. Household products have consistent demand and retailers expect continuous supply.",
-      "loss_scenario": "Retail out of stocks across a distribution network with shelf space and promotional commitments unmet, plus product in process lost on line stops.",
-      "rhetorical_question": "How many units per hour do your filling lines produce?"
+      "headline": "Retail supply is concentrated with enforced requirements.",
+      "points": [
+        "Product ships to large retailers under delivery and labelling requirements.",
+        "Chargebacks apply when requirements are missed.",
+        "Losing shelf space at a reset removes a year of volume."
+      ],
+      "rhetorical_question": "What share of your volume goes to your largest retail customers?"
     }
   ]
 }

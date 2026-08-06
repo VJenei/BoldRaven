@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Dispatch and vehicle location systems run the entire service.",
-      "why_this_business": "Bus transit operates through computer-aided dispatch and automatic vehicle location that assigns operators to runs, tracks vehicles, drives passenger information displays, and manages detours in real time. Operators receive assignments through these systems.",
-      "loss_scenario": "Service reverts to fixed timetables with no real-time management, and riders lose arrival information entirely. Missed connections and stranded riders generate immediate political consequences for a public agency.",
-      "rhetorical_question": "How are operator assignments and vehicle locations managed during service?"
+      "headline": "Riders with no car depend entirely on the service.",
+      "points": [
+        "People use transit to reach work, medical care, and school.",
+        "Many riders have no alternative at all.",
+        "A stoppage strands the people least able to absorb it."
+      ],
+      "rhetorical_question": "How many daily riders depend on your system with no alternative?"
     },
     {
       "rank": 2,
-      "headline": "Fare collection failure means carrying passengers for free.",
-      "why_this_business": "Fare boxes, smart cards, and mobile ticketing are networked to a central system for validation and revenue accounting. When validation is unavailable the practical choice is to carry riders free rather than suspend service.",
-      "loss_scenario": "Fare revenue lost for the duration with no retroactive recovery, on a service where farebox recovery is already a small fraction of operating cost and every dollar is budgeted.",
-      "rhetorical_question": "What is your daily farebox revenue, and could you collect it manually?"
+      "headline": "Dispatch and scheduling run the whole fleet.",
+      "points": [
+        "Runs, operators, and vehicle assignments run through scheduling systems.",
+        "Operators receive assignments electronically.",
+        "Without them buses do not leave the yard."
+      ],
+      "rhetorical_question": "How are runs and operator assignments dispatched?"
     },
     {
       "rank": 3,
-      "headline": "Paratransit obligations are legally enforceable.",
-      "why_this_business": "Transit agencies must provide complementary paratransit service under the Americans with Disabilities Act, scheduled through reservation and routing systems holding rider disability information and trip histories. Denials and missed trips are tracked and reportable.",
-      "loss_scenario": "Missed paratransit trips are ADA compliance failures affecting riders who have no alternative, with FTA oversight and civil rights complaints following.",
-      "rhetorical_question": "How are paratransit trips reserved and scheduled?"
+      "headline": "Fare and rider data run through your systems.",
+      "points": [
+        "Fare collection holds payment cards and rider account data.",
+        "Reduced fare programmes hold eligibility and personal information.",
+        "Every affected rider must be notified."
+      ],
+      "rhetorical_question": "What rider account and payment data does your fare system hold?"
     }
   ]
 }

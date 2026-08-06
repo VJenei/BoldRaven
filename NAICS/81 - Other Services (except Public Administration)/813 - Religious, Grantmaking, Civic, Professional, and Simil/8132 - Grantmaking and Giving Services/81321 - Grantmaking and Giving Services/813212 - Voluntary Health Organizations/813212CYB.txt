@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Constituent records identify people with specific health conditions.",
-      "why_this_business": "Health charities hold records of patients, families, and caregivers who engaged because of a diagnosis, along with programme participation, support group attendance, and research registry enrolment. Membership itself discloses a health condition.",
-      "loss_scenario": "Exposure identifying individuals with a specific diagnosis, which is health information disclosure regardless of whether the organisation is a covered entity, causing employment, insurance, and personal harm.",
-      "rhetorical_question": "Does your constituent list identify people by health condition?"
+      "headline": "Donor and beneficiary records are sensitive.",
+      "points": [
+        "Records carry donor giving history and beneficiary health information.",
+        "Beneficiary records may reveal diagnoses.",
+        "Every affected donor and beneficiary must be notified."
+      ],
+      "rhetorical_question": "What donor and beneficiary records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Patient registries hold clinical data for research.",
-      "why_this_business": "Many organisations operate patient registries collecting diagnosis, treatment, and outcome data from participants who consented for research purposes, sometimes including genetic information.",
-      "loss_scenario": "Exposure of registry data breaks the consent under which it was provided, harms participants, and ends recruitment for research programmes that depend entirely on patient trust.",
-      "rhetorical_question": "What did registry participants consent to regarding the protection of their data?"
+      "headline": "Donation processing runs continuously.",
+      "points": [
+        "Online and recurring donations are processed through connected systems.",
+        "Campaigns drive concentrated giving periods.",
+        "A processing failure during a campaign loses the giving entirely."
+      ],
+      "rhetorical_question": "How are your online and recurring donations processed?"
     },
     {
       "rank": 3,
-      "headline": "Fundraising operations hold donor payment data at volume.",
-      "why_this_business": "Health charities run large donor programmes with recurring giving, event fundraising, and online donation processing, holding payment methods and giving histories for very large supporter bases.",
-      "loss_scenario": "Payment data exposure across a supporter base, with notification costs funded from charitable revenue and a giving decline that follows breaches at charities specifically.",
-      "rhetorical_question": "How many supporters have payment methods stored for recurring giving?"
+      "headline": "Fraudulent appeals damage trust permanently.",
+      "points": [
+        "Fraudsters impersonate charities to solicit donations.",
+        "Donors give believing it reaches your cause.",
+        "The reputational damage falls on you, not the fraudster."
+      ],
+      "rhetorical_question": "How would donors verify that an appeal genuinely comes from you?"
     }
   ]
 }

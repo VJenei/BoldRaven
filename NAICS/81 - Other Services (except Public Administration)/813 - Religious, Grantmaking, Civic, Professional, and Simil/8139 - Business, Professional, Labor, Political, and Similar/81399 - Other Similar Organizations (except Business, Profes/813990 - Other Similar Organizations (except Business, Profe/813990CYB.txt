@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Membership and participant records accumulate over decades.",
-      "why_this_business": "Organisations in this category hold member and participant records, contact details, payment methods, and participation histories accumulated over long periods, frequently administered by volunteers or small staffs with no retention policy.",
-      "loss_scenario": "Notification covering members from many years ago with no current relationship, expanding the affected population and the cost far beyond the active membership.",
-      "rhetorical_question": "How many years of member records are held in your systems?"
+      "headline": "Member records hold personal and payment data.",
+      "points": [
+        "Records carry contact details, dues, and payment information.",
+        "Recurring dues run against those records.",
+        "Every affected member must be notified."
+      ],
+      "rhetorical_question": "How many member records with payment details do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Volunteer administration creates weak and untracked access.",
-      "why_this_business": "Systems are frequently administered by rotating volunteers using shared credentials and personal accounts, with access rarely revoked at handover and no inventory of who holds it.",
-      "loss_scenario": "A compromise that cannot be scoped because access history is unknown, with former officers and volunteers retaining credentials nobody remembers issuing.",
-      "rhetorical_question": "Could you produce a list of everyone with access to your systems today?"
+      "headline": "Organisational funds are targeted by fraud.",
+      "points": [
+        "Fraudsters impersonate leadership to request transfers and gift cards.",
+        "Staff and volunteers act because they trust the sender.",
+        "Organisational money is lost and not recovered."
+      ],
+      "rhetorical_question": "How would staff verify a payment request that appears to come from leadership?"
     },
     {
       "rank": 3,
-      "headline": "Payment processing brings merchant liability regardless of size.",
-      "why_this_business": "Organisations collecting dues, event fees, and donations by card are merchants bound by PCI DSS through their processing agreements, fully mandatory in version 4.0 since March 31, 2025, with no exemption for non-profit status or size.",
-      "loss_scenario": "Card brand assessments and forensic costs assigned by the merchant agreement, at amounts an organisation funded by dues and donations cannot absorb.",
-      "rhetorical_question": "Does your organisation know what its merchant agreement makes it liable for?"
+      "headline": "Events and programmes are booked ahead.",
+      "points": [
+        "Events, programmes, and facility bookings are committed to dates.",
+        "Members and participants plan around those dates.",
+        "A lost booking is a programme that does not happen."
+      ],
+      "rhetorical_question": "How are your event and programme bookings recorded?"
     }
   ]
 }

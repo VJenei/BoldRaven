@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Vehicle service depends on manufacturer data access.",
-      "why_this_business": "Specialised automotive services require access to manufacturer service information, diagnostic platforms, and programming systems, along with parts catalogues identified by VIN. Modern vehicles cannot be serviced from generic information.",
-      "loss_scenario": "Work that cannot be completed with vehicles occupying the shop, and customers without transport while the shop cannot bill for work in progress.",
-      "rhetorical_question": "Which manufacturer systems must you reach to complete a typical job?"
+      "headline": "Repair information comes from manufacturer systems.",
+      "points": [
+        "Procedures, specifications, and diagnostics come from subscription systems.",
+        "Modern vehicles cannot be serviced without that access.",
+        "Vehicles sit while you cannot access the information."
+      ],
+      "rhetorical_question": "What repair information systems do your technicians depend on?"
     },
     {
       "rank": 2,
-      "headline": "Customer and vehicle records accumulate over years.",
-      "why_this_business": "Shop systems hold customer contact details, vehicle identification, service histories, and stored payment methods, retained indefinitely for repeat business and warranty support.",
-      "loss_scenario": "Breach notification across current and former customers, with vehicle identification data supporting theft and identity data supporting conventional fraud.",
-      "rhetorical_question": "How many years of customer and vehicle records are in your system?"
+      "headline": "Customer records hold vehicle and payment data.",
+      "points": [
+        "Records carry contact details, vehicle identification, and payment information.",
+        "Service history is stored with them.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer vehicle and payment data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Small shops have no redundancy for the one system they use.",
-      "why_this_business": "Independent shops run scheduling, estimating, parts ordering, invoicing, and customer records through a single management system, frequently on a shop computer with no IT support and no verified backup.",
-      "loss_scenario": "The shop cannot schedule, order parts, or invoice, and for an owner-operated business with thin working capital an extended outage is a solvency event.",
-      "rhetorical_question": "When did you last verify that your shop management backup actually restores?"
+      "headline": "Scheduling and dispatch run the shop.",
+      "points": [
+        "Appointments, technician assignments, and parts run on connected systems.",
+        "Customers arrange transport around appointments.",
+        "A scheduling failure strands customers and idles technicians."
+      ],
+      "rhetorical_question": "How are your appointments and technician assignments managed?"
     }
   ]
 }

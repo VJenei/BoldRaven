@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Finfish, crustaceans, and molluscan shellfish are all on the Food Traceability List.",
-      "why_this_business": "All three seafood categories are covered by FSMA Section 204, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours, with a compliance date of July 20, 2028. Molluscan shellfish additionally require NSSP tags retained 90 days.",
-      "loss_scenario": "A Vibrio or norovirus traceback that stalls at the distributor closes harvest areas and expands the recall across every supplier you buy from.",
-      "rhetorical_question": "Do you retain shellfish tags and lot records for the required periods?"
+      "headline": "Histamine forms fast and cannot be reversed.",
+      "points": [
+        "Temperature control from receipt through delivery prevents histamine formation.",
+        "Records document that control for every lot.",
+        "Histamine poisoning is immediate and traces to your handling."
+      ],
+      "rhetorical_question": "How is temperature recorded from receipt through delivery?"
     },
     {
       "rank": 2,
-      "headline": "Seafood fraud enforcement targets species substitution and origin claims.",
-      "why_this_business": "Imported seafood is subject to the Seafood Import Monitoring Program requiring harvest and chain of custody data for specified species, and species substitution is actively enforced. Records must demonstrate what the product actually is and where it came from.",
-      "loss_scenario": "Import shipments refused entry, and mislabelling findings that carry both regulatory penalties and civil fraud exposure from customers who paid for a different species.",
-      "rhetorical_question": "Do you import species covered by the Seafood Import Monitoring Program?"
+      "headline": "Species and import documentation controls what you may sell.",
+      "points": [
+        "Species identification, catch documentation, and import records are required.",
+        "Species substitution and illegal catch are enforcement priorities.",
+        "Product without documentation is detained or seized."
+      ],
+      "rhetorical_question": "What species and catch documentation do you retain for imported product?"
     },
     {
       "rank": 3,
-      "headline": "Fresh seafood has the shortest shelf life in food distribution.",
-      "why_this_business": "Fresh fish is bought daily against landings and availability, priced against a moving market, and moves to customers within days. Temperature control is continuous and unforgiving. Product is often flown in and committed before it lands.",
-      "loss_scenario": "Product bought and unsellable within days, with no ability to hold inventory through a disruption. A single day of lost ordering and dispatch writes off what is on the floor.",
+      "headline": "Shelf life is measured in days.",
+      "points": [
+        "Fresh seafood moves from receipt to customer within days.",
+        "Customers order against menus for that day.",
+        "Product held too long is a total loss."
+      ],
       "rhetorical_question": "How many days of shelf life does your fresh product have on arrival?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Retail and commercial customers order to seasonal calendars.",
-      "why_this_business": "Stationery products ship to retail against back to school, holiday, and seasonal resets with delivery windows agreed months ahead. Products are frequently dated or seasonally themed with no value after the period.",
-      "loss_scenario": "Missed seasonal windows leaving dated or themed product that cannot be sold, with production cost sunk and shelf space lost for the season.",
-      "rhetorical_question": "What share of your production is seasonal or dated?"
+      "headline": "Retail supply runs on vendor systems with delivery windows.",
+      "points": [
+        "Orders, labels, and delivery requirements come through retailer systems.",
+        "Chargebacks apply when requirements are missed.",
+        "Back to school carries a large share of annual volume."
+      ],
+      "rhetorical_question": "What share of your volume ships between June and September?"
     },
     {
       "rank": 2,
-      "headline": "Custom and imprinted production is customer specific.",
-      "why_this_business": "Commercial stationery and business forms are printed with customer branding, form numbers, and content, produced to order in quantities specific to that customer. Nothing is interchangeable.",
-      "loss_scenario": "Wrong specification production that no other customer can use, with material and print costs lost and the customer waiting on forms their own operations require.",
-      "rhetorical_question": "What proportion of your production is customer-specific imprinted work?"
+      "headline": "Products used by children carry testing requirements.",
+      "points": [
+        "Items for children require third party testing and certification.",
+        "Lead, phthalate, and small parts requirements all apply.",
+        "Uncertified children's products cannot lawfully be sold."
+      ],
+      "rhetorical_question": "Which of your products are children's products requiring third party testing?"
     },
     {
       "rank": 3,
-      "headline": "Converting lines run continuously with high changeover volume.",
-      "why_this_business": "Cutting, folding, gluing, and binding lines run many short jobs with frequent changeovers driven by job specifications. Setup accuracy determines whether the run produces saleable product.",
-      "loss_scenario": "Setup errors producing scrap across runs, with material and machine time consumed and delivery dates missed on jobs that must be rerun.",
-      "rhetorical_question": "How many separate jobs run through your converting lines in a week?"
+      "headline": "Production runs from digital job data at volume.",
+      "points": [
+        "Printing, converting, and packaging run from stored job specifications.",
+        "Errors are reproduced across the whole run.",
+        "Wrong product is scrap at full material and labour cost."
+      ],
+      "rhetorical_question": "How are job specifications verified before a production run?"
     }
   ]
 }

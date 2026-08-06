@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Client records document housing instability and personal circumstances.",
-      "why_this_business": "Housing assistance organisations hold applications with income, household composition, disability status, criminal history, eviction history, and immigration status, collected to determine eligibility for assistance programmes.",
-      "loss_scenario": "Exposure of eviction, criminal, and immigration history for people seeking housing assistance, which affects their ability to obtain housing independently and causes harm well beyond financial loss.",
-      "rhetorical_question": "What eligibility information do you collect that clients would not want disclosed?"
+      "headline": "Clients depend on housing assistance to stay housed.",
+      "points": [
+        "Assistance, placement, and payments run on connected systems.",
+        "Clients face eviction without that assistance.",
+        "A delay puts households on the street."
+      ],
+      "rhetorical_question": "How many households depend on your housing assistance?"
     },
     {
       "rank": 2,
-      "headline": "Housing placements and subsidies depend on documented eligibility.",
-      "why_this_business": "Assistance programmes require documented income certification, unit inspections, and recertification on schedules, with subsidies paid to landlords based on those records. Missed recertification can terminate assistance.",
-      "loss_scenario": "Assistance terminated or delayed for households whose eligibility cannot be documented, with eviction risk for families who did nothing wrong, and funder recoupment against the organisation.",
-      "rhetorical_question": "What happens to a household's subsidy if recertification documentation is unavailable?"
+      "headline": "Client records carry sensitive circumstances.",
+      "points": [
+        "Records document income, household composition, and personal circumstances.",
+        "Clients disclose that information to qualify.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client eligibility and household data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Public funding brings audit and reporting obligations.",
-      "why_this_business": "Programmes funded by HUD and state agencies require client-level reporting, financial documentation, and compliance records subject to monitoring and audit, with findings affecting future funding.",
-      "loss_scenario": "Audit findings and funding recoupment where records cannot be produced, on grant funding that represents the organisation's entire operating budget.",
-      "rhetorical_question": "What records would a HUD monitoring visit expect you to produce?"
+      "headline": "Funding compliance depends on records.",
+      "points": [
+        "Programme funding carries reporting and eligibility documentation requirements.",
+        "Funders audit those records directly.",
+        "Records you cannot produce put the funding at risk."
+      ],
+      "rhetorical_question": "What eligibility and reporting records does your funding require?"
     }
   ]
 }

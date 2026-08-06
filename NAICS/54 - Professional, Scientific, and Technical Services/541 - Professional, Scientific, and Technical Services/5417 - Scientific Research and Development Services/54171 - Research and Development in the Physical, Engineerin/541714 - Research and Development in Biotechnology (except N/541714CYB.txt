@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Clinical and preclinical data is the entire value of the company.",
-      "why_this_business": "Biotechnology firms are valued on their pipeline, and the pipeline exists as study data, protocols, and regulatory submissions. Clinical trial results are material non-public information, and unblinding or leaking results before announcement has securities consequences.",
-      "loss_scenario": "Leaked trial results before disclosure create securities exposure and destroy the negotiating position for partnerships and financing. Loss of trial data can invalidate a study that cost tens or hundreds of millions to run.",
-      "rhetorical_question": "Do you hold unblinded or unreleased clinical trial results?"
+      "headline": "Research data represents years and enormous investment.",
+      "points": [
+        "Sequences, results, and development data are the entire asset.",
+        "That data determines patent position and commercial value.",
+        "State-linked actors target biotechnology research specifically."
+      ],
+      "rhetorical_question": "How is access to research and development data restricted and logged?"
     },
     {
       "rank": 2,
-      "headline": "Clinical trials hold identifiable subject health data.",
-      "why_this_business": "Trials collect health information about human subjects under informed consent, with obligations under HIPAA where covered entities are involved, and under Common Rule and FDA requirements for subject protection and record retention. Subjects consented on the basis that their data would be protected.",
-      "loss_scenario": "Breach of subject data triggers notification obligations, institutional review board and sponsor reporting, and undermines subject recruitment and site relationships for future studies.",
-      "rhetorical_question": "How many clinical trial subjects' identifiable data do you hold?"
+      "headline": "Living experiments cannot be paused.",
+      "points": [
+        "Cell cultures, animals, and long term studies run continuously.",
+        "Environmental and monitoring systems keep them alive.",
+        "A control failure ends studies representing years of work."
+      ],
+      "rhetorical_question": "Are your laboratory environmental systems monitored with automatic alarms?"
     },
     {
       "rank": 3,
-      "headline": "Foreign collection against biotechnology research is documented and persistent.",
-      "why_this_business": "Federal agencies have publicly identified biotechnology and pharmaceutical research as a priority target for state-sponsored intrusion, including during vaccine development. Firms in this sector are targeted for research data rather than for money.",
-      "loss_scenario": "Research programmes replicated by foreign competitors with no legal remedy available, and where federal funding or export controls apply, additional regulatory consequences for the loss.",
-      "rhetorical_question": "Has your organisation been briefed on foreign targeting of research in your field?"
+      "headline": "Clinical and human subject data is regulated.",
+      "points": [
+        "Trial and human subject data carries privacy and regulatory obligations.",
+        "Regulators inspect data integrity directly.",
+        "Compromised data invalidates the study and the submission."
+      ],
+      "rhetorical_question": "What human subject or clinical data do you hold?"
     }
   ]
 }

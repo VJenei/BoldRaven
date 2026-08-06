@@ -1,7 +1,6 @@
 {
   "naics_code": "111339",
   "naics_title": "Other Noncitrus Fruit Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Tropical tree fruits are on the FDA Food Traceability List.",
-      "why_this_business": "Papaya, mango, and other tropical tree fruits are covered by FSMA Section 204, with a compliance date of July 20, 2028. The rule requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Papaya has a documented outbreak history.",
-      "loss_scenario": "Records that cannot be produced within 24 hours widen the scope of a traceback and place the operation at the center of the advisory. Costs include recall expense, crisis management, and lost market access.",
-      "rhetorical_question": "Do you grow papaya, mango, or another crop on the FDA Food Traceability List?"
+      "headline": "Fresh fruit is picked, cooled, and shipped within days.",
+      "points": [
+        "Harvest crews, coolers, and trucks are scheduled together.",
+        "Fruit that misses its cooling window drops a grade.",
+        "Delay turns fresh market fruit into processing fruit."
+      ],
+      "rhetorical_question": "How quickly must your fruit be cooled after picking?"
     },
     {
       "rank": 2,
-      "headline": "Stone fruit requires rapid cooling and continuous cold chain monitoring.",
-      "why_this_business": "Peaches, nectarines, plums, cherries, and apricots require hydrocooling or forced-air cooling within hours of picking and continuous cold chain to retail. Cooling and transport are monitored electronically. Cherry harvest windows are measured in days.",
-      "loss_scenario": "A cooling or monitoring failure writes off a full day of harvest. On cherries, one lost week can represent the majority of the crop's marketable value.",
-      "rhetorical_question": "How soon after picking does your fruit enter cooling, and is that process monitored electronically?"
+      "headline": "Frost and irrigation systems protect a permanent planting.",
+      "points": [
+        "Wind machines, sprinklers, and irrigation run on automated controls.",
+        "A failed frost night takes the crop and can damage trees.",
+        "Tree damage costs several seasons of production."
+      ],
+      "rhetorical_question": "Are your frost protection or irrigation systems monitored or controlled remotely?"
     },
     {
       "rank": 3,
-      "headline": "Fruit clubs and direct shipping involve stored card data and recurring billing.",
-      "why_this_business": "Noncitrus fruit growers sell through u-pick, farm stands, fruit-of-the-month shipping clubs, and online ordering. Shipping clubs require stored cards and recurring billing. Farm stands process high transaction volume in a short season. PCI DSS 4.0 became mandatory on March 31, 2025.",
-      "loss_scenario": "Card compromise with brand assessments, forensics, and reissuance costs, plus loss of customers in a business built on direct relationships.",
-      "rhetorical_question": "Do you operate a shipping club or subscription that stores customer cards?"
+      "headline": "Packed lots must trace back to a block and date.",
+      "points": [
+        "Lot codes link packed fruit to where and when it was picked.",
+        "Buyers require food safety audit certificates supported by records.",
+        "Without traceability one problem recalls everything you shipped."
+      ],
+      "rhetorical_question": "Could you trace a packed lot back to a specific block and harvest date?"
     }
   ]
 }

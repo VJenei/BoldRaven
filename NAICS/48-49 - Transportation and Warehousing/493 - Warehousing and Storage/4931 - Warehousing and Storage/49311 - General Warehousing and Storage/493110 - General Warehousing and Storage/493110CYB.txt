@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You are holding other people's inventory and only the system knows where it is.",
-      "why_this_business": "Third-party warehouses store goods belonging to customers, tracked by lot, location, and owner in a warehouse management system. A facility holding tens of thousands of pallets across hundreds of thousands of locations is unsearchable without it. You are a bailee for goods you do not own.",
-      "loss_scenario": "Customer inventory that cannot be located or shipped, with bailee liability for goods in your care and customers unable to serve their own markets. Contracts carry service level penalties and termination rights.",
-      "rhetorical_question": "How would you locate a specific customer lot in your facility without the WMS?"
+      "headline": "The warehouse management system is the inventory.",
+      "points": [
+        "Location, quantity, and ownership of every item exist only in the system.",
+        "Nothing can be found or shipped without it.",
+        "A warehouse without its system is a building full of unknown boxes."
+      ],
+      "rhetorical_question": "What happens to picking and shipping if your warehouse system is unavailable?"
     },
     {
       "rank": 2,
-      "headline": "Customer systems are integrated directly with yours.",
-      "why_this_business": "Third-party logistics providers exchange orders, inventory positions, and shipment confirmations with customer ERP and e-commerce platforms through EDI and API integrations. Customers rely on your inventory data to sell product they cannot see.",
-      "loss_scenario": "Customers overselling inventory that is not there or unable to fulfil orders at all, with marketplace penalties and lost sales claimed against the warehouse.",
-      "rhetorical_question": "How many customer systems are integrated directly with your warehouse system?"
+      "headline": "You hold other companies' inventory.",
+      "points": [
+        "Customer goods are stored and shipped against their orders.",
+        "Their sales and production depend on your fulfilment.",
+        "Their inventory is unavailable, not just yours."
+      ],
+      "rhetorical_question": "How many customers depend on you to hold and ship their inventory?"
     },
     {
       "rank": 3,
-      "headline": "Automation and material handling equipment are networked.",
-      "why_this_business": "Modern warehouses run conveyor systems, sortation, automated storage and retrieval, and increasingly robotics, all under system control. Throughput depends entirely on that automation and there is no manual equivalent at design volume.",
-      "loss_scenario": "Throughput collapse to a fraction of capacity, with inbound trailers unable to be unloaded and yard congestion compounding daily.",
-      "rhetorical_question": "What proportion of your throughput depends on automated material handling?"
+      "headline": "Automation moves everything inside the building.",
+      "points": [
+        "Conveyors, sorters, and automated storage run the material flow.",
+        "There is no manual alternative at volume.",
+        "The building stops entirely, not partially."
+      ],
+      "rhetorical_question": "What automated systems move material inside your facility?"
     }
   ]
 }

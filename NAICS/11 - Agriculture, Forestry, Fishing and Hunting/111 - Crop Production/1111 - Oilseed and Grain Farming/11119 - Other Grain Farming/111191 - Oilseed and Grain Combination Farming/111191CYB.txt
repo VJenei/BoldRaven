@@ -1,7 +1,6 @@
 {
   "naics_code": "111191",
   "naics_title": "Oilseed and Grain Combination Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Two crops means payment and contract activity across roughly eight months.",
-      "why_this_business": "A combination operation markets corn and soybeans to different buyers under different contract structures. Delivery and settlement run from September through the following summer. Email traffic about contracts, delivery, and payment is active most of the year.",
-      "loss_scenario": "Diverted settlement or prepay wires of $50,000 to $500,000 per event. A compromised mailbox is typically used more than once before the pattern is detected.",
-      "rhetorical_question": "In how many months of the year do you send or receive payments over $50,000?"
+      "headline": "Multiple buyers, multiple contracts, all paid by wire.",
+      "points": [
+        "Each crop is sold to a different buyer under separate contracts.",
+        "A faked banking change on any one of them diverts that payment.",
+        "More counterparties means more chances for a forged instruction."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     },
     {
       "rank": 2,
-      "headline": "Combination operations are heavy users of farm management software.",
-      "why_this_business": "Rotating corn and soybeans across many fields and landlords requires field records, rotation history, variable-rate prescriptions, and landlord-by-landlord accounting. This is held in Operations Center, FieldView, Granular, or similar cloud platforms accessed with a single set of credentials.",
-      "loss_scenario": "Loss of multi-year rotation and yield history used to support cash rent negotiations and landlord reporting.",
-      "rhetorical_question": "How many landlords do you report field results to, and where is that data kept?"
+      "headline": "Two harvests share one set of equipment and labour.",
+      "points": [
+        "Crops are sequenced so machinery moves from one to the next.",
+        "Guidance, yield monitoring, and logistics run on connected systems.",
+        "Delay in one crop pushes the next past its window."
+      ],
+      "rhetorical_question": "What equipment or software would stop working if your farm systems went down?"
     },
     {
       "rank": 3,
-      "headline": "Annual operating lines require financial documents sent electronically to lenders.",
-      "why_this_business": "Large grain operations renew operating notes annually on financial statements, inventory positions, and marketing plans. Tax returns, balance sheets, and bank account details are submitted through lender portals or by email and remain in the sent folder.",
-      "loss_scenario": "Loan renewal delayed because financials cannot be produced, plus account takeover using the financial documents recovered from a compromised mailbox.",
-      "rhetorical_question": "Do you send tax returns or financial statements to your lender by email?"
+      "headline": "Every field has its own record trail for insurance and programs.",
+      "points": [
+        "Acreage, planting dates, and production are reported by field and crop.",
+        "Combination operations file more records, not fewer.",
+        "Records you cannot produce become claims you cannot support."
+      ],
+      "rhetorical_question": "How are your acreage and production records kept and backed up?"
     }
   ]
 }

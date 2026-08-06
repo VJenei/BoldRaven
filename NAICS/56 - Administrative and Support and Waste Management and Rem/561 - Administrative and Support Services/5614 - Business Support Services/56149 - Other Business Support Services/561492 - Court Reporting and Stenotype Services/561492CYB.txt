@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Transcripts are the official record and some proceedings are sealed.",
-      "why_this_business": "Court reporters produce the verbatim record of depositions, hearings, and trials, including proceedings under seal, protective orders, and in camera sessions. Sealed material is protected by court order with contempt exposure for disclosure.",
-      "loss_scenario": "Disclosure of sealed transcripts or material under protective order is a contempt exposure and a direct harm to the parties, with the reporter and their firm sanctioned by the court.",
-      "rhetorical_question": "Do you hold transcripts of proceedings subject to seal or protective order?"
+      "headline": "Transcripts are the official record of proceedings.",
+      "points": [
+        "Transcripts are relied on for appeals, judgments, and enforcement.",
+        "An altered transcript changes the legal record.",
+        "Notes and audio are the only source if the transcript is lost."
+      ],
+      "rhetorical_question": "How are your transcripts and source recordings protected?"
     },
     {
       "rank": 2,
-      "headline": "Deposition material contains testimony and exhibits before trial.",
-      "why_this_business": "Deposition transcripts, video, and exhibits contain sworn testimony, trade secrets, medical records, and financial documents produced in discovery. This material is confidential between the parties and is frequently the core evidence in the case.",
-      "loss_scenario": "Disclosure of deposition testimony and exhibits damages parties' litigation positions and exposes third-party confidential material produced under discovery obligations.",
-      "rhetorical_question": "What confidential exhibits are attached to the transcripts you hold?"
+      "headline": "Proceedings contain confidential and sealed material.",
+      "points": [
+        "Depositions and hearings include privileged, sealed, and personal information.",
+        "Protective orders govern that material.",
+        "Disclosure violates a court order, not just a contract."
+      ],
+      "rhetorical_question": "What sealed or protected material do you hold from proceedings?"
     },
     {
       "rank": 3,
-      "headline": "Delivery deadlines are set by court rules and trial dates.",
-      "why_this_business": "Transcripts are ordered on expedited schedules tied to motion deadlines and trial dates set by the court. Realtime reporting delivers text to counsel during proceedings.",
-      "loss_scenario": "Missed transcript delivery causing parties to miss filing deadlines, with sanctions or lost motions attributed to the reporting service.",
-      "rhetorical_question": "What court deadlines depend on your transcript delivery?"
+      "headline": "Delivery deadlines are set by court rule.",
+      "points": [
+        "Transcripts are due within periods set by rule and order.",
+        "Appeals and filings depend on that delivery.",
+        "A missed deadline affects the parties' rights."
+      ],
+      "rhetorical_question": "What transcript delivery deadlines do court rules impose on you?"
     }
   ]
 }

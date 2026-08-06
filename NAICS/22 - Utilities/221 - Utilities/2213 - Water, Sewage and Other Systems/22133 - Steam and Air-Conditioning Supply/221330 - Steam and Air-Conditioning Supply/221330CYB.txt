@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "District energy customers have no alternative source of heating or cooling.",
-      "why_this_business": "District energy systems serve hospitals, universities, and downtown building clusters through underground steam and chilled water distribution, controlled and monitored centrally. Customer buildings have no boilers or chillers of their own. The service contract is firm and continuous.",
-      "loss_scenario": "Loss of steam to a hospital campus is a patient safety event affecting sterilisation, humidity control, and heating. Contractual liability for service interruption sits alongside the reputational and regulatory consequence.",
-      "rhetorical_question": "Do any of your customers have no backup heating or cooling source of their own?"
+      "headline": "Customers have no alternative source of heat or cooling.",
+      "points": [
+        "District systems serve hospitals, campuses, and downtown buildings continuously.",
+        "Buildings connected to your system have no boilers of their own.",
+        "An outage in winter freezes pipes across every building served."
+      ],
+      "rhetorical_question": "What buildings depend on your system with no alternative heating source?"
     },
     {
       "rank": 2,
-      "headline": "Central plant equipment is high pressure and computer controlled.",
-      "why_this_business": "Boilers, chillers, cooling towers, and distribution pumping run under DCS or building automation control with pressure, temperature, and water chemistry managed continuously. High pressure steam systems carry a genuine explosion hazard if control and protection are lost.",
-      "loss_scenario": "Equipment damage from loss of protection, or a steam release event with severe injury exposure. Chiller and boiler replacement is measured in millions and lead times in months.",
-      "rhetorical_question": "Is your central plant control system connected to your business network?"
+      "headline": "Plant and distribution controls run the whole network.",
+      "points": [
+        "Boilers, chillers, and distribution valves are run by control systems.",
+        "Steam distribution operates at pressures that injure people when uncontrolled.",
+        "A control failure is a rupture, not a service interruption."
+      ],
+      "rhetorical_question": "Is your plant and distribution network run by a central control system?"
     },
     {
       "rank": 3,
-      "headline": "Billing depends on metering at every customer building.",
-      "why_this_business": "District energy is billed on metered steam condensate or chilled water tonnage read remotely from customer buildings. Those meters are the revenue record. Rates are frequently tied to fuel cost pass-through calculations that must be documented.",
-      "loss_scenario": "Unbillable service across the outage, and fuel adjustment calculations that cannot be supported to customers or regulators.",
-      "rhetorical_question": "How is customer consumption metered and collected for billing?"
+      "headline": "Metering determines what every customer is billed.",
+      "points": [
+        "Usage is metered at each building and billed from recorded data.",
+        "Contracts define service obligations and availability.",
+        "Lost metering data is service delivered that cannot be billed."
+      ],
+      "rhetorical_question": "How is your customer metering data recorded and billed?"
     }
   ]
 }

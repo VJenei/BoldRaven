@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Fibre cable carries the networks everything else depends on.",
-      "why_this_business": "Optical cable is installed in long haul, metropolitan, and access networks with performance specifications determining loss budgets and reach. Cable that underperforms is discovered after it is buried or installed.",
-      "loss_scenario": "Cable failing to meet specification found after installation, with carriers required to replace fibre in conduit and aerial plant at costs far exceeding the cable, plus the network capacity that was planned around it.",
+      "headline": "Cable that underperforms is discovered after it is buried.",
+      "points": [
+        "Optical specifications determine loss budgets and network reach.",
+        "Problems appear after the cable is in conduit and aerial plant.",
+        "Replacement costs far exceed the cable and the planned capacity is gone."
+      ],
       "rhetorical_question": "How are optical test results recorded against cable reel numbers?"
     },
     {
       "rank": 2,
-      "headline": "Federal broadband funding imposes sourcing and compliance requirements.",
-      "why_this_business": "Federally funded broadband deployment carries domestic content requirements and supplier restrictions, with documentation required to establish compliance for cable used in funded projects.",
-      "loss_scenario": "Cable supplied into funded projects without supportable compliance documentation, with the project's funding at risk and the customer transferring that exposure to the supplier.",
+      "headline": "Federal broadband funding imposes sourcing requirements.",
+      "points": [
+        "Funded deployment carries domestic content requirements and supplier restrictions.",
+        "Documentation is required to establish compliance.",
+        "The customer's funding is at risk and the exposure passes to you."
+      ],
       "rhetorical_question": "What domestic content documentation do you provide for federally funded projects?"
     },
     {
       "rank": 3,
-      "headline": "Drawing and cabling processes run continuously at scale.",
-      "why_this_business": "Fibre drawing and cabling run continuous processes with tight control of geometry, coating, and tension. Loss of control ruins the fibre being produced and drawing towers cannot simply be restarted.",
-      "loss_scenario": "Process control loss with production stopped and fibre in process ruined, at very high fixed cost per hour, and delivery commitments to carriers with deployment crews scheduled around them.",
+      "headline": "Drawing towers cannot simply be restarted.",
+      "points": [
+        "Fibre drawing and cabling run continuously with tight geometry and tension control.",
+        "Loss of control ruins the fibre being produced.",
+        "Carriers have deployment crews scheduled around delivery."
+      ],
       "rhetorical_question": "What does an hour of stopped production cost on your drawing lines?"
     }
   ]

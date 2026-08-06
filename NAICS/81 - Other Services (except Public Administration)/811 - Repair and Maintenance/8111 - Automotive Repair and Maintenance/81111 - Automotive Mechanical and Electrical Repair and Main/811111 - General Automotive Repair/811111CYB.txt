@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Modern repair requires manufacturer diagnostic access to the vehicle.",
-      "why_this_business": "Diagnosis and repair depend on scan tools connected to the vehicle network and to manufacturer service information and programming portals. Module programming, key coding, and calibration require authenticated access to those systems, and there is no manual alternative.",
-      "loss_scenario": "Vehicles that cannot be diagnosed, programmed, or returned to customers, occupying bays and customer loaner arrangements while the shop cannot bill for work in progress.",
-      "rhetorical_question": "How many vehicles in your bays right now require manufacturer portal access to complete?"
+      "headline": "Diagnostics and repair information come from manufacturer systems.",
+      "points": [
+        "Fault codes, procedures, and calibrations come from subscription systems.",
+        "Modern vehicles cannot be diagnosed without that access.",
+        "Vehicles sit on lifts while you cannot look anything up."
+      ],
+      "rhetorical_question": "What diagnostic and repair information systems do your technicians depend on?"
     },
     {
       "rank": 2,
-      "headline": "Repair orders hold customer identity, vehicle, and payment data.",
-      "why_this_business": "Shop management systems hold customer contact details, vehicle identification numbers, service histories, key codes in some cases, and stored payment methods, retained across years of service relationships.",
-      "loss_scenario": "Exposure of customer data with vehicle identification and, where held, key or security code information, which supports vehicle theft in addition to conventional identity exposure.",
-      "rhetorical_question": "Do your records include vehicle key or security codes?"
+      "headline": "Customer records hold vehicle and payment data.",
+      "points": [
+        "Records carry contact details, vehicle identification, and payment information.",
+        "Service history and key codes are stored with them.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer vehicle and payment data do you store?"
     },
     {
       "rank": 3,
-      "headline": "ADAS calibration records document safety-critical work.",
-      "why_this_business": "Advanced driver assistance systems require documented calibration after windscreen replacement, alignment, and collision repair. Calibration records demonstrate the system was returned to specification, and an uncalibrated system fails in circumstances where it is relied upon.",
-      "loss_scenario": "A collision involving a vehicle whose ADAS calibration cannot be documented, where the shop cannot demonstrate the work was performed correctly and the systems were verified.",
-      "rhetorical_question": "How do you document ADAS calibration completion for each vehicle?"
+      "headline": "Advanced driver assistance systems need calibration.",
+      "points": [
+        "Cameras and radar require calibration after repairs and alignments.",
+        "Calibration procedures and equipment come from manufacturer systems.",
+        "An uncalibrated system fails when the driver needs it."
+      ],
+      "rhetorical_question": "How do you perform and document driver assistance calibrations?"
     }
   ]
 }

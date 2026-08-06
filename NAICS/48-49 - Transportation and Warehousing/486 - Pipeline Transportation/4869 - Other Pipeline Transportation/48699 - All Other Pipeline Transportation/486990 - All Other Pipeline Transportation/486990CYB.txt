@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialty pipelines carry products with narrow safety margins.",
-      "why_this_business": "This category includes carbon dioxide, anhydrous ammonia, hydrogen, and slurry pipelines, each with hazards distinct from hydrocarbons. Carbon dioxide releases are asphyxiating and travel along terrain, and ammonia is acutely toxic. All are operated through SCADA with remote valve and pump control.",
-      "loss_scenario": "A release of an asphyxiant or toxic product near a populated area is a mass casualty exposure, and emergency response depends on the operator knowing what is in the line and where.",
-      "rhetorical_question": "What is the hazard profile of the product in your line if it is released?"
+      "headline": "Pipelines are operated remotely across long distances.",
+      "points": [
+        "Pumps, valves, and pressure are controlled from a central room.",
+        "Leak detection runs from the same systems.",
+        "A release starts in the control room, not at the pipe."
+      ],
+      "rhetorical_question": "What can be operated on your pipeline from the control centre?"
     },
     {
       "rank": 2,
-      "headline": "Federal pipeline safety rules apply regardless of commodity.",
-      "why_this_business": "PHMSA requires integrity management, operator qualification, control room management, emergency response planning, and public awareness programmes, with records demonstrating compliance. Newer commodities such as carbon dioxide are drawing increased regulatory attention.",
-      "loss_scenario": "Enforcement for records that cannot be produced, and after an incident the absence of integrity and qualification records is treated as evidence of a deficient programme.",
-      "rhetorical_question": "How do you store your integrity management and operator qualification records?"
+      "headline": "Federal pipeline safety and security requirements apply.",
+      "points": [
+        "Operators must meet safety, reporting, and security requirements.",
+        "Regulators inspect against documented programmes.",
+        "Findings can restrict operations."
+      ],
+      "rhetorical_question": "What federal pipeline safety and security requirements apply to your system?"
     },
     {
       "rank": 3,
-      "headline": "Single-customer pipelines create total dependency in both directions.",
-      "why_this_business": "Specialty pipelines frequently connect one producer to one consumer, with both parties structurally dependent on continuous flow. There is no alternative route and often no alternative transport mode for the volumes involved.",
-      "loss_scenario": "An outage shuts both the producing and consuming facility, with consequential damages claimed under the transportation agreement far exceeding the transportation revenue.",
-      "rhetorical_question": "How many customers depend on your line with no alternative supply route?"
+      "headline": "Customers have no alternative delivery method.",
+      "points": [
+        "Facilities are connected to supply only through your pipeline.",
+        "There is no truck or rail substitute at volume.",
+        "A shutdown stops their operation entirely."
+      ],
+      "rhetorical_question": "What facilities depend on your pipeline as their only supply?"
     }
   ]
 }

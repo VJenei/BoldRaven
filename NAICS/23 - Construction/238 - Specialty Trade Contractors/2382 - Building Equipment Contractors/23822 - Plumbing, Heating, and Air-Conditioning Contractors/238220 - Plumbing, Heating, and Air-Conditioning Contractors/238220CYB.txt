@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold remote access to customer building systems for service.",
-      "why_this_business": "Mechanical contractors install and service building automation systems, chillers, boilers, and rooftop units, typically retaining remote monitoring and control access under a service agreement. That access reaches the HVAC control layer of every building on contract, and building automation is a documented entry point into corporate networks.",
-      "loss_scenario": "A compromise through your service access affects many customers simultaneously. Loss of environmental control in a data centre, hospital, or laboratory produces consequential damages far beyond the service contract value.",
-      "rhetorical_question": "How many customer building automation systems can your technicians reach remotely?"
+      "headline": "You hold customer addresses, payment cards, and home access.",
+      "points": [
+        "Service records, addresses, payment methods, and entry arrangements are held for every customer.",
+        "Technicians take card payments in the home.",
+        "That data set is a map of who is not home and how to get in."
+      ],
+      "rhetorical_question": "What customer payment and access information do you store?"
     },
     {
       "rank": 2,
-      "headline": "Service dispatch is the business and it runs on one platform.",
-      "why_this_business": "Mechanical service companies dispatch technicians through field service software holding customer sites, equipment histories, service agreements, parts, and billing. Emergency no-heat and no-cooling calls are answered against contracted response times.",
-      "loss_scenario": "Missed contractual response times across a service base, plus unbillable work orders. Service agreements are the recurring revenue that carries the business through slow construction periods.",
-      "rhetorical_question": "What field service platform do you dispatch from, and what happens when it is unavailable?"
+      "headline": "Dispatch is the business, and emergencies do not wait.",
+      "points": [
+        "Calls, technician locations, parts, and invoicing run on one dispatch system.",
+        "No heat and no water calls are urgent for the customer.",
+        "A dispatch failure strands customers and idles every truck."
+      ],
+      "rhetorical_question": "How are your service calls dispatched and technicians routed?"
     },
     {
       "rank": 3,
-      "headline": "Refrigerant tracking is a federal recordkeeping obligation.",
-      "why_this_business": "EPA rules require certified technicians, leak repair on appliances above threshold charges, and records of refrigerant purchased, added, and recovered. The AIM Act adds allowance tracking and reporting for HFCs. Cylinder purchase and usage records are auditable.",
-      "loss_scenario": "EPA enforcement for records that cannot be produced, with penalties assessed per violation, and loss of the ability to purchase controlled refrigerants.",
-      "rhetorical_question": "How do you record refrigerant purchased, added, and recovered by each technician?"
+      "headline": "Connected equipment you install links back to your systems.",
+      "points": [
+        "Thermostats, controls, and monitored equipment connect to platforms you administer.",
+        "You hold the credentials for equipment inside customer buildings.",
+        "Those credentials are a path into the customer's building network."
+      ],
+      "rhetorical_question": "What connected equipment do you monitor or administer for customers?"
     }
   ]
 }

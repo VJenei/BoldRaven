@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Irrigation controls are internet-connected and waste water invisibly.",
-      "why_this_business": "Commercial landscape maintenance manages smart irrigation controllers accessed remotely for scheduling and adjustment across client properties. Controllers are frequently on client networks or cellular connections with weak default credentials.",
-      "loss_scenario": "Irrigation running uncontrolled produces enormous water bills, landscape damage, and in drought-restricted jurisdictions regulatory penalties for the property owner, claimed against the maintenance contractor.",
-      "rhetorical_question": "How many client irrigation controllers can you access remotely?"
+      "headline": "Scheduling covers hundreds of properties on a cycle.",
+      "points": [
+        "Routes, crews, and properties run on scheduling systems.",
+        "Customers expect service on a defined cycle.",
+        "A scheduling failure misses properties across the whole route."
+      ],
+      "rhetorical_question": "How are your crew routes and property schedules managed?"
     },
     {
       "rank": 2,
-      "headline": "Pesticide and fertiliser applications are regulated and recorded.",
-      "why_this_business": "Commercial applicators must hold licences and maintain application records including product, rate, location, and date, produced on inspection. Runoff and misapplication generate environmental and neighbour complaints.",
-      "loss_scenario": "State enforcement for missing records, and in a property damage or exposure claim the absence of application records leaves the contractor unable to demonstrate what was applied and at what rate.",
-      "rhetorical_question": "How are your pesticide and fertiliser application records maintained?"
+      "headline": "Pesticide and fertilizer applications are recorded by law.",
+      "points": [
+        "Product, rate, location, and date are recorded for every application.",
+        "Regulators inspect those records directly.",
+        "Records you cannot produce are treated as applications you cannot justify."
+      ],
+      "rhetorical_question": "How are your chemical application records recorded and retained?"
     },
     {
       "rank": 3,
-      "headline": "Route scheduling and property access are the operating model.",
-      "why_this_business": "Crews work scheduled routes across residential and commercial properties, with gate codes, access arrangements, and property details held in scheduling systems. Seasonal peaks compress work into narrow windows.",
-      "loss_scenario": "Route collapse during peak season with contracted properties unserviced, plus exposure of gate codes and property access details for residential clients.",
-      "rhetorical_question": "Do you hold gate codes or access instructions for client properties?"
+      "headline": "Customer records hold addresses and payment data.",
+      "points": [
+        "Records carry addresses, gate codes, and payment card details.",
+        "Recurring payments run against those records.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer access and payment data do you store?"
     }
   ]
 }

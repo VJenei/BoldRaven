@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Life support systems keep animals and collections alive.",
-      "why_this_business": "Aquariums and zoos run life support systems controlling water quality, temperature, filtration, and oxygenation, with greenhouse climate control for botanical collections. Animals in aquatic exhibits have very short tolerance for life support failure.",
-      "loss_scenario": "Mass mortality in aquatic or climate-controlled exhibits, involving animals that are frequently endangered, individually irreplaceable, and the subject of intense public attachment and media attention.",
-      "rhetorical_question": "How long can your aquatic exhibits survive a life support control failure?"
+      "headline": "Animal life support systems run continuously.",
+      "points": [
+        "Climate, water, filtration, and feeding systems run under automated control.",
+        "Animals die within hours when those systems fail.",
+        "Losses are irreplaceable and publicly visible."
+      ],
+      "rhetorical_question": "Are your animal life support systems monitored with automatic alarms?"
     },
     {
       "rank": 2,
-      "headline": "Animal records support veterinary care and conservation breeding.",
-      "why_this_business": "Institutions maintain individual animal records covering identification, medical history, genetics, and breeding recommendations, contributed to regional and international studbooks that manage genetic diversity of endangered species across institutions.",
-      "loss_scenario": "Loss of individual animal medical and genetic records compromises veterinary care and breeding programme decisions for endangered species, with consequences extending beyond the institution to the wider conservation programme.",
-      "rhetorical_question": "How are your animal medical and studbook records maintained and shared?"
+      "headline": "Animal records support welfare and regulatory compliance.",
+      "points": [
+        "Medical, breeding, and husbandry records are kept per animal.",
+        "Regulators and accrediting bodies inspect those records.",
+        "Animals without records cannot be transferred or bred."
+      ],
+      "rhetorical_question": "How are your animal medical and husbandry records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Membership and admissions carry high transaction volume.",
-      "why_this_business": "Institutions sell admissions, memberships with recurring billing, education programmes, and events, holding visitor and member payment and contact data at scale, plus children's data from camps and school programmes.",
-      "loss_scenario": "Payment and member data exposure at scale, with children's programme data adding sensitivity, and notification costs falling on a non-profit budget.",
-      "rhetorical_question": "Do you run children's camps or school programmes with minors' data?"
+      "headline": "Visitor operations and membership run the revenue.",
+      "points": [
+        "Ticketing, membership, and admissions run on connected systems.",
+        "Members and visitors hold accounts with payment details.",
+        "Every affected member must be notified."
+      ],
+      "rhetorical_question": "How many member accounts with payment details do you hold?"
     }
   ]
 }

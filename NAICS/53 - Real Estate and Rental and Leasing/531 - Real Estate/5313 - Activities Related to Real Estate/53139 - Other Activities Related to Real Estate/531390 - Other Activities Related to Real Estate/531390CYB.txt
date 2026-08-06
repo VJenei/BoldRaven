@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Real estate service providers sit in the transaction email chain.",
-      "why_this_business": "Escrow support, listing services, transaction coordination, and similar providers relay documents and instructions between principals, lenders, and title companies. That position is exactly what wire fraud attacks exploit.",
-      "loss_scenario": "Diverted closing funds where your compromised account was the channel, with claims from every party in the transaction and a small firm's insurance facing a loss measured against the purchase price.",
-      "rhetorical_question": "Do closing documents or payment instructions pass through your systems?"
+      "headline": "Transaction funds move by wire on instruction.",
+      "points": [
+        "Payments related to property transactions move electronically.",
+        "Fraudsters send fake instructions to parties in the transaction.",
+        "A diverted wire is money that does not come back."
+      ],
+      "rhetorical_question": "How are wire instructions verified before funds move?"
     },
     {
       "rank": 2,
-      "headline": "Property and owner data is aggregated across many transactions.",
-      "why_this_business": "Service providers accumulate records covering properties, owners, transaction terms, and personal information across every deal they touch, frequently retained indefinitely with no retention policy.",
-      "loss_scenario": "Breach notification covering people from transactions years ago who have no current relationship with you, expanding the affected population far beyond current clients.",
-      "rhetorical_question": "How many years of transaction records are held in your systems?"
+      "headline": "Client and property records hold sensitive data.",
+      "points": [
+        "Files carry identity, financial, and property information.",
+        "Clients disclose that data because the work requires it.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client financial and property data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Client firms depend on your turnaround to meet their own deadlines.",
-      "why_this_business": "Services in this category feed transactions with contractual closing dates, financing contingencies, and inspection periods that expire. A delay in your work causes the client's deadline to be missed.",
-      "loss_scenario": "Missed contingency and closing deadlines causing deals to fail, with the resulting damages claimed against the service provider whose delay caused it.",
-      "rhetorical_question": "What contractual deadlines depend on your turnaround time?"
+      "headline": "Transaction deadlines are contractual and hard.",
+      "points": [
+        "Property transactions carry deadlines that void contracts when missed.",
+        "Documents and communications run electronically.",
+        "A missed deadline costs a deposit or the transaction itself."
+      ],
+      "rhetorical_question": "What transaction deadlines are you managing at any one time?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Inspection reports are relied on for purchase decisions and are litigated.",
-      "why_this_business": "Home and commercial inspection reports are relied on by buyers, lenders, and insurers to make decisions involving hundreds of thousands of dollars. Reports include photographs, findings, and limitations, and claims arise when a defect emerges after purchase.",
-      "loss_scenario": "A claim alleging a missed defect where the report, photographs, and inspection agreement with its limitation clauses cannot be produced, removing both the factual record and the contractual limitations of liability.",
-      "rhetorical_question": "Could you produce the full report and photographs from an inspection three years ago?"
+      "headline": "Your inspection reports are relied on for decisions.",
+      "points": [
+        "Reports determine whether buildings are accepted, purchased, or occupied.",
+        "Buyers and officials act on your findings.",
+        "A missed or altered finding becomes a claim years later."
+      ],
+      "rhetorical_question": "How are your inspection reports and photographs stored and protected?"
     },
     {
       "rank": 2,
-      "headline": "Reports contain detailed information about clients' properties.",
-      "why_this_business": "Inspection files hold addresses, interior and exterior photographs, security system details, and identified vulnerabilities such as inadequate locks or accessible windows, along with owner and buyer contact information.",
-      "loss_scenario": "Exposure of reports identifying security weaknesses at specific addresses is a targeting resource for burglary, affecting properties whose owners never engaged you directly.",
-      "rhetorical_question": "Do your reports document security deficiencies at identified addresses?"
+      "headline": "Inspections are scheduled against closings and construction.",
+      "points": [
+        "Inspections are booked against closing dates and construction milestones.",
+        "Those dates carry contractual deadlines.",
+        "A missed inspection can void a contract or stop construction."
+      ],
+      "rhetorical_question": "What closings and construction milestones depend on your inspections?"
     },
     {
       "rank": 3,
-      "headline": "Scheduling drives a transaction with contractual deadlines.",
-      "why_this_business": "Inspections are scheduled within contingency periods that expire on specific dates in a purchase contract. Missing the inspection window can cost the buyer the right to negotiate or terminate.",
-      "loss_scenario": "A buyer losing contingency rights because an inspection could not be scheduled or a report could not be delivered in time, with the resulting loss claimed against the inspector.",
-      "rhetorical_question": "How tight are the contingency windows your inspections must fit into?"
+      "headline": "Reports and records support you years later.",
+      "points": [
+        "Claims about missed defects arrive long after the inspection.",
+        "Reports, photographs, and notes are the entire defence.",
+        "Records you cannot produce are a defence you do not have."
+      ],
+      "rhetorical_question": "How long are your inspection reports and photographs retained?"
     }
   ]
 }

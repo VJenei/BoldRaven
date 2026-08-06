@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Customer images pass through your systems and stay there.",
-      "why_this_business": "Retail photofinishing receives customer images from devices and media, processed through kiosks and production systems that retain files after the order. Content is personal and frequently sensitive.",
-      "loss_scenario": "Exposure of customer images retained on kiosks and production systems, which customers had no reason to believe were kept and which are frequently deeply personal.",
-      "rhetorical_question": "How long do customer images remain on your kiosks and production systems after printing?"
+      "headline": "Customer images cannot be recreated.",
+      "points": [
+        "Images arrive as files or originals that exist nowhere else.",
+        "Those images are often of events that happened once.",
+        "Losing them means the customer has nothing."
+      ],
+      "rhetorical_question": "Where are customer images stored between receipt and delivery?"
     },
     {
       "rank": 2,
-      "headline": "Kiosks are self-service devices in public retail space.",
-      "why_this_business": "Order kiosks accept media and device connections from customers in unsupervised retail environments, with cached data and network connections back to production systems.",
-      "loss_scenario": "Kiosks used to capture customer data or as an entry point to the retail network, with the customer content on them exposed and the store network reached through a public-facing device.",
-      "rhetorical_question": "How are your self-service kiosks isolated from your store network?"
+      "headline": "Images are personal and sometimes very sensitive.",
+      "points": [
+        "Customer photographs include family, children, and private moments.",
+        "Customers assume the work is confidential.",
+        "Exposure of personal images is a serious harm."
+      ],
+      "rhetorical_question": "What customer images do you hold and how are they protected?"
     },
     {
       "rank": 3,
-      "headline": "Turnaround promises are the service proposition.",
-      "why_this_business": "The format is defined by rapid turnaround, with customers waiting or returning within the hour. Production and payment run on connected systems in a retail setting.",
-      "loss_scenario": "Orders that cannot be produced or collected, with customers who chose the format specifically for speed going elsewhere permanently.",
-      "rhetorical_question": "What happens to waiting customers if production is unavailable?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your point of sale system handle card data?"
     }
   ]
 }

@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Boxes and enclosures contain faults and prevent fires.",
-      "why_this_business": "Electrical boxes, enclosures, and fittings contain arcing and faults within the enclosure and maintain the fire rating of assemblies they penetrate. Failure allows a fault to ignite the surrounding construction.",
-      "loss_scenario": "Enclosures failing to contain a fault, with a building fire, and the listing and production records determining whether the product met the construction it was certified to.",
+      "headline": "Enclosures contain faults so buildings do not burn.",
+      "points": [
+        "Boxes and enclosures contain arcing within the enclosure.",
+        "They also maintain the fire rating of assemblies they penetrate.",
+        "A failure lets a fault ignite the surrounding construction."
+      ],
       "rhetorical_question": "How are listing requirements controlled through your production process?"
     },
     {
       "rank": 2,
-      "headline": "Environmental ratings determine where products can be installed.",
-      "why_this_business": "Enclosures carry ratings for wet, corrosive, and hazardous locations based on tested construction and sealing. Product installed on the strength of a rating it does not meet admits water or ignitable atmospheres.",
-      "loss_scenario": "Enclosures failing their rating in wet or hazardous locations, with electrical faults, fires, or in hazardous areas an ignition event, requiring replacement across every installation.",
+      "headline": "Environmental ratings determine where product may be installed.",
+      "points": [
+        "Ratings for wet, corrosive, and hazardous locations come from tested construction.",
+        "Installers rely on the rating when selecting the enclosure.",
+        "In hazardous areas a failed rating is an ignition event."
+      ],
       "rhetorical_question": "What environmental and hazardous location ratings do your products carry?"
     },
     {
       "rank": 3,
-      "headline": "Volume production runs through distribution with no serialisation.",
-      "why_this_business": "Wiring devices ship in bulk through distributors and retailers with lot identification the only means of narrowing a recall to affected production.",
-      "loss_scenario": "A recall extended to all production because lots cannot be traced through distribution, with the cost multiplied across everything shipped in the period.",
+      "headline": "Bulk distribution makes lot identification critical.",
+      "points": [
+        "Devices ship in bulk through distributors and retailers.",
+        "Lot identification is the only way to narrow a recall.",
+        "Without it the recall covers everything shipped in the period."
+      ],
       "rhetorical_question": "How is lot identification maintained through packaging and distribution?"
     }
   ]

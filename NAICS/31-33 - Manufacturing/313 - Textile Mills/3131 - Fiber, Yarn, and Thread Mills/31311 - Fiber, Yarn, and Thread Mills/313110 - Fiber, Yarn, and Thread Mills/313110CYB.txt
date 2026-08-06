@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Spinning runs continuously and stopping breaks every end.",
-      "why_this_business": "Spinning frames run thousands of spindles continuously, and an unplanned stop breaks ends across the machine requiring extensive piecing to restart. Throughput depends on continuous running with minimal interruption.",
-      "loss_scenario": "Extended downtime with restart labour across hundreds of machines, and production commitments to weaving and knitting customers unmet on lead times that are already tight.",
-      "rhetorical_question": "How long does it take to restart a spinning frame after an unplanned stop?"
+      "headline": "Spinning lines run continuously and cannot be stopped cleanly.",
+      "points": [
+        "Opening, carding, drawing, and spinning run as one continuous process.",
+        "Machines are designed to run around the clock.",
+        "An unplanned stop wastes material in process and takes hours to restart."
+      ],
+      "rhetorical_question": "Is your spinning operation run by a central control system?"
     },
     {
       "rank": 2,
-      "headline": "Yarn specification determines everything downstream.",
-      "why_this_business": "Yarn is produced to count, twist, strength, and evenness specifications, tested continuously. Downstream weavers and knitters set their machines to those parameters, and out of specification yarn causes breakage and fabric defects.",
-      "loss_scenario": "Off-specification yarn causing production problems and fabric defects at customers, with claims for their production losses far exceeding the value of the yarn supplied.",
-      "rhetorical_question": "How is yarn quality tested and recorded against each production lot?"
+      "headline": "Yarn specifications must match what the customer's machine expects.",
+      "points": [
+        "Count, twist, and strength are specified and tested per lot.",
+        "Weaving and knitting machines are set up for a specific yarn.",
+        "Off specification yarn breaks on the customer's machine and stops their production."
+      ],
+      "rhetorical_question": "How are your yarn test results recorded and linked to shipped lots?"
     },
     {
       "rank": 3,
-      "headline": "Fibre sourcing carries forced labour compliance obligations.",
-      "why_this_business": "Cotton and other fibre supply chains are subject to import enforcement over forced labour, with shipments detained and the importer required to produce documentation tracing to the source. Isotopic testing is used to verify origin claims.",
-      "loss_scenario": "Detained shipments and inability to demonstrate fibre origin, with goods excluded from entry and customers refusing material that cannot be documented.",
-      "rhetorical_question": "Can you document the origin of the fibre in a specific yarn lot?"
+      "headline": "Dye lot and shade records control what can be sold together.",
+      "points": [
+        "Yarn is produced and tracked in lots that must be used together.",
+        "Mixed lots produce visible shade variation in finished fabric.",
+        "Losing lot records makes matched material unusable."
+      ],
+      "rhetorical_question": "How are your production lots recorded and tracked to customers?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Safety instrumented systems are the last barrier and have been targeted.",
-      "why_this_business": "Petrochemical plants run distributed control systems with independent safety instrumented systems that trip units to a safe state. The Triton malware discovered in 2017 specifically targeted safety controllers at a petrochemical facility, apparently to enable a physically destructive event.",
-      "loss_scenario": "A disabled safety system permitting an explosion or toxic release, with multiple fatalities, destruction of process units, and community evacuation. Recovery is measured in years and the liability is effectively unbounded.",
-      "rhetorical_question": "How is your safety instrumented system isolated from the control network and from remote access?"
+      "headline": "Loss of process control at these temperatures is an explosion.",
+      "points": [
+        "Crackers and reactors run under distributed control with safety instrumented systems.",
+        "Materials are flammable and held at high temperature and pressure.",
+        "Petrochemical incidents have levelled plant areas and reached surrounding communities."
+      ],
+      "rhetorical_question": "What safety instrumented functions protect your units, and how are they verified?"
     },
     {
       "rank": 2,
-      "headline": "Process safety management documentation is examined after every incident.",
-      "why_this_business": "Petrochemical facilities are covered by OSHA process safety management and EPA risk management planning, requiring process safety information, hazard analyses, mechanical integrity, and management of change records, all reviewed by investigators after an event.",
-      "loss_scenario": "Regulatory and criminal exposure following an incident where process safety documentation is incomplete, with consent decrees imposing years of oversight and very large penalties.",
-      "rhetorical_question": "Could you produce process hazard analyses and management of change records immediately?"
+      "headline": "The plant runs continuously and restart takes days.",
+      "points": [
+        "Units run between turnarounds scheduled years in advance.",
+        "An unplanned stop wastes material in process and damages catalyst.",
+        "Downstream customers stop when your product stops."
+      ],
+      "rhetorical_question": "What does a day of unplanned downtime cost at your plant?"
     },
     {
       "rank": 3,
-      "headline": "Crackers and downstream units cannot be restarted quickly.",
-      "why_this_business": "Steam crackers and downstream units run continuously for years between turnarounds, with an unplanned shutdown requiring days to weeks to restart and generating off-specification product throughout.",
-      "loss_scenario": "Weeks of lost production at a facility producing at very large scale, with downstream customers who have contracted for feedstock and no alternative source at volume.",
-      "rhetorical_question": "How long does a full restart take after an unplanned trip?"
+      "headline": "Process safety records are federally required and inspected.",
+      "points": [
+        "Process safety management requires documented procedures, testing, and mechanical integrity records.",
+        "Regulators inspect against those records directly.",
+        "Gaps are violations and are used as evidence after an incident."
+      ],
+      "rhetorical_question": "How are your process safety and mechanical integrity records maintained?"
     }
   ]
 }

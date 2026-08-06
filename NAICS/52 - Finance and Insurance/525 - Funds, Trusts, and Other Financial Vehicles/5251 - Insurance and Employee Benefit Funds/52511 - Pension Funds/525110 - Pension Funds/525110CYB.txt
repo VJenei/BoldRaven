@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Department of Labor guidance makes cybersecurity a fiduciary matter.",
-      "why_this_business": "Plan fiduciaries are expected to implement and oversee cybersecurity practices for plan assets and participant data, and to conduct due diligence on service providers. Retirement accounts are targeted for fraudulent distributions using stolen participant credentials and personal data.",
-      "loss_scenario": "Fraudulent distributions from participant accounts, with fiduciary breach claims that carry personal liability for fiduciaries and are difficult to limit by contract or indemnity.",
-      "rhetorical_question": "How are participant distribution requests authenticated before funds leave the plan?"
+      "headline": "You hold retirement savings for thousands of people.",
+      "points": [
+        "Participant records carry identity, account balance, and beneficiary data.",
+        "Retirement accounts are targeted for fraudulent distributions.",
+        "Participants lose savings accumulated over a career."
+      ],
+      "rhetorical_question": "How many participant accounts with balance and identity data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Participant records span entire working lives.",
-      "why_this_business": "Pension records hold Social Security numbers, dates of birth, earnings histories, beneficiary designations, and banking details for participants and retirees, retained for decades. Many participants are retired and less able to detect or respond to identity theft.",
-      "loss_scenario": "Breach notification across active and retired participants and beneficiaries, with an affected population that skews older and is disproportionately targeted for follow-on fraud.",
-      "rhetorical_question": "How many current and former participants and beneficiaries are in your records?"
+      "headline": "Distribution requests are forged and paid.",
+      "points": [
+        "Distribution and rollover requests are received and processed.",
+        "Fraudulent requests using stolen participant identity divert retirement funds.",
+        "Recovery after a distribution is rarely possible."
+      ],
+      "rhetorical_question": "How are participant distribution requests verified before funds move?"
     },
     {
       "rank": 3,
-      "headline": "Benefit payments must go out on schedule.",
-      "why_this_business": "Pension funds pay retirees on a fixed cycle by direct deposit, and those payments are frequently the recipient's primary income. Payment file generation and transmission are the mechanism.",
-      "loss_scenario": "Missed or delayed benefit payments to retirees who depend on them for living expenses, which creates immediate hardship, regulatory attention, and reputational damage disproportionate to the operational cause.",
-      "rhetorical_question": "What happens to your benefit payment run if systems are unavailable on the payment date?"
+      "headline": "Fiduciary duty covers how you protect the plan.",
+      "points": [
+        "Plan fiduciaries are responsible for prudent administration including data security.",
+        "Regulators have issued specific cybersecurity guidance for plans.",
+        "Fiduciary breach is personal liability, not just corporate."
+      ],
+      "rhetorical_question": "What cybersecurity practices does your fiduciary responsibility require?"
     }
   ]
 }

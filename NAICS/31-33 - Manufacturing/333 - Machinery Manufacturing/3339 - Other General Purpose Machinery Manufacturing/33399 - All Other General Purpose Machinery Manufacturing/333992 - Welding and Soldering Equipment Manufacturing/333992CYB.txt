@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Welding equipment carries electrical and fire hazards.",
-      "why_this_business": "Welding power sources operate at currents and voltages that cause electric shock and start fires, with safety listings depending on the built configuration, insulation, and protective circuits.",
-      "loss_scenario": "Equipment built outside its listed configuration causing electric shock injury or a fire at a customer site, with recall across the installed base and listing agency involvement.",
+      "headline": "Welding equipment causes shock and fire.",
+      "points": [
+        "Power sources operate at currents and voltages that shock and ignite.",
+        "Safety listings depend on insulation, protective circuits, and construction.",
+        "Equipment outside its listing injures the operator."
+      ],
       "rhetorical_question": "How are safety listing requirements controlled through your build process?"
     },
     {
       "rank": 2,
-      "headline": "Welding parameters are stored and controlled digitally.",
-      "why_this_business": "Modern welding equipment stores weld procedures and parameters, with data logging used to evidence that welds were made to qualified procedures. Fabricators rely on that data for code compliance.",
-      "loss_scenario": "Parameter or logging defects producing incorrect weld records, with fabricators unable to evidence code compliance for welds already made and re-examination of installed work.",
+      "headline": "Weld data is used as compliance evidence.",
+      "points": [
+        "Equipment stores procedures and logs parameters for code compliance.",
+        "Fabricators rely on that data to evidence qualified welds.",
+        "Wrong records mean re-examining welds already installed."
+      ],
       "rhetorical_question": "Does your equipment store weld procedures or log parameters for compliance?"
     },
     {
       "rank": 3,
-      "headline": "Equipment connects to networks for monitoring and updates.",
-      "why_this_business": "Welding systems in production environments connect to plant networks for weld data collection, fleet management, and firmware updates from the manufacturer.",
-      "loss_scenario": "Compromise of the update or monitoring path reaching equipment inside customer plant networks, requiring firmware remediation at every installed site and a plant network investigation.",
+      "headline": "Equipment connects to plant networks for updates.",
+      "points": [
+        "Systems connect for weld data collection, fleet management, and firmware.",
+        "That reaches inside customer plant networks.",
+        "Remediation requires firmware at every installed site."
+      ],
       "rhetorical_question": "How is firmware delivered to equipment installed at customer plants?"
     }
   ]

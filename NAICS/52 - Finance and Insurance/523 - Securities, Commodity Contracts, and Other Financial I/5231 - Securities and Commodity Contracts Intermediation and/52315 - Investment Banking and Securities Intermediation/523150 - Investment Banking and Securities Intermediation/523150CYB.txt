@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Deal information is directly tradeable before it is public.",
-      "why_this_business": "Investment banks hold unannounced merger, acquisition, and financing information, with the identity of parties, valuations, and timing all material and non-public. Attackers have specifically targeted advisory firms to trade ahead of announcements, and the SEC has brought cases arising from exactly this.",
-      "loss_scenario": "Insider trading on stolen deal data brings SEC investigation of the firm's controls, client claims for breach of confidentiality, and loss of mandates in a business where discretion is the product.",
-      "rhetorical_question": "How is unannounced transaction information compartmented within your firm?"
+      "headline": "Deal information moves markets and is criminal to misuse.",
+      "points": [
+        "Transactions in progress are material non-public information.",
+        "Theft of that information enables insider trading.",
+        "Regulators investigate and the firm's registration is at stake."
+      ],
+      "rhetorical_question": "How is access to transaction and deal data restricted and logged?"
     },
     {
       "rank": 2,
-      "headline": "SEC rules require disclosure of material incidents on a four business day clock.",
-      "why_this_business": "Public companies must disclose material cybersecurity incidents on Form 8-K within four business days of determining materiality, and describe risk management and governance annually. Broker-dealers are separately subject to Regulation S-P requirements including customer notification within 30 days of determining unauthorised access to sensitive customer information.",
-      "loss_scenario": "Late or inadequate disclosure becomes an enforcement matter separate from the incident, and the SEC has pursued companies and individuals for misleading statements about security.",
-      "rhetorical_question": "Who determines materiality for disclosure purposes, and how quickly can that happen?"
+      "headline": "Regulators require documented cybersecurity programmes.",
+      "points": [
+        "Securities regulators require written policies, incident response, and disclosure.",
+        "Examinations assess those programmes directly.",
+        "Findings carry enforcement action and penalties."
+      ],
+      "rhetorical_question": "What written cybersecurity programme requirements apply to your firm?"
     },
     {
       "rank": 3,
-      "headline": "Trading and order management systems move money in milliseconds.",
-      "why_this_business": "Order routing, execution, and clearing run through connected systems where errors and unauthorised access translate immediately into market positions. Firms carry regulatory obligations for market access controls preventing erroneous or unauthorised orders.",
-      "loss_scenario": "Unauthorised or erroneous orders creating positions the firm must unwind at a loss, plus regulatory exposure for inadequate market access controls.",
-      "rhetorical_question": "What controls prevent an unauthorised order from reaching the market through your systems?"
+      "headline": "Client accounts hold assets and complete identity data.",
+      "points": [
+        "Account records carry identity, tax, and asset information.",
+        "Account takeover permits fraudulent transfers of client assets.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "How many client accounts with asset and identity data do you hold?"
     }
   ]
 }

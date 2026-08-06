@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Reservations are made months ahead for dated stays.",
-      "why_this_business": "Parks take reservations for specific sites and dates, frequently booked months in advance for holidays and peak season. Guests travel long distances in their own vehicles against a confirmed site assignment.",
-      "loss_scenario": "Guests arriving with reservations that cannot be verified and no site assigned, at a park at full occupancy with nowhere to send them and no alternative within reasonable distance.",
-      "rhetorical_question": "How far ahead are your peak season sites reserved?"
+      "headline": "Reservations run the whole season.",
+      "points": [
+        "Sites are booked ahead, often months in advance for peak periods.",
+        "Guests travel long distances to reach a booked site.",
+        "A lost booking is a family arriving with nowhere to stay."
+      ],
+      "rhetorical_question": "How are your site reservations and availability managed?"
     },
     {
       "rank": 2,
-      "headline": "Utility, gate, and metering systems run the property.",
-      "why_this_business": "Parks operate gate access control, metered electric service, water systems, and increasingly connected utility monitoring. Guests draw power and water for extended stays and are billed on metered consumption.",
-      "loss_scenario": "Gate and utility systems unavailable with guests unable to enter, and metered billing that cannot be substantiated for long term guests, plus water system compliance obligations for parks operating their own supply.",
-      "rhetorical_question": "Do you operate your own water system or metered utility billing?"
+      "headline": "Guest records hold payment and contact data.",
+      "points": [
+        "Bookings carry names, addresses, vehicle details, and payment cards.",
+        "Recurring and seasonal guests have stored accounts.",
+        "Every affected guest must be notified."
+      ],
+      "rhetorical_question": "How many guest records with payment details do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Guest and payment data accumulates across seasons.",
-      "why_this_business": "Parks hold guest contact details, vehicle information, payment methods, and stay histories, with seasonal and annual guests billed recurring fees and long term residents in some parks.",
-      "loss_scenario": "Payment and guest data exposure across a customer base spanning many states, with notification costs falling on a seasonal business with limited working capital.",
-      "rhetorical_question": "How many years of guest records with payment data do you hold?"
+      "headline": "Utilities and access systems run the park.",
+      "points": [
+        "Water, power pedestals, gates, and access control run on connected systems.",
+        "Guests depend on hookups for water and power.",
+        "A failure leaves guests without utilities or access."
+      ],
+      "rhetorical_question": "What utility and access systems are connected at your park?"
     }
   ]
 }

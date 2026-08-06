@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Presses and mills kill operators when control is lost.",
-      "why_this_business": "Presses, rolling mills, and metalworking machinery apply forces that crush and amputate. Two hand controls, light curtains, and safety-rated control systems prevent operation with a person in the danger zone.",
-      "loss_scenario": "A safety control defect permitting a press stroke with hands in the die, causing amputation, with an OSHA investigation examining the safety system design and every machine of the model affected.",
+      "headline": "Presses and mills crush and amputate.",
+      "points": [
+        "Two hand controls, light curtains, and safety-rated systems prevent operation with hands exposed.",
+        "A safety control defect permits a stroke with hands in the die.",
+        "The investigation examines your safety system design."
+      ],
       "rhetorical_question": "How are press safety control functions designed and validated?"
     },
     {
       "rank": 2,
-      "headline": "Mills are engineered to order with control systems you write.",
-      "why_this_business": "Rolling mills and metalworking lines are engineered for a specific product and plant, with mechanical design, control code, and process models produced once for that installation.",
-      "loss_scenario": "Loss of engineering and control code for equipment in build and in service, halting delivery and leaving installed mills without support for changes or fault diagnosis.",
+      "headline": "Mills are engineered to order with control code you write.",
+      "points": [
+        "Mechanical design, control code, and process models are produced once per installation.",
+        "Installed mills depend on you for changes and fault diagnosis.",
+        "Losing the code leaves them without support."
+      ],
       "rhetorical_question": "How many installed machines depend on control code held only by you?"
     },
     {
       "rank": 3,
-      "headline": "Remote support reaches into steel and metal plant networks.",
-      "why_this_business": "Mill control systems are supported remotely for diagnostics and updates, with connections into plants where continuous production is running at very high value per hour.",
-      "loss_scenario": "Support access used to reach a mill's control network, stopping continuous production with molten or in-process material affected and the equipment supplier identified as the path.",
+      "headline": "Remote support reaches into steel plant networks.",
+      "points": [
+        "Mill control systems are supported remotely for diagnostics and updates.",
+        "Those plants run continuous production at very high value per hour.",
+        "A stop affects molten and in-process material."
+      ],
       "rhetorical_question": "What remote access do you retain into customer mill control systems?"
     }
   ]

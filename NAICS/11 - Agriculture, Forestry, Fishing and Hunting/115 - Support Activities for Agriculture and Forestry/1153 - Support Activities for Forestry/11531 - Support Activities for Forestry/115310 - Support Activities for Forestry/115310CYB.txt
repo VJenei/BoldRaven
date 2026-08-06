@@ -1,7 +1,6 @@
 {
   "naics_code": "115310",
   "naics_title": "Support Activities for Forestry",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Consulting foresters hold clients' inventory, boundary, and sale data.",
-      "why_this_business": "Forestry consultants maintain clients' cruise data, GIS stand maps, management plans, boundary surveys, timber sale bid information, and financial terms for many landowner clients at once. Bid confidentiality is what produces competitive pricing for the client.",
-      "loss_scenario": "Third-party liability to landowner clients for exposed inventory and bid information, with damages measured by the price premium competition would have produced.",
-      "rhetorical_question": "How many landowner clients' inventory and sale records do you hold?"
+      "headline": "Work is scheduled against harvest plans and weather windows.",
+      "points": [
+        "Planting, spraying, and thinning are scheduled to narrow seasonal windows.",
+        "Crews, equipment, and client plans are coordinated on connected systems.",
+        "A missed window pushes work a full year."
+      ],
+      "rhetorical_question": "How are your crew schedules and client work plans managed?"
     },
     {
       "rank": 2,
-      "headline": "Fire and emergency contracting requires federal systems and personnel records.",
-      "why_this_business": "Fire suppression, fuels reduction, and emergency response contractors operate under federal contracts requiring SAM.gov registration, incident qualification records, resource ordering through dispatch systems, and personnel qualification and medical documentation for each crew member. Crews mobilize on short notice and invoice against electronically submitted time records.",
-      "loss_scenario": "Inability to mobilize, dispatch, or invoice during fire season, plus breach exposure for crew files containing medical and identification data.",
-      "rhetorical_question": "How quickly are you required to mobilize a crew, and where are qualification records stored?"
+      "headline": "Application and treatment records are regulatory records.",
+      "points": [
+        "Chemical applications are recorded with product, rate, date, and location.",
+        "Regulators and clients both inspect those records.",
+        "Records you cannot produce become an enforcement problem."
+      ],
+      "rhetorical_question": "How are your chemical application records recorded and retained?"
     },
     {
       "rank": 3,
-      "headline": "Certification and carbon verification services exist only as documentation.",
-      "why_this_business": "Forestry service providers manage FSC and SFI certification, chain of custody documentation, carbon project inventory and verification, and regulatory filings for clients. These programs consist entirely of records and audit trails.",
-      "loss_scenario": "Client certification suspension or carbon credit invalidation caused by a records failure at the service provider, with contractual liability for the value of the credits or the certification premium.",
-      "rhetorical_question": "Do you manage certification or carbon verification records on behalf of clients?"
+      "headline": "Client land data and harvest plans are confidential.",
+      "points": [
+        "Stand inventories, boundaries, and harvest plans are held for client tracts.",
+        "That data establishes what the timber is worth.",
+        "Disclosure gives competitors and buyers your client's position."
+      ],
+      "rhetorical_question": "What client inventory and harvest plan data do you hold?"
     }
   ]
 }

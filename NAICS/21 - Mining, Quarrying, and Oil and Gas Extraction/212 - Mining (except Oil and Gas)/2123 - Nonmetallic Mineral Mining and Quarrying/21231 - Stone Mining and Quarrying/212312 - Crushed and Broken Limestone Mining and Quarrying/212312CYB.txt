@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The scale house is the cash register and every load is a ticket.",
-      "why_this_business": "Aggregate revenue is recorded one truck at a time through scale software such as Command Alkon or Libra, tied to customer accounts, job numbers, and material codes. Tickets feed invoicing and state DOT certification. When the scale system is down, trucks either wait or leave without a billable record.",
-      "loss_scenario": "A busy quarry loads several hundred trucks a day. A week of ticketing failure means unbillable material, disputed accounts, and DOT project documentation that cannot be produced.",
-      "rhetorical_question": "What scale ticketing system do you use, and what happens to loading when it is unavailable?"
+      "headline": "The plant runs on automated crushing and screening controls.",
+      "points": [
+        "Crushers, screens, and conveyors run as one controlled circuit.",
+        "Product gradation depends on the circuit holding its settings.",
+        "A plant down stops every truck waiting to load."
+      ],
+      "rhetorical_question": "Is your crushing and screening plant run by automated controls?"
     },
     {
       "rank": 2,
-      "headline": "Crushing and screening plants are automated and feed customers with no inventory buffer.",
-      "why_this_business": "Primary and secondary crushing, screening, and conveying run under PLC control with belt scales and automated feed control. Ready-mix plants, asphalt plants, and highway contractors draw from the quarry the same day they place material. There is little stockpile of the specific gradations in demand.",
-      "loss_scenario": "Plant downtime stops concrete pours and paving on customer job sites, generating delay claims against the quarry from contractors working to a schedule.",
-      "rhetorical_question": "Are your crusher and screening plant controls networked to your office?"
+      "headline": "Scale tickets are how every sale is recorded and billed.",
+      "points": [
+        "Trucks are weighed, ticketed, and invoiced automatically at the scale.",
+        "Sales, taxes, and royalties all follow those tickets.",
+        "No scale system means selling without records or not selling."
+      ],
+      "rhetorical_question": "How are your truck scales and load tickets recorded?"
     },
     {
       "rank": 3,
-      "headline": "Aggregate quality certification is a DOT requirement backed by test records.",
-      "why_this_business": "Material supplied to state highway projects must meet gradation, soundness, and abrasion specifications, with certified test results traceable to the stockpile and production date. Lab data and certification records are electronic and are audited by the DOT.",
-      "loss_scenario": "Decertification or rejection of material already placed on a highway project, with removal and replacement cost charged back to the supplier.",
-      "rhetorical_question": "Do you supply state DOT projects, and how are your quality test records stored?"
+      "headline": "Aggregate specifications are tested and certified.",
+      "points": [
+        "Gradation and quality results certify material for road and concrete use.",
+        "Agencies and contractors rely on those certifications.",
+        "Uncertified material cannot go into a state project."
+      ],
+      "rhetorical_question": "How are your aggregate test results recorded and certified to customers?"
     }
   ]
 }

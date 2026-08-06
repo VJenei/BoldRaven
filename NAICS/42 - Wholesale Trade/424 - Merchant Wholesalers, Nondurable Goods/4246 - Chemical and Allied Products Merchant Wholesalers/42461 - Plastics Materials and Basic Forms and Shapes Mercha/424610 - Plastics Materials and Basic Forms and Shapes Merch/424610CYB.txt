@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Resin is a commodity with rail-scale logistics and volatile pricing.",
-      "why_this_business": "Resin moves in hopper cars and bulk trucks against contracts tied to monthly price settlements. Distributors hold inventory in silos and railcars, with position, in-transit, and forward commitments determining exposure. Railcar demurrage and storage charges accrue continuously.",
-      "loss_scenario": "Unmanaged position through a monthly price move, plus demurrage on railcars that cannot be released or unloaded, which accumulates across a fleet of cars.",
-      "rhetorical_question": "How many railcars of material do you have in transit or on demurrage?"
+      "headline": "Moulders set their process to the exact resin grade.",
+      "points": [
+        "Melt flow, additives, and grade determine moulding behaviour.",
+        "Customers qualify a specific resin into their production.",
+        "Wrong or substituted resin ruins their moulding run."
+      ],
+      "rhetorical_question": "How are resin grades and lot numbers tracked through your shipments?"
     },
     {
       "rank": 2,
-      "headline": "Processors run continuously and cannot substitute grade.",
-      "why_this_business": "Injection moulders and extruders run to a qualified resin grade with specific melt flow and additive package. Substitution changes the part. Plants run around the clock and hold limited silo capacity, ordering against a consumption schedule.",
-      "loss_scenario": "A processor running out of qualified resin shuts a line, with the resulting downtime claimed against the distributor and the customer's own delivery failures cascading behind it.",
-      "rhetorical_question": "How many days of resin do your customers hold in their silos?"
+      "headline": "Customers hold days of resin at most.",
+      "points": [
+        "Moulders and extruders order against production schedules.",
+        "Silos and hoppers hold days of material.",
+        "A supply gap stops their production lines."
+      ],
+      "rhetorical_question": "How much resin inventory do your customers hold?"
     },
     {
       "rank": 3,
-      "headline": "Lot traceability supports quality claims and regulatory use.",
-      "why_this_business": "Resin lots carry certificates of analysis, and material used in food contact or medical applications requires documented compliance with FDA regulations. Traceability from producer lot to customer delivery is the evidence.",
-      "loss_scenario": "A quality or regulatory claim on finished product where the resin lot cannot be traced, leaving the distributor unable to pass the claim back to the producer.",
-      "rhetorical_question": "Do any customers use your material in food contact or medical applications?"
+      "headline": "Resin prices move and orders are priced when placed.",
+      "points": [
+        "Pricing moves with feedstock and market conditions.",
+        "Quotes, orders, and inventory value follow current pricing.",
+        "Selling from stale prices loses money on every load."
+      ],
+      "rhetorical_question": "How is your pricing updated and applied to quotes and orders?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Attackers have specifically targeted safety instrumented systems in this sector.",
-      "why_this_business": "The Triton malware discovered in 2017 targeted safety instrumented systems at a petrochemical facility, with the apparent objective of disabling the safety layer that prevents a catastrophic release. Refineries operate distributed control systems alongside independent safety instrumented systems designed to bring units to a safe state.",
-      "loss_scenario": "A compromised safety system permits an event the safety layer exists to prevent, which in a refinery means fire, explosion, and toxic release with multiple fatalities and destruction of process units. This is the highest consequence cyber scenario in industry.",
-      "rhetorical_question": "How is your safety instrumented system separated and protected from the process control network?"
+      "headline": "The refinery is a continuous process where loss of control kills people.",
+      "points": [
+        "Units run under distributed control with safety instrumented systems as the last defence.",
+        "Refinery incidents have killed workers and damaged surrounding communities.",
+        "A safety system that does not act when it should is the difference."
+      ],
+      "rhetorical_question": "What safety instrumented functions protect your units, and how are they verified?"
     },
     {
       "rank": 2,
-      "headline": "Process safety management is a federal requirement with enormous consequences.",
-      "why_this_business": "Refineries are covered by OSHA process safety management and EPA risk management planning, requiring process safety information, mechanical integrity, management of change, and incident investigation with extensive documentation reviewed after any event.",
-      "loss_scenario": "Regulatory findings following an incident where process safety documentation cannot be produced, with penalties, criminal referral in serious cases, and consent decrees imposing years of oversight.",
-      "rhetorical_question": "Could you produce your process safety information and management of change records on demand?"
+      "headline": "An unplanned shutdown costs millions per day.",
+      "points": [
+        "Units run continuously between turnarounds scheduled years ahead.",
+        "Restart takes days and wastes material in process.",
+        "Lost production is bought on the market at spot price."
+      ],
+      "rhetorical_question": "What does a day of unplanned refinery downtime cost?"
     },
     {
       "rank": 3,
-      "headline": "A refinery outage disrupts regional fuel supply.",
-      "why_this_business": "Refineries supply pipelines, terminals, and markets with limited alternative capacity, and restarting units after an unplanned shutdown takes days to weeks. Product specifications change seasonally and cannot simply be sourced elsewhere.",
-      "loss_scenario": "Regional fuel supply shortage with price effects, contractual supply failures, and lost margin measured in millions per day on a refinery whose fixed costs continue regardless.",
-      "rhetorical_question": "What is your daily throughput, and what does a week of lost production represent?"
+      "headline": "Process safety and emissions records are regulatory records.",
+      "points": [
+        "Process safety management, emissions monitoring, and reporting are required continuously.",
+        "Regulators inspect against those records directly.",
+        "Gaps are treated as violations and can restrict operations."
+      ],
+      "rhetorical_question": "How are your process safety and emissions records recorded and reported?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Notarial acts create legally operative documents.",
-      "why_this_business": "Notaries verify identity and witness execution of deeds, powers of attorney, and affidavits, recording the act in a journal that is the evidentiary record. Remote online notarisation adds identity verification data, credential analysis, and recorded audio-video sessions retained for years under state law.",
-      "loss_scenario": "Loss of the journal or recordings removes the evidence supporting every notarised act, and in a challenge to a deed or power of attorney the notary cannot demonstrate what was done, with liability for documents worth far more than the fee.",
-      "rhetorical_question": "How long must you retain your notarial journal and any recorded sessions?"
+      "headline": "Your seal and credentials authenticate documents.",
+      "points": [
+        "Electronic notarisation uses credentials and certificates tied to you personally.",
+        "Those credentials can execute notarisations in your name.",
+        "A forged notarisation validates a fraudulent property transfer."
+      ],
+      "rhetorical_question": "How are your electronic notary credentials and certificates protected?"
     },
     {
       "rank": 2,
-      "headline": "You handle identity documents for every signer.",
-      "why_this_business": "Notarisation requires satisfactory evidence of identity, meaning driver licences, passports, and other identity documents are examined and, in remote notarisation, captured and retained. Signers include parties to real estate, estate, and financial transactions.",
-      "loss_scenario": "A breach exposing identity document images alongside the documents they authenticated, which supplies everything needed for identity theft and for forging further notarised instruments.",
-      "rhetorical_question": "Do you retain images of signers' identity documents, and for how long?"
+      "headline": "Your journal is the legal record of every act.",
+      "points": [
+        "State law requires a journal of notarial acts with defined retention.",
+        "That journal is evidence in fraud and forgery investigations.",
+        "A journal you cannot produce is a commission problem."
+      ],
+      "rhetorical_question": "How is your notarial journal maintained and retained?"
     },
     {
       "rank": 3,
-      "headline": "Notaries sit in real estate closings where wire fraud occurs.",
-      "why_this_business": "Mobile and signing service notaries participate in loan closings, receiving closing packages and coordinating with title companies, lenders, and borrowers. Their email is part of the transaction chain that fraudsters compromise to substitute wiring instructions.",
-      "loss_scenario": "Closing funds diverted where the notary's account was the compromised channel, with claims from borrower, lender, and title company against a business with very limited capacity to absorb them.",
-      "rhetorical_question": "Do closing packages or instructions pass through your email?"
+      "headline": "You see identity documents for every signer.",
+      "points": [
+        "Identification is examined and recorded for each notarisation.",
+        "Remote notarisation captures and stores identity credentials.",
+        "Every affected signer must be notified."
+      ],
+      "rhetorical_question": "What signer identification records do you retain?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Architectural millwork is made to approved shop drawings.",
-      "why_this_business": "Millwork is fabricated from shop drawings approved by the architect, with dimensions taken from field measurement and materials selected to sample. CNC equipment cuts directly from those files.",
-      "loss_scenario": "Millwork fabricated to wrong or unapproved drawings, which is scrapped at full material and shop labour cost, on architectural work where materials are expensive and lead times long.",
-      "rhetorical_question": "How are approved shop drawings versioned and released to your CNC equipment?"
+      "headline": "Millwork is made to order from customer drawings.",
+      "points": [
+        "Profiles, dimensions, and species are specified per project.",
+        "Millwork made wrong fits nowhere and cannot be resold.",
+        "Remake in matching material takes weeks."
+      ],
+      "rhetorical_question": "How are customer drawings and dimensions released into production?"
     },
     {
       "rank": 2,
-      "headline": "Flooring is sold by grade and lot with matching requirements.",
-      "why_this_business": "Wood flooring varies by grade, species, and lot with colour and grain characteristics that must be consistent across an installation. Additional material from a different run does not match.",
-      "loss_scenario": "Mismatched material discovered during installation requiring the whole floor to be removed and replaced, with the claim covering installation labour as well as material.",
-      "rhetorical_question": "How is lot and run information tracked through to the installation?"
+      "headline": "Flooring lots must match across an installation.",
+      "points": [
+        "Wood flooring varies in colour and grain between production runs.",
+        "Lot records reserve matching material for a project.",
+        "Mixed lots across a floor are a visible defect."
+      ],
+      "rhetorical_question": "How are your production lots recorded and reserved for projects?"
     },
     {
       "rank": 3,
-      "headline": "Delivery is sequenced into construction completion.",
-      "why_this_business": "Millwork and flooring install near the end of construction against a substantial completion date, after other trades and before occupancy. There is no slack remaining in the schedule at that point.",
-      "loss_scenario": "Late delivery pushing substantial completion, with liquidated damages and acceleration costs claimed against the millwork supplier who is on the critical path at the end of the job.",
-      "rhetorical_question": "How close to occupancy does your product install?"
+      "headline": "Formaldehyde and finish compliance applies to your product.",
+      "points": [
+        "Composite components and finishes carry emission and content requirements.",
+        "Certification records must be retained and produced.",
+        "Non-compliant product cannot lawfully be sold."
+      ],
+      "rhetorical_question": "What emission and finish compliance records do you retain?"
     }
   ]
 }

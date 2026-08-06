@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Aerospace forgings are qualified and traceable to melt.",
-      "why_this_business": "Titanium and aluminium forgings for aerospace are produced under approved processes with full traceability to melt, process records, and testing. Aerospace quality accreditation is a condition of supply.",
-      "loss_scenario": "Non-conforming forgings in aerospace structures requiring identification across aircraft in service, with grounding and replacement of structural components.",
+      "headline": "Aerospace forgings are traceable to the melt.",
+      "points": [
+        "Titanium and aluminium aerospace forgings require full traceability and process records.",
+        "Accreditation is a condition of supplying aerospace customers.",
+        "Forgings that cannot be traced are removed from aircraft."
+      ],
       "rhetorical_question": "Do your forgings go into aerospace primary or secondary structure?"
     },
     {
       "rank": 2,
       "headline": "Process parameters determine metallurgical properties.",
-      "why_this_business": "Nonferrous forging controls temperature, strain rate, and subsequent heat treatment to develop properties, with titanium in particular requiring tight control and contamination avoidance. Properties are verified by destructive testing on samples.",
-      "loss_scenario": "Parts with correct geometry but wrong microstructure, which is invisible to inspection and appears as premature failure in the demanding applications these forgings serve.",
+      "points": [
+        "Temperature, strain rate, and heat treatment develop the required microstructure.",
+        "Properties are verified by destructive testing on samples only.",
+        "Parts with correct geometry can have the wrong microstructure."
+      ],
       "rhetorical_question": "How are forging and heat treatment parameters recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Accreditation and customer approval control market access.",
-      "why_this_business": "Aerospace and defence customers require accreditation under industry programmes with process approvals audited regularly. Records demonstrate that approved processes were followed for every part.",
-      "loss_scenario": "Loss of accreditation where process records cannot be produced, removing eligibility to supply the aerospace customers that constitute the business.",
-      "rhetorical_question": "Which process accreditations does your operation hold, and what records support them?"
+      "headline": "Accreditation depends on records you must produce.",
+      "points": [
+        "Aerospace process approvals are audited against your records.",
+        "Those approvals are a condition of supply.",
+        "Loss of accreditation removes the customer base entirely."
+      ],
+      "rhetorical_question": "Which process accreditations does your operation hold?"
     }
   ]
 }

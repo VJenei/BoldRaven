@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold identity, payment, and complete location history for drivers and riders.",
-      "why_this_business": "Ride services hold rider names, payment cards, and every trip origin and destination, plus driver identity documents, licence and insurance records, background check results, and banking details for payouts. Trip histories reveal home addresses, workplaces, and personal patterns.",
-      "loss_scenario": "A breach exposing rider and driver identity and location histories, which has produced very large regulatory settlements in this sector and carries personal safety consequences beyond financial loss.",
-      "rhetorical_question": "How many riders and drivers do you hold identity and trip history for?"
+      "headline": "The dispatch platform is the entire business.",
+      "points": [
+        "Ride requests, driver matching, routing, and payment run on one platform.",
+        "Drivers and riders both depend on it continuously.",
+        "Without it no ride can be requested, matched, or paid."
+      ],
+      "rhetorical_question": "What happens to rides if your dispatch platform is unavailable?"
     },
     {
       "rank": 2,
-      "headline": "The dispatch platform is the entire company.",
-      "why_this_business": "Matching, routing, pricing, and payment all occur in the platform. Drivers cannot receive work and riders cannot request it without it. There is no offline mode for a business whose product is real-time matching.",
-      "loss_scenario": "Complete cessation of revenue while drivers seek work on a competing platform, and driver supply is difficult to recover once it moves.",
-      "rhetorical_question": "How long would drivers wait before switching platforms during an outage?"
+      "headline": "You hold location history for riders and drivers.",
+      "points": [
+        "Trip records show where individuals went and when.",
+        "Home and work addresses are inferable from that history.",
+        "Every affected rider and driver must be notified."
+      ],
+      "rhetorical_question": "What rider and driver location history do you store?"
     },
     {
       "rank": 3,
-      "headline": "Driver background and insurance verification is a regulatory condition.",
-      "why_this_business": "State and local rules require verified driver background checks, licence status, vehicle inspection, and continuous insurance coverage, with records available to regulators. Operating a driver whose verification has lapsed is a licensing violation.",
-      "loss_scenario": "Regulatory suspension of the operating permit in a market, plus liability exposure where an incident involves a driver whose verification cannot be evidenced.",
-      "rhetorical_question": "How do you verify that every active driver's background check and insurance are current?"
+      "headline": "Driver background and payment data is held on file.",
+      "points": [
+        "Driver records carry identity documents, licence data, and bank details.",
+        "Payments to drivers run automatically against those records.",
+        "Diverted driver payments are money drivers depend on weekly."
+      ],
+      "rhetorical_question": "What driver identity and banking information do you store?"
     }
   ]
 }

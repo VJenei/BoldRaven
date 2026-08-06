@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Every unit is made to order for a specific opening.",
-      "why_this_business": "Windows and doors are manufactured to individual dimensions, configurations, and hardware for specific openings on specific buildings. Nothing is stock and errors produce units that fit nowhere.",
-      "loss_scenario": "Units manufactured to wrong dimensions delivered to a site, requiring remake with lead times of weeks while the building remains open to weather and every trade behind the enclosure waits.",
-      "rhetorical_question": "How are order dimensions and configurations transferred into production?"
+      "headline": "Every unit is made to a specific opening.",
+      "points": [
+        "Windows and doors are made to individual dimensions and configurations.",
+        "Nothing is stock and wrong units fit nowhere.",
+        "Remake takes weeks with the building open to weather."
+      ],
+      "rhetorical_question": "How are order dimensions captured and released into production?"
     },
     {
       "rank": 2,
-      "headline": "Performance certification supports code compliance.",
-      "why_this_business": "Windows and doors carry certified ratings for structural performance, water penetration, air infiltration, and in coastal areas impact resistance, verified by testing and labelled. Building officials require those labels.",
-      "loss_scenario": "Product installed that cannot be certified to required performance, requiring removal and replacement, and in a wind event the absence of certification is central to the liability analysis.",
-      "rhetorical_question": "What performance certifications do your products carry, and how are they tied to production?"
+      "headline": "Performance ratings support code compliance and insurance.",
+      "points": [
+        "Structural, water, air, and impact ratings are certified by testing and labelled.",
+        "Building officials and insurers rely on those labels.",
+        "Uncertified units must be removed and replaced."
+      ],
+      "rhetorical_question": "What performance certifications do your products carry?"
     },
     {
       "rank": 3,
-      "headline": "Construction schedules depend on delivery to the enclosure date.",
-      "why_this_business": "Window and door delivery drives building enclosure, after which interior trades can proceed. The date is set in the construction schedule and every trade behind it is sequenced accordingly.",
-      "loss_scenario": "Late delivery delaying enclosure and every interior trade, with the contractor claiming extended general conditions and delay costs against the manufacturer.",
-      "rhetorical_question": "How many construction projects are waiting on your delivery dates?"
+      "headline": "Fire rated doors are life safety products.",
+      "points": [
+        "Fire doors must be labelled to a rating with matching hardware and construction.",
+        "Fire doors are what let occupants escape and firefighters work.",
+        "A non-conforming assembly fails during the fire it exists for."
+      ],
+      "rhetorical_question": "Do you produce fire rated assemblies, and how are labels controlled?"
     }
   ]
 }

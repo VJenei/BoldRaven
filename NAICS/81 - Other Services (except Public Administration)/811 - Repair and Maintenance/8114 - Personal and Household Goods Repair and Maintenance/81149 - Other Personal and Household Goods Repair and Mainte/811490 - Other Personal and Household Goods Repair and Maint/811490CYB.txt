@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Customer property is held under bailment.",
-      "why_this_business": "Repair businesses take custody of customer goods, frequently valuable or sentimental, recorded on intake with agreed work and condition. The record is the only evidence of what was received and in what state.",
-      "loss_scenario": "Disputes over condition and authorised work, and bailee liability for items lost or damaged, resolved against the party who cannot produce intake documentation.",
-      "rhetorical_question": "How do you record item condition and agreed work at intake?"
+      "headline": "You hold customer property of value.",
+      "points": [
+        "Items arrive that are often valuable or irreplaceable.",
+        "Records establish what was received and from whom.",
+        "Items you cannot match to a customer are items nobody collects."
+      ],
+      "rhetorical_question": "How is incoming customer property recorded and matched to customers?"
     },
     {
       "rank": 2,
-      "headline": "Job tracking and customer notification run the workflow.",
-      "why_this_business": "Small repair operations manage intake, parts ordering, work status, and customer notification through a single system, with customers collecting when notified. Without it, items sit unclaimed and unmatched.",
-      "loss_scenario": "Workflow collapse with items unmatched to owners, customers uncontacted, and no record of what work was agreed or completed.",
-      "rhetorical_question": "How many items are in your workshop, and how would you contact their owners?"
+      "headline": "Job tracking and scheduling run the shop.",
+      "points": [
+        "Repair jobs, parts, and completion dates run on connected systems.",
+        "Customers return or wait on promised dates.",
+        "Without the system you cannot find or promise anything."
+      ],
+      "rhetorical_question": "How are your repair jobs and completion dates tracked?"
     },
     {
       "rank": 3,
-      "headline": "Customer data and payment accumulate without a retention policy.",
-      "why_this_business": "Operations hold customer contact details, addresses, payment methods, and item histories, retained indefinitely because there is no process that ever removes them.",
-      "loss_scenario": "Notification covering customers from many years ago with no ongoing relationship, expanding the affected population well beyond the active customer base.",
-      "rhetorical_question": "How many years of customer records are held in your system?"
+      "headline": "Customer records hold contact and payment data.",
+      "points": [
+        "Records carry contact details, job history, and payment information.",
+        "Deposits and payments run against those records.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer and payment data do you store?"
     }
   ]
 }

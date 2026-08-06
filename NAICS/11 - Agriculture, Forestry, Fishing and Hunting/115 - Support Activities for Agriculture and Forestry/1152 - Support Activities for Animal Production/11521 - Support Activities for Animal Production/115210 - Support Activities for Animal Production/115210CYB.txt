@@ -1,7 +1,6 @@
 {
   "naics_code": "115210",
   "naics_title": "Support Activities for Animal Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The business connects to many client farms' systems.",
-      "why_this_business": "Veterinary services, hoof trimmers, AI technicians, shearers, breeders, and boarding operations connect to client herd management systems, exchange data files, and are often granted portal access. A compromise originating with the service provider can reach multiple client operations.",
-      "loss_scenario": "Contractual and third-party liability when a compromise propagates to client systems, plus loss of the client relationships the business depends on.",
-      "rhetorical_question": "How many client farm systems or portals do you have access to?"
+      "headline": "You move between operations and carry disease with you.",
+      "points": [
+        "Crews and equipment travel between farms daily.",
+        "Movement, cleaning, and site entry records are kept for biosecurity.",
+        "A disease trace runs through your records to every farm you visited."
+      ],
+      "rhetorical_question": "What movement and site entry records do you keep between operations?"
     },
     {
       "rank": 2,
-      "headline": "The business maintains client treatment and withdrawal records.",
-      "why_this_business": "Service providers maintain individual animal treatment records, drug administration and withdrawal times, breeding and genetic data, and client billing information including stored cards. Withdrawal records carry direct FDA and FSIS residue enforcement consequences for the client.",
-      "loss_scenario": "A client ships an animal under withdrawal because treatment records were unavailable, resulting in a residue violation and a claim against the service provider.",
-      "rhetorical_question": "Do you maintain drug treatment and withdrawal records on behalf of your clients?"
+      "headline": "You handle client animal records and treatments.",
+      "points": [
+        "Treatment, identification, and health records are recorded during your work.",
+        "Clients rely on those records for withdrawal periods and compliance.",
+        "A wrong or missing record can condemn a client's milk or carcass."
+      ],
+      "rhetorical_question": "What animal treatment and identification records do you record for clients?"
     },
     {
       "rank": 3,
-      "headline": "Boarding and training operations hold client payment and personal information.",
-      "why_this_business": "Operations providing boarding, training, and animal services maintain client contact information, emergency contacts, stored payment cards for recurring billing, signed waivers, and information on minor participants in youth programs.",
-      "loss_scenario": "Card and personal information breach with notification obligations and card brand assessments. This liability is excluded or sublimited on a standard package policy.",
-      "rhetorical_question": "Do you store client payment cards or records for minor participants?"
+      "headline": "Scheduling is tight and animals do not wait.",
+      "points": [
+        "Breeding, hoof care, shearing, and handling are booked to specific dates.",
+        "Animal biology sets those dates, not the calendar.",
+        "A missed appointment costs the client a breeding cycle."
+      ],
+      "rhetorical_question": "How are your client appointments and schedules managed?"
     }
   ]
 }

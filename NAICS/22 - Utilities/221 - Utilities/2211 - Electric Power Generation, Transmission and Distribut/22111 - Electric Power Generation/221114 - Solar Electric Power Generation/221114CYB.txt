@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Inverters are internet connected and accept remote firmware and setpoint changes.",
-      "why_this_business": "Utility scale and distributed solar is managed through inverters, combiner monitoring, and trackers reporting to a cloud platform, usually the manufacturer's. Inverters accept remote firmware updates and grid support setpoint changes under IEEE 1547. Fleets are supervised from a remote operations centre with very few people on site.",
-      "loss_scenario": "Loss of inverter control across a fleet stops generation and, if setpoints are altered, can create grid support behaviour the interconnection agreement does not permit. A 100 MW site loses roughly $10,000 to $30,000 of revenue per day offline.",
-      "rhetorical_question": "Does your inverter manufacturer have remote access to change firmware or setpoints?"
+      "headline": "Inverters and trackers are managed remotely across the whole site.",
+      "points": [
+        "Inverters, trackers, and site controllers are configured and updated over network connections.",
+        "One management platform can change settings on the entire fleet.",
+        "Output can be reduced or stopped everywhere at once."
+      ],
+      "rhetorical_question": "Can your inverters and trackers be configured remotely from a central platform?"
     },
     {
       "rank": 2,
-      "headline": "Trackers, weather stations, and performance data drive the availability guarantee.",
-      "why_this_business": "Single axis trackers follow a scheduled position, and performance is measured against an availability guarantee in the operations and maintenance contract and often in the power purchase agreement. Performance ratio calculations come from irradiance and production data. Stow commands during high wind protect the array.",
-      "loss_scenario": "Failure to stow trackers during a wind event damages modules and racking across large areas. Missed availability guarantees trigger liquidated damages under the O and M agreement.",
-      "rhetorical_question": "How are your trackers commanded to stow during a high wind event?"
+      "headline": "Grid reliability and interconnection requirements apply to your controls.",
+      "points": [
+        "Larger facilities fall within federal reliability security requirements.",
+        "Interconnection agreements impose control and response obligations.",
+        "Non-compliance carries penalties per day against the registered entity."
+      ],
+      "rhetorical_question": "Which of your systems fall within grid reliability security requirements?"
     },
     {
       "rank": 3,
-      "headline": "Project financing depends on reported production and covenant compliance.",
-      "why_this_business": "Solar projects carry tax equity and debt structures with covenants tied to reported production, insurance, and operating reports delivered on a schedule. Independent engineers review performance data. The reporting is contractual, not optional.",
-      "loss_scenario": "Missed or unsupportable reporting to lenders and tax equity partners, which can constitute a default under the financing documents independent of the underlying production.",
-      "rhetorical_question": "What production and operating reports are you contractually required to deliver, and how often?"
+      "headline": "Revenue depends on metered output being recorded correctly.",
+      "points": [
+        "Production is metered and settled under long term power purchase agreements.",
+        "Renewable energy credits are issued from that same recorded output.",
+        "Lost or corrupted generation data means unbillable and uncreditable production."
+      ],
+      "rhetorical_question": "How is your generation metering data recorded and reported for settlement?"
     }
   ]
 }

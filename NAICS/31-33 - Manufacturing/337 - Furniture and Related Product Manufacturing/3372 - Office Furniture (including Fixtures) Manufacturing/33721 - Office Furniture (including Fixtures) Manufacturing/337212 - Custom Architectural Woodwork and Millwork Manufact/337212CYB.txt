@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Every piece is made once from approved shop drawings.",
-      "why_this_business": "Architectural millwork is produced to shop drawings approved by the architect, cut on CNC equipment from job-specific programmes, in species and finishes selected for the project. Nothing is stock.",
-      "loss_scenario": "Millwork produced to superseded drawings or wrong dimensions, scrapped at material and shop cost, with veneer and species that may no longer be available in matching stock.",
+      "points": [
+        "Millwork is cut on CNC equipment from job-specific programmes.",
+        "Species and finishes are selected for the project.",
+        "Work to a superseded drawing is scrap in material that may be unavailable."
+      ],
       "rhetorical_question": "How are approved shop drawing revisions controlled into your CNC programmes?"
     },
     {
       "rank": 2,
-      "headline": "Veneer and finish matching cannot be recreated later.",
-      "why_this_business": "Architectural work uses sequence-matched veneer and specified finishes across a visible installation. Material from a different flitch or finish batch does not match and the mismatch is the defect.",
-      "loss_scenario": "Damaged or wrongly produced work requiring replacement material that cannot be matched, forcing the entire visible scope to be remade at many times the cost of the affected pieces.",
+      "headline": "Veneer and finish matching cannot be recreated.",
+      "points": [
+        "Sequence-matched veneer and specified finishes run across a visible installation.",
+        "Material from another flitch or finish batch does not match.",
+        "The whole visible scope must be remade, not the affected pieces."
+      ],
       "rhetorical_question": "How is veneer flitch and finish batch information recorded against a project?"
     },
     {
       "rank": 3,
-      "headline": "Millwork is installed near the end of a construction schedule.",
-      "why_this_business": "Architectural woodwork installs late in construction when the schedule pressure is highest, and delays push occupancy directly because there is little sequence left to absorb them.",
-      "loss_scenario": "Millwork delivery delayed with building occupancy pushed, and delay damages assessed against a project where every other trade has finished.",
+      "headline": "Millwork installs when there is no float left.",
+      "points": [
+        "Architectural woodwork installs late in construction.",
+        "Every other trade has finished by then.",
+        "A delay pushes occupancy directly."
+      ],
       "rhetorical_question": "How much schedule float remains at your installation point on a project?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Care is delivered in patients' homes on scheduled visits.",
-      "why_this_business": "Home health agencies schedule clinicians to patients' homes for wound care, infusion, medication administration, and skilled nursing, with visit schedules, care plans, and medication records held electronically and accessed on mobile devices in the field.",
-      "loss_scenario": "Missed visits to homebound patients dependent on care, including wound care, infusion, and medication administration, which is a direct patient harm event for a population that cannot travel to alternative care.",
-      "rhetorical_question": "How many of your patients are homebound and dependent on scheduled visits?"
+      "headline": "Patients depend on scheduled visits at home.",
+      "points": [
+        "Visits deliver medication, wound care, and monitoring on a schedule.",
+        "Patients cannot travel and have no alternative.",
+        "A missed visit is missed care, not a missed appointment."
+      ],
+      "rhetorical_question": "How many patients depend on your scheduled home visits?"
     },
     {
       "rank": 2,
-      "headline": "You hold patient addresses, access details, and clinical conditions.",
-      "why_this_business": "Agencies record home addresses, entry instructions, key locations, who else is present, and clinical conditions including cognitive impairment. The population is frequently elderly and vulnerable.",
-      "loss_scenario": "Exposure of home addresses combined with information about elderly patients living alone with cognitive impairment, which is a physical safety exposure for a population specifically vulnerable to exploitation.",
-      "rhetorical_question": "Do your records identify patients living alone and how to enter their homes?"
+      "headline": "Clinicians carry patient data into homes.",
+      "points": [
+        "Mobile devices carry charts, medication lists, and care plans.",
+        "Those devices leave the office and travel constantly.",
+        "A lost device carries the records with it."
+      ],
+      "rhetorical_question": "What patient data do your clinicians carry on mobile devices?"
     },
     {
       "rank": 3,
-      "headline": "Visit documentation supports every Medicare claim.",
-      "why_this_business": "Home health billing requires face to face documentation, plans of care, physician certification, and visit notes with electronic visit verification in many programmes. Audits examine this documentation years later.",
-      "loss_scenario": "Extrapolated recoupment across episodes where documentation is unavailable, and electronic visit verification gaps that Medicaid programmes treat as unverified services.",
-      "rhetorical_question": "How is each visit verified and documented for billing purposes?"
+      "headline": "Patient records are federally protected.",
+      "points": [
+        "Clinical records, physician orders, and billing are held per patient.",
+        "Health privacy law requires notification of every affected patient.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient records do you hold?"
     }
   ]
 }

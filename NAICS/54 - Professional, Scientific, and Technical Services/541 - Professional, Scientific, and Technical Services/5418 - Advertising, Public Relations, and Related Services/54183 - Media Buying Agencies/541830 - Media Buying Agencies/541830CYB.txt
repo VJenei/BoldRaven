@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You move very large sums of client money to media vendors.",
-      "why_this_business": "Media buying agencies aggregate client budgets and pay publishers, networks, and platforms, frequently holding client funds in advance of payment. Monthly media payments run into millions and vendor payment details are handled routinely.",
-      "loss_scenario": "Diverted media payments in the millions, where the media did not run, the publisher is unpaid, and the agency is liable to both the client and the vendor.",
-      "rhetorical_question": "What is the value of media payments leaving your accounts in a typical month?"
+      "headline": "You commit and pay very large client sums.",
+      "points": [
+        "Media buys are placed and paid with client funds continuously.",
+        "Vendor payment instructions arrive and change by email.",
+        "A diverted payment is client money you must replace."
+      ],
+      "rhetorical_question": "How are media vendor payment instructions verified before client funds move?"
     },
     {
       "rank": 2,
-      "headline": "Buying data reveals client strategy and negotiated rates.",
-      "why_this_business": "Agencies hold negotiated rates with publishers and platforms across many clients, plus flight schedules and budget allocations. Rate structures are confidential to the publisher and the agency, and across clients they reveal comparative positions.",
-      "loss_scenario": "Exposure of negotiated rates damages the agency's buying position across every publisher relationship simultaneously and creates client questions about differential treatment.",
-      "rhetorical_question": "How would your publishers react to their negotiated rates becoming visible to each other?"
+      "headline": "Buying data reveals client strategy and spend.",
+      "points": [
+        "Placement, pricing, and schedule data shows exactly what clients are doing.",
+        "Competitors would pay for that visibility.",
+        "Disclosure damages the client's competitive position."
+      ],
+      "rhetorical_question": "What client media plan and spend data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Campaigns run on schedules that cannot be rebooked.",
-      "why_this_business": "Media placements are bought for specific dates, programmes, and inventory, frequently around events, seasons, or product launches. Inventory sold is gone and cannot be recreated later at the same value.",
-      "loss_scenario": "Placements that fail to run or run incorrectly, where the media value is lost entirely and make-goods are unavailable for premium inventory.",
-      "rhetorical_question": "How much of your client media is tied to dated events or seasonal inventory?"
+      "headline": "Placements are booked to fixed air and publication dates.",
+      "points": [
+        "Media inventory is booked against specific dates and slots.",
+        "Those slots cannot be moved once committed.",
+        "A missed placement is spend committed with nothing delivered."
+      ],
+      "rhetorical_question": "What media placements are booked against fixed dates?"
     }
   ]
 }

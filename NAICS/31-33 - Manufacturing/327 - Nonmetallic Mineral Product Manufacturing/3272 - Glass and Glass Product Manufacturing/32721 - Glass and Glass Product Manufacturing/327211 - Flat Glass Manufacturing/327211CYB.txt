@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A float line runs for years and stopping it destroys it.",
-      "why_this_business": "Float glass lines run continuously for a decade or more between rebuilds, with the tin bath and furnace at high temperature throughout. An uncontrolled shutdown solidifies glass in the furnace and bath, requiring a full rebuild.",
-      "loss_scenario": "A cold shutdown requiring a furnace rebuild costing many tens of millions and taking months, during which the line produces nothing and customers source elsewhere permanently.",
-      "rhetorical_question": "What does an uncontrolled cold shutdown of your float line cost?"
+      "headline": "The float line runs for years and cannot be stopped.",
+      "points": [
+        "Float glass furnaces run continuously for a decade between rebuilds.",
+        "An uncontrolled stop can freeze the tank and destroy the furnace.",
+        "Rebuild costs are enormous and take months."
+      ],
+      "rhetorical_question": "What would an uncontrolled furnace shutdown cost at your plant?"
     },
     {
       "rank": 2,
-      "headline": "Glass thickness and quality determine downstream fabrication.",
-      "why_this_business": "Float glass is produced to thickness and optical quality specifications that fabricators depend on for tempering, laminating, and insulating unit production. Defects and thickness variation cause failures downstream.",
-      "loss_scenario": "Defective glass fabricated into windows and facades where defects appear as breakage or optical distortion after installation, with claims covering the installed product.",
-      "rhetorical_question": "How is glass thickness and optical quality monitored on line?"
+      "headline": "Glass specifications feed fabricators and builders.",
+      "points": [
+        "Thickness, flatness, and coating are specified and tested continuously.",
+        "Fabricators cut and temper to that exact specification.",
+        "Off specification glass breaks in tempering and is scrapped."
+      ],
+      "rhetorical_question": "How are your glass specifications tested and recorded per production run?"
     },
     {
       "rank": 3,
-      "headline": "Continuous output must be matched with continuous demand.",
-      "why_this_business": "A float line produces continuously and cannot be throttled significantly, requiring the output to move to fabricators and warehouses continuously. Storage capacity is limited relative to output.",
-      "loss_scenario": "Production accumulating with nowhere to ship, filling storage within days and forcing decisions about a line that cannot simply be turned down.",
-      "rhetorical_question": "How many days of glass storage exist between your line and shipment?"
+      "headline": "Coated glass carries performance ratings for buildings.",
+      "points": [
+        "Low emissivity and solar control coatings carry certified performance values.",
+        "Building energy compliance depends on those values.",
+        "Glass below rating fails the building's energy compliance."
+      ],
+      "rhetorical_question": "What certified performance values do your coated products carry?"
     }
   ]
 }

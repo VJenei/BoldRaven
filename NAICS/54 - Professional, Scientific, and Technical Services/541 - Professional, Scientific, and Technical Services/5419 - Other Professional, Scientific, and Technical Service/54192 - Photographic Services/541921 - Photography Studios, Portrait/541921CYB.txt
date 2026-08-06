@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold photographs of clients, including children.",
-      "why_this_business": "Portrait studios hold images of families, school pupils, and individuals, frequently linked to names, schools, and contact details. School photography in particular holds images and identifying information for large numbers of children.",
-      "loss_scenario": "Exposure of children's photographs with names and school affiliation is a child safety exposure that parents, schools, and authorities treat entirely differently from ordinary data loss, and school contracts do not survive it.",
-      "rhetorical_question": "Do you hold photographs of children linked to their names and schools?"
+      "headline": "Images cannot be retaken after the event.",
+      "points": [
+        "Weddings, newborns, and events happen once.",
+        "Images exist as files from the moment of capture.",
+        "Losing them means the client has nothing from the day."
+      ],
+      "rhetorical_question": "Where are your image files stored between shoot and delivery?"
     },
     {
       "rank": 2,
-      "headline": "Images cannot be recreated once the moment has passed.",
-      "why_this_business": "Weddings, newborn sessions, and events are unrepeatable. The images exist only as files held by the photographer between the session and delivery, and clients frequently order reprints years afterward from the studio's archive.",
-      "loss_scenario": "Loss of images from an unrepeatable event, where no amount of refund addresses the harm and the resulting claims and public reaction are severe in a referral-driven business.",
-      "rhetorical_question": "How are images backed up between the session and delivery to the client?"
+      "headline": "You hold images of children and families.",
+      "points": [
+        "School, family, and children's portraits are held with identifying information.",
+        "Parents entrust those images to you.",
+        "Exposure of children's images is a serious matter beyond the contract."
+      ],
+      "rhetorical_question": "What client images and identifying information do you store?"
     },
     {
       "rank": 3,
-      "headline": "Sessions are dated commitments with deposits taken.",
-      "why_this_business": "Portrait and event photography is booked months ahead for weddings, school dates, and family occasions, with deposits collected and dates committed. Studios coordinate multiple photographers and locations against a calendar.",
-      "loss_scenario": "Missed bookings on dates that cannot be rescheduled, with clients arriving for sessions that were never recorded and events proceeding without a photographer.",
-      "rhetorical_question": "How many dated bookings with deposits are you currently holding?"
+      "headline": "Bookings and delivery dates are committed.",
+      "points": [
+        "Sessions are booked for events that cannot move.",
+        "Delivery is promised against dates clients plan around.",
+        "A lost booking is a life event with no photographer."
+      ],
+      "rhetorical_question": "How are your bookings and delivery commitments recorded?"
     }
   ]
 }

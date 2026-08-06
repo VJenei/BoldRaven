@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Wiring devices are the fire and shock protection in every building.",
-      "why_this_business": "Receptacles, switches, and ground fault and arc fault devices carry current and, in the case of protective devices, are what prevents electrocution and electrical fires. Their listings govern construction in detail.",
-      "loss_scenario": "Protective devices failing to trip, with electrocutions or fires that the device existed to prevent, and a recall covering every device from the affected production installed in homes and buildings.",
+      "headline": "Protective devices are what prevent electrocution and fires.",
+      "points": [
+        "Ground fault and arc fault devices exist to trip before someone dies.",
+        "Their listings govern construction in fine detail.",
+        "A device that does not trip fails during the event it exists for."
+      ],
       "rhetorical_question": "Do you manufacture ground fault or arc fault protective devices?"
     },
     {
       "rank": 2,
-      "headline": "Devices are installed and forgotten for decades.",
-      "why_this_business": "Wiring devices are installed in walls and remain for the life of the building. Recalling them requires reaching homeowners and electricians who have no record of what was installed.",
-      "loss_scenario": "A recall with very low recovery because devices are inside walls and owners do not know what brand was installed, leaving defective devices in service indefinitely and claims continuing for years.",
+      "headline": "Devices are installed in walls and forgotten for decades.",
+      "points": [
+        "Wiring devices remain in place for the life of the building.",
+        "Homeowners and electricians have no record of what was installed.",
+        "Recall recovery is very low and claims continue for years."
+      ],
       "rhetorical_question": "How would you reach the end users of devices installed years ago?"
     },
     {
       "rank": 3,
-      "headline": "Production is high volume through distribution and retail.",
-      "why_this_business": "Wiring devices ship in very large volume through electrical distributors and retailers under EDI, with distribution records the only way to bound a recall.",
-      "loss_scenario": "A recall that must cover all production because distribution records cannot identify affected lots, multiplying the cost across every device shipped in the period.",
+      "headline": "Volume distribution makes lot records the only bound.",
+      "points": [
+        "Devices ship in very large volume through distributors and retailers.",
+        "Distribution records are the only way to narrow a recall.",
+        "Without them the recall covers everything shipped in the period."
+      ],
       "rhetorical_question": "Could you identify which distributors received a specific production lot?"
     }
   ]

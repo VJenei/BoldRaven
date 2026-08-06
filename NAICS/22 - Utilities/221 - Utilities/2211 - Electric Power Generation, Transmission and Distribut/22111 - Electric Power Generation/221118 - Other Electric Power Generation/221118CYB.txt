@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Battery storage responds to market signals in seconds under remote control.",
-      "why_this_business": "Storage and other generation in this category are dispatched by automated systems responding to market prices, frequency regulation signals, and utility commands, with very fast response requirements. The energy management system decides charge and discharge continuously. Human supervision is remote and often covers many sites.",
-      "loss_scenario": "Loss of dispatch control means missed performance on regulation and capacity obligations, which are settled with penalties, and in the worst case a battery operated outside its safe state of charge window.",
-      "rhetorical_question": "Is your storage or generation dispatched automatically in response to external signals?"
+      "headline": "Generation and storage systems are controlled remotely.",
+      "points": [
+        "Units, inverters, and battery systems are managed from central platforms.",
+        "Settings and dispatch can be changed across the fleet at once.",
+        "Battery systems in particular fail into fire when controls are wrong."
+      ],
+      "rhetorical_question": "Can your generation or storage systems be configured remotely?"
     },
     {
       "rank": 2,
-      "headline": "Thermal runaway in battery systems is a life safety exposure managed by software.",
-      "why_this_business": "Battery energy storage relies on the battery management system to monitor cell voltage and temperature and to isolate faults, plus fire detection and suppression. Thermal runaway propagates. NFPA 855 governs installation and emergency response planning for these systems.",
-      "loss_scenario": "A battery fire destroys the installation, can burn for days, and creates community evacuation and toxic gas exposure. This is a total loss event with third-party liability attached.",
-      "rhetorical_question": "How is your battery management and fire detection system monitored?"
+      "headline": "Grid reliability and interconnection rules apply.",
+      "points": [
+        "Covered facilities must meet documented federal reliability security requirements.",
+        "Interconnection agreements add control and response obligations.",
+        "Non-compliance carries penalties per day against the registered entity."
+      ],
+      "rhetorical_question": "Which of your systems fall within grid reliability security requirements?"
     },
     {
       "rank": 3,
-      "headline": "Distributed sites are managed from one remote platform.",
-      "why_this_business": "Operators in this category typically run many small sites through a single cloud platform rather than staffing each one. That platform is the only means of monitoring, dispatch, and fault response across the fleet.",
-      "loss_scenario": "One platform compromise affects every site simultaneously, which is a fundamentally different exposure from a single-site failure and is what makes fleet operators attractive targets.",
-      "rhetorical_question": "How many separate sites are managed through your single control platform?"
+      "headline": "Revenue depends on metered output and dispatch records.",
+      "points": [
+        "Generation and market participation are settled from recorded data.",
+        "Market bids and dispatch instructions arrive electronically.",
+        "Corrupted data means production you cannot bill."
+      ],
+      "rhetorical_question": "How is your generation and market settlement data recorded?"
     }
   ]
 }

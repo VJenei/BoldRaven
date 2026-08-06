@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The 36-hour incident notification rule applies to you.",
-      "why_this_business": "Banking agencies require notification to the primary federal regulator within 36 hours of determining that a computer-security incident has materially affected or is reasonably likely to materially affect operations, service delivery, or financial sector stability. The obligation applies regardless of institution size.",
-      "loss_scenario": "Late notification becomes a supervisory finding, and the resulting examination reviews the information security programme, vendor oversight, and board reporting in full.",
-      "rhetorical_question": "Does your incident response plan include the 36-hour regulatory notification requirement?"
+      "headline": "Customer financial data supports complete identity theft.",
+      "points": [
+        "Account, transaction, loan, and identity data covers every relationship.",
+        "That data is everything an identity thief needs.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "How many customer records with account and identity data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Mortgage and consumer lending files hold complete personal financial records.",
-      "why_this_business": "Depository lenders hold loan applications with Social Security numbers, tax returns, pay stubs, bank statements, appraisals, and title documents, retained for the life of the loan and beyond. A mortgage file is the most complete financial profile of an individual that exists outside a credit bureau.",
-      "loss_scenario": "Breach notification across a borrower base whose files enable complete identity takeover, with GLBA obligations and state notification laws applying simultaneously.",
-      "rhetorical_question": "How many years of closed loan files with full borrower documentation do you retain?"
+      "headline": "Federal regulators require incident notification.",
+      "points": [
+        "Regulators require notification of significant computer security incidents.",
+        "Examinations assess information security programmes directly.",
+        "Findings affect ratings and can restrict activities."
+      ],
+      "rhetorical_question": "What incident notification obligations apply to your institution?"
     },
     {
       "rank": 3,
-      "headline": "Smaller institutions depend on a few vendors for everything.",
-      "why_this_business": "Community-scale institutions outsource core processing, digital banking, card services, and often IT management. Regulators expect documented vendor due diligence and contractual security requirements, and a vendor failure presents to customers as an institution failure.",
-      "loss_scenario": "Complete service outage caused by a vendor, with the institution carrying the regulatory obligation, the customer relationship damage, and the recovery cost.",
-      "rhetorical_question": "How many critical functions depend on a single outsourced provider?"
+      "headline": "Payment fraud moves money that does not come back.",
+      "points": [
+        "Wire and payment instructions are executed continuously.",
+        "Business email compromise targets both you and your customers.",
+        "Wires clear within minutes and recovery is rarely possible."
+      ],
+      "rhetorical_question": "How are wire instructions verified before funds are released?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Bottled water is a regulated food with source and treatment requirements.",
-      "why_this_business": "FDA regulates bottled water with standards of identity, quality, and good manufacturing practice, including source approval, treatment, and testing requirements. Source water and treatment records demonstrate compliance.",
-      "loss_scenario": "Product that cannot be shown to meet quality standards must be recalled, and source contamination reaching consumers is a public health event in a product purchased specifically for its purity.",
-      "rhetorical_question": "How are source water and finished product testing records maintained?"
+      "headline": "Source water and treatment records support every bottle.",
+      "points": [
+        "Source protection, treatment, and testing records are required and inspected.",
+        "Water quality testing is performed and recorded on a schedule.",
+        "A contamination event without records recalls everything you produced."
+      ],
+      "rhetorical_question": "What source and treatment testing records do you maintain?"
     },
     {
       "rank": 2,
-      "headline": "Contamination in a purity product is catastrophic to the brand.",
-      "why_this_business": "Consumers buy bottled water on an expectation of absolute purity. Any contamination event, whether microbiological or chemical, undermines the entire proposition and has produced brand-wide recalls historically.",
-      "loss_scenario": "A contamination recall that removes the brand from shelves, with consumer trust in a purity product being difficult to rebuild and retailers slow to restore shelf space.",
-      "rhetorical_question": "What would a contamination finding do to consumer confidence in your brand?"
+      "headline": "Filling lines run at very high speed continuously.",
+      "points": [
+        "Blowing, filling, capping, and packaging run as one continuous process.",
+        "Lines produce hundreds of bottles per minute.",
+        "A stopped line produces nothing at very high fixed cost."
+      ],
+      "rhetorical_question": "What does an hour of stopped production cost on your filling lines?"
     },
     {
       "rank": 3,
-      "headline": "High speed filling and packaging is the entire operation.",
-      "why_this_business": "Blow moulding, filling, capping, and packaging run continuously at very high rate with minimal labour. The plant is an automated line and there is no manual production alternative.",
-      "loss_scenario": "Complete production stoppage with retail and delivery commitments unmet, and in an emergency water supply context, customers who depend on the product for reasons beyond convenience.",
-      "rhetorical_question": "Could your plant produce anything at all without its control systems?"
+      "headline": "Retail supply is concentrated and volume is seasonal.",
+      "points": [
+        "Product ships to large retailers under delivery and labelling requirements.",
+        "Summer and emergency demand spike unpredictably.",
+        "Missed delivery windows bring chargebacks and lost shelf space."
+      ],
+      "rhetorical_question": "What share of your volume goes to your largest retail customers?"
     }
   ]
 }

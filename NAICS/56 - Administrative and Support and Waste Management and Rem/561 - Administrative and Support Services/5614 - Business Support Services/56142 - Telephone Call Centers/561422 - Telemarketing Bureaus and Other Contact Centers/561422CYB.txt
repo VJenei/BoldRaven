@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Agents handle payment card and personal data on live calls.",
-      "why_this_business": "Contact centres take orders, payments, and account changes on behalf of clients, with agents entering card data and personal information into client systems. PCI DSS applies to any environment where cardholder data is handled, and agent workstations and call recordings are in scope.",
-      "loss_scenario": "Card data captured from agent screens or recordings, with brand assessments and forensic costs flowing to the client and contractually back to the centre, plus notification across every affected consumer.",
-      "rhetorical_question": "Do your agents handle payment card data, and are calls recorded while they do?"
+      "headline": "You hold consumer data and payment details at scale.",
+      "points": [
+        "Contact records carry names, numbers, and often payment card details.",
+        "Payments are taken by phone continuously.",
+        "Every affected consumer must be notified."
+      ],
+      "rhetorical_question": "How many consumer records with payment details do you handle?"
     },
     {
       "rank": 2,
-      "headline": "Telemarketing is heavily regulated with per-call statutory damages.",
-      "why_this_business": "Outbound calling is governed by the Telephone Consumer Protection Act and the Telemarketing Sales Rule, with do-not-call obligations, consent requirements, and statutory damages per violating call. Consent records are the entire defence.",
-      "loss_scenario": "Statutory damages multiplied across a calling campaign where consent and do-not-call records cannot be produced, which in TCPA class litigation has produced settlements in the tens and hundreds of millions.",
-      "rhetorical_question": "Where are your consent and do-not-call suppression records maintained?"
+      "headline": "Calling rules are federally enforced with per-call penalties.",
+      "points": [
+        "Do not call, consent, and calling time rules carry penalties per call.",
+        "Records establish consent and suppression compliance.",
+        "Penalties multiply across call volume very quickly."
+      ],
+      "rhetorical_question": "How are your consent and do not call suppression records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Client customer databases are loaded into your dialler.",
-      "why_this_business": "Campaigns require client customer and prospect lists loaded into dialling and CRM platforms, containing names, numbers, account details, and frequently purchase or account history. Those individuals have no relationship with the contact centre.",
-      "loss_scenario": "Breach exposing client customer databases across multiple campaigns, with notification obligations flowing through each client and state privacy law exposure.",
-      "rhetorical_question": "How many client customer records are loaded in your dialling platform right now?"
+      "headline": "Client campaigns depend on your capacity.",
+      "points": [
+        "Clients run campaigns and support programmes through your centre.",
+        "Their customers reach them only through you.",
+        "A centre outage leaves client customers with nobody to call."
+      ],
+      "rhetorical_question": "What client customer contact depends entirely on your centre?"
     }
   ]
 }

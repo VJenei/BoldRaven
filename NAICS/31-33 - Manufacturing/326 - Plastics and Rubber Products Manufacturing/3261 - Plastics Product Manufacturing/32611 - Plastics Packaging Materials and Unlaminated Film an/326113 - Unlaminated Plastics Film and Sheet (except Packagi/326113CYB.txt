@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Technical films serve applications with performance requirements.",
-      "why_this_business": "Films and sheet in this category serve construction, agricultural, medical, and industrial applications with specifications for thickness, strength, and durability that customers depend on for the product's function.",
-      "loss_scenario": "Off-specification material failing in application, with geomembrane, agricultural, or construction failures where the film was the barrier or protection and the consequences extend well beyond the material value.",
-      "rhetorical_question": "What applications rely on your film as a barrier or protective layer?"
+      "headline": "Product specifications are qualified into customer processes.",
+      "points": [
+        "Thickness, clarity, and mechanical properties are specified per application.",
+        "Customers thermoform, print, or fabricate to that exact material.",
+        "Off specification film ruins their production run."
+      ],
+      "rhetorical_question": "How are your film specifications tested and recorded per roll?"
     },
     {
       "rank": 2,
-      "headline": "Extrusion runs continuously with tight gauge control.",
-      "why_this_business": "Film and sheet extrusion runs continuously with gauge, width, and property control across the web. Gauge variation and defects render material unusable for applications requiring uniformity.",
-      "loss_scenario": "Off-gauge material produced continuously until detected, consuming resin and line time, on equipment where continuous operation determines profitability.",
-      "rhetorical_question": "How is gauge and web uniformity monitored during extrusion?"
+      "headline": "Extrusion runs continuously at high fixed cost.",
+      "points": [
+        "Extruders and casting lines run as continuous processes.",
+        "An unplanned stop wastes resin and takes hours to restart.",
+        "Lines are designed to run around the clock."
+      ],
+      "rhetorical_question": "What does an hour of stopped production cost on your extrusion lines?"
     },
     {
       "rank": 3,
-      "headline": "Resin supply and formulation determine what can be produced.",
-      "why_this_business": "Production depends on qualified resin grades with additive packages formulated for the application, including UV stabilisation for outdoor use. Formulations are matched to customer requirements.",
-      "loss_scenario": "Material produced without correct additive packages failing prematurely in service, with agricultural and construction films degrading in the field and claims covering the application rather than the film.",
-      "rhetorical_question": "How are additive formulations controlled for outdoor and technical applications?"
+      "headline": "Formulations and process settings are proprietary.",
+      "points": [
+        "Resin blends and process conditions determine product properties.",
+        "Those settings represent years of development.",
+        "Once copied they cannot be recovered."
+      ],
+      "rhetorical_question": "Where are your resin formulations and process settings stored?"
     }
   ]
 }

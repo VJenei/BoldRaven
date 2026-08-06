@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Lease origination makes you a financial institution under GLBA.",
-      "why_this_business": "Leasing companies extend credit and are financial institutions subject to the Gramm-Leach-Bliley Act and, for non-banking entities, the FTC Safeguards Rule requiring a written programme, a qualified individual, multi-factor authentication, encryption, and incident response since June 9, 2023.",
-      "loss_scenario": "FTC enforcement alongside breach costs, on files containing Social Security numbers, income documentation, and credit reports for every lessee and guarantor.",
-      "rhetorical_question": "Do you have a written information security programme and a designated qualified individual?"
+      "headline": "Lease applications are complete credit files.",
+      "points": [
+        "Applications carry social security numbers, income, and bank details.",
+        "Federal safeguards rules require a written security programme.",
+        "Every applicant must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many lease applications are stored in your systems?"
     },
     {
       "rank": 2,
-      "headline": "Vehicles remain your asset for the whole lease term.",
-      "why_this_business": "Leased vehicles are owned by the lessor and tracked by VIN through the term, with residual values, mileage, and condition determining end-of-term outcomes. Telematics and GPS are used for recovery on default.",
-      "loss_scenario": "Loss of asset records means vehicles that cannot be located, valued, or remarketed, and residual value exposure across a portfolio that is the entire economics of the leasing business.",
-      "rhetorical_question": "How do you track the location and condition of vehicles across your lease portfolio?"
+      "headline": "Lease servicing runs automatically against every account.",
+      "points": [
+        "Payments, statements, and end of term processing run continuously.",
+        "Lessees depend on accurate posting and reporting.",
+        "Misposted payments produce credit reporting damage."
+      ],
+      "rhetorical_question": "How are lease payments posted and reconciled?"
     },
     {
       "rank": 3,
-      "headline": "Servicing and collections are consumer-regulated activities.",
-      "why_this_business": "Lease servicing involves payment processing, credit reporting, and repossession, all governed by federal and state consumer protection law. Credit reporting errors and improper repossession generate regulatory attention and private claims.",
-      "loss_scenario": "Wrongful repossession or inaccurate credit reporting arising from corrupted account data, with statutory damages and regulatory exposure separate from the underlying incident.",
-      "rhetorical_question": "What would happen if your system showed accounts as delinquent that were current?"
+      "headline": "Vehicle telematics report location and usage.",
+      "points": [
+        "Leased vehicles carry telematics reporting to you and the manufacturer.",
+        "That data shows where individual lessees travel.",
+        "Every affected lessee must be notified."
+      ],
+      "rhetorical_question": "What telematics data do your vehicles report, and who can access it?"
     }
   ]
 }

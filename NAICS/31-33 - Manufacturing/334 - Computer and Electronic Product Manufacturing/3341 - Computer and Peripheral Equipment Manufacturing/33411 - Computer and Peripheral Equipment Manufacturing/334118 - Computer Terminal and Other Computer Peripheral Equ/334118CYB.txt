@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Peripherals and point of sale terminals handle payment data.",
-      "why_this_business": "Terminals, card readers, and point of sale peripherals process payment card data, subject to PCI PIN transaction security requirements for the device and PCI DSS 4.0 for the environments they run in.",
-      "loss_scenario": "A device vulnerability enabling card data capture across an installed base, with card brand assessments, forensic investigation, and remediation to devices deployed across thousands of merchant locations.",
+      "headline": "Terminals and readers handle payment card data.",
+      "points": [
+        "Point of sale peripherals and card readers process cardholder and PIN data.",
+        "Device security requirements apply to that handling.",
+        "Remediation reaches devices across thousands of merchant locations."
+      ],
       "rhetorical_question": "Do your devices handle payment card or PIN data?"
     },
     {
       "rank": 2,
-      "headline": "Peripheral firmware is a persistent attack surface.",
-      "why_this_business": "Printers, scanners, and terminals run networked firmware inside customer environments, frequently unmanaged and rarely updated. Compromised peripherals give persistent access and are used as network footholds.",
-      "loss_scenario": "A firmware vulnerability exploited across deployed devices, giving attackers persistence inside customer networks, with the manufacturer required to produce and distribute updates for every affected model.",
+      "headline": "Peripheral firmware gives attackers persistence.",
+      "points": [
+        "Printers, scanners, and terminals run networked firmware inside customer environments.",
+        "Those devices are unmanaged and rarely updated.",
+        "Compromised peripherals are used as long term network footholds."
+      ],
       "rhetorical_question": "How do deployed devices receive firmware updates?"
     },
     {
       "rank": 3,
-      "headline": "Devices are deployed in regulated environments.",
-      "why_this_business": "Terminals and peripherals are installed in healthcare, financial, and retail environments where they handle protected health information or cardholder data and fall inside the customer's compliance scope.",
-      "loss_scenario": "Devices identified as the source of a breach in a healthcare or financial environment, with the customer's regulatory exposure transferred to the manufacturer through contract and indemnity.",
+      "headline": "Devices sit inside regulated customer environments.",
+      "points": [
+        "Terminals are installed in healthcare, financial, and retail settings.",
+        "They handle protected health information and cardholder data.",
+        "Their compliance exposure transfers to you by contract."
+      ],
       "rhetorical_question": "In what regulated environments are your devices installed?"
     }
   ]

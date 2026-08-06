@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Modern farm machinery is a connected computer on wheels.",
-      "why_this_business": "Combines, tractors, and planters run electronic control units, GPS guidance, and telematics connections back to the manufacturer. Machines receive software updates and send operating data continuously. Researchers have publicly demonstrated remote access to agricultural equipment.",
-      "loss_scenario": "A vulnerability permitting remote access to machines in the field during harvest, when equipment downtime is measured against a weather window that does not reopen, with liability for the crop as well as the fix.",
+      "headline": "Your machines are connected computers that you can reach remotely.",
+      "points": [
+        "Combines and tractors run control units, guidance, and telematics back to you.",
+        "Machines receive software updates over that connection.",
+        "Researchers have publicly demonstrated remote access to agricultural equipment."
+      ],
       "rhetorical_question": "Do your machines connect to your systems for telematics or software updates?"
     },
     {
       "rank": 2,
-      "headline": "Equipment failure in the field causes injury and crop loss.",
-      "why_this_business": "Farm machinery has power take-offs, headers, and hydraulic systems that maim operators when control is lost. Safety interlocks and control software prevent unexpected motion.",
-      "loss_scenario": "A control or software defect causing unexpected machine motion with an operator injury, and a recall reaching every machine of the model already in the field.",
+      "headline": "Control defects cause unexpected machine motion.",
+      "points": [
+        "Power take-offs, headers, and hydraulics maim operators when control is lost.",
+        "Safety interlocks and control software prevent that motion.",
+        "A recall reaches every machine of the model already in the field."
+      ],
       "rhetorical_question": "How is machine control software validated and released to production?"
     },
     {
       "rank": 3,
-      "headline": "Dealers and parts supply are the whole aftermarket.",
-      "why_this_business": "Farm equipment is sold and serviced through dealers who order parts, submit warranty claims, and access diagnostic and service information through manufacturer systems. During season, parts availability determines whether a farm operates.",
-      "loss_scenario": "Dealer parts and diagnostic systems unavailable during planting or harvest, with machines down across a region and no route for dealers to identify or order the parts to fix them.",
+      "headline": "Dealers cannot fix anything without your systems.",
+      "points": [
+        "Parts ordering, warranty, and diagnostics all run through manufacturer systems.",
+        "During season, parts availability determines whether a farm operates.",
+        "Machines down across a region during harvest cost the crop."
+      ],
       "rhetorical_question": "How do dealers order parts and access service information from you?"
     }
   ]

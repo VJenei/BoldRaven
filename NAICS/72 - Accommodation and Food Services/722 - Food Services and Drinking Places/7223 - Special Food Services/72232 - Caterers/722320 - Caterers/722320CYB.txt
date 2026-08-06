@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Events are dated and cannot be repeated.",
-      "why_this_business": "Catering is contracted for weddings, corporate events, and functions on fixed dates, with menus, guest counts, dietary requirements, staffing, and rentals committed weeks ahead. The event proceeds on its date regardless.",
-      "loss_scenario": "An event without food, which for a wedding or major function is a reputational catastrophe that spreads immediately through social media and generates claims for the value of the event rather than the catering fee.",
-      "rhetorical_question": "How many contracted events are on your calendar for the next month?"
+      "headline": "Events happen on a fixed date and cannot slip.",
+      "points": [
+        "Weddings, functions, and events are booked for specific dates.",
+        "Menus, staff, and product are committed to those dates.",
+        "A failed event is a wedding with no food."
+      ],
+      "rhetorical_question": "How are your event bookings, menus, and staffing recorded?"
     },
     {
       "rank": 2,
-      "headline": "Allergen and dietary information is recorded per guest.",
-      "why_this_business": "Catering records dietary restrictions and allergies for named guests, communicated to kitchen and service staff. Guests rely on the caterer entirely because they cannot inspect the preparation.",
-      "loss_scenario": "An allergen incident causing anaphylaxis at an event, where the dietary requirements were recorded but not available to the kitchen, with liability and criminal exposure in serious cases.",
-      "rhetorical_question": "How do guest allergy requirements reach your kitchen and service staff?"
+      "headline": "Allergen information is provided and relied on.",
+      "points": [
+        "Guests with allergies are identified and accommodated per event.",
+        "Guests trust the information they are given.",
+        "An allergen error at an event can be fatal."
+      ],
+      "rhetorical_question": "How is guest allergen information recorded and communicated to kitchen staff?"
     },
     {
       "rank": 3,
-      "headline": "Deposits and client payment data are held for months.",
-      "why_this_business": "Caterers take deposits far ahead of events, holding client contact and payment details for private individuals and corporate accounts. Wedding clients in particular have paid substantial deposits against a date years away in some cases.",
-      "loss_scenario": "Diverted client deposits and payment data exposure, with clients who paid a fraudster still expecting the event and the caterer facing the dispute and the date.",
-      "rhetorical_question": "What value of client deposits are you holding for future events?"
+      "headline": "Client records hold deposits and payment data.",
+      "points": [
+        "Bookings carry contact, event, and payment card details.",
+        "Substantial deposits are held ahead of events.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client booking and payment data do you store?"
     }
   ]
 }

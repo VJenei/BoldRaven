@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pesticide application records are legally required and inspected.",
-      "why_this_business": "Applicators must maintain records of restricted use pesticide applications including product, rate, location, date, and applicator licence, retained for periods set by federal and state rules and produced during inspection. Records are also the defence in an exposure claim.",
-      "loss_scenario": "State enforcement for records that cannot be produced, and in a human or pet exposure claim the absence of application records leaves the applicator without a defence.",
-      "rhetorical_question": "Where are your pesticide application records stored, and for how long?"
+      "headline": "Pesticide application records are regulatory records.",
+      "points": [
+        "Product, rate, location, and date are recorded for every application.",
+        "Regulators inspect those records directly.",
+        "Records you cannot produce are treated as applications you cannot justify."
+      ],
+      "rhetorical_question": "How are your pesticide application records recorded and retained?"
     },
     {
       "rank": 2,
-      "headline": "Technicians have keys and access to customer premises.",
-      "why_this_business": "Service routes involve scheduled entry to homes and businesses, frequently when occupants are absent, with access codes and key arrangements recorded in the route system. Commercial accounts include food facilities with after-hours access.",
-      "loss_scenario": "Exposure of customer addresses, access codes, and service schedules provides a route into premises and reveals when they are empty, which is a burglary targeting resource.",
-      "rhetorical_question": "Do you hold access codes or keys for customer premises in your route system?"
+      "headline": "You hold customer addresses and access details.",
+      "points": [
+        "Records carry addresses, access arrangements, and often alarm codes.",
+        "Technicians enter homes and businesses on schedule.",
+        "That data tells an intruder how and when to enter."
+      ],
+      "rhetorical_question": "What customer access details and alarm codes do you store?"
     },
     {
       "rank": 3,
-      "headline": "Food facility and regulated account service supports client compliance.",
-      "why_this_business": "Food processors, restaurants, and healthcare facilities rely on documented pest management as part of their own regulatory and audit compliance, with service reports, trend data, and corrective actions reviewed by auditors and inspectors.",
-      "loss_scenario": "Client audit failures where pest management documentation cannot be produced, with the client's certification or licence at risk and the consequences claimed against the service provider.",
-      "rhetorical_question": "Do your clients rely on your service documentation for their own audits?"
+      "headline": "Scheduled treatments cannot simply be skipped.",
+      "points": [
+        "Commercial customers require treatments on a defined schedule.",
+        "Food facilities and healthcare have audit requirements around it.",
+        "A missed treatment is an audit failure for the customer."
+      ],
+      "rhetorical_question": "How are your scheduled treatments dispatched and recorded?"
     }
   ]
 }

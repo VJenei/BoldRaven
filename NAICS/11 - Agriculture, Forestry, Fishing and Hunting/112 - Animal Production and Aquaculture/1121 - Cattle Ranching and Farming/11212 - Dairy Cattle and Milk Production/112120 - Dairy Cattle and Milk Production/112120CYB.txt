@@ -1,7 +1,6 @@
 {
   "naics_code": "112120",
   "naics_title": "Dairy Cattle and Milk Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Milking equipment is computer controlled and cows must be milked on schedule.",
-      "why_this_business": "Robotic milking systems from Lely and DeLaval and automated rotary and parallel parlors control milking, teat prep, milk metering, conductivity-based mastitis detection, and cleaning cycles. Vendor remote access is standard. Cows must be milked two to three times daily. Unmilked cows develop mastitis and lose production.",
-      "loss_scenario": "Twenty-four hours of milking failure across a 1,000 cow herd causes clinical mastitis, permanent production loss for the lactation, and culling. Culled cows represent $2,000 to $3,500 each in addition to dumped milk.",
-      "rhetorical_question": "Is your milking system computer controlled, and does your vendor have remote access?"
+      "headline": "Cows are milked by machines on a fixed schedule.",
+      "points": [
+        "Parlour and robotic systems run milking, identification, and milk metering.",
+        "Cows must be milked two or three times a day without fail.",
+        "A day of missed milkings causes mastitis and lost production for weeks."
+      ],
+      "rhetorical_question": "Is your milking parlour or robotic system computer controlled?"
     },
     {
       "rank": 2,
-      "headline": "Milk cooling is a regulated process and out-of-spec milk is rejected.",
-      "why_this_business": "The Grade A Pasteurized Milk Ordinance requires raw milk to be cooled to 45 degrees F or below within two hours of milking. Tank cooling, agitation, and clean-in-place cycles are automated and logged. The cooperative tests every pickup.",
-      "loss_scenario": "Rejected and dumped loads at $2,500 to $5,000 per tanker, possible loss of Grade A permit status, and antibiotic or bacteria count violations that suspend shipping.",
-      "rhetorical_question": "Are your bulk tank temperature and CIP cycles logged automatically?"
+      "headline": "Milk must be cooled immediately or the tank is dumped.",
+      "points": [
+        "Bulk tanks cool milk within minutes and hold it until pickup.",
+        "Temperature is monitored and recorded as a condition of sale.",
+        "A tank out of temperature is rejected at the plant and dumped."
+      ],
+      "rhetorical_question": "Is your bulk tank temperature monitored and recorded automatically?"
     },
     {
       "rank": 3,
-      "headline": "All dairy cattle are covered by the federal electronic identification requirement.",
-      "why_this_business": "The APHIS rule effective November 5, 2024 requires all dairy cattle, regardless of age, to carry electronically readable official identification for interstate movement. DHIA herd records, individual production and health histories, breeding and genomic data, and cooperative quality records are also held electronically.",
-      "loss_scenario": "Loss of individual cow records affects breeding decisions, genomic value, and drug withdrawal tracking. A withdrawal tracking failure can result in an antibiotic residue violation.",
-      "rhetorical_question": "How do you track which cows are under a drug withdrawal period?"
+      "headline": "Antibiotic treatment records decide whether milk can be sold.",
+      "points": [
+        "Treated cows must be tracked and their milk withheld for a set period.",
+        "Herd management software holds those treatment and withdrawal records.",
+        "One treated cow milked into the tank contaminates the entire load."
+      ],
+      "rhetorical_question": "How do you record cow treatments and milk withholding periods?"
     }
   ]
 }

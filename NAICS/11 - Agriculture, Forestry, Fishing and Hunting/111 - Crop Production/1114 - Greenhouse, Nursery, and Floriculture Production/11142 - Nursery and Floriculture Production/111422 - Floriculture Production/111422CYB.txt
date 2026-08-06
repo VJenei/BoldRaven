@@ -1,7 +1,6 @@
 {
   "naics_code": "111422",
   "naics_title": "Floriculture Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Revenue is concentrated into fixed holiday dates that cannot be moved.",
-      "why_this_business": "Cut flowers and potted crops are timed to Valentine's Day, Mother's Day, Easter, and Christmas. Crops are programmed months ahead to finish on an exact date and shipped against retail purchase orders through EDI. Product has no value after the holiday passes.",
-      "loss_scenario": "Missing a holiday window writes off crops grown over six months with no salvage value, plus retail chargebacks and possible loss of the program for the following year.",
-      "rhetorical_question": "What percentage of your annual revenue is tied to specific holiday delivery dates?"
+      "headline": "Greenhouse climate controls run the crop automatically.",
+      "points": [
+        "Heating, venting, lighting, and irrigation are all automated.",
+        "Flowering crops are timed to a date weeks in advance.",
+        "Hours outside range can lose a whole crop or miss its date."
+      ],
+      "rhetorical_question": "Are your greenhouse climate and irrigation systems run by automated controls?"
     },
     {
       "rank": 2,
-      "headline": "Flowering is controlled by photoperiod lighting and temperature schedules.",
-      "why_this_business": "Floriculture requires precise day and night temperature differentials for height control, photoperiod lighting for flower initiation, and controlled fertigation EC and pH. These are managed by networked climate computers with remote access. A lighting schedule error can prevent flowering across an entire crop.",
-      "loss_scenario": "A photoperiod or temperature control failure delays or prevents flowering on a crop programmed for a specific holiday. Fixed costs are already fully spent at that point.",
-      "rhetorical_question": "Is your greenhouse lighting and temperature program controlled by a networked system?"
+      "headline": "Holiday crops have to arrive on one specific week.",
+      "points": [
+        "Poinsettias, lilies, and cut flowers are timed to a single holiday.",
+        "Order, shipping, and retail delivery schedules are set months ahead.",
+        "A crop that misses its holiday has no other market."
+      ],
+      "rhetorical_question": "What share of your annual sales ships for specific holidays?"
     },
     {
       "rank": 3,
-      "headline": "Retail programs require EDI, barcode labeling, and vendor portal access.",
-      "why_this_business": "Selling into mass-market retail requires EDI purchase orders and advance ship notices, UPC and case labeling, vendor-managed inventory reporting, and integration with the retailer's replenishment system. Vendors are measured on fill rate and on-time performance.",
-      "loss_scenario": "Vendor compliance chargebacks and program suspension. Retail floral programs are awarded annually, so a failed holiday affects the following year's contract.",
-      "rhetorical_question": "Do you supply mass-market retailers under an EDI vendor program?"
+      "headline": "Retail chains order and receive through their own systems.",
+      "points": [
+        "Orders, labels, and delivery windows come through retailer systems.",
+        "Chargebacks apply when labelling or delivery requirements are missed.",
+        "Losing a chain account removes most of a season's volume."
+      ],
+      "rhetorical_question": "Do you ship to retail chains under their vendor requirements?"
     }
   ]
 }

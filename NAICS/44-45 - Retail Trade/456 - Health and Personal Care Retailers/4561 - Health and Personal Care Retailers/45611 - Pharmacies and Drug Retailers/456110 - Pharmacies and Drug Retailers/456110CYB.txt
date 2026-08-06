@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "When the claims clearinghouse went down, pharmacies could not dispense.",
-      "why_this_business": "Pharmacies adjudicate insurance claims in real time at the point of sale. The February 2024 ransomware attack on Change Healthcare, which processes a very large share of US healthcare transactions, left pharmacies nationwide unable to verify coverage or process claims for weeks, forcing cash payment or manual workarounds. The associated breach affected approximately 190 million people, the largest healthcare data breach in US history.",
-      "loss_scenario": "An inability to adjudicate claims means either dispensing without knowing you will be paid or turning patients away. Contingent business interruption from a clearinghouse or PBM outage is a cyber policy coverage, not a property one.",
-      "rhetorical_question": "Which clearinghouse and PBM do you depend on to adjudicate claims in real time?"
+      "headline": "You hold complete patient health records.",
+      "points": [
+        "Prescriptions, diagnoses, and insurance details are held for every patient.",
+        "Health privacy law requires notification of every affected patient.",
+        "Regulators investigate and penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient prescription records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "You are a HIPAA covered entity holding complete patient medication histories.",
-      "why_this_business": "Pharmacies hold patient identifiers, prescriber details, diagnoses inferable from therapy, insurance information, and complete dispensing histories. As a covered entity you carry direct breach notification duties to patients, HHS, and for large breaches the media, plus civil monetary penalty exposure.",
-      "loss_scenario": "HIPAA breach notification and OCR enforcement, with medication history being among the most sensitive categories of personal data because it reveals conditions patients have not disclosed to anyone else.",
-      "rhetorical_question": "How many patient records with dispensing history are held in your system?"
+      "headline": "Dispensing stops entirely when the system stops.",
+      "points": [
+        "Prescription filling, verification, and insurance adjudication all run on one system.",
+        "Patients cannot receive medication without it.",
+        "Some of those patients cannot safely miss a dose."
+      ],
+      "rhetorical_question": "What happens to dispensing if your pharmacy system is unavailable?"
     },
     {
       "rank": 3,
-      "headline": "Controlled substance and DSCSA recordkeeping are separate federal duties.",
-      "why_this_business": "DEA registration requires perpetual controlled substance records, biennial inventories, and reporting of losses. Separately, under DSCSA dispensers must receive, store, and provide electronic transaction information, with the compliance date for dispensers of November 27, 2025 and a limited exemption for dispensers with 25 or fewer full-time employees until November 27, 2026.",
-      "loss_scenario": "DEA action for unreconcilable controlled substance records, and inability to lawfully receive product where DSCSA transaction data cannot be exchanged or retained.",
-      "rhetorical_question": "How do you receive and store DSCSA transaction information for product you take in?"
+      "headline": "Controlled substance records are federally required.",
+      "points": [
+        "Dispensing, inventory, and reporting records are federally mandated and inspected.",
+        "Diversion is investigated through those records.",
+        "Losing registration ends the ability to dispense at all."
+      ],
+      "rhetorical_question": "What controlled substance dispensing and inventory records do you maintain?"
     }
   ]
 }

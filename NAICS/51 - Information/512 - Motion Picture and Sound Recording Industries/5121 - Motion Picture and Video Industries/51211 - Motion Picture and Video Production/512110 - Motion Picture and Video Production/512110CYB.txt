@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Unreleased content is the asset, and it leaks through production partners.",
-      "why_this_business": "A production holds dailies, cuts, scripts, and finished masters that have no value once released early. Studios now require content security assessments of vendors through the Trusted Partner Network precisely because leaks historically came through production and post-production partners rather than the studio itself.",
-      "loss_scenario": "A pre-release leak destroys the release strategy and, for a title with a large marketing spend already committed, the loss is measured against the whole picture rather than the production budget. Studio contracts impose direct liability for content security failures.",
-      "rhetorical_question": "Have you been through a Trusted Partner Network or studio content security assessment?"
+      "headline": "Unreleased footage is the entire asset.",
+      "points": [
+        "Dailies, cuts, and finished material exist before any release date.",
+        "Studios build marketing and distribution around that date.",
+        "A leak destroys the release and breaches every distribution agreement."
+      ],
+      "rhetorical_question": "Where is unreleased footage stored, and who can access it?"
     },
     {
       "rank": 2,
-      "headline": "Production schedules cannot slip without burning cash daily.",
-      "why_this_business": "A shooting day involves cast, crew, locations, and equipment contracted in advance. Call sheets, schedules, and script revisions are distributed digitally to hundreds of people, and the production office runs on that distribution.",
-      "loss_scenario": "A lost shooting day on a feature or series costs well into six figures with nothing to show for it, and location and cast availability may not allow a simple reschedule.",
-      "rhetorical_question": "What does a single lost shooting day cost your production?"
+      "headline": "A production day costs six figures and cannot be repeated.",
+      "points": [
+        "Cast, crew, locations, and equipment are booked to specific dates.",
+        "Scheduling, call sheets, and production management run electronically.",
+        "A lost shooting day is paid for and produces nothing."
+      ],
+      "rhetorical_question": "What does a shooting day cost on your productions?"
     },
     {
       "rank": 3,
-      "headline": "Cast and crew records include personal and financial data at volume.",
-      "why_this_business": "Productions employ hundreds of people on short engagements through payroll services, holding identity documents, Social Security numbers, banking details, union membership, and for minors, work permits and guardian information.",
-      "loss_scenario": "Breach notification across a large transient workforce spanning multiple states, and union agreements impose their own obligations on how member data is handled.",
-      "rhetorical_question": "How many cast and crew personnel records does a production accumulate?"
+      "headline": "Content security is audited by studios and insurers.",
+      "points": [
+        "Studios impose content security requirements as a condition of the project.",
+        "Audits cover access control, storage, and network segregation.",
+        "Failing an audit removes you from studio work entirely."
+      ],
+      "rhetorical_question": "What content security requirements do your studio agreements impose?"
     }
   ]
 }

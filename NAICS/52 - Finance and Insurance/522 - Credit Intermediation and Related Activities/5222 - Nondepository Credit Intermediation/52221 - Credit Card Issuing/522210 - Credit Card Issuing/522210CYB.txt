@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Card account data is directly and immediately monetisable.",
-      "why_this_business": "Issuers hold primary account numbers, expiry dates, security codes, credit limits, and complete transaction histories alongside the cardholder's identity and credit file. Card data converts to fraud within hours of exposure and is traded in volume.",
-      "loss_scenario": "Mass reissuance across the affected portfolio at material per-card cost, fraud losses during the exposure window, and network assessments, plus notification across every cardholder.",
-      "rhetorical_question": "How many active card accounts would need reissuing if your account data were exposed?"
+      "headline": "You hold cardholder data by definition.",
+      "points": [
+        "Card numbers, account data, and transaction history sit at the centre of the business.",
+        "Payment security requirements apply comprehensively.",
+        "A breach affects every cardholder and every merchant relationship."
+      ],
+      "rhetorical_question": "How many cardholder accounts do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Authorisation systems must respond in milliseconds, continuously.",
-      "why_this_business": "Card authorisation is a real-time service where every transaction depends on the issuer responding within network timeouts. Failure means declines at the point of sale for every cardholder simultaneously, visible immediately and publicly.",
-      "loss_scenario": "Portfolio-wide declines, with cardholders switching to another card in their wallet and often not switching back, plus network penalties for availability failures.",
-      "rhetorical_question": "What happens to your cardholders' transactions if your authorisation system stops responding?"
+      "headline": "Account takeover is continuous and automated.",
+      "points": [
+        "Credential stuffing and account takeover attacks run constantly against card accounts.",
+        "Successful takeover means fraudulent transactions and stolen rewards.",
+        "Cardholders hold you responsible for losses on their account."
+      ],
+      "rhetorical_question": "What controls protect cardholder accounts against automated takeover?"
     },
     {
       "rank": 3,
-      "headline": "Application fraud and account takeover target the issuing process itself.",
-      "why_this_business": "Issuers approve applications using identity and credit data, and synthetic identity fraud specifically targets that process. Account takeover through compromised credentials, and social engineering of customer service to change contact details, are persistent attack patterns.",
-      "loss_scenario": "Fraudulent accounts built and busted out, and legitimate accounts taken over, with losses concentrated before the pattern is detected and regulatory attention to fair treatment of affected consumers.",
-      "rhetorical_question": "How do you verify identity when a cardholder changes their phone number or email?"
+      "headline": "Federal regulators require incident notification.",
+      "points": [
+        "Regulators require notification of significant computer security incidents.",
+        "Examinations assess information security programmes directly.",
+        "Findings affect ratings and can restrict activities."
+      ],
+      "rhetorical_question": "What incident notification obligations apply to your institution?"
     }
   ]
 }

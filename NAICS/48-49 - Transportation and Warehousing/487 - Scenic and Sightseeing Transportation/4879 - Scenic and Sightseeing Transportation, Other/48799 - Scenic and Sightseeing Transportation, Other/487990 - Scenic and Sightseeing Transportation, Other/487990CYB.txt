@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Air tour and adventure operations carry concentrated life safety risk.",
-      "why_this_business": "Helicopter tours, balloon rides, and similar operations carry passengers in activities where an equipment or judgement failure is usually fatal. Maintenance status, pilot currency, weather decision records, and passenger weight data are all required before dispatch.",
-      "loss_scenario": "An accident where maintenance and currency records cannot be produced, in NTSB investigation and litigation involving multiple fatalities.",
-      "rhetorical_question": "How is maintenance status and pilot currency verified before each flight?"
+      "headline": "Bookings and payments run the whole operation.",
+      "points": [
+        "Reservations, ticketing, and payment run through connected systems.",
+        "Customers book ahead and travel to reach you.",
+        "Without the system you cannot board or account for passengers."
+      ],
+      "rhetorical_question": "How are your bookings and ticketing handled?"
     },
     {
       "rank": 2,
-      "headline": "Weight and balance depends on accurate passenger data.",
-      "why_this_business": "Air and balloon operations require actual passenger weights and distribution for weight and balance calculation. Booking systems capture the data and dispatch relies on it. Errors put the aircraft outside its certificated envelope.",
-      "loss_scenario": "An aircraft dispatched outside weight and balance limits, which is a direct loss of control exposure and a certificate action against the operator.",
-      "rhetorical_question": "How are passenger weights captured and used in your weight and balance calculation?"
+      "headline": "Passenger manifests matter after an incident.",
+      "points": [
+        "Manifests identify who was aboard each trip.",
+        "Responders and families rely on that information.",
+        "Without it nobody knows who was on board."
+      ],
+      "rhetorical_question": "How are your passenger manifests recorded?"
     },
     {
       "rank": 3,
-      "headline": "Bookings, waivers, and payment run through one platform.",
-      "why_this_business": "Adventure operators sell online with stored payment methods, signed electronic liability waivers, and medical declarations from participants. The waiver is the operator's primary legal protection and exists only electronically.",
-      "loss_scenario": "A liability claim where the signed waiver and medical declaration cannot be produced, removing the defence the entire risk model depends on.",
-      "rhetorical_question": "Where are your signed electronic waivers stored, and could you produce one from three years ago?"
+      "headline": "The season is short and cannot be extended.",
+      "points": [
+        "Operations concentrate into a tourist season.",
+        "Capacity is fixed and cannot be recovered later.",
+        "Days lost in season are days of revenue gone."
+      ],
+      "rhetorical_question": "What share of your annual revenue happens in your peak season?"
     }
   ]
 }

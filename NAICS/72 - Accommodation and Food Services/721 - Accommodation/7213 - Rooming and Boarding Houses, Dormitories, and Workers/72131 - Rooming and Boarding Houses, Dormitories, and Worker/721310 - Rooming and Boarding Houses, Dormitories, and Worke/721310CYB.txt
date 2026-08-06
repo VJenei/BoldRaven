@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Resident records identify vulnerable people and where they sleep.",
-      "why_this_business": "Operators hold resident identities, room assignments, emergency contacts, and frequently employer or institutional affiliation. Residents include students, transient workers, and people in insecure housing situations.",
-      "loss_scenario": "Exposure of resident identities and room assignments, which identifies where specific individuals sleep, and for residents avoiding a particular person that is a direct safety exposure.",
-      "rhetorical_question": "Do your records identify which resident occupies which room?"
+      "headline": "Residents live here and depend on the facility.",
+      "points": [
+        "Housing, utilities, and access systems run continuously.",
+        "Residents have no alternative accommodation.",
+        "A failure leaves people without a place to live."
+      ],
+      "rhetorical_question": "How many residents depend on your facility for housing?"
     },
     {
       "rank": 2,
-      "headline": "Access control secures shared residential buildings.",
-      "why_this_business": "Facilities use electronic access control for building and room entry, with credentials issued and revoked as residents come and go. Shared residential settings depend on that control to keep non-residents out.",
-      "loss_scenario": "Unauthorised access to a residential building, which is a physical safety exposure for residents and, where the operator is a landlord, a habitability and security liability.",
-      "rhetorical_question": "How quickly are access credentials revoked when a resident leaves?"
+      "headline": "Resident records hold identity and payment data.",
+      "points": [
+        "Records carry identity, employer, and payment information.",
+        "Recurring payments run against those records.",
+        "Every affected resident must be notified."
+      ],
+      "rhetorical_question": "What resident identity and payment data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Workforce housing ties accommodation to employment records.",
-      "why_this_business": "Workers' camps and employer-provided housing link accommodation to employment, holding worker identity, immigration documentation for guest workers, payroll deductions for housing, and occupancy records subject to inspection.",
-      "loss_scenario": "Exposure of worker immigration and identity documentation for a population that is frequently vulnerable, plus regulatory exposure where housing conditions and deduction records cannot be produced.",
-      "rhetorical_question": "Do you hold immigration or work authorisation documents for resident workers?"
+      "headline": "Access control protects residents and their belongings.",
+      "points": [
+        "Electronic locks and access systems control entry to the facility and rooms.",
+        "Residents sleep behind those locks.",
+        "Compromise of the access system is a resident safety matter."
+      ],
+      "rhetorical_question": "How are your electronic access and key systems managed?"
     }
   ]
 }

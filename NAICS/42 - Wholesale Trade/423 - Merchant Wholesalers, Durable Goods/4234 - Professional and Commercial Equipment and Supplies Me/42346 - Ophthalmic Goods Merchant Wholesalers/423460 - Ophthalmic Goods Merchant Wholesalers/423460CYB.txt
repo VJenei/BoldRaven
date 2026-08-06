@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Prescription data is health information.",
-      "why_this_business": "Optical laboratories and distributors receive patient prescriptions with names, prescriber details, and lens specifications in order to produce and ship eyewear. That is protected health information and typically makes the distributor a business associate under HIPAA.",
-      "loss_scenario": "A breach requires patient notification and HHS reporting, with direct enforcement against the distributor as a business associate, on top of the optical practices' own obligations and their claim against you.",
-      "rhetorical_question": "Do you receive patient names alongside prescriptions from optical practices?"
+      "headline": "Contact lens sales are federally regulated.",
+      "points": [
+        "Prescription verification and record requirements apply to contact lens sales.",
+        "Records must be retained and produced to regulators.",
+        "Selling without valid prescription verification is an enforceable violation."
+      ],
+      "rhetorical_question": "How do you verify and record prescriptions for contact lens sales?"
     },
     {
       "rank": 2,
-      "headline": "Lens production is made to order with no substitutable stock.",
-      "why_this_business": "Prescription lenses are surfaced, coated, and edged to an individual prescription and frame, driven by job files through automated laboratory equipment. Every job is unique. There is no inventory to ship instead.",
-      "loss_scenario": "A laboratory outage means every patient in the pipeline waits, with practices unable to give a delivery date and patients without glasses. Job files that are lost must be reordered from the practice.",
-      "rhetorical_question": "How many patient jobs are in your production pipeline at any moment?"
+      "headline": "Prescriptions are patient data you hold.",
+      "points": [
+        "Prescription details and patient identity are held for every order.",
+        "That data identifies individuals and their health information.",
+        "State notification laws apply to every affected patient."
+      ],
+      "rhetorical_question": "What patient prescription data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Contact lenses and eyewear are regulated devices with verification duties.",
-      "why_this_business": "Contact lenses are medical devices and sellers must verify prescriptions with the prescriber under the Contact Lens Rule, retaining records of verification for three years. FTC enforces this and has brought substantial penalty actions.",
-      "loss_scenario": "Civil penalties for verification records that cannot be produced, assessed per violation across a large volume of transactions.",
-      "rhetorical_question": "How do you record prescription verification for contact lens sales?"
+      "headline": "Practices order for appointments already scheduled.",
+      "points": [
+        "Product is ordered against patient fitting and dispensing appointments.",
+        "Patients take time off to attend those appointments.",
+        "A supply gap means cancelled appointments across many practices."
+      ],
+      "rhetorical_question": "How quickly do your practice customers expect delivery?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "This industry produced a salmonella outbreak that led to criminal convictions.",
-      "why_this_business": "A peanut processing company knowingly shipped salmonella-contaminated product, causing an outbreak with deaths and resulting in criminal convictions and a 28-year prison sentence for its chief executive. Testing records and shipping decisions were the evidence.",
-      "loss_scenario": "A salmonella outbreak from a low moisture product with long shelf life, distributed as an ingredient into hundreds of downstream products, with criminal exposure where testing records show what was known.",
-      "rhetorical_question": "How are pathogen testing results recorded against lots, and who decides to release product?"
+      "headline": "Peanut butter salmonella outbreaks have killed people and closed companies.",
+      "points": [
+        "Salmonella survives in low moisture product for months.",
+        "Roast validation, environmental monitoring, and testing records establish control.",
+        "One outbreak in this category ended a company and led to criminal convictions."
+      ],
+      "rhetorical_question": "What roast validation and environmental monitoring records do you keep?"
     },
     {
       "rank": 2,
-      "headline": "Peanut and tree nut allergens are the most severe.",
-      "why_this_business": "Peanut and tree nut allergies cause the majority of fatal food anaphylaxis, and facilities processing both must control cross-contact rigorously. Undeclared peanut or tree nut in a product is among the most dangerous labelling errors possible.",
-      "loss_scenario": "An anaphylaxis death from undeclared peanut or tree nut, with recall, litigation, and regulatory response at the highest level of severity.",
-      "rhetorical_question": "How is cross-contact controlled between peanut and tree nut production?"
+      "headline": "Aflatoxin testing controls what can be sold.",
+      "points": [
+        "Incoming nuts are tested for aflatoxin before they enter production.",
+        "Test results are tied to specific lots.",
+        "Contaminated product cannot be sold in any market."
+      ],
+      "rhetorical_question": "What aflatoxin testing records do you maintain for incoming nuts?"
     },
     {
       "rank": 3,
-      "headline": "Aflatoxin testing is required and traceable to farm lots.",
-      "why_this_business": "Peanuts and tree nuts carry aflatoxin risk with FDA action levels and mandatory testing at processing. Positive results trace back through buying points to specific farmer stock lots.",
-      "loss_scenario": "Aflatoxin above action levels in distributed product, with recall and inability to trace back to source lots preventing any recovery from the supplier and expanding the recall scope.",
-      "rhetorical_question": "How do you document aflatoxin testing against incoming lots?"
+      "headline": "Your product is a declared allergen in everything downstream.",
+      "points": [
+        "Peanut and tree nut products go into countless customer foods.",
+        "Cross contact and label errors are the most serious allergen failures.",
+        "A peanut allergen error can kill the person who eats it."
+      ],
+      "rhetorical_question": "How are allergen changeover and label controls documented per run?"
     }
   ]
 }

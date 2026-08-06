@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Regulated laboratories depend on your instruments for data integrity.",
-      "why_this_business": "Instruments in pharmaceutical and clinical laboratories generate data subject to FDA 21 CFR Part 11 requirements for electronic records and audit trails. The instrument software must prevent undetected alteration of results.",
-      "loss_scenario": "Software defects compromising audit trails or record integrity, with customers receiving FDA observations for data integrity, batch records invalidated, and product release decisions called into question.",
-      "rhetorical_question": "Does your instrument software support 21 CFR Part 11 electronic record requirements?"
+      "headline": "Regulated laboratories rely on your software for data integrity.",
+      "points": [
+        "Instruments in pharmaceutical and clinical labs generate regulated electronic records.",
+        "Software must prevent undetected alteration of results.",
+        "Audit trail defects invalidate batch records and release decisions."
+      ],
+      "rhetorical_question": "Does your instrument software support regulated electronic record requirements?"
     },
     {
       "rank": 2,
       "headline": "Instruments are networked and supported remotely.",
-      "why_this_business": "Laboratory instruments connect to information management systems and receive remote support and updates from the manufacturer, sitting inside pharmaceutical, clinical, and research networks.",
-      "loss_scenario": "Remote support access used to reach customer laboratory networks, stopping analysis and, in pharmaceutical manufacturing, holding product that cannot be released without testing.",
+      "points": [
+        "Instruments connect to laboratory systems and receive remote support from you.",
+        "Those networks are inside pharmaceutical, clinical, and research organisations.",
+        "In drug manufacturing, stopped analysis holds product that cannot be released."
+      ],
       "rhetorical_question": "How do your service engineers connect to instruments at customer laboratories?"
     },
     {
       "rank": 3,
-      "headline": "Instrument results drive clinical and release decisions.",
-      "why_this_business": "Analytical results determine whether pharmaceutical batches are released, whether clinical samples are reported, and whether environmental samples pass. Erroneous results propagate into those decisions.",
-      "loss_scenario": "An instrument or software defect producing incorrect results, with pharmaceutical batches released on wrong data or clinical results misreported across the period the defect was present.",
+      "headline": "Results drive clinical and batch release decisions.",
+      "points": [
+        "Analytical results determine whether drug batches are released and clinical samples reported.",
+        "Erroneous results propagate straight into those decisions.",
+        "The consequence is patients treated on wrong data."
+      ],
       "rhetorical_question": "What decisions do your customers make on the basis of instrument results?"
     }
   ]

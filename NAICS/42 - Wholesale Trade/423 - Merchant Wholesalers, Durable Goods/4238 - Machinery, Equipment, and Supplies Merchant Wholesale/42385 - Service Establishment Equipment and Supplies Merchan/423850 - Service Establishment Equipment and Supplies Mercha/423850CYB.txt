@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Restaurant and commercial kitchen customers cannot trade without their equipment.",
-      "why_this_business": "Distributors supply and service refrigeration, cooking, and warewashing equipment to restaurants, where a single failure closes the kitchen. Emergency parts and service dispatch depend on knowing what equipment is installed at each location.",
-      "loss_scenario": "A restaurant closed for days waiting on a part, with lost revenue claimed against the supplier and an account that will not return.",
-      "rhetorical_question": "Do you maintain records of what equipment is installed at each customer location?"
+      "headline": "Customers cannot trade without their equipment and supplies.",
+      "points": [
+        "Restaurants, salons, and service businesses depend on continuous supply.",
+        "They hold days of stock at most.",
+        "A supply gap closes their business, not just a process."
+      ],
+      "rhetorical_question": "How quickly do your customers expect delivery on ordered supplies?"
     },
     {
       "rank": 2,
-      "headline": "Equipment packages are quoted and delivered to construction schedules.",
-      "why_this_business": "New restaurant, salon, and facility builds are quoted as equipment packages tied to a construction schedule and an opening date announced to the public. Delivery, installation, and start-up are sequenced with the general contractor.",
-      "loss_scenario": "A missed opening date because equipment could not be scheduled or delivered, with the operator claiming lost opening revenue and marketing spend against the supplier.",
-      "rhetorical_question": "How many customer openings are you scheduled to equip in the next quarter?"
+      "headline": "Product safety and compliance obligations pass through you.",
+      "points": [
+        "Chemical, food contact, and consumer safety requirements apply to distributed goods.",
+        "Distribution records determine recall reach.",
+        "Without them the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific product lot?"
     },
     {
       "rank": 3,
-      "headline": "Small business customers pay by card and finance equipment.",
-      "why_this_business": "Independent operators buy equipment on card, through equipment finance applications, or on distributor credit terms, providing personal guarantor information. Card and credit data is held in the order and account systems.",
-      "loss_scenario": "Breach exposing small business owners' personal financial and card data, in a customer base that has no capacity to absorb identity theft and will hold the supplier responsible.",
-      "rhetorical_question": "Do you store customer card details or finance applications?"
+      "headline": "Customer accounts hold payment and ordering details.",
+      "points": [
+        "Account, billing, and payment details are held for every customer.",
+        "Ordering runs automatically against those accounts.",
+        "State notification laws apply to every affected customer."
+      ],
+      "rhetorical_question": "What customer billing and payment information do you store?"
     }
   ]
 }

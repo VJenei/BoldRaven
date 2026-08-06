@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Upholstered furniture is regulated for flammability.",
-      "why_this_business": "Upholstered furniture must meet the federal flammability standard 16 CFR 1640 based on California Technical Bulletin 117-2013, with a required label and records supporting compliance for every unit.",
-      "loss_scenario": "Furniture sold without supportable flammability compliance, with CPSC enforcement, recall from retail and consumers, and litigation where a fire involved the furniture.",
+      "headline": "Upholstered furniture is federally regulated for flammability.",
+      "points": [
+        "Furniture must meet a federal flammability standard with a required label.",
+        "Records supporting compliance are required for every unit.",
+        "Enforcement and recall follow product sold without them."
+      ],
       "rhetorical_question": "How do you document flammability compliance and labelling per production run?"
     },
     {
       "rank": 2,
-      "headline": "Furniture tip-over and structural failures injure children.",
-      "why_this_business": "Furniture stability and structural integrity are CPSC concerns, with the STURDY Act establishing a mandatory stability standard for clothing storage units and a 24 hour reporting obligation for hazards generally.",
-      "loss_scenario": "A CPSC recall for a stability or structural hazard, with reach determined by distribution records and civil penalties where reporting was late.",
+      "headline": "Tip-over and structural failures injure children.",
+      "points": [
+        "Stability and structural integrity are consumer safety concerns.",
+        "Reporting obligations apply once a hazard is known.",
+        "Recall reach depends entirely on distribution records."
+      ],
       "rhetorical_question": "Could you identify which retailers received a specific production run?"
     },
     {
       "rank": 3,
-      "headline": "Product is made to order in a mix of thousands of combinations.",
-      "why_this_business": "Upholstered furniture is built to selected frame, fabric, and configuration combinations for individual orders, with cutting patterns and fabric allocation driven by the order.",
-      "loss_scenario": "Orders lost or built wrong, with fabric cut and unusable, retailers unable to fulfil customer orders, and the delivery lead time restarting from zero on every affected order.",
+      "headline": "Every order is one of thousands of combinations.",
+      "points": [
+        "Frame, fabric, and configuration are selected per individual order.",
+        "Cutting patterns and fabric allocation are driven by that order.",
+        "Fabric cut for a lost order is unusable for anything else."
+      ],
       "rhetorical_question": "How many active custom orders are in your production system at once?"
     }
   ]

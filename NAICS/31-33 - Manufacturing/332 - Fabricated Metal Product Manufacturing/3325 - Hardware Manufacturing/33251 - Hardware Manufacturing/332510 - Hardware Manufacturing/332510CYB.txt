@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Locks and security hardware protect buildings and people.",
-      "why_this_business": "Locksets, exit devices, and door hardware carry security ratings and, for exit devices and fire door hardware, life safety listings. Exit hardware must allow egress and fire door hardware must maintain the rating.",
-      "loss_scenario": "Non-conforming exit or fire door hardware installed in occupancies, where egress fails or fire doors do not latch, with fatality exposure in a fire and listing records determining liability.",
+      "headline": "Exit and fire door hardware are life safety products.",
+      "points": [
+        "Exit devices must allow egress and fire door hardware must maintain the rating.",
+        "Those functions matter only during a fire.",
+        "Non-conforming hardware fails when occupants are trying to leave."
+      ],
       "rhetorical_question": "Do you manufacture exit devices or fire door hardware carrying safety listings?"
     },
     {
       "rank": 2,
-      "headline": "Electronic locks and access hardware are connected devices.",
-      "why_this_business": "Modern hardware includes electronic and connected locks with credentials, firmware, and in some products network connectivity. Vulnerabilities in lock firmware allow doors to be opened without authorisation.",
-      "loss_scenario": "A firmware vulnerability permitting unauthorised entry across every installation of the product, requiring a security update campaign to buildings whose owners may not even know the product is connected.",
+      "headline": "Electronic locks are connected devices in buildings.",
+      "points": [
+        "Modern hardware includes credentials, firmware, and network connectivity.",
+        "Firmware vulnerabilities allow doors to open without authorisation.",
+        "A field update campaign has to reach every installation."
+      ],
       "rhetorical_question": "Do your products include firmware that can be updated in the field?"
     },
     {
       "rank": 3,
-      "headline": "High volume production runs on automated equipment.",
-      "why_this_business": "Hardware production runs stamping, machining, and assembly at volume with process parameters and quality checks determining conformance. Consumer products carry CPSC reporting obligations.",
-      "loss_scenario": "Defective production distributed to retail and construction before detection, with recall costs determined by whether distribution records can identify affected production.",
+      "headline": "Volume production distributes defects before detection.",
+      "points": [
+        "Stamping, machining, and assembly run at volume from stored parameters.",
+        "Product reaches retail and construction before problems surface.",
+        "Recall reach depends entirely on distribution records."
+      ],
       "rhetorical_question": "Could you identify which distributors received a specific production run?"
     }
   ]

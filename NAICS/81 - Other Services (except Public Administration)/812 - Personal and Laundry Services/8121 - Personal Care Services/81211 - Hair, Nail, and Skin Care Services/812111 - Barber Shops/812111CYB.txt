@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Booking and payment systems are the whole front of house.",
-      "why_this_business": "Barber shops run appointment booking, walk-in queue management, and card payment through a single platform, frequently with online booking and stored payment for no-show protection. Chair time not booked is revenue lost permanently.",
-      "loss_scenario": "Inability to take bookings or payment, with the queue unmanaged and chair time lost that cannot be recovered, in a business where revenue is a direct function of occupied chair hours.",
-      "rhetorical_question": "What proportion of your appointments are booked online?"
+      "headline": "Bookings and card payments run every day.",
+      "points": [
+        "Appointments and payments run on connected systems.",
+        "Clients book online and arrive expecting a slot.",
+        "Card security requirements apply to every location."
+      ],
+      "rhetorical_question": "How are your appointments booked and card payments processed?"
     },
     {
       "rank": 2,
-      "headline": "Client records hold contact details and payment methods.",
-      "why_this_business": "Booking platforms hold client names, contact details, appointment histories, preferences, and stored payment methods, accumulated across years of repeat visits.",
-      "loss_scenario": "Card and contact data exposure across the client base, with liability assigned to the merchant by the processing agreement at amounts a single-location business cannot fund.",
-      "rhetorical_question": "How many clients have payment methods stored in your booking system?"
+      "headline": "Client records hold contact and payment data.",
+      "points": [
+        "Records carry contact details, service history, and payment information.",
+        "Recurring bookings run against those records.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client and payment data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Booth renters and staff complicate who holds the data.",
-      "why_this_business": "Many shops operate with booth renters or independent contractors who maintain their own client lists within a shared platform, creating questions about who controls the data and who is responsible for it.",
-      "loss_scenario": "Disputes over client data ownership when a barber leaves, and unclear responsibility for breach notification where the platform is shared but the client relationships are individual.",
-      "rhetorical_question": "Who owns the client records in your booking system, the shop or the individual barber?"
+      "headline": "Chair rental and stylist records run the business.",
+      "points": [
+        "Booth rent, commissions, and stylist schedules are tracked electronically.",
+        "Stylists depend on accurate records for their income.",
+        "Disputes over commission are disputes over the records."
+      ],
+      "rhetorical_question": "How are your stylist commission and rental records maintained?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Thermal processing of petroleum products is hazardous and continuous.",
-      "why_this_business": "Operations in this category process petroleum and coal derivatives at high temperature, with coking, distillation, and thermal treatment run under continuous control. Products and intermediates are flammable and in some cases toxic.",
-      "loss_scenario": "Fire, explosion, or release from loss of process control, with worker fatality exposure and regulatory response under process safety management where threshold quantities apply.",
-      "rhetorical_question": "Is your facility covered by OSHA process safety management requirements?"
+      "headline": "Processing runs continuously under automated control.",
+      "points": [
+        "Heating, blending, and forming run as controlled continuous processes.",
+        "Product properties depend on holding process parameters.",
+        "A control failure produces off specification product across the run."
+      ],
+      "rhetorical_question": "Is your plant run by a central process control system?"
     },
     {
       "rank": 2,
-      "headline": "Product specifications determine downstream usability.",
-      "why_this_business": "Products are supplied to industrial customers against specifications for composition and properties, qualified for specific applications. Off-specification material fails in the customer's process.",
-      "loss_scenario": "Off-specification product causing failures in customer processes, with their production losses claimed against the supplier and requalification required before supply resumes.",
-      "rhetorical_question": "How is product specification verified before shipment?"
+      "headline": "Product specifications are qualified with customers.",
+      "points": [
+        "Customers qualify your product into their processes and products.",
+        "Substitution requires requalification, which takes months.",
+        "Off specification product stops their production, not just yours."
+      ],
+      "rhetorical_question": "How are your product specifications tested and recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Air and waste permits govern continuous operation.",
-      "why_this_business": "Facilities operate under air permits with emissions monitoring and waste handling requirements under RCRA, with records demonstrating compliance and reporting on defined schedules.",
-      "loss_scenario": "Permit exceedances and reporting failures assessed per day per violation, with the regulator able to restrict operation where compliance cannot be demonstrated.",
-      "rhetorical_question": "What continuous emissions monitoring does your permit require?"
+      "headline": "Hot and flammable materials carry process safety obligations.",
+      "points": [
+        "High temperature and flammable materials are handled under process controls.",
+        "Process safety and emissions records are inspected by regulators.",
+        "A control failure is a fire, not a production issue."
+      ],
+      "rhetorical_question": "How are your process safety systems monitored and recorded?"
     }
   ]
 }

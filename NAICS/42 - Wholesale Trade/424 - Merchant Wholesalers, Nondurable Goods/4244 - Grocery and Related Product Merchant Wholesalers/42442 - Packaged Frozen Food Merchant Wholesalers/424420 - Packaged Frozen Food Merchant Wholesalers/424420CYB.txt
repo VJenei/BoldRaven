@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Frozen inventory has no tolerance for a control failure.",
-      "why_this_business": "Frozen distribution depends on refrigeration control and continuous temperature monitoring across large freezer warehouses holding product at minus 18 degrees Celsius or below. A control failure that goes undetected thaws inventory that cannot be refrozen and sold.",
-      "loss_scenario": "A freezer warehouse holds millions of dollars of product. A refrigeration or monitoring failure over a weekend condemns all of it, and the disposal cost is on top of the loss.",
-      "rhetorical_question": "How is your freezer temperature monitored, and how are alarms delivered out of hours?"
+      "headline": "The cold chain is the entire product.",
+      "points": [
+        "Freezer storage and transport temperatures are monitored continuously.",
+        "Product that thaws is unsafe and unsellable.",
+        "A refrigeration failure can lose an entire warehouse."
+      ],
+      "rhetorical_question": "Is your freezer and transport temperature monitored and recorded automatically?"
     },
     {
       "rank": 2,
-      "headline": "Recall response depends on lot-level distribution records.",
-      "why_this_business": "Frozen foods are subject to recalls for pathogens and allergens, requiring identification of every customer that received an affected lot. FDA and USDA expect rapid, accurate distribution lists. Frozen product sits in customer freezers for months, extending the exposure window.",
-      "loss_scenario": "An expanded recall covering far more product than necessary because lot-level distribution could not be reconstructed, with the cost of the wider recall falling on the distributor.",
-      "rhetorical_question": "Could you produce a distribution list for a specific lot within a few hours?"
+      "headline": "Recall reach depends on your distribution records.",
+      "points": [
+        "Frozen food recalls identify specific lots and periods.",
+        "Your records determine which customers received them.",
+        "Without records the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific product lot?"
     },
     {
       "rank": 3,
-      "headline": "Delivery routing balances temperature exposure against service.",
-      "why_this_business": "Multi-temperature delivery vehicles serve routes where each stop opens the door. Routing, load sequencing, and temperature logging are managed by software to keep product within specification across a full route.",
-      "loss_scenario": "Routes run without proper sequencing and monitoring, producing temperature excursions across a full truckload and product rejected on arrival at every stop.",
-      "rhetorical_question": "How are your delivery routes sequenced and temperature-logged?"
+      "headline": "Customers order against menus and shelf plans.",
+      "points": [
+        "Retail and foodservice customers order on fixed schedules.",
+        "Their menus and shelf sets are built around your supply.",
+        "A supply gap forces substitution across their whole operation."
+      ],
+      "rhetorical_question": "How quickly do your customers expect delivery?"
     }
   ]
 }

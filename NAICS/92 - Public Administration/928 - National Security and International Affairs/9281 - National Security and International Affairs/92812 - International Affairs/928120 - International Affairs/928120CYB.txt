@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Diplomatic and international communications are intelligence targets.",
-      "why_this_business": "Organisations in international affairs hold diplomatic communications, negotiating positions, assessments of foreign parties, and information about local staff and contacts. Foreign intelligence services target this material continuously.",
-      "loss_scenario": "Exposure of negotiating positions and assessments damaging relationships and ongoing negotiations, and disclosure of local contacts and staff creating personal risk for individuals in countries where the affiliation is dangerous.",
-      "rhetorical_question": "Would exposure of your contacts put any individual at risk in their own country?"
+      "headline": "Diplomatic communications are a top intelligence target.",
+      "points": [
+        "Cables, negotiations, and assessments are targeted by foreign intelligence services.",
+        "Disclosure damages negotiations and relationships permanently.",
+        "Sources and contacts abroad can be identified and endangered."
+      ],
+      "rhetorical_question": "What controls protect your diplomatic communications and reporting?"
     },
     {
       "rank": 2,
-      "headline": "Local staff and contacts are exposed personally.",
-      "why_this_business": "International operations depend on locally engaged staff, partners, and contacts whose association with a foreign government or organisation is sensitive and in some countries dangerous. Employment and contact records identify them.",
-      "loss_scenario": "Identification of local staff and contacts leading to harassment, arrest, or violence, which is a direct personal consequence for individuals who cannot be protected once the information is out.",
-      "rhetorical_question": "Do your records identify local staff and contacts in sensitive countries?"
+      "headline": "Personnel and contact data can endanger people.",
+      "points": [
+        "Records identify local staff, contacts, and sources abroad.",
+        "In some countries that association is dangerous.",
+        "Disclosure leads to arrest, harassment, and worse."
+      ],
+      "rhetorical_question": "What personnel and local contact data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Programme and assistance data identifies beneficiaries.",
-      "why_this_business": "International programmes hold beneficiary records, partner organisation details, and programme locations, frequently in contexts where receiving foreign assistance is politically sensitive or personally dangerous.",
-      "loss_scenario": "Exposure of beneficiary and partner data in environments where association with foreign programmes is punished, with consequences for individuals and partner organisations that no remediation addresses.",
-      "rhetorical_question": "Would beneficiaries or partners face consequences if their participation became known?"
+      "headline": "Consular systems hold citizen and visa data.",
+      "points": [
+        "Passport, visa, and consular records carry identity and travel data.",
+        "Those records cover citizens and foreign nationals alike.",
+        "Every affected individual must be notified."
+      ],
+      "rhetorical_question": "How many passport, visa, and consular records do your systems hold?"
     }
   ]
 }

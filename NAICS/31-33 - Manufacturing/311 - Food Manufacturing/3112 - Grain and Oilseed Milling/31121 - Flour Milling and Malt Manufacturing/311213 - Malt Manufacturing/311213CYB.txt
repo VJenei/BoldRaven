@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Malting is a biological process measured in days.",
-      "why_this_business": "Steeping, germination, and kilning proceed over several days under controlled moisture, temperature, and airflow. The grain is alive during germination and the process cannot be paused. Losing control mid-cycle ruins the batch.",
-      "loss_scenario": "A germination or kilning batch ruined, representing several days of vessel capacity and the barley in it, with brewery customers who specified that malt for a production schedule.",
-      "rhetorical_question": "How many days is a batch in process, and what happens if control is lost mid-cycle?"
+      "headline": "Malting is a controlled biological process over days.",
+      "points": [
+        "Steeping, germination, and kilning run to precise temperature and moisture schedules.",
+        "The process runs continuously and cannot be paused mid-batch.",
+        "A control failure ruins every vessel in process at once."
+      ],
+      "rhetorical_question": "Is your malting process run by automated temperature and moisture controls?"
     },
     {
       "rank": 2,
-      "headline": "Brewers specify malt to tight analytical parameters.",
-      "why_this_business": "Malt is sold on analytical specification covering extract, colour, protein, and enzymatic activity, with brewers formulating recipes around those numbers. Out of specification malt changes the beer.",
-      "loss_scenario": "Malt delivered outside specification affecting brewery production, with the brewer claiming for spoiled batches and the maltster losing a customer relationship built over years.",
-      "rhetorical_question": "How are analytical results tied to specific malt lots shipped to customers?"
+      "headline": "Brewers formulate their beer around your malt specification.",
+      "points": [
+        "Extract, colour, and enzyme specifications are matched to customer recipes.",
+        "Substitution changes the beer, which brewers will not accept.",
+        "Off specification malt is rejected and the brewer's production stops."
+      ],
+      "rhetorical_question": "How are your malt specifications tested and recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Mycotoxin testing protects the entire downstream chain.",
-      "why_this_business": "Barley carries mycotoxin risk, particularly DON, which carries through malting into beer. Testing at intake and through processing determines whether grain can be malted and whether malt can be shipped.",
-      "loss_scenario": "Contaminated malt reaching breweries and entering beer, with recall exposure across the brewer's production and claims traced back to the maltster's testing and acceptance decisions.",
-      "rhetorical_question": "How do you document mycotoxin testing at barley intake?"
+      "headline": "Mycotoxin testing controls what can be sold.",
+      "points": [
+        "Incoming barley and finished malt are tested for mycotoxins.",
+        "Brewers require those results before accepting delivery.",
+        "Contaminated malt cannot be sold at all and the barley is lost too."
+      ],
+      "rhetorical_question": "What mycotoxin testing records do you maintain for barley and malt?"
     }
   ]
 }

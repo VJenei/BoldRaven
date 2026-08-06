@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Hydraulic components fail at pressure and injure people.",
-      "why_this_business": "Hydraulic valves, fittings, and hose assemblies operate at thousands of psi. Failure produces high pressure fluid injection injuries and drops suspended loads on equipment where hydraulics hold them.",
-      "loss_scenario": "Fitting or valve failures at pressure causing injection injuries and dropped loads on construction and industrial equipment, with recall of every assembly from the affected production.",
+      "points": [
+        "Valves, fittings, and hose assemblies operate at thousands of pounds per square inch.",
+        "Failure causes fluid injection injuries and drops suspended loads.",
+        "The injury happens at the machine, not in your plant."
+      ],
       "rhetorical_question": "What operating pressures do your components carry, and how is testing recorded?"
     },
     {
       "rank": 2,
-      "headline": "Assemblies are built to specification and pressure tested.",
-      "why_this_business": "Hose assemblies are built to length, fitting, and pressure rating with crimp specifications that determine whether the fitting holds. Crimp dimensions are checked and recorded as the evidence of a sound assembly.",
-      "loss_scenario": "Assemblies crimped to wrong specifications separating under pressure, which is both an injury hazard and an equipment failure, with every assembly built to the affected setting requiring recall.",
+      "headline": "Crimp specifications determine whether the fitting holds.",
+      "points": [
+        "Hose assemblies are built to crimp dimensions that are checked and recorded.",
+        "Wrong crimp settings produce assemblies that separate under pressure.",
+        "Every assembly built to that setting must be recalled."
+      ],
       "rhetorical_question": "How are crimp specifications loaded and verified on your assembly equipment?"
     },
     {
       "rank": 3,
-      "headline": "Equipment manufacturers depend on scheduled component supply.",
-      "why_this_business": "Fluid power components are supplied to construction, agricultural, and industrial equipment manufacturers on production schedules with qualified parts and approved sources.",
-      "loss_scenario": "Equipment assembly lines stopped for want of hydraulic components, with the customer's line-down charges and expedited freight far exceeding the component value.",
+      "headline": "Equipment manufacturers run to schedule on your components.",
+      "points": [
+        "Components are qualified and delivered on production schedules.",
+        "Assembly plants hold days of inventory at most.",
+        "Line-down charges far exceed the component value."
+      ],
       "rhetorical_question": "Which equipment manufacturers run to schedule on your components?"
     }
   ]

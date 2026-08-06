@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Shellfish tags must be retained and are the traceback record.",
-      "why_this_business": "Under the National Shellfish Sanitation Program, retailers must retain shellstock tags for 90 days after the container is emptied, recording harvester, harvest area, and date. Vibrio and norovirus investigations run directly on these tags, and health inspectors check for them.",
-      "loss_scenario": "Missing tags in an illness investigation leaves the retailer unable to identify the source, which expands the harvest area closure and puts the retailer at the centre of the traceback.",
-      "rhetorical_question": "How do you retain shellstock tags, and for how long?"
+      "headline": "Temperature control prevents histamine and pathogens.",
+      "points": [
+        "Seafood must be held cold from receipt through display.",
+        "Histamine forms fast and cannot be reversed by cooking.",
+        "Illness traces back to your handling and records."
+      ],
+      "rhetorical_question": "Is your refrigeration monitored and recorded with automatic alarms?"
     },
     {
       "rank": 2,
-      "headline": "Finfish, crustaceans, and molluscan shellfish are all on the Food Traceability List.",
-      "why_this_business": "All three categories are covered by FSMA Section 204, requiring lot codes, Key Data Elements, and production of an electronic sortable spreadsheet to FDA within 24 hours of request, with a compliance date of July 20, 2028. Retailers holding listed foods carry these duties.",
-      "loss_scenario": "An unanswerable traceback that expands a recall across your whole seafood case rather than the implicated lot.",
-      "rhetorical_question": "Can you produce lot-level receiving records for seafood electronically?"
+      "headline": "Species labelling is federally enforced.",
+      "points": [
+        "Species must be labelled accurately at point of sale.",
+        "Substitution is an established enforcement priority.",
+        "Records establish what you actually received and sold."
+      ],
+      "rhetorical_question": "What species and supplier documentation do you retain for product received?"
     },
     {
       "rank": 3,
-      "headline": "Species and origin labelling is enforced.",
-      "why_this_business": "Country of origin labelling and species identification are required at retail, and species substitution is an active enforcement and civil fraud target. Receiving records and supplier documentation are the evidence of what the product actually is.",
-      "loss_scenario": "Mislabelling findings carrying regulatory penalties and consumer fraud claims, where the retailer cannot demonstrate what it was told by its supplier.",
-      "rhetorical_question": "How do you document species and country of origin for the seafood you receive?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     }
   ]
 }

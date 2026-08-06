@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Environmental monitoring data supports enforcement and public health.",
-      "why_this_business": "Agencies collect ambient monitoring data, discharge monitoring reports, and compliance information used for enforcement, permitting, and public health decisions including drinking water safety and air quality advisories.",
-      "loss_scenario": "Loss or corruption of monitoring data undermines enforcement actions and permitting decisions, and gaps in drinking water or air quality monitoring create public health exposure the agency cannot detect.",
-      "rhetorical_question": "What public health decisions depend on the monitoring data your agency holds?"
+      "headline": "Monitoring data supports enforcement and public health.",
+      "points": [
+        "Air and water monitoring data determines compliance and public warnings.",
+        "That data drives enforcement actions and health advisories.",
+        "Corrupted data means violations undetected or warnings unissued."
+      ],
+      "rhetorical_question": "How is your environmental monitoring data recorded and protected?"
     },
     {
       "rank": 2,
-      "headline": "Permitting controls whether regulated activity may proceed.",
-      "why_this_business": "Agencies issue permits for discharges, emissions, and waste handling, with applications, technical review, and public comment processes running on statutory timelines. Regulated entities cannot lawfully operate without a permit.",
-      "loss_scenario": "Permitting stalled with regulated facilities unable to obtain or renew authorisations, halting construction and operations across the jurisdiction and creating pressure that is political as well as legal.",
-      "rhetorical_question": "How many permit applications are in process with statutory deadlines running?"
+      "headline": "Permit and compliance records govern regulated facilities.",
+      "points": [
+        "Permits, inspections, and enforcement records cover regulated facilities.",
+        "Those records support legal action against violators.",
+        "Records you cannot produce lose enforcement cases."
+      ],
+      "rhetorical_question": "How are your permit and enforcement records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Regulated facility data describes vulnerabilities.",
-      "why_this_business": "Agencies hold facility information including chemical inventories, treatment processes, and risk management plans for regulated sites. That information identifies hazardous material locations and quantities across the jurisdiction.",
-      "loss_scenario": "Exposure of chemical inventory and facility risk data creating a security concern at every regulated site described, which the agency cannot remediate because the information relates to facilities it does not control.",
-      "rhetorical_question": "Do your systems hold chemical inventories and risk management plans for regulated facilities?"
+      "headline": "Public warnings depend on your systems.",
+      "points": [
+        "Advisories, alerts, and public notifications run through your systems.",
+        "The public acts on those warnings.",
+        "A failure means warnings that never reach anyone."
+      ],
+      "rhetorical_question": "How are public health advisories issued from your systems?"
     }
   ]
 }

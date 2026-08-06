@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Colour formulations are the technical asset.",
-      "why_this_business": "Dye and pigment manufacturers develop formulations and synthesis routes producing specific shades and performance characteristics, matched to customer standards. Those formulations represent long development investment.",
-      "loss_scenario": "Formulation and process disclosure hands competitors the technical basis of the product line, and loss of formulations means colours that cannot be reproduced for customers who have built products around them.",
-      "rhetorical_question": "How are your synthesis routes and colour formulations protected?"
+      "headline": "Colour formulations are the product and are proprietary.",
+      "points": [
+        "Recipes and process parameters determine exact shade and performance.",
+        "Formulations are developed over years and define competitive position.",
+        "Once disclosed a formulation cannot be made secret again."
+      ],
+      "rhetorical_question": "Where are your colour formulations and process parameters stored?"
     },
     {
       "rank": 2,
-      "headline": "Batch chemistry runs to tight parameters with hazardous materials.",
-      "why_this_business": "Synthesis involves reactive chemistry with temperature, addition rate, and pH control determining both the product and the safety of the reaction. Runaway reactions in dye chemistry produce fires and toxic releases.",
-      "loss_scenario": "A runaway reaction causing fire or release with worker injury and community exposure, and process safety documentation examined by investigators afterward.",
-      "rhetorical_question": "How are reaction parameters monitored and interlocked during batch chemistry?"
+      "headline": "Shade must match the customer standard exactly.",
+      "points": [
+        "Every batch is matched against a customer colour standard before release.",
+        "Textile and coating customers cannot use off shade material.",
+        "A wrong batch is unsellable and their production stops."
+      ],
+      "rhetorical_question": "How are your batch shade results recorded against customer standards?"
     },
     {
       "rank": 3,
-      "headline": "Colourant regulation covers food, cosmetic, and textile uses.",
-      "why_this_business": "Colour additives for food, drug, and cosmetic use require FDA listing and in many cases batch certification, while textile dyes face restricted substance limits including azo dyes releasing regulated amines.",
-      "loss_scenario": "Uncertified or non-compliant colourant entering food, cosmetic, or textile products, with recall reaching consumer products and regulatory action against the manufacturer.",
-      "rhetorical_question": "Do you produce colour additives requiring FDA batch certification?"
+      "headline": "Chemical processing carries permit and reporting obligations.",
+      "points": [
+        "Air, water, and waste discharges are permitted with monitoring and reporting.",
+        "Chemical inventory reporting is required by regulators.",
+        "Missed reports and exceedances carry penalties."
+      ],
+      "rhetorical_question": "What discharge monitoring and chemical reporting does your permit require?"
     }
   ]
 }

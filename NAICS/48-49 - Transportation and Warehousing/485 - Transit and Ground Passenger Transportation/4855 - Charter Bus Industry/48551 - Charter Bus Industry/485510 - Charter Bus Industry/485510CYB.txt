@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Charters are dated commitments for groups with no alternative.",
-      "why_this_business": "Charters are booked months ahead for school trips, sports teams, tours, and corporate events, with deposits taken and vehicles committed to a specific date and itinerary. The group has no fallback if the bus does not arrive.",
-      "loss_scenario": "Groups stranded on dated trips that cannot be rescheduled, with refunds, alternative transport costs, and claims for the value of the event that was missed.",
-      "rhetorical_question": "How many dated charters with deposits are on your books right now?"
+      "headline": "Charters are booked for events that cannot move.",
+      "points": [
+        "Groups book for games, tours, and events on fixed dates.",
+        "Deposits and itineraries are held per charter.",
+        "A lost booking leaves a group with no transport."
+      ],
+      "rhetorical_question": "How are your charter bookings, deposits, and itineraries recorded?"
     },
     {
       "rank": 2,
-      "headline": "Passenger manifests hold group and often minor data.",
-      "why_this_business": "Charter operators receive passenger manifests for school groups, youth sports, and tours, containing names, ages, emergency contacts, and sometimes medical information for minors. Those lists are provided by the client and belong to them.",
-      "loss_scenario": "Exposure of manifests containing minors' names and emergency contacts, which is a third-party data breach the client organisation will hold you responsible for.",
-      "rhetorical_question": "Do you receive passenger manifests containing minors' details?"
+      "headline": "Driver hours are federally regulated and recorded.",
+      "points": [
+        "Hours of service must be recorded by electronic logging devices.",
+        "Records are inspected at roadside and during audits.",
+        "Non-compliant logging puts buses out of service with passengers aboard."
+      ],
+      "rhetorical_question": "How are your electronic logging records maintained and backed up?"
     },
     {
       "rank": 3,
-      "headline": "Passenger carrier safety records are examined intensely after any crash.",
-      "why_this_business": "Motorcoach operators must maintain driver qualification, hours of service, drug and alcohol testing, and maintenance records. Motorcoach crashes involve many casualties and attract NTSB investigation, where records are the central evidence.",
-      "loss_scenario": "A multi-casualty crash where maintenance and hours records cannot be produced, in litigation where the values reflect dozens of passengers.",
-      "rhetorical_question": "How quickly could you produce maintenance and hours records for a specific vehicle and trip?"
+      "headline": "Passenger manifests matter after an incident.",
+      "points": [
+        "Manifests identify who was aboard each vehicle.",
+        "Responders and families rely on that information.",
+        "Without it nobody knows who was on the bus."
+      ],
+      "rhetorical_question": "How are your passenger manifests recorded for each charter?"
     }
   ]
 }

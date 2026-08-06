@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pasteurisation records are the legal proof the milk is safe.",
-      "why_this_business": "The Grade A Pasteurized Milk Ordinance requires continuous recording of pasteurisation time and temperature with flow diversion on any deviation, and those charts are the evidence that every drop was properly processed. Regulators review them and product without them cannot be sold.",
-      "loss_scenario": "Product with unverifiable pasteurisation records must be dumped or recalled, and a pasteurisation failure reaching consumers is a public health event with permit suspension and criminal exposure.",
-      "rhetorical_question": "How are pasteurisation charts recorded and retained for each production run?"
+      "headline": "Pasteurisation is the critical control and it is recorded.",
+      "points": [
+        "Time and temperature are controlled and recorded on every pasteuriser run.",
+        "Flow diversion prevents under-processed milk reaching the filler.",
+        "Under-pasteurised milk has caused outbreaks and deaths."
+      ],
+      "rhetorical_question": "How are your pasteuriser time and temperature records recorded and retained?"
     },
     {
       "rank": 2,
-      "headline": "Fluid milk has days of shelf life and no inventory buffer.",
-      "why_this_business": "Milk is received daily from farms, processed, and delivered to retailers within days. Raw milk arrives whether or not the plant can process it, and finished product moves immediately because the code date is short.",
-      "loss_scenario": "Raw milk dumped at the plant and on farms with no processing capacity, retailers out of stock on a category that drives store traffic, and the loss falling on both the processor and the dairy farms supplying it.",
-      "rhetorical_question": "How many tankers arrive at your plant each day regardless of whether you can process?"
+      "headline": "Milk has days of shelf life and no storage buffer.",
+      "points": [
+        "Raw milk arrives daily and must be processed within hours.",
+        "Finished product is delivered to stores on daily routes.",
+        "A day of lost production is milk dumped at both ends."
+      ],
+      "rhetorical_question": "How many days of raw milk storage do you have before you must dump?"
     },
     {
       "rank": 3,
-      "headline": "Federal order pricing and producer payment run on measured data.",
-      "why_this_business": "Producers are paid on volume and component testing under federal milk marketing orders, with pooling and payment calculated from plant receipt and laboratory data reported to the market administrator.",
-      "loss_scenario": "Unreconstructable producer payment data affecting every farm supplying the plant, with regulated reporting obligations to the market administrator unmet and payments to farms delayed or disputed.",
-      "rhetorical_question": "How many dairy farms are paid based on your plant's receipt and testing data?"
+      "headline": "Recalls must reach stores within hours.",
+      "points": [
+        "Lot codes link every carton to a production run and a store.",
+        "Product moves through distribution in a day or two.",
+        "Without traceability the recall covers every store you serve."
+      ],
+      "rhetorical_question": "Could you identify which stores received a specific production lot?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Crisis communications work means holding the client's worst information.",
-      "why_this_business": "PR agencies are engaged precisely when something has gone wrong, receiving internal investigations, legal analysis, draft statements, and holding statements for scenarios that may never become public. Crisis materials document what the client knew and when.",
-      "loss_scenario": "Disclosure of crisis materials and unpublished holding statements is devastating to the client and can be used directly in litigation and regulatory proceedings against them, with the agency as the identified source.",
-      "rhetorical_question": "Do you hold holding statements for client crises that have not become public?"
+      "headline": "You hold announcements before they are made.",
+      "points": [
+        "Press releases, results, and announcements exist under embargo.",
+        "Financial and product announcements move markets.",
+        "An early leak is a regulatory and market matter for the client."
+      ],
+      "rhetorical_question": "What client announcements do you hold under embargo?"
     },
     {
       "rank": 2,
-      "headline": "Embargoed announcements are market-sensitive.",
-      "why_this_business": "Agencies hold press releases, earnings materials, and announcement plans under embargo before release, including for listed clients where the content is material non-public information.",
-      "loss_scenario": "Premature release of material information creates securities exposure for the client, regulatory investigation, and immediate termination of the agency relationship.",
-      "rhetorical_question": "Do you handle embargoed material for publicly listed clients?"
+      "headline": "Crisis communications reveal the crisis.",
+      "points": [
+        "Crisis planning documents describe problems the client has not disclosed.",
+        "Those documents are written before anything is public.",
+        "A leak creates the crisis it was written to manage."
+      ],
+      "rhetorical_question": "What client crisis planning material do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Media contact databases are the agency's working asset.",
-      "why_this_business": "Agencies maintain journalist contact lists, relationship histories, and coverage records built over years. Those relationships and the notes about them are the reason clients hire the agency.",
-      "loss_scenario": "Exposure of media relationship notes damages relationships with journalists permanently, and loss of the database removes the agency's core operating capability.",
-      "rhetorical_question": "How many years of media contacts and relationship notes are in your database?"
+      "headline": "Your accounts speak for the client publicly.",
+      "points": [
+        "Agency access to client social and media accounts is routine.",
+        "Compromise allows false statements published in the client's name.",
+        "Markets and customers react before it can be corrected."
+      ],
+      "rhetorical_question": "What client media and social accounts do you hold access to?"
     }
   ]
 }

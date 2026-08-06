@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Gas control balances a system where pressure is the safety margin.",
-      "why_this_business": "Transmission pipelines are operated from gas control centres managing compressor stations, valves, and pressure across an interconnected network in real time. Gas is compressible and the line pack itself is inventory. Control room management and operator qualification are federally regulated.",
-      "loss_scenario": "Loss of pressure control risks overpressure or supply failure to downstream distribution systems and power plants. A rupture on a transmission line is a fatality event with damages in the hundreds of millions.",
-      "rhetorical_question": "How is your gas control network isolated from business systems?"
+      "headline": "Federal pipeline security directives apply directly to you.",
+      "points": [
+        "Covered operators must report cyber incidents and maintain approved security plans.",
+        "Regulators require tested response and documented controls.",
+        "Findings can restrict pipeline operations."
+      ],
+      "rhetorical_question": "What federal pipeline security requirements apply to your system?"
     },
     {
       "rank": 2,
-      "headline": "TSA cybersecurity directives apply to designated pipeline operators.",
-      "why_this_business": "TSA security directives require a cybersecurity coordinator, incident reporting to CISA within 24 hours, vulnerability assessments, network segmentation between IT and OT, access control, continuous monitoring, and patching under a TSA-approved implementation plan.",
-      "loss_scenario": "Civil penalties and mandated remediation timelines, with regulatory attention extending across the whole control environment after any reportable incident.",
-      "rhetorical_question": "Have you completed your TSA architecture design review?"
+      "headline": "Pressure control failure causes explosions.",
+      "points": [
+        "Compressors, valves, and pressure are controlled remotely.",
+        "Over pressure events have destroyed neighbourhoods.",
+        "The consequence is measured in homes, not service minutes."
+      ],
+      "rhetorical_question": "What can be operated on your pipeline from the control centre?"
     },
     {
       "rank": 3,
-      "headline": "Scheduling and nominations move the market as well as the gas.",
-      "why_this_business": "Interstate gas pipelines run electronic bulletin boards where shippers nominate, confirm, and schedule gas on defined cycles, with capacity release and imbalance settlement. Nomination data is commercially sensitive and reveals shipper positions.",
-      "loss_scenario": "Missed nomination cycles leave shippers unable to move gas, and exposure of nomination data gives visibility into market positions that FERC rules are designed to prevent.",
-      "rhetorical_question": "What happens to shipper nominations if your electronic bulletin board is unavailable?"
+      "headline": "Gas supply failures happen in winter.",
+      "points": [
+        "Heating and power generation depend on continuous gas delivery.",
+        "Supply failures occur during extreme cold.",
+        "People lose heat when they cannot survive without it."
+      ],
+      "rhetorical_question": "What utilities and generators depend on your pipeline?"
     }
   ]
 }

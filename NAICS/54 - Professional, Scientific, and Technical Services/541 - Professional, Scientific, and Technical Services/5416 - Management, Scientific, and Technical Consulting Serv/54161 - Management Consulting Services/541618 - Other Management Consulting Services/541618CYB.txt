@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Consultants hold whatever the client gives them to solve the problem.",
-      "why_this_business": "Specialist consulting engagements require access to the client information relevant to the issue, which frequently means financial, operational, customer, or employee data extracted onto consultant systems for analysis.",
-      "loss_scenario": "Breach exposing client data held for an engagement, with the client's notification obligations and reputational damage passed back through the consulting agreement.",
-      "rhetorical_question": "What client data from past engagements is still sitting on your systems?"
+      "headline": "You hold client information before it is public.",
+      "points": [
+        "Plans, analyses, and recommendations exist before any announcement.",
+        "That information affects the client's market and employees.",
+        "A leak damages the client and breaches your engagement."
+      ],
+      "rhetorical_question": "What client information do you hold before announcement?"
     },
     {
       "rank": 2,
-      "headline": "Engagement findings identify client weaknesses explicitly.",
-      "why_this_business": "Consulting deliverables document what is wrong with the client's operations, controls, or finances, in writing and in detail. Those findings are exactly what a litigant, regulator, or competitor would want.",
-      "loss_scenario": "Disclosure of reports identifying client deficiencies, which can be used against the client in litigation or regulatory proceedings and destroys the candour the engagement depended on.",
-      "rhetorical_question": "Do your deliverables document deficiencies your clients have not yet remediated?"
+      "headline": "Client data arrives for analysis and stays.",
+      "points": [
+        "Financial, operational, and personal data is transferred for the engagement.",
+        "That data covers the client's business comprehensively.",
+        "Their regulatory obligations follow the data to you."
+      ],
+      "rhetorical_question": "What client business data is stored on your systems?"
     },
     {
       "rank": 3,
-      "headline": "Client contracts define liability independently of your fee.",
-      "why_this_business": "Consulting agreements with substantial clients include confidentiality, security, and indemnity provisions with liability caps that are frequently a multiple of fees or uncapped for confidentiality breaches.",
-      "loss_scenario": "Contractual liability that bears no relationship to the value of the engagement, with confidentiality breaches often carved out of the liability cap entirely.",
-      "rhetorical_question": "Do your client contracts cap liability for a confidentiality breach?"
+      "headline": "Clients audit your controls before engaging.",
+      "points": [
+        "Large clients assess consultant security before granting access.",
+        "Those assessments are a condition of engagement.",
+        "Failing removes you from the client list entirely."
+      ],
+      "rhetorical_question": "What security assessments do your clients require before engagement?"
     }
   ]
 }

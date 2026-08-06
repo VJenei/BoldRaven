@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Buildings are engineered and fabricated to project-specific designs.",
-      "why_this_business": "Prefabricated and modular buildings are engineered for a specific site, code, and loading, with sealed drawings and fabrication data driving production. The design accounts for site conditions and local code.",
-      "loss_scenario": "Modules fabricated to wrong or superseded designs delivered to site, which do not fit, do not meet code, and cannot be corrected without returning them to the plant.",
-      "rhetorical_question": "How are project-specific engineered designs released to fabrication?"
+      "headline": "Buildings are engineered for a specific site and loads.",
+      "points": [
+        "Designs account for wind, snow, and seismic loads at the site.",
+        "Engineering files drive automated cutting and fabrication.",
+        "A building fabricated to wrong loads is under-designed where it stands."
+      ],
+      "rhetorical_question": "How are site specific engineering designs released into fabrication?"
     },
     {
       "rank": 2,
-      "headline": "Set dates require cranes, crews, and site readiness simultaneously.",
-      "why_this_business": "Module delivery and setting is scheduled with cranes, crews, transport permits, and site preparation all coordinated for a specific day. Everything must arrive together.",
-      "loss_scenario": "A missed set date with crane and crew costs incurred, transport permits expired, and the project schedule pushed by weeks while everything is rebooked.",
-      "rhetorical_question": "What does a missed set day cost in crane and crew time?"
+      "headline": "Components must arrive complete and in erection order.",
+      "points": [
+        "Packages are fabricated for one building and erected in sequence.",
+        "Crews and cranes are scheduled to the delivery date.",
+        "Missing components stop erection entirely."
+      ],
+      "rhetorical_question": "What does an erection crew and crane cost per day on your projects?"
     },
     {
       "rank": 3,
-      "headline": "Third-party inspection certifies factory-built construction.",
-      "why_this_business": "Factory-built buildings are inspected in the plant by third-party agencies against approved plans, with labels applied certifying compliance. Local officials accept the label in place of field inspection of concealed work.",
-      "loss_scenario": "Buildings shipped without valid certification that local officials will not accept, requiring opening concealed work for field inspection or returning the modules entirely.",
-      "rhetorical_question": "Which third-party agency inspects your production, and what records do they require?"
+      "headline": "Fabrication runs from digital data to automated equipment.",
+      "points": [
+        "Cutting, drilling, and assembly run from design files.",
+        "Errors are built into material that cannot be uncut.",
+        "Remake delays the project by the full fabrication lead time."
+      ],
+      "rhetorical_question": "How does engineering data reach your fabrication equipment?"
     }
   ]
 }

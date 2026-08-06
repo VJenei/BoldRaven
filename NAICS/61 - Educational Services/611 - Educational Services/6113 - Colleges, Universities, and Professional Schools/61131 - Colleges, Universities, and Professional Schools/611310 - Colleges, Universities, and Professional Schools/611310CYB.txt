@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Universities hold research that foreign governments actively target.",
-      "why_this_business": "Federal agencies have repeatedly warned that academic research, particularly in defence-adjacent, biotechnology, and advanced technology fields, is a priority collection target for foreign intelligence services. Universities are deliberately open environments with international collaboration built into their operating model.",
-      "loss_scenario": "Theft of federally funded research transfers years of work with no recoverable damages, and where export controlled data is involved, an intrusion by a foreign actor may itself constitute an unauthorised export with criminal exposure.",
-      "rhetorical_question": "Is any of your research subject to export control or federal safeguarding requirements?"
+      "headline": "Research data is targeted by state-linked actors.",
+      "points": [
+        "University research carries strategic and commercial value.",
+        "State-sponsored campaigns target research institutions specifically.",
+        "Export controlled research adds federal violation exposure."
+      ],
+      "rhetorical_question": "How is access to research data restricted, and is any of it export controlled?"
     },
     {
       "rank": 2,
-      "headline": "The institution holds records for everyone who ever attended.",
-      "why_this_business": "Universities retain student records permanently for transcript purposes, holding education records under FERPA, financial aid files, health and counselling records, disability files, and payment data across generations of students, plus employee and research subject data.",
-      "loss_scenario": "Breach notification across alumni spanning decades, with counselling and health centre records engaging health privacy obligations and financial aid files providing complete family financial profiles.",
-      "rhetorical_question": "How many former students' records are held permanently in your systems?"
+      "headline": "Student and health records are protected by multiple laws.",
+      "points": [
+        "Records carry academic, financial, health, and identity information.",
+        "Student privacy, health privacy, and financial aid rules all apply.",
+        "Every affected student must be notified."
+      ],
+      "rhetorical_question": "How many student records with identity and health data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Academic medical centres bring HIPAA into the same environment.",
-      "why_this_business": "Universities with medical, dental, nursing, and veterinary programmes operate clinical services subject to HIPAA, frequently on networks shared with academic and research computing. Clinical, research, and education data coexist in one institution.",
-      "loss_scenario": "A single incident triggering HIPAA notification, FERPA obligations, and research sponsor reporting simultaneously, each with separate regulators and separate timelines.",
-      "rhetorical_question": "Are your clinical systems segregated from academic and research networks?"
+      "headline": "Financial aid handling carries federal security requirements.",
+      "points": [
+        "Institutions handling federal student aid must meet specific safeguards requirements.",
+        "Compliance is a condition of participating in aid programmes.",
+        "Losing eligibility removes funding most students depend on."
+      ],
+      "rhetorical_question": "What federal safeguards requirements apply to your financial aid systems?"
     }
   ]
 }

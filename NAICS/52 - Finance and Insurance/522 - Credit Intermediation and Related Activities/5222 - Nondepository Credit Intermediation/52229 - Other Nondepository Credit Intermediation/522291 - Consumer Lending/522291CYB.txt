@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold everything needed to become your borrower.",
-      "why_this_business": "Consumer lenders collect Social Security numbers, dates of birth, income documentation, bank account details, and credit reports. Applications are frequently submitted online with identity verification performed remotely, and the full file is retained long after the loan closes.",
-      "loss_scenario": "Mass identity theft exposure across the borrower base, with GLBA obligations, FTC Safeguards Rule enforcement, and notification to the FTC for breaches affecting 500 or more consumers.",
-      "rhetorical_question": "How many borrower files with full identity documentation are retained in your systems?"
+      "headline": "Every application is a complete credit file.",
+      "points": [
+        "Applications carry social security numbers, income, employment, and bank details.",
+        "Federal safeguards rules require a written security programme.",
+        "Every applicant must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many credit applications are stored in your systems?"
     },
     {
       "rank": 2,
-      "headline": "The FTC Safeguards Rule imposes specific technical requirements.",
-      "why_this_business": "Non-banking consumer lenders have been subject to the amended Safeguards Rule since June 9, 2023, which prescribes multi-factor authentication, encryption of customer information in transit and at rest, a written incident response plan, and periodic reporting to the board or governing body.",
-      "loss_scenario": "FTC enforcement examining each prescribed element, where the absence of any one is a violation independent of whether it caused the breach.",
-      "rhetorical_question": "Is multi-factor authentication enforced on every system holding customer information?"
+      "headline": "Loan servicing runs automatically against every borrower.",
+      "points": [
+        "Payments, statements, and collections run against every account.",
+        "Borrowers depend on accurate posting and reporting.",
+        "Misposted payments produce credit reporting damage."
+      ],
+      "rhetorical_question": "How are payments posted and reconciled against loan accounts?"
     },
     {
       "rank": 3,
-      "headline": "Origination fraud targets the automated decisioning process.",
-      "why_this_business": "Online consumer lending approves and funds loans with limited human review, using identity verification, bank account validation, and credit data. Synthetic identities and account takeover are used to obtain funds that are never repaid because the borrower does not exist.",
-      "loss_scenario": "Funded loans to fabricated identities discovered only after first payment default, with losses concentrated in the period before the fraud pattern is detected and modelled.",
-      "rhetorical_question": "How is applicant identity verified before funds are disbursed?"
+      "headline": "Credit reporting obligations follow every account.",
+      "points": [
+        "Account status is reported to credit bureaus continuously.",
+        "Federal law governs accuracy and dispute handling.",
+        "Wrong reporting damages borrowers and creates liability."
+      ],
+      "rhetorical_question": "How is your credit bureau reporting generated and verified?"
     }
   ]
 }

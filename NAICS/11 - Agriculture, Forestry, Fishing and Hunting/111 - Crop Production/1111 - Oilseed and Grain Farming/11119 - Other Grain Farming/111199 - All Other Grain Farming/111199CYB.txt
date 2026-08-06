@@ -1,7 +1,6 @@
 {
   "naics_code": "111199",
   "naics_title": "All Other Grain Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialty grain premiums are conditional on contract documentation.",
-      "why_this_business": "Barley, oats, sorghum, rye, and specialty grains are grown on contract to maltsters, millers, and feed buyers. Contracts specify protein, plumpness, germination, test weight, and DON limits. The premium is paid only when the specification documentation is produced.",
-      "loss_scenario": "A malting barley contract paying $2 to $4 over feed barley reverts to feed value across the contracted volume.",
-      "rhetorical_question": "Do you sell any grain under a specification contract that pays a premium over commodity price?"
+      "headline": "Buyers settle by wire against emailed payment instructions.",
+      "points": [
+        "Specialty grain contracts are paid by electronic transfer.",
+        "A faked banking change redirects an entire contract payment.",
+        "Small buyer lists mean each payment is a large share."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     },
     {
       "rank": 2,
-      "headline": "Specialty grains often have only one buyer within hauling distance.",
-      "why_this_business": "Unlike corn and soybeans, small grains and specialty grains frequently have a single realistic buyer in the area. The FBI documented multiple grain cooperatives encrypted within a three week window during the 2021 harvest.",
-      "loss_scenario": "Grain with no delivery point during harvest and limited on-farm storage, forcing a distressed sale or ground storage losses.",
-      "rhetorical_question": "How many buyers will take this crop within your normal hauling distance?"
+      "headline": "Specialty grain contracts pay for documented variety and handling.",
+      "points": [
+        "Identity preservation requires seed, field, and bin records that separate lots.",
+        "Buyers audit those records before paying a premium.",
+        "Without proof the crop sells as ordinary commodity grain."
+      ],
+      "rhetorical_question": "Do any of your contracts require documented variety or identity preservation?"
     },
     {
       "rank": 3,
-      "headline": "Breach notification law applies to farms of any size.",
-      "why_this_business": "Any farm with employees holds W-2 data, direct deposit routing numbers, and I-9 forms. Many also hold H-2A documentation. All 50 states require notification when personal information is breached. There is no exemption based on revenue or number of employees.",
-      "loss_scenario": "Forensics, required notification, credit monitoring, and state attorney general response cost $25,000 to $100,000 for a small employer before any lawsuit.",
-      "rhetorical_question": "How many employees do you hold Social Security numbers and direct deposit information for?"
+      "headline": "Harvest, drying, and storage run on connected controls.",
+      "points": [
+        "Combines, dryers, and bin monitoring are all automated.",
+        "Grain condition changes within days when monitoring stops.",
+        "A heated bin is a total loss on that grain."
+      ],
+      "rhetorical_question": "Are your grain bins monitored by automated temperature or aeration controls?"
     }
   ]
 }

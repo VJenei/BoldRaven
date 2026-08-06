@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Bottles are made to customer specification and frequently on their site.",
-      "why_this_business": "Bottle manufacture uses customer-specific moulds producing containers to dimensional and weight specifications for their filling lines. Many operations blow bottles adjacent to or inside customer filling plants.",
-      "loss_scenario": "Out of specification bottles jamming customer filling lines or failing in fill, stopping the filling operation, and where blowing is on site the customer's whole packaging operation stops with yours.",
-      "rhetorical_question": "Do you blow bottles on or adjacent to customer filling sites?"
+      "headline": "Bottles are blown to customer moulds and specifications.",
+      "points": [
+        "Moulds are customer specific and exist only at your plant.",
+        "Filling lines are set up for that exact bottle geometry.",
+        "Another plant cannot supply without the mould."
+      ],
+      "rhetorical_question": "How many customer moulds exist only at your plant?"
     },
     {
       "rank": 2,
-      "headline": "Food and beverage contact carries material compliance requirements.",
-      "why_this_business": "Bottles contacting food and beverage must meet food contact material requirements, with resin compliance and, for recycled content, specific FDA review of the recycling process. Recycled content mandates are increasing in several states.",
-      "loss_scenario": "Non-compliant material in food contact bottles, with recall reaching the filled product and regulatory exposure where recycled content processes were not properly reviewed.",
-      "rhetorical_question": "Do you use recycled content in food contact bottles, and how is that process documented?"
+      "headline": "Fillers stop within hours without bottles.",
+      "points": [
+        "Beverage and product fillers run at high speed with minimal bottle inventory.",
+        "Many operations blow bottles directly into the filling line.",
+        "A supply stop halts the customer's filling immediately."
+      ],
+      "rhetorical_question": "How much bottle inventory do your customers hold before filling stops?"
     },
     {
       "rank": 3,
-      "headline": "Blow moulding runs continuously at very high rate.",
-      "why_this_business": "Bottle production runs continuously at thousands of units per hour with preform heating, blowing, and handling controlled throughout. Filling lines downstream depend on continuous bottle supply.",
-      "loss_scenario": "Filling lines stopped for want of bottles, with beverage and food production halted and product in process at the filler lost.",
-      "rhetorical_question": "How many bottles per hour does your line produce, and what depends on that output?"
+      "headline": "Food contact and barrier requirements apply.",
+      "points": [
+        "Resins and barrier layers contacting food must meet contact requirements.",
+        "Certification records support that use and shelf life claims.",
+        "Non-compliant bottles recall the packed product."
+      ],
+      "rhetorical_question": "What food contact compliance records do you retain for your bottles?"
     }
   ]
 }

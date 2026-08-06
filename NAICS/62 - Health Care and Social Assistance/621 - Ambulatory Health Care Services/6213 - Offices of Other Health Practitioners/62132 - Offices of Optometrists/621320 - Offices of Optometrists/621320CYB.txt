@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Examination records are protected health information.",
-      "why_this_business": "Optometric practices hold examination findings, diagnoses including systemic conditions detected in the eye, prescriptions, imaging, and insurance information, making them HIPAA covered entities with full notification and security obligations.",
-      "loss_scenario": "HIPAA notification and OCR enforcement across the patient base, with imaging and diagnostic findings exposed alongside identity and insurance data.",
-      "rhetorical_question": "Has your practice documented a HIPAA security risk analysis?"
+      "headline": "Patient records and imaging are protected health information.",
+      "points": [
+        "Examination records, imaging, and prescriptions are held per patient.",
+        "Health privacy law requires notification of every affected patient.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Contact lens prescription verification is separately regulated.",
-      "why_this_business": "Under the FTC Contact Lens Rule, prescribers must release prescriptions to patients and sellers must verify them, with records retained for three years. The FTC enforces both sides and has obtained substantial penalties.",
-      "loss_scenario": "Civil penalties per violation where release and verification records cannot be produced, across a high volume of prescriptions.",
-      "rhetorical_question": "How do you document prescription release and verification requests?"
+      "headline": "Contact lens prescriptions carry federal obligations.",
+      "points": [
+        "Prescription release and verification requirements are federally mandated.",
+        "Records establish compliance with those requirements.",
+        "Failures are enforceable violations."
+      ],
+      "rhetorical_question": "How are prescription release and verification records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Optical dispensing and lab orders run on patient-specific data.",
-      "why_this_business": "Eyewear is ordered to individual prescriptions and frame measurements through laboratory systems, with jobs tracked to the patient. Nothing is stock and every order is unique.",
-      "loss_scenario": "Patients waiting indefinitely for eyewear with job files lost and orders requiring re-entry, plus practice revenue stalled on dispensing that cannot complete.",
-      "rhetorical_question": "How many patient laboratory jobs are in progress at any time?"
+      "headline": "Practice management runs the whole office.",
+      "points": [
+        "Charts, imaging, scheduling, optical orders, and billing run on one system.",
+        "Lens orders go to laboratories from that system.",
+        "Patients arrive whether or not the system is running."
+      ],
+      "rhetorical_question": "What happens to scheduled patients and lens orders if your system is unavailable?"
     }
   ]
 }

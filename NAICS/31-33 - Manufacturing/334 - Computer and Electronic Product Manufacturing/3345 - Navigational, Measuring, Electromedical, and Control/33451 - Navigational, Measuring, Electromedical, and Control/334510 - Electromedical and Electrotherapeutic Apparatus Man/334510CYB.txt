@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "FDA requires cybersecurity in medical device submissions.",
-      "why_this_business": "Section 524B of the Federal Food, Drug, and Cosmetic Act requires cyber devices to include a plan to monitor and address vulnerabilities, evidence of reasonable assurance of cybersecurity, and a software bill of materials. FDA has refused to accept submissions that lack them since October 2023.",
-      "loss_scenario": "Submissions refused or products found non-compliant, blocking market entry for devices with development already funded, and enforcement action for devices already marketed.",
-      "rhetorical_question": "Does your device meet the Section 524B cybersecurity submission requirements?"
+      "headline": "Federal law requires cybersecurity in device submissions.",
+      "points": [
+        "Devices with software must include vulnerability plans and a software bill of materials.",
+        "Regulators refuse submissions that lack them.",
+        "Market entry is blocked for products already funded."
+      ],
+      "rhetorical_question": "Does your device meet the federal cybersecurity submission requirements?"
     },
     {
       "rank": 2,
       "headline": "Device compromise reaches patients directly.",
-      "why_this_business": "Electromedical devices deliver therapy and monitor patients, with connectivity to hospital networks and in some cases to the patient's own devices. Vulnerabilities in infusion, cardiac, and monitoring equipment have prompted FDA safety communications.",
-      "loss_scenario": "A vulnerability permitting unauthorised control or disruption of therapy, with patient harm, an FDA recall, and product removed from clinical use until remediated across every installed device.",
+      "points": [
+        "Devices deliver therapy and monitor patients over network connections.",
+        "Vulnerabilities in infusion, cardiac, and monitoring equipment have prompted safety communications.",
+        "Product is removed from clinical use until every unit is remediated."
+      ],
       "rhetorical_question": "Can device settings or therapy delivery be changed over a network connection?"
     },
     {
       "rank": 3,
       "headline": "Devices carry patient data into your systems.",
-      "why_this_business": "Connected devices transmit patient data to manufacturer platforms for monitoring, analytics, and support, which places the manufacturer in a business associate relationship under HIPAA with breach notification obligations.",
-      "loss_scenario": "Patient data exposed from manufacturer platforms, with HIPAA breach notification, HHS investigation, and hospital customers facing their own notification obligations and pursuing the manufacturer.",
+      "points": [
+        "Connected devices transmit patient data to your platforms for monitoring and support.",
+        "That places you in a health data custodian relationship with notification duties.",
+        "Hospital customers face their own obligations and will pursue you."
+      ],
       "rhetorical_question": "Does patient data from your devices reach systems you operate?"
     }
   ]

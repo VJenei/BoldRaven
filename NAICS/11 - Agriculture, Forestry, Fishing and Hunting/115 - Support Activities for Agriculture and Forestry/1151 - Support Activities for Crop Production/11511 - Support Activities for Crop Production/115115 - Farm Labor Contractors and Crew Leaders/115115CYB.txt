@@ -1,7 +1,6 @@
 {
   "naics_code": "115115",
   "naics_title": "Farm Labor Contractors and Crew Leaders",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The business holds identity documents and payroll data for large numbers of workers.",
-      "why_this_business": "Farm labor contractors maintain I-9 forms, passport and visa copies, consular documentation, Social Security numbers, US and foreign addresses, direct deposit details, and weekly payroll for hundreds or thousands of workers, many of whom are H-2A foreign nationals. The workforce turns over multiple times per year.",
-      "loss_scenario": "A breach requires notification in every state of residence, credit monitoring, and response to the Department of Labor and state agencies. For a workforce of 1,000 or more, costs commonly reach six or seven figures before litigation.",
-      "rhetorical_question": "How many workers do you hold identity documents and Social Security numbers for?"
+      "headline": "You hold complete personal files on every worker.",
+      "points": [
+        "Names, addresses, social security numbers, and work authorisation documents are on file.",
+        "Payroll and housing records are kept for regulatory inspection.",
+        "That file set is everything an identity thief needs."
+      ],
+      "rhetorical_question": "What personal identification documents do you hold for your workers?"
     },
     {
       "rank": 2,
-      "headline": "Growers contract with the FLC to carry labor compliance responsibility.",
-      "why_this_business": "MSPA registration, joint employer doctrine, and grower contracts place responsibility for wage and hour compliance, worker verification, transportation, and housing documentation on the contractor. Hours, piece rates, transportation logs, and housing inspection records are the evidence in any claim and are held electronically.",
-      "loss_scenario": "In a wage and hour claim, an employer who cannot produce time and pay records faces a legal presumption in favor of the employee's estimate, applied across the workforce.",
-      "rhetorical_question": "How do you record and store hours worked and piece rates for each worker?"
+      "headline": "Registration and recordkeeping are federally required.",
+      "points": [
+        "Farm labor contractors must be registered and keep detailed payroll and disclosure records.",
+        "Those records are inspected and penalties apply for failures.",
+        "Loss of registration ends the ability to operate at all."
+      ],
+      "rhetorical_question": "What payroll and disclosure records does your registration require you to keep?"
     },
     {
       "rank": 3,
-      "headline": "Weekly payroll for a large workforce is processed on a fixed deadline.",
-      "why_this_business": "Farm labor contractors process large weekly payrolls with direct deposit files, tax deposits, and grower invoicing. This is high-volume, deadline-driven payment activity arranged by email with clients and banks. Payroll diversion, where direct deposit details are altered, is a common attack.",
-      "loss_scenario": "Diverted payroll funds or altered deposit files, plus crews that do not return to work when payment is missed while the grower's crop is in the field.",
-      "rhetorical_question": "What is your weekly payroll amount, and how is your direct deposit file transmitted?"
+      "headline": "Payroll must run on time for hundreds of workers.",
+      "points": [
+        "Crews are paid weekly, often by piece rate recorded in the field.",
+        "Hours, piece counts, and pay rates are captured electronically.",
+        "A missed payroll stops the crews and triggers wage claims."
+      ],
+      "rhetorical_question": "How are worker hours and piece rates recorded and paid?"
     }
   ]
 }

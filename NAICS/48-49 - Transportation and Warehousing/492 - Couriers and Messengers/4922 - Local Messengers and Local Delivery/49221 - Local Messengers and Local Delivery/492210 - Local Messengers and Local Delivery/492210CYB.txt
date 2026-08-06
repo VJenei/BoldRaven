@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Medical courier work makes you a HIPAA business associate.",
-      "why_this_business": "Local couriers carrying laboratory specimens, medical records, and pharmacy deliveries handle protected health information, which makes them business associates under HIPAA with a signed agreement and direct regulatory liability. Chain of custody records identify patients and specimens.",
-      "loss_scenario": "HIPAA breach notification and direct enforcement against the courier as a business associate, plus loss of healthcare contracts that require documented safeguards.",
-      "rhetorical_question": "Do you deliver specimens, records, or pharmacy items containing patient information?"
+      "headline": "Dispatch and routing run every delivery.",
+      "points": [
+        "Orders, assignments, and routing are dispatched to drivers electronically.",
+        "Deliveries are time critical by definition.",
+        "Without dispatch no delivery is assigned or completed."
+      ],
+      "rhetorical_question": "How are deliveries assigned and routed to your drivers?"
     },
     {
       "rank": 2,
-      "headline": "Dispatch platforms assign every job and capture every proof of delivery.",
-      "why_this_business": "Same-day delivery runs on dispatch platforms assigning jobs to drivers, capturing signatures and photographs, and generating invoices. Drivers are frequently independent contractors paid per completed job from that record.",
-      "loss_scenario": "Unbillable deliveries and unpayable drivers simultaneously, with contractor drivers moving to another platform within days when settlement fails.",
-      "rhetorical_question": "How is proof of delivery captured and converted into billing and driver settlement?"
+      "headline": "You carry documents and medical items that cannot wait.",
+      "points": [
+        "Legal filings, medical specimens, and pharmacy deliveries are time critical.",
+        "Some deliveries carry protected health information.",
+        "A missed delivery has consequences beyond the delivery fee."
+      ],
+      "rhetorical_question": "What time critical or medical items do you carry?"
     },
     {
       "rank": 3,
-      "headline": "Legal and financial courier work carries confidentiality obligations.",
-      "why_this_business": "Couriers serving law firms, banks, and title companies carry executed documents, cheques, and closing packages under confidentiality expectations and sometimes bailment for negotiable instruments. Chain of custody is the record.",
-      "loss_scenario": "Loss of a closing package or negotiable instruments, plus confidentiality breach affecting client matters, where the courier's records are the only evidence of what was collected and delivered.",
-      "rhetorical_question": "Do you carry legal documents or negotiable instruments requiring chain of custody?"
+      "headline": "Proof of delivery is the billing record.",
+      "points": [
+        "Signatures, photographs, and timestamps confirm delivery.",
+        "Payment and dispute resolution follow those records.",
+        "Deliveries you cannot prove are deliveries you cannot bill."
+      ],
+      "rhetorical_question": "How is proof of delivery captured and stored?"
     }
   ]
 }

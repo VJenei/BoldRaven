@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Health department compliance depends on maintained records.",
-      "why_this_business": "Salons are inspected for sanitation, implement sterilisation, and technician licensing, with records of autoclave logs, licence status, and client incidents required. Infection outbreaks traced to salons draw immediate regulatory action.",
-      "loss_scenario": "Licence action and closure where sanitation and licensing records cannot be produced, and in an infection investigation the absence of sterilisation logs is treated as evidence of non-compliance.",
-      "rhetorical_question": "How are your sterilisation logs and technician licence records maintained?"
+      "headline": "Bookings and card payments run every day.",
+      "points": [
+        "Appointments and payments run on connected systems.",
+        "Clients book online and arrive expecting a slot.",
+        "Card security requirements apply to every location."
+      ],
+      "rhetorical_question": "How are your appointments booked and card payments processed?"
     },
     {
       "rank": 2,
-      "headline": "Booking and payment systems drive walk-in and appointment flow.",
-      "why_this_business": "Salons manage appointments and walk-ins across multiple technicians with card payment at the counter, frequently with loyalty programmes and stored payment methods. Technician time is the product.",
-      "loss_scenario": "Inability to book, schedule, or take payment, with technician hours lost that cannot be recovered and card liability assigned to a small merchant.",
-      "rhetorical_question": "How many technicians' schedules are managed through your booking system?"
+      "headline": "Client records hold contact and payment data.",
+      "points": [
+        "Records carry contact details, service history, and payment information.",
+        "Recurring bookings run against those records.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client and payment data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Employee records include immigration and licensing documentation.",
-      "why_this_business": "Salons hold technician licences, work authorisation documents, and payroll records for a workforce that frequently includes immigrant workers. Wage and hour enforcement in this sector is active.",
-      "loss_scenario": "Exposure of worker identity and immigration documentation for a vulnerable workforce, plus inability to produce hours and pay records in a wage claim where the burden falls on the employer.",
-      "rhetorical_question": "How do you record hours worked and retain worker documentation?"
+      "headline": "Sanitation records support licensing inspections.",
+      "points": [
+        "Tool sterilisation and sanitation records are inspected by state boards.",
+        "Infections from salons are a recognised public health issue.",
+        "Records you cannot produce are a licensing matter."
+      ],
+      "rhetorical_question": "What sanitation records does your state board require?"
     }
   ]
 }

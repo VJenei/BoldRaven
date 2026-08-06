@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You collect health information that people consider deeply private.",
-      "why_this_business": "Weight management programmes record weight, body measurements, medical conditions, medications, dietary intake, and progress photographs for identified clients. Where medical supervision or prescription medication is involved, the programme may be a covered entity under HIPAA.",
-      "loss_scenario": "Exposure of weight, body measurement, and photographic data, which clients experience as deeply personal humiliation, and where medical supervision is involved, HIPAA notification and enforcement.",
-      "rhetorical_question": "Do you record client weights, measurements, or progress photographs?"
+      "headline": "Client records carry health information.",
+      "points": [
+        "Records document weight, measurements, health conditions, and medications.",
+        "Clients disclose that information to receive the service.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client health and measurement records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Programmes are sold as long-term contracts with recurring billing.",
-      "why_this_business": "Centres sell multi-month programmes with upfront payment or recurring billing to stored payment methods, plus product purchases. Contract terms and cancellation rights are regulated in many states.",
-      "loss_scenario": "Stored payment data exposure across the client base, plus billing disputes where contract and payment records cannot be produced in a sector where consumer protection scrutiny is routine.",
-      "rhetorical_question": "How many clients are on recurring billing for programme fees?"
+      "headline": "Recurring billing is the revenue model.",
+      "points": [
+        "Programme fees are collected automatically over months.",
+        "Billing failures affect every client simultaneously.",
+        "Clients cancel over billing errors and do not return."
+      ],
+      "rhetorical_question": "How is your recurring programme billing processed?"
     },
     {
       "rank": 3,
-      "headline": "Medically supervised programmes involve prescription medication.",
-      "why_this_business": "Programmes involving prescription weight management medication require clinical oversight, prescribing records, and monitoring, bringing the operation within HIPAA and, for controlled substances, DEA requirements.",
-      "loss_scenario": "HIPAA and prescribing record exposure, with regulatory scrutiny of clinical oversight and, where controlled substances are involved, DEA attention to prescribing and record integrity.",
-      "rhetorical_question": "Does your programme involve prescription medication and clinical records?"
+      "headline": "Health claims are regulated and enforced.",
+      "points": [
+        "Weight loss claims are subject to advertising and consumer protection rules.",
+        "Regulators have pursued this category specifically.",
+        "Unsupported claims carry enforcement action and refunds."
+      ],
+      "rhetorical_question": "How do you control the health and results claims in your marketing?"
     }
   ]
 }

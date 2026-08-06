@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Federal regulation requires a documented cyber security programme for the plant.",
-      "why_this_business": "NRC regulation 10 CFR 73.54 requires licensees to protect digital computer and communication systems associated with safety, security, and emergency preparedness functions from cyber attack, under an NRC-approved cyber security plan. Compliance is inspected. This is a licence condition, not a best practice.",
-      "loss_scenario": "Findings against the cyber security plan escalate through the NRC action matrix, drawing increased inspection and, in serious cases, restrictions on operation. Regulatory response is disproportionate to the technical severity by design.",
-      "rhetorical_question": "When was your cyber security plan under 10 CFR 73.54 last inspected?"
+      "headline": "Nuclear plants operate under a federal cyber security rule.",
+      "points": [
+        "Licensees must protect digital systems associated with safety, security, and emergency preparedness.",
+        "The program is inspected by federal regulators on a schedule.",
+        "Findings are public and can restrict operation of the unit."
+      ],
+      "rhetorical_question": "What digital assets fall within your cyber security program scope?"
     },
     {
       "rank": 2,
-      "headline": "Business and support systems are increasingly digital even where safety systems are isolated.",
-      "why_this_business": "Safety systems are deliberately analogue or isolated, but work management, procedures, radiation dose tracking, chemistry, outage planning, and the emergency plan implementing procedures are all digital. A refuelling outage is scheduled to the hour across thousands of contractor workers using those systems.",
-      "loss_scenario": "An outage extended by loss of work management and scheduling costs the replacement power for every extra day, commonly over $1 million per day for a large unit.",
-      "rhetorical_question": "How is your outage work management system protected and recovered?"
+      "headline": "Security and safeguards information is federally protected.",
+      "points": [
+        "Security plans, response strategies, and material accounting are protected information.",
+        "Unauthorised disclosure is a federal offence, not a policy breach.",
+        "Disclosure of a response plan is a security event by itself."
+      ],
+      "rhetorical_question": "How is access to safeguards and security information controlled and logged?"
     },
     {
       "rank": 3,
-      "headline": "Security, personnel, and dose records are highly sensitive and highly regulated.",
-      "why_this_business": "Licensees hold unescorted access authorisation records, behavioural observation programme data, fitness for duty testing, and occupational radiation dose histories for every worker. Safeguards information about the security plan is separately controlled and its disclosure is a federal offence.",
-      "loss_scenario": "A breach that exposes safeguards information or personnel security data is both a serious regulatory event and a personal harm to workers, with notification and enforcement running in parallel.",
-      "rhetorical_question": "Where is safeguards information and access authorisation data stored?"
+      "headline": "An unplanned shutdown costs a million dollars a day and more.",
+      "points": [
+        "Units are baseload and run continuously between refuelling outages.",
+        "Restart after an unplanned trip takes days and regulatory review.",
+        "Replacement power is bought at market price for every hour offline."
+      ],
+      "rhetorical_question": "What does a day of unplanned outage cost at your station?"
     }
   ]
 }

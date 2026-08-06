@@ -1,7 +1,6 @@
 {
   "naics_code": "115111",
   "naics_title": "Cotton Ginning",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The gin issues electronic warehouse receipts that establish title to growers' cotton.",
-      "why_this_business": "Gins and associated warehouses operate under the US Warehouse Act using USDA-authorized electronic warehouse receipt systems tied to Permanent Bale Identification numbers. The electronic receipt is the title document. The gin holds cotton belonging to growers and merchants, and ownership is recorded only in these electronic records.",
-      "loss_scenario": "Fraudulent receipt transfers or loss of receipt records creates direct liability to growers, merchants, and lenders holding receipts as collateral. A season's ginned cotton at a mid-size gin is $20M to $60M in value.",
-      "rhetorical_question": "What is the total value of customer cotton held under receipts you issue?"
+      "headline": "Every bale you gin is tracked by number and ownership.",
+      "points": [
+        "Bale tags link module, grower, classing result, and warehouse receipt.",
+        "Ownership and payment for each bale follow that record.",
+        "A broken record chain stops payment for the grower and for you."
+      ],
+      "rhetorical_question": "How are your bale numbers, gin records, and warehouse receipts recorded?"
     },
     {
       "rank": 2,
-      "headline": "The gin season is 60 to 100 days and cannot be extended.",
-      "why_this_business": "Modules arrive continuously from harvest and must be processed before quality degrades. Module tracking, gin scheduling, bale identification, classing data transmission, and grower accounting run on integrated software. Downtime during the season cannot be recovered.",
-      "loss_scenario": "Modules degrading on the yard while scheduling and tracking are unavailable, plus grower claims for quality loss on cotton already accepted. Two weeks of a 100 day season is 20 percent of annual revenue.",
-      "rhetorical_question": "How many days is your ginning season, and what software schedules it?"
+      "headline": "The gin runs continuously through a short season.",
+      "points": [
+        "Modules arrive faster than they can be ginned during peak season.",
+        "Gin control systems run the stands, driers, and presses.",
+        "A day down in season backs up every grower behind you."
+      ],
+      "rhetorical_question": "How many days does your ginning season run, and what is a day of downtime worth?"
     },
     {
       "rank": 3,
-      "headline": "The gin holds production and financial records for every grower it serves.",
-      "why_this_business": "The gin holds module data, bale IDs, USDA classing results, moisture, turnout, seed and lint accounting, and settlement information for each grower, along with bank details used for payment.",
-      "loss_scenario": "Liability to growers whose production and financial data was exposed, plus funds transfer exposure if settlements are paid to altered account details.",
-      "rhetorical_question": "How many growers' financial and production records do you hold?"
+      "headline": "You hold grower money and settlement records.",
+      "points": [
+        "Seed and lint proceeds are settled back to growers through your accounts.",
+        "Payments move by electronic transfer to many growers.",
+        "A payment fraud takes grower money, not just yours."
+      ],
+      "rhetorical_question": "How are grower settlement payments authorised and released?"
     }
   ]
 }

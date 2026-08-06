@@ -1,7 +1,6 @@
 {
   "naics_code": "111910",
   "naics_title": "Tobacco Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Selling leaf requires current certification held in a third-party database.",
-      "why_this_business": "Major manufacturers and leaf merchants require participation in grower certification programs such as GAP Connections. These programs document labor practices, worker housing, training, and farm compliance. Certification status is verified before purchase.",
-      "loss_scenario": "Loss of certification standing or exposure of labor and housing data threatens the contract relationship, which is the only outlet for the crop.",
-      "rhetorical_question": "Which grower certification programs are you enrolled in?"
+      "headline": "Curing barns are held by automated controls for weeks.",
+      "points": [
+        "Temperature and humidity are held on a schedule through the cure.",
+        "Barn controllers run that schedule automatically, often unattended overnight.",
+        "A failed cure ruins every barn of leaf it holds."
+      ],
+      "rhetorical_question": "Are your curing barns run by automated temperature and humidity controls?"
     },
     {
       "rank": 2,
-      "headline": "Tobacco uses H-2A labor and holds foreign worker identity documents.",
-      "why_this_business": "Tobacco requires hand labor for transplanting, topping, priming, and housing, supplied largely through H-2A. Files include passports, visas, consular documentation, Social Security numbers, housing assignments, and weekly payroll records.",
-      "loss_scenario": "A breach of an H-2A file triggers notification obligations and attention from the Department of Labor and plaintiff attorneys. Exposure of immigration documents creates direct harm to workers, which increases litigation exposure.",
-      "rhetorical_question": "Do you employ H-2A workers, and do you retain copies of their passports or visas?"
+      "headline": "Contracts set grade, quantity, and delivery date.",
+      "points": [
+        "Leaf is grown on contract to a specific company and specification.",
+        "Grade is assessed at delivery and paid accordingly.",
+        "A missed delivery window or downgrade cuts the payment for the year."
+      ],
+      "rhetorical_question": "Do you grow on contract with set delivery dates and grade specifications?"
     },
     {
       "rank": 3,
-      "headline": "Curing barns run unattended on programmed temperature and humidity schedules.",
-      "why_this_business": "Flue-cured tobacco is cured in bulk barns over roughly one week on programmed temperature and humidity schedules through yellowing, leaf drying, and stem drying. Barns are monitored by remote alarm and control systems. A barn that runs off schedule ruins the leaf inside it.",
-      "loss_scenario": "A curing failure destroys the leaf in that barn with no recovery. Cured leaf value is roughly $2 to $3 per pound on a crop that is already fully invested.",
-      "rhetorical_question": "Are your curing barns monitored by a remote alarm or control system?"
+      "headline": "Buyers pay large settlements by electronic transfer.",
+      "points": [
+        "Contract payments arrive after delivery and grading.",
+        "A faked banking change diverts an entire delivery payment.",
+        "The crop is settled in a small number of large payments."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     }
   ]
 }

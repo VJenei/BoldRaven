@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Milling yield determines the economics of every lot.",
-      "why_this_business": "Rice value is driven by head rice yield, the proportion of unbroken kernels, determined by drying, milling settings, and moisture control. A few points of head rice yield is the difference between profit and loss on a crop.",
-      "loss_scenario": "Milling run out of specification producing broken rice instead of head rice across a production period, which is an immediate and unrecoverable value loss on grain already purchased.",
-      "rhetorical_question": "What is the value difference between head rice and brokens across a day of production?"
+      "headline": "Milling yield decides whether the plant makes money.",
+      "points": [
+        "Hulling, whitening, and grading are controlled to maximise whole kernel yield.",
+        "Optical sorters and process controls run those decisions automatically.",
+        "Broken rice is worth a fraction of whole kernel rice."
+      ],
+      "rhetorical_question": "Is your milling and sorting run by automated process control?"
     },
     {
       "rank": 2,
-      "headline": "Arsenic and contaminant testing supports market access.",
-      "why_this_business": "Rice carries inorganic arsenic concerns with FDA action levels for infant rice cereal, and export markets impose their own residue and contaminant limits. Testing records and lot traceability support every shipment.",
-      "loss_scenario": "Shipments rejected on contaminant testing with the affected lots unidentifiable, and export market access lost where documentation cannot support the claims made.",
-      "rhetorical_question": "How do you document contaminant testing against specific milled lots?"
+      "headline": "Rice carries food safety obligations including arsenic testing.",
+      "points": [
+        "Testing, sanitation, and preventive control records are required and inspected.",
+        "Buyers require test results with every shipment.",
+        "Records you cannot produce are treated as controls not performed."
+      ],
+      "rhetorical_question": "What testing and preventive control records do you maintain?"
     },
     {
       "rank": 3,
-      "headline": "Continuous milling and storage systems run the operation.",
-      "why_this_business": "Mills operate continuous cleaning, hulling, whitening, and grading with optical sorting, alongside storage requiring aeration and fumigation management. Stored rice goes out of condition without monitoring.",
-      "loss_scenario": "Production stopped on a continuous operation with customer commitments unmet, and stored paddy or milled rice deteriorating where aeration and monitoring are unavailable.",
-      "rhetorical_question": "How is your stored rice condition monitored and controlled?"
+      "headline": "Export shipments need documentation to clear.",
+      "points": [
+        "Phytosanitary certificates, grade records, and test results travel with export lots.",
+        "Production and storage records support those certificates.",
+        "A container without paperwork is rejected at the destination port."
+      ],
+      "rhetorical_question": "Do you ship any product into export markets?"
     }
   ]
 }

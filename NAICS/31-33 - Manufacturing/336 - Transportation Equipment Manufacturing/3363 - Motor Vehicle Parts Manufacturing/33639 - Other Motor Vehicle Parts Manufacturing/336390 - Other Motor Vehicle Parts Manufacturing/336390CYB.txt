@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "One part number can put a recall across millions of vehicles.",
-      "why_this_business": "Automotive parts are supplied to multiple vehicle manufacturers across many models. A single defective component becomes a recall of every vehicle containing it, and the largest automotive recalls in history originated with component suppliers.",
-      "loss_scenario": "A component defect discovered after vehicles are in service, with recall across multiple vehicle manufacturers, remedy cost per vehicle borne by the supplier, and litigation over injuries.",
+      "headline": "One part number puts a recall across millions of vehicles.",
+      "points": [
+        "Parts are supplied to multiple vehicle makers across many models.",
+        "One defective component becomes a recall of every vehicle containing it.",
+        "The largest automotive recalls in history started with component suppliers."
+      ],
       "rhetorical_question": "How many vehicle models could contain a single one of your part numbers?"
     },
     {
       "rank": 2,
-      "headline": "Assembly plants run just in time with hours of inventory.",
-      "why_this_business": "Parts are supplied under production part approval to sequenced delivery schedules, with assembly plants holding hours of stock and contractual charges when a supplier stops the line.",
-      "loss_scenario": "Assembly plants stopped for want of parts, with line-down charges per hour that far exceed the component value, plus expedited freight and the customer's recovery costs.",
+      "headline": "Assembly plants hold hours of your parts.",
+      "points": [
+        "Parts are qualified with sequenced delivery and dedicated tooling.",
+        "Plants hold hours of stock, not days.",
+        "Line-down charges far exceed the component value."
+      ],
       "rhetorical_question": "What are your customers' line-down charges per hour?"
     },
     {
       "rank": 3,
-      "headline": "Automotive customers require documented cybersecurity from suppliers.",
-      "why_this_business": "Vehicle manufacturers flow down security and business continuity requirements to suppliers because supplier incidents have stopped vehicle production. Assessment and evidence are a condition of programme awards.",
-      "loss_scenario": "Removal from current and future programmes after an incident or a failed assessment, in a business where programme awards run for the life of a vehicle model.",
+      "headline": "Vehicle makers assess your security before awarding work.",
+      "points": [
+        "Security and continuity requirements are flowed down because supplier incidents stopped production.",
+        "Assessment is a condition of programme awards.",
+        "Programme awards run for the life of a vehicle model."
+      ],
       "rhetorical_question": "What security assessments do your automotive customers require?"
     }
   ]

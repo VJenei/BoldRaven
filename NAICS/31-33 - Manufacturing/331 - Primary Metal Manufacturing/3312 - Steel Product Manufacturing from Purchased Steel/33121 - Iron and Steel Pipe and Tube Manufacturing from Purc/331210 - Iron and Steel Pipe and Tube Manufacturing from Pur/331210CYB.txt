@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pipe carries pressure ratings verified by testing.",
-      "why_this_business": "Pipe and tube for pressure, structural, and oilfield service is manufactured to standards with hydrostatic testing, dimensional inspection, and non-destructive examination. Test results determine whether each length is acceptable.",
-      "loss_scenario": "Pipe below specification entering pressure or oilfield service, where failure produces releases, blowouts, or structural collapse, with traceability determining which lengths from the affected production must be located.",
-      "rhetorical_question": "How are hydrostatic test and NDE results recorded against individual pipe lengths?"
+      "headline": "Pipe carries pressure and is welded from stored parameters.",
+      "points": [
+        "Welding and forming parameters determine whether the seam holds pressure.",
+        "Testing and inspection records certify each length.",
+        "A seam failure in service is a release, not a defect report."
+      ],
+      "rhetorical_question": "How are your weld parameters and test results recorded per production run?"
     },
     {
       "rank": 2,
-      "headline": "Mill certification follows the pipe for the life of the installation.",
-      "why_this_business": "Purchasers require mill test reports tying pipe to heat chemistry and mechanical properties, retained for the life of pressure systems and referenced during inspection and modification decades later.",
-      "loss_scenario": "Pipe in service that cannot be certified, which during a pressure system inspection or modification forces replacement of material that may be functioning perfectly.",
-      "rhetorical_question": "How long do your customers retain mill certifications for pipe you supplied?"
+      "headline": "Pipe for gas and pressure service is traceable by requirement.",
+      "points": [
+        "Operators must trace pipe installed in regulated gas and pressure systems.",
+        "Heat numbers, test results, and markings support that trace.",
+        "Pipe that cannot be traced must be located and replaced."
+      ],
+      "rhetorical_question": "How is heat and test traceability maintained through to marked pipe?"
     },
     {
       "rank": 3,
-      "headline": "Welding and forming parameters determine seam integrity.",
-      "why_this_business": "Welded pipe production controls forming, welding current, and heat treatment producing the seam, with non-destructive testing verifying integrity. Seam defects are the failure mode in welded pipe.",
-      "loss_scenario": "Seam defects passing inspection or produced during a period when parameters were not controlled, appearing as failures in service where the pipe is carrying pressure.",
-      "rhetorical_question": "How are welding parameters monitored and linked to production lengths?"
+      "headline": "Mills run continuously at high fixed cost.",
+      "points": [
+        "Forming, welding, and finishing run as one continuous line.",
+        "Coil in process is lost when the line stops unexpectedly.",
+        "A day down is capacity that cannot be recovered."
+      ],
+      "rhetorical_question": "What does a day of stopped production cost at your mill?"
     }
   ]
 }

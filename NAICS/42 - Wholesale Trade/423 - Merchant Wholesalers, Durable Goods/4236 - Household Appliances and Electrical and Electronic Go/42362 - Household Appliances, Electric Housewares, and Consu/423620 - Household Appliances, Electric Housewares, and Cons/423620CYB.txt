@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Serialised consumer goods are diverted and resold constantly.",
-      "why_this_business": "Appliances and consumer electronics are serialised, sold through authorised channels with pricing policies, and attractive to grey market diversion. Manufacturers trace diverted product by serial number back to the distributor who sold it.",
-      "loss_scenario": "Loss of authorised distribution status when serial tracking cannot demonstrate compliant sales, removing the product lines the business depends on.",
-      "rhetorical_question": "Do you record serial numbers against the customer who received each unit?"
+      "headline": "Consumer product recalls pass through your records.",
+      "points": [
+        "Distribution records determine which retailers received affected product.",
+        "Reporting obligations apply once a hazard is known.",
+        "Without records the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which retailers received a specific production lot?"
     },
     {
       "rank": 2,
-      "headline": "Retail customers hold you to strict fulfilment performance.",
-      "why_this_business": "National retailers and e-commerce channels order through EDI with routing guides, labelling, and delivery window requirements, backed by automatic chargebacks. Drop-ship programmes require order acknowledgement and tracking within hours.",
-      "loss_scenario": "Chargebacks and scorecard damage that lead to reduced allocation or delisting, decided by automated systems that do not consider the reason for the failure.",
-      "rhetorical_question": "Which retail customers score your fulfilment performance and apply chargebacks?"
+      "headline": "High value portable inventory moves quickly.",
+      "points": [
+        "Consumer electronics carry high value in small volume.",
+        "Inventory and shipment records are the only control.",
+        "Diverted shipments are resold within days."
+      ],
+      "rhetorical_question": "How is inventory reconciled against shipment records?"
     },
     {
       "rank": 3,
-      "headline": "Warranty and recall obligations reach the consumer through your records.",
-      "why_this_business": "Distribution records identify which retailers received which lots, and are the mechanism for executing a CPSC recall on consumer products. Product safety recalls on appliances and electronics involve fire and shock hazards.",
-      "loss_scenario": "An obstructed recall where the distribution chain cannot be reconstructed, drawing CPSC enforcement and leaving hazardous product in consumers' homes.",
-      "rhetorical_question": "Could you identify which retailers received a specific production lot?"
+      "headline": "Retail supply runs on enforced delivery windows.",
+      "points": [
+        "Orders, labelling, and delivery requirements run through retailer systems.",
+        "Chargebacks apply when requirements are missed.",
+        "Holiday season carries most of the year."
+      ],
+      "rhetorical_question": "What share of your volume ships into the holiday season?"
     }
   ]
 }

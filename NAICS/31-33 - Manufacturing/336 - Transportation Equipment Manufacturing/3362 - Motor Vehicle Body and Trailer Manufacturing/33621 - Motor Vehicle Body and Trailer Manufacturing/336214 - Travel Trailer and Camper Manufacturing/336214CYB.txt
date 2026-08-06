@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Trailers combine road safety and residential systems.",
-      "why_this_business": "Travel trailers must meet safety standards for brakes, lighting, and structure while containing propane appliances, electrical systems, and water systems in an occupied space. Both categories of failure have produced recalls.",
-      "loss_scenario": "A brake, propane, or electrical defect causing a highway crash or a fire with occupants inside, and an NHTSA recall across every unit from the affected production.",
+      "headline": "Road safety and residential systems both apply.",
+      "points": [
+        "Trailers must meet brake, lighting, and structural standards.",
+        "They also contain propane, electrical, and water systems in occupied space.",
+        "Both categories of failure have produced recalls."
+      ],
       "rhetorical_question": "How are brake and propane system installations documented per unit?"
     },
     {
       "rank": 2,
-      "headline": "Production runs at volume through dealer networks.",
-      "why_this_business": "Travel trailers are built at high volume to dealer orders with configurations, options, and delivery scheduling managed through manufacturer systems, and the season concentrated in spring and summer.",
-      "loss_scenario": "Production and order systems unavailable during the selling season, with dealer inventory unfilled through the months that carry the year and demand gone by autumn.",
+      "headline": "The selling season is spring and summer only.",
+      "points": [
+        "Trailers are built at volume to dealer orders scheduled to the season.",
+        "Dealer inventory must be filled through those months.",
+        "Demand is gone by autumn and does not come back."
+      ],
       "rhetorical_question": "What share of your annual volume ships between March and July?"
     },
     {
       "rank": 3,
-      "headline": "Water intrusion defects produce claims years later.",
-      "why_this_business": "Sealing and roof construction determine whether units leak, with water intrusion causing structural rot and mould that appears seasons after delivery. Build records establish what was done on each unit.",
-      "loss_scenario": "Systematic sealing defects producing water damage claims across a production period, with warranty and litigation exposure appearing years after the units were built.",
+      "headline": "Water intrusion claims arrive years later.",
+      "points": [
+        "Sealing and roof construction determine whether units leak.",
+        "Rot and mould appear seasons after delivery.",
+        "Claims cover an entire production period at once."
+      ],
       "rhetorical_question": "How long do you retain build and inspection records per unit?"
     }
   ]

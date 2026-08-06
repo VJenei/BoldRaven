@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Personal care records document treatments and conditions.",
-      "why_this_business": "Providers record client health questionnaires, contraindications, treatment histories, and in many services before and after photographs. Treatments including laser, injectable, and body services carry medical risk and require documented consent.",
-      "loss_scenario": "Exposure of client health information and treatment photographs, which is personally damaging, and consent documentation that cannot be produced in a claim arising from an adverse treatment outcome.",
-      "rhetorical_question": "Do you hold client health questionnaires and treatment photographs?"
+      "headline": "Client records carry personal and health data.",
+      "points": [
+        "Records document contact details, service history, and health information.",
+        "Clients disclose that information to receive services.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client health and personal data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Booking, membership, and payment run on one platform.",
-      "why_this_business": "Services are booked and billed through a single platform with memberships, packages, and stored payment methods, and prepaid packages representing client funds held against future services.",
-      "loss_scenario": "Payment data exposure across the client base plus prepaid package balances that cannot be reconciled, with clients unable to demonstrate what they have already paid for.",
-      "rhetorical_question": "What value of prepaid packages are you holding for clients?"
+      "headline": "Bookings and card payments run every day.",
+      "points": [
+        "Appointments and payments run on connected systems.",
+        "Clients book ahead and arrive expecting a slot.",
+        "Card security requirements apply to every location."
+      ],
+      "rhetorical_question": "How are your appointments booked and card payments processed?"
     },
     {
       "rank": 3,
-      "headline": "Practitioner licensing and training records support the service.",
-      "why_this_business": "Many services require practitioner licensing or certification with training records demonstrating competence for specific treatments, examined during inspection and after any adverse outcome.",
-      "loss_scenario": "Regulatory action where practitioner licensing cannot be evidenced, and in an injury claim the absence of training documentation for the specific treatment is decisive.",
-      "rhetorical_question": "How are practitioner licences and treatment certifications recorded?"
+      "headline": "Sanitation and licensing records are inspected.",
+      "points": [
+        "Sanitation, training, and licensing records are inspected by state boards.",
+        "Services involve direct physical contact.",
+        "Records you cannot produce are a licensing matter."
+      ],
+      "rhetorical_question": "What sanitation and licensing records does your state board require?"
     }
   ]
 }

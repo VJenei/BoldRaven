@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The FBI identified grain storage as a deliberate ransomware target.",
-      "why_this_business": "The FBI notification of April 2022 documented six grain cooperatives encrypted between September 15 and October 6, 2021 and a multi-state grain company hit in March 2022, assessing that attackers target the sector because of its time-sensitive role. Warehousing and storage sits at the point where harvest either moves or stops.",
-      "loss_scenario": "Scale, grading, and inventory systems encrypted during harvest with trucks queued and no ability to receive or account for grain, at the one time of year the capacity is needed.",
-      "rhetorical_question": "What is your daily receiving volume during harvest, and what software runs your scale?"
+      "headline": "Stored crop deteriorates without monitoring.",
+      "points": [
+        "Temperature, moisture, and aeration are monitored and controlled continuously.",
+        "Grain heats and moulds within days when aeration stops.",
+        "The loss is the depositor's crop, not your storage fee."
+      ],
+      "rhetorical_question": "Are your storage bins monitored by automated temperature and aeration systems?"
     },
     {
       "rank": 2,
-      "headline": "Warehouse receipts are legal instruments pledged as collateral.",
-      "why_this_business": "Licensed warehouses issue receipts under federal or state warehouse acts establishing ownership of stored commodity, frequently pledged to lenders. Regulators require position reporting and reconciliation of storage obligations against physical inventory.",
-      "loss_scenario": "Inability to reconcile storage obligations triggers regulatory examination, bond claims, and direct liability to depositors, with the licence at risk.",
-      "rhetorical_question": "What is the value of customer-owned commodity stored under receipts you have issued?"
+      "headline": "You hold crop that belongs to other people.",
+      "points": [
+        "Grain is stored under warehouse receipts establishing ownership.",
+        "Depositors and lenders rely on those records.",
+        "Records you cannot produce are grain you cannot prove you hold."
+      ],
+      "rhetorical_question": "How are your warehouse receipts and depositor records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Stored commodity goes out of condition without monitoring.",
-      "why_this_business": "Grain and farm products in storage require temperature cable monitoring, aeration control, and fumigation management to prevent insect infestation, mould, and spoilage. Automated monitoring is how a problem is detected before it spreads through the bin.",
-      "loss_scenario": "Spoilage or infestation across stored inventory belonging to depositors, creating both a property loss and a bailee liability claim, plus fire exposure from grain dust and drying operations.",
-      "rhetorical_question": "How is bin temperature and condition monitored, and how are alarms received?"
+      "headline": "Grain dust in the facility is explosive.",
+      "points": [
+        "Receiving and handling generate combustible dust.",
+        "Dust collection and ignition controls manage that hazard.",
+        "Grain dust explosions have destroyed elevators and killed workers."
+      ],
+      "rhetorical_question": "How are your dust collection and explosion protection systems monitored?"
     }
   ]
 }

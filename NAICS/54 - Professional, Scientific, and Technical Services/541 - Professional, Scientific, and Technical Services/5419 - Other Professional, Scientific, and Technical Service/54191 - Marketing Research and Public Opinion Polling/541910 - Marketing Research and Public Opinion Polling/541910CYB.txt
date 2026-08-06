@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Respondents participate on an explicit promise of confidentiality.",
-      "why_this_business": "Survey and panel research collects opinions, behaviours, and personal characteristics from identified respondents who agreed to participate on the basis that responses would be confidential or anonymised. Political and sensitive topic research collects views respondents would not state publicly.",
-      "loss_scenario": "Exposure of linked respondent identities and responses breaks the specific promise that obtained participation, causes personal harm where topics are sensitive, and destroys panel participation rates permanently.",
-      "rhetorical_question": "Can respondent identities be linked to their individual responses in your data?"
+      "headline": "Respondent data is collected under confidentiality promises.",
+      "points": [
+        "Survey and panel data identifies individuals and their responses.",
+        "Respondents participate on the promise of confidentiality.",
+        "A breach violates that promise and the research ethics behind it."
+      ],
+      "rhetorical_question": "How many respondent records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Client research reveals strategy before it is executed.",
-      "why_this_business": "Research is commissioned to test products, pricing, messaging, and positioning before launch. The research itself tells a competitor what the client is planning and what tested well or badly.",
-      "loss_scenario": "Disclosure of client research hands competitors both the strategic direction and the testing results, with claims against the research firm under the engagement confidentiality terms.",
-      "rhetorical_question": "Do you hold unreleased product or pricing research for clients?"
+      "headline": "Research findings are confidential before release.",
+      "points": [
+        "Client findings and polling results exist before publication.",
+        "That information has commercial and political value.",
+        "An early leak destroys the value and breaches your engagement."
+      ],
+      "rhetorical_question": "What client findings do you hold before publication?"
     },
     {
       "rank": 3,
-      "headline": "Panel databases are large aggregations of personal data.",
-      "why_this_business": "Research firms maintain panels with demographic profiles, participation histories, incentive payment details, and accumulated response data across many studies for hundreds of thousands of individuals.",
-      "loss_scenario": "Breach of the panel database exposes a rich profile of each panellist accumulated across studies, with notification obligations and the collapse of the panel that is the firm's operating asset.",
-      "rhetorical_question": "How many panellists' profiles and response histories are held in your database?"
+      "headline": "Fieldwork cannot be repeated at the same moment.",
+      "points": [
+        "Survey and polling data captures opinion at a point in time.",
+        "That moment cannot be recreated.",
+        "Losing the data ends the study."
+      ],
+      "rhetorical_question": "Where is your fieldwork data stored, and how is it backed up?"
     }
   ]
 }

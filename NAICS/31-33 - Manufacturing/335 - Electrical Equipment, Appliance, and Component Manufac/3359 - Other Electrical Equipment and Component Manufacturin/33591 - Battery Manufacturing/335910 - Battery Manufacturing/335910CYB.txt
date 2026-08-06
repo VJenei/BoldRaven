@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Lithium-ion cells fail into thermal runaway.",
-      "why_this_business": "Cell manufacturing defects including separator contamination and electrode misalignment cause internal short circuits leading to thermal runaway. The failure is self-sustaining, spreads to adjacent cells, and cannot be extinguished conventionally.",
-      "loss_scenario": "A cell defect causing fires in vehicles, homes, or facilities, with a recall covering every pack containing cells from the affected production and consequential claims from the fires themselves.",
+      "headline": "Cell defects cause thermal runaway that cannot be stopped.",
+      "points": [
+        "Separator contamination and electrode misalignment cause internal short circuits.",
+        "Thermal runaway is self-sustaining and spreads to adjacent cells.",
+        "It cannot be extinguished conventionally once it starts."
+      ],
       "rhetorical_question": "How is cell production traceable to specific equipment, materials, and time periods?"
     },
     {
       "rank": 2,
-      "headline": "Cell manufacturing is a process where contamination is invisible.",
-      "why_this_business": "Cell production runs in controlled environments where particulate contamination and process deviation produce defects that pass electrical testing and fail months later in service. Process data is the only record of what was made.",
-      "loss_scenario": "Latent defects appearing across the field after months, with process records determining which cells are affected and, without them, every cell from an extended period requiring replacement.",
+      "headline": "Contamination in cell production is invisible until later.",
+      "points": [
+        "Cells are made in controlled environments where particulates cause latent defects.",
+        "Defective cells pass electrical testing and fail months later.",
+        "Process data is the only record of what was actually made."
+      ],
       "rhetorical_question": "How much production occurs between a process deviation and its detection?"
     },
     {
       "rank": 3,
-      "headline": "Battery plants are strategic assets and their processes are targeted.",
-      "why_this_business": "Cell chemistry, electrode formulations, and manufacturing process parameters represent very large development investment and determine competitive position, with substantial federal funding tied to domestic production.",
-      "loss_scenario": "Theft of cell chemistry and process data, transferring capability permanently, with federal interest where the development was publicly funded.",
+      "headline": "Cell chemistry and process are strategic targets.",
+      "points": [
+        "Chemistry, electrode formulations, and process parameters determine competitive position.",
+        "Development represents very large investment, often publicly funded.",
+        "Once copied the capability transfers permanently."
+      ],
       "rhetorical_question": "How is access to cell chemistry and process parameter data controlled?"
     }
   ]

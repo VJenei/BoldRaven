@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Flour-based products carry pathogen risk when consumed raw.",
-      "why_this_business": "Raw dough and flour mixes have been linked to E. coli and salmonella outbreaks because consumers taste raw dough and batter. Products intended to be cooked are consumed raw despite labelling, and recalls in this category have been extensive.",
-      "loss_scenario": "A recall across products containing affected flour lots, with illness claims from consumers who ate the product raw and a recall scope determined by ingredient traceability.",
-      "rhetorical_question": "Can you trace a flour supplier lot forward to every finished product it entered?"
+      "headline": "Flour is a recognised source of pathogen contamination.",
+      "points": [
+        "Raw flour has caused E. coli and salmonella outbreaks in mixes and doughs.",
+        "Supplier verification and treatment records establish control.",
+        "Consumers eat raw dough regardless of the warning on the package."
+      ],
+      "rhetorical_question": "What supplier verification records do you keep for incoming flour?"
     },
     {
       "rank": 2,
-      "headline": "Allergen and formulation control governs labelling accuracy.",
-      "why_this_business": "Mixes and doughs contain wheat, milk, egg, and soy in formulations produced on shared equipment, with the label declaration depending on accurate formulation and packaging control.",
-      "loss_scenario": "An allergen recall from a formulation or labelling error, with injury exposure and recall costs across retail and foodservice distribution.",
-      "rhetorical_question": "How are formulations controlled and matched to the correct packaging?"
+      "headline": "Allergen and label control drive recalls in this category.",
+      "points": [
+        "Wheat, egg, milk, and soy appear across products on shared lines.",
+        "Changeover, cleaning, and label controls prove separation.",
+        "An undeclared allergen recalls every package from the run."
+      ],
+      "rhetorical_question": "How are allergen changeover and label controls documented per run?"
     },
     {
       "rank": 3,
-      "headline": "Drying and moisture control determine shelf stability.",
-      "why_this_business": "Dry pasta is extruded and dried over controlled cycles, with final moisture determining shelf stability and cooking performance. Product above moisture specification supports mould growth in distribution.",
-      "loss_scenario": "Product released above moisture specification developing mould in distribution, with retail withdrawal and consumer complaints across an extended shelf life.",
-      "rhetorical_question": "How is final product moisture verified before release?"
+      "headline": "Your product is an ingredient in customers' finished foods.",
+      "points": [
+        "Mixes and doughs go into bakeries, foodservice, and packaged goods.",
+        "A contamination event follows the ingredient into their products.",
+        "The recall cost is their finished goods, not your mix."
+      ],
+      "rhetorical_question": "How many customer products could contain a single lot of your product?"
     }
   ]
 }

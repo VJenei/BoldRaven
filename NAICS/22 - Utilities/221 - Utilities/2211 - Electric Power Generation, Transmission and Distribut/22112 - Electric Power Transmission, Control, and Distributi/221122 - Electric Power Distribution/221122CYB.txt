@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Smart meters and the distribution control system reach every customer premises.",
-      "why_this_business": "Advanced metering infrastructure connects hundreds of thousands of endpoints back to the head end system, with remote disconnect capability at many of them. Distribution management, outage management, and volt/VAR control operate field devices remotely across the service territory.",
-      "loss_scenario": "Mass remote disconnect or loss of outage management during a storm restoration is both a service failure and a public safety event, with regulatory investigation by the state commission following automatically.",
-      "rhetorical_question": "Do your meters support remote disconnect, and how is the head end system secured?"
+      "headline": "Distribution control systems can de-energise whole neighbourhoods.",
+      "points": [
+        "SCADA and distribution management systems operate switches and reclosers remotely.",
+        "Advanced meters can be disconnected remotely at scale.",
+        "Loss of power to customers on life support equipment is immediate harm."
+      ],
+      "rhetorical_question": "What systems can operate switches or disconnect meters remotely?"
     },
     {
       "rank": 2,
-      "headline": "You hold payment and personal data for every customer in the territory.",
-      "why_this_business": "Utilities hold names, addresses, Social Security numbers collected for credit checks, bank details for automatic payment, and payment card data, plus usage data that reveals occupancy patterns. Medical necessity registries identify customers dependent on powered equipment.",
-      "loss_scenario": "A breach across a customer base of hundreds of thousands triggers notification in every affected state, card brand liability, and commission scrutiny. Medical necessity data adds a health information dimension.",
-      "rhetorical_question": "How many customer records containing payment or Social Security data do you hold?"
+      "headline": "You hold personal and payment data on every customer.",
+      "points": [
+        "Names, addresses, usage patterns, and payment details are held for every account.",
+        "Usage data reveals when a home is occupied.",
+        "State notification laws apply to every affected customer."
+      ],
+      "rhetorical_question": "How many customer records with payment details do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Regulated utilities answer to a commission for every service failure.",
-      "why_this_business": "Distribution utilities operate under state commission oversight with reliability metrics, reporting obligations, and prudency review of costs. An extended outage caused by a cyber incident is examined publicly, and the recoverability of response costs in rates is not guaranteed.",
-      "loss_scenario": "Response and restoration costs disallowed in rate recovery, meaning shareholders rather than ratepayers absorb them, on top of penalties tied to reliability performance.",
-      "rhetorical_question": "Would your incident response costs be recoverable in rates, or absorbed by the company?"
+      "headline": "Federal reliability standards apply to covered assets.",
+      "points": [
+        "Critical infrastructure protection standards impose documented, audited security requirements.",
+        "Penalties are assessed per violation per day.",
+        "Findings attach to the registered entity."
+      ],
+      "rhetorical_question": "Which of your assets fall within federal reliability security requirements?"
     }
   ]
 }

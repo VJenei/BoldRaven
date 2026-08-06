@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Wet milling is a continuous chemical process that cannot be stopped cleanly.",
-      "why_this_business": "Steeping, separation, refining, and drying run continuously under distributed control, producing starch, sweeteners, oil, and feed products simultaneously. An unplanned stop leaves product in process across the whole plant.",
-      "loss_scenario": "Days of lost production at a plant processing very large volumes, with product in process lost and restart taking further days, while customers on contract supply have no alternative source.",
-      "rhetorical_question": "How long does a full plant restart take after an uncontrolled shutdown?"
+      "headline": "The plant is a continuous chemical process that cannot stop cleanly.",
+      "points": [
+        "Steeping, separation, and conversion run as one continuous controlled process.",
+        "Restart after an unplanned stop takes days and wastes material in process.",
+        "The plant runs at very high fixed cost per hour."
+      ],
+      "rhetorical_question": "Is your plant run by a distributed control system?"
     },
     {
       "rank": 2,
-      "headline": "Sweetener and starch customers run continuous operations too.",
-      "why_this_business": "High fructose corn syrup and starch customers include beverage and food manufacturers running continuous lines with limited on-site storage, supplied by tank truck and rail on scheduled deliveries.",
-      "loss_scenario": "Customer production lines stopping for lack of sweetener or starch, with claims reflecting their lost production rather than the value of the material not delivered.",
-      "rhetorical_question": "How many days of ingredient inventory do your customers hold?"
+      "headline": "Your products are ingredients in thousands of foods.",
+      "points": [
+        "Starches, sweeteners, and syrups go into food and beverage products everywhere.",
+        "A contamination event follows the ingredient into every finished product.",
+        "The recall cost is the customers' products, not your ingredient."
+      ],
+      "rhetorical_question": "How many customer products could contain a single lot of your product?"
     },
     {
       "rank": 3,
-      "headline": "Food safety and allergen control apply across multiple product streams.",
-      "why_this_business": "Plants produce food, feed, and industrial products from the same corn stream, with segregation required between food and non-food grades and, for identity-preserved and non-GMO streams, additional segregation and documentation.",
-      "loss_scenario": "Cross-contamination between product streams or loss of identity preservation documentation, with food grade product unable to be certified and premium identity-preserved product reverting to commodity value.",
-      "rhetorical_question": "How is segregation between food, feed, and identity-preserved streams documented?"
+      "headline": "Grain receiving and dust systems are explosion hazards.",
+      "points": [
+        "Corn receiving, handling, and drying generate combustible dust.",
+        "Dust collection and ignition controls are monitored continuously.",
+        "A dust explosion propagates through connected equipment across the plant."
+      ],
+      "rhetorical_question": "How are your dust collection and explosion protection systems monitored?"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "naics_code": "115112",
   "naics_title": "Soil Preparation, Planting, and Cultivating",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The business holds field data belonging to many grower clients.",
-      "why_this_business": "Custom applicators and planting contractors receive clients' field boundaries, soil test results, variable-rate prescriptions, yield history, and application records. This data is held for many growers at once on the contractor's systems.",
-      "loss_scenario": "Third-party liability to grower clients whose agronomic and financial data was exposed. A property policy does not respond because the loss is another party's information.",
-      "rhetorical_question": "How many grower clients' field data do you store on your systems?"
+      "headline": "Custom work is scheduled into windows measured in days.",
+      "points": [
+        "Planting and tillage for many farms is sequenced across a short season.",
+        "Job scheduling, guidance files, and prescriptions run on connected systems.",
+        "A day lost is a day of customer fields not planted."
+      ],
+      "rhetorical_question": "How are your customer jobs and field schedules managed?"
     },
     {
       "rank": 2,
-      "headline": "Prescription files are executed automatically across large acreages.",
-      "why_this_business": "Variable-rate application runs from prescription files loaded into rate controllers and section control systems. A wrong or corrupted file applies the wrong product or rate across the field. The result is not visible for days or weeks.",
-      "loss_scenario": "Crop damage claims from misapplication, plus off-target drift claims from neighboring property. Herbicide injury claims on row crops commonly run $200 to $800 per acre.",
-      "rhetorical_question": "How are prescription files transferred to your equipment, and who verifies them?"
+      "headline": "You run other people's field data on your machines.",
+      "points": [
+        "Prescriptions, boundaries, and field maps come from customers and agronomists.",
+        "Those files load into guidance systems and control application rates.",
+        "A wrong or corrupted file misapplies inputs across an entire field."
+      ],
+      "rhetorical_question": "How do you receive and load customer prescription and boundary files?"
     },
     {
       "rank": 3,
-      "headline": "Pesticide application records are legally required and are the primary defense in a claim.",
-      "why_this_business": "Federal law requires restricted use pesticide application records to be kept for two years. State requirements are often stricter with shorter reporting deadlines. These records are the primary evidence in a drift complaint, worker exposure claim, or residue investigation, and are usually electronic.",
-      "loss_scenario": "Regulatory penalties for missing records, and inability to defend a drift or exposure claim without documentation of what was applied, when, and at what rate.",
-      "rhetorical_question": "How and where do you store your restricted use pesticide application records?"
+      "headline": "Application records are the customer's compliance record too.",
+      "points": [
+        "Rates, products, dates, and locations are recorded for every job.",
+        "Customers rely on those records for their own program and audit requirements.",
+        "Records you cannot produce become a problem for the farm as well."
+      ],
+      "rhetorical_question": "How are your application records recorded and provided to customers?"
     }
   ]
 }

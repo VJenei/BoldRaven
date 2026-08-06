@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Crystalline silica exposure is regulated and consequential.",
-      "why_this_business": "Grinding and processing mineral products generates respirable crystalline silica requiring engineering controls, exposure monitoring, and medical surveillance under OSHA rules. Silicosis is irreversible and progressive.",
-      "loss_scenario": "Worker silicosis claims arising years after exposure, where the absence of exposure monitoring and medical surveillance records leaves the employer without a defence.",
-      "rhetorical_question": "How are worker silica exposure monitoring and medical surveillance records maintained?"
+      "headline": "Product specifications are qualified into customer processes.",
+      "points": [
+        "Particle size, purity, and surface treatment are specified and tested per lot.",
+        "Customers formulate their products around that specification.",
+        "Off specification material ruins their formulation batch."
+      ],
+      "rhetorical_question": "How are your product specifications tested and recorded per lot?"
     },
     {
       "rank": 2,
-      "headline": "Product specification determines usability in customer processes.",
-      "why_this_business": "Ground minerals are supplied to specifications for particle size distribution, purity, and surface treatment, qualified into customer formulations for coatings, plastics, and rubber. Variation affects the customer's product properties.",
-      "loss_scenario": "Off-specification mineral causing formulation failures at customers, with their batch losses and finished product problems claimed against the supplier.",
-      "rhetorical_question": "How is particle size distribution and purity verified for each production lot?"
+      "headline": "Silica dust exposure is a regulated hazard.",
+      "points": [
+        "Grinding minerals generates respirable crystalline silica.",
+        "Exposure monitoring, controls, and medical surveillance records are required.",
+        "Silicosis claims appear decades after the exposure."
+      ],
+      "rhetorical_question": "What silica exposure monitoring and medical records do you keep?"
     },
     {
       "rank": 3,
-      "headline": "Combustible dust hazards exist in mineral processing.",
-      "why_this_business": "Some mineral and earth products generate combustible dust in grinding and handling, requiring collection systems with explosion protection and housekeeping programmes. Dust collector explosions propagate through connected systems.",
-      "loss_scenario": "A dust explosion propagating through collection ductwork, destroying processing areas with worker fatalities and OSHA enforcement.",
-      "rhetorical_question": "Have your dust hazards been assessed and are collection systems explosion protected?"
+      "headline": "Processing runs continuously under automated control.",
+      "points": [
+        "Grinding, classifying, and treating run as a continuous controlled process.",
+        "Product properties depend on holding process parameters.",
+        "A control failure produces off specification product across the run."
+      ],
+      "rhetorical_question": "Is your processing plant run by automated process control?"
     }
   ]
 }

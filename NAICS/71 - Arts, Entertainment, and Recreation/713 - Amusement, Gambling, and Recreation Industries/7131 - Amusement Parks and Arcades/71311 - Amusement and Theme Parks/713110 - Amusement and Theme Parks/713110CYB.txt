@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ride control systems are safety-critical industrial automation.",
-      "why_this_business": "Rides operate under programmable logic controllers managing dispatch intervals, block zones, restraint checks, and emergency stops. Those systems prevent trains occupying the same block and confirm restraints are secured before dispatch.",
-      "loss_scenario": "A ride control failure or unauthorised change causing a collision or an unrestrained dispatch, which is a mass casualty exposure with state ride safety regulators, criminal investigation, and park closure.",
-      "rhetorical_question": "How are your ride control systems isolated from the park's business network?"
+      "headline": "Ride control systems keep guests alive.",
+      "points": [
+        "Rides run on programmable control systems with safety interlocks.",
+        "Those systems prevent unsafe operation with guests aboard.",
+        "A control failure on a ride is a serious injury event."
+      ],
+      "rhetorical_question": "What control and safety systems operate your rides?"
     },
     {
       "rank": 2,
-      "headline": "Season passes and admissions carry biometric and payment data.",
-      "why_this_business": "Parks issue season passes with photographs and increasingly fingerprint or facial recognition for entry, alongside stored payment methods for monthly payment plans and in-park charging. Several states regulate biometric data with statutory damages.",
-      "loss_scenario": "Biometric data exposure, which under state biometric privacy laws carries statutory damages per person and has produced very large class settlements, alongside conventional payment data liability.",
-      "rhetorical_question": "Do you collect fingerprints or facial data for season pass entry?"
+      "headline": "Ticketing and access control run the gate.",
+      "points": [
+        "Tickets, passes, and access are sold and scanned electronically.",
+        "Thousands of guests arrive within a short window.",
+        "A gate failure means crowds outside a park that cannot admit them."
+      ],
+      "rhetorical_question": "How are your tickets and passes sold and scanned at the gate?"
     },
     {
       "rank": 3,
-      "headline": "Operating days are finite and weather-constrained.",
-      "why_this_business": "Parks earn revenue on a limited number of operating days concentrated in summer and holidays, with attendance driven by weather and season. A closed day cannot be recovered.",
-      "loss_scenario": "Park closure on peak operating days when admissions, food, and merchandise revenue are concentrated, with the season having a fixed end and no capacity to make up lost days.",
-      "rhetorical_question": "What proportion of your annual revenue is earned on your busiest thirty days?"
+      "headline": "Guest accounts hold payment and personal data.",
+      "points": [
+        "Season pass and guest accounts carry contact and payment card details.",
+        "In-park payment runs against those accounts.",
+        "Every affected guest must be notified."
+      ],
+      "rhetorical_question": "How many guest accounts with payment details do you hold?"
     }
   ]
 }

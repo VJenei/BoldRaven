@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Every rental captures a driver licence and a payment card.",
-      "why_this_business": "Rental transactions collect driver licence images, dates of birth, addresses, payment cards, and increasingly biometric or mobile identity verification, across enormous transaction volumes at airports and city locations. Loyalty programmes hold stored payment methods indefinitely.",
-      "loss_scenario": "Breach notification across a renter base spanning every state and many countries, with driver licence images being a particularly damaging combination alongside card data for identity fraud.",
-      "rhetorical_question": "How many renter records with licence images and stored payment methods do you hold?"
+      "headline": "Reservation and counter systems run the whole operation.",
+      "points": [
+        "Reservations, rental agreements, and vehicle assignment run on one system.",
+        "Customers arrive at airports expecting a booked car.",
+        "Without the system you cannot rent or check in a vehicle."
+      ],
+      "rhetorical_question": "What happens at the counter if your reservation system is unavailable?"
     },
     {
       "rank": 2,
-      "headline": "Fleet telematics track vehicles and the people driving them.",
-      "why_this_business": "Rental fleets are equipped with telematics for recovery, mileage, and fuel monitoring, recording vehicle location continuously. That data maps where individual renters travelled and when, and connected vehicles retain paired phone data from previous renters.",
-      "loss_scenario": "Exposure of renter location histories is a privacy claim distinct from payment data, and previous renters' phone contacts and messages retained in vehicle infotainment systems create a separate exposure the renter never anticipated.",
-      "rhetorical_question": "How is paired phone data cleared from vehicles between rentals?"
+      "headline": "Renter files hold licence and payment data.",
+      "points": [
+        "Rental agreements carry driving licence details, addresses, and payment cards.",
+        "That data supports identity theft directly.",
+        "Every affected renter must be notified."
+      ],
+      "rhetorical_question": "How many rental agreements with licence and payment data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Reservation and fleet systems decide whether cars can be rented at all.",
-      "why_this_business": "Reservations, availability, pricing, check-out, and return processing run through connected systems across locations. Airport counters at peak cannot process manually, and vehicles cannot be released or received without a record.",
-      "loss_scenario": "Locations unable to rent or receive returns, with fleet position unknown and revenue lost at peak periods that cannot be recovered, plus vehicles unaccounted for across the network.",
-      "rhetorical_question": "Could a location rent a vehicle if your reservation system were unavailable?"
+      "headline": "Vehicles carry connected telematics.",
+      "points": [
+        "Fleet vehicles carry telematics reporting location and usage.",
+        "Some vehicles support remote immobilisation.",
+        "That data shows where individual renters travelled."
+      ],
+      "rhetorical_question": "What telematics data do your vehicles report, and who can access it?"
     }
   ]
 }

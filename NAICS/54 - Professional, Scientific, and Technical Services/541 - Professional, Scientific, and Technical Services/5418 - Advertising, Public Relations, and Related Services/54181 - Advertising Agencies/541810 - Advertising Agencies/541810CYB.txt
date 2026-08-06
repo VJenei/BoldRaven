@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Agencies hold client campaign plans and media spend before launch.",
-      "why_this_business": "Agencies develop creative, media plans, and launch timing months ahead of public release, holding client product information, pricing, and positioning under confidentiality. Competitors gain direct advantage from advance knowledge.",
-      "loss_scenario": "A leaked campaign forfeits the launch impact after the media has already been bought, with the client's investment wasted and the loss claimed against the agency.",
-      "rhetorical_question": "Do you hold unlaunched campaigns and media plans for clients right now?"
+      "headline": "You hold client campaigns before they launch.",
+      "points": [
+        "Creative, media plans, and launch timing exist before public release.",
+        "That information reveals client strategy to competitors.",
+        "A leak destroys the launch and breaches your agreements."
+      ],
+      "rhetorical_question": "What client campaign material do you hold before launch?"
     },
     {
       "rank": 2,
-      "headline": "Agencies handle client money for media buying.",
-      "why_this_business": "Agencies place media on behalf of clients, receiving funds and paying publishers and platforms, frequently with substantial sums flowing through agency accounts. Payment instructions to media vendors and invoices to clients move by email.",
-      "loss_scenario": "Diverted media payments where the publisher was never paid and the client's placements do not run, with the agency liable for both the funds and the lost media value.",
-      "rhetorical_question": "How much client media spend passes through your accounts each month?"
+      "headline": "Media buys commit very large client sums.",
+      "points": [
+        "Media placement is booked and paid with client funds.",
+        "Vendor payment instructions arrive and change by email.",
+        "A diverted payment is client money you must replace."
+      ],
+      "rhetorical_question": "How are media vendor payment instructions verified before client funds move?"
     },
     {
       "rank": 3,
-      "headline": "Customer data is used for targeting and is regulated.",
-      "why_this_business": "Agencies receive client customer lists for audience building and targeting, subject to state privacy laws imposing purpose limitations, opt-out rights for targeted advertising, and contractual requirements between controller and processor.",
-      "loss_scenario": "Breach of client customer data, with notification obligations flowing through the client and regulatory exposure for processing beyond the agreed purpose.",
-      "rhetorical_question": "What client customer data are you holding for audience targeting?"
+      "headline": "Launch dates are fixed and expensive.",
+      "points": [
+        "Media, events, and retail are committed to a launch date.",
+        "Production and delivery are scheduled to it.",
+        "A missed date wastes the entire committed spend."
+      ],
+      "rhetorical_question": "What launch dates depend on your delivery?"
     }
   ]
 }

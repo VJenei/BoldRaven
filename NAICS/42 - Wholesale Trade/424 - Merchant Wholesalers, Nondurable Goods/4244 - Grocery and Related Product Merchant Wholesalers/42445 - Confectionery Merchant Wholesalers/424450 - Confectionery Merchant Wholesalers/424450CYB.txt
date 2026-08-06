@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Confectionery demand is driven by four fixed holidays.",
-      "why_this_business": "Halloween, Christmas, Valentine's Day, and Easter drive the majority of confectionery volume, with retailer orders placed months ahead and shipped into narrow delivery windows. Seasonal product has no value after its date.",
-      "loss_scenario": "Missing a seasonal delivery window leaves product that cannot be sold at any price, since retailers reset the aisle the day after the holiday.",
-      "rhetorical_question": "What share of your annual volume ships into four holiday windows?"
+      "headline": "Seasonal windows carry most of the year.",
+      "points": [
+        "Halloween, Christmas, and Easter drive concentrated volume.",
+        "Retail delivery windows are fixed and enforced by chargeback.",
+        "Volume missed in a season has no other market."
+      ],
+      "rhetorical_question": "What share of your annual volume ships for specific holidays?"
     },
     {
       "rank": 2,
-      "headline": "Allergen labelling errors trigger recalls with real injury exposure.",
-      "why_this_business": "Confectionery carries the major allergens, and undeclared allergen errors are the leading cause of food recalls in the United States. Distributors must identify which customers received affected lots and support the recall quickly.",
-      "loss_scenario": "An allergen recall with anaphylaxis exposure, where distribution records determine whether the recall is targeted or covers everything you shipped that month.",
-      "rhetorical_question": "Could you identify recipients of a specific lot in a recall situation?"
+      "headline": "Allergen recalls follow the product to your customers.",
+      "points": [
+        "Undeclared allergens are the most common food recall cause.",
+        "Your distribution records determine which customers received the product.",
+        "Without records the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific product lot?"
     },
     {
       "rank": 3,
-      "headline": "Heat sensitivity makes summer distribution a controlled operation.",
-      "why_this_business": "Chocolate and coated confectionery bloom or melt above moderate temperatures, requiring temperature controlled storage and transport through warm months, with monitoring across the chain. Damaged product is rejected on arrival.",
-      "loss_scenario": "Heat-damaged inventory across a warehouse or truckload during summer, rejected by retailers and unsaleable through any channel.",
-      "rhetorical_question": "How do you monitor temperature for heat-sensitive product in summer?"
+      "headline": "Customers order against shelf plans and promotions.",
+      "points": [
+        "Retail and convenience customers order to planned shelf sets.",
+        "Promotions are scheduled and advertised in advance.",
+        "A supply gap leaves advertised product missing from shelves."
+      ],
+      "rhetorical_question": "How quickly do your customers expect delivery on promotional volume?"
     }
   ]
 }

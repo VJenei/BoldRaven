@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Knitting programmes define every garment produced.",
-      "why_this_business": "Seamless and shaped knitting machines execute programmes controlling stitch structure, shaping, and dimensions. Modern knitwear is programmed rather than cut and sewn, and the programme is the garment design.",
-      "loss_scenario": "Loss of knitting programmes stops production and requires redevelopment of every style, with customers whose seasonal deliveries depend on production starting now.",
-      "rhetorical_question": "How many garment programmes are stored in your knitting machine systems?"
+      "headline": "Knitting programs define every garment you make.",
+      "points": [
+        "Stitch programs, sizing, and machine settings are held as digital files.",
+        "Programs are developed per style and per size run.",
+        "Losing programs means redeveloping every style from scratch."
+      ],
+      "rhetorical_question": "Where are your knitting programs and size data stored?"
     },
     {
       "rank": 2,
-      "headline": "Seasonal delivery dates are fixed by retail calendars.",
-      "why_this_business": "Apparel production is scheduled backward from retail delivery dates set months earlier, with fabric, trim, and production capacity committed. Retailers cancel late deliveries rather than accept them.",
-      "loss_scenario": "Cancelled orders on seasonal goods that have no later market, with production cost sunk and the retailer's shelf space filled by another supplier.",
-      "rhetorical_question": "What happens to an order that misses its retail delivery window?"
+      "headline": "Customer designs are confidential before launch.",
+      "points": [
+        "Brands supply designs, specifications, and samples ahead of their season.",
+        "That information reveals the brand's line before it is announced.",
+        "Disclosure damages the brand and breaches your contract."
+      ],
+      "rhetorical_question": "Do you hold brand designs for seasons not yet launched?"
     },
     {
       "rank": 3,
-      "headline": "Supply chain documentation is required at import.",
-      "why_this_business": "Apparel and textile imports face forced labour enforcement requiring documentation tracing to raw material origin, with shipments detained and the importer required to produce evidence.",
-      "loss_scenario": "Detained shipments during a selling season, which for seasonal apparel is equivalent to losing the goods entirely even if eventually released.",
-      "rhetorical_question": "Could you trace a garment back through its yarn and fibre supply chain?"
+      "headline": "Delivery dates are tied to retail floor set dates.",
+      "points": [
+        "Garments must arrive for a specific retail floor set.",
+        "Production, finishing, and shipping are scheduled to that date.",
+        "Late product misses the season and is sold at markdown."
+      ],
+      "rhetorical_question": "How are your production and shipping schedules tied to customer floor set dates?"
     }
   ]
 }

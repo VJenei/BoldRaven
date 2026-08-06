@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Federal law requires an anti-money laundering programme for this trade.",
-      "why_this_business": "Dealers in precious metals, precious stones, and jewels above threshold volumes must implement a written anti-money laundering programme with a compliance officer, training, and independent testing, and must maintain records supporting customer due diligence. This industry is specifically identified as a money laundering risk.",
-      "loss_scenario": "FinCEN enforcement for a programme that cannot be evidenced, and criminal exposure where transactions cannot be shown to have been screened. Records lost is not a defence.",
-      "rhetorical_question": "Do you have a written AML programme, and where are your customer due diligence records kept?"
+      "headline": "Inventory is extremely valuable and fits in a pocket.",
+      "points": [
+        "Value is concentrated in a very small physical volume.",
+        "Records are the only means of detecting diversion.",
+        "A missing item is not visible on the shelf."
+      ],
+      "rhetorical_question": "How frequently is inventory reconciled against records?"
     },
     {
       "rank": 2,
-      "headline": "Inventory and shipment data is a roadmap for armed robbery.",
-      "why_this_business": "Jewellery and precious metals are extremely high value per unit of weight, and travelling sales representatives, trade shows, and shipments are targeted by organised crime. Inventory records, memo consignments, and travel schedules all sit in the business system.",
-      "loss_scenario": "Armed robbery of a shipment or representative, informed by internal data. Losses run into millions and carry a risk of violence that other distribution sectors do not have.",
-      "rhetorical_question": "Do your systems hold travel schedules or shipment routing for high value goods?"
+      "headline": "Payments settle by wire in very large amounts.",
+      "points": [
+        "Purchases and sales settle by transfer against instructions.",
+        "A faked banking change diverts an entire settlement.",
+        "Goods move before the fraud is discovered."
+      ],
+      "rhetorical_question": "How are changes to counterparty banking details verified before payment?"
     },
     {
       "rank": 3,
-      "headline": "Memo and consignment arrangements mean you hold others' property.",
-      "why_this_business": "Goods move on memo between wholesalers and retailers, remaining the property of the sender until sold. Reconciling memo positions across many counterparties depends entirely on accurate records of what was sent, to whom, and when.",
-      "loss_scenario": "Unreconcilable memo positions create disputes with counterparties over goods worth six or seven figures, where the party without records bears the loss.",
-      "rhetorical_question": "What is the value of goods currently out on memo, and how is that tracked?"
+      "headline": "Origin documentation is required and demanded.",
+      "points": [
+        "Conflict minerals and stone origin certification requirements apply.",
+        "Customers and regulators increasingly demand that documentation.",
+        "Without it goods cannot be sold to major customers."
+      ],
+      "rhetorical_question": "How is origin and due diligence documentation retained for your purchases?"
     }
   ]
 }

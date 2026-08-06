@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Small properties hold guest payment data with no security function.",
-      "why_this_business": "Inns take reservations and payment directly and through booking platforms, holding guest identity, card details, and stay histories, typically on a single computer or cloud booking tool managed by the owner with no IT support.",
-      "loss_scenario": "Card data compromise with brand assessments and forensic costs assigned by the merchant agreement, at amounts an owner-operated property has no capacity to absorb.",
-      "rhetorical_question": "Have you read who pays for a forensic investigation under your merchant agreement?"
+      "headline": "Guest records hold payment and identity data.",
+      "points": [
+        "Bookings carry names, addresses, and payment card details.",
+        "Bookings arrive through your site and travel platforms.",
+        "Every affected guest must be notified."
+      ],
+      "rhetorical_question": "How many guest records with payment details do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Booking platform accounts control your entire occupancy.",
-      "why_this_business": "Most bookings arrive through online travel agencies and booking platforms, with the property's account controlling rates, availability, and guest communication. Account takeover on these platforms is used to redirect guest payments and to alter listings.",
-      "loss_scenario": "Guests paying a fraudster through a compromised listing, arriving expecting a room they have paid for, with the property facing the dispute and the platform review consequences.",
-      "rhetorical_question": "Is multi-factor authentication enabled on your booking platform accounts?"
+      "headline": "Bookings arrive through platforms you do not control.",
+      "points": [
+        "Reservations come from travel platforms and your own website.",
+        "Availability and pricing sync across those channels.",
+        "A sync failure produces double bookings and guests with no room."
+      ],
+      "rhetorical_question": "How do your bookings and availability sync across platforms?"
     },
     {
       "rank": 3,
-      "headline": "Guests are in your home and their arrival details are sensitive.",
-      "why_this_business": "Reservations record guest names, home addresses, arrival and departure dates, and frequently the occasion for the stay. That data indicates when guests' own homes are empty.",
-      "loss_scenario": "Exposure of guest home addresses alongside travel dates, which identifies unoccupied properties, and guest privacy expectations at a small personal property are higher than at a chain hotel.",
-      "rhetorical_question": "Do your reservation records include guests' home addresses and travel dates?"
+      "headline": "Guests arrive whether or not systems work.",
+      "points": [
+        "Guests travel to reach you having already paid.",
+        "Reservations, keys, and payment all run on connected systems.",
+        "Without the system you cannot confirm or accommodate anyone."
+      ],
+      "rhetorical_question": "What happens at check-in if your booking system is unavailable?"
     }
   ]
 }

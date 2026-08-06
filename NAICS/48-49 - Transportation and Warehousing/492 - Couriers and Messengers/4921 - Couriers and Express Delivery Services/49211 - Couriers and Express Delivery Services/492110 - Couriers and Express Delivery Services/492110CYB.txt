@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Express networks are time-definite and fail as a whole.",
-      "why_this_business": "Express delivery runs hub-and-spoke networks with overnight sorts, aircraft connections, and delivery commitments backed by money-back guarantees. Sortation, routing, and tracking are entirely automated. A missed sort displaces packages across the whole network.",
-      "loss_scenario": "Service guarantee refunds on every affected shipment plus displaced freight taking days to recover. Time-critical medical and industrial shipments generate claims far beyond the transportation charge.",
-      "rhetorical_question": "What proportion of your shipments carry a time-definite service guarantee?"
+      "headline": "The network runs on continuous package visibility.",
+      "points": [
+        "Every package is scanned at each handoff through the network.",
+        "Millions of packages are in the network at once.",
+        "Packages you cannot track are packages you cannot deliver."
+      ],
+      "rhetorical_question": "How is package tracking maintained through your network?"
     },
     {
       "rank": 2,
-      "headline": "Tracking and address data maps deliveries to individuals.",
-      "why_this_business": "Courier systems hold sender and recipient names, addresses, contact details, signatures, and delivery photographs across enormous volumes. Delivery data reveals when people are home and what they receive.",
-      "loss_scenario": "Breach notification at extreme scale given the number of parties involved, plus exposure of delivery patterns and signature images usable for porch theft and fraud.",
-      "rhetorical_question": "How many sender and recipient records are held in your tracking system?"
+      "headline": "Sorting hubs run on automation with no manual fallback.",
+      "points": [
+        "Hub sortation systems handle enormous volume in narrow overnight windows.",
+        "Volume backs up immediately when sortation stops.",
+        "Recovery takes days after the network stops."
+      ],
+      "rhetorical_question": "What volume passes through your sortation hubs in a night?"
     },
     {
       "rank": 3,
-      "headline": "Customs and dangerous goods data must move ahead of the shipment.",
-      "why_this_business": "International express requires advance electronic customs data, restricted party screening, and dangerous goods acceptance checks before shipments are loaded. Regulatory data must be transmitted before departure.",
-      "loss_scenario": "Shipments unable to clear or load, plus penalties for inaccurate customs data and a dangerous goods acceptance failure that becomes an in-flight safety event.",
-      "rhetorical_question": "How is advance customs and screening data generated and transmitted?"
+      "headline": "Time definite commitments are contractual.",
+      "points": [
+        "Guaranteed delivery times are sold and refunded when missed.",
+        "Medical, legal, and business critical shipments depend on them.",
+        "The claim is the customer's downstream loss, not the shipping charge."
+      ],
+      "rhetorical_question": "What guaranteed delivery commitments do you sell?"
     }
   ]
 }

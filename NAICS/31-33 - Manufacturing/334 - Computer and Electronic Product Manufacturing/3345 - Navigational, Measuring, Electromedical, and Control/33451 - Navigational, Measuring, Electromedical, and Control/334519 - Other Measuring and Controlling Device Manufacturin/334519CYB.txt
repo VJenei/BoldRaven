@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Measuring devices are relied on for safety and compliance decisions.",
-      "why_this_business": "Devices in this category measure conditions used for safety, environmental compliance, and process decisions. Users act on the reading without independent verification.",
-      "loss_scenario": "Devices reading incorrectly across an installed base, with unsafe conditions undetected or compliance reports based on wrong data across the entire period the devices were in service.",
+      "headline": "Users act on your readings without checking them.",
+      "points": [
+        "Devices measure conditions used for safety, compliance, and process decisions.",
+        "There is no independent verification of the reading.",
+        "Unsafe conditions go undetected across the whole period."
+      ],
       "rhetorical_question": "What safety or compliance decisions do users make from your device readings?"
     },
     {
       "rank": 2,
       "headline": "Devices are connected and receive firmware from you.",
-      "why_this_business": "Measuring and controlling devices increasingly include network connectivity for monitoring, configuration, and firmware updates delivered by the manufacturer into customer environments.",
-      "loss_scenario": "Compromise of the update path pushing incorrect or malicious firmware to devices in service, requiring recovery at every installed location.",
+      "points": [
+        "Devices include connectivity for monitoring, configuration, and updates.",
+        "That path reaches devices inside customer environments.",
+        "Recovery requires reaching every installed location."
+      ],
       "rhetorical_question": "How is firmware authenticated before a device will accept it?"
     },
     {
       "rank": 3,
-      "headline": "Calibration and certification support the device rating.",
-      "why_this_business": "Devices are calibrated and certified with records tying each unit to its verification, relied on by customers for their own quality systems and regulatory reporting.",
-      "loss_scenario": "Calibration records unavailable or unsubstantiated, with customers unable to support measurements made and their compliance reporting called into question across the period.",
+      "headline": "Calibration records support the device rating.",
+      "points": [
+        "Calibration and certification records tie each unit to its verification.",
+        "Customers rely on those for quality systems and regulatory reporting.",
+        "Unsupportable records call their reporting into question."
+      ],
       "rhetorical_question": "How are calibration records maintained per device serial number?"
     }
   ]

@@ -1,7 +1,6 @@
 {
   "naics_code": "111421",
   "naics_title": "Nursery and Tree Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Mail-order plant sales run through an e-commerce platform with a short selling season.",
-      "why_this_business": "Nurseries sell direct to consumers online and ship live plants nationwide. Most annual revenue is earned in a six to ten week spring window. The operation runs a shopping cart, stored card data, and a customer database. PCI DSS 4.0 became mandatory on March 31, 2025 and added requirements for monitoring e-commerce payment page scripts.",
-      "loss_scenario": "A cart compromise or ransomware event during the spring window affects the majority of annual revenue. Additional costs include card brand assessments, forensics, and customer notification across all states.",
-      "rhetorical_question": "What percentage of your annual sales occurs in your peak eight weeks, and do you sell online?"
+      "headline": "Shipping plants across state lines requires inspection and certificates.",
+      "points": [
+        "States require phytosanitary certificates and nursery inspection before plants move.",
+        "Shipment, origin, and treatment records support those certificates.",
+        "A load without paperwork is turned back or destroyed at the border."
+      ],
+      "rhetorical_question": "Do you ship nursery stock across state lines?"
     },
     {
       "rank": 2,
-      "headline": "Interstate shipping requires state phytosanitary certification and quarantine compliance.",
-      "why_this_business": "Shipping nursery stock across state lines requires state phytosanitary certification, nursery licenses, and compliance with quarantine orders for pests including sudden oak death, boxwood blight, emerald ash borer, and spotted lanternfly. Certificates and shipping records are electronic. Quarantine compliance requires documented origin and inspection history per shipment.",
-      "loss_scenario": "A stop-sale order or shipping ban during the spring window while compliance cannot be documented, plus regulatory action if traceback fails during a pest investigation.",
-      "rhetorical_question": "Do you ship nursery stock across state lines, and how are inspection and shipping records stored?"
+      "headline": "Irrigation failure kills container stock in a single day.",
+      "points": [
+        "Container plants have no soil reserve and are watered daily.",
+        "Irrigation is run by automated timers, valves, and controllers.",
+        "One missed cycle in heat can kill an entire block."
+      ],
+      "rhetorical_question": "Are your irrigation systems run by automated timers or controllers?"
     },
     {
       "rank": 3,
-      "headline": "Container stock is watered by automated irrigation and dies quickly without it.",
-      "why_this_business": "Container nursery stock holds very little water reserve and is irrigated by automated boom, overhead, and drip systems on timed and sensor-driven controllers. Many are remotely managed. In summer, container stock requires water daily or more often.",
-      "loss_scenario": "Two days without irrigation in summer kills container inventory representing one to five years of growing.",
-      "rhetorical_question": "Is your irrigation controlled by an automated system, and is it monitored remotely?"
+      "headline": "Sales are compressed into a spring window.",
+      "points": [
+        "Most of the year's shipping happens over a few weeks in spring.",
+        "Orders, availability, and shipping schedules run on connected systems.",
+        "Volume missed in spring cannot be sold later in the year."
+      ],
+      "rhetorical_question": "What share of your annual sales ships between March and June?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialized loads cannot be handed to another carrier at short notice.",
-      "why_this_business": "Local specialized trucking moves bulk, tank, flatbed, refrigerated, and heavy haul freight requiring specific equipment, endorsements, and permits. There is no spot capacity for a tanker or a heavy haul on the day. Dispatch matches equipment, driver endorsement, and permit to each load.",
-      "loss_scenario": "Customers with no substitutable capacity are shut down, and in bulk and tank operations a missed delivery can idle a plant that cannot store more raw material.",
-      "rhetorical_question": "How quickly could a customer find replacement capacity for your specialized equipment?"
+      "headline": "Specialised loads are scheduled to a fixed window.",
+      "points": [
+        "Cranes, crews, and receiving sites are booked around your delivery.",
+        "Permits and escorts may be tied to a specific date.",
+        "A missed window idles equipment and crews at high cost."
+      ],
+      "rhetorical_question": "How are your specialised deliveries and permits scheduled?"
     },
     {
       "rank": 2,
-      "headline": "Hazardous materials movements carry documented handling and security duties.",
-      "why_this_business": "Hazmat carriers require shipping papers, driver hazmat endorsements with security threat assessment, security plans for certain materials, and emergency response information accompanying the shipment. Records are examined at roadside and after any incident.",
-      "loss_scenario": "Out of service orders and civil penalties for shipping papers that cannot be produced, and after a release, absent security plan and training records the carrier has no defence.",
-      "rhetorical_question": "Do you haul placarded hazardous materials, and where is your security plan documented?"
+      "headline": "Hazardous loads carry documentation obligations.",
+      "points": [
+        "Shipping papers, placarding, and emergency information travel with the load.",
+        "Responders rely on that documentation.",
+        "Wrong papers mean responders treat the wrong hazard."
+      ],
+      "rhetorical_question": "How are your hazardous materials shipping papers generated and verified?"
     },
     {
       "rank": 3,
-      "headline": "Local operations still carry full federal safety obligations.",
-      "why_this_business": "Driver qualification files, drug and alcohol testing with Clearinghouse queries, hours of service, and maintenance records are required regardless of operating radius. Short-haul exceptions change the recordkeeping method, not the obligation.",
-      "loss_scenario": "FMCSA audit findings and, after a crash, the driver file and maintenance records determine the outcome of litigation that will exceed the value of the operation.",
-      "rhetorical_question": "How do you maintain driver qualification and maintenance records?"
+      "headline": "Electronic logging is federally required.",
+      "points": [
+        "Hours of service must be recorded by electronic logging devices.",
+        "Records are inspected at roadside and during audits.",
+        "Non-compliant logging puts trucks out of service."
+      ],
+      "rhetorical_question": "How are your electronic logging records maintained and backed up?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Passenger vessels carry people who cannot leave if something goes wrong.",
-      "why_this_business": "Dinner cruises, river ferries, and excursion vessels carry passengers on enclosed waters with limited egress. Passenger counting, safety equipment, and crew certification are Coast Guard regulated, and manifests determine the search and rescue response.",
-      "loss_scenario": "An incident where passenger accounting is unavailable means responders do not know how many people to look for, and the operator cannot demonstrate it stayed within certificated capacity.",
-      "rhetorical_question": "How is passenger count recorded and verified against your certificate of inspection?"
+      "headline": "Passengers depend on vessel systems entirely.",
+      "points": [
+        "Navigation, propulsion, and safety systems are networked.",
+        "Passengers are aboard with nowhere to go.",
+        "A systems failure on the water is a life safety event."
+      ],
+      "rhetorical_question": "What vessel systems are connected to shore networks?"
     },
     {
       "rank": 2,
-      "headline": "Booking and ticketing hold customer payment and event data.",
-      "why_this_business": "Excursion and charter operators take advance bookings for cruises, weddings, and corporate events with deposits, stored payment methods, and guest lists. Bookings are made months ahead for dated events.",
-      "loss_scenario": "Lost bookings for dated events that cannot be rescheduled, with deposits taken and customers arriving for cruises that were never recorded.",
-      "rhetorical_question": "How many dated event bookings with deposits are you holding?"
+      "headline": "Ticketing and manifests run the operation.",
+      "points": [
+        "Bookings, ticketing, and passenger manifests run electronically.",
+        "Manifests are required before sailing.",
+        "Without them you cannot lawfully carry passengers."
+      ],
+      "rhetorical_question": "How are your bookings and passenger manifests recorded?"
     },
     {
       "rank": 3,
-      "headline": "Coast Guard cybersecurity rules reach US-flagged passenger vessels.",
-      "why_this_business": "The Coast Guard cybersecurity rule effective July 16, 2025 applies to US-flagged vessels, requiring immediate incident reporting, training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
-      "loss_scenario": "Operating restrictions during the season, which for a seasonal excursion operator removes the only period in which revenue is earned.",
-      "rhetorical_question": "Have you assessed whether the Coast Guard cybersecurity rule applies to your vessels?"
+      "headline": "Federal maritime security requirements apply.",
+      "points": [
+        "Coast Guard security and cybersecurity requirements apply to regulated operations.",
+        "Requirements phase in on set dates.",
+        "Findings can restrict vessel operations."
+      ],
+      "rhetorical_question": "What maritime security requirements apply to your vessels?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Custom orders are dated commitments for events that cannot move.",
-      "why_this_business": "Wedding cakes, holiday orders, and celebration cakes are taken weeks ahead with deposits, specifications, and delivery dates tied to events. The order record is the only version of what was agreed.",
-      "loss_scenario": "Customers arriving for a wedding cake that was never made, which is a reputational event that spreads immediately and destroys a local business built on referral.",
-      "rhetorical_question": "How many dated custom orders with deposits are you holding right now?"
+      "headline": "You take card payments at the counter all day.",
+      "points": [
+        "Point of sale terminals process cards continuously through trading hours.",
+        "Card security requirements apply to every merchant taking payments.",
+        "A card breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Allergen declarations depend on recipe and ingredient records.",
-      "why_this_business": "Bakeries handle wheat, eggs, milk, soy, tree nuts, peanuts, and sesame, with recipes and ingredient sourcing determining what must be declared. Sesame became the ninth major allergen requiring declaration, and shared equipment creates cross-contact.",
-      "loss_scenario": "An allergen incident causing anaphylaxis, with recipe and ingredient records unavailable to demonstrate what was in the product and what controls existed.",
-      "rhetorical_question": "How do you maintain recipe and ingredient records for allergen declarations?"
+      "headline": "Allergen mistakes in a bakery are immediate and serious.",
+      "points": [
+        "Nuts, eggs, milk, and wheat are all present and share equipment and surfaces.",
+        "Customers ask directly about allergens and rely on the answer.",
+        "An allergic reaction from a mislabelled item is a serious injury claim."
+      ],
+      "rhetorical_question": "How do you record and communicate allergen information for your products?"
     },
     {
       "rank": 3,
-      "headline": "Overnight production is planned from forecast and standing orders.",
-      "why_this_business": "Retail bakeries produce overnight for the following day based on forecast, wholesale standing orders, and custom commitments. Production quantity decisions determine both stockouts and waste.",
-      "loss_scenario": "Producing blind means running out by mid-morning or discarding unsold product, both of which destroy margin in a business with high waste sensitivity and short shelf life.",
-      "rhetorical_question": "How is tomorrow's production quantity decided?"
+      "headline": "Custom orders are made for a specific date and event.",
+      "points": [
+        "Wedding and celebration cakes are ordered weeks ahead for a fixed date.",
+        "Order details, deposits, and schedules are held electronically.",
+        "A lost order is an event that happens without the cake."
+      ],
+      "rhetorical_question": "How are your custom orders, deposits, and delivery dates recorded?"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "naics_code": "111335",
   "naics_title": "Tree Nut Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Truckloads of nuts are stolen using compromised or fake carrier identities.",
-      "why_this_business": "Almond, pistachio, and walnut loads are stolen by criminals who compromise or impersonate carrier and broker accounts on load boards, produce matching pickup documentation, and collect the load. The product is high value, non-perishable, and difficult to trace after resale. This is an established pattern targeting California tree nuts.",
-      "loss_scenario": "One truckload of almonds or pistachios is $150,000 to $500,000. Because the goods were released voluntarily to a party presenting valid-looking documents, this is generally not covered as a property theft loss.",
-      "rhetorical_question": "How do you verify the identity of a carrier before releasing a load?"
+      "headline": "Irrigation runs the orchard, and much of it is remote.",
+      "points": [
+        "Pumps, valves, and soil moisture sensors are controlled from a computer or phone.",
+        "Nut trees need water on a schedule through the whole season.",
+        "Water missed during nut fill costs yield and can kill trees."
+      ],
+      "rhetorical_question": "Are your irrigation pumps or valves operated remotely?"
     },
     {
       "rank": 2,
-      "headline": "Irrigation is controlled by SCADA and remote pump control on a permanent crop.",
-      "why_this_business": "Tree nuts are permanent crops with high water demand, irrigated through pressurized microirrigation with remote pump control, flow monitoring, and soil moisture telemetry. Groundwater use is reported under SGMA in California. Orchards take 7 to 10 years to reach full production.",
-      "loss_scenario": "Extended irrigation loss during summer heat kills or permanently damages trees. Almond orchard establishment costs $8,000 to $12,000 per acre and takes about 7 years to return to production.",
-      "rhetorical_question": "Are your irrigation pumps controlled or monitored through a remote system?"
+      "headline": "Handlers and processors pay large settlements by wire.",
+      "points": [
+        "Nuts are delivered to handlers and paid after grading and sale.",
+        "A faked banking change diverts an entire delivery payment.",
+        "One crop is settled in a few very large payments."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from handlers by email?"
     },
     {
       "rank": 3,
-      "headline": "Payment is made by handlers over 12 to 18 months against their grade data.",
-      "why_this_business": "Tree nuts are delivered to handlers who pool, market, and pay over an extended period based on grade sheets, moisture, and reject data generated in the handler's system. About two thirds of US tree nuts are exported, requiring APHIS phytosanitary certification and aflatoxin testing documentation.",
-      "loss_scenario": "Delayed pool payments and inability to export product already in the warehouse. On a crop paid out over 18 months, a settlement system failure creates a cash flow shortfall.",
-      "rhetorical_question": "Over what period are you paid for your crop after delivery?"
+      "headline": "Export buyers require documentation before the crop ships.",
+      "points": [
+        "Aflatoxin testing, phytosanitary certificates, and grade records travel with export lots.",
+        "Field and storage records support those certificates.",
+        "A container without paperwork is rejected at the destination port."
+      ],
+      "rhetorical_question": "Do you sell any production into export markets?"
     }
   ]
 }

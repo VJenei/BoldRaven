@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Medicated feed manufacturing is FDA regulated with strict records.",
-      "why_this_business": "Feed containing animal drugs is manufactured under FDA current good manufacturing practice requirements, with some products requiring a medicated feed mill licence. Records of formulation, mixing, and drug inclusion rates must be maintained and are inspected.",
-      "loss_scenario": "FDA action for records that cannot be produced, and drug carryover or incorrect inclusion causing violative residues in food animals, which is traced back to the mill and affects every producer that used the feed.",
-      "rhetorical_question": "Do you manufacture medicated feed requiring FDA licensing and drug inclusion records?"
+      "headline": "Medicated feed carries drug controls and withdrawal consequences.",
+      "points": [
+        "Medicated feeds are made under specific formulation and sequencing controls.",
+        "Carryover into the wrong feed puts drug residue into food animals.",
+        "Residue in a carcass traces back to your mill."
+      ],
+      "rhetorical_question": "How do you control medicated feed formulation and line sequencing?"
     },
     {
       "rank": 2,
-      "headline": "Feed errors damage entire herds and flocks before detection.",
-      "why_this_business": "Feed is consumed continuously by large populations of animals. A formulation or contamination error affects every animal eating it, and the consequences appear as performance loss, illness, or death across a producer's whole operation.",
-      "loss_scenario": "Herd or flock losses across multiple customers from a single production error, with claims measured by the value of the animals rather than the value of the feed.",
-      "rhetorical_question": "How many animals eat a single day of your production?"
+      "headline": "Feed contamination reaches thousands of animals at once.",
+      "points": [
+        "One batch of feed goes to many farms and many animals.",
+        "Mycotoxins, mineral errors, and contaminants act across the whole delivery.",
+        "Losses fall on your customers' herds and flocks, not on the feed price."
+      ],
+      "rhetorical_question": "How many farms could receive feed from a single production batch?"
     },
     {
       "rank": 3,
-      "headline": "Batching automation controls what actually goes in.",
-      "why_this_business": "Feed mills run automated batching, grinding, and mixing systems executing formulations with ingredient sequencing and flush procedures to prevent carryover between medicated and non-medicated runs.",
-      "loss_scenario": "Cross-contamination between medicated and non-medicated feed producing residue violations in food animals, which is an FDA matter and a claim from every affected producer.",
-      "rhetorical_question": "How are flush and sequencing procedures controlled between medicated batches?"
+      "headline": "Federal rules require documented preventive controls.",
+      "points": [
+        "Hazard analysis, monitoring, and corrective action records are required and inspected.",
+        "Records must be produced on request.",
+        "Missing records are treated as controls that never happened."
+      ],
+      "rhetorical_question": "What preventive control records does your food safety plan require?"
     }
   ]
 }

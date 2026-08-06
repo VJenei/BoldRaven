@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Licensed and branded artwork is held under contract.",
-      "why_this_business": "Screen printers produce apparel and products carrying licensed sports, entertainment, and corporate marks under agreements restricting production, quantities, and distribution, with artwork files held for repeat orders.",
-      "loss_scenario": "Artwork disclosure enabling counterfeit production, with licensor claims and loss of the licensed decoration business that depends entirely on brand owner trust.",
-      "rhetorical_question": "How many licensed brand artwork files are held on your systems?"
+      "headline": "Customer artwork and branding are proprietary.",
+      "points": [
+        "Logos, designs, and campaign artwork arrive before public release.",
+        "Licensed and trademarked designs carry strict use conditions.",
+        "A leak or misuse breaches the licence and the customer's launch."
+      ],
+      "rhetorical_question": "What customer artwork do you hold for designs not yet released?"
     },
     {
       "rank": 2,
-      "headline": "Orders are tied to events and dates that will not move.",
-      "why_this_business": "Screen printed goods are produced for events, teams, promotions, and seasonal sales with delivery dates fixed by the event. Product delivered after the event has no market.",
-      "loss_scenario": "Missed event delivery leaving custom decorated goods that cannot be sold to anyone else, with the full production cost lost and the customer's event proceeding without merchandise.",
-      "rhetorical_question": "How many orders are you holding for dated events?"
+      "headline": "Orders are printed for a specific event or date.",
+      "points": [
+        "Event, team, and promotional printing is tied to a date that cannot move.",
+        "Artwork, sizes, and quantities are set per order.",
+        "Late or wrong product arrives after the event it was for."
+      ],
+      "rhetorical_question": "How are your order details and delivery dates recorded?"
     },
     {
       "rank": 3,
-      "headline": "Production is programme and screen driven per design.",
-      "why_this_business": "Each design requires separations, screens, and press setups specific to the artwork and garment. Digital and hybrid printing runs directly from files with colour management controlling output.",
-      "loss_scenario": "Lost artwork and separation files requiring redevelopment for every design, with reorder customers unable to obtain matching product and screens remade at cost.",
-      "rhetorical_question": "How are customer artwork and separation files stored for reorders?"
+      "headline": "Setups and screens are made per job and per colour.",
+      "points": [
+        "Screens, films, and setups are prepared for each job and colour separation.",
+        "Rerunning a job means remaking all of it.",
+        "Material and labour are lost on every wrong run."
+      ],
+      "rhetorical_question": "How are job artwork and colour separations verified before printing?"
     }
   ]
 }

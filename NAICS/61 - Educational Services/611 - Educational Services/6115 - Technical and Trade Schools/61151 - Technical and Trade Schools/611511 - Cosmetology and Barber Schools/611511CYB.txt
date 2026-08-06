@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Student aid participation brings federal obligations.",
-      "why_this_business": "Cosmetology schools participating in Title IV hold financial aid applications with family financial data and Social Security numbers, subject to the program participation agreement, the FTC Safeguards Rule, and Department of Education breach reporting expectations.",
-      "loss_scenario": "Loss of Title IV eligibility alongside the breach, which for a school whose students depend on federal aid removes the ability to enrol.",
-      "rhetorical_question": "What proportion of your students rely on federal financial aid?"
+      "headline": "Student records support licensing applications.",
+      "points": [
+        "Hours, attendance, and competency records support state licence applications.",
+        "State boards verify those records directly.",
+        "Students cannot be licensed without them."
+      ],
+      "rhetorical_question": "How are your student hour and competency records maintained?"
     },
     {
       "rank": 2,
-      "headline": "Clock hour tracking determines licensure eligibility.",
-      "why_this_business": "State cosmetology licensure requires documented completion of a specified number of clock hours in defined subject areas, tracked continuously and reported to the state board. Students cannot sit for licensure without verified hours.",
-      "loss_scenario": "Loss of hour records leaves students unable to demonstrate eligibility for licensure, with no way to reconstruct attendance and students facing repetition of training they already completed.",
-      "rhetorical_question": "How are student clock hours recorded and reported to the state board?"
+      "headline": "Financial aid handling carries federal requirements.",
+      "points": [
+        "Institutions handling federal student aid must meet safeguards requirements.",
+        "Compliance is a condition of participating in aid programmes.",
+        "Losing eligibility removes funding students depend on."
+      ],
+      "rhetorical_question": "What federal safeguards requirements apply to your financial aid systems?"
     },
     {
       "rank": 3,
-      "headline": "Clinic operations serve paying public clients.",
-      "why_this_business": "Schools operate student clinics serving the public, taking appointments and payment, and holding client records including service history and sometimes health information relevant to chemical services.",
-      "loss_scenario": "Card data exposure across clinic clients, plus service records that document allergy and sensitivity information relevant to chemical treatments.",
-      "rhetorical_question": "Do you take appointments and payment from public clinic clients?"
+      "headline": "Clinic operations take payments from the public.",
+      "points": [
+        "Student clinics serve the public and take card payments.",
+        "Card security requirements apply to those transactions.",
+        "Client records also carry contact and service history."
+      ],
+      "rhetorical_question": "How does your clinic point of sale system handle card data?"
     }
   ]
 }

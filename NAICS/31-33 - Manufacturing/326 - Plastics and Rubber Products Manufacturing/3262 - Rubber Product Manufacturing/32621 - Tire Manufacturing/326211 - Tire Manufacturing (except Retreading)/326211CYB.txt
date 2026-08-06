@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Tire defects cause fatal crashes and enormous recalls.",
-      "why_this_business": "Tires are safety-critical products where tread separation and blowouts cause loss of control at speed. Tire recalls involving defects have covered millions of units, produced fatalities, and resulted in federal legislation on defect reporting.",
-      "loss_scenario": "A defect recall covering millions of tires with fatal crash litigation, NHTSA investigation, and reporting obligations under early warning requirements, at costs that have threatened the survival of manufacturers.",
-      "rhetorical_question": "Could you identify every tire produced during a specific period at a specific plant?"
+      "headline": "Tire failure at highway speed causes fatal crashes.",
+      "points": [
+        "Tread separation and belt failures cause loss of control at speed.",
+        "Materials, curing, and inspection records establish conformance.",
+        "Tire recalls in this industry have involved deaths and criminal investigation."
+      ],
+      "rhetorical_question": "How is production traceability maintained from materials to individual tires?"
     },
     {
       "rank": 2,
-      "headline": "Federal law requires defect reporting and tire identification.",
-      "why_this_business": "Manufacturers must submit early warning data to NHTSA on claims and incidents, and every tire carries an identification number encoding plant and production week, used to define recall scope.",
-      "loss_scenario": "Recall scope that cannot be narrowed because production records are unavailable, expanding it across all production in a period, plus reporting failures which carry substantial civil penalties.",
-      "rhetorical_question": "How is tire identification data linked to production and material records?"
+      "headline": "Every tire carries a code that identifies its production.",
+      "points": [
+        "Tires are marked with a code identifying plant and production week.",
+        "Recalls are bounded by those codes.",
+        "Without traceability the recall covers every tire from the period."
+      ],
+      "rhetorical_question": "Could you identify every tire made during a specific production period?"
     },
     {
       "rank": 3,
-      "headline": "Curing and building processes are continuous and parameter-driven.",
-      "why_this_business": "Tire building and curing run to recipes controlling component placement, cure time, temperature, and pressure. Cure parameters determine the properties of the finished tire, and undercure produces latent defects.",
-      "loss_scenario": "Undercured tires shipped and in service, where the defect appears as separation after months of use, requiring recall of every tire from the affected curing period.",
-      "rhetorical_question": "How are cure parameters recorded and linked to individual tires?"
+      "headline": "Curing parameters determine whether the tire holds together.",
+      "points": [
+        "Cure time and temperature develop the bond between components.",
+        "Under-cured tires separate in service after thousands of miles.",
+        "The failure appears long after the tire leaves the plant."
+      ],
+      "rhetorical_question": "How are your curing parameters recorded against tire production?"
     }
   ]
 }

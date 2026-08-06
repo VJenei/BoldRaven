@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Commodity contracts settle on grade determined by third parties.",
-      "why_this_business": "Cotton, wool, tobacco, and similar raw materials are traded on grade and quality determined by classing offices, laboratories, or buyer inspection. Contracts specify quality thresholds with discounts and rejection rights. The grade data comes from outside your systems and drives settlement.",
-      "loss_scenario": "Unresolvable settlement on delivered lots where classing and quality records are unavailable, on contracts commonly worth several hundred thousand dollars each.",
-      "rhetorical_question": "How do you receive and retain grading or classing data for the lots you trade?"
+      "headline": "Settlements move large sums by transfer.",
+      "points": [
+        "Purchases and sales settle by electronic transfer at load value.",
+        "Banking instructions arrive and are changed by email.",
+        "A diverted settlement is a full shipment lost."
+      ],
+      "rhetorical_question": "How are changes to counterparty banking details verified before payment?"
     },
     {
       "rank": 2,
-      "headline": "Electronic warehouse receipts carry title to stored commodity.",
-      "why_this_business": "Cotton and some other agricultural commodities are titled through electronic warehouse receipt systems authorised under the US Warehouse Act. The receipt is the ownership document and it exists only as a database record protected by account credentials.",
-      "loss_scenario": "Fraudulent transfer of receipts or loss of account access during a pricing window, on holdings that can run to seven figures of contained value.",
-      "rhetorical_question": "Do you hold electronic warehouse receipts, and who has access to those accounts?"
+      "headline": "Quality testing determines what the load is worth.",
+      "points": [
+        "Loads are graded and tested on receipt and payment follows those results.",
+        "Buyers reconcile against their own testing.",
+        "Lost records mean disputes you cannot defend."
+      ],
+      "rhetorical_question": "How are your grading and test results recorded and reconciled?"
     },
     {
       "rank": 3,
-      "headline": "Export documentation determines whether the cargo moves.",
-      "why_this_business": "Raw agricultural materials are heavily exported, requiring phytosanitary certificates, certificates of origin, quality certificates, and letter of credit documentation that must match exactly. Banks reject documents for trivial discrepancies.",
-      "loss_scenario": "Documentary discrepancies under a letter of credit delay or prevent payment on a shipment already at sea, and demurrage accrues while the paperwork is corrected.",
-      "rhetorical_question": "Do you ship against letters of credit requiring exact documentary compliance?"
+      "headline": "Stored product deteriorates without monitoring.",
+      "points": [
+        "Storage conditions are monitored to prevent spoilage and loss.",
+        "Product deteriorates within days when conditions slip.",
+        "The loss falls on product you have already paid for."
+      ],
+      "rhetorical_question": "Is your stored product monitored by automated condition systems?"
     }
   ]
 }

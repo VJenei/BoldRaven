@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Customer devices contain customer data.",
-      "why_this_business": "Repair operations receive computers, phones, and equipment containing personal, financial, and business data. Technicians frequently need access to the device to diagnose and verify repairs, and data recovery services handle the data directly.",
-      "loss_scenario": "Customer data accessed or exposed from devices in your custody, which is a breach the customer attributes directly to you and which in this sector has produced enforcement over technicians accessing personal content.",
-      "rhetorical_question": "What controls prevent technicians from accessing customer data on devices in for repair?"
+      "headline": "Equipment you repair contains customer data.",
+      "points": [
+        "Devices arrive with customer data stored on them.",
+        "That data includes personal, business, and sometimes regulated information.",
+        "Data leaving with a repaired device is a breach for the owner."
+      ],
+      "rhetorical_question": "What customer data is stored on the equipment you repair?"
     },
     {
       "rank": 2,
-      "headline": "Medical and laboratory equipment service reaches clinical systems.",
-      "why_this_business": "Service providers for medical, laboratory, and precision equipment connect to devices on client networks, frequently retaining remote diagnostic access. Medical device servicing may involve access to protected health information stored on the device.",
-      "loss_scenario": "A compromise reaching client clinical networks through service access, with HIPAA implications where patient data was on serviced devices and the client treating the provider as the source.",
-      "rhetorical_question": "Do you retain remote access to client equipment after a service call?"
+      "headline": "Medical and laboratory equipment carries regulatory obligations.",
+      "points": [
+        "Repairs to medical and laboratory equipment affect its certified performance.",
+        "Records document what was done and what was verified.",
+        "Equipment returned without verification affects patients and results."
+      ],
+      "rhetorical_question": "What medical or laboratory equipment do you service?"
     },
     {
       "rank": 3,
-      "headline": "Devices awaiting repair are valuable and identifiable.",
-      "why_this_business": "Repair operations hold customer equipment on site for days or weeks, tracked by work order with owner details. Equipment includes high value computers, instruments, and devices.",
-      "loss_scenario": "Theft of customer equipment in your custody, with bailee liability for the device and separately for the data on it, and work order records needed to establish what was received.",
-      "rhetorical_question": "What is the value of customer equipment on your premises right now?"
+      "headline": "Customers cannot operate without the equipment.",
+      "points": [
+        "Equipment is critical to the customer's operation or clinical service.",
+        "Turnaround time determines how long they are without it.",
+        "A scheduling failure extends every repair you have in progress."
+      ],
+      "rhetorical_question": "How are your repairs scheduled and tracked?"
     }
   ]
 }

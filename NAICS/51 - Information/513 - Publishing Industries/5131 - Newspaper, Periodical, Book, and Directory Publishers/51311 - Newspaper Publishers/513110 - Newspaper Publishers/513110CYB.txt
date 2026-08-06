@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ransomware has stopped newspapers from printing.",
-      "why_this_business": "Newspaper production runs on editorial, pagination, and prepress systems feeding a press that runs on a fixed nightly schedule. A malware incident affecting Tribune Publishing in December 2018 disrupted printing and distribution of multiple major titles. There is no way to print a paper that cannot be paginated.",
-      "loss_scenario": "Missed print editions with advertising already sold and contractual delivery obligations to subscribers and distributors. Missed editions cannot be published later.",
-      "rhetorical_question": "What is your press start time, and what happens if pagination is not complete?"
+      "headline": "The paper has to go to press tonight.",
+      "points": [
+        "Editorial, layout, and prepress run to a fixed press time every day.",
+        "Press and distribution are booked around it.",
+        "A missed press time means no paper the next morning."
+      ],
+      "rhetorical_question": "What is your press deadline, and what happens if you miss it?"
     },
     {
       "rank": 2,
-      "headline": "Confidential source material is uniquely sensitive.",
-      "why_this_business": "Newsrooms hold communications with confidential sources, unpublished reporting, and documents provided under promises of anonymity. Source protection is a professional and sometimes legal principle, and exposure can put sources at risk of prosecution, dismissal, or physical harm.",
-      "loss_scenario": "Exposure of source identities causes real harm to individuals, ends the newsroom's ability to obtain sensitive information, and can constitute a breach of legal commitments made to sources.",
-      "rhetorical_question": "How is communication with confidential sources stored and protected?"
+      "headline": "Subscriber and payment data runs the business.",
+      "points": [
+        "Subscriber records carry addresses, payment cards, and delivery instructions.",
+        "Digital subscriptions add account credentials.",
+        "Every affected subscriber must be notified."
+      ],
+      "rhetorical_question": "How many subscriber records with payment details do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Subscriber and advertiser data supports the whole revenue base.",
-      "why_this_business": "Publishers hold subscriber payment methods on recurring billing, delivery addresses, and reading histories, plus advertiser contracts and rates. Digital subscription businesses hold this at scale with automatic renewal.",
-      "loss_scenario": "Breach of subscriber payment data across a recurring billing base, plus exposure of advertiser rate structures that undermines every commercial negotiation simultaneously.",
-      "rhetorical_question": "How many subscribers are billed automatically to stored payment methods?"
+      "headline": "Sources and unpublished material must stay protected.",
+      "points": [
+        "Reporter notes, source communications, and unpublished material are held electronically.",
+        "Source protection is a professional obligation.",
+        "Exposure endangers sources and ends the ability to report."
+      ],
+      "rhetorical_question": "How is source communication and unpublished material protected?"
     }
   ]
 }

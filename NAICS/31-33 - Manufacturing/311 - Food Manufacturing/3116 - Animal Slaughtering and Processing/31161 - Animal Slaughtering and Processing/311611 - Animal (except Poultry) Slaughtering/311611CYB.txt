@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A ransomware attack shut down the largest meat processor in the world.",
-      "why_this_business": "JBS was forced to halt operations across North American and Australian plants by a ransomware attack in May 2021 and paid a reported $11 million ransom. Slaughter operations depend on scheduling, grading, chilling, and shipping systems, and animals arriving at the plant cannot be sent back.",
-      "loss_scenario": "Plant shutdown with livestock arriving and no processing capacity, backing up through feedlots and producers, and a national supply effect within days given the concentration of the industry.",
-      "rhetorical_question": "How many head arrive at your plant each day regardless of whether you can process?"
+      "headline": "A federal inspector must be present or the plant cannot run.",
+      "points": [
+        "Inspection presence, sanitation records, and process records are required to operate.",
+        "Loss of inspection stops slaughter immediately.",
+        "Animals arrive on schedule whether or not the plant is running."
+      ],
+      "rhetorical_question": "What happens to arriving livestock if your plant cannot operate for a day?"
     },
     {
       "rank": 2,
-      "headline": "USDA inspection presence and records govern whether you can operate.",
-      "why_this_business": "Slaughter establishments operate under continuous USDA inspection with HACCP plans, sanitation standard operating procedures, and testing records required and reviewed. Establishments cannot operate without inspection and cannot ship without marks of inspection.",
-      "loss_scenario": "Suspension of inspection where HACCP and sanitation records cannot be produced, which stops production entirely, and product already shipped without proper documentation subject to recall.",
-      "rhetorical_question": "What HACCP and sanitation records would USDA expect you to produce immediately?"
+      "headline": "E. coli in ground beef kills people and recalls are enormous.",
+      "points": [
+        "Testing, sanitation, and process control records establish pathogen control.",
+        "One day of production can reach millions of pounds across many customers.",
+        "Recall reach depends entirely on lot and shipment records."
+      ],
+      "rhetorical_question": "Could you identify every customer who received a specific production lot?"
     },
     {
       "rank": 3,
-      "headline": "E. coli and pathogen traceback runs on lot and production records.",
-      "why_this_business": "Beef in particular carries E. coli O157:H7 risk with FSIS testing and recall authority. Traceback identifies source establishments and production dates, and grinding records at downstream establishments point back to your lots.",
-      "loss_scenario": "A recall that cannot be limited to affected production, expanding across days of output and every downstream grinder and retailer, with illness claims and FSIS enforcement.",
-      "rhetorical_question": "Could you identify every customer that received product from a specific production shift?"
+      "headline": "Carcass tracking links every animal to its origin.",
+      "points": [
+        "Animal identification, residue testing, and carcass records travel through the plant.",
+        "Disease and residue investigations trace back through those records.",
+        "Records you cannot produce widen the trace to every supplier."
+      ],
+      "rhetorical_question": "How do you link carcasses back to the animal and its origin?"
     }
   ]
 }

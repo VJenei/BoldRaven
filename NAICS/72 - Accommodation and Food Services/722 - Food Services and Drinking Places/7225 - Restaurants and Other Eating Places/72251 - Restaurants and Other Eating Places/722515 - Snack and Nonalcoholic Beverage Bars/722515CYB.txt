@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Mobile ordering and loyalty apps are the customer relationship.",
-      "why_this_business": "Coffee and snack formats run heavily on mobile apps with stored value, stored payment methods, and loyalty balances, with a large share of transactions initiated in the app. Stored value balances are prepaid customer funds.",
-      "loss_scenario": "Account takeover draining stored value across the customer base, with the operator restoring balances and facing notification across a large app user population.",
-      "rhetorical_question": "How much customer stored value is outstanding on your app and gift cards?"
+      "headline": "Cards and mobile orders run every transaction.",
+      "points": [
+        "Point of sale and mobile ordering process payments continuously.",
+        "Card security requirements apply to every location.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your point of sale and mobile ordering handle card data?"
     },
     {
       "rank": 2,
-      "headline": "Speed of service is the business and it depends on the systems.",
-      "why_this_business": "The format depends on rapid throughput with mobile orders queued ahead of arrival, drive-thru where present, and payment processed in seconds. Customers choose these formats specifically for speed.",
-      "loss_scenario": "Order queues collapsing during the morning peak, which is where most daily revenue is earned, with customers walking to a competitor within a block.",
-      "rhetorical_question": "What share of your daily revenue is earned in the morning peak?"
+      "headline": "Loyalty and app accounts hold customer data.",
+      "points": [
+        "Mobile apps hold accounts with stored value and payment methods.",
+        "Account takeover drains stored value and rewards.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "How many app and loyalty accounts with stored value do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Small operators carry full merchant liability.",
-      "why_this_business": "Independent cafes and snack bars accept cards under merchant agreements that assign PCI liability to them, with PCI DSS 4.0 fully mandatory since March 31, 2025, regardless of the size of the business.",
-      "loss_scenario": "Card brand assessments and forensic costs assigned to a single-location operator by the processing agreement, at amounts the business cannot fund.",
-      "rhetorical_question": "Do you know what your merchant agreement makes you liable for after a card breach?"
+      "headline": "Ordering systems are the whole operation.",
+      "points": [
+        "Orders, payment, and mobile pickup run on one system.",
+        "Service stops entirely when the system does.",
+        "Queues back up immediately at peak."
+      ],
+      "rhetorical_question": "What happens to service if your ordering system is unavailable?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your product is personal data about people who are not your customers.",
-      "why_this_business": "List publishers compile, enhance, and license databases of names, addresses, contact details, demographics, and behavioural attributes. The individuals in those files never transacted with you and did not choose to be included. Data brokers face increasing state regulation including registration and deletion request obligations.",
-      "loss_scenario": "A breach exposes the entire compiled database, affecting millions of individuals with no relationship to you, and regulatory attention to data brokers is intensifying at both state and federal level.",
-      "rhetorical_question": "How many individual records are in the databases you compile and license?"
+      "headline": "Your product is personal data about millions of people.",
+      "points": [
+        "Lists contain names, addresses, and behavioural information at scale.",
+        "State privacy laws govern how that data is collected and shared.",
+        "A breach exposes people who never dealt with you at all."
+      ],
+      "rhetorical_question": "How many individual records does your database hold?"
     },
     {
       "rank": 2,
-      "headline": "State privacy laws now reach data brokers directly.",
-      "why_this_business": "Several states require data brokers to register and to honour deletion and opt-out requests, with enforcement and penalties for non-compliance. Compliance depends on being able to locate and act on an individual's records across the whole database.",
-      "loss_scenario": "Regulatory penalties for failing to honour deletion requests within statutory deadlines, which requires functioning systems and complete records to accomplish at all.",
-      "rhetorical_question": "Are you registered as a data broker, and how do you process deletion requests?"
+      "headline": "Data licensing terms govern permitted use.",
+      "points": [
+        "Data is licensed in and out under terms restricting use and resale.",
+        "Those terms are audited by data providers.",
+        "Breach of terms ends access to the data the business runs on."
+      ],
+      "rhetorical_question": "What use restrictions do your data licensing agreements carry?"
     },
     {
       "rank": 3,
-      "headline": "Licensing agreements restrict how licensees may use your data.",
-      "why_this_business": "Lists are licensed for specific uses, campaigns, and periods, with seeded records used to detect unauthorised reuse. Licence terms, usage records, and seeding data are how misuse is detected and proven.",
-      "loss_scenario": "Unauthorised copying of the database eliminates the licensing model entirely, and without usage and seeding records the misuse cannot be proven or pursued.",
-      "rhetorical_question": "How do you detect a licensee using your data beyond the terms of their licence?"
+      "headline": "Data accuracy determines the product's value.",
+      "points": [
+        "Lists are maintained, verified, and updated continuously.",
+        "Customers pay for accuracy and deliverability.",
+        "Corrupted data is a product that fails for every customer who bought it."
+      ],
+      "rhetorical_question": "How is your database maintained, verified, and backed up?"
     }
   ]
 }

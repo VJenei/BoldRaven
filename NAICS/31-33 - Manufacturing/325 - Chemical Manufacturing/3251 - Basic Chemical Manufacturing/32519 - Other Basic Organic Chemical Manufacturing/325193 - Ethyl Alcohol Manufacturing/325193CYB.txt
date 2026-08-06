@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Fermentation and distillation run continuously with fire risk.",
-      "why_this_business": "Ethanol plants run continuous fermentation, distillation, and dehydration producing a flammable liquid at large scale, with distillation columns, storage tanks, and loading racks all handling flammable material under control.",
-      "loss_scenario": "Fire or explosion in distillation or storage destroying plant sections, with a rebuild measured in many months and the plant's contracted ethanol supply unmet throughout.",
-      "rhetorical_question": "How are your distillation and storage systems monitored and interlocked?"
+      "headline": "Fermentation and distillation run continuously and cannot pause.",
+      "points": [
+        "Grain handling, fermentation, and distillation run as one continuous process.",
+        "Fermentation is biological and cannot be stopped mid-batch.",
+        "An unplanned stop loses tanks in process and takes days to restart."
+      ],
+      "rhetorical_question": "Is your plant run by a central process control system?"
     },
     {
       "rank": 2,
-      "headline": "Renewable fuel credits depend on documented production.",
-      "why_this_business": "Ethanol production generates renewable identification numbers under the Renewable Fuel Standard, with generation tied to documented feedstock, production volume, and pathway compliance. Those credits are a substantial component of plant revenue.",
-      "loss_scenario": "Credits that cannot be substantiated are invalidated with EPA enforcement, and RIN fraud has produced criminal prosecutions in this industry, so documentation failures attract serious attention.",
-      "rhetorical_question": "How is RIN generation documented against production and feedstock records?"
+      "headline": "Grain dust and alcohol vapour are both explosive.",
+      "points": [
+        "Grain receiving generates combustible dust and distillation produces flammable vapour.",
+        "Dust collection, ventilation, and ignition controls manage those hazards.",
+        "Plant explosions in this industry have killed workers."
+      ],
+      "rhetorical_question": "How are your dust collection and vapour control systems monitored?"
     },
     {
       "rank": 3,
-      "headline": "Grain procurement and co-product sales run against markets.",
-      "why_this_business": "Plants buy corn and sell ethanol and distillers grains, with margin determined by the spread across three markets and managed with futures positions. Grain receiving, storage, and co-product loading run continuously.",
-      "loss_scenario": "Unmanaged crush margin exposure through a market move, plus grain receiving and co-product loading stopped, which backs up both grower deliveries and feed customers.",
-      "rhetorical_question": "How is your crush margin position tracked and hedged?"
+      "headline": "Federal production and tax records are mandatory.",
+      "points": [
+        "Production, denaturing, and removal records are filed with federal regulators.",
+        "Records must be retained and produced on inspection.",
+        "Failures affect the permit that lets you operate."
+      ],
+      "rhetorical_question": "What federal production and denaturing records does your permit require?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "State and district education agencies hold student data at scale.",
-      "why_this_business": "Education administration holds statewide student records including identifiers, demographics, assessment results, special education status, and discipline data, aggregated across districts. FERPA governs the data and state student privacy laws add further obligations.",
-      "loss_scenario": "Breach exposing student records across an entire state or district system, including special education and discipline data, with notification across families and legislative attention that follows education data incidents.",
-      "rhetorical_question": "How many students' records are held in your statewide or district data system?"
+      "headline": "Student data is federally protected.",
+      "points": [
+        "Education records carry academic, disciplinary, and family information.",
+        "Federal student privacy law governs disclosure.",
+        "Records cover entire student populations."
+      ],
+      "rhetorical_question": "How many student records do your systems hold?"
     },
     {
       "rank": 2,
-      "headline": "Funding distribution depends on accurate data.",
-      "why_this_business": "Education funding formulas depend on enrolment, attendance, and demographic reporting from districts, with allocations calculated from that data and audited. Districts plan budgets on expected allocations.",
-      "loss_scenario": "Funding allocations delayed or miscalculated, affecting district budgets and staffing decisions, with corrections applied retrospectively after districts have already committed spending.",
-      "rhetorical_question": "What funding allocations depend on the data your agency processes?"
+      "headline": "Funding distribution depends on your systems.",
+      "points": [
+        "Programme funding is calculated and distributed through your systems.",
+        "Schools and districts depend on that funding arriving.",
+        "A distribution failure affects operations across every district."
+      ],
+      "rhetorical_question": "What funding distribution depends on your systems?"
     },
     {
       "rank": 3,
-      "headline": "Assessment administration is scheduled and secure.",
-      "why_this_business": "State assessment programmes run in fixed testing windows with secure test content, delivered online in most jurisdictions. Test content compromise invalidates results and requires replacement forms.",
-      "loss_scenario": "Testing windows missed or results invalidated by content compromise, affecting accountability determinations, graduation decisions, and federal reporting obligations for the entire state.",
-      "rhetorical_question": "What are your assessment windows, and what happens if testing cannot proceed?"
+      "headline": "Assessment and accountability data drives decisions.",
+      "points": [
+        "Assessment results drive accountability, funding, and intervention decisions.",
+        "Corrupted data affects schools and students directly.",
+        "Assessment integrity depends on content and results staying protected."
+      ],
+      "rhetorical_question": "What assessment content and results do your systems hold?"
     }
   ]
 }

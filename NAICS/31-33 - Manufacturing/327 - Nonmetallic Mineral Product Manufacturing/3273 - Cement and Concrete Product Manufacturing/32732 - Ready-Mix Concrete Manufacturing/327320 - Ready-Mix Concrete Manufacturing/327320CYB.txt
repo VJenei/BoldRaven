@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Concrete has ninety minutes and no more.",
-      "why_this_business": "Concrete begins hydrating on batching, with placement required within a limited time. Batch plants produce to job mix designs, dispatch trucks to placement schedules, and every load is ticketed with time, mix, and water added.",
-      "loss_scenario": "Loads that cannot be batched or dispatched leave crews, pumps, and finishers standing on site at thousands of dollars per hour, and concrete already mixed that cannot be delivered is dumped.",
-      "rhetorical_question": "What does it cost a placement crew and pump to wait for concrete?"
+      "headline": "Concrete in a truck sets whether or not you can deliver it.",
+      "points": [
+        "Batching, dispatch, and delivery are scheduled load by load against pours.",
+        "Concrete has a limited time before it must be placed.",
+        "A dispatch failure sets concrete in the drum and ruins the truck."
+      ],
+      "rhetorical_question": "How are your batching and truck dispatch systems operated?"
     },
     {
       "rank": 2,
-      "headline": "Batch tickets are the permanent record of what was placed.",
-      "why_this_business": "Every load carries a batch ticket recording mix design, quantities, water added, and time, retained as the record of what went into the structure. Structural disputes years later are resolved from those tickets and cylinder break results.",
-      "loss_scenario": "A structural concrete dispute where batch tickets cannot be produced, leaving the producer unable to demonstrate the mix met specification and facing the cost of assessing or replacing placed concrete.",
-      "rhetorical_question": "Where are your batch tickets and cylinder test results retained, and for how long?"
+      "headline": "Mix designs must be batched exactly.",
+      "points": [
+        "Mix designs specify cement, aggregate, water, and admixture proportions.",
+        "Batching controls execute those designs automatically.",
+        "Off specification concrete fails strength tests after it is in the structure."
+      ],
+      "rhetorical_question": "How are your mix designs stored and loaded into batching controls?"
     },
     {
       "rank": 3,
-      "headline": "Mix designs are approved and specific to each project.",
-      "why_this_business": "Concrete is produced to mix designs approved for a project's strength, exposure, and placement requirements, loaded into the batch computer. Batching outside the design produces concrete that does not meet specification.",
-      "loss_scenario": "Concrete batched to a wrong mix design placed in a structure, discovered when cylinders break low, requiring structural assessment and potentially removal of placed concrete.",
-      "rhetorical_question": "How are approved mix designs loaded into and verified at your batch plant?"
+      "headline": "Test results certify the structure years later.",
+      "points": [
+        "Cylinder breaks and batch tickets certify what was placed.",
+        "Those records are examined if the structure is ever questioned.",
+        "Concrete that cannot be documented may have to be removed."
+      ],
+      "rhetorical_question": "How are your batch tickets and test results recorded and retained?"
     }
   ]
 }

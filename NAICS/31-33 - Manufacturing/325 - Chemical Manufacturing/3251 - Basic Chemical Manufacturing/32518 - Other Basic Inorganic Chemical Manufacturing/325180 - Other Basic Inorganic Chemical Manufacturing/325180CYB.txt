@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Inorganic chemical processes involve acutely hazardous materials.",
-      "why_this_business": "Manufacturing chlorine, acids, and other basic inorganics involves acutely toxic and corrosive materials in continuous processes with safety systems preventing release. Chlorine in particular is toxic at low concentration and travels with the wind.",
-      "loss_scenario": "A toxic gas release requiring community evacuation and causing injury or death, which for chlorine and similar materials is a mass casualty exposure with regulatory and criminal consequences.",
-      "rhetorical_question": "What acutely hazardous materials are handled in quantity at your facility?"
+      "headline": "Reactive chemicals fail dangerously when control is lost.",
+      "points": [
+        "Reactions are run under temperature, pressure, and flow control with interlocks.",
+        "Runaway reactions release toxic or corrosive material.",
+        "The consequence extends past the fence line into the community."
+      ],
+      "rhetorical_question": "What safety interlocks protect your reactions, and how are they verified?"
     },
     {
       "rank": 2,
-      "headline": "Risk management planning and process safety are federally required.",
-      "why_this_business": "Facilities with threshold quantities of regulated substances must have risk management plans and process safety management programmes, with hazard analysis, mechanical integrity, and emergency response documentation reviewed by EPA and OSHA.",
-      "loss_scenario": "Enforcement following an incident where process safety documentation is incomplete, with penalties, consent decrees, and criminal referral where knowing violations are found.",
-      "rhetorical_question": "Which regulated substances at your site trigger risk management planning?"
+      "headline": "Customers qualify your product into their processes.",
+      "points": [
+        "Purity and specification are qualified into customer manufacturing.",
+        "Substitution requires requalification, which takes months.",
+        "Off specification product stops their production, not just yours."
+      ],
+      "rhetorical_question": "How are your product specifications tested and recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Customers depend on continuous chemical supply.",
-      "why_this_business": "Basic chemicals supply water treatment, manufacturing, and processing customers who consume continuously with limited storage. Water utilities in particular depend on chlorine and treatment chemicals with days of supply.",
-      "loss_scenario": "Water utilities and manufacturers without treatment chemicals, which for drinking water systems creates a public health situation within days.",
-      "rhetorical_question": "Do you supply water utilities or other customers with days of chemical storage?"
+      "headline": "Chemical reporting and permits are continuous obligations.",
+      "points": [
+        "Inventory reporting, discharge monitoring, and process safety records are required.",
+        "Regulators inspect against those records directly.",
+        "Gaps are violations that can restrict operations."
+      ],
+      "rhetorical_question": "What chemical inventory and discharge reporting does your facility file?"
     }
   ]
 }

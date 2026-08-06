@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Retail supply runs on vendor systems with enforced compliance.",
-      "why_this_business": "Cleaning products ship to mass retailers, grocery, and distributors under EDI with labelling, packing, routing, and delivery window requirements enforced by chargeback.",
-      "loss_scenario": "Order and shipping systems unavailable, with missed delivery windows, chargebacks applied per shipment, and shelf space at risk with concentrated retail customers.",
+      "headline": "Retail supply runs on enforced vendor requirements.",
+      "points": [
+        "Product ships to mass retailers, grocery, and distributors under EDI.",
+        "Labelling, packing, routing, and delivery windows are enforced by chargeback.",
+        "A few customers carry most of the volume."
+      ],
       "rhetorical_question": "What share of your volume ships through your three largest customers?"
     },
     {
       "rank": 2,
-      "headline": "Industrial and food service brushes carry compliance requirements.",
-      "why_this_business": "Brushes used in food processing must meet food contact material requirements and, in many plants, be detectable or colour coded so that a broken bristle can be found before it reaches product.",
-      "loss_scenario": "Bristles or components entering food product at a customer plant, with a foreign material recall covering the production run and the brush identified as the source.",
+      "headline": "Food plant brushes must be detectable when they break.",
+      "points": [
+        "Brushes in food processing must meet food contact requirements.",
+        "Many plants require detectable or colour coded bristles.",
+        "A broken bristle in product is a foreign material recall."
+      ],
       "rhetorical_question": "Do your products go into food processing environments with foreign material controls?"
     },
     {
       "rank": 3,
-      "headline": "Production runs at volume with automated equipment.",
-      "why_this_business": "Brush and broom production runs automated tufting, moulding, and assembly at high rate with machine settings and specifications held in production systems.",
-      "loss_scenario": "Production systems unavailable or settings lost, with lines stopped and customer delivery windows missed while specifications are reconstructed.",
+      "headline": "Production runs at volume from stored settings.",
+      "points": [
+        "Tufting, moulding, and assembly run automated at high rate.",
+        "Machine settings and specifications live in production systems.",
+        "Customer delivery windows do not move while you rebuild them."
+      ],
       "rhetorical_question": "Where are your machine settings and product specifications stored?"
     }
   ]

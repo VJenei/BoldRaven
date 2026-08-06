@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Vehicles and equipment carry people and fail at speed.",
-      "why_this_business": "Transportation equipment in this category carries occupants or loads in motion. Structural, brake, and control failures occur while the equipment is moving with people on or near it.",
-      "loss_scenario": "A structural or control defect causing accidents in service, with recall across the affected production and litigation over injuries occurring while the equipment was in motion.",
+      "headline": "Equipment fails while it is moving with people on it.",
+      "points": [
+        "Transportation equipment carries occupants or loads in motion.",
+        "Structural, brake, and control failures happen at speed.",
+        "Injuries occur while the equipment is moving."
+      ],
       "rhetorical_question": "How is build and inspection documentation maintained per unit?"
     },
     {
       "rank": 2,
-      "headline": "Products are subject to safety standards and recall obligations.",
-      "why_this_business": "Depending on product type, equipment falls under NHTSA, CPSC, or other agency jurisdiction with defect reporting and recall obligations, and reach depends on distribution and serial number records.",
-      "loss_scenario": "A recall that must cover all production because records cannot identify affected units, with civil penalties added where reporting obligations were missed.",
+      "headline": "Products carry safety standards and recall obligations.",
+      "points": [
+        "Federal agencies have defect jurisdiction depending on product type.",
+        "Reporting obligations apply once a hazard is known.",
+        "Recall reach depends on distribution and serial number records."
+      ],
       "rhetorical_question": "Could you identify which distributors received a specific serial number range?"
     },
     {
       "rank": 3,
-      "headline": "Units are built to order with dedicated engineering.",
-      "why_this_business": "Equipment in this category is frequently engineered for a specific customer application, with designs, control systems, and build records produced once for that unit.",
-      "loss_scenario": "Loss of engineering data with units in build halted and delivered equipment unsupportable, leaving customers with equipment nobody can modify or repair.",
+      "headline": "Units are engineered to order with dedicated design work.",
+      "points": [
+        "Equipment is engineered for a specific customer application.",
+        "Designs, control systems, and build records are produced once.",
+        "Delivered equipment becomes unsupportable without them."
+      ],
       "rhetorical_question": "How many unit designs exist only on your systems?"
     }
   ]

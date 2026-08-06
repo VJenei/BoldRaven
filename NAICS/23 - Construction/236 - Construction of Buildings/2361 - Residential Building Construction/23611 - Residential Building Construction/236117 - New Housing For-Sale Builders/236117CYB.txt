@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Homebuyer closing funds are the single most targeted wire transfer in America.",
-      "why_this_business": "For-sale builders take earnest money and deposits, and their buyers wire down payments and closing funds. Real estate closing wire fraud is an established, high-volume criminal industry: the attacker monitors email between buyer, builder, lender, and title company and sends revised wiring instructions at the right moment.",
-      "loss_scenario": "A buyer's entire down payment, commonly $50,000 to $200,000, is lost. The buyer sues everyone in the email chain including the builder, and the reputational damage in a community where buyers talk is severe.",
-      "rhetorical_question": "Do buyers or their lenders send funds based on instructions relayed through your office?"
+      "headline": "Closing funds are the target and the wire goes once.",
+      "points": [
+        "Closings move the full purchase price by wire on a scheduled date.",
+        "Buyers receive wiring instructions by email and act on them.",
+        "A diverted closing wire takes the buyer's entire down payment."
+      ],
+      "rhetorical_question": "How are wiring instructions delivered to buyers before closing?"
     },
     {
       "rank": 2,
-      "headline": "You hold buyers' personal and mortgage information.",
-      "why_this_business": "Sales contracts, financing pre-approvals, credit information, Social Security numbers, and identification are collected during the sales process and retained in a CRM. Builders with affiliated mortgage or title operations hold considerably more.",
-      "loss_scenario": "A breach across a buyer database triggers notification in every state where buyers reside, and where affiliated lending is involved it engages financial privacy obligations as well.",
-      "rhetorical_question": "Does your sales CRM store buyer Social Security numbers or credit information?"
+      "headline": "You hold the buyer's complete financial and personal file.",
+      "points": [
+        "Contracts, deposits, credit applications, and identification are collected from every buyer.",
+        "That file is enough for identity theft on its own.",
+        "State law requires notification to every affected buyer."
+      ],
+      "rhetorical_question": "What buyer financial and identification records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Production schedules, starts, and releases drive the whole operation.",
-      "why_this_business": "For-sale builders run scheduled starts, trade sequencing across many homes at once, purchase orders released automatically at each stage, and closing dates committed to buyers and lenders. It is a manufacturing operation spread across a subdivision, coordinated entirely in software.",
-      "loss_scenario": "Missed closings put buyers into rate lock expiry and temporary housing, generating per-diem claims and cancellations. Cancelled contracts on completed homes leave finished inventory carrying debt.",
-      "rhetorical_question": "How many homes do you have under contract with committed closing dates right now?"
+      "headline": "Sales, selections, and closings all run through one system.",
+      "points": [
+        "Contracts, option selections, construction schedules, and closing dates are managed together.",
+        "Lenders, title companies, and buyers all work to those dates.",
+        "A slipped closing date has consequences for the buyer's financing and moving."
+      ],
+      "rhetorical_question": "What software holds your sales contracts, selections, and closing schedule?"
     }
   ]
 }

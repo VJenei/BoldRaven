@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Mill test reports are the traceability chain for every piece of metal.",
-      "why_this_business": "Service centres receive metal with mill certifications tying material to a heat number, chemistry, and mechanical properties, and must pass that certification through to the customer on the processed material. Aerospace, pressure vessel, and structural customers require unbroken traceability.",
-      "loss_scenario": "Material that cannot be certified is unusable for its intended application. In aerospace and pressure applications, uncertified material already installed can require removal, and false certification is a criminal matter.",
-      "rhetorical_question": "How do you tie mill test reports to processed material shipped to customers?"
+      "headline": "Mill certifications must follow every piece you sell.",
+      "points": [
+        "Material carries mill test reports tying it to heat chemistry and properties.",
+        "Fabricators and inspectors require those certificates.",
+        "Material that cannot be certified is rejected on site."
+      ],
+      "rhetorical_question": "How are mill test reports linked to material through your processing and shipping?"
     },
     {
       "rank": 2,
-      "headline": "Processing equipment is numerically controlled and cuts to final size.",
-      "why_this_business": "Service centres run slitters, shears, plasma and laser cutting, and saws driven by nesting software from customer drawings. Metal is cut to size for the customer's part. Wrong programmes destroy material that is priced by the pound and rising.",
-      "loss_scenario": "Scrapped material and remake cost, plus schedule failure to fabricators whose production stops without the processed material.",
-      "rhetorical_question": "Are your cutting and processing machines driven by files from your office systems?"
+      "headline": "Processing equipment cuts material to customer orders.",
+      "points": [
+        "Saws, shears, and burning tables run from order data.",
+        "Material cut wrong cannot be uncut.",
+        "It is scrap at full material cost and the customer waits."
+      ],
+      "rhetorical_question": "How is order data loaded into your processing equipment and verified?"
     },
     {
       "rank": 3,
-      "headline": "Inventory value moves with commodity markets and is financed.",
-      "why_this_business": "Metal inventory is large, valuable, and price-volatile, usually financed on an asset-based facility with borrowing base reporting tied to inventory and receivables. Lenders require regular certificates supported by system data.",
-      "loss_scenario": "Inability to produce borrowing base certificates suspends availability under the credit facility, cutting off working capital while inventory sits on the floor.",
-      "rhetorical_question": "How often must you report a borrowing base to your lender?"
+      "headline": "Metal prices move daily and inventory is large.",
+      "points": [
+        "Purchases and sales are priced against daily market movement.",
+        "Inventory value and margin depend on current pricing.",
+        "Selling from stale prices loses money on every order."
+      ],
+      "rhetorical_question": "How is your pricing updated and applied to quotes and orders?"
     }
   ]
 }

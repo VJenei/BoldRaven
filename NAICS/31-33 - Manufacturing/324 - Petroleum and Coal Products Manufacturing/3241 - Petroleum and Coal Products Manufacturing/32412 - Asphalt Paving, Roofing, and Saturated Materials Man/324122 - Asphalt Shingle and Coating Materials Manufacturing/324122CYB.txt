@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Shingles carry wind and fire ratings that failure exposes.",
-      "why_this_business": "Roofing shingles are tested and rated for wind resistance and fire classification, with those ratings relied on by building codes, specifiers, and insurers. Manufacturing consistency determines whether product meets the rating.",
-      "loss_scenario": "Product failing wind or fire rating installed across thousands of homes, discovered in a storm event, with class litigation and warranty exposure across every roof containing affected production.",
-      "rhetorical_question": "How is production quality tied to the wind and fire ratings you publish?"
+      "headline": "Shingles carry wind and fire ratings used in code and insurance.",
+      "points": [
+        "Ratings are established by testing and relied on by builders and insurers.",
+        "Manufacturing parameters determine whether product meets those ratings.",
+        "Shingles below rating fail in the storm they were rated for."
+      ],
+      "rhetorical_question": "How are your product test results linked to production runs?"
     },
     {
       "rank": 2,
-      "headline": "Continuous coating lines run hot asphalt at high speed.",
-      "why_this_business": "Shingle production runs continuous saturation and coating with hot asphalt, granule application, and cutting at high line speed. Hot asphalt handling carries fire risk and line control determines product weight and construction.",
-      "loss_scenario": "A fire in the asphalt handling or coating section taking a line offline for months, plus off-specification product produced continuously until testing detects it.",
-      "rhetorical_question": "How is asphalt temperature and coating weight monitored during production?"
+      "headline": "Warranty exposure runs for decades.",
+      "points": [
+        "Shingle warranties run twenty years or longer from installation.",
+        "Production records establish what was made and when.",
+        "A manufacturing defect produces claims across an entire production period."
+      ],
+      "rhetorical_question": "How long do you retain production and test records?"
     },
     {
       "rank": 3,
-      "headline": "Long warranties mean production records matter for decades.",
-      "why_this_business": "Shingles carry warranties of twenty to fifty years, with claims arising long after production. Manufacturing and testing records for the production period are the evidence in a warranty or defect claim.",
-      "loss_scenario": "Warranty and defect claims decades later where production and quality records cannot be produced, leaving the manufacturer unable to demonstrate the product met specification when made.",
-      "rhetorical_question": "How long do you retain production quality records against your warranty period?"
+      "headline": "The line runs continuously with hot asphalt.",
+      "points": [
+        "Saturating, coating, and surfacing run as one continuous high temperature process.",
+        "Hot asphalt systems carry fire risk when control is lost.",
+        "An unplanned stop wastes material and takes hours to restart."
+      ],
+      "rhetorical_question": "Is your production line run by a central process control system?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A ransomware attack shut down the largest meat processor in the world.",
-      "why_this_business": "JBS, the largest meat processing company globally, was forced to halt operations across North American and Australian plants by a ransomware attack in May 2021 and paid a reported ransom of $11 million. Meat distribution sits directly downstream of a small number of very large processors whose systems have already proven vulnerable.",
-      "loss_scenario": "Supply interruption from a processor outage, plus your own systems failing, leaves customers with no protein supply. Contingent business interruption is a cyber policy coverage, not a property one.",
-      "rhetorical_question": "How many processors supply the majority of your product?"
+      "headline": "Cold chain records are a food safety requirement.",
+      "points": [
+        "Temperature is monitored through storage and transport.",
+        "Records establish that the chain was maintained.",
+        "Product out of range must be destroyed, not sold."
+      ],
+      "rhetorical_question": "Is your storage and transport temperature monitored and recorded?"
     },
     {
       "rank": 2,
-      "headline": "USDA inspection and recall response run through your records.",
-      "why_this_business": "Meat is federally inspected with establishment numbers, production dates, and lot identification carried through distribution. FSIS recalls for E. coli and Listeria require rapid identification of every customer that received the affected lot, and effectiveness checks verify the recall reached them.",
-      "loss_scenario": "An expanded recall and FSIS effectiveness check failures where distribution records cannot be produced, with the wider recall cost borne by the distributor.",
-      "rhetorical_question": "How quickly could you produce a distribution list for a recalled lot?"
+      "headline": "Recall reach depends on your distribution records.",
+      "points": [
+        "Meat recalls identify specific establishments, lots, and dates.",
+        "Your records determine which customers received them.",
+        "E. coli and listeria recalls in this category can be very large."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific product lot?"
     },
     {
       "rank": 3,
-      "headline": "Cold chain failure condemns product rather than delaying it.",
-      "why_this_business": "Fresh and frozen meat requires continuous temperature control through warehousing and delivery, monitored and documented. The Sanitary Transportation rule requires temperature control to be specified and verified. Product outside specification cannot be sold.",
-      "loss_scenario": "A refrigeration control or monitoring failure condemns warehouse inventory outright, with product values in a meat distribution warehouse running into millions.",
-      "rhetorical_question": "What is the value of product in your coolers and freezers right now?"
+      "headline": "Customers order for daily menu and case needs.",
+      "points": [
+        "Restaurants, stores, and processors order against daily volume.",
+        "They hold very little inventory.",
+        "A supply gap changes menus and empties cases immediately."
+      ],
+      "rhetorical_question": "How quickly do your customers expect delivery?"
     }
   ]
 }

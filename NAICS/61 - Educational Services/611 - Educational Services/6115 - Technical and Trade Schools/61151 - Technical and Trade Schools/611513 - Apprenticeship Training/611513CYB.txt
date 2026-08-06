@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Apprentice hour and competency records determine journeyman status.",
-      "why_this_business": "Registered apprenticeship programmes track on-the-job hours, related technical instruction, and competency attainment against standards registered with the Department of Labor or a state agency. Completion certificates depend on documented hours over several years.",
-      "loss_scenario": "Apprentices unable to demonstrate completion of a multi-year programme, with hours worked at employers over years unprovable and careers delayed while records are reconstructed if they can be at all.",
-      "rhetorical_question": "How many years of apprentice hour records does a completion certificate depend on?"
+      "headline": "Apprentice records support certification and registration.",
+      "points": [
+        "Hours, competencies, and progression records support registered apprenticeship status.",
+        "Regulators and sponsors verify those records.",
+        "Apprentices cannot complete without them."
+      ],
+      "rhetorical_question": "How are your apprentice hour and competency records maintained?"
     },
     {
       "rank": 2,
-      "headline": "Joint programmes handle contributions and benefit eligibility.",
-      "why_this_business": "Jointly administered training programmes receive employer contributions under collective bargaining agreements, with eligibility, hours, and fund accounting tracked. Trustees carry fiduciary obligations over the fund.",
-      "loss_scenario": "Unreconcilable contribution and eligibility records, with employer disputes over amounts owed and apprentices' standing in question, plus fiduciary exposure for trustees.",
-      "rhetorical_question": "How are employer contributions and apprentice eligibility reconciled?"
+      "headline": "Apprentice records hold personal and employment data.",
+      "points": [
+        "Records carry identity, employer, and wage progression information.",
+        "Sponsors and employers rely on that data.",
+        "Every affected apprentice must be notified."
+      ],
+      "rhetorical_question": "What apprentice personal and employment data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Participant records include employment and personal data.",
-      "why_this_business": "Programmes hold apprentice identity, Social Security numbers, employment history, wage progression, and evaluations, along with employer and union affiliation data, retained through the programme and beyond.",
-      "loss_scenario": "Breach notification across current and former apprentices, with employment and wage data exposed alongside identity information.",
-      "rhetorical_question": "How many current and former apprentices' records do you hold?"
+      "headline": "Training is scheduled around employer work.",
+      "points": [
+        "Classroom and on-the-job training are scheduled with employers.",
+        "Employers plan crews around apprentice availability.",
+        "A scheduling failure disrupts employers as well as apprentices."
+      ],
+      "rhetorical_question": "How are your training schedules coordinated with employers?"
     }
   ]
 }

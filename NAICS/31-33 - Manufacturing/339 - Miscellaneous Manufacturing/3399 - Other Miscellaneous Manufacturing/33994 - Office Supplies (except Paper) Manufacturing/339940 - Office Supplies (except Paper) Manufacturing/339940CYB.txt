@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Products used by children carry testing requirements.",
-      "why_this_business": "Markers, crayons, and art supplies used by children are children's products subject to lead, phthalate, and labelling requirements, with art materials additionally requiring chronic hazard labelling review under federal law.",
-      "loss_scenario": "Product distributed without supportable testing or labelling review, with CPSC recall from schools and retailers and penalties for uncertified children's products.",
+      "headline": "Art supplies used by children carry testing requirements.",
+      "points": [
+        "Markers, crayons, and art supplies are children's products.",
+        "Lead, phthalate, labelling, and chronic hazard review all apply.",
+        "Uncertified product is recalled from schools and retailers."
+      ],
       "rhetorical_question": "Which of your products are used by children and require third party testing?"
     },
     {
       "rank": 2,
-      "headline": "Retail supply is concentrated with strict vendor requirements.",
-      "why_this_business": "Office supplies ship to a small number of large retailers and online marketplaces under EDI with labelling, packing, and delivery requirements enforced by chargeback, with back to school driving a large share of volume.",
-      "loss_scenario": "Order and shipping systems unavailable during the back to school window, with chargebacks, lost volume in the season that carries the year, and shelf space at risk.",
+      "headline": "Back to school is most of the year in three months.",
+      "points": [
+        "Product ships to a few large retailers and marketplaces under vendor requirements.",
+        "Delivery windows are fixed and enforced by chargeback.",
+        "Volume missed in that window has no other market."
+      ],
       "rhetorical_question": "What share of your volume ships between June and September?"
     },
     {
       "rank": 3,
-      "headline": "Production runs at volume with automated equipment.",
-      "why_this_business": "Office supply manufacturing runs automated moulding, filling, and packaging at high rate with formulations and process settings held in production systems.",
-      "loss_scenario": "Production systems unavailable or settings lost, with lines stopped and formulations requiring reconstruction, during a period when retail delivery windows do not move.",
+      "headline": "Production runs at volume from stored settings.",
+      "points": [
+        "Moulding, filling, and packaging run automated at high rate.",
+        "Formulations and machine settings live in production systems.",
+        "Retail delivery windows do not move while you rebuild them."
+      ],
       "rhetorical_question": "Where are your production formulations and machine settings stored?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Two major casino resort operators were compromised in the same month by phone calls.",
-      "why_this_business": "In September 2023 attackers social engineered IT help desks at two of the largest casino resort operators. One disclosed approximately $100 million of impact with slot machines, hotel reservations, and room key systems unavailable for around ten days; the other was reported to have paid roughly $15 million. The entry point was identity verification at the help desk.",
-      "loss_scenario": "Gaming floor, hotel operations, restaurants, and entertainment all stop simultaneously, with guests unable to check in, use keys, or gamble, and remediation costs in the tens of millions on top of lost revenue.",
-      "rhetorical_question": "How does your help desk verify identity before resetting an employee credential?"
+      "headline": "Gaming and hotel systems are both regulated and connected.",
+      "points": [
+        "Gaming systems are regulated with documented controls and reporting.",
+        "Hotel systems hold guest identity and payment data.",
+        "Both sit on connected networks in the same property."
+      ],
+      "rhetorical_question": "What gaming regulatory requirements apply to your systems?"
     },
     {
       "rank": 2,
-      "headline": "You are both a casino and a hotel, with both regulatory regimes.",
-      "why_this_business": "Casino hotels are financial institutions under the Bank Secrecy Act with AML programme, currency transaction reporting, and record retention obligations, while simultaneously holding hotel guest identity, passport, and payment data at scale. Gaming regulators require notification and can restrict operations.",
-      "loss_scenario": "FinCEN enforcement, gaming regulator action, and guest data breach obligations arising from a single incident, each with separate authorities, deadlines, and penalties.",
-      "rhetorical_question": "Which regulators would you need to notify after a cyber incident, and how quickly?"
+      "headline": "Player and guest records hold identity and financial data.",
+      "points": [
+        "Player accounts carry identity, credit, and gambling activity records.",
+        "Guest records carry payment and passport details.",
+        "Every affected patron and guest must be notified."
+      ],
+      "rhetorical_question": "How many player and guest accounts do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Player tracking links identity, spending, and behaviour.",
-      "why_this_business": "Loyalty and player tracking systems record identity, play history, theoretical loss, comp entitlement, and credit lines, building a detailed behavioural profile of each patron. Gaming patrons frequently regard their play as private.",
-      "loss_scenario": "Exposure of player tracking data reveals gambling behaviour and losses for identified individuals, which causes personal and relationship harm beyond financial exposure and is uniquely damaging in this industry.",
-      "rhetorical_question": "What does your player tracking data reveal about an individual patron?"
+      "headline": "The floor and the front desk both stop together.",
+      "points": [
+        "Gaming, hotel, and food operations all run on connected systems.",
+        "Revenue runs continuously across all of them.",
+        "A systems failure closes the floor and the desk at once."
+      ],
+      "rhetorical_question": "What happens to gaming and check-in if your systems are unavailable?"
     }
   ]
 }

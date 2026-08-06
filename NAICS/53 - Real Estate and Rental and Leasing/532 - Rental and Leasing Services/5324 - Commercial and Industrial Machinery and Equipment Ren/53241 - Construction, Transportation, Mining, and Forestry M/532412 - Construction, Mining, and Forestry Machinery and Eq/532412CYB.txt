@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Telematics platforms show where every machine is.",
-      "why_this_business": "Rental fleets are equipped with telematics reporting location, hours, and fault codes, used for utilisation, billing, and recovery. Some systems support remote disable. The platform is a live map of high value equipment across job sites.",
-      "loss_scenario": "Equipment theft informed by fleet location data, on machines worth $100,000 to $800,000 that are frequently unattended on open sites and exported quickly once taken.",
-      "rhetorical_question": "Who can see the live location of your fleet through your telematics platform?"
+      "headline": "Machines are connected to telematics platforms.",
+      "points": [
+        "Fleet telematics reports location, hours, and condition continuously.",
+        "Some platforms support remote disabling.",
+        "That access reaches machines on active job sites."
+      ],
+      "rhetorical_question": "What can be done to a machine through your telematics platform?"
     },
     {
       "rank": 2,
-      "headline": "Equipment failure on a job site injures people.",
-      "why_this_business": "Aerial lifts, cranes, earthmoving equipment, and forestry machinery cause severe injuries when they fail. Inspection, maintenance, and delivery condition records demonstrate the machine was serviceable, and lifts carry specific inspection requirements.",
-      "loss_scenario": "A fatality or serious injury claim where inspection records cannot be produced, in litigation where the rental company is the deepest pocket and the records are the whole defence.",
-      "rhetorical_question": "How are pre-delivery inspections recorded for each machine that leaves your yard?"
+      "headline": "Equipment is booked for a specific job and day.",
+      "points": [
+        "Machines are reserved and delivered against project schedules.",
+        "Crews and other equipment are scheduled around them.",
+        "A missed delivery idles a crew for the day."
+      ],
+      "rhetorical_question": "How are your reservations and deliveries scheduled?"
     },
     {
       "rank": 3,
-      "headline": "Utilisation and billing data is the entire economics of the fleet.",
-      "why_this_business": "Rental revenue depends on knowing what is out, to whom, since when, and at what rate, with hour meters driving billing on many categories. Fleet position determines purchasing and disposal decisions.",
-      "loss_scenario": "Unbillable rental days across the fleet and equipment that cannot be located or recalled, with contractors continuing to use machines that are no longer being invoiced.",
-      "rhetorical_question": "How many machines are currently on rent, and how do you know?"
+      "headline": "Inspection records matter after an accident.",
+      "points": [
+        "Inspection and maintenance records are kept per machine.",
+        "Those records are examined when equipment injures someone.",
+        "Records you cannot produce are a defence you do not have."
+      ],
+      "rhetorical_question": "How are your equipment inspection and maintenance records maintained?"
     }
   ]
 }

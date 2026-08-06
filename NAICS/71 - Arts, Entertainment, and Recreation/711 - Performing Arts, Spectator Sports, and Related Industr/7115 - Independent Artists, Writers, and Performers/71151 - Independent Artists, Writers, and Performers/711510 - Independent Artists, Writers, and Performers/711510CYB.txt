@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Unpublished work is the asset and it exists in one place.",
-      "why_this_business": "Independent creators hold manuscripts, compositions, recordings, and artwork in progress, frequently on a single computer with no systematic backup. A sustained phishing campaign against publishing specifically targeted unpublished manuscripts for years, resulting in a federal indictment.",
-      "loss_scenario": "Loss of unpublished work that cannot be recreated, or its disclosure before publication which undermines the release and, for some rights, can affect protection.",
-      "rhetorical_question": "Where is the only copy of your current work in progress?"
+      "headline": "Your work exists as files before it is published.",
+      "points": [
+        "Manuscripts, recordings, and artwork exist before release.",
+        "Publishers and platforms build releases around that timing.",
+        "A leak destroys the release and the value."
+      ],
+      "rhetorical_question": "Where is your unpublished work stored?"
     },
     {
       "rank": 2,
-      "headline": "Income comes from many small payers through platforms.",
-      "why_this_business": "Independent creators receive royalties, platform payments, licensing fees, and direct sales through numerous accounts, each with banking details and tax information. Platform account takeover redirects income silently.",
-      "loss_scenario": "Redirected royalty and platform payments discovered months later, with recovery from platforms difficult and the creator having no finance function to notice the absence quickly.",
-      "rhetorical_question": "How many platforms hold your banking details for payment?"
+      "headline": "Rights and royalty records determine your income.",
+      "points": [
+        "Ownership, licensing, and royalty records determine what you are owed.",
+        "Payments come from many sources over years.",
+        "Wrong or lost records mean money that never arrives."
+      ],
+      "rhetorical_question": "Where are your rights and royalty records held?"
     },
     {
       "rank": 3,
-      "headline": "Fan and customer data comes with direct sales.",
-      "why_this_business": "Creators selling directly hold customer contact and payment information through their own storefronts, mailing lists, and membership platforms, frequently without any security review of the tools chosen.",
-      "loss_scenario": "Customer payment and contact data exposed through a personal storefront, with notification obligations falling on an individual creator with no capacity to fund them.",
-      "rhetorical_question": "Do you sell directly to fans and hold their payment or contact details?"
+      "headline": "Bookings and commitments run your calendar.",
+      "points": [
+        "Performances, deliveries, and appearances are committed to dates.",
+        "Venues and clients plan around those dates.",
+        "A missed commitment costs the fee and the relationship."
+      ],
+      "rhetorical_question": "How are your bookings and delivery commitments recorded?"
     }
   ]
 }

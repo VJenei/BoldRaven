@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Consumer power equipment causes amputations and is recalled for it.",
-      "why_this_business": "Mowers, trimmers, and garden equipment have exposed blades and are consumer products under CPSC jurisdiction with a 24 hour reporting obligation once a potential hazard is known. Blade and brake defects cause amputations.",
-      "loss_scenario": "CPSC recall for a blade or brake defect where distribution records cannot identify affected production, expanding the recall to all production and adding civil penalties for late reporting.",
+      "headline": "Consumer power equipment causes amputations.",
+      "points": [
+        "Mowers and trimmers have exposed blades and consumer safety obligations.",
+        "Blade and brake defects have caused amputations.",
+        "Recall reach depends entirely on distribution records."
+      ],
       "rhetorical_question": "Could you identify which retailers received a specific production run?"
     },
     {
       "rank": 2,
-      "headline": "Battery powered equipment carries lithium-ion fire risk.",
-      "why_this_business": "The category has moved to lithium-ion battery platforms with chargers and battery management electronics. Cell and charger defects cause fires in homes and garages, and battery recalls in this category have been large.",
-      "loss_scenario": "Battery or charger fires in customer homes, with property damage and injury claims, CPSC recall, and battery management firmware requiring a field update across every unit sold.",
-      "rhetorical_question": "Do your products include lithium-ion batteries or chargers you manufacture or specify?"
+      "headline": "Lithium batteries in this category cause house fires.",
+      "points": [
+        "Cordless equipment runs on battery platforms with chargers and management electronics.",
+        "Cell and charger defects cause fires in homes and garages.",
+        "Battery recalls in this category have been very large."
+      ],
+      "rhetorical_question": "Do your products include lithium-ion batteries or chargers you specify?"
     },
     {
       "rank": 3,
-      "headline": "Sales are compressed into a short spring season at big retailers.",
-      "why_this_business": "Lawn and garden volume concentrates in spring, shipped to home centres and mass retailers under vendor compliance requirements with delivery windows and chargebacks for failures.",
-      "loss_scenario": "Order and shipping systems unavailable during the spring window, with shelf space filled by competitors and a season that cannot be recovered because demand disappears by summer.",
+      "headline": "The year is decided in a few spring weeks.",
+      "points": [
+        "Volume concentrates in spring at home centres and mass retailers.",
+        "Delivery windows are fixed and enforced by chargeback.",
+        "Demand disappears by summer and cannot be recovered."
+      ],
       "rhetorical_question": "What share of your annual volume ships between February and May?"
     }
   ]

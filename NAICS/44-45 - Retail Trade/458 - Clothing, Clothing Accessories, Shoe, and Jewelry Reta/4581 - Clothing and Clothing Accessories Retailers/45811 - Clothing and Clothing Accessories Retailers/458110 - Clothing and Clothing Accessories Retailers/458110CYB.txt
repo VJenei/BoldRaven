@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seasons expire and unsold inventory loses most of its value.",
-      "why_this_business": "Apparel is bought months ahead against a season, with markdown cadence planned from sell-through data. Merchandising, allocation between stores, and markdown timing are driven entirely by point of sale data. Once the season passes the goods clear at a fraction of ticket.",
-      "loss_scenario": "Blind allocation and markdown decisions during an outage leave inventory in the wrong stores at the wrong price, converting a normal season into a margin write-down.",
-      "rhetorical_question": "How do you decide markdowns and inter-store transfers without sell-through data?"
+      "headline": "Card payments run continuously at every register.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply across every store.",
+        "Apparel retail breaches have reached tens of millions of cards."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "E-commerce checkout is where card data is now stolen.",
-      "why_this_business": "Apparel retail runs significant online volume, and digital skimming injects code into checkout pages to capture card data in transit. PCI DSS 4.0 became fully mandatory on March 31, 2025 and specifically added requirements to manage and monitor scripts on payment pages because of this technique.",
-      "loss_scenario": "Card brand assessments, forensics, and reissuance for every card entered on the compromised page, which continues silently until someone detects the injected script.",
-      "rhetorical_question": "Who has the ability to change code on your checkout page, and how is that monitored?"
+      "headline": "Online and in-store inventory run as one system.",
+      "points": [
+        "Stock, pricing, and fulfilment run across stores and the website together.",
+        "Online orders are fulfilled from store inventory.",
+        "A systems failure stops both channels at once."
+      ],
+      "rhetorical_question": "How are your store and online inventory and orders managed?"
     },
     {
       "rank": 3,
-      "headline": "Returns and loyalty fraud are systematic, not occasional.",
-      "why_this_business": "Apparel carries very high return rates, and return fraud, wardrobing, and loyalty account takeover are organised activities. Return authorisation, gift card issuance, and loyalty balances are all system-controlled decisions.",
-      "loss_scenario": "Systematic fraud against returns and stored value that continues until the pattern is identified, with losses concentrated in gift cards and loyalty balances that convert to merchandise immediately.",
-      "rhetorical_question": "How much value is outstanding in your gift cards and loyalty balances?"
+      "headline": "The fourth quarter carries the year.",
+      "points": [
+        "Holiday trading drives a disproportionate share of annual sales.",
+        "Inventory, staffing, and fulfilment all peak together.",
+        "Volume missed then cannot be recovered."
+      ],
+      "rhetorical_question": "What share of your annual sales happens in the fourth quarter?"
     }
   ]
 }

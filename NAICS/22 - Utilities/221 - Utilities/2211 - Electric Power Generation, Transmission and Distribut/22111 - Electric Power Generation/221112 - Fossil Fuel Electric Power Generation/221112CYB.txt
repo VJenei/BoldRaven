@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The plant runs on a distributed control system that is the plant.",
-      "why_this_business": "Boiler, turbine, and balance of plant are operated through a DCS with burner management, turbine control, and emissions control all integrated. Vendors hold remote access for diagnostics and tuning. A combined cycle unit cannot be operated manually in any meaningful sense.",
-      "loss_scenario": "A forced outage on a large unit costs both the replacement power and the capacity performance penalty. In tight markets a multi-day forced outage during a scarcity event runs into millions.",
-      "rhetorical_question": "Does your control system vendor hold remote access to the plant, and how is it controlled?"
+      "headline": "Plant control systems run combustion and turbines.",
+      "points": [
+        "Boiler, turbine, and emissions systems are run by distributed control systems.",
+        "Protection functions trip the unit before equipment destroys itself.",
+        "Loss of protection at load destroys a turbine worth tens of millions."
+      ],
+      "rhetorical_question": "Is your plant run by a distributed control system with protective trip functions?"
     },
     {
       "rank": 2,
-      "headline": "NERC CIP compliance is mandatory and audited.",
-      "why_this_business": "Generation registered to the bulk electric system must meet CIP standards covering electronic security perimeters, physical security of cyber assets, configuration change management, incident response and reporting, and vendor supply chain risk. Audits examine evidence, not intent.",
-      "loss_scenario": "Penalties up to $1 million per violation per day, plus mandatory mitigation plans that consume staff for months.",
-      "rhetorical_question": "When was your last CIP audit, and which standards were you found short on?"
+      "headline": "Grid reliability standards impose audited security requirements.",
+      "points": [
+        "Federal rules require documented controls on systems that affect the bulk power system.",
+        "Compliance is audited and penalties are assessed per day of violation.",
+        "Findings attach to the registered entity, which is you."
+      ],
+      "rhetorical_question": "Which of your systems fall within grid reliability security requirements?"
     },
     {
       "rank": 3,
-      "headline": "Continuous emissions monitoring is a legal reporting obligation with no gaps allowed.",
-      "why_this_business": "CEMS data is reported to EPA under Part 75 with strict availability requirements. Missing data is not treated as zero, it is filled with punitive substitute data values that assume the worst emissions rate. Allowance accounting depends on it.",
-      "loss_scenario": "Substitute data assumptions inflate reported emissions and allowance surrender obligations, and monitoring availability shortfalls are themselves violations.",
-      "rhetorical_question": "What happens to your emissions reporting if CEMS data is unavailable for a period?"
+      "headline": "Emissions monitoring is continuous and legally reported.",
+      "points": [
+        "Continuous emissions monitors record and report data to regulators automatically.",
+        "Reported data determines compliance and allowance obligations.",
+        "Gaps or corrupted data are treated as exceedances."
+      ],
+      "rhetorical_question": "How is your continuous emissions monitoring data recorded and reported?"
     }
   ]
 }

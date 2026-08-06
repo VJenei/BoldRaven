@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Fabric is sold by bolt and dye lot and cannot be rematched later.",
-      "why_this_business": "Quilting and dressmaking fabric varies by dye lot, and customers returning for additional yardage need the same lot. Bolt records, lot numbers, and reorder information determine whether a project can be completed with matching material.",
-      "loss_scenario": "Customers unable to complete projects with matching fabric, which in quilting and specialty sewing means the work already done is wasted, and the retailer absorbs the goodwill cost in a community-driven market.",
-      "rhetorical_question": "How do you record bolt and dye lot information for reorders?"
+      "headline": "Fabric lots must match across a customer's project.",
+      "points": [
+        "Fabric varies in shade between dye lots.",
+        "Customers buy quantities for a single project.",
+        "Returning for more from a different lot does not match."
+      ],
+      "rhetorical_question": "How are your fabric lots tracked and reserved for customers?"
     },
     {
       "rank": 2,
-      "headline": "Classes and events are the reason customers come in.",
-      "why_this_business": "Fabric and needlework retailers run class schedules, workshops, and clubs booked and paid in advance, with instructor scheduling and materials kits prepared per session. The class calendar drives store traffic and product sales.",
-      "loss_scenario": "Lost bookings and prepayments across a class schedule, with customers arriving for sessions that were never recorded and no way to reconstruct who paid for what.",
-      "rhetorical_question": "How many class bookings and prepayments are you holding at any time?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 3,
-      "headline": "Small independents run everything on one system with no redundancy.",
-      "why_this_business": "Independent fabric retailers manage inventory across tens of thousands of SKUs, cut-to-order pricing, classes, and customer accounts through a single point of sale system, usually with no IT support and often without a tested backup.",
-      "loss_scenario": "The store cannot price or sell cut goods at all, and for an owner-operated business a week of closure is a solvency event rather than a disruption.",
-      "rhetorical_question": "When did you last verify that your point of sale backup actually restores?"
+      "headline": "Inventory runs across thousands of items and colours.",
+      "points": [
+        "Stock, reordering, and pricing run through your systems.",
+        "Items turn at very different rates.",
+        "Without the system shelves empty and nothing reorders."
+      ],
+      "rhetorical_question": "How is your inventory tracked and reordered?"
     }
   ]
 }

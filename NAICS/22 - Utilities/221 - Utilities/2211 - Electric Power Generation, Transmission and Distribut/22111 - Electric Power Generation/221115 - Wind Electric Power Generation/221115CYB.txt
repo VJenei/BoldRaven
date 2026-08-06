@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The turbine manufacturer holds remote access to your fleet, and manufacturers get attacked.",
-      "why_this_business": "Wind turbines run manufacturer SCADA with remote monitoring, curtailment, yaw and pitch control, and firmware management, typically retained by the OEM under a service agreement. Vestas, one of the largest turbine manufacturers, disclosed a cyber incident in November 2021 that compromised company data and forced systems offline.",
-      "loss_scenario": "A compromise at the OEM or of the OEM's access path reaches every site under that service agreement at once. Fleet-wide curtailment or shutdown removes all revenue while turbine debt service continues.",
-      "rhetorical_question": "Which parties hold remote access to your turbine control system, and under what agreement?"
+      "headline": "Turbines are controlled and updated remotely across the fleet.",
+      "points": [
+        "Turbine controllers, pitch, and yaw systems are managed from a central platform.",
+        "Manufacturers and operators both hold remote access for diagnostics and updates.",
+        "Loss of control at speed can destroy a turbine outright."
+      ],
+      "rhetorical_question": "Who holds remote access to your turbine control systems?"
     },
     {
       "rank": 2,
-      "headline": "Turbines must curtail and shut down on command for grid, wildlife, and weather reasons.",
-      "why_this_business": "Wind sites curtail on ISO dispatch, shut down for icing and high wind, and in many permits must feather during bat activity or specific wind speeds at night. Compliance is demonstrated from SCADA records. Overspeed protection is the last line before structural damage.",
-      "loss_scenario": "Failure to curtail as permitted is an environmental permit violation with penalties and possible operating restrictions. Loss of shutdown control in a wind event risks turbine damage measured in millions per unit.",
-      "rhetorical_question": "Do your permits require curtailment under specific conditions, and how is compliance evidenced?"
+      "headline": "Grid reliability rules apply to facilities of your size.",
+      "points": [
+        "Federal reliability standards impose documented security requirements on covered facilities.",
+        "Compliance is audited with penalties assessed per day of violation.",
+        "Findings attach to the registered entity."
+      ],
+      "rhetorical_question": "Which of your systems fall within grid reliability security requirements?"
     },
     {
       "rank": 3,
-      "headline": "Power purchase agreements settle on metered output and availability.",
-      "why_this_business": "Revenue comes from a PPA or merchant sales settled on interval meter data, with availability guarantees from the service provider and production forecasts submitted to the ISO. Forecast errors carry imbalance charges in some markets.",
-      "loss_scenario": "Uncontested settlement and imbalance charges during the outage, plus inability to claim against the availability guarantee without operational data.",
-      "rhetorical_question": "How do you verify your monthly PPA settlement against your own production data?"
+      "headline": "Metered output is what you actually get paid for.",
+      "points": [
+        "Generation is metered and settled under power purchase agreements.",
+        "Renewable credits are issued from that recorded output.",
+        "Corrupted generation data is production you cannot bill or claim."
+      ],
+      "rhetorical_question": "How is your generation metering data recorded and reported for settlement?"
     }
   ]
 }

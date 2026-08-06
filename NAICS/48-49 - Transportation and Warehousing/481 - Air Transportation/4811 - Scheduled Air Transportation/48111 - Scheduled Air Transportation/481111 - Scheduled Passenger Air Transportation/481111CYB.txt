@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Airlines cannot dispatch aircraft without their operational systems.",
-      "why_this_business": "Flight planning, weight and balance, crew scheduling, maintenance release, and dispatch release are all system-generated and legally required before a flight departs. An aircraft cannot lawfully dispatch without a signed dispatch release and current weight and balance. Airlines have grounded entire fleets over failures in these systems.",
-      "loss_scenario": "A ground stop across a fleet cascades for days as aircraft and crews end up out of position. A major carrier loses tens of millions per day of disruption, plus rebooking, accommodation, and DOT consumer protection obligations.",
-      "rhetorical_question": "Which systems must be working before you can legally dispatch a flight?"
+      "headline": "Grounding the fleet takes one system, not one aircraft.",
+      "points": [
+        "Dispatch, crew scheduling, weight and balance, and flight release run on connected systems.",
+        "Aircraft cannot legally depart without a dispatch release.",
+        "A systems failure grounds every aircraft in the network at once."
+      ],
+      "rhetorical_question": "What systems must be running for an aircraft to be legally released for departure?"
     },
     {
       "rank": 2,
-      "headline": "TSA imposes mandatory cybersecurity requirements on aircraft operators.",
-      "why_this_business": "TSA issued cybersecurity requirements for TSA-regulated aircraft operators requiring network segmentation between information and operational technology, access controls, continuous monitoring, and timely patching, together with a TSA-approved implementation plan and assessment programme. These are enforceable security directives, not guidance.",
-      "loss_scenario": "TSA enforcement action and civil penalties, plus the operational consequence of being required to remediate under a mandated timeline while flying.",
-      "rhetorical_question": "Do you hold a TSA-approved cybersecurity implementation plan?"
+      "headline": "You hold passenger identity and payment data at scale.",
+      "points": [
+        "Bookings carry names, dates of birth, passport details, and payment cards.",
+        "Loyalty programmes hold years of travel history.",
+        "Every affected passenger must be notified."
+      ],
+      "rhetorical_question": "How many passenger records with payment or passport details do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Passenger data includes identity documents and travel patterns.",
-      "why_this_business": "Airlines hold passenger name records with names, dates of birth, passport and identity document numbers, payment cards, frequent flyer balances, and complete travel histories. Loyalty accounts hold transferable value that converts quickly.",
-      "loss_scenario": "Breach notification across millions of passengers spanning multiple jurisdictions, plus loyalty account takeover draining miles that must be reinstated at the airline's cost.",
-      "rhetorical_question": "How many passenger records with passport or identity document data do you hold?"
+      "headline": "Recovery from a stoppage takes days, not hours.",
+      "points": [
+        "Aircraft and crews end up out of position across the network.",
+        "Crew duty limits are fixed by regulation and cannot be waived.",
+        "Cancellations cascade for days after systems return."
+      ],
+      "rhetorical_question": "How long does it take to reposition aircraft and crews after a full stoppage?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold animals in your care and their owners' access details.",
-      "why_this_business": "Boarding, daycare, grooming, and pet sitting operations hold pet health and behaviour records, vaccination proof, emergency veterinary authorisations, and for pet sitting, home addresses, alarm codes, and key arrangements for houses that will be empty.",
-      "loss_scenario": "Exposure of home access details and dates when houses will be unoccupied, which is a burglary targeting resource, and animal health records unavailable when an emergency occurs in your care.",
-      "rhetorical_question": "Do you hold home access codes for clients whose homes are empty while you care for their pets?"
+      "headline": "You hold animals whose owners are away.",
+      "points": [
+        "Boarding and daycare animals depend entirely on your care.",
+        "Feeding, medication, and monitoring run on scheduled systems.",
+        "Owners are unreachable and the animals cannot advocate."
+      ],
+      "rhetorical_question": "How many animals are in your care at any one time?"
     },
     {
       "rank": 2,
-      "headline": "Vaccination and health records prevent outbreaks in group settings.",
-      "why_this_business": "Boarding and daycare require proof of vaccination and record behaviour, medication schedules, and dietary needs. Group settings transmit disease rapidly, and medication errors in boarding are a foreseeable harm.",
-      "loss_scenario": "A disease outbreak among boarded animals where vaccination status could not be verified, or medication errors for animals whose schedules were unavailable, with claims from owners and reputational damage that is immediate in a community business.",
-      "rhetorical_question": "How would staff verify a boarded animal's medications and vaccination status without records?"
+      "headline": "Medical and feeding records affect animal welfare.",
+      "points": [
+        "Records document medications, feeding, allergies, and conditions.",
+        "Staff deliver care from those records.",
+        "A missed medication record harms the animal."
+      ],
+      "rhetorical_question": "How are animal medical and feeding records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Recurring bookings and stored payment drive the operation.",
-      "why_this_business": "Daycare and grooming operate on recurring schedules with stored payment methods, and boarding is booked heavily around holidays with deposits taken months ahead.",
-      "loss_scenario": "Holiday boarding bookings lost with owners arriving to no reservation at the point they are leaving for travel, plus stored payment data exposure across the client base.",
-      "rhetorical_question": "How many holiday boarding reservations are you holding with deposits taken?"
+      "headline": "Client records hold contact and payment data.",
+      "points": [
+        "Records carry owner contact, emergency contacts, and payment information.",
+        "Home access details are stored for in-home services.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client contact, access, and payment data do you store?"
     }
   ]
 }

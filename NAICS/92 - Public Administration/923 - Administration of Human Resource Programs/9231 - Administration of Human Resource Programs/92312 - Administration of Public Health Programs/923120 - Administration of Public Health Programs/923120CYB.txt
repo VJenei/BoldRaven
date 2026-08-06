@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Public health agencies hold identifiable disease data.",
-      "why_this_business": "Health departments hold communicable disease case reports, immunisation registries, vital records, and outbreak investigation data with individual identifiers. Reportable conditions include HIV, tuberculosis, and sexually transmitted infections.",
-      "loss_scenario": "Exposure of communicable disease case data identifying individuals, which causes profound personal harm and undermines the reporting system that depends on people believing their information is protected.",
-      "rhetorical_question": "Do your systems hold identifiable reportable disease case data?"
+      "headline": "You hold health data on entire populations.",
+      "points": [
+        "Disease surveillance, immunisation, and programme data cover whole populations.",
+        "Health privacy obligations apply to that data.",
+        "Breaches at this scale affect millions of people."
+      ],
+      "rhetorical_question": "How many individual health records do your systems hold?"
     },
     {
       "rank": 2,
-      "headline": "Outbreak response depends on surveillance systems working.",
-      "why_this_business": "Disease surveillance, case investigation, contact tracing, and laboratory reporting run on connected systems. Outbreak response depends on rapid identification of cases and contacts, and delays allow transmission to continue.",
-      "loss_scenario": "Delayed outbreak detection and response with continued transmission, which in a communicable disease event translates directly into additional cases and deaths.",
-      "rhetorical_question": "How would case reports and laboratory results reach your surveillance team if systems failed?"
+      "headline": "Outbreak response depends on your systems.",
+      "points": [
+        "Surveillance, case investigation, and contact tracing run on connected systems.",
+        "Outbreak response is time critical.",
+        "A systems failure during an outbreak costs lives."
+      ],
+      "rhetorical_question": "What outbreak surveillance and response systems do you operate?"
     },
     {
       "rank": 3,
-      "headline": "Vital records establish legal identity.",
-      "why_this_business": "Health departments issue and maintain birth and death records that establish legal identity, citizenship claims, inheritance, and benefit entitlement. Fraudulent birth certificates are a foundational identity document.",
-      "loss_scenario": "Compromise of vital records systems enabling fraudulent issuance of birth certificates, which supports identity creation for fraud and other purposes and is extremely difficult to detect downstream.",
-      "rhetorical_question": "How is authority to issue vital records certificates controlled in your system?"
+      "headline": "Programme delivery reaches people with no alternative.",
+      "points": [
+        "Clinics, immunisation, and programme services serve people with no alternative.",
+        "Eligibility and delivery run through your systems.",
+        "A failure leaves vulnerable people without care."
+      ],
+      "rhetorical_question": "What health services depend on your systems for delivery?"
     }
   ]
 }

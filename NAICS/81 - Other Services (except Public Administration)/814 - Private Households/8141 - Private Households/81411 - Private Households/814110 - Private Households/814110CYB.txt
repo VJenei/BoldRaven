@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Household employers hold staff identity and payroll data.",
-      "why_this_business": "Households employing nannies, housekeepers, caregivers, and estate staff are employers with obligations to verify work authorisation, withhold and remit taxes, and maintain payroll records. Files include Social Security numbers, immigration documents, and banking details.",
-      "loss_scenario": "Exposure of household staff identity and immigration documentation, with the household personally liable as the employer and no business structure or insurance behind it.",
-      "rhetorical_question": "How many household employees' identity documents and payroll records do you hold?"
+      "headline": "Household employee records hold identity data.",
+      "points": [
+        "Employment records carry social security numbers, addresses, and bank details.",
+        "Payroll and tax obligations apply to household employers.",
+        "Every affected employee must be notified."
+      ],
+      "rhetorical_question": "What household employee records and payroll data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Smart home systems control access, cameras, and alarms.",
-      "why_this_business": "Households operate connected locks, cameras, alarms, and home automation, frequently administered by family members with shared credentials and access granted to staff, contractors, and previous residents. Cameras cover interior living spaces.",
-      "loss_scenario": "Unauthorised access to home cameras and locks, which is a direct physical and privacy intrusion into the family's living space rather than a financial loss, and one that is deeply distressing.",
-      "rhetorical_question": "Who currently has access to your home camera and lock systems, including former staff?"
+      "headline": "Connected home systems control access and monitoring.",
+      "points": [
+        "Smart locks, cameras, and alarms control access to the residence.",
+        "Those systems know who is home and when.",
+        "Compromise gives an intruder entry and a schedule."
+      ],
+      "rhetorical_question": "What connected access and camera systems are installed at the residence?"
     },
     {
       "rank": 3,
-      "headline": "Household financial management is a target for fraud.",
-      "why_this_business": "Households with staff and estate management frequently handle significant payments, vendor relationships, and financial accounts through household managers or family offices, with instructions moving by email.",
-      "loss_scenario": "Fraudulent transfers from household accounts, and where a household manager's email is compromised, payments to vendors and staff diverted with the household personally bearing the loss.",
-      "rhetorical_question": "How are payment instructions verified before household funds are transferred?"
+      "headline": "Household financial data is concentrated.",
+      "points": [
+        "Banking, investment, and payment access is held for household management.",
+        "Payments run against those accounts.",
+        "A fraudulent transfer reaches household assets directly."
+      ],
+      "rhetorical_question": "How are household payment instructions verified before funds move?"
     }
   ]
 }

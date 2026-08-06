@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Safety footwear carries certification and protection obligations.",
-      "why_this_business": "Protective footwear is certified to impact, compression, puncture, and electrical hazard standards with testing tied to constructions. Workers rely on that protection and employers specify certified footwear as required PPE.",
-      "loss_scenario": "Non-conforming safety footwear reaching workers, with injury where the protection failed and certification records determining whether the product met its claimed standard.",
-      "rhetorical_question": "Do you manufacture certified safety footwear, and how is testing tied to production?"
+      "headline": "Safety footwear carries certified protective ratings.",
+      "points": [
+        "Protective toe, puncture resistance, and electrical hazard ratings are established by testing.",
+        "Employers buy footwear on those ratings for hazardous work.",
+        "Footwear that fails its rating fails during the injury it should prevent."
+      ],
+      "rhetorical_question": "What protective ratings do your products carry, and how is testing recorded?"
     },
     {
       "rank": 2,
-      "headline": "Lasts, patterns, and tooling define every style.",
-      "why_this_business": "Footwear production depends on lasts, cutting dies, moulds, and digital patterns specific to each style and size. Tooling represents substantial investment and digital pattern data drives cutting and assembly.",
-      "loss_scenario": "Loss of pattern and grading data requiring redevelopment across the size range for every style, with production stopped and tooling that may no longer match the available data.",
-      "rhetorical_question": "How many styles and size grades are defined in your pattern systems?"
+      "headline": "Lasts, patterns, and grading files are the product.",
+      "points": [
+        "Lasts, pattern files, and size grading are developed per style over months.",
+        "Those files drive cutting and assembly for every size.",
+        "Losing them means redeveloping every style from scratch."
+      ],
+      "rhetorical_question": "Where are your last, pattern, and grading files stored?"
     },
     {
       "rank": 3,
-      "headline": "Brand customers hold you to delivery and compliance standards.",
-      "why_this_business": "Footwear manufacturers produce for brands with delivery dates tied to retail launches, social compliance audits, and materials restrictions covering restricted substances in adhesives and finishes.",
-      "loss_scenario": "Missed launch dates and failed compliance audits, either of which removes the brand relationship, plus restricted substance findings requiring product destruction.",
-      "rhetorical_question": "What restricted substances lists do your brand customers impose?"
+      "headline": "Delivery is tied to retail season dates.",
+      "points": [
+        "Footwear must arrive for a specific retail floor set.",
+        "Production and shipping are scheduled to that date.",
+        "Late product misses the season and sells at markdown."
+      ],
+      "rhetorical_question": "How are your production schedules tied to customer floor set dates?"
     }
   ]
 }

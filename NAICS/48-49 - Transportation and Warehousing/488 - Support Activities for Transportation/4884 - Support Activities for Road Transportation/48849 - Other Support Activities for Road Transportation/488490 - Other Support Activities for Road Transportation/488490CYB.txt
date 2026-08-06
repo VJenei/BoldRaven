@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Truck stop and fuel operations combine payment, fuel, and driver data.",
-      "why_this_business": "Facilities in this category handle high volume fuel card transactions, loyalty accounts, and driver identity data alongside tank gauges and dispenser controls. Fuel cards convert to cash quickly and unattended dispensers are a persistent skimming target.",
-      "loss_scenario": "Card compromise across a high volume fuel operation, with brand assessments and fraud liability, plus environmental exposure if tank monitoring is manipulated to mask a release.",
-      "rhetorical_question": "How many fuel card transactions do you process, and how are dispensers inspected?"
+      "headline": "Dispatch and scheduling run every service call.",
+      "points": [
+        "Calls, assignments, and locations are dispatched electronically.",
+        "Drivers and customers are waiting on the road.",
+        "Without dispatch nothing moves."
+      ],
+      "rhetorical_question": "How are service calls received and dispatched?"
     },
     {
       "rank": 2,
-      "headline": "Toll and permitting services hold account and vehicle data.",
-      "why_this_business": "Operators providing toll processing, permitting, and compliance services hold carrier account details, vehicle registrations, payment methods, and travel records across many client fleets. That data reveals fleet movements and account balances.",
-      "loss_scenario": "Exposure of client fleet data and payment credentials, with third-party liability to every carrier whose account information was held.",
-      "rhetorical_question": "How many carrier accounts and vehicle records do you administer?"
+      "headline": "Toll and weight systems handle vehicle and account data.",
+      "points": [
+        "Toll collection and weigh station systems hold account and vehicle records.",
+        "Payment and enforcement follow those records.",
+        "Every affected account holder must be notified."
+      ],
+      "rhetorical_question": "What vehicle and account data do your systems hold?"
     },
     {
       "rank": 3,
-      "headline": "Roadside and inspection services support compliance obligations.",
-      "why_this_business": "Providers of inspection, weighing, and compliance services produce records that carriers rely on to demonstrate regulatory compliance. Those records are examined during audits and after crashes.",
-      "loss_scenario": "Client carriers unable to demonstrate compliance because the service provider's records are unavailable, with the resulting enforcement consequences claimed against the provider.",
-      "rhetorical_question": "Do your clients rely on your records to demonstrate their own compliance?"
+      "headline": "Customer commitments are measured in response time.",
+      "points": [
+        "Contracts specify response and completion times.",
+        "Performance is measured and reported.",
+        "Missed commitments cost the contract."
+      ],
+      "rhetorical_question": "What response time commitments do your contracts carry?"
     }
   ]
 }

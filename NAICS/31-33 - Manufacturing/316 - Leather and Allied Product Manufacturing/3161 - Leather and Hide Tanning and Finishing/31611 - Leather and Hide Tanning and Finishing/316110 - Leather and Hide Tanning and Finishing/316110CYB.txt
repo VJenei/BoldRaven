@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Tanning is a chemical process with significant environmental exposure.",
-      "why_this_business": "Tanning uses chromium and other chemicals in wet processing, generating wastewater with heavy metals and high organic loading discharged under pretreatment permits with monitoring and reporting. Chrome-bearing waste is separately regulated.",
-      "loss_scenario": "Permit exceedances and reporting failures where monitoring data cannot be produced, with penalties per violation and the receiving authority able to restrict discharge, which stops the tannery entirely.",
-      "rhetorical_question": "What discharge monitoring does your pretreatment permit require?"
+      "headline": "Tanning uses chromium under discharge permits.",
+      "points": [
+        "Tannery wastewater carries chromium and other regulated substances.",
+        "Monitoring and reporting are required on a schedule.",
+        "Exceedances and missed reports carry penalties and can suspend the permit."
+      ],
+      "rhetorical_question": "What discharge monitoring and reporting does your permit require?"
     },
     {
       "rank": 2,
-      "headline": "Hide sourcing carries traceability expectations.",
-      "why_this_business": "Leather buyers, particularly in automotive and luxury goods, increasingly require traceability of hides to slaughterhouse and region for deforestation and animal welfare reasons, with documentation audited.",
-      "loss_scenario": "Loss of customer qualification where hide traceability cannot be demonstrated, with automotive and luxury customers removing suppliers who cannot meet their sourcing commitments.",
-      "rhetorical_question": "Can you trace a batch of finished leather back to hide origin?"
+      "headline": "Hides are the customer's material and cannot be replaced.",
+      "points": [
+        "Hides arrive with their purchase cost already committed.",
+        "Tanning is irreversible and a bad run ruins the batch.",
+        "Replacement hides may not match in size, grain, or colour."
+      ],
+      "rhetorical_question": "What is the value of hides in process at any one time?"
     },
     {
       "rank": 3,
-      "headline": "Colour and finish matching is the technical product.",
-      "why_this_business": "Tanneries match colour and finish to customer standards using recipes developed for each specification, with automotive and furniture customers requiring consistency across production spanning months.",
-      "loss_scenario": "Loss of colour recipes means finish that cannot be matched to existing production, with automotive interiors and furniture ranges unable to be completed consistently.",
-      "rhetorical_question": "How many customer colour and finish recipes are held in your systems?"
+      "headline": "Colour and finish must match across a customer order.",
+      "points": [
+        "Dye recipes and finishing parameters are executed by process controls.",
+        "Leather from different lots varies visibly.",
+        "Mismatched leather cannot be used in one furniture set or garment."
+      ],
+      "rhetorical_question": "Where are your dye recipes and finishing parameters stored?"
     }
   ]
 }

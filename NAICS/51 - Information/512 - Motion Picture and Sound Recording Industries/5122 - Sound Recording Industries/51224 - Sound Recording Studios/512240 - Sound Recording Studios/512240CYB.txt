@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Unreleased masters and session files are irreplaceable and leak-sensitive.",
-      "why_this_business": "Studios hold multitrack sessions, stems, and unreleased masters for artists and labels, frequently for high-profile projects. Leaked material ahead of release damages the campaign, and stolen stems circulate permanently.",
-      "loss_scenario": "A leak destroys a release strategy and creates direct liability to the label under the studio's terms, plus reputational damage that removes the studio from consideration for future work.",
-      "rhetorical_question": "How is unreleased client material stored and access controlled in your facility?"
+      "headline": "Session recordings exist in one place.",
+      "points": [
+        "Multitrack sessions and stems are the recorded performance.",
+        "Recreating them means rebooking musicians and studio time.",
+        "Some performances cannot be recreated at all."
+      ],
+      "rhetorical_question": "Where are your session recordings and project files stored?"
     },
     {
       "rank": 2,
-      "headline": "Session data represents work that cannot be recreated.",
-      "why_this_business": "Recording sessions capture performances that happened once, with session files, takes, and settings representing the accumulated work of a project. Musicians, engineers, and studio time were paid for once and are not repeatable in the same form.",
-      "loss_scenario": "Loss of session material requires rerecording where possible at full cost, and where performers or arrangements cannot be reassembled, the work is simply gone.",
-      "rhetorical_question": "How are session files backed up during and after a project?"
+      "headline": "You hold unreleased material for artists and labels.",
+      "points": [
+        "Recordings exist before any release date.",
+        "Labels and artists build releases around that timing.",
+        "A leak destroys the release and ends the relationship."
+      ],
+      "rhetorical_question": "What unreleased artist material do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Client confidentiality is part of what studios sell.",
-      "why_this_business": "Studios know who is recording what and with whom before it is public, including collaborations and projects that are commercially sensitive or deliberately secret. Booking records alone reveal this.",
-      "loss_scenario": "Exposure of booking and project data reveals unannounced collaborations and release plans, which damages client relationships in an industry that runs on discretion and word of mouth.",
-      "rhetorical_question": "Do your booking records reveal which artists are working together before it is announced?"
+      "headline": "Studio time is booked and paid for in blocks.",
+      "points": [
+        "Sessions are booked with artists, producers, and musicians scheduled.",
+        "Those bookings cannot easily be moved.",
+        "A lost day is paid for by someone and produces nothing."
+      ],
+      "rhetorical_question": "What does a studio day cost your clients?"
     }
   ]
 }

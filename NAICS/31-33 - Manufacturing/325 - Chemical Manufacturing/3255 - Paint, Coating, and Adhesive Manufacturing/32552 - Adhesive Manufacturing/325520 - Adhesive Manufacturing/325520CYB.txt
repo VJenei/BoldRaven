@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Adhesive failure causes structural and product failures downstream.",
-      "why_this_business": "Adhesives bond structural components, packaging, and assemblies where failure means the product comes apart. Construction, automotive, and packaging applications all depend on documented bond performance.",
-      "loss_scenario": "Adhesive failing specification incorporated into structural or safety-related assemblies, with product failures and recalls at customers and liability where the bond was load-bearing.",
-      "rhetorical_question": "What structural or safety applications use the adhesives you manufacture?"
+      "headline": "Bond failure appears after the customer's product is built.",
+      "points": [
+        "Adhesive performance determines whether assembled products hold together.",
+        "Formulation and process control determine that performance.",
+        "Failures appear weeks later across everything built with the batch."
+      ],
+      "rhetorical_question": "How are your batch formulations verified and tested before release?"
     },
     {
       "rank": 2,
-      "headline": "Formulations are proprietary and customer-specific.",
-      "why_this_business": "Adhesive manufacturers develop formulations for specific substrates and processes, frequently in collaboration with customers whose assembly processes are built around the adhesive's open time and cure characteristics.",
-      "loss_scenario": "Formulation disclosure to competitors and loss of customer-specific developments, with the technical relationship that justified the price permanently undermined.",
-      "rhetorical_question": "How many customer-specific formulations are held on your systems?"
+      "headline": "Formulations are proprietary and hard to replicate.",
+      "points": [
+        "Adhesive chemistry is developed for specific substrates and conditions.",
+        "That formulation is the reason customers buy from you.",
+        "Once disclosed it cannot be recovered."
+      ],
+      "rhetorical_question": "Where are your formulations stored, and who can access them?"
     },
     {
       "rank": 3,
-      "headline": "Reactive chemistry and solvents create process hazards.",
-      "why_this_business": "Adhesive manufacture involves exothermic polymerisation, isocyanates, and flammable solvents, with temperature control and vapour management required. Isocyanate exposure causes occupational asthma with permanent effects.",
-      "loss_scenario": "A runaway reaction or solvent fire, plus worker sensitisation from isocyanate exposure where monitoring and control records determine liability in an occupational disease claim.",
-      "rhetorical_question": "Do you handle isocyanates, and how is exposure monitored?"
+      "headline": "Customers qualify your adhesive into their assembly process.",
+      "points": [
+        "Manufacturers validate your specific product into their production.",
+        "Substitution requires requalification and retesting.",
+        "A supply gap stops their assembly, not just your shipment."
+      ],
+      "rhetorical_question": "How long would a customer need to qualify a substitute for your adhesive?"
     }
   ]
 }

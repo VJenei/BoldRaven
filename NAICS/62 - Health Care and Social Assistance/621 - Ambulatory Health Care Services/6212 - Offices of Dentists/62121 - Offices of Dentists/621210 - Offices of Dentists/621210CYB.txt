@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Dental practices are a favoured ransomware target with weak defences.",
-      "why_this_business": "Dental offices hold complete patient records and imaging while operating as small businesses with limited IT support, frequently relying on a single practice management system and a local server. Attacks on dental practice software providers have affected hundreds of practices simultaneously.",
-      "loss_scenario": "Schedules cancelled, imaging and treatment plans inaccessible, and claims unbillable, with a practice that has no capacity to fund forensic investigation and notification for its whole patient base.",
-      "rhetorical_question": "Where is your practice management data stored, and when was the backup last tested?"
+      "headline": "Practice management is the whole office.",
+      "points": [
+        "Charts, imaging, scheduling, and billing run on one system.",
+        "Treatment plans depend on imaging and history.",
+        "Patients arrive whether or not the system is running."
+      ],
+      "rhetorical_question": "What happens to scheduled patients if your practice system is unavailable?"
     },
     {
       "rank": 2,
-      "headline": "You are a HIPAA covered entity holding imaging and treatment records.",
-      "why_this_business": "Dental records include radiographs, treatment histories, medical conditions relevant to care, and insurance information. As a covered entity the practice carries notification obligations to patients, HHS, and the media for larger breaches.",
-      "loss_scenario": "HIPAA notification and OCR enforcement, with the risk analysis requirement being the most commonly cited failure and the practice unable to demonstrate one was ever performed.",
-      "rhetorical_question": "Has your practice completed and documented a HIPAA security risk analysis?"
+      "headline": "Patient records are federally protected.",
+      "points": [
+        "Health privacy law requires notification of every affected patient.",
+        "Regulators investigate breaches over five hundred records.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Imaging and CAD systems drive the clinical work.",
-      "why_this_business": "Digital radiography, cone beam imaging, intraoral scanning, and chairside milling are networked systems producing and consuming patient-specific data. Restorations are designed and milled from scan data.",
-      "loss_scenario": "Inability to image or fabricate restorations, with patients in temporary restorations waiting, and imaging histories lost that document conditions over years of treatment.",
-      "rhetorical_question": "How many years of patient radiographs are stored on your imaging system?"
+      "headline": "Imaging and scans exist only digitally.",
+      "points": [
+        "Radiographs and intraoral scans are the diagnostic record.",
+        "Retaking imaging means additional radiation exposure for the patient.",
+        "Some historical imaging cannot be recreated at all."
+      ],
+      "rhetorical_question": "Where is your patient imaging stored and backed up?"
     }
   ]
 }

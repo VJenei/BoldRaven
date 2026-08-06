@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "International student programmes involve immigration status records.",
-      "why_this_business": "Schools enrolling international students on student visas must be certified and report enrolment, address, and status changes through the federal student and exchange visitor information system. Records include passports, visas, and immigration documentation.",
-      "loss_scenario": "Exposure of immigration status and passport data for students whose visa status depends on the school's reporting, which creates direct personal risk for them and certification consequences for the school.",
-      "rhetorical_question": "Do you enrol students on visas and report to federal immigration systems?"
+      "headline": "Student records include visa and immigration data.",
+      "points": [
+        "International student records carry passport, visa, and immigration status information.",
+        "Federal reporting obligations attach to that status.",
+        "Every affected student must be notified."
+      ],
+      "rhetorical_question": "What student immigration and identity data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Certification depends on accurate enrolment and attendance reporting.",
-      "why_this_business": "Schools certified to enrol non-immigrant students must report attendance, programme progress, and status events within prescribed timeframes. Failure to report accurately puts certification at risk and can affect students' lawful status.",
-      "loss_scenario": "Reporting failures putting students out of status through no fault of their own, and school certification withdrawn, which ends the ability to enrol international students entirely.",
-      "rhetorical_question": "What are your reporting deadlines for student status events?"
+      "headline": "Immigration reporting is a federal obligation.",
+      "points": [
+        "Institutions enrolling international students must report enrolment and status changes.",
+        "Reporting is done through federal systems on defined timelines.",
+        "Failures affect students' lawful status and your certification."
+      ],
+      "rhetorical_question": "What federal student status reporting obligations apply to you?"
     },
     {
       "rank": 3,
-      "headline": "Tuition is paid in advance from abroad.",
-      "why_this_business": "International students frequently pay tuition and fees in advance by international wire, arranged by email with the school. Both the student and the school are unfamiliar with each other's banking, which is exactly the gap payment fraud exploits.",
-      "loss_scenario": "Diverted tuition payments where a student paid a fraudster, arrives expecting enrolment, and the school has received nothing, with the student's visa status depending on enrolment proceeding.",
-      "rhetorical_question": "How do international students verify your banking details before wiring tuition?"
+      "headline": "Instruction runs to fixed programme dates.",
+      "points": [
+        "Programmes have fixed start and completion dates with committed cohorts.",
+        "Students travel internationally to attend.",
+        "Lost instructional time cannot be recovered within the programme."
+      ],
+      "rhetorical_question": "What happens to instruction if your systems are unavailable?"
     }
   ]
 }

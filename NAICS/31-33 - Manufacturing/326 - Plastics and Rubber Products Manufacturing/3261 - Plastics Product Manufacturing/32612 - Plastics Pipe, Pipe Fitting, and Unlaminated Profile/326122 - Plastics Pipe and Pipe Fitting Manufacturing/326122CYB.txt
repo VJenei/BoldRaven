@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pipe carries pressure ratings that failure makes catastrophic.",
-      "why_this_business": "Plastic pipe for water, gas, and pressure applications is manufactured to standards with pressure ratings, material designation, and third-party certification marked on the pipe. Gas distribution pipe in particular is a life safety product.",
-      "loss_scenario": "Pipe below rating installed in gas or water distribution, with failures causing explosions, flooding, or service interruption, and every length from the affected production requiring identification in systems already buried.",
-      "rhetorical_question": "Is your pipe used in gas distribution or pressure water service?"
+      "headline": "Pipe carries pressure and is buried after installation.",
+      "points": [
+        "Pressure ratings are established by material, dimension, and testing.",
+        "Failures occur underground years after installation.",
+        "Excavation to find and replace failed pipe costs far more than the pipe."
+      ],
+      "rhetorical_question": "How are your pressure rating test results linked to production runs?"
     },
     {
       "rank": 2,
-      "headline": "Drinking water contact requires certification.",
-      "why_this_business": "Pipe and fittings for potable water must be certified for drinking water contact, with material and additive compliance verified by third-party certification bodies and required by codes and water utilities.",
-      "loss_scenario": "Uncertified material installed in drinking water systems, requiring removal from systems that may already be in service, with public health concern and utility claims.",
-      "rhetorical_question": "Which drinking water certifications do your products carry?"
+      "headline": "Gas and potable water pipe carry regulatory requirements.",
+      "points": [
+        "Pipe for gas distribution and drinking water is subject to specific standards and tracing.",
+        "Operators must be able to trace pipe installed in their systems.",
+        "A pipe failure in gas service is an explosion, not a leak."
+      ],
+      "rhetorical_question": "Do your products go into regulated gas or potable water systems?"
     },
     {
       "rank": 3,
-      "headline": "Extrusion parameters determine wall thickness and material properties.",
-      "why_this_business": "Pipe extrusion controls diameter, wall thickness, and cooling to produce the required pressure rating. Wall thickness below specification reduces pressure capacity in ways not visible externally.",
-      "loss_scenario": "Under-thickness pipe carrying the correct printed rating installed in pressure service, which is a latent defect discovered only when the pipe fails under pressure.",
-      "rhetorical_question": "How is wall thickness monitored and recorded during extrusion?"
+      "headline": "Extrusion runs continuously from stored parameters.",
+      "points": [
+        "Dimension, wall thickness, and cooling are controlled by process settings.",
+        "Pipe outside dimensional tolerance does not join properly.",
+        "Joints that do not seal fail after the trench is backfilled."
+      ],
+      "rhetorical_question": "How are your extrusion parameters recorded against production runs?"
     }
   ]
 }

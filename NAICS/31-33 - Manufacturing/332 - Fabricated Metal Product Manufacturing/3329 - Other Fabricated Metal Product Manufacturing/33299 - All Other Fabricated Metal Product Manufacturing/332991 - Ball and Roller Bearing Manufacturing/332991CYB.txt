@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Bearing failure stops machines and vehicles in service.",
-      "why_this_business": "Bearings carry rotating loads in vehicles, aircraft, wind turbines, and industrial machinery. Failure seizes or destroys the machine, and in aircraft and vehicle applications it causes accidents.",
-      "loss_scenario": "Bearings with material or heat treatment defects failing in service, causing wheel end failures, machine destruction, or in aviation applications an accident, with recall across every application supplied.",
+      "headline": "Bearing failure destroys the machine around it.",
+      "points": [
+        "Bearings carry rotating loads in vehicles, aircraft, turbines, and machinery.",
+        "Failure seizes or destroys the drivetrain.",
+        "In aircraft and vehicles that means an accident."
+      ],
       "rhetorical_question": "What applications use your bearings where failure causes an accident?"
     },
     {
       "rank": 2,
-      "headline": "Material cleanliness and heat treatment determine fatigue life.",
-      "why_this_business": "Bearing life depends on steel cleanliness, heat treatment producing correct hardness and retained austenite, and grinding without thermal damage. All of these are process controlled and none are visible on the finished bearing.",
-      "loss_scenario": "Bearings with reduced fatigue life failing across a fleet after months of service, with warranty and consequential damage claims covering every unit from an entire production period.",
+      "headline": "Fatigue life depends on things you cannot see.",
+      "points": [
+        "Steel cleanliness, heat treatment, and grinding determine fatigue life.",
+        "None of it is visible on the finished bearing.",
+        "Failures appear across a fleet after months of service."
+      ],
       "rhetorical_question": "How are material certifications and heat treatment records tied to bearing lots?"
     },
     {
       "rank": 3,
-      "headline": "Counterfeit bearing supply is an established fraud with your name on it.",
-      "why_this_business": "Bearings are widely counterfeited using manufacturers' brands and part numbers, with counterfeits failing rapidly in service. Manufacturers monitor and act against counterfeits because failures are attributed to them.",
-      "loss_scenario": "Counterfeit product bearing your brand failing in customer equipment, with warranty claims, reputational damage, and the cost of investigating and acting against the supply channel.",
+      "headline": "Counterfeits carry your name and fail in service.",
+      "points": [
+        "Bearings are widely counterfeited using genuine manufacturers' markings.",
+        "Counterfeits fail rapidly and failures are attributed to you.",
+        "The cost is brand damage plus investigating the supply channel."
+      ],
       "rhetorical_question": "How do you distinguish genuine product from counterfeits carrying your markings?"
     }
   ]

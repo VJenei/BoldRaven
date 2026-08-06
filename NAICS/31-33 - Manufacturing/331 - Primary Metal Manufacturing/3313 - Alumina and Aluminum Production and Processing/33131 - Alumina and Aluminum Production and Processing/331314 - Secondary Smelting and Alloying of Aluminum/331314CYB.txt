@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Molten metal water explosions are the defining hazard.",
-      "why_this_business": "Secondary smelting melts scrap aluminium containing moisture, sealed containers, and contamination. Charging wet or sealed material into molten metal produces violent explosions that have killed workers repeatedly in this industry.",
-      "loss_scenario": "A molten metal explosion killing and injuring workers and destroying furnace areas, with scrap inspection and charging procedure records examined in the investigation.",
-      "rhetorical_question": "How is incoming scrap inspected and documented for moisture and sealed containers before charging?"
+      "headline": "Charging wet or sealed scrap causes explosions.",
+      "points": [
+        "Scrap must be inspected and dried before charging into molten metal.",
+        "Moisture and sealed containers cause violent explosions in the furnace.",
+        "Molten metal explosions have killed workers in this industry."
+      ],
+      "rhetorical_question": "How is incoming scrap inspected and controlled before charging?"
     },
     {
       "rank": 2,
-      "headline": "Alloy chemistry must be verified before casting.",
-      "why_this_business": "Secondary smelters produce alloys to specification from variable scrap inputs, with spectrometer analysis and alloying additions bringing each melt to target chemistry before casting. Off-chemistry metal is unusable for its intended alloy.",
-      "loss_scenario": "Off-chemistry alloy cast and shipped, incorporated into customer castings and extrusions where the properties are wrong, with recall reaching the customer's finished parts.",
-      "rhetorical_question": "How is melt chemistry verified and recorded before casting?"
+      "headline": "Alloy chemistry must be exact or the metal is scrap.",
+      "points": [
+        "Furnace chemistry is analysed and adjusted before casting.",
+        "Customers specify exact alloy composition for their processes.",
+        "Off chemistry metal cannot be sold as the alloy ordered."
+      ],
+      "rhetorical_question": "How is your furnace chemistry analysed and recorded before casting?"
     },
     {
       "rank": 3,
-      "headline": "Emissions and waste handling are permitted and monitored.",
-      "why_this_business": "Secondary aluminium smelting is subject to air emissions standards for dioxins and particulates from melting contaminated scrap, with monitoring, operating parameter limits, and reporting required.",
-      "loss_scenario": "Emissions exceedances and operating parameter violations where monitoring records cannot be produced, with penalties per day and permit restrictions on melting operations.",
-      "rhetorical_question": "What operating parameter monitoring does your air permit require?"
+      "headline": "Scrap purchasing moves large sums continuously.",
+      "points": [
+        "Scrap is bought daily from many suppliers and paid by transfer.",
+        "A faked banking change diverts an entire settlement.",
+        "Scrap prices move daily and purchases are large."
+      ],
+      "rhetorical_question": "How are changes to supplier banking details verified before payment?"
     }
   ]
 }

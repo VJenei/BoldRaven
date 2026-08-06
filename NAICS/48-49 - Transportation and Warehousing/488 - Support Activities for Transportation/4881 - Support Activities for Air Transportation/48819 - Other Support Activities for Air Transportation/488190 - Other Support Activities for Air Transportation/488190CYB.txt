@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ground handling failures stop the airline, not just the handler.",
-      "why_this_business": "Ground handlers load, fuel, de-ice, and turn aircraft against schedules measured in minutes, coordinated through airline systems and their own resource management platforms. Weight and balance data produced by the handler goes directly into the aircraft's load sheet.",
-      "loss_scenario": "Delayed or cancelled departures across every carrier you handle, with airline claims for delay costs and the station contract at risk. Airlines move handling contracts quickly after a service failure.",
-      "rhetorical_question": "How many airline departures depend on your staff and systems each day?"
+      "headline": "Maintenance records determine whether aircraft can fly.",
+      "points": [
+        "Work performed, parts installed, and inspections are documented per aircraft.",
+        "Regulators inspect those records directly.",
+        "An aircraft without records cannot legally return to service."
+      ],
+      "rhetorical_question": "How are your maintenance and inspection records maintained per aircraft?"
     },
     {
       "rank": 2,
-      "headline": "Weight and balance and load data feed a flight safety calculation.",
-      "why_this_business": "Handlers produce load plans, cargo and baggage weights, and distribution data that determine the aircraft's centre of gravity. Errors in this data have caused loss of control accidents. The load sheet is a legal document signed before departure.",
-      "loss_scenario": "An out of trim aircraft is a hull and fatality exposure, and the handler's data is the origin of the error in any investigation.",
-      "rhetorical_question": "How is load and weight data transmitted from your staff to the aircraft?"
+      "headline": "Parts traceability establishes airworthiness.",
+      "points": [
+        "Parts require traceability and airworthiness documentation.",
+        "Regulators treat undocumented parts as unapproved.",
+        "Parts installed without records must be removed."
+      ],
+      "rhetorical_question": "What traceability documentation accompanies the parts you install?"
     },
     {
       "rank": 3,
-      "headline": "Airside access and fuel operations are security regulated.",
-      "why_this_business": "Staff require airport security credentials with background vetting, and fuelling operations involve quality control records, fuel quantity accounting, and hydrant system controls. TSA and airport security programmes govern access to the airside.",
-      "loss_scenario": "Loss of airside access authorisation for your workforce halts operations entirely, and fuel quality documentation failures create an airworthiness exposure across every aircraft fuelled.",
-      "rhetorical_question": "How many of your staff hold airport security credentials, and how is that tracked?"
+      "headline": "Aircraft on the ground cost the operator by the hour.",
+      "points": [
+        "Operators lose revenue for every hour an aircraft is out of service.",
+        "Your scheduling and parts systems determine turnaround.",
+        "A systems failure extends every aircraft you have in work."
+      ],
+      "rhetorical_question": "What does an hour of aircraft downtime cost your customers?"
     }
   ]
 }

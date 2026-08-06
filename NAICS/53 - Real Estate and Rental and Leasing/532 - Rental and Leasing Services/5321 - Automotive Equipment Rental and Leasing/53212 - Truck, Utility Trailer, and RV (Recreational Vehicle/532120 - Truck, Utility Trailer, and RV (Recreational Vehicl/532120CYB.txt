@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Consumer truck rental puts inexperienced drivers in large vehicles.",
-      "why_this_business": "One-way and local truck rental serves consumers moving households, with reservations, vehicle assignment, and dealer network coordination all system-managed. Vehicle condition and maintenance records determine whether a truck should have been rented at all.",
-      "loss_scenario": "An accident involving a vehicle whose maintenance or inspection records cannot be produced, in litigation where a consumer driver and third parties are injured and the rental company's records are the central evidence.",
-      "rhetorical_question": "How are vehicle inspection and maintenance records tied to each rental?"
+      "headline": "Reservation and fleet systems run the operation.",
+      "points": [
+        "Reservations, agreements, and vehicle assignment run on one system.",
+        "Customers arrive to move house or start trips on a fixed date.",
+        "Without the system you cannot rent or assign a vehicle."
+      ],
+      "rhetorical_question": "What happens at the counter if your reservation system is unavailable?"
     },
     {
       "rank": 2,
-      "headline": "Commercial fleet leasing carries DOT compliance obligations.",
-      "why_this_business": "Full service leasing to motor carriers involves maintenance programmes, inspection records, and in some arrangements driver services, with records required under federal motor carrier regulations. Lessees rely on the lessor's maintenance compliance.",
-      "loss_scenario": "Lessee carriers unable to demonstrate maintenance compliance during an audit, with liability flowing back to the lessor under the lease and after any crash involving a leased vehicle.",
-      "rhetorical_question": "Do your lease customers rely on you for DOT-required maintenance records?"
+      "headline": "Renter files hold licence and payment data.",
+      "points": [
+        "Agreements carry licence details, addresses, and payment cards.",
+        "Commercial accounts add business and credit data.",
+        "Every affected renter must be notified."
+      ],
+      "rhetorical_question": "How many rental agreements with licence and payment data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Reservations for dated moves and trips cannot be rescheduled.",
-      "why_this_business": "Truck and RV rentals are booked against fixed moving dates and holiday travel, with equipment committed to a specific date and location. Customers have movers, closings, and travel plans built around the reservation.",
-      "loss_scenario": "Customers with no vehicle on a closing or moving day, generating claims for alternative arrangements and the consequences of a failed move, plus peak-season revenue that cannot be recovered.",
-      "rhetorical_question": "How many reservations are you holding for specific dates in your peak season?"
+      "headline": "Fleet maintenance records determine roadworthiness.",
+      "points": [
+        "Inspection and maintenance records are required for commercial vehicles.",
+        "Regulators inspect those records directly.",
+        "A vehicle without records cannot lawfully be rented for commercial use."
+      ],
+      "rhetorical_question": "How are your fleet inspection and maintenance records maintained?"
     }
   ]
 }

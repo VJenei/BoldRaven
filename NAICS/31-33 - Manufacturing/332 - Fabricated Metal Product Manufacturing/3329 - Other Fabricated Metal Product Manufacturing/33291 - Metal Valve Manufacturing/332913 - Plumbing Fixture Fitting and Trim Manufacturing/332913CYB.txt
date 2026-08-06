@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Drinking water fittings are regulated for lead content.",
-      "why_this_business": "Fittings and trim contacting drinking water must meet the lead-free requirements of the Safe Drinking Water Act and be certified to NSF/ANSI 61 and 372. Certification is verified by third parties and required by plumbing codes.",
-      "loss_scenario": "Non-compliant fittings installed in drinking water systems, with lead exposure to occupants, recall across distribution, and regulatory action for supplying products that do not meet federal lead limits.",
+      "headline": "Drinking water fittings are regulated for lead.",
+      "points": [
+        "Fittings contacting drinking water must meet lead-free requirements and be certified.",
+        "Plumbing codes require that certification for installation.",
+        "Non-compliant fittings put lead into the water people drink."
+      ],
       "rhetorical_question": "How do you document lead-free certification for products in drinking water contact?"
     },
     {
       "rank": 2,
-      "headline": "Fitting failure causes water damage in occupied buildings.",
-      "why_this_business": "Supply fittings, connectors, and valves are under constant pressure in occupied buildings. Failure floods the building continuously until someone finds it, which in an unoccupied period means an entire structure.",
-      "loss_scenario": "Fitting failures across a production run flooding homes and commercial buildings, with property damage claims from every installation and recall through distribution and retail.",
+      "headline": "Fittings are under constant pressure in occupied buildings.",
+      "points": [
+        "Supply fittings and connectors hold pressure continuously once installed.",
+        "A failure floods the building until someone finds it.",
+        "An unoccupied building means the whole structure."
+      ],
       "rhetorical_question": "Are your products under constant water pressure once installed?"
     },
     {
       "rank": 3,
       "headline": "Retail and wholesale supply runs on vendor systems.",
-      "why_this_business": "Plumbing products ship to home centres and wholesale distributors under EDI with labelling, packaging, and delivery requirements enforced by chargeback.",
-      "loss_scenario": "Order and shipping systems unavailable, with missed delivery windows, vendor compliance chargebacks, and shelf space at risk with a small number of very large customers.",
+      "points": [
+        "Orders, labelling, packing, and delivery run through customer systems.",
+        "Chargebacks apply when requirements are missed.",
+        "A small number of very large customers carry most of the volume."
+      ],
       "rhetorical_question": "What share of your volume goes to your three largest customers?"
     }
   ]

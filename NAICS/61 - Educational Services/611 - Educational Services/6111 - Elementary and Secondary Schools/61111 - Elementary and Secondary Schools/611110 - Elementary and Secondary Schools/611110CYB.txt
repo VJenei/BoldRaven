@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "K-12 districts are among the most attacked organisations in the country.",
-      "why_this_business": "School districts hold student records, family financial data, and staff payroll while operating with limited security budgets, which has made them a leading ransomware target. Large district incidents have exposed records of hundreds of thousands of students and staff and closed schools for days.",
-      "loss_scenario": "Schools closed with no ability to take attendance, feed students, or run transportation, plus notification across students, families, and staff. Districts have no revenue mechanism to fund recovery and must take it from instruction.",
-      "rhetorical_question": "How many days could your schools operate without student information and transportation systems?"
+      "headline": "Student records are protected by federal law.",
+      "points": [
+        "Education records carry grades, discipline, health, and family information.",
+        "Federal student privacy law governs disclosure of those records.",
+        "Parents and regulators both act on a breach."
+      ],
+      "rhetorical_question": "How many student education records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Student records are protected by federal law and follow children for life.",
-      "why_this_business": "FERPA governs education records, and districts hold names, dates of birth, Social Security numbers in some records, disability and special education files, disciplinary records, health information, and family circumstances. Children's identities are attractive because misuse goes undetected for years.",
-      "loss_scenario": "Exposure of special education and disciplinary records causes lasting harm to identified children, and stolen child identities are used for years before discovery when the child applies for credit.",
-      "rhetorical_question": "What special education and health records does your district hold on identified students?"
+      "headline": "School districts are among the most attacked organisations there are.",
+      "points": [
+        "Attacks on districts have closed schools for days at a time.",
+        "Student data has been published publicly after refusal to pay.",
+        "Children's identity data is used for fraud for years afterwards."
+      ],
+      "rhetorical_question": "What would happen to instruction if your systems were unavailable for a week?"
     },
     {
       "rank": 3,
-      "headline": "Vendors and edtech platforms hold student data on your behalf.",
-      "why_this_business": "Districts use learning platforms, assessment systems, transportation routing, and food service providers that hold student data under contract. Several of the largest education data breaches originated at vendors rather than districts.",
-      "loss_scenario": "A vendor breach exposing your students' data, where the district carries the notification obligation and the community reaction regardless of where the failure occurred.",
-      "rhetorical_question": "How many vendors hold your students' personal data?"
+      "headline": "Building and safety systems are connected.",
+      "points": [
+        "Access control, cameras, alarms, and communication systems are networked.",
+        "Those systems are what protect students during an incident.",
+        "Loss of them during an emergency has direct safety consequences."
+      ],
+      "rhetorical_question": "What building access and emergency communication systems are networked?"
     }
   ]
 }

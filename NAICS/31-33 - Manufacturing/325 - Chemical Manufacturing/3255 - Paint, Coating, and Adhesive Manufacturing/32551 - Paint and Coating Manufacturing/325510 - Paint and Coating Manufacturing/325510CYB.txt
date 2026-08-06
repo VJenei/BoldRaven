@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Formulations are the business and colour matching is the service.",
-      "why_this_business": "Paint manufacturers hold formulations and tint formulas developed over decades, with colour matching to customer standards being the technical product. Industrial and OEM coatings are formulated to customer specification and qualified for their application.",
-      "loss_scenario": "Formulation loss means colours and performance that cannot be reproduced, with OEM customers whose products depend on a qualified coating unable to continue production.",
-      "rhetorical_question": "How many formulations and tint formulas are held in your systems?"
+      "headline": "Formulations are the product and are trade secrets.",
+      "points": [
+        "Resin, pigment, and additive formulations determine performance and colour.",
+        "Formulations represent years of development and testing.",
+        "Once disclosed a formulation cannot be recovered."
+      ],
+      "rhetorical_question": "Where are your formulations stored, and who can access them?"
     },
     {
       "rank": 2,
-      "headline": "Solvent handling creates fire and explosion exposure.",
-      "why_this_business": "Solvent-based coating manufacture involves flammable liquids in mixing, thinning, and filling operations, with vapour control, grounding, and classified electrical areas managing ignition risk. Mixing vessels and solvent storage are the principal hazards.",
-      "loss_scenario": "A solvent fire or explosion destroying production and storage, with worker fatality exposure and a facility that takes many months to rebuild while customers requalify elsewhere.",
-      "rhetorical_question": "How are flammable vapour levels monitored in your mixing and filling areas?"
+      "headline": "Colour must match across every batch and every store.",
+      "points": [
+        "Colour matching and tinting are executed by formulation and dispensing systems.",
+        "Customers expect the same colour from any can, any time.",
+        "Off colour product cannot be used on a job already started."
+      ],
+      "rhetorical_question": "How are your colour formulations distributed to tinting systems?"
     },
     {
       "rank": 3,
-      "headline": "VOC and chemical regulation varies by jurisdiction.",
-      "why_this_business": "Coatings are regulated for volatile organic compound content with limits varying by state and air district, and chemical content is subject to TSCA reporting and increasingly to state restrictions on specific substances.",
-      "loss_scenario": "Product shipped into jurisdictions where its VOC content is not permitted, with enforcement, product recall from distribution, and reformulation required before sales can resume.",
-      "rhetorical_question": "How do you control which formulations may ship into which jurisdictions?"
+      "headline": "Solvent handling and storage carry fire and reporting obligations.",
+      "points": [
+        "Flammable solvents are stored and processed under controls and permits.",
+        "Chemical inventory reporting is required by regulators.",
+        "A solvent fire destroys the plant and the stored inventory."
+      ],
+      "rhetorical_question": "What chemical inventory reporting and fire controls apply to your facility?"
     }
   ]
 }

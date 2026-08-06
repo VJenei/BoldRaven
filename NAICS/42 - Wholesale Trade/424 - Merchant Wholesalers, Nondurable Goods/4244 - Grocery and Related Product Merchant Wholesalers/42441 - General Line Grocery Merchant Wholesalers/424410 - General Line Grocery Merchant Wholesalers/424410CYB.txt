@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Independent grocers cannot restock from anywhere else.",
-      "why_this_business": "General line wholesalers supply independent supermarkets and convenience stores with the majority of what they sell, on scheduled deliveries against orders placed electronically from store level. Stores carry days of stock. There is no alternative supplier who can take on a store at a day's notice.",
-      "loss_scenario": "Empty shelves across dozens or hundreds of stores within days. Grocery retail cannot operate with gaps, and stores that lose customers during an outage do not recover them quickly.",
-      "rhetorical_question": "How many retail stores depend on your delivery schedule for the majority of their inventory?"
+      "headline": "Stores run out of food within days.",
+      "points": [
+        "Grocery stores order daily and hold days of stock.",
+        "Deliveries run on fixed routes to every store.",
+        "A distribution failure empties shelves across a region."
+      ],
+      "rhetorical_question": "How many stores depend on your daily delivery routes?"
     },
     {
       "rank": 2,
-      "headline": "Food traceability is a federal requirement with a 24 hour clock.",
-      "why_this_business": "Under FSMA Section 204, entities that hold foods on the Food Traceability List must maintain traceability lot codes and Key Data Elements and provide records to FDA in an electronic sortable spreadsheet within 24 hours of request. The compliance date is July 20, 2028. Wholesalers sit at the point in the chain where traceback either succeeds or fails.",
-      "loss_scenario": "A traceback that stalls at your records widens an outbreak investigation and a recall to every product and every store you supply, rather than the single implicated lot.",
-      "rhetorical_question": "Can you produce lot-level receipt and shipment records in a sortable electronic format?"
+      "headline": "Recall reach depends on your distribution records.",
+      "points": [
+        "Food recalls identify specific lots and production periods.",
+        "Your records determine which stores received them.",
+        "Without records the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which stores received a specific product lot?"
     },
     {
       "rank": 3,
-      "headline": "Cold chain integrity is monitored and is the condition of sale.",
-      "why_this_business": "Refrigerated and frozen product moves through temperature controlled warehousing and delivery with continuous monitoring. Under the Sanitary Transportation rule, temperature control during transport must be specified and verified. Excursions require product disposition decisions.",
-      "loss_scenario": "Loss of temperature monitoring forces disposal of product that cannot be verified as safe, and a warehouse-wide refrigeration control failure destroys inventory measured in millions.",
-      "rhetorical_question": "How is temperature monitored in your warehouse and on your delivery vehicles?"
+      "headline": "Cold chain records are a food safety requirement.",
+      "points": [
+        "Refrigerated and frozen product is monitored through storage and transport.",
+        "Records establish that temperature was maintained.",
+        "Product out of range must be destroyed, not sold."
+      ],
+      "rhetorical_question": "How is temperature monitored and recorded through your warehouse and fleet?"
     }
   ]
 }

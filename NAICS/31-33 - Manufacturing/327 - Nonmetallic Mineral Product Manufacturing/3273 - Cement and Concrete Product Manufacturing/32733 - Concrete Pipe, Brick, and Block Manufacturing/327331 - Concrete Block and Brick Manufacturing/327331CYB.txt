@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Units must meet strength and dimensional standards.",
-      "why_this_business": "Concrete masonry units are produced to standards for compressive strength, absorption, and dimensional tolerance, tested and certified. Masonry design assumes the specified unit strength.",
-      "loss_scenario": "Units below strength installed in load-bearing masonry, with structural capacity below design and remediation requiring demolition and rebuild of the affected walls.",
-      "rhetorical_question": "How is unit strength testing tied to specific production runs?"
+      "headline": "Block carries structural load in walls.",
+      "points": [
+        "Compressive strength and dimensions are specified and tested.",
+        "Engineers design walls around those values.",
+        "Block below strength is a structural deficiency in completed buildings."
+      ],
+      "rhetorical_question": "How are your strength test results linked to production runs?"
     },
     {
       "rank": 2,
-      "headline": "Production runs continuously through curing cycles.",
-      "why_this_business": "Block machines produce continuously with units moving to curing chambers on controlled temperature and humidity cycles. Curing determines strength development, and interrupted cycles produce units that never reach specification.",
-      "loss_scenario": "Curing cycles interrupted with units that must be scrapped, representing days of production, and curing chamber capacity that constrains everything behind it.",
-      "rhetorical_question": "How long is your curing cycle, and what happens to units if it is interrupted?"
+      "headline": "Curing controls determine strength development.",
+      "points": [
+        "Curing chambers control temperature and moisture for strength development.",
+        "Under-cured units do not reach specified strength.",
+        "The deficiency is invisible until the wall is tested or fails."
+      ],
+      "rhetorical_question": "Are your curing chambers run by automated temperature and moisture controls?"
     },
     {
       "rank": 3,
-      "headline": "Construction customers order to project schedules.",
-      "why_this_business": "Masonry contractors order units for specific projects with crews scheduled and scaffolding erected. Units are heavy and delivered by the load to sites with limited storage.",
-      "loss_scenario": "Masonry crews idle on site for want of units, with the contractor claiming crew and equipment costs and the project schedule affected.",
-      "rhetorical_question": "How many active projects depend on your delivery schedule?"
+      "headline": "Colour and texture must match across an installation.",
+      "points": [
+        "Architectural units vary in colour between production runs.",
+        "Lot records reserve matching material for a project.",
+        "Mismatched units across a visible wall are a defect."
+      ],
+      "rhetorical_question": "How are your production lots recorded and reserved for projects?"
     }
   ]
 }

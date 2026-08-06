@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Your equipment delivers radiation dose to patients.",
-      "why_this_business": "Radiation therapy and imaging equipment delivers ionising radiation under software control. Dose calculation and delivery errors have historically caused severe patient injury and death, and the software is the control.",
-      "loss_scenario": "A software defect producing incorrect dose delivery, with patient injuries or deaths, FDA recall, and equipment removed from clinical use across every installation until remediated.",
+      "points": [
+        "Therapy and imaging equipment deliver ionising radiation under software control.",
+        "Dose calculation and delivery errors have caused severe injury and death.",
+        "Equipment is removed from clinical use until every installation is fixed."
+      ],
       "rhetorical_question": "How is dose calculation and delivery software validated before release?"
     },
     {
       "rank": 2,
-      "headline": "FDA cybersecurity requirements apply to your submissions.",
-      "why_this_business": "Section 524B requires cyber devices to include vulnerability management plans, evidence of cybersecurity assurance, and a software bill of materials, with FDA refusing submissions that lack them.",
-      "loss_scenario": "Submissions refused or marketed devices found non-compliant, blocking market entry and creating enforcement exposure for equipment already installed.",
-      "rhetorical_question": "Does your submission include a software bill of materials and vulnerability management plan?"
+      "headline": "Federal cybersecurity requirements apply to your submissions.",
+      "points": [
+        "Devices with software require vulnerability plans and a software bill of materials.",
+        "Regulators refuse submissions that lack them.",
+        "Market entry is blocked and marketed devices face enforcement."
+      ],
+      "rhetorical_question": "Does your submission include a software bill of materials and vulnerability plan?"
     },
     {
       "rank": 3,
-      "headline": "Radioactive sources in equipment are security-regulated.",
-      "why_this_business": "Equipment containing radioactive sources is licensed by the NRC or agreement states with security requirements, inventory control, and reporting because the sources are radiological dispersal material.",
-      "loss_scenario": "Loss of source inventory control or records, with NRC enforcement, and in the event of a missing source a federal security response and licence action.",
+      "headline": "Radioactive sources in equipment are security regulated.",
+      "points": [
+        "Sources are licensed with security, inventory, and reporting requirements.",
+        "The sources are radiological dispersal material.",
+        "A missing source triggers a federal security response."
+      ],
       "rhetorical_question": "How is your radioactive source inventory tracked and reported?"
     }
   ]

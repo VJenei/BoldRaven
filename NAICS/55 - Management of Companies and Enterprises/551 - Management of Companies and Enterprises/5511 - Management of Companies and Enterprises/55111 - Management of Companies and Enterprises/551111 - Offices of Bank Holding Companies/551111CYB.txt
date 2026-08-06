@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Holding company systems reach every subsidiary bank.",
-      "why_this_business": "Bank holding companies frequently centralise IT, treasury, risk, and reporting for their subsidiary institutions. A compromise at the holding company level propagates to every bank in the group at once, and the group is supervised as a consolidated organisation.",
-      "loss_scenario": "Simultaneous incidents across multiple insured institutions, each with its own 36-hour regulatory notification obligation and each subject to examination of its information security programme.",
-      "rhetorical_question": "Which systems are shared across your subsidiary institutions?"
+      "headline": "You sit above regulated banking subsidiaries.",
+      "points": [
+        "Consolidated financial, risk, and customer data flows up from subsidiaries.",
+        "Banking regulators examine the holding company directly.",
+        "Findings affect the ratings and activities of every subsidiary."
+      ],
+      "rhetorical_question": "What subsidiary financial and customer data is held at the holding company?"
     },
     {
       "rank": 2,
-      "headline": "Consolidated financial and regulatory reporting must be produced on schedule.",
-      "why_this_business": "Holding companies file consolidated reports with the Federal Reserve on fixed schedules, and larger organisations face capital planning and stress testing requirements. Those filings depend on consolidating data from every subsidiary.",
-      "loss_scenario": "Missed or restated regulatory filings, which draw supervisory attention independent of the incident and can affect capital distribution approvals.",
-      "rhetorical_question": "What regulatory filings would be delayed if your consolidation systems were unavailable?"
+      "headline": "Regulators require incident notification.",
+      "points": [
+        "Banking regulators require notification of significant computer security incidents.",
+        "Examinations assess information security programmes across the organisation.",
+        "Findings restrict activities and affect approvals."
+      ],
+      "rhetorical_question": "What incident notification obligations apply at the holding company level?"
     },
     {
       "rank": 3,
-      "headline": "Strategic and supervisory information is highly sensitive.",
-      "why_this_business": "Holding companies hold merger and acquisition analysis, capital plans, and confidential supervisory information from examiners. Confidential supervisory information is protected and its unauthorised disclosure is a serious regulatory matter.",
-      "loss_scenario": "Disclosure of confidential supervisory information or unannounced transaction plans, which brings regulatory action separate from the breach and, for a public company, securities exposure.",
-      "rhetorical_question": "Where is confidential supervisory information stored within your organisation?"
+      "headline": "Treasury and capital movements are very large.",
+      "points": [
+        "Capital, funding, and intercompany transfers move enormous sums.",
+        "Instructions are processed centrally.",
+        "A fraudulent transfer at this level is a very large single loss."
+      ],
+      "rhetorical_question": "How are treasury transfer instructions verified before funds move?"
     }
   ]
 }

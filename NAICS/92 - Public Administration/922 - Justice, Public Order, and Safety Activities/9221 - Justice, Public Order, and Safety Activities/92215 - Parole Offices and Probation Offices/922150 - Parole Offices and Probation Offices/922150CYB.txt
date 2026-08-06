@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Supervision records identify people under community supervision.",
-      "why_this_business": "Offices hold supervision conditions, addresses, employment, treatment participation, drug testing results, and violation histories for people on parole and probation. Disclosure affects employment, housing, and community standing.",
-      "loss_scenario": "Exposure identifying people under supervision and their conditions, causing loss of employment and housing that directly increases the likelihood of violation and reincarceration.",
-      "rhetorical_question": "Do your records identify supervisees' employers and home addresses?"
+      "headline": "Supervision records affect liberty decisions.",
+      "points": [
+        "Compliance, testing, and violation records support revocation decisions.",
+        "Those decisions send people back to custody.",
+        "Wrong or lost records affect a person's freedom."
+      ],
+      "rhetorical_question": "How are your supervision and compliance records maintained?"
     },
     {
       "rank": 2,
-      "headline": "Victim notification and protection information is safety-critical.",
-      "why_this_business": "Offices hold victim contact information, protective conditions, and notification requirements, along with the supervisee's location. Victims are entitled to notification of release and violations, and no-contact conditions exist for their protection.",
-      "loss_scenario": "Disclosure of victim locations to supervisees or their associates, which is a foreseeable violence risk, and failure to notify victims of releases or violations as legally required.",
-      "rhetorical_question": "Do your records contain victim addresses alongside supervisee information?"
+      "headline": "Monitoring systems track people continuously.",
+      "points": [
+        "Electronic monitoring reports location and compliance in real time.",
+        "Alerts drive response to violations.",
+        "A monitoring failure means violations nobody sees."
+      ],
+      "rhetorical_question": "How is your electronic monitoring data received and alerted?"
     },
     {
       "rank": 3,
-      "headline": "Supervision decisions depend on current, accurate records.",
-      "why_this_business": "Officers make supervision, sanction, and revocation decisions from condition compliance, testing results, and contact histories. Warrant issuance and custody decisions follow from that record.",
-      "loss_scenario": "Wrongful arrest or revocation from inaccurate records, or failure to act on genuine violations, both carrying liability and, in the second case, public safety consequences.",
-      "rhetorical_question": "How would an officer verify a supervisee's conditions and compliance history without the system?"
+      "headline": "Records carry criminal and personal data.",
+      "points": [
+        "Files document criminal history, treatment, employment, and family circumstances.",
+        "Disclosure affects employment and housing for people under supervision.",
+        "Every affected individual may need to be notified."
+      ],
+      "rhetorical_question": "What supervision and personal records do you hold?"
     }
   ]
 }

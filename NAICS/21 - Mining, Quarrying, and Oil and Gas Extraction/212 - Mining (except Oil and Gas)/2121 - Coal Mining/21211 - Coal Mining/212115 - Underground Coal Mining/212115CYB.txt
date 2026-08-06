@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Federal law requires electronic tracking and two-way communication with miners underground.",
-      "why_this_business": "The MINER Act requires post-accident two-way wireless communication and electronic tracking of every person underground. Mines also run atmospheric monitoring systems for methane and carbon monoxide, belt monitoring, and main fan monitoring. These are legally required to operate, not optional conveniences.",
-      "loss_scenario": "Loss of tracking or communication systems requires withdrawing miners and stopping production until service is restored. MSHA enforcement follows, and a section idled runs $100,000 or more per day.",
-      "rhetorical_question": "Which communication and tracking systems do you rely on to keep miners underground legally?"
+      "headline": "Ventilation and gas monitoring keep the mine survivable.",
+      "points": [
+        "Fans, monitors, and atmospheric sensors run continuously with alarms.",
+        "Methane builds within minutes when ventilation stops.",
+        "An explosion underground is measured in lives, not tonnes."
+      ],
+      "rhetorical_question": "Are your ventilation and gas monitoring systems continuously monitored and alarmed?"
     },
     {
       "rank": 2,
-      "headline": "Ventilation and gas monitoring are the difference between a working mine and an explosion.",
-      "why_this_business": "Main fans, booster fans, and the atmospheric monitoring system control and verify airflow that dilutes methane. Longwall and continuous miner sections, belt drives, and pumps are supervised through mine-wide control networks. Methane accumulation is the central hazard of underground coal.",
-      "loss_scenario": "Loss of monitoring forces immediate withdrawal. A genuine ventilation control failure is a catastrophic life safety event with liability far beyond the property loss.",
-      "rhetorical_question": "Is your atmospheric monitoring system connected to the same network as your business systems?"
+      "headline": "Communication and tracking systems must locate every miner.",
+      "points": [
+        "Federal rules require systems that communicate with and track miners underground.",
+        "Those systems are how rescue happens after an event.",
+        "A tracking system that is down leaves rescuers guessing."
+      ],
+      "rhetorical_question": "What communication and miner tracking systems do you operate underground?"
     },
     {
       "rank": 3,
-      "headline": "The hoist is the only way people and coal leave the mine.",
-      "why_this_business": "Shaft hoists run under programmable control with safety interlocks, overspeed protection, and monitoring. Hoisting is the single point of access for personnel, supplies, and in many mines the coal itself. Slope belts serve the same role and are similarly controlled.",
-      "loss_scenario": "Hoist unavailability halts the mine completely. Repairs to hoist control and drive systems take weeks, and there is no alternative route for production.",
-      "rhetorical_question": "How is your hoist control system isolated from your corporate network?"
+      "headline": "Face equipment runs on automated controls.",
+      "points": [
+        "Longwall shearers, roof supports, and conveyors are controlled electronically.",
+        "Production stops entirely when those controls fail.",
+        "Equipment moving unexpectedly at the face injures people."
+      ],
+      "rhetorical_question": "Are your face equipment and roof supports run by automated controls?"
     }
   ]
 }

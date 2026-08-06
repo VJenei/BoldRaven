@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The FBI specifically warned that attacks are timed to planting and harvest.",
-      "why_this_business": "The FBI notification of April 2022 identified attacks on agricultural cooperatives timed to critical seasons, including a March 2022 Lockbit 2.0 attack on a multi-state company that also supplied seed, fertiliser, and logistics ahead of spring planting. Farm supply is the identified target, not a bystander.",
-      "loss_scenario": "An outage during the prepay and delivery window before planting leaves growers without seed, fertiliser, or chemical at the only time it can be applied, and the yield consequence is claimed against the retailer.",
-      "rhetorical_question": "What proportion of your annual volume moves in the weeks before planting?"
+      "headline": "Season timing decides whether the crop gets planted.",
+      "points": [
+        "Seed, fertilizer, and chemicals are needed in narrow application windows.",
+        "Those windows are measured in days.",
+        "Supply missed then cannot be sold later or applied at all."
+      ],
+      "rhetorical_question": "What share of your volume ships in the planting season?"
     },
     {
       "rank": 2,
-      "headline": "Fertiliser and chemical storage carries security and reporting duties.",
-      "why_this_business": "Anhydrous ammonia and other fertilisers are subject to EPA risk management planning, DHS reporting for ammonium nitrate, and community right to know reporting of stored quantities. Restricted use pesticides require licensed purchaser verification and sales records.",
-      "loss_scenario": "Regulatory enforcement for sales and inventory records that cannot be produced, plus a security exposure where inventory data reveals quantities and locations of materials of concern.",
-      "rhetorical_question": "How do you record restricted use pesticide sales and applicator licence verification?"
+      "headline": "Chemical and fertilizer handling carries security requirements.",
+      "points": [
+        "Federal rules govern storage and reporting of certain fertilizer and chemical products.",
+        "Inventory and purchaser records support those requirements.",
+        "Diversion of these materials is a federal security matter."
+      ],
+      "rhetorical_question": "What chemical storage and purchaser reporting requirements apply to you?"
     },
     {
       "rank": 3,
-      "headline": "Prepay balances mean you are holding growers' money.",
-      "why_this_business": "Growers prepay inputs in the autumn for spring delivery, leaving large customer credit balances on the books through the winter. Those balances are unsecured claims against the retailer and are tracked entirely in the accounting system.",
-      "loss_scenario": "Loss of prepay records leaves disputes over what each grower is owed in product, at the moment they need it, with no independent record on the grower's side either.",
-      "rhetorical_question": "What is the total value of customer prepay balances you hold over winter?"
+      "headline": "Pesticide labels control every legal use.",
+      "points": [
+        "Labels are federally registered and control application, rate, and crop.",
+        "Distributors must supply the correct label with the product.",
+        "Misuse following a wrong label damages the crop and exposes people."
+      ],
+      "rhetorical_question": "How do you verify correct labelling on the pesticide products you distribute?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The FBI named grain handlers as a deliberate ransomware target.",
-      "why_this_business": "The FBI Private Industry Notification of April 2022 documented six grain cooperatives encrypted between September 15 and October 6, 2021 using Conti, BlackMatter, Suncrypt, Sodinokibi and BlackByte, and a multi-state grain company hit with Lockbit 2.0 in March 2022. The stated assessment was that attackers see grain handlers as likely to pay because their role is time-sensitive.",
-      "loss_scenario": "Scale, grading, and settlement systems encrypted during harvest with trucks lined up and no ability to receive or account for grain. Extortion demands against agricultural cooperatives have reached several million dollars.",
-      "rhetorical_question": "What is your daily receiving volume during harvest, and what software runs your scale and grading?"
+      "headline": "Grain settlements move very large sums by transfer.",
+      "points": [
+        "Purchases and sales settle by electronic transfer at load and cargo value.",
+        "Banking instructions arrive and are changed by email.",
+        "A diverted settlement is a full shipment lost."
+      ],
+      "rhetorical_question": "How are changes to counterparty banking details verified before payment?"
     },
     {
       "rank": 2,
-      "headline": "Warehouse receipts and storage obligations are legal instruments.",
-      "why_this_business": "Licensed warehouses hold farmers' grain under federal or state warehouse licensing, issuing receipts that establish ownership and are pledged as collateral. Regulators require position reporting and reconciliation of storage obligations against physical inventory.",
-      "loss_scenario": "Inability to reconcile storage obligations triggers regulatory examination, bond claims, and direct liability to depositors, with the warehouse licence at risk.",
-      "rhetorical_question": "How many bushels of customer-owned grain are on your books?"
+      "headline": "Position and hedge records are the whole business.",
+      "points": [
+        "Purchases, sales, and futures positions are tracked continuously.",
+        "Margin and exposure depend on those records being accurate.",
+        "An unknown position is an unhedged position."
+      ],
+      "rhetorical_question": "How are your physical positions and hedges recorded and reconciled?"
     },
     {
       "rank": 3,
-      "headline": "Trading positions and hedges must be visible continuously.",
-      "why_this_business": "Grain merchandising involves cash positions, forward contracts, basis exposure, and futures hedges that must be marked and monitored daily. An unhedged or double-hedged position through a market move produces losses that dwarf trading margins.",
-      "loss_scenario": "Position exposure through a limit move in the futures market, where a mid-size merchandiser can lose more in a week than a year of margin.",
-      "rhetorical_question": "How is your cash position reconciled against your futures hedges each day?"
+      "headline": "Stored grain deteriorates without monitoring.",
+      "points": [
+        "Bin temperature and moisture are monitored continuously.",
+        "Grain heats and moulds within days when aeration stops.",
+        "A spoiled bin is a total loss on grain already bought."
+      ],
+      "rhetorical_question": "Are your storage bins monitored by automated temperature systems?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "These records are the most damaging health data that exists.",
-      "why_this_business": "Psychiatric and substance use treatment records document diagnoses, involuntary commitment, suicidality, trauma, and substance use for identified patients. Federally assisted substance use disorder programmes are additionally protected under 42 CFR Part 2 with stricter consent requirements than HIPAA.",
-      "loss_scenario": "Patient harm affecting employment, custody, professional licensure, and personal safety, with Part 2 violations alongside HIPAA exposure and claims reflecting consequences that no remediation addresses.",
-      "rhetorical_question": "What would exposure of your patient census mean for those individuals' lives?"
+      "headline": "Records carry the most stigmatised information in medicine.",
+      "points": [
+        "Psychiatric and substance use records carry heightened federal protection.",
+        "Disclosure costs patients jobs, custody, and housing.",
+        "The harm is personal and permanent."
+      ],
+      "rhetorical_question": "How many psychiatric and substance use treatment records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Inpatient psychiatric care cannot pause.",
-      "why_this_business": "Patients are admitted involuntarily and voluntarily with acute risk requiring continuous observation, medication administration, and documentation of legal status, commitment expiry, and privileges. Legal hold status determines whether a patient may lawfully be detained.",
-      "loss_scenario": "Inability to verify legal status and medication histories for acutely unwell patients, with unlawful detention or premature release exposure and medication errors in a population where errors are dangerous.",
-      "rhetorical_question": "How would staff verify a patient's legal hold status if systems were unavailable?"
+      "headline": "Patients are involuntarily held and cannot leave.",
+      "points": [
+        "Some patients are held under legal authority and depend entirely on the facility.",
+        "Medication, monitoring, and safety systems run continuously.",
+        "A systems failure affects patients who cannot go elsewhere."
+      ],
+      "rhetorical_question": "How many patients are in your care who cannot leave?"
     },
     {
       "rank": 3,
-      "headline": "Patients are frequently unable to protect their own interests.",
-      "why_this_business": "The patient population includes people who are acutely unwell, cognitively impaired, or under legal restriction, who cannot monitor their own credit, dispute misuse, or take protective action after a breach.",
-      "loss_scenario": "A breach affecting a population that cannot self-protect, which regulators, courts, and patient advocates treat as an aggravating factor rather than a neutral one.",
-      "rhetorical_question": "How many of your patients could take protective action if their data were exposed?"
+      "headline": "Clinical operations depend on connected systems.",
+      "points": [
+        "Orders, medication administration, and treatment plans run electronically.",
+        "Medication errors in psychiatric care have serious consequences.",
+        "Care continues whether or not the systems are running."
+      ],
+      "rhetorical_question": "How long could your facility operate on paper?"
     }
   ]
 }

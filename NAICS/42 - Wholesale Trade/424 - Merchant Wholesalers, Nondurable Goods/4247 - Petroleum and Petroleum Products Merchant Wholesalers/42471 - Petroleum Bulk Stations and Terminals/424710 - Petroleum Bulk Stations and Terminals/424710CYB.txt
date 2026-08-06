@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Tank gauges and terminal automation have been found exposed to the internet repeatedly.",
-      "why_this_business": "Terminals run automatic tank gauging, terminal automation systems, and loading rack controls that authorise and measure product transfer. Security researchers have repeatedly identified internet-exposed automatic tank gauges across US fuel infrastructure with little or no authentication, and manipulation of level and alarm data has been demonstrated.",
-      "loss_scenario": "False level readings cause an overfill and release, which is a reportable spill with fire and explosion potential at a facility holding millions of gallons. Loading rack control loss stops every truck on the terminal.",
-      "rhetorical_question": "Are your tank gauging or terminal automation systems reachable from outside the facility?"
+      "headline": "Terminal automation controls what leaves the rack.",
+      "points": [
+        "Loading racks, tank gauging, and inventory run on automated control systems.",
+        "Product moves in thousands of gallons per load.",
+        "Loss of control means overfills, releases, and fires."
+      ],
+      "rhetorical_question": "Are your loading racks and tank gauging run by automated control systems?"
     },
     {
       "rank": 2,
-      "headline": "Custody transfer measurement determines tax and settlement on every load.",
-      "why_this_business": "Product moving across the rack is measured for volume and temperature correction, generating bills of lading that drive customer billing and federal and state fuel excise tax liability. Tax is assessed on measured volumes and is audited.",
-      "loss_scenario": "Loss of measurement and BOL data leaves loads unbillable and excise tax returns unsupportable, with tax assessed against you on estimates during an audit.",
-      "rhetorical_question": "How are rack measurements and bills of lading recorded and retained?"
+      "headline": "Fuel supply stops when the rack stops.",
+      "points": [
+        "Retailers and fleets load continuously from your terminal.",
+        "They hold days of fuel at most.",
+        "A terminal outage empties stations across the region."
+      ],
+      "rhetorical_question": "How many stations and fleets load from your terminal?"
     },
     {
       "rank": 3,
-      "headline": "Terminals supply a region with days of resilience at most.",
-      "why_this_business": "Bulk terminals supply jobbers, retail stations, and commercial fleets across a territory, with downstream storage measured in days. The Colonial Pipeline ransomware event in May 2021 demonstrated how quickly a fuel supply interruption produces regional shortages and panic buying.",
-      "loss_scenario": "A terminal unable to load creates regional supply disruption within days, with contractual supply obligations to jobbers and retail networks unmet.",
-      "rhetorical_question": "How many days of supply do your downstream customers hold?"
+      "headline": "Measurement and inventory records carry tax and financial obligations.",
+      "points": [
+        "Loaded volumes determine excise tax, sales, and inventory reconciliation.",
+        "Those records are filed with regulators.",
+        "Discrepancies are treated as tax and environmental compliance failures."
+      ],
+      "rhetorical_question": "How is your loading and inventory measurement data recorded and reported?"
     }
   ]
 }

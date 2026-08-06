@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Converted products are made to customer specification.",
-      "why_this_business": "Converters produce to customer dimensions, materials, and printing for specific applications, with job specifications driving setup and run parameters. Products are components in customers' operations.",
-      "loss_scenario": "Wrong specification production unsaleable elsewhere, with customers whose own production or packaging depends on the component halted.",
-      "rhetorical_question": "What proportion of your output is made to individual customer specification?"
+      "headline": "Products are made to customer specification and tooling.",
+      "points": [
+        "Dimensions, materials, and printing are specified per customer product.",
+        "Tooling and setups exist only at your plant.",
+        "The customer has no alternative source without new tooling."
+      ],
+      "rhetorical_question": "How many customer tools and specifications exist only at your plant?"
     },
     {
       "rank": 2,
-      "headline": "Food and medical contact applications carry compliance duties.",
-      "why_this_business": "Converted papers used in food packaging and medical applications must meet material and cleanliness requirements with documentation supporting customer compliance obligations.",
-      "loss_scenario": "Non-conforming material entering food or medical packaging, with recall at the customer level and the converter identified as the source of the compliance failure.",
-      "rhetorical_question": "Do your products contact food or medical materials?"
+      "headline": "Food and medical contact products carry compliance requirements.",
+      "points": [
+        "Materials contacting food or medical use must meet contact requirements.",
+        "Certification records support those uses.",
+        "Non-compliant material affects the customer's finished product."
+      ],
+      "rhetorical_question": "What material compliance records do you retain for regulated uses?"
     },
     {
       "rank": 3,
-      "headline": "Converting equipment is programme driven with tight tolerances.",
-      "why_this_business": "Slitting, die cutting, laminating, and finishing run from job data controlling dimensions and registration. Tolerances are tight where products feed into customer automated equipment.",
-      "loss_scenario": "Out of tolerance product jamming customer automated equipment, with their line stoppages claimed against the converter alongside the material cost.",
-      "rhetorical_question": "Do your products feed customer automated equipment requiring tight dimensional tolerance?"
+      "headline": "Converting lines run from stored job data.",
+      "points": [
+        "Cutting, printing, and converting run from stored specifications.",
+        "Errors are reproduced across the whole run.",
+        "Wrong product is scrap at full material and labour cost."
+      ],
+      "rhetorical_question": "How are job specifications verified before a production run?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Colour matching and tinting formulas are the service you sell.",
-      "why_this_business": "Distributors tint to formula at the counter using dispensing equipment driven by formula databases, and hold custom formulas for commercial customers and repeat jobs. A customer returning for more of a custom colour depends entirely on the stored formula.",
-      "loss_scenario": "Lost custom formulas mean colours cannot be rematched, and a commercial customer with a partially painted project has to repaint completed work at your cost.",
-      "rhetorical_question": "How many custom colour formulas do you hold for repeat customers?"
+      "headline": "Colour matching data serves every customer order.",
+      "points": [
+        "Tinting formulas and colour data drive dispensing at every location.",
+        "Customers expect the same colour every time.",
+        "Off colour product cannot be used on a job already started."
+      ],
+      "rhetorical_question": "How are your colour formulas distributed to tinting systems?"
     },
     {
       "rank": 2,
-      "headline": "Coatings are regulated hazardous products with jurisdictional limits.",
-      "why_this_business": "Paints and solvents are regulated for volatile organic compound content, which varies by state and air district, and are shipped as hazardous materials with DOT documentation and trained staff. Safety data sheets must be supplied to commercial purchasers.",
-      "loss_scenario": "Selling non-compliant VOC product into a restricted jurisdiction brings regulatory action, and hazmat shipping violations are assessed per shipment.",
-      "rhetorical_question": "Do you ship into jurisdictions with different VOC limits, and how is that controlled?"
+      "headline": "Contractors order for jobs happening today.",
+      "points": [
+        "Painting contractors order material against work already scheduled.",
+        "Crews are on site waiting for delivery.",
+        "A supply gap idles crews across multiple jobs."
+      ],
+      "rhetorical_question": "How many deliveries a day do your contractor customers depend on?"
     },
     {
       "rank": 3,
-      "headline": "Contractor accounts run on credit against project schedules.",
-      "why_this_business": "Painting contractors buy on account against active jobs, with pricing negotiated per project and material delivered to sites. Lien rights against the project secure the balance and depend on delivery records and notice deadlines.",
-      "loss_scenario": "Lost lien rights on delivered material, converting secured project exposure into unsecured debt against a contractor with thin capitalisation.",
-      "rhetorical_question": "How do you track job-specific deliveries for lien notice purposes?"
+      "headline": "Chemical products carry safety data obligations.",
+      "points": [
+        "Safety data sheets accompany every product you distribute.",
+        "Handlers and emergency responders rely on that information.",
+        "Wrong data endangers everyone who handles the product."
+      ],
+      "rhetorical_question": "How are your safety data sheets maintained and distributed to customers?"
     }
   ]
 }

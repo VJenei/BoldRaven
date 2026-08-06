@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pro contractor accounts carry credit and lien exposure.",
-      "why_this_business": "Home centres extend credit to contractors buying material for specific projects, with delivery to job sites. Mechanics lien rights against the project secure those balances and depend on job-tracked delivery records and statutory notice deadlines.",
-      "loss_scenario": "Lost lien rights on delivered material converts secured project exposure into unsecured trade debt, on account balances that for active contractors run well into six figures.",
-      "rhetorical_question": "How do you track job-site deliveries for lien notice purposes?"
+      "headline": "Card payments run continuously across every register.",
+      "points": [
+        "Point of sale terminals process cards through all trading hours.",
+        "Card security requirements apply across every store.",
+        "Retail breaches in this category have reached tens of millions of cards."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "High transaction volume across registers and online makes PCI compliance mandatory.",
-      "why_this_business": "Home centres process very high card volume across many lanes plus buy-online-pickup-in-store fulfilment. PCI DSS 4.0 became fully mandatory on March 31, 2025, adding requirements for monitoring scripts on e-commerce payment pages because that is where skimming now occurs.",
-      "loss_scenario": "Card brand assessments and forensic costs scale with transaction count, and a home centre's volume puts it in the highest merchant tiers with the strictest obligations.",
-      "rhetorical_question": "Do you offer buy online, pickup in store, and who manages your payment page code?"
+      "headline": "Pro customers order on account for jobs today.",
+      "points": [
+        "Contractors order and take delivery against work already scheduled.",
+        "Crews are on site waiting for material.",
+        "A systems failure idles crews across many job sites."
+      ],
+      "rhetorical_question": "How do your professional customers order and take delivery?"
     },
     {
       "rank": 3,
-      "headline": "Inventory and pricing systems drive every register and every shelf.",
-      "why_this_business": "Pricing, promotions, inventory, and replenishment across tens of thousands of SKUs are system-controlled. Registers cannot price items without the system, and replenishment stops when consumption data stops flowing.",
-      "loss_scenario": "Stores that cannot transact at all, with perishable seasonal inventory and promotional periods lost, and replenishment gaps persisting for weeks after recovery.",
-      "rhetorical_question": "Could your registers price and sell anything if the central system were unavailable?"
+      "headline": "Demand spikes before and after storms.",
+      "points": [
+        "Storm preparation and recovery drive extreme concentrated demand.",
+        "Ordering, inventory, and delivery all surge at once.",
+        "Customers go wherever they can actually buy."
+      ],
+      "rhetorical_question": "How does your ordering and inventory system handle storm demand surges?"
     }
   ]
 }

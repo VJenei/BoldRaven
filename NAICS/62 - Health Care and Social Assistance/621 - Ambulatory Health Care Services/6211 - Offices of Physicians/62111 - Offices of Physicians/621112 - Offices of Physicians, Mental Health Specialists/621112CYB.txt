@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Psychiatric records are the most damaging health data to expose.",
-      "why_this_business": "Psychiatric practice records contain diagnoses, medication histories, session content, and details of suicidality, trauma, and substance use. Patients disclose this to no one else, and exposure causes employment, custody, and relationship harm that cannot be remediated.",
-      "loss_scenario": "Patient harm that credit monitoring does not address, with claims reflecting the personal consequences of disclosure, and a practice whose patients cannot be replaced because trust in confidentiality is the treatment relationship.",
-      "rhetorical_question": "What would exposure of your session notes mean for your patients personally?"
+      "headline": "Mental health records carry extra federal protection.",
+      "points": [
+        "Psychotherapy notes and substance use records have heightened protection.",
+        "Disclosure can cost patients jobs, custody, and relationships.",
+        "The harm is personal and permanent."
+      ],
+      "rhetorical_question": "What psychotherapy or substance use treatment records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Psychotherapy notes have distinct protection under HIPAA.",
-      "why_this_business": "HIPAA gives psychotherapy notes maintained separately from the medical record heightened protection, generally requiring specific authorisation for disclosure. Where substance use disorder treatment is involved, 42 CFR Part 2 imposes restrictions stricter than HIPAA.",
-      "loss_scenario": "Regulatory exposure under both HIPAA and, where applicable, Part 2, which carries its own penalties and consent requirements, alongside professional licensing consequences for confidentiality failures.",
-      "rhetorical_question": "Are psychotherapy notes stored separately from the general medical record?"
+      "headline": "Patients disclose things they have told nobody else.",
+      "points": [
+        "Records contain disclosures made only in the treatment relationship.",
+        "Patients continue treatment only if they trust that confidentiality.",
+        "A breach ends the therapeutic relationship, not just the record."
+      ],
+      "rhetorical_question": "How many patient records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Controlled substance prescribing carries DEA obligations.",
-      "why_this_business": "Psychiatric practice involves controlled substances requiring DEA registration, electronic prescribing with identity proofing and two-factor authentication, and prescription monitoring programme checks in most states.",
-      "loss_scenario": "Compromised prescriber credentials used to issue fraudulent controlled substance prescriptions, with DEA investigation of the registrant and patients unable to obtain necessary medication.",
-      "rhetorical_question": "How is access to your electronic prescribing credential protected?"
+      "headline": "The record system is how you practise.",
+      "points": [
+        "Charts, medication records, and treatment plans live in one system.",
+        "Continuity of care depends on that history.",
+        "Appointments arrive whether or not the system is running."
+      ],
+      "rhetorical_question": "What happens to scheduled patients if your record system is unavailable?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Cereal recalls have been among the largest in food history.",
-      "why_this_business": "Cereal is consumed by children, produced in very large volumes, and distributed nationally. Salmonella and allergen recalls in this category have covered tens of millions of units, with traceability from ingredient through extrusion and packaging determining the scope.",
-      "loss_scenario": "A recall covering all production in a period rather than identified lots, with retail withdrawal, destruction, and brand damage in a category where consumer trust and children's consumption drive the reaction.",
-      "rhetorical_question": "Could you narrow a recall to specific production lots and shipping records?"
+      "headline": "Cereal recalls reach every household with a box.",
+      "points": [
+        "Product is distributed nationally through grocery and mass retail.",
+        "Salmonella in low moisture foods survives for months in the package.",
+        "Recall reach depends entirely on lot and distribution records."
+      ],
+      "rhetorical_question": "Could you identify which retailers received a specific production lot?"
     },
     {
       "rank": 2,
-      "headline": "Extrusion and drying are continuous processes with tight control.",
-      "why_this_business": "Cereal production runs continuous cooking, extrusion, drying, toasting, and coating, with moisture and temperature controlling texture and shelf stability. Product outside moisture specification either fails on shelf or is unsafe.",
-      "loss_scenario": "Off-specification product across a production run that fails shelf life or supports microbial growth, discovered after distribution, with recall and destruction of finished goods.",
-      "rhetorical_question": "How is finished product moisture controlled and recorded during production?"
+      "headline": "Labels carry nutrition and allergen claims that must be right.",
+      "points": [
+        "Nutrition panels, allergen declarations, and fortification claims are printed from specification data.",
+        "Undeclared allergens are the most common recall cause in packaged food.",
+        "A wrong label recalls every package printed with it."
+      ],
+      "rhetorical_question": "How are label and allergen specifications controlled through to packaging?"
     },
     {
       "rank": 3,
-      "headline": "Retail customers hold you to fill rate and vendor compliance.",
-      "why_this_business": "Cereal ships to national retailers under EDI with routing guides, labelling requirements, and delivery windows, with automatic chargebacks and shelf space determined by supply performance.",
-      "loss_scenario": "Vendor compliance chargebacks and lost shelf facings at the annual reset, which is decided once a year and determines the following year's volume regardless of the reason for the failure.",
-      "rhetorical_question": "Which retailers score your fill rate and apply automatic chargebacks?"
+      "headline": "Extrusion and drying lines run continuously at high volume.",
+      "points": [
+        "Cooking, extrusion, drying, and coating run as one controlled process.",
+        "Lines produce thousands of packages per hour.",
+        "A stopped line produces nothing at very high fixed cost."
+      ],
+      "rhetorical_question": "What does an hour of stopped production cost on your lines?"
     }
   ]
 }

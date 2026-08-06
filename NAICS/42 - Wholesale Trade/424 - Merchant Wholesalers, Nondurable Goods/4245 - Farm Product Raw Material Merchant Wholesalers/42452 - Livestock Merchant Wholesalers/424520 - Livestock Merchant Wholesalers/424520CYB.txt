@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Federal law requires livestock sellers to be paid within a day.",
-      "why_this_business": "The Packers and Stockyards Act requires prompt payment for livestock, generally before the close of the next business day, and dealers must be bonded and registered. Payment failures trigger trust claims and USDA enforcement. There is no grace period for a systems outage.",
-      "loss_scenario": "Missed prompt payment obligations across a sale week bring USDA enforcement, bond claims, and potential suspension of registration, which ends the ability to deal in livestock.",
-      "rhetorical_question": "How quickly are you legally required to pay for livestock you purchase?"
+      "headline": "Livestock payments are large and made on trust.",
+      "points": [
+        "Cattle and hogs are bought and sold in load lots at high value.",
+        "Payments settle by transfer against emailed instructions.",
+        "Animals move before the payment is confirmed."
+      ],
+      "rhetorical_question": "How are changes to counterparty banking details verified before payment?"
     },
     {
       "rank": 2,
-      "headline": "Cattle purchases and sales settle by wire in large amounts.",
-      "why_this_business": "Livestock dealers and order buyers move large sums daily between producers, feedyards, and packers, arranged by phone and email and settled by wire. Counterparties often transact a few times a year, and payment instructions are exchanged in the moment.",
-      "loss_scenario": "A diverted settlement of $100,000 to $1M, where the seller remains legally entitled to prompt payment and the dealer pays twice or defaults on a statutory obligation.",
-      "rhetorical_question": "What is the value of livestock payments leaving your office in a typical week?"
+      "headline": "Movement and identification records are required by law.",
+      "points": [
+        "Animals require official identification and interstate movement records.",
+        "Disease traces run through those records.",
+        "Animals you cannot document cannot be moved or sold."
+      ],
+      "rhetorical_question": "How do you record official identification and movement for animals you handle?"
     },
     {
       "rank": 3,
-      "headline": "Animal identification and movement records are now electronic and mandatory.",
-      "why_this_business": "Since November 5, 2024, APHIS requires official eartags on covered cattle and bison moving interstate to be both visually and electronically readable. Dealers handle animals from many origins and must maintain identification and movement records for disease traceback.",
-      "loss_scenario": "Inability to produce movement records in a disease investigation puts the dealer at the centre of a traceback, and blocks interstate movement in the meantime.",
-      "rhetorical_question": "How do you record animal identification and movement through your operation?"
+      "headline": "Federal rules govern payment timing and trust obligations.",
+      "points": [
+        "Livestock dealers operate under federal payment and trust requirements.",
+        "Records establish compliance with those obligations.",
+        "Failures affect the bond and registration that let you operate."
+      ],
+      "rhetorical_question": "What payment and registration records does your federal registration require?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Gate and unit access is entirely electronic and unstaffed.",
-      "why_this_business": "Self-storage operates on gate access codes, individual unit alarms, and increasingly app-based entry, with many facilities unstaffed for most or all of the day. The access system is the only thing separating the public from customers' property.",
-      "loss_scenario": "Unauthorised access to units at an unstaffed site, with theft from multiple units before discovery and the operator unable to demonstrate who entered and when.",
-      "rhetorical_question": "Is your facility unstaffed at any point, and what controls access during those hours?"
+      "headline": "Access control and gates are the entire security model.",
+      "points": [
+        "Gate codes, access control, and cameras govern who enters.",
+        "Tenants store possessions relying on that control.",
+        "Compromise gives an intruder access to every unit on site."
+      ],
+      "rhetorical_question": "What gate and access control systems are connected to your network?"
     },
     {
       "rank": 2,
-      "headline": "You do not know what is in the units you are protecting.",
-      "why_this_business": "Customers store household goods, business records, inventory, and sometimes items of very high value without declaring contents. Claims after a loss assert whatever the customer says was inside, and the rental agreement and access logs are the only evidence available.",
-      "loss_scenario": "Claims for high value contents you had no knowledge of, defended only with access logs and the terms of the rental agreement, which is why those records matter more than the property itself.",
-      "rhetorical_question": "How do you evidence who accessed a specific unit and when?"
+      "headline": "Tenant records hold identity and payment data.",
+      "points": [
+        "Rental agreements carry identity, contact, and payment card details.",
+        "Automatic payments run monthly against those records.",
+        "Every affected tenant must be notified."
+      ],
+      "rhetorical_question": "How many tenant records with payment details do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Lien sales require statutory notice on strict timelines.",
-      "why_this_business": "Selling the contents of a delinquent unit requires notice to the tenant and lienholders following state-specific procedures, with documented delivery and waiting periods. Getting the process wrong exposes the operator to conversion claims for the value of everything sold.",
-      "loss_scenario": "Conversion liability for units sold without proper notice, where the customer's claimed contents value determines damages and the operator cannot prove the notice was properly given.",
-      "rhetorical_question": "How do you document lien notices and their delivery to delinquent tenants?"
+      "headline": "Lien and auction processes depend on records.",
+      "points": [
+        "Delinquency, notice, and lien sale processes are governed by state law.",
+        "Records establish that notice was properly given.",
+        "Selling a unit without proper notice is a claim you cannot defend."
+      ],
+      "rhetorical_question": "How are your delinquency notices and lien records maintained?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Air cargo moves on a schedule measured in hours and there is no buffer.",
-      "why_this_business": "Scheduled freight operations run tightly connected hub networks where a missed sort cascades across the entire network overnight. Load planning, weight and balance, customs data transmission, and tracking are all system-driven and time-critical.",
-      "loss_scenario": "A missed sort night misplaces freight across the whole network for days. Time-definite service guarantees mean refunds on affected shipments regardless of cause, and pharmaceutical and perishable cargo is destroyed rather than delayed.",
-      "rhetorical_question": "What happens to your network if one night's sort cannot be planned?"
+      "headline": "Cargo moves on booked capacity and customs data.",
+      "points": [
+        "Bookings, manifests, and customs filings run electronically before departure.",
+        "Customs data must be filed before an aircraft may be loaded.",
+        "Freight sits on the ramp while systems are down."
+      ],
+      "rhetorical_question": "How are your manifests and customs filings submitted before departure?"
     },
     {
       "rank": 2,
-      "headline": "Advance cargo data must reach customs before the aircraft departs.",
-      "why_this_business": "Air cargo requires advance electronic manifest data to US Customs and participation in air cargo advance screening for inbound shipments. Cargo without transmitted data does not clear and in many cases cannot be loaded.",
-      "loss_scenario": "Freight that cannot be loaded or cleared, with penalties for late or inaccurate manifest data and cargo sitting at origin while the customer's supply chain stops.",
-      "rhetorical_question": "How is your advance electronic manifest data transmitted to customs?"
+      "headline": "Dispatch systems are what release the aircraft.",
+      "points": [
+        "Dispatch, weight and balance, and flight release run on connected systems.",
+        "Aircraft cannot legally depart without a release.",
+        "A systems failure grounds the network at once."
+      ],
+      "rhetorical_question": "What systems must be running for an aircraft to be legally released?"
     },
     {
       "rank": 3,
-      "headline": "High value and pharmaceutical cargo depends on documented handling.",
-      "why_this_business": "Air freight carries the highest value density of any mode, including pharmaceuticals under temperature control, electronics, and precious cargo. Temperature excursion records, chain of custody, and security screening documentation follow each shipment.",
-      "loss_scenario": "Pharmaceutical shipments condemned for unverifiable temperature control, at values that routinely exceed a million dollars per pallet position.",
-      "rhetorical_question": "Do you carry temperature-controlled pharmaceutical freight requiring documented conditions?"
+      "headline": "Time definite freight loses its value when late.",
+      "points": [
+        "Customers ship time critical freight on guaranteed schedules.",
+        "Medical, aerospace, and just in time shipments cannot wait.",
+        "The claim is the customer's downstream loss, not the freight charge."
+      ],
+      "rhetorical_question": "What are your customers shipping that cannot arrive a day late?"
     }
   ]
 }

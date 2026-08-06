@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Containers for hazardous materials are certification-tested.",
-      "why_this_business": "Drums and containers for hazardous materials transport are performance tested and marked with UN specification codes indicating what they may carry. The marking is a certification that the container passed drop, leakproof, and pressure testing.",
-      "loss_scenario": "Containers marked to a specification they do not meet failing in transport, releasing hazardous materials, with the manufacturer's test records determining whether the marking was ever valid.",
-      "rhetorical_question": "How are UN specification test records maintained for your container designs?"
+      "headline": "Hazardous material containers are performance tested and marked.",
+      "points": [
+        "Markings certify the container passed drop, leakproof, and pressure testing.",
+        "Shippers rely on that marking when filling with hazardous material.",
+        "A container failing in transit releases hazardous material on the road."
+      ],
+      "rhetorical_question": "How are specification test records maintained for your container designs?"
     },
     {
       "rank": 2,
-      "headline": "Container integrity protects the contents and everyone near them.",
-      "why_this_business": "Metal containers hold chemicals, fuels, and compressed materials, with seam integrity, closure design, and coating determining whether they contain the product safely through handling and storage.",
-      "loss_scenario": "Container failure releasing contents in a warehouse or in transport, with fire, environmental, and injury exposure determined by the material and the location of the failure.",
+      "headline": "Container integrity protects everyone near the contents.",
+      "points": [
+        "Seam integrity, closures, and coatings determine whether the container holds.",
+        "Failure releases chemicals or fuel in a warehouse or in transit.",
+        "The consequence depends on the material, not the container."
+      ],
       "rhetorical_question": "What materials are shipped in the containers you manufacture?"
     },
     {
       "rank": 3,
-      "headline": "Production runs to customer specifications and volumes.",
-      "why_this_business": "Containers are made to customer dimensions, closures, linings, and markings for specific products, with tooling and setups specific to each configuration.",
-      "loss_scenario": "Wrong specification containers that no other customer can use, with customers unable to package and ship their own product for want of containers.",
+      "headline": "Containers are made to customer specification.",
+      "points": [
+        "Dimensions, closures, linings, and markings are specific to each product.",
+        "Wrong specification containers are unusable by anyone.",
+        "The customer cannot ship their product without them."
+      ],
       "rhetorical_question": "What happens to your customers' shipping if containers do not arrive?"
     }
   ]

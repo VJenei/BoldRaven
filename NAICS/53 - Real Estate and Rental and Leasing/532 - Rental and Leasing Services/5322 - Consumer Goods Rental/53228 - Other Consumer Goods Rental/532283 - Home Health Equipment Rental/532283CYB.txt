@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Patients depend on the equipment you supply to stay alive.",
-      "why_this_business": "Home oxygen concentrators, ventilators, hospital beds, and monitoring equipment are placed in patients' homes with delivery, setup, and service scheduled from your systems. Some equipment is connected and reports clinical data. Patients with respiratory failure have hours of tolerance, not days.",
-      "loss_scenario": "Failure to deliver or service life-sustaining equipment on schedule is a patient safety event, with liability far beyond the rental value and immediate regulatory and media attention.",
-      "rhetorical_question": "How many of your patients depend on equipment you supply for respiratory or life support?"
+      "headline": "Patients depend on the equipment to stay alive.",
+      "points": [
+        "Oxygen concentrators, ventilators, and monitors support patients at home.",
+        "Delivery, service, and supply run on your scheduling systems.",
+        "A missed delivery is a patient without oxygen."
+      ],
+      "rhetorical_question": "What equipment do your patients depend on continuously?"
     },
     {
       "rank": 2,
-      "headline": "You hold protected health information and bill federal programmes.",
-      "why_this_business": "Suppliers hold physician orders, medical necessity documentation, diagnoses, and patient identifiers, and bill Medicare, Medicaid, and private insurers. That makes the business a HIPAA covered entity with direct breach notification and enforcement exposure.",
-      "loss_scenario": "HIPAA notification to patients and HHS with OCR enforcement, plus supplier enrolment consequences where documentation supporting billed claims cannot be produced.",
-      "rhetorical_question": "How many patient records with diagnoses and physician orders do you hold?"
+      "headline": "You hold protected health information.",
+      "points": [
+        "Records carry diagnoses, prescriptions, and physician orders.",
+        "Health privacy law requires notification of every affected patient.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient records with health information do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Claim documentation is audited years after the equipment was supplied.",
-      "why_this_business": "Medicare suppliers face documentation audits requiring physician orders, proof of delivery, and continuing medical necessity for rentals billed years earlier, with extrapolated findings applied across the claim population.",
-      "loss_scenario": "Extrapolated recoupment across thousands of rental claims where supporting documentation is unavailable, routinely exceeding the value of the claims actually reviewed.",
-      "rhetorical_question": "How many years of proof of delivery and medical necessity records must you retain?"
+      "headline": "Insurance billing requires documented medical necessity.",
+      "points": [
+        "Claims require physician orders, documentation, and delivery confirmation.",
+        "Payers audit those records directly.",
+        "Equipment delivered without documentation cannot be billed."
+      ],
+      "rhetorical_question": "How are your physician orders and delivery documentation maintained?"
     }
   ]
 }

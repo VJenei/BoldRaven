@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Membership itself is information workers may need protected.",
-      "why_this_business": "Unions hold membership lists, dues records, employment details, and organising activity data. During organising campaigns, the identity of supporters is precisely what employers would want and what labour law protects. Grievance files document workplace disputes with named individuals.",
-      "loss_scenario": "Exposure of organising committee membership and supporter identities during a campaign, which exposes workers to retaliation and can defeat the campaign entirely, with unfair labour practice consequences that do not undo the harm.",
-      "rhetorical_question": "Do your records identify workers supporting an active organising campaign?"
+      "headline": "Membership lists can cost people their jobs.",
+      "points": [
+        "Records identify members and their workplaces.",
+        "Union membership is legally protected but practically risky in some workplaces.",
+        "Disclosure to an employer exposes members to retaliation."
+      ],
+      "rhetorical_question": "What member and workplace records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Benefit and pension administration involves fiduciary duties.",
-      "why_this_business": "Unions administer or participate in benefit and pension funds holding member Social Security numbers, contribution histories, beneficiary designations, and banking details, with trustees carrying ERISA fiduciary obligations and Department of Labor guidance addressing cybersecurity.",
-      "loss_scenario": "Fraudulent distributions from member benefit accounts and fiduciary breach claims against trustees personally, plus exposure of member financial and family data.",
-      "rhetorical_question": "Do you administer benefit or pension funds holding member account data?"
+      "headline": "Strike and bargaining strategy is highly sensitive.",
+      "points": [
+        "Bargaining positions, strike planning, and internal analysis are held electronically.",
+        "Employers would gain enormous advantage from that information.",
+        "Disclosure undermines the bargaining position entirely."
+      ],
+      "rhetorical_question": "What bargaining and strategy documents do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Grievance and arbitration files document workplace disputes.",
-      "why_this_business": "Unions hold grievance files, disciplinary records, medical documentation supporting accommodation requests, and internal assessments of members' cases. Members disclose freely because representation depends on it.",
-      "loss_scenario": "Exposure of grievance and medical documentation to employers, which damages members' positions in active disputes and their employment prospects generally.",
-      "rhetorical_question": "Do your grievance files contain members' medical documentation?"
+      "headline": "Benefit and pension funds hold member money.",
+      "points": [
+        "Fund records carry member entitlements, contributions, and payment details.",
+        "Members depend on those funds for retirement and healthcare.",
+        "Fiduciary obligations apply to how they are protected."
+      ],
+      "rhetorical_question": "What member benefit and pension fund records do you hold?"
     }
   ]
 }

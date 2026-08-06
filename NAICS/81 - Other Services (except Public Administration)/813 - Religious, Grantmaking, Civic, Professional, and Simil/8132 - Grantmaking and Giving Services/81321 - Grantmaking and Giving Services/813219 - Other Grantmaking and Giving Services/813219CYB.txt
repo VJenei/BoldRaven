@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Funds are collected and disbursed on behalf of others.",
-      "why_this_business": "Organisations in this category collect contributions and distribute to beneficiaries and partner organisations, holding donor payment data and recipient banking details. Disbursement instructions arrive electronically.",
-      "loss_scenario": "Diverted disbursements to beneficiaries or partners, with the funds gone and the charitable purpose unmet, plus donor payment data exposure across the supporter base.",
-      "rhetorical_question": "How do you verify recipient banking details before disbursing funds?"
+      "headline": "Grant and donation payments move large sums.",
+      "points": [
+        "Funds are disbursed by transfer against banking instructions.",
+        "Instructions arrive and change electronically.",
+        "A diverted payment is charitable money that never reaches the cause."
+      ],
+      "rhetorical_question": "How are banking instructions verified before disbursement?"
     },
     {
       "rank": 2,
-      "headline": "Donor records include giving capacity and personal circumstances.",
-      "why_this_business": "Fundraising operations hold donor giving histories, wealth screening data, relationship notes, and planned giving intentions including bequests that donors have not disclosed to their families.",
-      "loss_scenario": "Exposure of wealth assessments and bequest intentions damages major donor relationships permanently and reveals estate plans donors deliberately kept private.",
-      "rhetorical_question": "Do your donor records contain wealth screening or bequest information?"
+      "headline": "Donor records support giving and tax positions.",
+      "points": [
+        "Donor identities, giving history, and payment details are held.",
+        "Donors rely on annual statements from those records.",
+        "Every affected donor must be notified."
+      ],
+      "rhetorical_question": "What donor records and giving history do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Beneficiary data can identify people in vulnerable circumstances.",
-      "why_this_business": "Organisations distributing assistance hold beneficiary identity, need assessment, and circumstance data for individuals and families receiving support, frequently at points of crisis.",
-      "loss_scenario": "Exposure identifying assistance recipients, which causes stigma and harm to people already in difficulty and deters others from seeking help.",
-      "rhetorical_question": "Do your records identify individuals who received charitable assistance?"
+      "headline": "Recipient data is confidential.",
+      "points": [
+        "Recipient organisations and individuals provide confidential information.",
+        "Some recipients work in sensitive contexts.",
+        "Disclosure can endanger recipients and their work."
+      ],
+      "rhetorical_question": "What recipient and applicant data do you hold?"
     }
   ]
 }

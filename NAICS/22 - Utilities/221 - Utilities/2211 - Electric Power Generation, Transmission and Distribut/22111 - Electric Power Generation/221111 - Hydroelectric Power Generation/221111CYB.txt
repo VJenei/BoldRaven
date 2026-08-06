@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Spillway gates and water control are operated remotely and hold back a reservoir.",
-      "why_this_business": "Hydro plants control turbine wicket gates, spillway gates, and reservoir level through SCADA, frequently from an unattended plant supervised remotely. FERC licensed dams operate to a water control manual with prescribed flows and flood operations. The consequence of losing gate control is not lost generation, it is uncontrolled water.",
-      "loss_scenario": "An uncontrolled release or a failure to pass a flood causes downstream property damage and potential loss of life. Dam failure liability is effectively unlimited and is the reason FERC dam safety oversight exists.",
-      "rhetorical_question": "Are your spillway or reservoir controls operable from outside the powerhouse?"
+      "headline": "Gates and turbines are operated remotely, and water is dangerous.",
+      "points": [
+        "Spillway gates, turbines, and generators are controlled from a remote operations centre.",
+        "A gate opened wrongly floods everything downstream of the dam.",
+        "People fish, swim, and live below your structure."
+      ],
+      "rhetorical_question": "Are your spillway gates and generating units operated by remote control?"
     },
     {
       "rank": 2,
-      "headline": "Generation above the bulk electric system threshold falls under mandatory NERC CIP rules.",
-      "why_this_business": "Registered generator owners and operators must comply with the NERC Critical Infrastructure Protection standards, covering electronic security perimeters, personnel and training, incident reporting to E-ISAC, and supply chain risk management. These are enforceable reliability standards, not guidance.",
-      "loss_scenario": "NERC penalties reach up to $1 million per violation per day. A reportable incident also brings regulatory scrutiny of every related control at the same time.",
-      "rhetorical_question": "Is your facility registered with NERC, and which CIP standards apply to you?"
+      "headline": "Grid reliability standards apply to your control systems.",
+      "points": [
+        "Federal reliability rules impose security requirements on systems that control generation.",
+        "Compliance is audited and findings carry financial penalties per day.",
+        "Penalties are assessed against the registered entity, which is you."
+      ],
+      "rhetorical_question": "Which of your systems fall within grid reliability security requirements?"
     },
     {
       "rank": 3,
-      "headline": "Energy is sold into a market that settles on interval data.",
-      "why_this_business": "Output is bid, scheduled, and settled through an ISO or bilateral contracts using interval metering and telemetry. Settlement statements arrive days later and are disputed against your own records. Failure to submit or telemeter can bring non-performance charges.",
-      "loss_scenario": "Uncontested settlement errors and non-performance penalties across the outage period, plus lost revenue on water spilled rather than generated, which cannot be recovered once it is downstream.",
-      "rhetorical_question": "How do you submit generation schedules and verify market settlements?"
+      "headline": "Dam safety monitoring is continuous and instrumented.",
+      "points": [
+        "Seepage, movement, and water level instruments report continuously.",
+        "That instrumentation is the early warning for structural failure.",
+        "A dam failure is a mass casualty event downstream."
+      ],
+      "rhetorical_question": "How is your dam safety instrumentation monitored and alarmed?"
     }
   ]
 }

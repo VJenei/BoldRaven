@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Communications infrastructure carries customer traffic you are responsible for.",
-      "why_this_business": "Operators in this category provide connectivity, transport, and specialised communications services that customers build their own operations on. Service interruption propagates to every customer simultaneously, and many have no alternative provider for the specific service.",
-      "loss_scenario": "Simultaneous outage across the customer base with service level credits owed to each, plus consequential claims from customers whose own operations depend on the link.",
-      "rhetorical_question": "How many customers would be affected simultaneously by an outage of your core service?"
+      "headline": "Customers depend on continuous connectivity.",
+      "points": [
+        "Businesses and public agencies run operations over your service.",
+        "Many have no alternative connection.",
+        "An outage stops their operations, not just their communications."
+      ],
+      "rhetorical_question": "What critical customers depend on your service with no alternative?"
     },
     {
       "rank": 2,
-      "headline": "Customer communications data is protected by federal rules.",
-      "why_this_business": "Providers of telecommunications services are subject to FCC customer proprietary network information requirements covering the protection of who customers communicate with and what services they use, including breach notification obligations to the FCC and federal law enforcement.",
-      "loss_scenario": "FCC enforcement for CPNI failures, with notification to multiple federal agencies required on short timelines regardless of the size of the provider.",
-      "rhetorical_question": "Are you subject to FCC CPNI rules, and do you have a breach notification procedure?"
+      "headline": "Customer records are legally protected.",
+      "points": [
+        "Communications and account records carry specific federal protection.",
+        "Breach notification obligations apply to that data.",
+        "The records show who communicated with whom."
+      ],
+      "rhetorical_question": "What customer communications and account records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Network management systems control equipment across the footprint.",
-      "why_this_business": "Providers manage distributed network equipment through centralised management platforms with configuration, provisioning, and firmware control. Those platforms reach every device on the network at once.",
-      "loss_scenario": "A compromise of network management allows configuration changes or firmware corruption across the entire deployed base, which in the worst case requires physical intervention at every site.",
-      "rhetorical_question": "How many devices can be reconfigured from your network management platform?"
+      "headline": "Network equipment is managed remotely at scale.",
+      "points": [
+        "Network elements are configured and updated from central management systems.",
+        "One platform can change configuration across the whole network.",
+        "Restoring each element may require a site visit."
+      ],
+      "rhetorical_question": "How many network elements can be reconfigured from a single management system?"
     }
   ]
 }

@@ -9,23 +9,32 @@
     {
       "rank": 1,
       "headline": "Ventilation equipment controls hazardous exposures.",
-      "why_this_business": "Industrial fans, blowers, and air purification equipment remove contaminants, control dust, and ventilate confined and hazardous spaces. Performance ratings determine whether an installation meets OSHA exposure limits or explosion prevention requirements.",
-      "loss_scenario": "Equipment delivering less than rated performance in installations relying on it for exposure control, with worker overexposure or a dust explosion, and the performance data determining liability.",
+      "points": [
+        "Fans and air purification remove contaminants and ventilate hazardous spaces.",
+        "Installations rely on rated performance to meet exposure limits.",
+        "Under-performing equipment means worker overexposure or a dust explosion."
+      ],
       "rhetorical_question": "Are your products relied on for hazardous exposure or dust control?"
     },
     {
       "rank": 2,
-      "headline": "Performance ratings come from certified test data.",
-      "why_this_business": "Fan and air movement equipment carries certified performance ratings from standardised testing, relied on by engineers in sizing systems. Certification programmes audit the underlying test data.",
-      "loss_scenario": "Products supplied with ratings that cannot be substantiated, requiring replacement in systems already installed and designed around the published performance.",
+      "headline": "Ratings come from certified test data.",
+      "points": [
+        "Performance ratings are established by standardised testing and audited.",
+        "Engineers size systems on those published ratings.",
+        "Product below rating must be replaced in installed systems."
+      ],
       "rhetorical_question": "How is certified performance test data maintained and linked to product models?"
     },
     {
       "rank": 3,
-      "headline": "Equipment is selected and configured through your systems.",
-      "why_this_business": "Selection software, submittal generation, and order configuration convert engineering requirements into a specific unit. Configuration errors produce equipment that does not fit or perform.",
-      "loss_scenario": "Units built to wrong configurations arriving at construction sites, with mechanical installation delayed and remake lead times measured in weeks.",
-      "rhetorical_question": "How are selection and configuration data verified before a unit is released to build?"
+      "headline": "Equipment is configured through your selection systems.",
+      "points": [
+        "Selection software converts engineering requirements into a specific unit.",
+        "Configuration errors produce equipment that does not fit or perform.",
+        "Remake lead times are measured in weeks with construction waiting."
+      ],
+      "rhetorical_question": "How are selection and configuration data verified before a unit is built?"
     }
   ]
 }

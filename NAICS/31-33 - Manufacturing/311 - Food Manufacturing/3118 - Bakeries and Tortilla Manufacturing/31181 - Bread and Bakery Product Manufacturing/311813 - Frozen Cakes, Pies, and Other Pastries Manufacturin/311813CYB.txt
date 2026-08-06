@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Frozen storage failure condemns high value finished goods.",
-      "why_this_business": "Finished frozen bakery product is held in freezer storage and distributed frozen, with temperature monitored continuously. Product that thaws cannot be refrozen and sold, and finished bakery goods carry substantial value per pallet.",
-      "loss_scenario": "A freezer control or monitoring failure condemning finished inventory, with the loss falling on completed product rather than raw materials and disposal costs on top.",
-      "rhetorical_question": "What is the value of finished goods in your freezer right now?"
+      "headline": "The cold chain holds the product together.",
+      "points": [
+        "Freezing, storage, and shipping temperatures are monitored and recorded.",
+        "Product that thaws and refreezes is defective and unsellable.",
+        "A refrigeration failure can lose an entire warehouse."
+      ],
+      "rhetorical_question": "Is your freezer and storage temperature monitored and recorded automatically?"
     },
     {
       "rank": 2,
-      "headline": "Allergen control spans a wide ingredient range.",
-      "why_this_business": "Bakery products combine wheat, milk, egg, soy, tree nuts, peanuts, and sesame across shared production and packaging lines, with allergen control depending on scheduling, cleaning, and label accuracy.",
-      "loss_scenario": "An allergen recall with anaphylaxis exposure and a scope determined by whether production and distribution records can identify affected lots across foodservice and retail customers.",
-      "rhetorical_question": "How many major allergens are handled across your production lines?"
+      "headline": "Allergen control determines whether product can ship.",
+      "points": [
+        "Nuts, milk, eggs, and wheat move through shared lines.",
+        "Changeover, cleaning, and label controls prove separation.",
+        "An undeclared allergen recalls every package from the run."
+      ],
+      "rhetorical_question": "How are allergen changeover and label controls documented per run?"
     },
     {
       "rank": 3,
-      "headline": "Seasonal demand concentrates into holiday periods.",
-      "why_this_business": "Frozen dessert and pastry demand concentrates heavily around holidays, with production running months ahead and retailers placing orders for delivery into narrow windows before the holiday.",
-      "loss_scenario": "Missed holiday delivery windows leaving product that has no market after the date, with production cost sunk and retail shelf space lost for the season.",
-      "rhetorical_question": "What share of your annual volume ships into holiday windows?"
+      "headline": "Holiday volume is concentrated into a few weeks.",
+      "points": [
+        "Pies and seasonal products carry most of the year in the fourth quarter.",
+        "Retail delivery windows are fixed and enforced by chargeback.",
+        "Volume missed in the season has no other market."
+      ],
+      "rhetorical_question": "What share of your annual volume ships between October and December?"
     }
   ]
 }

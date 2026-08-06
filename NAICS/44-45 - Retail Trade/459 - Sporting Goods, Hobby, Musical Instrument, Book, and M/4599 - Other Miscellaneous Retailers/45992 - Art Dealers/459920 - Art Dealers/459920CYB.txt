@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Art sales settle by wire and invoice interception is a known attack.",
-      "why_this_business": "Art transactions are negotiated privately by email between dealer, client, and sometimes an adviser, with settlement by wire against an emailed invoice. Attackers monitoring dealer or client mailboxes substitute banking details on the invoice at the point of payment. The art market has seen repeated losses to this exact pattern.",
-      "loss_scenario": "A diverted payment on a single work, commonly $50,000 to several million. Both dealer and client claim the other's email was compromised, and recovery after 24 hours is rare.",
-      "rhetorical_question": "How are wire instructions confirmed with a buyer before payment on a sale?"
+      "headline": "Sales settle in very large single payments.",
+      "points": [
+        "Works sell for high values settled by wire transfer.",
+        "Instructions are exchanged by email with buyers and consignors.",
+        "A diverted payment is a work delivered and unpaid."
+      ],
+      "rhetorical_question": "How are wire instructions verified before a sale settles?"
     },
     {
       "rank": 2,
-      "headline": "Provenance records are what make a work saleable.",
-      "why_this_business": "A work's value depends on documented provenance, exhibition history, condition reports, and authentication. Gaps in provenance raise questions of forgery, looting, and title. Dealers hold these files across their inventory and their sales history.",
-      "loss_scenario": "Works that cannot be supported with provenance documentation become difficult or impossible to sell, and title disputes over restituted or stolen works are decided on exactly these records.",
-      "rhetorical_question": "How is provenance documentation for your inventory stored and backed up?"
+      "headline": "Provenance records establish what a work is worth.",
+      "points": [
+        "Provenance, authentication, and condition records support value and title.",
+        "Buyers and insurers rely on that documentation.",
+        "A work without provenance loses most of its value."
+      ],
+      "rhetorical_question": "Where are your provenance and authentication records stored?"
     },
     {
       "rank": 3,
-      "headline": "Client lists identify wealthy collectors and what they own.",
-      "why_this_business": "Dealers hold confidential records of who bought what, at what price, and where it hangs. Collectors expect absolute discretion, and the data identifies high value portable assets and their locations.",
-      "loss_scenario": "A breach exposing collector identities, holdings, and addresses creates theft targeting and destroys the confidentiality that private sales depend on entirely.",
-      "rhetorical_question": "Do your records link collectors to specific works and their locations?"
+      "headline": "Client lists and holdings are highly confidential.",
+      "points": [
+        "Collector identities, holdings, and prices paid are closely held.",
+        "That information is valuable to competitors and to thieves.",
+        "Disclosure ends relationships built over decades."
+      ],
+      "rhetorical_question": "What client and collection records do you store?"
     }
   ]
 }

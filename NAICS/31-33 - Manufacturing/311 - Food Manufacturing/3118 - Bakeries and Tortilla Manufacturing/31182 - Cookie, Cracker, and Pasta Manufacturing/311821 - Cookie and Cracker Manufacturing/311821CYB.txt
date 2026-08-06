@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A single malware event cost one snack manufacturer over $100 million.",
-      "why_this_business": "Mondelez, a major snack and biscuit manufacturer, suffered severe disruption from the NotPetya malware in 2017 with losses reported in excess of $100 million, and subsequently litigated for years with its insurer over whether a war exclusion applied to the claim. High volume snack manufacturing depends entirely on connected production and distribution systems.",
-      "loss_scenario": "Production and distribution halted across multiple plants with retail supply interrupted, and the additional risk that a nation-state attributed attack triggers war exclusion disputes with insurers.",
-      "rhetorical_question": "Does your policy contain a war or hostile act exclusion, and how would it apply to a nation-state attack?"
+      "headline": "Low moisture foods carry salmonella that survives for months.",
+      "points": [
+        "Flour, nuts, and dry ingredients have all caused salmonella recalls.",
+        "Environmental monitoring and supplier controls are inspected.",
+        "Product with a long shelf life is still on shelves when a problem is found."
+      ],
+      "rhetorical_question": "What environmental monitoring and supplier verification records do you keep?"
     },
     {
       "rank": 2,
-      "headline": "Allergen control and labelling drive recalls in this category.",
-      "why_this_business": "Cookie and cracker lines handle wheat, milk, egg, soy, peanuts, tree nuts, and sesame, with products frequently marketed to children. Labelling and packaging errors are among the most common recall causes.",
-      "loss_scenario": "An allergen recall in a product consumed by children, with injury exposure and a recall scope determined by production and distribution traceability.",
-      "rhetorical_question": "How is packaging verified against the formulation running on the line?"
+      "headline": "Allergen changeover controls prevent the most common recall.",
+      "points": [
+        "Nuts, milk, eggs, and soy run through shared lines and equipment.",
+        "Changeover, cleaning, and label controls prove separation.",
+        "An undeclared allergen recalls every package from the run."
+      ],
+      "rhetorical_question": "How are allergen changeover and label controls documented per run?"
     },
     {
       "rank": 3,
-      "headline": "Continuous ovens and packaging lines run at very high rates.",
-      "why_this_business": "Mixing, forming, baking, cooling, and packaging run continuously at high throughput with product in process across the whole line. Oven and packaging control determine both quality and food safety.",
-      "loss_scenario": "Product in process lost on an unplanned stop, plus off-specification product produced before detection, on lines running thousands of units per minute.",
-      "rhetorical_question": "How many units per hour does your line produce, and how much is in process at any moment?"
+      "headline": "Lines run continuously at very high volume.",
+      "points": [
+        "Mixing, forming, baking, and packaging run as one continuous process.",
+        "Lines produce thousands of packages per hour.",
+        "A stopped line produces nothing at very high fixed cost."
+      ],
+      "rhetorical_question": "What does an hour of stopped production cost on your lines?"
     }
   ]
 }

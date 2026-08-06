@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Bonded abrasive wheels burst and kill operators.",
-      "why_this_business": "Grinding wheels operate at high rotational speed with bursting causing fragments to strike operators at lethal velocity. Wheels are manufactured to strength requirements and speed tested before shipment, with safety standards governing design and marking.",
-      "loss_scenario": "A wheel burst causing operator death, with the manufacturer's mixing, curing, and speed test records determining whether the wheel met the standard it was marked to.",
-      "rhetorical_question": "How are speed test results recorded against each production batch of wheels?"
+      "headline": "Grinding wheels burst and kill operators.",
+      "points": [
+        "Wheels run at high rotational speed with rated maximum speeds.",
+        "A wheel that bursts sends fragments at lethal velocity.",
+        "Bonding, curing, and testing determine whether the wheel holds together."
+      ],
+      "rhetorical_question": "How are your wheel speed ratings and test results linked to production?"
     },
     {
       "rank": 2,
-      "headline": "Bond formulation and curing determine wheel strength.",
-      "why_this_business": "Bonded abrasives are mixed, pressed, and cured to formulations determining the strength of the bond holding the abrasive grain. Under-cured or incorrectly formulated wheels have inadequate burst strength.",
-      "loss_scenario": "Wheels with inadequate strength shipped and in service, where the defect is invisible until the wheel bursts, requiring recall of every wheel from the affected production.",
-      "rhetorical_question": "How are mixing and curing parameters recorded per production batch?"
+      "headline": "Bonding and curing determine wheel strength.",
+      "points": [
+        "Bond formulation and cure parameters determine wheel integrity.",
+        "Under-cured wheels look identical to good ones.",
+        "The failure occurs at speed in the operator's hands."
+      ],
+      "rhetorical_question": "How are your bond formulations and cure parameters recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Product marking carries the operating speed limit.",
-      "why_this_business": "Wheels are marked with maximum operating speed which operators and machine setters rely on. A mismarked wheel run at a speed it cannot withstand will burst.",
-      "loss_scenario": "Mismarked wheels operated above their actual capability, producing a burst that the operator had no way to anticipate, with marking records determining liability.",
-      "rhetorical_question": "How is speed marking verified against the actual product specification?"
+      "headline": "Products are distributed widely with lot traceability.",
+      "points": [
+        "Wheels and abrasives ship through distribution to industrial and consumer users.",
+        "Recall reach depends on lot and distribution records.",
+        "Without traceability every wheel from the period is suspect."
+      ],
+      "rhetorical_question": "Could you identify which distributors received a specific production lot?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Private transactions settle by wire between infrequent counterparties.",
-      "why_this_business": "Intermediaries arranging private placements, secondary transfers, and specialised transactions coordinate settlement between parties who transact rarely and often do not know each other. Instructions move by email and amounts are large.",
-      "loss_scenario": "A diverted settlement in the hundreds of thousands or millions, with the intermediary blamed by both sides and no clear insurance response to a deception loss.",
-      "rhetorical_question": "How are settlement instructions verified between counterparties in a private transaction?"
+      "headline": "Client asset and identity data is complete.",
+      "points": [
+        "Account records carry identity, tax, and asset information.",
+        "Account takeover permits fraudulent transfers.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "How many client accounts with asset and identity data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Deal and counterparty information is confidential and valuable.",
-      "why_this_business": "Intermediaries hold information about who is buying, who is selling, at what price, and on what terms, frequently for transactions the parties want kept private. That information is commercially valuable and sometimes market-moving.",
-      "loss_scenario": "Exposure of transaction and counterparty information breaches confidentiality obligations to clients and, where securities are involved, creates insider trading exposure for the firm.",
-      "rhetorical_question": "Do your records identify parties to transactions that have not been publicly disclosed?"
+      "headline": "Transfers move client money on instruction.",
+      "points": [
+        "Withdrawal and transfer instructions are received and executed.",
+        "Fraudulent instructions divert client assets permanently.",
+        "Clients hold you responsible for the loss."
+      ],
+      "rhetorical_question": "How are client transfer instructions verified before funds move?"
     },
     {
       "rank": 3,
-      "headline": "Registration and compliance obligations depend on maintained records.",
-      "why_this_business": "Firms in this category are frequently registered with the SEC or FINRA, with books and records requirements, retention periods, and examination obligations. Records must be preserved in specified formats and produced on request.",
-      "loss_scenario": "Books and records violations, which regulators treat as serious independent of any underlying misconduct, and which have produced very large penalties across the industry for recordkeeping failures alone.",
-      "rhetorical_question": "How do you meet books and records retention requirements, including for electronic communications?"
+      "headline": "Regulators require documented cybersecurity programmes.",
+      "points": [
+        "Securities regulators require written policies and incident response.",
+        "Examinations assess those programmes directly.",
+        "Findings carry enforcement action and penalties."
+      ],
+      "rhetorical_question": "What cybersecurity programme requirements apply to your firm?"
     }
   ]
 }

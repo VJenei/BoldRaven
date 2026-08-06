@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold the complete contents and new address of every customer.",
-      "why_this_business": "Movers create inventories of household contents, hold origin and destination addresses, move dates, and often storage locations. That data describes exactly what valuables a household owns, where they will be, and when the home will be empty.",
-      "loss_scenario": "A breach exposing move schedules and household inventories is a targeting list for residential burglary, which is a materially different harm from ordinary data loss and one customers will not forgive.",
-      "rhetorical_question": "Do your systems record household contents inventories alongside addresses and move dates?"
+      "headline": "You hold customers' entire lives on a schedule.",
+      "points": [
+        "Move dates are tied to closings, lease ends, and job start dates.",
+        "Inventory lists, addresses, and contents are recorded per move.",
+        "A missed move date leaves a family with nowhere to go."
+      ],
+      "rhetorical_question": "How are your move schedules, inventories, and customer records maintained?"
     },
     {
       "rank": 2,
-      "headline": "Corporate relocation accounts hold employee personal data.",
-      "why_this_business": "Relocation contracts with corporate clients involve moving named employees, with contact details, family information, home addresses, and sometimes visa and immigration status held by the mover on the employer's behalf.",
-      "loss_scenario": "Third-party liability to corporate clients for exposure of their employees' personal data, plus loss of relocation contracts that represent the stable, higher margin side of the business.",
-      "rhetorical_question": "Do you hold employee data on behalf of corporate relocation clients?"
+      "headline": "Customer data reveals when a home is empty.",
+      "points": [
+        "Move records show addresses, dates, valuables, and destinations.",
+        "That combination tells a burglar exactly what and when.",
+        "The customer's possessions are in transit and identified."
+      ],
+      "rhetorical_question": "What customer address, contents, and schedule data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Estimates, inventories, and valuation elections decide every claim.",
-      "why_this_business": "Interstate moves require written estimates, inventories with condition notations at origin and destination, and a documented valuation election determining liability per pound. Claims are decided from those documents, and federal rules govern the process.",
-      "loss_scenario": "Damage claims resolved against the mover where inventories and valuation elections cannot be produced, and regulatory exposure where required documents were not retained.",
-      "rhetorical_question": "How do you retain inventories and valuation elections after a move completes?"
+      "headline": "Interstate moves carry federal record requirements.",
+      "points": [
+        "Estimates, bills of lading, and inventory records are federally required.",
+        "Disputes are resolved against those records.",
+        "Missing documentation is an enforcement matter and a claim you cannot defend."
+      ],
+      "rhetorical_question": "What estimate and inventory records does your federal authority require?"
     }
   ]
 }

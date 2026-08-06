@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Thin margins and high transaction counts leave no room for disruption.",
-      "why_this_business": "Discount and general merchandise retail runs on very high transaction volume at low average ticket with thin net margins. Pricing, inventory, and replenishment are centrally system-driven, and stores cannot price or sell without the system.",
-      "loss_scenario": "A store network unable to transact loses revenue immediately against a cost base that does not flex, and thin margins mean a short outage consumes a disproportionate share of annual profit.",
-      "rhetorical_question": "What is your net margin, and how many days of lost sales would erase a quarter of profit?"
+      "headline": "Card payments run continuously at every register.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply across every store.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Card acceptance obligations apply at full strength.",
-      "why_this_business": "High transaction counts put these retailers in the highest merchant tiers under PCI DSS, fully mandatory in version 4.0 since March 31, 2025. Self-checkout and unattended terminals expand the physical attack surface for skimming devices.",
-      "loss_scenario": "Skimming devices installed across multiple stores capture card data continuously, with assessments and reissuance costs driven by the number of cards exposed rather than the size of the retailer.",
-      "rhetorical_question": "How do you inspect payment terminals for tampering across your stores?"
+      "headline": "Inventory and reordering run automatically across thousands of items.",
+      "points": [
+        "Stock levels, reordering, and supplier ordering run through your systems.",
+        "Items turn at very different rates.",
+        "Without the system shelves empty and nothing reorders."
+      ],
+      "rhetorical_question": "How is your inventory tracked and reordered?"
     },
     {
       "rank": 3,
-      "headline": "Organised retail crime is coordinated and informed.",
-      "why_this_business": "General merchandise is a primary target for organised retail crime, with theft rings targeting specific high value categories and reselling through online marketplaces. Store layouts, inventory levels, and delivery schedules all sit in systems accessible to a wide range of staff.",
-      "loss_scenario": "Coordinated theft informed by inventory and delivery data, at a scale that materially affects shrink across a store group.",
-      "rhetorical_question": "Who has access to store-level inventory and delivery schedule data?"
+      "headline": "Product safety recalls reach through your records.",
+      "points": [
+        "Consumer product recalls identify specific lots and models.",
+        "Your receiving and sales records determine what you have.",
+        "Recalled product stays on shelves while systems are down."
+      ],
+      "rhetorical_question": "How do you receive recall notices and identify affected stock?"
     }
   ]
 }

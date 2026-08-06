@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Combustion and emissions control run continuously under permit limits.",
-      "why_this_business": "Waste to energy and incineration facilities operate under strict emissions permits with continuous emissions monitoring for parameters including dioxins, mercury, and particulates. Combustion temperature and residence time are permit conditions, and air pollution control equipment is controlled automatically.",
-      "loss_scenario": "Emissions exceedances reported and penalised, with a facility that cannot demonstrate compliant combustion required to cease accepting waste until resolved, and community and regulatory reaction that is immediate.",
-      "rhetorical_question": "What are your permit consequences for a period of unmonitored emissions?"
+      "headline": "Combustion control determines emissions and safety.",
+      "points": [
+        "Temperature, air, and feed are controlled continuously.",
+        "Loss of control produces emissions exceedances and unsafe conditions.",
+        "Continuous monitoring reports directly to regulators."
+      ],
+      "rhetorical_question": "What automated controls hold combustion within permitted limits?"
     },
     {
       "rank": 2,
-      "headline": "Waste receipt cannot stop because the region has nowhere else to send it.",
-      "why_this_business": "Combustion facilities serve municipal contracts with guaranteed tonnage and are frequently the primary disposal outlet for a region. Waste continues to be collected whether or not the facility can receive it.",
-      "loss_scenario": "Regional waste backing up with no alternative capacity, contractual failure on put-or-pay municipal agreements, and emergency diversion costs that fall on the facility.",
-      "rhetorical_question": "Where does the waste go if your facility cannot accept deliveries for a week?"
+      "headline": "Emissions monitoring is continuous and reported.",
+      "points": [
+        "Continuous monitors record and report emissions automatically.",
+        "Reported data determines compliance.",
+        "Gaps or corrupted data are treated as exceedances."
+      ],
+      "rhetorical_question": "How is your continuous emissions monitoring data recorded and reported?"
     },
     {
       "rank": 3,
-      "headline": "Energy generation and grid interconnection add obligations.",
-      "why_this_business": "Waste to energy facilities sell power under agreements with availability obligations and interconnection requirements, and larger units may fall within bulk electric system reliability standards. Output is metered and settled.",
-      "loss_scenario": "Failure to deliver contracted power alongside the waste disposal failure, with two sets of contractual damages arising from a single incident.",
-      "rhetorical_question": "Do you sell power under an agreement with availability or capacity obligations?"
+      "headline": "Waste receiving cannot stop.",
+      "points": [
+        "Waste arrives continuously from collection operations.",
+        "The facility is the destination for a whole area's waste.",
+        "A shutdown backs waste up across every collection route."
+      ],
+      "rhetorical_question": "What collection operations depend on your facility receiving waste?"
     }
   ]
 }

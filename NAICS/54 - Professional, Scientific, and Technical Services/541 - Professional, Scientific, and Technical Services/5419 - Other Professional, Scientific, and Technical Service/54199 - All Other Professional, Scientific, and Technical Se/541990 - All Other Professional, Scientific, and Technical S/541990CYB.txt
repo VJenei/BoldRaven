@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Professional practices hold client material under duties of confidence.",
-      "why_this_business": "Firms in this category advise clients and hold the information required to do so, frequently under contractual confidentiality obligations and sometimes professional duties. The information is provided specifically because the client needs expert help with it.",
-      "loss_scenario": "Disclosure of client confidential material with liability defined by engagement terms rather than fees, and in a referral-driven professional market the reputational consequence outlasts the financial one.",
-      "rhetorical_question": "What confidentiality obligations do your client engagement terms impose?"
+      "headline": "You hold client confidential information.",
+      "points": [
+        "Client business, technical, and personal data is held for the engagement.",
+        "Clients disclose it because the work requires it.",
+        "Their obligations follow the data to you."
+      ],
+      "rhetorical_question": "What client confidential data is stored on your systems?"
     },
     {
       "rank": 2,
-      "headline": "Work product is the deliverable and it exists only digitally.",
-      "why_this_business": "Professional services produce analyses, reports, and technical deliverables representing the accumulated work of an engagement. Work in progress across multiple engagements sits on firm systems at any moment.",
-      "loss_scenario": "Loss of work in progress requires redoing engagements at the firm's cost, and clients whose deadlines are missed claim the consequences of the delay.",
-      "rhetorical_question": "How much unbilled work in progress is on your systems right now?"
+      "headline": "Deliverables are due against client deadlines.",
+      "points": [
+        "Work is due against project, regulatory, and commercial deadlines.",
+        "Clients commit resources around those dates.",
+        "A missed date delays their whole sequence."
+      ],
+      "rhetorical_question": "What client activity is waiting on your deliverables?"
     },
     {
       "rank": 3,
-      "headline": "Small professional firms carry concentrated risk with minimal defences.",
-      "why_this_business": "Practices in this category are typically small, with client files, financial records, and communications on a handful of systems, no dedicated IT function, and frequently no tested backup or incident response plan.",
-      "loss_scenario": "Simultaneous loss of client work, billing records, and communications, in a firm with no capacity to fund forensic investigation, notification, or the recovery of every client engagement at once.",
-      "rhetorical_question": "Who would you call in the first hour if your firm's systems were encrypted?"
+      "headline": "Clients assess your controls before engaging.",
+      "points": [
+        "Larger clients require documented security before granting access.",
+        "Those assessments are a condition of engagement.",
+        "Failing removes you from the client list entirely."
+      ],
+      "rhetorical_question": "What security assessments do your clients require before engagement?"
     }
   ]
 }

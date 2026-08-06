@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Instruction businesses hold participant and payment data.",
-      "why_this_business": "Schools in this category enrol participants including minors, holding contact details, emergency information, medical disclosures where relevant, signed waivers, and recurring payment methods.",
-      "loss_scenario": "Breach notification across participants and, where minors are involved, a reaction from parents and any partner organisations that is disproportionate to the size of the business.",
-      "rhetorical_question": "Do you enrol minors, and what information do you hold about them?"
+      "headline": "Student records hold personal data, often on minors.",
+      "points": [
+        "Records carry names, contact details, payment information, and sometimes medical data.",
+        "Many programmes serve children.",
+        "Every affected student or family must be notified."
+      ],
+      "rhetorical_question": "What student and parent data do you store?"
     },
     {
       "rank": 2,
-      "headline": "Scheduling and enrolment systems run the operation.",
-      "why_this_business": "Class scheduling, instructor assignment, enrolment, and billing run through a single platform, with participants booked into dated sessions and courses. Instructors and facilities are committed against that schedule.",
-      "loss_scenario": "Sessions that cannot be run or attended with instructors and facilities already committed, and enrolment records lost so that participants cannot be contacted.",
-      "rhetorical_question": "How would you contact enrolled participants if your system were unavailable?"
+      "headline": "Scheduling runs classes, instructors, and facilities.",
+      "points": [
+        "Class schedules, assignments, and bookings run on connected systems.",
+        "Students and families arrange around those times.",
+        "A scheduling failure cancels instruction across the programme."
+      ],
+      "rhetorical_question": "How are your class schedules and instructor assignments managed?"
     },
     {
       "rank": 3,
-      "headline": "Certification and completion records support participants' credentials.",
-      "why_this_business": "Many programmes issue certificates of completion relied on by employers, licensing bodies, or insurers. Verification requests arrive years after attendance.",
-      "loss_scenario": "Inability to verify a former participant's completion, with the participant unable to demonstrate a credential they earned and paid for.",
-      "rhetorical_question": "How long do you retain completion records for verification requests?"
+      "headline": "Course content and materials are your product.",
+      "points": [
+        "Curriculum and materials represent the development investment.",
+        "Content that leaks is content competitors can deliver.",
+        "Recreating it means redoing the development."
+      ],
+      "rhetorical_question": "Where is your course content and material stored?"
     }
   ]
 }

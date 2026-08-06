@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Consumer products carry CPSC reporting and recall duties.",
-      "why_this_business": "Products sold to consumers fall under CPSC jurisdiction with a 24 hour reporting obligation once information about a potential hazard is known, and recall reach depends on distribution records.",
-      "loss_scenario": "A recall that must cover all production because distribution records cannot identify affected lots, with civil penalties added where reporting was late.",
+      "headline": "Consumer products carry recall and reporting duties.",
+      "points": [
+        "Reporting obligations apply once a potential hazard is known.",
+        "Recall reach depends entirely on distribution records.",
+        "Without records the recall covers all production in the period."
+      ],
       "rhetorical_question": "Could you identify which retailers received a specific production run?"
     },
     {
       "rank": 2,
-      "headline": "Products are made to customer specifications with dedicated tooling.",
-      "why_this_business": "Manufacturing in this category is frequently to individual customer designs with tooling, formulations, and processes specific to each product. Customers have no alternative source without new tooling.",
-      "loss_scenario": "Production halted with customers unable to obtain products only you make, and their own sales or production stopped for as long as it takes to tool elsewhere.",
+      "headline": "Products are made to customer specification with dedicated tooling.",
+      "points": [
+        "Tooling, formulations, and processes are specific to each customer product.",
+        "Customers have no alternative source without new tooling.",
+        "Their own sales or production stop until it exists."
+      ],
       "rhetorical_question": "How many customer products are made only with your tooling?"
     },
     {
       "rank": 3,
       "headline": "Production runs from digital data to automated equipment.",
-      "why_this_business": "Manufacturing runs from product data through automated moulding, machining, and assembly, with formulations, programmes, and settings held in production systems.",
-      "loss_scenario": "Production data lost or corrupted, with runs produced to wrong parameters scrapped and specifications requiring reconstruction while customer delivery dates pass.",
+      "points": [
+        "Moulding, machining, and assembly run from stored product data.",
+        "Errors are reproduced across the whole run.",
+        "Customer delivery dates pass while specifications are rebuilt."
+      ],
       "rhetorical_question": "Where are your production specifications and machine programmes stored?"
     }
   ]

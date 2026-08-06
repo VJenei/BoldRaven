@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Rendered products enter the feed chain with prohibited material rules.",
-      "why_this_business": "FDA rules prohibit certain mammalian protein in ruminant feed to prevent BSE transmission, requiring segregation, labelling, and records demonstrating that prohibited material did not enter ruminant feed. Renderers are the control point in that system.",
-      "loss_scenario": "FDA enforcement where segregation and labelling records cannot be produced, and prohibited material entering ruminant feed, which is a regulatory event with implications for the entire beef industry's disease status.",
-      "rhetorical_question": "How is prohibited material segregation documented in your operation?"
+      "headline": "Feed rules prohibit certain material in ruminant feed.",
+      "points": [
+        "Prohibited material must be separated, labelled, and recorded through the process.",
+        "Records establish that ruminant feed contains no prohibited protein.",
+        "A control failure is a federal violation with feed recalled downstream."
+      ],
+      "rhetorical_question": "How do you document separation of prohibited material from ruminant feed products?"
     },
     {
       "rank": 2,
-      "headline": "Continuous cooking and processing runs at high temperature.",
-      "why_this_business": "Rendering runs continuous cooking, pressing, and separation at high temperature, producing meal and fat products. The process is energy intensive and equipment operates under conditions where control failures cause fires and equipment damage.",
-      "loss_scenario": "Equipment fire or damage taking a continuous plant offline, with raw material arriving from slaughter plants that have no alternative outlet and cannot hold it.",
-      "rhetorical_question": "How much raw material arrives daily that must be processed within hours?"
+      "headline": "Continuous cooking and processing run on automated control.",
+      "points": [
+        "Cooking, pressing, and separation run continuously under process control.",
+        "Raw material arrives daily and cannot be held.",
+        "A plant stop backs up raw material that spoils quickly."
+      ],
+      "rhetorical_question": "How long can you hold incoming raw material before it becomes a problem?"
     },
     {
       "rank": 3,
-      "headline": "Collection routes serve customers with no alternative disposal.",
-      "why_this_business": "Renderers collect from slaughter plants, butchers, and restaurants on scheduled routes, taking material that has no other lawful disposal route at volume. Those customers cannot store it.",
-      "loss_scenario": "Collection routes stopping with material accumulating at customer sites, creating public health and odour problems and forcing customers to halt their own operations.",
-      "rhetorical_question": "What would your collection customers do with their material if you stopped collecting?"
+      "headline": "Your product is an ingredient in feed and industrial products.",
+      "points": [
+        "Meals and fats go into animal feed and industrial manufacturing.",
+        "A contamination or misidentification event follows the product downstream.",
+        "The recall covers feed already fed to animals."
+      ],
+      "rhetorical_question": "How many feed and industrial customers receive product from one production run?"
     }
   ]
 }

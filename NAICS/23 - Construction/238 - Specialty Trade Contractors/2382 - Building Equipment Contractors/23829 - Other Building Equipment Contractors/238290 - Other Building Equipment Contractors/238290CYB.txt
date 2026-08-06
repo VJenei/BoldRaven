@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Access control and security system installers hold the keys to their clients' buildings.",
-      "why_this_business": "This category includes access control, CCTV, elevator, and specialty equipment contractors. Access control installers hold credential databases, door schedules, and administrative access to systems that physically unlock buildings. Camera systems provide live views inside client premises.",
-      "loss_scenario": "A compromise providing physical access to client facilities, or exposure of camera systems, is a security breach for the client and for everyone in their building. This is direct third-party liability, not a data inconvenience.",
-      "rhetorical_question": "Do you retain administrative access to client access control or camera systems?"
+      "headline": "Equipment you install carries life safety functions.",
+      "points": [
+        "Elevators, alarms, and building equipment perform functions occupants depend on.",
+        "Configuration and testing records certify those functions work.",
+        "Equipment that fails its function fails during the emergency it exists for."
+      ],
+      "rhetorical_question": "What life safety equipment do you install, test, or maintain?"
     },
     {
       "rank": 2,
-      "headline": "Elevator and conveyance work is inspected and life safety critical.",
-      "why_this_business": "Elevator installation and service is governed by ASME A17.1 with state inspection, testing records, and maintenance control programme documentation required to keep the unit in service. Controllers are software driven and increasingly connected for remote monitoring.",
-      "loss_scenario": "A unit taken out of service for missing documentation, which in a high rise is a building-wide problem, and after an entrapment or injury the maintenance record is the first thing examined.",
-      "rhetorical_question": "Where is your maintenance control programme documentation kept for each unit?"
+      "headline": "Testing and inspection records are code compliance records.",
+      "points": [
+        "Periodic testing of installed equipment is required and documented.",
+        "Jurisdictions inspect those records and can take equipment out of service.",
+        "Missing test records mean the equipment is treated as untested."
+      ],
+      "rhetorical_question": "What periodic testing records do you maintain for installed equipment?"
     },
     {
       "rank": 3,
-      "headline": "Specialty equipment is commissioned to a configuration only you hold.",
-      "why_this_business": "Installed equipment is programmed and commissioned to a site-specific configuration, and the backup of that configuration frequently exists only on the contractor's laptop or server. The client cannot reproduce it from the manual.",
-      "loss_scenario": "After a controller failure the system cannot be restored to its commissioned state, requiring full recommissioning at the contractor's cost and leaving the client without the system in the meantime.",
-      "rhetorical_question": "Where are the commissioned configuration backups for systems you have installed?"
+      "headline": "Service dispatch and customer access run on one system.",
+      "points": [
+        "Service calls, entrapment calls, and technician dispatch run electronically.",
+        "You hold building access details for the sites you service.",
+        "A dispatch failure leaves people trapped or systems unmonitored."
+      ],
+      "rhetorical_question": "How are your service calls dispatched and building access recorded?"
     }
   ]
 }

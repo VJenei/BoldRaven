@@ -1,7 +1,6 @@
 {
   "naics_code": "111998",
   "naics_title": "All Other Miscellaneous Crop Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialty crops are sold direct to consumers with stored card data.",
-      "why_this_business": "This category includes maple syrup, hops, culinary herbs, sod, and other specialty crops, most of which have a direct-to-consumer channel with online storefronts and subscription orders. Card data and customer records are held on the operation's systems. PCI DSS 4.0 became mandatory on March 31, 2025 and added e-commerce script controls.",
-      "loss_scenario": "Card compromise with brand assessments, forensics, and notification across all states of customer residence.",
-      "rhetorical_question": "Do you sell direct to consumers online, and do you store customer payment information?"
+      "headline": "Specialty buyers settle by wire against emailed instructions.",
+      "points": [
+        "Small numbers of buyers pay by electronic transfer after delivery.",
+        "A faked banking change diverts an entire contract payment.",
+        "Losing one payment can be losing the season."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     },
     {
       "rank": 2,
-      "headline": "Maple sap collection depends on remote vacuum monitoring during a short season.",
-      "why_this_business": "Maple production uses vacuum tubing networks across thousands of taps with electronic vacuum monitoring, leak detection, and reverse osmosis concentration. The season is four to six weeks. A vacuum leak reduces yield across a section and cannot be found by walking the lines daily.",
-      "loss_scenario": "Undetected vacuum loss across a section for a week during a short season reduces sap yield with no opportunity to recover it that year.",
-      "rhetorical_question": "How many taps do you operate, and do you use electronic vacuum monitoring?"
+      "headline": "Specialty contracts pay for documented variety and handling.",
+      "points": [
+        "Buyers pay premiums for identity, organic status, or specific handling.",
+        "Field, input, and storage records are the proof.",
+        "Without records the crop sells at commodity price."
+      ],
+      "rhetorical_question": "Do any of your contracts require documented variety, organic status, or handling?"
     },
     {
       "rank": 3,
-      "headline": "Specialty premiums are conditional on contracts and certifications.",
-      "why_this_business": "Hops are sold on multi-year contracts specifying variety, alpha acid, and lot certification. Organic, kosher, and specialty certifications require continuously maintained auditable records. Premiums over commodity value depend on documentation available on request.",
-      "loss_scenario": "Loss of certification or contract standing converts premium product to commodity value across a production year, commonly a 40 to 70 percent price reduction.",
-      "rhetorical_question": "Do you hold organic or other certifications that require ongoing recordkeeping?"
+      "headline": "Harvest and post-harvest handling run on connected equipment.",
+      "points": [
+        "Harvesters, dryers, and storage monitoring are automated.",
+        "Crop condition changes within days once monitoring stops.",
+        "Product lost in storage is lost after all the cost is spent."
+      ],
+      "rhetorical_question": "Is your stored crop monitored by automated temperature or moisture systems?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Formaldehyde emission standards apply to composite wood products.",
-      "why_this_business": "Hardwood plywood is regulated under EPA formaldehyde emission standards requiring third-party certification, testing, labelling, and record retention. Non-compliant product cannot lawfully be sold or imported.",
-      "loss_scenario": "Product that cannot be certified is unsaleable and, if distributed, subject to enforcement and recall, with EPA penalties and the certification body's involvement.",
-      "rhetorical_question": "How do you maintain formaldehyde emission testing and certification records?"
+      "headline": "Formaldehyde emissions from panels are federally regulated.",
+      "points": [
+        "Composite panels must meet emission standards with certification and records.",
+        "Records must be retained and produced through the supply chain.",
+        "Non-compliant panels cannot lawfully be sold."
+      ],
+      "rhetorical_question": "How do you retain formaldehyde certification records for your panels?"
     },
     {
       "rank": 2,
-      "headline": "Veneer and lay-up production is programme driven.",
-      "why_this_business": "Veneer slicing, clipping, and composing, and panel lay-up follow specifications for grade, species, thickness, and construction. Panel construction determines structural and appearance performance.",
-      "loss_scenario": "Panels produced to wrong construction or grade, unsaleable at specification and sold as downgrade, on production runs representing substantial veneer and press time.",
-      "rhetorical_question": "How are panel construction specifications loaded into production?"
+      "headline": "Veneer flitches must be kept together and traceable.",
+      "points": [
+        "Sequence matched veneer is used together across an architectural installation.",
+        "Flitch records track which sheets belong together.",
+        "Losing flitch records makes matched veneer unusable for its purpose."
+      ],
+      "rhetorical_question": "How are your veneer flitch records tracked to customer orders?"
     },
     {
       "rank": 3,
-      "headline": "Hardwood species sourcing carries legality documentation.",
-      "why_this_business": "The Lacey Act prohibits trade in illegally harvested timber and requires import declarations of species and country of harvest, with due care expected. Hardwood species from certain regions attract particular scrutiny.",
-      "loss_scenario": "Lacey Act exposure including seizure and criminal penalties where species and origin cannot be documented, which in this industry has produced significant enforcement actions.",
-      "rhetorical_question": "Can you document species and harvest origin for your veneer supply?"
+      "headline": "Press and dryer parameters determine panel bond quality.",
+      "points": [
+        "Press time, temperature, and pressure determine whether the glue bond holds.",
+        "Parameters are recorded as evidence of conformance.",
+        "Delamination appears in service after the panel is installed."
+      ],
+      "rhetorical_question": "How are your press parameters recorded against panel production?"
     }
   ]
 }

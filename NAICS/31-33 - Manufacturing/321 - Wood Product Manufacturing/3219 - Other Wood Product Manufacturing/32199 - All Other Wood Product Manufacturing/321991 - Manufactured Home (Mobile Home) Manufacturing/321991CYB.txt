@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "HUD code compliance is verified by third-party inspection.",
-      "why_this_business": "Manufactured homes are built to the federal HUD code with design approval, in-plant inspection by a third-party agency, and a certification label affixed to each home. Homes cannot ship without the label.",
-      "loss_scenario": "Production halted where design approvals and inspection records cannot be produced, and homes already shipped without proper certification requiring correction in the field or recall.",
-      "rhetorical_question": "How are HUD design approvals and inspection records maintained?"
+      "headline": "Homes are built to a federal construction code with labels.",
+      "points": [
+        "Construction, safety, and energy requirements are federally set and inspected.",
+        "Each home carries a label certifying compliance.",
+        "Homes that do not conform must be corrected wherever they are sited."
+      ],
+      "rhetorical_question": "How are federal construction code records and labels controlled per home?"
     },
     {
       "rank": 2,
-      "headline": "Homes are built to order on a production line schedule.",
-      "why_this_business": "Each home is built to a specific customer order with floor plan, options, and finishes, moving down a production line on a fixed takt. Orders are sequenced and materials staged to match.",
-      "loss_scenario": "Line stoppage with homes in process across the plant and retailers and buyers waiting on committed delivery dates, on a line where restart requires resequencing every station.",
-      "rhetorical_question": "How many homes are in process on your line at any moment?"
+      "headline": "Every home is built to a specific buyer order.",
+      "points": [
+        "Floor plans, options, and finishes are selected per home before it enters the line.",
+        "Homes are built in sequence with no inventory buffer.",
+        "A wrong build is a home that does not match what was sold."
+      ],
+      "rhetorical_question": "How are buyer orders and option selections released into production?"
     },
     {
       "rank": 3,
-      "headline": "Buyer and financing information passes through the plant.",
-      "why_this_business": "Manufacturers coordinate with retailers and finance companies on orders tied to specific buyers, holding order and sometimes buyer information, with serial numbers and certification labels tracked for the life of the home.",
-      "loss_scenario": "Loss of production and certification records affecting warranty, recall, and title matters for homes already delivered, with records required decades later.",
-      "rhetorical_question": "How long do you retain production and certification records for homes you have built?"
+      "headline": "Buyer financial and personal files are held on site.",
+      "points": [
+        "Purchase agreements, credit applications, and identification are collected from buyers.",
+        "That file set supports identity theft on its own.",
+        "State law requires notification to every affected buyer."
+      ],
+      "rhetorical_question": "What buyer financial and identification records do you hold?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Brewing is a biological process running over days and weeks.",
-      "why_this_business": "Mashing, boiling, fermentation, and conditioning proceed over days with temperature, timing, and yeast management controlled throughout. Fermentation cannot be paused, and tank capacity is the constraint on production.",
-      "loss_scenario": "Batches lost in fermentation or conditioning, representing weeks of tank capacity and the ingredients in them, with a production schedule that cannot absorb the loss and customers expecting delivery.",
-      "rhetorical_question": "How many days does a batch occupy a fermentation tank?"
+      "headline": "Brewing is a timed biological process that cannot pause.",
+      "points": [
+        "Mashing, boiling, fermentation, and conditioning run to controlled schedules.",
+        "Fermentation runs for days and cannot be stopped or restarted.",
+        "A control failure ruins every tank in process at once."
+      ],
+      "rhetorical_question": "Is your brewhouse and fermentation run by automated process control?"
     },
     {
       "rank": 2,
-      "headline": "TTB reporting and excise tax depend on production records.",
-      "why_this_business": "Breweries operate under federal basic permits with excise tax calculated on removals, reported on regular returns, and records of production, transfers, and losses required and inspected by TTB.",
-      "loss_scenario": "Excise tax assessed on estimates during an audit where production and removal records cannot be produced, with penalties and interest, and permit exposure for recordkeeping failures.",
-      "rhetorical_question": "How are production and removal records maintained for TTB reporting?"
+      "headline": "Federal reporting and tax records are mandatory.",
+      "points": [
+        "Production, removal, and tax records are filed with federal regulators on schedule.",
+        "Records must be retained and produced on inspection.",
+        "Failures affect the permit that lets you operate."
+      ],
+      "rhetorical_question": "What federal production and tax records does your permit require?"
     },
     {
       "rank": 3,
-      "headline": "Distribution runs through a regulated three-tier system.",
-      "why_this_business": "Beer moves to wholesalers under franchise-protected territory agreements with depletion reporting, brand registration by state, and label approval requirements. Direct sales are limited by state law.",
-      "loss_scenario": "Inability to report depletions or manage wholesaler relationships, plus brand registration and label compliance failures that prevent lawful sale in specific states.",
-      "rhetorical_question": "In how many states are your brands registered, and how is that tracked?"
+      "headline": "Distribution and taproom sales both run on systems.",
+      "points": [
+        "Distributor orders and taproom point of sale run continuously.",
+        "Card payments are taken directly from consumers in the taproom.",
+        "A card breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your taproom point of sale handle card data?"
     }
   ]
 }

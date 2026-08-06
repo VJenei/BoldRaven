@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Aerial work operations depend on data collected for clients.",
-      "why_this_business": "Survey, photography, mapping, pipeline patrol, and inspection flights generate imagery and sensor data that is the client's deliverable and frequently describes critical infrastructure. That data is held on operator systems between flight and delivery.",
-      "loss_scenario": "Loss of collected data requires reflying the mission at operator cost, and disclosure of infrastructure imagery creates a security exposure for the client that cannot be undone.",
-      "rhetorical_question": "What client data do you hold between collection and delivery?"
+      "headline": "Flight release depends on connected systems.",
+      "points": [
+        "Flight planning, weight and balance, and release run electronically.",
+        "Aircraft cannot legally depart without a release.",
+        "Operations stop entirely, not partially."
+      ],
+      "rhetorical_question": "What systems must be running for an aircraft to be legally released?"
     },
     {
       "rank": 2,
-      "headline": "Air medical and emergency operations cannot be delayed.",
-      "why_this_business": "Operators in this category include air ambulance and emergency response, dispatched through communications centres coordinating with hospitals and ground services. Patient information and clinical records are held, making the operator a HIPAA covered entity.",
-      "loss_scenario": "A dispatch failure delays a patient transfer, which is a life safety event, and patient record exposure carries HIPAA notification and enforcement.",
-      "rhetorical_question": "Do you transport patients and hold clinical records?"
+      "headline": "Maintenance records determine airworthiness.",
+      "points": [
+        "Airworthiness depends on documented maintenance and inspection records.",
+        "Regulators inspect those records directly.",
+        "An aircraft without records cannot legally fly."
+      ],
+      "rhetorical_question": "How are your aircraft maintenance and inspection records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Maintenance and crew records determine whether aircraft can fly.",
-      "why_this_business": "Aircraft airworthiness depends on documented inspections, airworthiness directive compliance, component life tracking, and crew currency. Aircraft cannot legally fly with unverifiable status, and component times drive expensive overhaul decisions.",
-      "loss_scenario": "Aircraft grounded until records are reconstructed, which for component life tracking may require premature overhaul or replacement at very high cost.",
-      "rhetorical_question": "How are component times and airworthiness directive compliance tracked?"
+      "headline": "Missions are booked for a fixed time and place.",
+      "points": [
+        "Survey, medical, and utility flights are scheduled to specific windows.",
+        "Customers plan operations around that timing.",
+        "A missed window cannot be rescheduled cheaply."
+      ],
+      "rhetorical_question": "How are your flight bookings and mission schedules recorded?"
     }
   ]
 }

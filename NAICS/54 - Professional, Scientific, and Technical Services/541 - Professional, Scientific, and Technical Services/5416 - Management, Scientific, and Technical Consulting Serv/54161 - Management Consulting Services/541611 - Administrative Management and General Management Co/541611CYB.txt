@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold clients' strategy before it is announced.",
-      "why_this_business": "Management consultants receive financial models, restructuring plans, acquisition targets, and workforce reduction proposals before any of it is public. For listed clients that information is material and non-public.",
-      "loss_scenario": "Leaked strategic plans expose the client to securities issues, competitive damage, and workforce disruption, with claims against the consultant and permanent loss of a relationship built on discretion.",
-      "rhetorical_question": "Do you currently hold unannounced restructuring or transaction plans for any client?"
+      "headline": "You hold client strategy before it is announced.",
+      "points": [
+        "Strategy, restructuring, and transaction work exists before public disclosure.",
+        "That information moves markets and affects employees.",
+        "A leak damages the client and breaches your engagement terms."
+      ],
+      "rhetorical_question": "What client strategic information do you hold before announcement?"
     },
     {
       "rank": 2,
-      "headline": "Client operational data is provided in bulk to support the work.",
-      "why_this_business": "Engagements require access to financial systems, operational data, customer data, and employee information, frequently extracted in bulk and analysed on consultant systems rather than the client's.",
-      "loss_scenario": "A breach exposing client customer and employee data extracted for analysis, where the client bears the notification obligation and passes the cost and the blame to the consultant.",
-      "rhetorical_question": "What client data is currently held on your systems rather than theirs?"
+      "headline": "Client data arrives for analysis and stays.",
+      "points": [
+        "Financial, operational, and employee data is transferred for analysis.",
+        "That data covers the client's entire business.",
+        "Their regulatory obligations follow the data to you."
+      ],
+      "rhetorical_question": "What client business data is stored on your systems?"
     },
     {
       "rank": 3,
-      "headline": "Client contracts impose security obligations you must be able to meet.",
-      "why_this_business": "Consulting agreements with large clients include information security requirements, audit rights, and breach notification obligations, and clients in regulated sectors flow down their own regulatory requirements.",
-      "loss_scenario": "Contractual liability defined by the engagement terms rather than the fee, plus failed client security assessments that remove you from preferred supplier lists.",
-      "rhetorical_question": "What security standards do your client contracts require you to maintain?"
+      "headline": "Clients audit your controls before engaging.",
+      "points": [
+        "Large clients assess consultant security before granting access.",
+        "Those assessments are a condition of engagement.",
+        "Failing removes you from the client list entirely."
+      ],
+      "rhetorical_question": "What security assessments do your clients require before engagement?"
     }
   ]
 }

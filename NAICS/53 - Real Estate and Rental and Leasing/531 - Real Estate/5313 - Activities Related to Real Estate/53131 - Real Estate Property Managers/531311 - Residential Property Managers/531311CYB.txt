@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold owners' money in trust accounts and disburse it monthly.",
-      "why_this_business": "Property managers collect rent into trust accounts and disburse to owners and vendors on a monthly cycle, under state regulations requiring segregation, reconciliation, and audit. Owner banking details are held on file and change requests arrive by email.",
-      "loss_scenario": "Diverted owner distributions or vendor payments, with the manager liable to restore trust funds and facing licence action for trust account shortfalls regardless of cause.",
-      "rhetorical_question": "How are owner banking detail changes verified before a distribution is sent?"
+      "headline": "You hold tenant funds and owner money.",
+      "points": [
+        "Security deposits, rent, and owner distributions pass through your accounts.",
+        "Those funds are held in trust under state law.",
+        "A shortfall must be restored and affects your licence."
+      ],
+      "rhetorical_question": "How are trust account disbursements authorised and reconciled?"
     },
     {
       "rank": 2,
-      "headline": "Tenant files and payment data cover thousands of residents.",
-      "why_this_business": "Managers hold applications with Social Security numbers, screening reports, lease documents, and stored payment methods for residents across many properties and owners. Screening reports are consumer reports subject to Fair Credit Reporting Act handling and disposal requirements.",
-      "loss_scenario": "Breach notification across residents at every managed property simultaneously, plus FCRA exposure for consumer report data, with owners holding the manager responsible under the management agreement.",
-      "rhetorical_question": "How many residents' files across how many properties are held in your system?"
+      "headline": "Tenant files hold everything needed for identity theft.",
+      "points": [
+        "Applications carry social security numbers, income, and bank details.",
+        "Background and credit checks add more.",
+        "Every affected tenant and applicant must be notified."
+      ],
+      "rhetorical_question": "How many tenant applications and files do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Maintenance access means keys and codes to occupied homes.",
-      "why_this_business": "Managers hold keys, access codes, and alarm information for units, coordinate vendor entry, and increasingly administer smart locks. Work order systems record when residents will not be home.",
-      "loss_scenario": "Unauthorised entry to residents' homes using access information from your systems, which is a physical safety exposure and a direct claim against the manager and the owner.",
-      "rhetorical_question": "Does your system hold access codes or smart lock control for occupied units?"
+      "headline": "Maintenance dispatch is a habitability obligation.",
+      "points": [
+        "Repair requests are received and dispatched to vendors electronically.",
+        "Habitability issues carry legal deadlines in most states.",
+        "Tenants without heat or water have legal remedies immediately."
+      ],
+      "rhetorical_question": "How are maintenance requests received and dispatched?"
     }
   ]
 }

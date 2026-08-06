@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Biologics manufacturing is living, continuous, and unforgiving.",
-      "why_this_business": "Cell culture and fermentation processes run for weeks under controlled temperature, pH, dissolved oxygen, and feed conditions. The culture is alive, cannot be paused, and a control excursion loses the batch and everything invested in it.",
-      "loss_scenario": "A batch lost representing weeks of bioreactor time and material, with batches for biologics frequently worth millions and capacity booked months ahead so the slot cannot be recovered.",
-      "rhetorical_question": "What is the value and duration of a single bioreactor campaign?"
+      "headline": "Living cultures cannot be paused or restarted.",
+      "points": [
+        "Fermentation and cell culture run for days or weeks under continuous control.",
+        "Temperature, pH, and feed control determine whether the batch survives.",
+        "A control failure kills the culture and the batch is gone."
+      ],
+      "rhetorical_question": "Are your bioreactors run by automated control with alarms?"
     },
     {
       "rank": 2,
-      "headline": "Contamination in sterile manufacture reaches patients directly.",
-      "why_this_business": "Biologics and vaccines are administered by injection with sterility assurance depending on aseptic processing, environmental monitoring, and validated sterilisation. Contamination in a sterile product causes serious harm or death.",
-      "loss_scenario": "Contaminated product administered to patients, with deaths, recall, and regulatory and criminal investigation, which in compounding and sterile manufacture has produced prison sentences.",
-      "rhetorical_question": "How is environmental monitoring in your aseptic areas recorded and trended?"
+      "headline": "Sterility and contamination control decide whether product ships.",
+      "points": [
+        "Aseptic processing, environmental monitoring, and testing establish sterility.",
+        "Contamination in a biological product injected into a patient is life threatening.",
+        "A contaminated batch is lost and the investigation stops production."
+      ],
+      "rhetorical_question": "What environmental monitoring and sterility records do you maintain?"
     },
     {
       "rank": 3,
-      "headline": "Process and cell line data is the product's entire value.",
-      "why_this_business": "Biologics processes, cell lines, and manufacturing know-how represent the substantial majority of a biologic's development investment and are extremely difficult to replicate. Process data is a priority target for state-sponsored collection.",
-      "loss_scenario": "Theft of process and cell line data transferring years of development to a competitor or foreign programme, with no recoverable damages and the competitive position permanently lost.",
-      "rhetorical_question": "How is your process development and cell line data protected?"
+      "headline": "Batch records are inspected and their integrity matters.",
+      "points": [
+        "Manufacturing, testing, and release records are required for every batch.",
+        "Regulators inspect those records and rely on their integrity.",
+        "Data integrity findings stop production and block approvals."
+      ],
+      "rhetorical_question": "How are your electronic batch records controlled and audit trailed?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Case files document child abuse, neglect, and family circumstances.",
-      "why_this_business": "Child welfare and youth service organisations hold case records covering abuse allegations, family circumstances, court involvement, placement history, and therapeutic assessments for identified children. State laws impose strict confidentiality on child protective records.",
-      "loss_scenario": "Exposure of abuse allegations and placement information for identified children creates direct safety risk where offenders or estranged family members learn locations, and statutory confidentiality breaches carry their own penalties.",
-      "rhetorical_question": "Do your records identify children's placement locations and the circumstances of their removal?"
+      "headline": "Records concern children and their families.",
+      "points": [
+        "Case records carry family circumstances, abuse allegations, and placement history.",
+        "That information is confidential by statute in most states.",
+        "Disclosure endangers children and destroys family privacy."
+      ],
+      "rhetorical_question": "How many child and family case records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Placement and safety information locates vulnerable children.",
-      "why_this_business": "Foster placement, shelter, and residential records identify where a child is living, frequently in circumstances where that location is deliberately withheld from a parent or other party. Safety plans exist precisely because someone poses a risk.",
-      "loss_scenario": "Disclosure of a child's placement to a person the placement was designed to protect them from, which is a direct physical safety event with consequences no remediation addresses.",
-      "rhetorical_question": "Are any of your placements confidential from a parent or other identified person?"
+      "headline": "Case management runs on connected systems.",
+      "points": [
+        "Case notes, placements, and service plans run electronically.",
+        "Workers make placement and safety decisions from those records.",
+        "Decisions made without them put children at risk."
+      ],
+      "rhetorical_question": "How are case records and service plans maintained?"
     },
     {
       "rank": 3,
-      "headline": "Staff screening and training records are legally required.",
-      "why_this_business": "Organisations working with children must document background checks, fingerprinting, mandated reporter training, and ongoing suitability for every staff member and volunteer, examined during licensing review and after any allegation.",
-      "loss_scenario": "Licensing action where screening cannot be evidenced, and after any allegation of harm the absence of screening records is devastating in litigation and in the public response.",
-      "rhetorical_question": "How do you evidence that every adult in contact with children was properly screened?"
+      "headline": "Placement and safety decisions cannot wait.",
+      "points": [
+        "Children require placement and services on urgent timelines.",
+        "Court and statutory deadlines apply to many decisions.",
+        "A delay leaves a child unplaced or unsupported."
+      ],
+      "rhetorical_question": "What statutory and court deadlines govern your placement decisions?"
     }
   ]
 }

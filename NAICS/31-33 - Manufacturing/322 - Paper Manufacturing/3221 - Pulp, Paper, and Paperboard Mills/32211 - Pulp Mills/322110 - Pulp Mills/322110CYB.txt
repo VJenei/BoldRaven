@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pulping is a continuous chemical process that cannot be stopped safely.",
-      "why_this_business": "Digesters, recovery boilers, and causticizing run continuously under distributed control at high temperature and pressure. Recovery boilers in particular carry smelt-water explosion risk that is managed by monitoring and interlocks, and shutdowns and startups are the highest risk periods.",
-      "loss_scenario": "A recovery boiler explosion is among the most destructive incidents in industry, destroying the boiler and adjacent structures with fatalities and a rebuild measured in years, during which the mill cannot operate.",
-      "rhetorical_question": "How are your recovery boiler safety interlocks and monitoring protected?"
+      "headline": "The mill is a continuous chemical process that cannot stop cleanly.",
+      "points": [
+        "Digesters, recovery boilers, and bleaching run as one continuous controlled process.",
+        "Restart after an unplanned stop takes days.",
+        "The mill runs at extremely high fixed cost per hour."
+      ],
+      "rhetorical_question": "What does a day of unplanned downtime cost at your mill?"
     },
     {
       "rank": 2,
-      "headline": "Air and water permits are enforced continuously.",
-      "why_this_business": "Pulp mills operate under air permits with continuous emissions monitoring and water discharge permits with monitoring and reporting. Odour and effluent are politically sensitive in mill communities.",
-      "loss_scenario": "Permit exceedances reported and penalised per day per parameter, plus community and regulatory reaction to visible emissions and effluent events that persists well beyond the technical incident.",
-      "rhetorical_question": "What continuous monitoring does your air permit require?"
+      "headline": "Recovery boilers explode when control is lost.",
+      "points": [
+        "Recovery boilers concentrate and burn black liquor at high temperature.",
+        "Water contacting molten smelt causes a violent explosion.",
+        "Recovery boiler explosions have destroyed mills and killed workers."
+      ],
+      "rhetorical_question": "How are your recovery boiler safety systems monitored and interlocked?"
     },
     {
       "rank": 3,
-      "headline": "Downstream paper mills depend on continuous pulp supply.",
-      "why_this_business": "Integrated and market pulp supplies paper machines that run continuously with limited storage. A pulp interruption stops paper machines, which cannot simply be restarted quickly.",
-      "loss_scenario": "Paper machines down for want of pulp, with the interruption propagating through integrated operations and market customers who have limited alternative supply.",
-      "rhetorical_question": "How many days of pulp storage exist between your mill and the paper machines it supplies?"
+      "headline": "Environmental permits require continuous monitoring and reporting.",
+      "points": [
+        "Air and water discharge are monitored continuously and reported to regulators.",
+        "Reported data determines compliance.",
+        "Gaps or corrupted data are treated as exceedances."
+      ],
+      "rhetorical_question": "How is your environmental monitoring data recorded and reported?"
     }
   ]
 }

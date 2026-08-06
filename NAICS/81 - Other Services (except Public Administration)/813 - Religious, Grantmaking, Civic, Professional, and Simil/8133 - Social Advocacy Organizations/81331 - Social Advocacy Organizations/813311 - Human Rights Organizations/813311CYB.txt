@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your records can put people in physical danger.",
-      "why_this_business": "Human rights organisations hold identities of activists, witnesses, victims, and sources, frequently in countries where that information leads to arrest, violence, or death. Documentation of abuses identifies both the people who reported them and those they reported.",
-      "loss_scenario": "Exposure of source and witness identities leading to imprisonment or death. This is one of the few sectors where a data breach can directly and foreseeably kill someone, and no remediation addresses it.",
-      "rhetorical_question": "Would exposure of your records put any individual at risk of arrest or violence?"
+      "headline": "Your data can get people killed.",
+      "points": [
+        "Records identify activists, witnesses, and vulnerable individuals.",
+        "State actors target human rights organisations specifically for that data.",
+        "Exposure leads to arrest, violence, and worse for those named."
+      ],
+      "rhetorical_question": "What data do you hold that identifies people at risk?"
     },
     {
       "rank": 2,
-      "headline": "State actors target this sector specifically.",
-      "why_this_business": "Human rights organisations are documented targets of state-sponsored surveillance, including commercial spyware deployed against staff devices. The objective is identification of sources and disruption of the work, not financial gain.",
-      "loss_scenario": "A state actor obtaining source lists and internal communications, which cannot be negotiated with, cannot be recovered from, and produces consequences for individuals in the field rather than for the organisation's balance sheet.",
-      "rhetorical_question": "Has your organisation or its staff been targeted by state-linked surveillance?"
+      "headline": "You are a target for state-linked actors.",
+      "points": [
+        "Organisations working on human rights are targeted by state intrusion campaigns.",
+        "The objective is identifying sources and disrupting work.",
+        "The threat is sophisticated and persistent."
+      ],
+      "rhetorical_question": "What controls protect your communications and source data?"
     },
     {
       "rank": 3,
-      "headline": "Staff and field workers are exposed personally.",
-      "why_this_business": "Organisations hold staff and field worker identities, locations, travel plans, and communications, with personnel operating in hostile environments where their affiliation is itself dangerous.",
-      "loss_scenario": "Exposure of staff identities and locations in hostile environments, creating direct personal risk to employees and to the local partners who work with them.",
-      "rhetorical_question": "Do you have staff or partners operating in environments where exposure of their affiliation is dangerous?"
+      "headline": "Donor and member data is also sensitive.",
+      "points": [
+        "Supporter records identify people who fund contentious work.",
+        "In some contexts supporting your cause carries personal risk.",
+        "Every affected supporter must be notified."
+      ],
+      "rhetorical_question": "What donor and member records do you hold?"
     }
   ]
 }

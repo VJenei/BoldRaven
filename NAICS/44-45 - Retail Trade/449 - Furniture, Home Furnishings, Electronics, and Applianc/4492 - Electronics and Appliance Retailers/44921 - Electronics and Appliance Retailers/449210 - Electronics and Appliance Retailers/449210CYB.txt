@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Serialised high value inventory is a persistent theft and fraud target.",
-      "why_this_business": "Televisions, computers, and appliances are high value, serialised, and instantly resaleable. Organised retail crime targets this category specifically, and inventory systems record what is on hand, in transit, and reserved for pickup.",
-      "loss_scenario": "Theft informed by inventory and pickup data, plus fraudulent order and pickup schemes where goods are released against compromised customer accounts.",
-      "rhetorical_question": "How are online orders verified before goods are released for in-store pickup?"
+      "headline": "Card payments run continuously at every register.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply across every store.",
+        "Electronics retail breaches have reached tens of millions of cards."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Installation and delivery reach inside customers' homes and networks.",
-      "why_this_business": "Retailers install appliances and configure connected devices, televisions, and networking equipment in customers' homes, with technicians holding customer contact details, addresses, access arrangements, and sometimes network credentials.",
-      "loss_scenario": "A breach exposing customer addresses, scheduled delivery times, and details of the high value equipment installed, which is a targeting list for residential burglary.",
-      "rhetorical_question": "Do your technicians record home access details or network credentials?"
+      "headline": "Delivery and installation are scheduled appointments.",
+      "points": [
+        "Appliance delivery and installation are booked into customer homes.",
+        "Customers take time off and old appliances are already removed.",
+        "A lost schedule leaves customers without a working appliance."
+      ],
+      "rhetorical_question": "How are your delivery and installation appointments recorded?"
     },
     {
       "rank": 3,
-      "headline": "Extended warranty and protection plans create long-lived customer records.",
-      "why_this_business": "Protection plans are sold at the register and administered for years afterward, tying customer identity, payment details, and product serial numbers together in a record retained well beyond the sale.",
-      "loss_scenario": "A breach of long-retained plan records exposes customers who bought years ago and have no current relationship with the store, expanding notification far beyond active customers.",
-      "rhetorical_question": "How many years of protection plan customer records do you retain?"
+      "headline": "High value portable inventory moves quickly.",
+      "points": [
+        "Electronics carry high value in small volume.",
+        "Inventory records are the only control over shrinkage.",
+        "Diverted stock is resold within days."
+      ],
+      "rhetorical_question": "How frequently is your high value inventory reconciled against records?"
     }
   ]
 }

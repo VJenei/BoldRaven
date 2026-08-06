@@ -20,13 +20,16 @@
   }
 
   // Known reason fields, rendered in this order. Anything else in the schema
-  // is still rendered, after these, with an auto-generated label.
+  // is still rendered, after these, with an auto-generated label. A list value
+  // becomes bullets and shows no label, so 'points' carries none.
   var FIELD_LABELS = {
+    points: '',
     why_this_business: 'WHY',
     loss_scenario: 'LOSS',
     rhetorical_question: 'ASK'
   };
-  var FIELD_ORDER = ['why_this_business', 'loss_scenario', 'rhetorical_question'];
+  var FIELD_ORDER = ['points', 'why_this_business', 'loss_scenario',
+                     'rhetorical_question'];
   var REASON_SKIP = { rank: true, headline: true };
   var POLICY_SKIP = { naics_code: true, naics_title: true, sector: true, policy: true };
 
@@ -54,7 +57,7 @@
   }
 
   function labelFor(key) {
-    if (FIELD_LABELS[key]) return FIELD_LABELS[key];
+    if (FIELD_LABELS[key] !== undefined) return FIELD_LABELS[key];
     return key.replace(/_/g, ' ').toUpperCase();
   }
 
@@ -81,6 +84,9 @@
 
   /* ---------------------------------------------------------------- render */
 
+  // A list value becomes a bullet list; a scalar becomes a labelled row.
+  // Blocks are appended in field order, so consecutive scalars share one <dl>
+  // and a list breaks out of it.
   function renderReason(reason, position) {
     var item = el('li', 'reason');
 
@@ -89,28 +95,51 @@
     head.appendChild(el('h3', null, reason.headline !== undefined ? reason.headline : ''));
     item.appendChild(head);
 
-    var list = el('dl', 'fields');
+    var ordered = [];
     var seen = Object.create(null);
-    var key;
+    var i, key;
 
-    for (var i = 0; i < FIELD_ORDER.length; i++) {
+    for (i = 0; i < FIELD_ORDER.length; i++) {
       key = FIELD_ORDER[i];
       seen[key] = true;
-      if (reason[key] === undefined || reason[key] === null || reason[key] === '') continue;
-      list.appendChild(el('dt', null, labelFor(key)));
-      list.appendChild(el('dd', null, String(reason[key])));
+      ordered.push(key);
     }
-
     for (key in reason) {
       if (seen[key] || REASON_SKIP[key]) continue;
-      var value = reason[key];
-      if (value === undefined || value === null || value === '') continue;
-      list.appendChild(el('dt', null, labelFor(key)));
-      list.appendChild(el('dd', null, isPlainObject(value) || Array.isArray(value)
-        ? JSON.stringify(value) : String(value)));
+      ordered.push(key);
     }
 
-    if (list.childNodes.length) item.appendChild(list);
+    var pending = null;
+
+    function flush() {
+      if (pending && pending.childNodes.length) item.appendChild(pending);
+      pending = null;
+    }
+
+    for (i = 0; i < ordered.length; i++) {
+      key = ordered[i];
+      var value = reason[key];
+      if (value === undefined || value === null || value === '') continue;
+
+      if (Array.isArray(value)) {
+        if (!value.length) continue;
+        flush();
+        var points = el('ul', 'points');
+        for (var j = 0; j < value.length; j++) {
+          if (value[j] === undefined || value[j] === null || value[j] === '') continue;
+          points.appendChild(el('li', null, String(value[j])));
+        }
+        if (points.childNodes.length) item.appendChild(points);
+        continue;
+      }
+
+      if (!pending) pending = el('dl', 'fields');
+      pending.appendChild(el('dt', null, labelFor(key)));
+      pending.appendChild(el('dd', null, isPlainObject(value)
+        ? JSON.stringify(value) : String(value)));
+    }
+    flush();
+
     return item;
   }
 

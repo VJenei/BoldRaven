@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Reservation platforms hold traveller identity and payment data.",
-      "why_this_business": "Reservation and arrangement services hold booking records with names, contact details, payment methods, and travel dates, frequently including passport information for international arrangements. Data is retained long after travel completes.",
-      "loss_scenario": "Breach notification across a traveller base spanning many jurisdictions, with payment data and identity documents exposed together.",
-      "rhetorical_question": "How many years of past booking records are retained in your systems?"
+      "headline": "You hold traveller identity and payment data.",
+      "points": [
+        "Bookings carry identity, passport, and payment card details.",
+        "Travel history shows where individuals go and when.",
+        "Every affected traveller must be notified."
+      ],
+      "rhetorical_question": "How many traveller records with identity and payment data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Bookings are dated and cannot be recreated after the date passes.",
-      "why_this_business": "Reservations are for specific dates and inventory, with suppliers holding space against confirmations. Once a departure or event date passes, the arrangement has no value and the traveller's plans have failed.",
-      "loss_scenario": "Unconfirmed bookings discovered when travellers arrive, with refunds, alternative arrangements, and claims for the value of what was missed.",
-      "rhetorical_question": "How are supplier confirmations recorded and verified before travel?"
+      "headline": "Bookings and confirmations run through your systems.",
+      "points": [
+        "Reservations and confirmations are made and issued electronically.",
+        "Travellers rely on those confirmations at check-in.",
+        "A booking that cannot be confirmed leaves someone stranded."
+      ],
+      "rhetorical_question": "How are your bookings made, confirmed, and recorded?"
     },
     {
       "rank": 3,
-      "headline": "Client funds pass through your accounts between booking and supplier payment.",
-      "why_this_business": "Arrangement services collect from travellers and pay suppliers on different schedules, holding funds in the interval. Payment instructions to suppliers and refunds to travellers are handled electronically.",
-      "loss_scenario": "Diverted supplier payments leaving bookings unpaid and travellers stranded, with the provider liable for both the diverted funds and the arrangements.",
-      "rhetorical_question": "How long do you hold traveller funds before paying suppliers?"
+      "headline": "Supplier payments move traveller money.",
+      "points": [
+        "Payments to suppliers are made with traveller funds in advance.",
+        "Fraudulent instructions divert those payments.",
+        "Travellers arrive to find no booking exists."
+      ],
+      "rhetorical_question": "How are supplier payment instructions verified before funds move?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Molten iron handling is the principal fatality hazard.",
-      "why_this_business": "Foundries melt and pour iron at around 1400 degrees Celsius, with ladles, pouring, and moulding lines handling molten metal near workers. Moisture in moulds, ladles, or charge material causes steam explosions.",
-      "loss_scenario": "A molten metal explosion or pour incident with worker fatalities and severe burns, investigated against the moisture control and handling procedures that should have prevented it.",
-      "rhetorical_question": "How is moisture controlled in charge material, ladles, and moulds?"
+      "headline": "Molten iron and moisture make steam explosions.",
+      "points": [
+        "Molten iron is poured into moulds that must be dry.",
+        "Moisture in a mould or ladle causes a violent eruption.",
+        "Foundry explosions have killed and severely burned workers."
+      ],
+      "rhetorical_question": "What controls ensure moulds and ladles are dry before pouring?"
     },
     {
       "rank": 2,
-      "headline": "Casting chemistry and process determine mechanical properties.",
-      "why_this_business": "Iron castings are produced to grades with specified tensile strength and microstructure, controlled by melt chemistry, inoculation, and cooling. Properties cannot be verified by inspection and are tested per heat.",
-      "loss_scenario": "Castings below grade entering automotive, pressure, and structural applications, where the deficiency appears as failure in service and traceability determines which castings must be located.",
-      "rhetorical_question": "How is melt chemistry and mechanical testing recorded against castings poured?"
+      "headline": "Castings go into safety critical components.",
+      "points": [
+        "Iron castings are used in vehicles, pressure parts, and machinery.",
+        "Internal defects are invisible without testing.",
+        "A defective casting fails under load in service."
+      ],
+      "rhetorical_question": "How are your chemistry, testing, and inspection records linked to castings?"
     },
     {
       "rank": 3,
-      "headline": "Customer tooling and patterns are held at the foundry.",
-      "why_this_business": "Foundries hold customer-owned patterns, core boxes, and tooling along with process parameters qualified for each casting. There is no alternative source without transferring tooling and requalifying.",
-      "loss_scenario": "Customer assembly lines stopped for want of castings, with automotive and industrial customers charging line-down costs and no alternative foundry tooled for the part.",
-      "rhetorical_question": "How many customer-owned patterns and qualified processes do you hold?"
+      "headline": "Patterns and moulding data are customer specific.",
+      "points": [
+        "Patterns and moulding parameters exist for each customer part.",
+        "Customers design their products around those castings.",
+        "No other foundry can pour without the pattern."
+      ],
+      "rhetorical_question": "How many customer patterns exist only at your foundry?"
     }
   ]
 }

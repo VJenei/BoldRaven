@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Vehicles are bought and sold by wire against titles you never physically hold.",
-      "why_this_business": "Wholesale vehicle transactions settle by wire or ACH, frequently through online auction platforms, with titles mailed separately days later. Buyers and sellers often deal remotely and repeatedly change payment instructions. Floor plan lenders fund purchases and expect payoff within days of sale.",
-      "loss_scenario": "A diverted payment on a load of vehicles runs $100,000 to $500,000. Floor plan payoff obligations continue regardless, and a curtailment failure with the lender puts the whole credit line at risk.",
-      "rhetorical_question": "How do you confirm wire instructions before releasing funds for a vehicle purchase?"
+      "headline": "Vehicles move on wires, and the wire goes once.",
+      "points": [
+        "Wholesale vehicle purchases settle by transfer at six and seven figures.",
+        "Banking instructions arrive and are changed by email.",
+        "The vehicles are gone before the fraud is discovered."
+      ],
+      "rhetorical_question": "How are changes to seller banking details verified before a purchase payment?"
     },
     {
       "rank": 2,
-      "headline": "Title and VIN records are the legal proof of ownership.",
-      "why_this_business": "Wholesalers track titles, manufacturer statements of origin, odometer disclosures, and lien releases against every unit in inventory. State dealer licensing requires records be retained and available for inspection. Title fraud and odometer rollback investigations run directly on these records.",
-      "loss_scenario": "Inability to produce title and odometer records during a state inspection puts the dealer licence at risk, and units without provable chain of title cannot be legally sold.",
-      "rhetorical_question": "How do you track titles and odometer disclosures for units in inventory?"
+      "headline": "Titles and floor plan financing run on your records.",
+      "points": [
+        "Title documents, lien releases, and floor plan borrowing are tracked electronically.",
+        "Lenders audit inventory against those records.",
+        "Vehicles that cannot be titled cannot be sold to anyone."
+      ],
+      "rhetorical_question": "How are your title documents and floor plan records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Floor plan lenders audit inventory against your records.",
-      "why_this_business": "Wholesale inventory is financed unit by unit under a floor plan facility, with lenders performing physical audits against your reported stock and requiring payoff within a set number of days after sale. Discrepancies are treated as sold out of trust, which is a serious credit event.",
-      "loss_scenario": "An audit you cannot support with accurate inventory and payoff records triggers suspension of the floor plan line, which stops the ability to buy inventory and effectively stops the business.",
-      "rhetorical_question": "How often does your floor plan lender audit your inventory records?"
+      "headline": "Inventory turns on daily market pricing.",
+      "points": [
+        "Vehicles are bought, priced, and listed through auction and inventory systems.",
+        "Values move daily and holding cost accrues on every unit.",
+        "Inventory you cannot list is inventory depreciating in the lot."
+      ],
+      "rhetorical_question": "How do you list and price inventory across auction and wholesale channels?"
     }
   ]
 }

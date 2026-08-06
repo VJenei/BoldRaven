@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Powdered dairy has caused large salmonella outbreaks including in infant formula.",
-      "why_this_business": "Dry dairy powders including milk powder and infant formula bases are low moisture products where salmonella and Cronobacter survive for long periods. Infant formula contamination has produced recalls, illness, and death in infants, with congressional and FDA scrutiny.",
-      "loss_scenario": "A recall of powdered product with long shelf life distributed globally, with infant illness or death where formula is involved, and regulatory and criminal exposure at the highest level of severity.",
-      "rhetorical_question": "Do you produce powders used in infant or medical nutrition?"
+      "headline": "Powdered dairy carries salmonella risk that survives for years.",
+      "points": [
+        "Salmonella survives in dry powder and dry plant environments indefinitely.",
+        "Environmental monitoring in the dryer environment is closely inspected.",
+        "Infant formula and powder recalls have been national events."
+      ],
+      "rhetorical_question": "What environmental monitoring records do you keep for your dryer environment?"
     },
     {
       "rank": 2,
-      "headline": "Spray drying is continuous, energy intensive, and control dependent.",
-      "why_this_business": "Evaporation and spray drying run continuously with feed concentration, inlet and outlet temperature, and powder moisture controlled throughout. Dryer fires and product outside moisture specification are both consequences of losing control.",
-      "loss_scenario": "A dryer fire destroying the tower with months of rebuild time, or off-specification powder produced continuously until detected, on a product where moisture determines shelf stability.",
-      "rhetorical_question": "How is dryer outlet temperature and powder moisture controlled?"
+      "headline": "Spray drying runs continuously under process control.",
+      "points": [
+        "Evaporation and spray drying run to controlled temperature and moisture targets.",
+        "Product above target moisture supports microbial growth.",
+        "A control failure produces unstable product across the whole run."
+      ],
+      "rhetorical_question": "How are your drying parameters and finished moisture recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Powder is an ingredient in a very wide range of products.",
-      "why_this_business": "Dairy powders are supplied to bakery, confectionery, beverage, and nutrition manufacturers who incorporate them into finished products distributed further. Contamination propagates through every downstream product.",
-      "loss_scenario": "A recall cascading through customers' finished goods, with claims from every manufacturer whose products contained the affected lots and a recall scope determined by your traceability records.",
-      "rhetorical_question": "How many downstream manufacturers could be affected by one contaminated powder lot?"
+      "headline": "Powder is an ingredient shipped worldwide.",
+      "points": [
+        "Dairy powders go into food manufacturing and export markets.",
+        "One lot reaches many customers across many countries.",
+        "A contamination event follows the powder into every product."
+      ],
+      "rhetorical_question": "How many customers could receive product from a single production lot?"
     }
   ]
 }

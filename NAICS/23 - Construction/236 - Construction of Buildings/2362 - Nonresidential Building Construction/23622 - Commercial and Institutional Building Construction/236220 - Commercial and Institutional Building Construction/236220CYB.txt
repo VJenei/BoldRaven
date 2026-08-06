@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "General contractors sit at the centre of the money and are targeted there.",
-      "why_this_business": "A general contractor receives owner payments and disburses to dozens of subcontractors and suppliers every month, with lien waivers, joint check agreements, and bank detail changes flowing constantly by email. The volume of legitimate payment changes is exactly what makes a fraudulent one invisible.",
-      "loss_scenario": "Diverted subcontractor payments of $100,000 to $2M per event. The subcontractor remains unpaid, files a lien against the owner's property, and the general contractor pays twice while in breach of the prime contract.",
-      "rhetorical_question": "How many subcontractor payments does your office release in a typical month?"
+      "headline": "Pay applications and draws move seven figures monthly.",
+      "points": [
+        "Payment applications settle large sums to many subcontractors each month.",
+        "Banking details arrive and change by email across dozens of vendors.",
+        "One diverted payment must be funded twice."
+      ],
+      "rhetorical_question": "How are changes to subcontractor banking details verified before payment?"
     },
     {
       "rank": 2,
-      "headline": "The project runs on a cloud platform that holds everything.",
-      "why_this_business": "Procore, Autodesk Construction Cloud, or a similar platform holds drawings, submittals, RFIs, daily logs, photographs, safety records, and the schedule. Every party on the project works from it. Access is granted to subcontractors, architects, engineers, and the owner, which is a very large set of credentials.",
-      "loss_scenario": "Loss of access to the current drawing set and RFI log stops field work, and the daily logs and photographs that defend against later delay and defect claims are the exact records that disappear.",
-      "rhetorical_question": "How many external users have access to your project management platform?"
+      "headline": "Coordinated models drive fabrication for every trade.",
+      "points": [
+        "Building models coordinate structure, mechanical, electrical, and plumbing before fabrication.",
+        "Trades fabricate off that coordinated model.",
+        "Work built to a superseded model does not fit and is torn out."
+      ],
+      "rhetorical_question": "How are model revisions controlled and issued to your trades?"
     },
     {
       "rank": 3,
-      "headline": "Bid and estimating data is competitively fatal if disclosed.",
-      "why_this_business": "Estimating files hold your labour rates, productivity assumptions, markup, and subcontractor quotes across every pursuit. On public work, bids are submitted electronically ahead of a fixed letting time. Knowing a competitor's number is decisive.",
-      "loss_scenario": "Lost work across every active pursuit, plus bid protest and potential procurement fraud investigation if leaked information touches a public letting.",
-      "rhetorical_question": "Where are your estimating files and subcontractor quotes stored before a bid is submitted?"
+      "headline": "Liquidated damages run daily against the completion date.",
+      "points": [
+        "Contracts assess damages for every day past substantial completion.",
+        "Schedules, submittals, and inspections are managed in project software.",
+        "Days lost to a systems failure are charged directly to you."
+      ],
+      "rhetorical_question": "What are the liquidated damages per day on your current projects?"
     }
   ]
 }

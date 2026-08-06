@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Federal law requires you to record who bought which tires.",
-      "why_this_business": "Independent tire dealers must record tire identification numbers against purchaser names and addresses so recalled tires can be traced to the consumer, under NHTSA registration rules. That obligation creates a customer database tied to specific safety-critical products.",
-      "loss_scenario": "Inability to produce registration data obstructs a safety recall and draws NHTSA attention, while a breach exposes the customer database you were legally required to build.",
-      "rhetorical_question": "How do you record tire identification numbers against customer details?"
+      "headline": "Federal law requires you to record tire sales.",
+      "points": [
+        "Tire identification numbers must be linked to purchasers.",
+        "Manufacturers depend on that data to reach affected tires.",
+        "Without it recalled tires stay on vehicles."
+      ],
+      "rhetorical_question": "How do you record tire identification numbers and purchaser details?"
     },
     {
       "rank": 2,
-      "headline": "Service scheduling and alignment equipment run the bays.",
-      "why_this_business": "Tire retail is a service business with bays scheduled through appointment systems, alignment and balancing equipment that stores vehicle specifications, and TPMS programming tools that require vehicle data. Bay throughput is the constraint on revenue.",
-      "loss_scenario": "Idle bays and turned-away customers during the outage, with technicians paid and fixed costs continuing, in a business where a lost appointment is a lost day of that bay.",
-      "rhetorical_question": "How many service bays do you run, and how are appointments scheduled?"
+      "headline": "You take card payments at every location.",
+      "points": [
+        "Point of sale terminals process cards continuously.",
+        "Card security requirements apply to every store.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 3,
-      "headline": "Card volume and consumer financing both apply.",
-      "why_this_business": "Tire dealers process high card volume and frequently offer private label consumer credit, which brings both PCI obligations under the fully mandatory PCI DSS 4.0 and potential GLBA obligations where credit is arranged.",
-      "loss_scenario": "Card brand assessments plus notification for consumer credit applications containing Social Security numbers and income data.",
-      "rhetorical_question": "Do you offer a private label credit card or consumer financing?"
+      "headline": "Fleet accounts run on scheduling and billing systems.",
+      "points": [
+        "Fleet customers book service and are billed on account.",
+        "Vehicles are out of service while they wait.",
+        "A systems failure idles fleet vehicles across many customers."
+      ],
+      "rhetorical_question": "How are your fleet service bookings and billing recorded?"
     }
   ]
 }

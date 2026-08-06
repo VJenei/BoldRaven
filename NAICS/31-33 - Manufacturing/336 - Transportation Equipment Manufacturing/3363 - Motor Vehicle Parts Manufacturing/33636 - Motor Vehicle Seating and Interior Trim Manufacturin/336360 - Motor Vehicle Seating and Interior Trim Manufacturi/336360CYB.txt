@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seats and restraints are occupant protection components.",
-      "why_this_business": "Seat structures, anchorages, and integrated restraints must meet Federal Motor Vehicle Safety Standards for occupant retention in a crash. Seat failure in a collision removes the protection the vehicle was designed around.",
-      "loss_scenario": "Seat structure or anchorage defects failing in crashes, with occupant injuries or fatalities, an NHTSA recall, and litigation where the seat did not perform in a survivable collision.",
+      "headline": "Seats are occupant protection components in a crash.",
+      "points": [
+        "Seat structures and anchorages must retain occupants in a collision.",
+        "Failure removes the protection the vehicle was designed around.",
+        "The injury happens in a collision that was otherwise survivable."
+      ],
       "rhetorical_question": "How is conformance to occupant retention requirements documented per production lot?"
     },
     {
       "rank": 2,
       "headline": "Interior materials must meet flammability requirements.",
-      "why_this_business": "Interior materials are subject to federal flammability standards limiting burn rate, with testing on materials as supplied. Non-conforming materials increase fire spread in the occupant compartment.",
-      "loss_scenario": "Non-conforming interior materials in vehicles, with faster fire spread in a collision, an NHTSA recall of every vehicle containing the material, and litigation over burn injuries.",
+      "points": [
+        "Federal standards limit burn rate for interior materials.",
+        "Non-conforming material increases fire spread in the occupant compartment.",
+        "Litigation covers burn injuries, not material cost."
+      ],
       "rhetorical_question": "How are flammability test results linked to material lots used in production?"
     },
     {
       "rank": 3,
-      "headline": "Seats are delivered in build sequence with no buffer.",
-      "why_this_business": "Seating is among the most sequenced automotive components, delivered in vehicle build order in hours, with no inventory at the assembly plant. A sequencing error stops the line as surely as a supply failure.",
-      "loss_scenario": "Sequencing systems unavailable with seats arriving out of order or not at all, and assembly stopped at line-down charges per hour far exceeding the component value.",
+      "headline": "Seats arrive in build order with no buffer at all.",
+      "points": [
+        "Seating is delivered in vehicle build sequence within hours.",
+        "There is no inventory at the assembly plant.",
+        "A sequencing error stops the line as surely as a supply failure."
+      ],
       "rhetorical_question": "How is build sequence data received and used in your shipping process?"
     }
   ]

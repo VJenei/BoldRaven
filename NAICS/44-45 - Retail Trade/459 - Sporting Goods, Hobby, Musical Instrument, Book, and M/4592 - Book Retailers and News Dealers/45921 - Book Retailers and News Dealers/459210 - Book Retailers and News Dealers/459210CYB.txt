@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Returns to publishers are a core economic mechanism.",
-      "why_this_business": "Books are bought with return rights, and unsold copies are returned for credit under publisher terms with strict windows and documentation. Returns processing and credit reconciliation determine actual margin, which is thin to begin with.",
-      "loss_scenario": "Unreconcilable returns credits across multiple publishers, where the retailer absorbs the difference on product it already returned.",
-      "rhetorical_question": "What share of the product you buy is eventually returned for credit?"
+      "headline": "On-sale dates are contractual and enforced.",
+      "points": [
+        "Titles cannot be sold before their publication date.",
+        "Publishers build launches and embargoes around that date.",
+        "Breaking a street date breaches your supply agreements."
+      ],
+      "rhetorical_question": "How are on-sale dates enforced through your systems?"
     },
     {
       "rank": 2,
-      "headline": "On-sale dates are contractual and enforced.",
-      "why_this_business": "Major titles carry strict on-sale dates under publisher embargo agreements. Selling before the date is a breach with real consequences, and receiving stock late means missing the launch week that generates most of a title's sales.",
-      "loss_scenario": "Publisher action for an embargo breach, or missing the launch window entirely, which for a major title is the majority of its retail sales.",
-      "rhetorical_question": "Do you handle titles with contractual on-sale dates?"
+      "headline": "Card payments and customer accounts run through your systems.",
+      "points": [
+        "Point of sale processes cards and accounts hold purchase history.",
+        "Reading history is personal information.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer purchase and payment data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Customer purchase histories are sensitive in ways other retail data is not.",
-      "why_this_business": "Bookseller records reveal what customers read, which can indicate political views, health conditions, religion, and sexuality. Several states give bookstore records specific protection, and the sector has a long history of resisting disclosure for exactly this reason.",
-      "loss_scenario": "A breach exposing reading histories creates privacy harm that ordinary transaction data does not, and in some jurisdictions engages statutory protections specific to this record type.",
-      "rhetorical_question": "Do you retain individual customer purchase histories, and for how long?"
+      "headline": "The fourth quarter carries the year.",
+      "points": [
+        "Holiday trading drives a large share of annual sales.",
+        "Inventory, staffing, and fulfilment peak together.",
+        "Volume missed then cannot be recovered."
+      ],
+      "rhetorical_question": "What share of your annual sales happens in the fourth quarter?"
     }
   ]
 }

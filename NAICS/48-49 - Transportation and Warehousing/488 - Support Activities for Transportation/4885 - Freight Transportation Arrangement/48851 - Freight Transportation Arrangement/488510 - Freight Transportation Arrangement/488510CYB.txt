@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A cyberattack on a major forwarder shut down global operations for weeks.",
-      "why_this_business": "Expeditors International, one of the largest freight forwarders, shut down most operating systems globally after a February 2022 cyberattack, halting bookings, customs filings, and warehouse operations for roughly three weeks. The company reported substantial costs and was later sued by a customer for cargo and supply chain losses. Forwarders and brokers hold the data that makes freight move.",
-      "loss_scenario": "Bookings, customs entries, and load tendering stop simultaneously while cargo sits at origin and destination. Customers claim demurrage, detention, and production losses that vastly exceed the forwarding margin.",
-      "rhetorical_question": "How many customer shipments are in transit at any moment that depend on your systems?"
+      "headline": "Freight fraud targets brokers directly.",
+      "points": [
+        "Load booking, carrier identity, and payment details move electronically.",
+        "Fraudulent carriers and double brokering divert whole loads.",
+        "Cargo disappears and the claim falls on you."
+      ],
+      "rhetorical_question": "How do you verify carrier identity before tendering a load?"
     },
     {
       "rank": 2,
-      "headline": "Brokers are the primary channel for cyber-enabled cargo theft.",
-      "why_this_business": "Cargo theft losses across the United States and Canada reached nearly $725 million in 2025, with strategic theft close to a third of incidents. Criminals compromise broker load board credentials, clone motor carrier numbers, create fictitious carriers, and use double brokering to obtain loads. The broker's own account is the tool used to steal the freight.",
-      "loss_scenario": "Loads tendered to fraudulent carriers through your compromised account, with the shipper claiming against you as the party that selected the carrier. Average theft values are now around $274,000.",
-      "rhetorical_question": "How do you vet and authenticate a carrier before tendering a load?"
+      "headline": "Customs filings gate every international shipment.",
+      "points": [
+        "Entry filings, manifests, and security data are submitted electronically before arrival.",
+        "Shipments cannot clear without them.",
+        "Containers accrue demurrage while filings are stuck."
+      ],
+      "rhetorical_question": "How are your customs and security filings submitted?"
     },
     {
       "rank": 3,
-      "headline": "Customs filings carry direct legal responsibility.",
-      "why_this_business": "Licensed customs brokers file entries on behalf of importers, with responsibility for classification, valuation, and duty declarations under a power of attorney. Filings are time-bound and errors carry penalties. Brokers hold importer records subject to recordkeeping requirements for five years.",
-      "loss_scenario": "Missed or erroneous entries producing penalties and detained cargo, and inability to produce records during a customs audit where the broker is directly liable.",
-      "rhetorical_question": "How many importers do you file entries for under power of attorney?"
+      "headline": "You hold shipper data and pay carriers on account.",
+      "points": [
+        "Shipper rates, routing, and carrier banking details are held on file.",
+        "Carrier payments run continuously by transfer.",
+        "A faked banking change diverts payments carriers depend on."
+      ],
+      "rhetorical_question": "How are changes to carrier banking details verified before payment?"
     }
   ]
 }

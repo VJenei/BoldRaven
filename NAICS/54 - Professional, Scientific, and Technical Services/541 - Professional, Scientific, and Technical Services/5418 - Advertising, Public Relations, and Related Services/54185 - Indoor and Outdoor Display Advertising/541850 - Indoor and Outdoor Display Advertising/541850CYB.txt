@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Digital displays are networked and have been hijacked to show unauthorised content.",
-      "why_this_business": "Digital billboards and indoor screens are driven by content management systems delivering creative over the network to displays in public places. Incidents of unauthorised content appearing on digital signage have occurred, and the content is visible to everyone passing.",
-      "loss_scenario": "Offensive or unauthorised content displayed publicly creates immediate reputational damage, advertiser claims, regulatory and municipal complaints, and in some locations a public safety issue from driver distraction.",
-      "rhetorical_question": "How is access to your digital signage content management system controlled?"
+      "headline": "Digital displays are connected and remotely controlled.",
+      "points": [
+        "Content is scheduled and pushed to displays over network connections.",
+        "One platform controls what appears on every screen.",
+        "Compromise puts unauthorised content in front of the public."
+      ],
+      "rhetorical_question": "How is content delivered and controlled on your digital displays?"
     },
     {
       "rank": 2,
-      "headline": "Proof of play is how advertisers are billed.",
-      "why_this_business": "Digital out of home billing depends on logs demonstrating that creative played on specific screens for the contracted number of spots. Advertisers and their agencies audit those logs before paying.",
-      "loss_scenario": "Unbillable campaigns where proof of play cannot be produced, with agencies declining to pay for delivery that cannot be evidenced.",
-      "rhetorical_question": "How do you evidence to an advertiser that their creative actually played?"
+      "headline": "Placements are committed to fixed dates.",
+      "points": [
+        "Advertising runs on booked dates and locations.",
+        "Advertisers time campaigns around those dates.",
+        "Space not delivered is refunded and the campaign is damaged."
+      ],
+      "rhetorical_question": "How are your placements and display schedules recorded?"
     },
     {
       "rank": 3,
-      "headline": "Inventory is fixed, dated, and perishable.",
-      "why_this_business": "Display advertising sells specific locations for specific periods. Inventory not sold or not delivered in the period is gone, and premium locations around events cannot be substituted.",
-      "loss_scenario": "Lost inventory value during an outage, and make-goods on premium dated placements that cannot be provided because the equivalent inventory does not exist.",
-      "rhetorical_question": "What proportion of your inventory is sold for dated, non-substitutable periods?"
+      "headline": "Proof of display is the billing record.",
+      "points": [
+        "Play logs and photographic proof confirm what ran and when.",
+        "Advertisers reconcile against those records.",
+        "Displays you cannot prove ran are displays you cannot bill."
+      ],
+      "rhetorical_question": "How is proof of display recorded and provided to advertisers?"
     }
   ]
 }

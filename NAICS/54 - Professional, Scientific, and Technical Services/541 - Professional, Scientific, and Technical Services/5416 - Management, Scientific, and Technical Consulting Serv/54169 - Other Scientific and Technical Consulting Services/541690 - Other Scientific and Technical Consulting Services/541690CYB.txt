@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Technical consultants hold clients' proprietary processes.",
-      "why_this_business": "Consultants advising on process, safety, quality, and technical operations receive formulations, process parameters, and operating know-how that constitute the client's trade secrets. That material is provided specifically so the consultant can advise on it.",
-      "loss_scenario": "Trade secret disclosure destroys the client's competitive position permanently and defeats their own trade secret protection, with claims against the consultant under the confidentiality terms.",
-      "rhetorical_question": "Do you hold client formulations or process parameters that are trade secrets?"
+      "headline": "Client technical data is confidential and often controlled.",
+      "points": [
+        "Technical information, processes, and designs are shared for the engagement.",
+        "Some of that data is export controlled or trade secret.",
+        "Disclosure is a contract breach or a reportable violation."
+      ],
+      "rhetorical_question": "What client technical data do you hold, and is any of it export controlled?"
     },
     {
       "rank": 2,
-      "headline": "Expert opinions and findings are relied on in regulatory and legal proceedings.",
-      "why_this_business": "Technical consultants produce analyses used in permitting, litigation, and safety decisions, supported by underlying data, calculations, and working papers. Those files are discoverable and must be defensible.",
-      "loss_scenario": "An opinion that cannot be supported by underlying work papers is worthless in proceedings, and the client's position collapses with liability attaching to the consultant.",
-      "rhetorical_question": "Could you produce the working papers behind a technical opinion issued three years ago?"
+      "headline": "Your analysis supports client decisions.",
+      "points": [
+        "Technical findings determine design, safety, and investment decisions.",
+        "Clients act on those findings directly.",
+        "A wrong or altered finding leads to a decision with consequences."
+      ],
+      "rhetorical_question": "How are your technical reports protected against alteration?"
     },
     {
       "rank": 3,
-      "headline": "Specialist practices are small and hold concentrated knowledge.",
-      "why_this_business": "Technical consultancies are frequently a handful of specialists with all project files, models, and historical data on a small number of systems, without dedicated IT support or tested recovery.",
-      "loss_scenario": "Loss of accumulated project data and models representing decades of specialist work, which cannot be reconstructed and which is the practice's entire value.",
-      "rhetorical_question": "How many years of accumulated technical work sits on your systems, and where is the copy?"
+      "headline": "Deliverables are due against client schedules.",
+      "points": [
+        "Reports and analyses are due against project and regulatory deadlines.",
+        "Client work is scheduled behind them.",
+        "A missed date delays their whole sequence."
+      ],
+      "rhetorical_question": "What client activity is waiting on your deliverables?"
     }
   ]
 }

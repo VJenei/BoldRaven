@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Clothing storage furniture is now subject to a mandatory stability standard.",
-      "why_this_business": "The STURDY Act required CPSC to establish a mandatory stability standard for clothing storage units after tip-over deaths of children. Compliance requires testing and applies to units manufactured after the effective date.",
-      "loss_scenario": "Units manufactured that do not meet the stability standard, which cannot lawfully be sold, with recall from retail and consumers and CPSC enforcement, plus litigation where a tip-over injured a child.",
+      "headline": "Clothing storage furniture now has a mandatory stability standard.",
+      "points": [
+        "The standard exists because of tip-over deaths of children.",
+        "Compliance requires testing and applies from the effective date.",
+        "Non-compliant units cannot lawfully be sold."
+      ],
       "rhetorical_question": "How do you document stability testing for clothing storage units?"
     },
     {
       "rank": 2,
-      "headline": "Formaldehyde emissions from composite panels are federally regulated.",
-      "why_this_business": "Composite wood panels in furniture are subject to EPA TSCA Title VI emission standards with certification and record retention required through the supply chain.",
-      "loss_scenario": "Compliance records unavailable on request, which is a TSCA violation with penalties, and finished goods that cannot lawfully be sold.",
+      "headline": "Panel emission compliance records are required by law.",
+      "points": [
+        "Composite wood panels are subject to formaldehyde emission standards.",
+        "Certification and records must be retained and produced.",
+        "Finished goods without records cannot lawfully be sold."
+      ],
       "rhetorical_question": "How are formaldehyde compliance certifications retained for panel purchases?"
     },
     {
       "rank": 3,
-      "headline": "Retail supply runs on vendor systems with delivery windows.",
-      "why_this_business": "Furniture ships to retailers and directly to consumers under EDI with routing, labelling, and delivery requirements, with the category concentrated in a few large retail and online customers.",
-      "loss_scenario": "Order and shipping systems unavailable, with missed delivery windows, vendor chargebacks, and direct to consumer orders unfulfilled at the peak of the selling season.",
+      "headline": "Retail and direct supply run on delivery windows.",
+      "points": [
+        "Furniture ships to retailers and consumers under routing and labelling requirements.",
+        "Chargebacks apply when requirements are missed.",
+        "A few large retail and online customers carry most of the volume."
+      ],
       "rhetorical_question": "What share of your volume ships through your two largest customers?"
     }
   ]

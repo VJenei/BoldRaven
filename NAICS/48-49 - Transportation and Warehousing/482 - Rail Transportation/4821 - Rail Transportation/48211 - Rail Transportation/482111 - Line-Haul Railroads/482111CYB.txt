@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Train control and dispatch systems govern where trains are allowed to move.",
-      "why_this_business": "Railroads dispatch through centralised traffic control and positive train control systems that enforce authority limits and speed restrictions. PTC is federally mandated on covered lines. Dispatch and signalling determine whether movement is safe and lawful.",
-      "loss_scenario": "Loss of dispatch and control forces manual authority procedures at drastically reduced capacity, and a control system compromise creates collision and derailment exposure with catastrophic consequences.",
-      "rhetorical_question": "How is your dispatch and train control network separated from corporate systems?"
+      "headline": "Dispatch controls train movement across the network.",
+      "points": [
+        "Signals, switches, and train authority are controlled from dispatch centres.",
+        "Positive train control enforces speed and authority limits.",
+        "Loss of control means collisions and derailments, not delays."
+      ],
+      "rhetorical_question": "What systems control train movement authority on your network?"
     },
     {
       "rank": 2,
-      "headline": "TSA imposes cybersecurity directives on freight railroads.",
-      "why_this_business": "TSA security directives require designated higher-risk freight railroad carriers to appoint a cybersecurity coordinator, report incidents to CISA within 24 hours, develop an incident response plan, and conduct vulnerability assessments, with network segmentation and access control requirements.",
-      "loss_scenario": "TSA enforcement and civil penalties, plus mandated remediation timelines that consume operating resources while the railroad continues to run.",
-      "rhetorical_question": "Have you designated a cybersecurity coordinator under the TSA rail directives?"
+      "headline": "Hazardous materials move on your trains continuously.",
+      "points": [
+        "Manifests identify what is in each car and where it is.",
+        "Emergency responders rely on that data during a derailment.",
+        "A derailment without accurate manifest data delays the correct response."
+      ],
+      "rhetorical_question": "How is hazardous materials manifest data recorded and provided to responders?"
     },
     {
       "rank": 3,
-      "headline": "Hazardous materials movements are tracked and reported.",
-      "why_this_business": "Railroads move large volumes of hazardous materials with routing analysis, positional data, and emergency response information required to be available to responders. Waybill and consist data identifies exactly what is in each car and where it is.",
-      "loss_scenario": "Exposure of hazardous material routing and positional data is a security concern well beyond commercial confidentiality, and inability to provide consist information during an incident delays emergency response.",
-      "rhetorical_question": "How is hazardous materials consist and routing data protected?"
+      "headline": "Network stoppages cascade for days.",
+      "points": [
+        "Trains, crews, and cars end up out of position across the system.",
+        "Crew hours are federally limited and cannot be waived.",
+        "Recovery takes days after systems return."
+      ],
+      "rhetorical_question": "How long does it take to recover network fluidity after a stoppage?"
     }
   ]
 }

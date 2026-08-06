@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Licensing records determine who may lawfully practise or operate.",
-      "why_this_business": "Agencies license professionals and businesses, holding application data, examination results, disciplinary histories, and current standing. Employers, the public, and other regulators rely on licence verification.",
-      "loss_scenario": "Licence verification unavailable, with employers unable to confirm standing and licensees unable to demonstrate qualifications, plus exposure of disciplinary records that affect individuals' careers directly.",
-      "rhetorical_question": "How many licensees rely on your records to demonstrate their standing?"
+      "headline": "Licensing determines who may lawfully operate.",
+      "points": [
+        "Licence records determine who may practise or trade.",
+        "Businesses and professionals cannot operate without a valid licence.",
+        "A systems failure stops licensing across every regulated sector."
+      ],
+      "rhetorical_question": "What licensing decisions depend on your systems?"
     },
     {
       "rank": 2,
-      "headline": "Applications contain personal and financial information.",
-      "why_this_business": "Licensing applications collect Social Security numbers, background check results, financial disclosures, and in some professions medical and substance use history relevant to fitness to practise.",
-      "loss_scenario": "Exposure of licensee background, financial, and health information, which for professionals is career-affecting and was submitted under statutory compulsion as a condition of licensure.",
-      "rhetorical_question": "What background and health information do your applications require?"
+      "headline": "Licensee data includes identity and background information.",
+      "points": [
+        "Applications carry identity, background, financial, and examination data.",
+        "Applicants have no choice about providing it.",
+        "Every affected licensee must be notified."
+      ],
+      "rhetorical_question": "How many licensee records do your systems hold?"
     },
     {
       "rank": 3,
-      "headline": "Inspection and enforcement records support regulatory action.",
-      "why_this_business": "Agencies conduct inspections and investigations producing findings, evidence, and enforcement records used to support licence action and prosecution, subject to due process requirements.",
-      "loss_scenario": "Enforcement actions failing where the evidentiary record cannot be produced, with unfit licensees remaining in practice and the agency unable to sustain action already commenced.",
-      "rhetorical_question": "Could you produce the complete investigation record for an enforcement action from three years ago?"
+      "headline": "Inspection and enforcement records support action.",
+      "points": [
+        "Inspection findings and enforcement records support licence action.",
+        "Those records are evidence in administrative proceedings.",
+        "Records you cannot produce lose enforcement cases."
+      ],
+      "rhetorical_question": "How are your inspection and enforcement records maintained?"
     }
   ]
 }

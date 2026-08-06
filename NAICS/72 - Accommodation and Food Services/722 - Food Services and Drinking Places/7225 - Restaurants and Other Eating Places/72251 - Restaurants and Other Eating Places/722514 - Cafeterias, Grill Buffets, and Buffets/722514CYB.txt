@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Food safety monitoring is continuous in a buffet operation.",
-      "why_this_business": "Hot and cold holding temperatures must be monitored and logged throughout service, with time and temperature control being the primary food safety control in a buffet format. Health inspectors examine those logs directly.",
-      "loss_scenario": "Product held out of temperature and served, causing foodborne illness across many diners simultaneously given the shared service format, with health department action and closure.",
-      "rhetorical_question": "How are holding temperatures recorded and monitored during service?"
+      "headline": "Card payments run continuously through service.",
+      "points": [
+        "Point of sale terminals process cards through all trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Volume dining concentrates transactions and risk.",
-      "why_this_business": "Cafeteria and buffet formats serve high covers at low average ticket, with payment at entry or exit through point of sale systems. Institutional cafeterias frequently operate account-based payment for students or employees.",
-      "loss_scenario": "Payment systems unavailable during a meal period, with hundreds of diners unable to be served or charged, and account-based systems that cannot post charges to student or employee accounts.",
-      "rhetorical_question": "How many diners do you serve in a single meal period?"
+      "headline": "Holding temperatures are the food safety control.",
+      "points": [
+        "Hot and cold holding temperatures are monitored and recorded.",
+        "Buffet service holds food for extended periods.",
+        "Temperature failures grow pathogens in food already served."
+      ],
+      "rhetorical_question": "How are your holding temperatures monitored and recorded?"
     },
     {
       "rank": 3,
-      "headline": "Allergen information must be available at the service line.",
-      "why_this_business": "Buffet formats require ingredient and allergen information to be available for each item, with recipes and ingredient data maintained centrally and displayed or provided on request. Diners self-serve without staff interaction.",
-      "loss_scenario": "An allergen incident where ingredient information was unavailable or wrong at the service line, in a format where the diner had no opportunity to ask before serving themselves.",
-      "rhetorical_question": "How is allergen information for each item made available to diners?"
+      "headline": "Allergen information is posted and relied on.",
+      "points": [
+        "Guests self-serve and rely on posted allergen information.",
+        "Cross contact at a buffet is a recognised risk.",
+        "An allergen error can be fatal."
+      ],
+      "rhetorical_question": "How is allergen information recorded and posted for self-service items?"
     }
   ]
 }

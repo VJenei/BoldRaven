@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You move client payroll funds and hold the bank details for every employee.",
-      "why_this_business": "Payroll providers debit client accounts and disburse to employees by direct deposit, holding routing and account numbers, Social Security numbers, and wage data for the entire workforce of every client. Payroll diversion, where deposit details are altered before a pay run, is a common and effective attack.",
-      "loss_scenario": "An entire pay run diverted, with employees unpaid and the provider liable to fund the correct payments while attempting recovery. Client employees do not accept that their employer's provider was compromised.",
-      "rhetorical_question": "What controls prevent a change to an employee's direct deposit details before a pay run?"
+      "headline": "Payroll has to run on the day it runs.",
+      "points": [
+        "Employees are paid on fixed dates across every client.",
+        "Tax deposits have statutory deadlines with penalties.",
+        "A missed payroll affects every employee at every client at once."
+      ],
+      "rhetorical_question": "How many employees across your clients depend on each payroll run?"
     },
     {
       "rank": 2,
-      "headline": "Tax deposits and filings are made on statutory deadlines.",
-      "why_this_business": "Providers withhold and remit federal, state, and local payroll taxes on strict deposit schedules and file returns on behalf of clients. Late deposits carry escalating penalties, and the employer remains liable to the taxing authority even when a provider failed.",
-      "loss_scenario": "Missed tax deposits generating penalties and interest across every client, with the provider expected to indemnify and the clients exposed to authorities regardless.",
-      "rhetorical_question": "How many client tax deposits are due on your next deposit date?"
+      "headline": "You hold identity and bank data for every employee.",
+      "points": [
+        "Records carry social security numbers, addresses, and direct deposit details.",
+        "That data supports identity theft completely.",
+        "Every affected employee at every client must be notified."
+      ],
+      "rhetorical_question": "How many employee records with identity and bank data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "A single breach reaches every client's entire workforce at once.",
-      "why_this_business": "Providers concentrate employee data across hundreds or thousands of client businesses. One incident exposes not your customers but your customers' employees, who have no relationship with you and did not choose you.",
-      "loss_scenario": "Notification across the combined workforce of every client, with each client holding a contractual claim and the affected individuals looking to their employer, who looks to you.",
-      "rhetorical_question": "How many individual employees across all clients are in your payroll system?"
+      "headline": "Direct deposit fraud redirects wages.",
+      "points": [
+        "Direct deposit changes are processed on employee or client instruction.",
+        "Fraudulent change requests divert wages to attacker accounts.",
+        "Employees are not paid and expect you to make it right."
+      ],
+      "rhetorical_question": "How are direct deposit change requests verified before they take effect?"
     }
   ]
 }

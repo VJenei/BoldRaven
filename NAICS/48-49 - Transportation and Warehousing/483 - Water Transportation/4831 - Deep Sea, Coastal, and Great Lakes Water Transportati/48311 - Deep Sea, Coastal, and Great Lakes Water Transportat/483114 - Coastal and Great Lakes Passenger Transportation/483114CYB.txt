@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ferries carry commuters and vehicles on schedules communities depend on.",
-      "why_this_business": "Coastal and lake ferry services are frequently the only practical connection for island and peninsula communities, carrying commuters, vehicles, freight, and emergency services. Ticketing, reservations, and vehicle deck loading are managed electronically.",
-      "loss_scenario": "Service suspension isolates communities, blocking commuters, deliveries, and medical access. Public and political consequences are immediate and disproportionate to the commercial loss.",
-      "rhetorical_question": "Do any communities you serve have no alternative route?"
+      "headline": "Passengers depend on vessel systems entirely.",
+      "points": [
+        "Navigation, propulsion, and safety systems are networked.",
+        "Passengers are aboard with nowhere to go.",
+        "A systems failure at sea is a life safety event."
+      ],
+      "rhetorical_question": "What vessel systems are connected to shore networks?"
     },
     {
       "rank": 2,
-      "headline": "Coast Guard cybersecurity rules apply and passenger vessels are scrutinised.",
-      "why_this_business": "US-flagged passenger vessels fall under the Coast Guard cybersecurity rule effective July 16, 2025, with immediate incident reporting to the National Response Center, training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
-      "loss_scenario": "Captain of the Port restrictions removing vessels from service, with no substitute capacity available and public service obligations unmet.",
-      "rhetorical_question": "Have you started your Cybersecurity Assessment under the Coast Guard rule?"
+      "headline": "Booking and manifest data is required and sensitive.",
+      "points": [
+        "Passenger manifests are required for safety and security purposes.",
+        "Bookings carry identity and payment details.",
+        "Sailing without an accurate manifest is not permitted."
+      ],
+      "rhetorical_question": "How are your passenger manifests recorded and maintained?"
     },
     {
       "rank": 3,
-      "headline": "Passenger manifests are a life safety record.",
-      "why_this_business": "Passenger and vehicle counts and manifests determine stability calculations and are the basis for search and rescue if the vessel is in distress. Ticketing systems produce those counts, and overloading is a direct capsizing risk.",
-      "loss_scenario": "Loading without accurate passenger accounting risks exceeding stability limits, and in a distress situation responders do not know how many people to search for.",
-      "rhetorical_question": "How is your passenger count verified before departure?"
+      "headline": "Federal maritime cybersecurity rules apply to your vessels.",
+      "points": [
+        "Coast Guard rules impose cybersecurity requirements on regulated vessels.",
+        "Account, device, and plan requirements phase in on set dates.",
+        "Findings can restrict vessel operations."
+      ],
+      "rhetorical_question": "What maritime cybersecurity requirements apply to your vessels?"
     }
   ]
 }

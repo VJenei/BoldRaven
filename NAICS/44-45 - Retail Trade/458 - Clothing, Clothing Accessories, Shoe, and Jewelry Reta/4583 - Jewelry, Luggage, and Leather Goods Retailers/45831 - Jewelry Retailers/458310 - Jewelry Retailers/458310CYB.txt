@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold customers' property and its valuation records.",
-      "why_this_business": "Jewellers take in customer pieces for repair, sizing, appraisal, and consignment, holding items of significant financial and sentimental value under bailment. Intake records, appraisals, and photographs are the only evidence of what was received and its condition.",
-      "loss_scenario": "Disputes over items in your care where intake records cannot be produced, and bailee liability for customer property that is frequently uninsurable at sentimental value. Appraisal records also tell a thief which customers own what.",
-      "rhetorical_question": "What is the value of customer property in your care for repair right now?"
+      "headline": "Inventory is extremely valuable and fits in a pocket.",
+      "points": [
+        "Value is concentrated in very small physical volume.",
+        "Inventory records are the only means of detecting diversion.",
+        "A missing item is not visible in the case."
+      ],
+      "rhetorical_question": "How frequently is inventory reconciled against records?"
     },
     {
       "rank": 2,
-      "headline": "Federal anti-money laundering rules reach dealers in precious metals and stones.",
-      "why_this_business": "Dealers in precious metals, precious stones, and jewels above threshold purchase and sale volumes must maintain a written anti-money laundering programme with a compliance officer, training, and independent testing, and retain supporting records. High value cash transactions carry separate currency reporting duties.",
-      "loss_scenario": "FinCEN enforcement where the programme and its records cannot be evidenced, plus criminal exposure where transactions cannot be shown to have been screened.",
-      "rhetorical_question": "Do you have a written AML programme, and where are your customer due diligence records held?"
+      "headline": "Customer purchase records are highly sensitive.",
+      "points": [
+        "Records show what customers bought, for whom, and what they paid.",
+        "Engagement and gift purchases are personal information.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer purchase and payment records do you store?"
     },
     {
       "rank": 3,
-      "headline": "Inventory and customer data is a target for armed robbery, not just fraud.",
-      "why_this_business": "Jewellery carries extreme value per unit and resells easily. Inventory systems record what is in the safe, what is on memo, and what arrives when. Customer records identify who owns high value pieces and where they live.",
-      "loss_scenario": "Armed robbery or residential burglary informed by internal data, which carries a risk of violence that other retail data breaches do not.",
-      "rhetorical_question": "Does your system record which customers purchased your highest value pieces?"
+      "headline": "Holiday and engagement seasons carry the year.",
+      "points": [
+        "The fourth quarter and Valentine's Day drive concentrated volume.",
+        "Inventory, staffing, and custom orders peak together.",
+        "Volume missed then cannot be recovered."
+      ],
+      "rhetorical_question": "What share of your annual sales happens in your peak weeks?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Daily net asset value calculation cannot be missed.",
-      "why_this_business": "Mutual funds must strike a net asset value each business day for purchases and redemptions to be processed at the correct price. Pricing, accounting, and transfer agency functions all feed that calculation on a same-day cycle with no tolerance for delay.",
-      "loss_scenario": "A missed or incorrect NAV requires reprocessing of all transactions at the correct price, with the fund or its adviser bearing the cost of making shareholders whole, and SEC attention to pricing controls.",
-      "rhetorical_question": "What is your process if the daily NAV cannot be calculated on time?"
+      "headline": "Pricing and net asset value must publish daily.",
+      "points": [
+        "Fund accounting calculates net asset value for publication after each trading day.",
+        "Every purchase and redemption prices against that value.",
+        "A missed or wrong price affects every shareholder transaction that day."
+      ],
+      "rhetorical_question": "What happens to your net asset value calculation if systems are unavailable?"
     },
     {
       "rank": 2,
-      "headline": "Shareholder accounts are targeted for fraudulent redemptions.",
-      "why_this_business": "Transfer agency functions process purchases, redemptions, and account changes on instructions received by phone, mail, and online. Attackers use stolen personal data to impersonate shareholders and redirect redemptions to new bank accounts.",
-      "loss_scenario": "Fraudulent redemptions paid to criminal accounts, with the fund obliged to restore the shareholder's position and regulatory examination of identity verification controls.",
-      "rhetorical_question": "How is a shareholder authenticated before a redemption is paid to a new bank account?"
+      "headline": "Shareholder records hold identity and account data.",
+      "points": [
+        "Records carry identity, tax, bank, and beneficiary information.",
+        "Account takeover permits fraudulent redemptions.",
+        "Every affected shareholder must be notified."
+      ],
+      "rhetorical_question": "How many shareholder accounts with identity and bank data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Regulation S-P requires shareholder notification within 30 days.",
-      "why_this_business": "Amendments to Regulation S-P require covered institutions including registered investment companies to maintain incident response programmes and to notify affected individuals as soon as practicable and no later than 30 days after becoming aware that sensitive customer information was likely accessed without authorisation.",
-      "loss_scenario": "SEC enforcement for notification failures and for an inadequate incident response programme, assessed independently of the underlying incident.",
-      "rhetorical_question": "Does your incident response programme meet the 30-day notification requirement?"
+      "headline": "Regulators require documented cybersecurity programmes.",
+      "points": [
+        "Securities regulators require written policies, incident response, and disclosure.",
+        "Examinations assess those programmes directly.",
+        "Findings carry enforcement action and penalties."
+      ],
+      "rhetorical_question": "What written cybersecurity programme requirements apply to your fund?"
     }
   ]
 }

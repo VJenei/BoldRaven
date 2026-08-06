@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Federal research contracts impose cybersecurity requirements directly.",
-      "why_this_business": "Research organisations performing federal work must meet FAR safeguarding requirements and, where controlled unclassified information is involved, DFARS clauses and CMMC obligations. Contract awards are conditioned on compliance and representations about it are made in proposals.",
-      "loss_scenario": "Loss of federal research eligibility, contract termination, and False Claims Act exposure where compliance was represented but not achieved, which has produced substantial settlements in this sector.",
-      "rhetorical_question": "Do your federal research contracts include DFARS or CMMC requirements?"
+      "headline": "Research data is targeted and often export controlled.",
+      "points": [
+        "Defence and advanced technology research carries export control obligations.",
+        "State-linked actors target research organisations specifically.",
+        "Unauthorised access by a foreign person is a reportable violation."
+      ],
+      "rhetorical_question": "How is access to controlled research data restricted and logged?"
     },
     {
       "rank": 2,
-      "headline": "Research data represents irreplaceable experimental work.",
-      "why_this_business": "Physical and engineering research generates test data, models, and measurements produced using specialised facilities and instruments over long periods. Many experiments cannot be repeated because the conditions, samples, or funding no longer exist.",
-      "loss_scenario": "Loss of research datasets destroys programmes representing years of work and funding, with grant and contract deliverables unmet and sponsors entitled to remedies.",
-      "rhetorical_question": "Could the experiments behind your current datasets be repeated if the data were lost?"
+      "headline": "Experiments and studies cannot be repeated cheaply.",
+      "points": [
+        "Experimental runs represent months of work and expensive resources.",
+        "Data is generated once under those conditions.",
+        "Losing it means repeating the work entirely."
+      ],
+      "rhetorical_question": "Where is your experimental data stored, and how is it backed up?"
     },
     {
       "rank": 3,
-      "headline": "Export controlled technical data carries criminal exposure.",
-      "why_this_business": "Research involving defence articles, advanced materials, or controlled technologies is subject to ITAR or EAR, restricting access by foreign nationals including employees and collaborators. A deemed export occurs when controlled data is made accessible to a foreign person, including through a breach.",
-      "loss_scenario": "Export control violations carrying civil and criminal penalties and debarment, where an intrusion by a foreign actor may itself constitute an unauthorised export.",
-      "rhetorical_question": "Is any of your technical data subject to ITAR or EAR access restrictions?"
+      "headline": "Federal contracts impose cybersecurity requirements.",
+      "points": [
+        "Research contracts with controlled information require documented controls.",
+        "Compliance is a condition of award.",
+        "Losing eligibility removes the funding the work depends on."
+      ],
+      "rhetorical_question": "What cybersecurity requirements do your research contracts impose?"
     }
   ]
 }

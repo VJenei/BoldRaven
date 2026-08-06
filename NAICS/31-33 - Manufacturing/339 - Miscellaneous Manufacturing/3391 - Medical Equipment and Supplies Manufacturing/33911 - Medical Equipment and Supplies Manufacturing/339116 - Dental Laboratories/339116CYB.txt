@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "You hold patient information from every case.",
-      "why_this_business": "Dental laboratories receive patient names, prescriptions, scans, and impressions from dental practices, which makes the laboratory a business associate under HIPAA with breach notification obligations and a business associate agreement in place.",
-      "loss_scenario": "Patient case data exposed, with HIPAA breach notification to patients and HHS, an investigation, and dental practice customers facing their own obligations and holding the laboratory responsible.",
-      "rhetorical_question": "Do you have business associate agreements with the practices you serve?"
+      "points": [
+        "Names, prescriptions, scans, and impressions arrive from dental practices.",
+        "That makes you a custodian of protected health information.",
+        "Practices face their own notification duties and will hold you responsible."
+      ],
+      "rhetorical_question": "Do you have written agreements with the practices you serve covering patient data?"
     },
     {
       "rank": 2,
-      "headline": "Cases are digital from scan to milled restoration.",
-      "why_this_business": "Laboratories receive digital scans, design restorations in CAD software, and mill or print them. The case file is the restoration, and there is no physical model to fall back on for digital cases.",
-      "loss_scenario": "Loss of case files in production, with every restoration in progress requiring the practice to rescan the patient, and patients in temporary restorations waiting weeks longer.",
+      "headline": "Digital cases exist only as files.",
+      "points": [
+        "Cases arrive as scans, are designed in software, and milled or printed.",
+        "For digital cases there is no physical model to fall back on.",
+        "The practice has to rescan the patient and start again."
+      ],
       "rhetorical_question": "How many active cases exist only as digital files on your systems?"
     },
     {
       "rank": 3,
-      "headline": "Restorations are due against scheduled patient appointments.",
-      "why_this_business": "Every case is due for a specific seating appointment, with patients in temporary restorations until the permanent one arrives. Practices schedule chair time around promised delivery.",
-      "loss_scenario": "Case management systems unavailable with delivery dates missed across the caseload, and practices cancelling appointments for patients who took time off to attend.",
+      "headline": "Every case is due for a scheduled appointment.",
+      "points": [
+        "Cases are due for a specific seating appointment already booked.",
+        "Patients wait in temporary restorations until then.",
+        "Practices cancel on patients who took time off to attend."
+      ],
       "rhetorical_question": "How many cases have seating appointments scheduled in the next week?"
     }
   ]

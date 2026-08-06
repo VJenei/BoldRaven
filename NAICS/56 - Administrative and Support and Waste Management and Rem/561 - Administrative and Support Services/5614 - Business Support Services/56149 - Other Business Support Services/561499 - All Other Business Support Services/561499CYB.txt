@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Support providers hold client operational and customer data.",
-      "why_this_business": "Firms in this category process transactions, handle correspondence, and manage records on behalf of client businesses, holding whatever data the function requires. The client's customers have no relationship with the provider.",
-      "loss_scenario": "Breach exposing client and end-customer data, with notification obligations flowing through every client contract and each client holding a separate claim.",
-      "rhetorical_question": "Whose customer data do you process on behalf of clients?"
+      "headline": "Client data passes through your systems.",
+      "points": [
+        "Business, customer, and employee data is handled on the client's behalf.",
+        "Their regulatory obligations follow the data to you.",
+        "Every affected individual must be notified."
+      ],
+      "rhetorical_question": "What client data do you handle?"
     },
     {
       "rank": 2,
-      "headline": "Clients have outsourced the function and cannot perform it themselves.",
-      "why_this_business": "Support services are outsourced precisely because the client does not want to maintain the capability internally. When the provider fails, the client has no fallback and the function simply stops.",
-      "loss_scenario": "Client operations interrupted with no internal capability to substitute, and consequential claims that reflect the client's business rather than the service fee.",
-      "rhetorical_question": "Could your clients perform the function you provide if you were unavailable for two weeks?"
+      "headline": "Clients depend on you to run functions they cannot.",
+      "points": [
+        "Support functions are outsourced because clients have no internal capability.",
+        "Their operations depend on your continuity.",
+        "Their work stops when yours does."
+      ],
+      "rhetorical_question": "What client functions depend entirely on your operation?"
     },
     {
       "rank": 3,
-      "headline": "Contracts define liability independently of your fee.",
-      "why_this_business": "Business support agreements with substantial clients include security requirements, audit rights, indemnities, and service level provisions. Confidentiality breaches are frequently excluded from liability caps.",
-      "loss_scenario": "Contractual liability that bears no relationship to the value of the engagement, with indemnity obligations triggered across multiple clients simultaneously.",
-      "rhetorical_question": "Do your client contracts cap your liability for a data breach?"
+      "headline": "Service commitments are contractual and measured.",
+      "points": [
+        "Turnaround and service levels are specified and measured.",
+        "Clients plan around those commitments.",
+        "Missed commitments carry contractual penalties."
+      ],
+      "rhetorical_question": "What service level commitments do your contracts carry?"
     }
   ]
 }

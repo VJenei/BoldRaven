@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Gas production is continuous and depends on compression and control that cannot pause.",
-      "why_this_business": "Gas wells, compressor stations, dehydrators, and gathering systems run on SCADA with remote start, stop, and setpoint control. Compression is the throughput constraint. Nominations to the pipeline are made daily on a schedule, and a missed nomination means gas that cannot be delivered.",
-      "loss_scenario": "Lost compression across a gathering system shuts in every well behind it. Imbalance penalties from the pipeline apply on top of deferred production, and neither is covered by a property policy because nothing was physically damaged.",
-      "rhetorical_question": "Do you operate compressor stations or gathering systems under remote SCADA control?"
+      "headline": "Production and gathering are controlled remotely across the field.",
+      "points": [
+        "Compressors, valves, and separators run on systems monitored from a central room.",
+        "Wells are shut in and brought back from that same system.",
+        "Loss of control on gas means a release or explosion, not a delay."
+      ],
+      "rhetorical_question": "Are your wells and compressors operated by remote control systems?"
     },
     {
       "rank": 2,
-      "headline": "Methane leak detection and emissions reporting are now regulated and data driven.",
-      "why_this_business": "EPA rules require leak detection and repair surveys, continuous monitoring at some sites, and annual greenhouse gas reporting under Subpart W. Compliance rests on survey records, monitor data, and repair logs held in environmental management software. The Waste Emissions Charge is calculated from reported volumes.",
-      "loss_scenario": "Inability to produce survey and repair records during an inspection results in penalties and a higher assessed emissions charge, because unsupported emissions are estimated against you rather than in your favor.",
-      "rhetorical_question": "How do you store your leak detection survey and repair records?"
+      "headline": "Gas measurement determines what everyone gets paid.",
+      "points": [
+        "Flow computers measure and record volume and quality at every custody point.",
+        "Royalty, tax, and sales payments all follow those numbers.",
+        "Corrupted measurement creates disputes with every party on the lease."
+      ],
+      "rhetorical_question": "How is your custody transfer measurement data recorded and protected?"
     },
     {
       "rank": 3,
-      "headline": "Gas sales settle monthly on measured volume and heating value from third-party systems.",
-      "why_this_business": "Payment is based on volume and BTU content measured at the delivery point, recorded by the purchaser or midstream operator, and settled 30 to 60 days later. The producer has no independent measurement. Nominations, confirmations, and imbalance statements all move electronically.",
-      "loss_scenario": "Unresolvable settlement across one or more production months, with imbalance positions that cannot be verified. On a mid-size producer this is $500,000 or more of receivables with no supporting records.",
-      "rhetorical_question": "Do you keep an independent record of delivered volumes and BTU content?"
+      "headline": "Federal security rules apply to designated energy facilities.",
+      "points": [
+        "Incident reporting and security plan requirements apply to covered operators.",
+        "Regulators expect documented controls and tested response.",
+        "Findings can restrict how the facility operates."
+      ],
+      "rhetorical_question": "Which of your facilities fall under federal pipeline security requirements?"
     }
   ]
 }

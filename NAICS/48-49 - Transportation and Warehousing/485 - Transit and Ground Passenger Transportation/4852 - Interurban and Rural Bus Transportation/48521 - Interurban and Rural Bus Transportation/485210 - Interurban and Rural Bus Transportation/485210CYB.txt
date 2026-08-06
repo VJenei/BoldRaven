@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ticketing is the entire revenue mechanism and it is online.",
-      "why_this_business": "Intercity bus operators sell almost entirely through websites and apps with advance reservations, seat assignment, and stored payment methods. Passengers arrive at unstaffed stops with a mobile ticket. Without the reservation system there is no way to sell or validate travel.",
-      "loss_scenario": "Ticket sales stop entirely while buses continue to run against fixed costs, and passengers holding tickets cannot be validated or accommodated.",
-      "rhetorical_question": "What share of your tickets are sold and validated electronically?"
+      "headline": "Passengers book, pay, and board electronically.",
+      "points": [
+        "Reservations, ticketing, and boarding run through connected systems.",
+        "Passengers arrive at terminals expecting a booked seat.",
+        "Without the system you cannot board or account for passengers."
+      ],
+      "rhetorical_question": "How are your bookings and boarding handled?"
     },
     {
       "rank": 2,
-      "headline": "Rural routes serve passengers with no alternative transport.",
-      "why_this_business": "Intercity and rural service is often the only public transport connecting small communities, used by people without cars for medical appointments, family, and work. Some routes operate under federal rural transportation programmes with service obligations attached.",
-      "loss_scenario": "Service disruption strands passengers in communities with no alternative, and where federal programme funding carries service obligations, failure to operate affects the subsidy.",
-      "rhetorical_question": "Do any of your routes operate under federal or state service obligations?"
+      "headline": "Rural riders have no alternative service.",
+      "points": [
+        "Many routes are the only public transport between communities.",
+        "Passengers include people without cars and without options.",
+        "A stoppage strands them where they are."
+      ],
+      "rhetorical_question": "Which of your routes are the only service between those communities?"
     },
     {
       "rank": 3,
-      "headline": "Driver qualification and hours records are federally required.",
-      "why_this_business": "Passenger carriers must maintain driver qualification files, drug and alcohol testing with Clearinghouse queries, hours of service records, and vehicle maintenance files. Passenger carrier crashes attract intense FMCSA and NTSB attention.",
-      "loss_scenario": "An unsatisfactory safety rating removes operating authority. After a passenger carrier crash, the driver file and hours records determine the litigation outcome and the values involved are very large.",
-      "rhetorical_question": "How are driver hours and qualification records maintained and retrieved?"
+      "headline": "Driver hours are federally regulated and recorded.",
+      "points": [
+        "Hours of service must be recorded by electronic logging devices.",
+        "Records are inspected at roadside and during audits.",
+        "Non-compliant logging puts buses out of service."
+      ],
+      "rhetorical_question": "How are your electronic logging records maintained and backed up?"
     }
   ]
 }

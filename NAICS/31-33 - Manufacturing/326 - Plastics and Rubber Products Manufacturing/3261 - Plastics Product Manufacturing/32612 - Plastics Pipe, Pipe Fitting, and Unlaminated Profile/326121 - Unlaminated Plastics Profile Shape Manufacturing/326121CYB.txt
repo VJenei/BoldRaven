@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Profiles are extruded through tooling to customer dimensions.",
-      "why_this_business": "Profile extrusion runs product through customer-specific dies with dimensional tolerances required for assembly into windows, doors, and building components. Tooling and process settings are specific to each profile.",
-      "loss_scenario": "Out of tolerance profile that will not assemble into customer products, with material and line time lost and the customer's own production halted for want of components.",
-      "rhetorical_question": "How many customer-specific profile dies and process recipes do you hold?"
+      "headline": "Profiles are extruded through customer specific dies.",
+      "points": [
+        "Dies are made for one profile at substantial cost.",
+        "There is no alternative source without transferring the die.",
+        "The customer's product is designed around that exact profile."
+      ],
+      "rhetorical_question": "How many customer dies exist only at your plant?"
     },
     {
       "rank": 2,
-      "headline": "Building product profiles carry code and performance requirements.",
-      "why_this_business": "Window, door, and siding profiles carry structural, weathering, and in some cases fire performance requirements certified by third parties. Building officials and specifiers rely on those certifications.",
-      "loss_scenario": "Product failing performance certification installed in buildings, with removal and replacement required and, in a weather or fire event, liability where performance was relied upon.",
-      "rhetorical_question": "Which of your profiles carry third-party performance certification?"
+      "headline": "Building profiles carry code performance requirements.",
+      "points": [
+        "Window, siding, and building profiles carry structural and weathering ratings.",
+        "Testing and certification records support those ratings.",
+        "Uncertified profiles cannot be used in code compliant construction."
+      ],
+      "rhetorical_question": "What performance certifications do your building profiles carry?"
     },
     {
       "rank": 3,
-      "headline": "Continuous extrusion supplies customers on schedule.",
-      "why_this_business": "Profile extrusion runs continuously supplying fabricators who assemble windows, doors, and components to their own customer schedules with limited component inventory.",
-      "loss_scenario": "Fabricators without profile stopping their assembly, with construction projects behind them delayed and claims flowing back through the chain.",
-      "rhetorical_question": "How many days of profile inventory do your fabricator customers hold?"
+      "headline": "Extrusion runs continuously from stored process settings.",
+      "points": [
+        "Line speed, temperature, and cooling determine dimensional accuracy.",
+        "Settings are stored per profile and per die.",
+        "Off dimension profile does not assemble into the customer's product."
+      ],
+      "rhetorical_question": "Where are your extrusion process settings stored per profile?"
     }
   ]
 }

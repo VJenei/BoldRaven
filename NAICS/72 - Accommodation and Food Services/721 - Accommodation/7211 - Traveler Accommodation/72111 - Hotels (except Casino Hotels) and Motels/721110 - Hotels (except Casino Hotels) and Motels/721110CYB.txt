@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Hotel guest databases have produced some of the largest breaches on record.",
-      "why_this_business": "The Marriott and Starwood breach disclosed in 2018 involved the guest reservation database and affected hundreds of millions of records including passport numbers, resulting in regulatory fines and a multi-state settlement. Hotels hold identity, passport, payment, and stay history data at enormous scale and retain it for years.",
-      "loss_scenario": "Notification across a guest base spanning countries, with passport data exposure engaging foreign regulators alongside US state law, card brand liability, and settlements that in this sector have reached the tens of millions.",
-      "rhetorical_question": "How many years of guest records with passport and payment data do you retain?"
+      "headline": "Guests hand you a card and a passport at check-in.",
+      "points": [
+        "Reservations carry names, addresses, passport details, and payment cards.",
+        "Hotel card breaches have run for years before detection.",
+        "Loyalty programmes hold years of stay history."
+      ],
+      "rhetorical_question": "How many guest records with payment or passport details do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Property management and key systems control physical access to rooms.",
-      "why_this_business": "The property management system drives reservations, check-in, folio charging, and electronic key encoding. Room keys are issued by that system, and door locks are managed through it. Guests cannot check in or enter rooms without it.",
-      "loss_scenario": "A full hotel unable to check guests in or issue keys, with guests arriving after travel and no manual alternative at scale, plus unauthorised key issuance being a guest safety exposure.",
-      "rhetorical_question": "How would you check in and issue room keys if your property management system failed?"
+      "headline": "Room keys and door locks are electronic.",
+      "points": [
+        "Key encoding and door lock systems control access to occupied rooms.",
+        "Guests sleep behind those locks.",
+        "Compromise of the locking system is a guest safety matter."
+      ],
+      "rhetorical_question": "How are your electronic door lock and key encoding systems managed?"
     },
     {
       "rank": 3,
-      "headline": "Franchise and brand standards impose security requirements.",
-      "why_this_business": "Franchised properties operate under brand standards specifying systems, PCI compliance, and increasingly data security requirements, with the brand holding audit rights. Guest data flows to brand reservation and loyalty systems.",
-      "loss_scenario": "Brand action for standards failures alongside the breach, and where guest data flowed to brand systems, questions of responsibility between franchisee and franchisor that are resolved in litigation.",
-      "rhetorical_question": "What data security requirements does your franchise agreement impose?"
+      "headline": "Reservations and check-in run the whole property.",
+      "points": [
+        "Bookings arrive from your systems, brands, and travel platforms continuously.",
+        "Guests arrive expecting a room they already paid for.",
+        "Without the system you cannot check anyone in or out."
+      ],
+      "rhetorical_question": "What happens at the front desk if your reservation system is unavailable?"
     }
   ]
 }

@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Fastener grade markings are a certification relied on in structures.",
-      "why_this_business": "Fasteners carry grade markings indicating strength, verified by material, heading, and heat treatment with lot testing. Engineers specify fasteners by grade and the marking is the only field indication of capacity.",
-      "loss_scenario": "Under-strength fasteners marked to a grade they do not meet, installed in structures and equipment, failing under load with the deficiency invisible and every application from the affected lots requiring identification.",
+      "headline": "The grade marking is the only field indication of strength.",
+      "points": [
+        "Markings certify strength established by material, heading, and heat treatment.",
+        "Engineers specify fasteners by grade and installers trust the mark.",
+        "Under-strength fasteners fail under load with no warning."
+      ],
       "rhetorical_question": "How are lot test results linked to marked fastener production?"
     },
     {
       "rank": 2,
-      "headline": "Counterfeit and non-conforming fastener supply is a federal offence.",
-      "why_this_business": "The Fastener Quality Act and defence supply rules address misrepresented fasteners specifically because of past failures. Defence and aerospace fasteners carry additional qualification and traceability requirements.",
-      "loss_scenario": "Fasteners supplied with certifications that cannot be substantiated, which for defence supply is a false claim with criminal exposure in addition to the recall.",
+      "headline": "Misrepresented fasteners are a federal offence.",
+      "points": [
+        "Federal law addresses misrepresented fasteners because of past structural failures.",
+        "Defence and aerospace fasteners carry additional traceability requirements.",
+        "False certifications on defence supply carry criminal exposure."
+      ],
       "rhetorical_question": "How do you generate and retain certifications for fastener lots?"
     },
     {
       "rank": 3,
-      "headline": "Heat treatment and plating determine strength and embrittlement.",
-      "why_this_business": "Fastener strength comes from heat treatment, and plating processes can introduce hydrogen embrittlement in high strength fasteners unless baking is performed within specified time. Embrittled fasteners fail without warning after installation.",
-      "loss_scenario": "High strength fasteners not baked within the required window, failing weeks or months after installation in structures and equipment, with delayed failures across every lot processed.",
+      "headline": "Plating can embrittle high strength fasteners.",
+      "points": [
+        "Hydrogen from plating must be baked out within a specified time.",
+        "Embrittled fasteners fail without warning after installation.",
+        "The failure appears weeks or months later in the structure."
+      ],
       "rhetorical_question": "How are plating and baking times recorded for high strength fasteners?"
     }
   ]

@@ -1,7 +1,6 @@
 {
   "naics_code": "111211",
   "naics_title": "Potato Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Potato storage is run by ventilation controllers that are monitored remotely.",
-      "why_this_business": "Potatoes are stored 6 to 10 months under controlled pile temperature, humidity, CO2, and airflow. Controllers from Gellert, Industrial Ventilation, and Techmark are used and are usually monitored and adjusted remotely. Pile temperature must be held within a few degrees. Sprout inhibitor application and CO2 levels are also controlled.",
-      "loss_scenario": "A 30 million pound storage building holds $2M to $4M of potatoes. A controller failure or loss of monitoring access causes pressure bruise, pit rot, or blackheart across the pile.",
-      "rhetorical_question": "Are your storage ventilation controls monitored or adjusted remotely?"
+      "headline": "Storage controls decide whether the crop survives to market.",
+      "points": [
+        "Potatoes are held for months under controlled temperature, humidity, and airflow.",
+        "Those conditions are held by automated ventilation and refrigeration controls.",
+        "A control failure can rot an entire storage building."
+      ],
+      "rhetorical_question": "Are your potato storages run by automated temperature and ventilation controls?"
     },
     {
       "rank": 2,
-      "headline": "Processor contracts are transacted by EDI on fixed delivery schedules.",
-      "why_this_business": "Contract potatoes are delivered to Lamb Weston, McCain, Simplot, or a chip plant. Delivery slots, quality specifications, and payment are transmitted electronically. Sugar and specific gravity results are held in the processor's system.",
-      "loss_scenario": "Missed delivery windows and unresolved quality settlements. If the processor is down and cannot receive, the grower has no delivery point and no coverage under a property policy.",
-      "rhetorical_question": "What percentage of your crop is committed to a single processor?"
+      "headline": "Processor contracts set delivery dates and quality specifications.",
+      "points": [
+        "Fry and chip plants schedule deliveries against their own production runs.",
+        "Grade, size, and sugar specifications are tested on arrival.",
+        "A missed or rejected delivery is not rescheduled at the same price."
+      ],
+      "rhetorical_question": "Do you deliver on contract to processors with scheduled delivery dates?"
     },
     {
       "rank": 3,
-      "headline": "Seed potato certification depends on lot and testing records.",
-      "why_this_business": "Seed lot certification, virus and blackleg testing, and field inspection results determine whether seed can legally be sold. Records are held by state certification agencies and by the grower.",
-      "loss_scenario": "Loss of certified status converts seed value to table stock value. If a buyer's crop fails, downstream claims are made against the seed grower who cannot document lot history.",
-      "rhetorical_question": "Do you sell certified seed potatoes to other growers?"
+      "headline": "Seed source and field history are traceable records.",
+      "points": [
+        "Certified seed lots and field history are recorded for disease control.",
+        "Buyers and regulators trace back to the field when a problem appears.",
+        "Without records a single issue implicates your whole crop."
+      ],
+      "rhetorical_question": "How do you record seed lot and field history for each crop?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The equipment you lease stores your customers' documents.",
-      "why_this_business": "Multifunction printers and copiers retain images of scanned and printed documents on internal storage. Lessors manage these fleets remotely for meter reading, service, and supplies, with network access into customer environments.",
-      "loss_scenario": "Customer documents recovered from returned or resold equipment, or a compromise through fleet management access reaching customer networks, making the lessor the source of the customer's breach.",
-      "rhetorical_question": "How is storage sanitised and certified on equipment returned at end of lease?"
+      "headline": "Leased equipment stores customer data.",
+      "points": [
+        "Copiers and multifunction devices store documents on internal drives.",
+        "Returned equipment carries that data with it.",
+        "Customer documents leave with the machine."
+      ],
+      "rhetorical_question": "How is stored data removed from returned equipment?"
     },
     {
       "rank": 2,
-      "headline": "Meter data drives billing across the entire installed base.",
-      "why_this_business": "Lease and service billing is calculated from meter readings collected automatically from devices, with supplies replenished and service dispatched from the same data. Manual meter collection across thousands of devices is not practical.",
-      "loss_scenario": "Unbillable usage across the fleet and supply replenishment failures leaving customers unable to print, with lease funders requiring documentation you cannot produce.",
-      "rhetorical_question": "How many devices report meter readings automatically to your systems?"
+      "headline": "Lease and billing run automatically against accounts.",
+      "points": [
+        "Payments, meter readings, and billing run continuously.",
+        "Customers dispute charges against those records.",
+        "Wrong billing damages customer relationships across the base."
+      ],
+      "rhetorical_question": "How are meter readings and billing generated and reconciled?"
     },
     {
       "rank": 3,
-      "headline": "Lease portfolios are financed against contract documentation.",
-      "why_this_business": "Equipment leases are frequently discounted or sold to third-party funders against the executed contract and payment stream. Funders require original documentation and verification of delivery and acceptance.",
-      "loss_scenario": "Inability to produce executed lease documentation blocks funding of new contracts and creates repurchase obligations on existing ones, which is an immediate liquidity event.",
-      "rhetorical_question": "What documentation must you produce to fund a lease with your funder?"
+      "headline": "Service response is a contract commitment.",
+      "points": [
+        "Service calls, dispatch, and parts run on connected systems.",
+        "Customers cannot print or copy while equipment is down.",
+        "Response times are commitments you signed."
+      ],
+      "rhetorical_question": "How are your service calls dispatched and parts ordered?"
     }
   ]
 }

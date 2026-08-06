@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Electrical equipment carries safety listings tied to construction.",
-      "why_this_business": "Electrical products carry safety agency listings depending on specified components, insulation, and construction. Deviation from the listed configuration creates fire and shock hazards and voids the certification.",
-      "loss_scenario": "Product built outside listed configuration causing fires or shock injuries, with recall across the installed base and listing agency withdrawal of certification.",
+      "headline": "Listings depend on the exact construction you build.",
+      "points": [
+        "Safety listings depend on specified components, insulation, and construction.",
+        "Deviation creates fire and shock hazards and voids certification.",
+        "Product must be recalled from the installed base."
+      ],
       "rhetorical_question": "How are listed configurations and component substitutions controlled at build?"
     },
     {
       "rank": 2,
-      "headline": "Products are embedded in other manufacturers' equipment.",
-      "why_this_business": "Electrical components are supplied to equipment manufacturers who build them into their products. A defect becomes a recall of every finished product containing the component.",
-      "loss_scenario": "A component defect requiring recall of finished equipment across many customers, with the recall cost determined by their products rather than yours.",
+      "headline": "Your components are embedded in other manufacturers' equipment.",
+      "points": [
+        "Equipment makers build your components into their products.",
+        "A component defect becomes a recall of every finished product containing it.",
+        "The recall cost is their equipment, not your component."
+      ],
       "rhetorical_question": "How many finished product models contain your components?"
     },
     {
       "rank": 3,
       "headline": "Connected products create obligations after they ship.",
-      "why_this_business": "Electrical equipment increasingly includes connectivity and firmware, requiring the manufacturer to maintain security updates across the installed base for the life of the product.",
-      "loss_scenario": "A vulnerability across deployed products requiring firmware updates to equipment in customer facilities, with unpatched units remaining exposed and the manufacturer named for products left insecure.",
+      "points": [
+        "Equipment increasingly includes connectivity and updatable firmware.",
+        "You must maintain security updates across the installed base.",
+        "Unpatched units stay exposed and the responsibility remains yours."
+      ],
       "rhetorical_question": "How do deployed products receive firmware updates, and who applies them?"
     }
   ]

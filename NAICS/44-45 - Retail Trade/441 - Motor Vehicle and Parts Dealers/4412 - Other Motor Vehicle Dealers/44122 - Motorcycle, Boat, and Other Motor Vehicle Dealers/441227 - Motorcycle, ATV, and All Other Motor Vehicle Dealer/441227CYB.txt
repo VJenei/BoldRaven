@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Powersports dealers arrange financing and carry Safeguards Rule duties.",
-      "why_this_business": "Dealers arranging retail instalment contracts are financial institutions under GLBA, subject to the FTC Safeguards Rule since June 9, 2023, including multi-factor authentication, encryption, a qualified individual, and an incident response plan. Powersports finance volumes are high relative to unit price.",
-      "loss_scenario": "FTC enforcement and breach notification across a large customer base of relatively small transactions, where the per-customer cost of notification does not scale down with deal size.",
-      "rhetorical_question": "How many financed deals do you process in a typical month?"
+      "headline": "You hold complete buyer credit files.",
+      "points": [
+        "Credit applications carry social security numbers, income, and bank details.",
+        "Federal safeguards rules require a written security programme.",
+        "Every buyer must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many completed credit applications are stored in your systems?"
     },
     {
       "rank": 2,
-      "headline": "Units are small, valuable, and easily stolen.",
-      "why_this_business": "Motorcycles and ATVs can be loaded and removed quickly, and are among the most frequently stolen vehicle types relative to inventory value. Inventory systems record VINs, keys, and unit locations across the lot and storage.",
-      "loss_scenario": "Targeted theft of multiple units informed by inventory data, with floor plan obligations continuing on units that are gone.",
-      "rhetorical_question": "How is your unit and key inventory recorded and secured?"
+      "headline": "The dealership runs on one system.",
+      "points": [
+        "Sales, service, parts, and inventory run on a dealer management system.",
+        "Service bays and the sales floor both stop without it.",
+        "Units cannot be sold or repaired manually."
+      ],
+      "rhetorical_question": "What happens to sales and service if your dealer management system is unavailable?"
     },
     {
       "rank": 3,
-      "headline": "Parts, accessories, and service drive most of the gross profit.",
-      "why_this_business": "Powersports margins depend heavily on parts, accessories, and service rather than unit sales, all run through the dealer management system with fitment lookup by model and year. Seasonal service backlogs are scheduled weeks ahead.",
-      "loss_scenario": "Loss of parts lookup and service scheduling removes the profitable side of the business during the riding season, when the work cannot be deferred to a quieter period.",
-      "rhetorical_question": "What share of your gross profit comes from parts and service rather than unit sales?"
+      "headline": "Recall and registration records reach owners.",
+      "points": [
+        "Manufacturers issue recalls that must reach individual owners.",
+        "Your registration and sales records are the route.",
+        "Without them defective vehicles stay in use."
+      ],
+      "rhetorical_question": "How are owner and registration records maintained for recall notification?"
     }
   ]
 }

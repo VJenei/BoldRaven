@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ransomware has taken television stations off air across a national group.",
-      "why_this_business": "A ransomware attack on Sinclair Broadcast Group in October 2021 disrupted operations across its station group, affecting broadcasts and advertising. Television production and master control depend on networked playout, newsroom, graphics, and traffic systems, frequently centralised across many stations.",
-      "loss_scenario": "Stations off air or unable to run commercials, with advertising make-goods, lost political and event revenue, and network affiliation obligations unmet. A centralised architecture means every station in the group fails together.",
-      "rhetorical_question": "How many of your stations depend on shared centralised playout or newsroom systems?"
+      "headline": "Dead air is the only failure viewers notice.",
+      "points": [
+        "Automation runs programming, advertising, and playback continuously.",
+        "Master control operates largely unattended.",
+        "Loss of air breaches carriage and advertising agreements."
+      ],
+      "rhetorical_question": "How is your programming and advertising playback automated?"
     },
     {
       "rank": 2,
-      "headline": "The Emergency Alert System is a regulated public safety function.",
-      "why_this_business": "Television stations operate EAS equipment required by FCC rules, receiving and retransmitting alerts including presidential messages. Compromised alert equipment has transmitted false messages in documented incidents.",
-      "loss_scenario": "A false alert broadcast to the public causes panic and brings FCC enforcement, and the station carries the responsibility for messages transmitted through its facilities.",
-      "rhetorical_question": "When was your EAS equipment last reviewed for default credentials and internet exposure?"
+      "headline": "Emergency alerting runs through your equipment.",
+      "points": [
+        "Stations are required to carry emergency alert messages.",
+        "Equipment is tested and monitored by federal requirement.",
+        "Failure or false activation are both federal violations."
+      ],
+      "rhetorical_question": "How is your emergency alert equipment monitored and tested?"
     },
     {
       "rank": 3,
-      "headline": "News operations hold source material and unaired footage.",
-      "why_this_business": "Newsrooms hold reporter communications with sources, unaired footage, investigative material, and internal editorial decisions. Broadcast news sources frequently face professional or legal risk if identified.",
-      "loss_scenario": "Exposure of source identities and unaired investigative material harms individuals who relied on confidentiality and ends the station's ability to obtain sensitive information locally.",
-      "rhetorical_question": "How is confidential source material held in your newsroom system?"
+      "headline": "News production runs to fixed broadcast times.",
+      "points": [
+        "Newsroom systems, graphics, and playback all feed a scheduled broadcast.",
+        "Broadcast times do not move.",
+        "A newsroom without systems cannot produce a newscast."
+      ],
+      "rhetorical_question": "What systems must be running to produce and air a newscast?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Customer databases are handed over for analysis.",
-      "why_this_business": "Marketing consultants receive customer lists, transaction histories, and behavioural data to segment and target campaigns. That data belongs to the client's customers, who have no relationship with the consultant and did not consent to the transfer.",
-      "loss_scenario": "Breach exposing client customer databases, with notification obligations under state privacy laws and the client contractually passing the cost and liability to the consultant.",
-      "rhetorical_question": "How many client customer databases are held on your systems?"
+      "headline": "You hold campaigns and launches before they go public.",
+      "points": [
+        "Campaign plans and product launches exist months before announcement.",
+        "That information reveals client strategy to competitors.",
+        "A leak destroys the launch and breaches your engagement."
+      ],
+      "rhetorical_question": "What client campaign and launch information do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Unlaunched campaigns and positioning are competitively sensitive.",
-      "why_this_business": "Consultants hold campaign plans, pricing strategy, product positioning, and launch timing before announcement. Competitors gain a direct advantage from advance knowledge of a campaign or price move.",
-      "loss_scenario": "Leaked campaign and pricing strategy allows competitors to pre-empt the launch, with the client's marketing investment wasted and the loss claimed against the consultant.",
-      "rhetorical_question": "Do you hold unlaunched pricing or campaign plans for any client?"
+      "headline": "Customer data arrives for analysis.",
+      "points": [
+        "Client customer lists and behavioural data are transferred for analysis.",
+        "That data identifies individuals directly.",
+        "Their privacy obligations follow the data to you."
+      ],
+      "rhetorical_question": "What client customer data is stored on your systems?"
     },
     {
       "rank": 3,
-      "headline": "Privacy regulation now governs how customer data may be used.",
-      "why_this_business": "State privacy laws impose obligations on processing personal data, including purpose limitation, opt-out rights for targeted advertising, and contractual requirements between controllers and processors. Consultants processing client data are subject to those contractual terms.",
-      "loss_scenario": "Processing outside the agreed purpose or failing contractual data protection terms creates liability to the client and potential regulatory exposure, separate from any breach.",
-      "rhetorical_question": "What do your client data processing agreements permit you to do with customer data?"
+      "headline": "Deliverables are due against launch dates.",
+      "points": [
+        "Strategy and creative work is due before campaign launches.",
+        "Media and production are booked around those dates.",
+        "A missed date wastes the booked media spend."
+      ],
+      "rhetorical_question": "What launch dates depend on your deliverables?"
     }
   ]
 }

@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Wire products carry load ratings in lifting and safety applications.",
-      "why_this_business": "Wire rope slings, chain, mesh, and fabricated wire products are used in lifting, fall protection, and guarding with rated capacities. Failure in lifting drops loads onto people.",
-      "loss_scenario": "A sling or rope failure dropping a load with fatal injury, and the manufacturer's proof testing and material records determining whether the product ever met its rating.",
+      "headline": "Lifting products drop loads onto people when they fail.",
+      "points": [
+        "Slings, rope, and lifting products carry rated capacities.",
+        "Users select equipment based on that rating.",
+        "A failure in lifting drops the load onto whoever is beneath it."
+      ],
       "rhetorical_question": "Are your products used in lifting or fall protection with rated capacities?"
     },
     {
       "rank": 2,
-      "headline": "Proof testing and certification support the rating.",
-      "why_this_business": "Lifting products are proof tested with certificates issued, and users rely on those ratings when selecting equipment for a load. Certificates accompany the product and are checked during inspections.",
-      "loss_scenario": "Products rated without proper testing, or certificates that cannot be reproduced, with every unit from the affected production requiring withdrawal from service.",
+      "headline": "Proof testing is what supports the rating.",
+      "points": [
+        "Lifting products are proof tested with certificates issued.",
+        "Certificates accompany the product and are checked during inspections.",
+        "Products without valid certificates must be withdrawn from service."
+      ],
       "rhetorical_question": "How are proof test results recorded and linked to individual products?"
     },
     {
       "rank": 3,
       "headline": "Fabrication is to customer specification with dedicated setups.",
-      "why_this_business": "Wire products are fabricated to customer dimensions, mesh, and configuration with tooling and setups specific to each product. Customers design equipment and guarding around the specification.",
-      "loss_scenario": "Wrong specification production unusable by the customer, with their equipment or installation delayed and material scrapped.",
+      "points": [
+        "Dimensions, mesh, and configuration are made per customer product.",
+        "Customers design equipment and guarding around that specification.",
+        "Wrong specification product is unusable by anyone."
+      ],
       "rhetorical_question": "What proportion of your production is made to individual customer specification?"
     }
   ]

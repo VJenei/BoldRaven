@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold event bookings that anchor a destination's economy.",
-      "why_this_business": "Bureaus manage convention centre bookings, housing blocks, and event pipelines years ahead, with organiser contracts, attendee housing data, and destination commitments. Large conventions represent very substantial visitor spending in the destination.",
-      "loss_scenario": "Loss of booking pipeline and housing data disrupts events booked years ahead, with organisers moving to other destinations and the economic consequence falling on the whole community.",
-      "rhetorical_question": "How many years forward does your event booking pipeline extend?"
+      "headline": "Event bookings commit venues and hotels years ahead.",
+      "points": [
+        "Conventions are booked years in advance with venues and room blocks committed.",
+        "Organisers and members plan around those commitments.",
+        "A lost booking record affects a whole city's hospitality economy."
+      ],
+      "rhetorical_question": "How are your event bookings and room block commitments recorded?"
     },
     {
       "rank": 2,
-      "headline": "Housing bureau operations hold attendee personal and payment data.",
-      "why_this_business": "Bureaus operating housing services collect attendee names, contact details, and payment cards for hotel reservations across large conventions. Attendees are also targeted by fraudulent housing operators impersonating official bureaus.",
-      "loss_scenario": "Attendee payment data exposed, and attendees defrauded by parties impersonating your housing bureau, with the organiser and the destination bearing the reputational consequence.",
-      "rhetorical_question": "How would an attendee distinguish your official housing service from a fraudulent one?"
+      "headline": "Member and visitor data runs the operation.",
+      "points": [
+        "Member businesses and visitor enquiries are held with contact and payment data.",
+        "Marketing and referral run against those records.",
+        "Every affected member and visitor must be notified."
+      ],
+      "rhetorical_question": "What member and visitor data do you store?"
     },
     {
       "rank": 3,
-      "headline": "Public sector funding brings transparency and accountability obligations.",
-      "why_this_business": "Bureaus are frequently funded by hotel occupancy taxes with public accountability, board oversight, and in many cases public records obligations. Financial and contract records are subject to audit and disclosure requirements.",
-      "loss_scenario": "Inability to produce records for audit or public records requests, with governance consequences and funding scrutiny from the local government that provides the revenue.",
-      "rhetorical_question": "Are your records subject to public records or audit obligations?"
+      "headline": "Your website is the visitor's first contact.",
+      "points": [
+        "Destination information, bookings, and enquiries run through your site.",
+        "Visitors plan trips from that information.",
+        "A defaced or unavailable site damages the destination, not just you."
+      ],
+      "rhetorical_question": "How is your public website and booking platform protected?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Congregational records document faith, family, and personal circumstances.",
-      "why_this_business": "Congregations hold membership records, family relationships, giving histories, pastoral care notes, counselling records, and details of personal crises shared in confidence. Membership itself indicates religious affiliation, which is sensitive in its own right.",
-      "loss_scenario": "Exposure of pastoral and counselling notes causes profound personal harm to members who disclosed in confidence, and in some communities exposure of religious affiliation carries safety consequences.",
-      "rhetorical_question": "Do your records include pastoral care or counselling notes about named individuals?"
+      "headline": "Member records carry deeply personal information.",
+      "points": [
+        "Records document families, giving, pastoral care, and personal circumstances.",
+        "Members disclose that information in confidence.",
+        "Disclosure of pastoral matters breaks a trust that cannot be rebuilt."
+      ],
+      "rhetorical_question": "What member and pastoral care records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Giving records reveal personal financial circumstances.",
-      "why_this_business": "Organisations record contributions by member for tax receipting, revealing giving levels that members frequently regard as private within their own community. Major donor records include capacity assessments.",
-      "loss_scenario": "Exposure of individual giving levels within a community where members know each other, which causes lasting relational damage, plus payment data from recurring online giving.",
-      "rhetorical_question": "Would your members want each other to know what they give?"
+      "headline": "Donation fraud targets congregations directly.",
+      "points": [
+        "Fraudsters impersonate clergy and request gift cards or transfers from members.",
+        "Members act because they trust the sender.",
+        "Members lose money and the organisation loses credibility."
+      ],
+      "rhetorical_question": "How would members verify a request for funds that appears to come from leadership?"
     },
     {
       "rank": 3,
-      "headline": "Youth programmes and safeguarding records are highly sensitive.",
-      "why_this_business": "Congregations operate children's and youth programmes with participant records, parent contacts, volunteer background checks, and safeguarding documentation including any allegations or concerns raised.",
-      "loss_scenario": "Exposure of children's participation records and safeguarding files, which is both a child safety exposure and, where allegations are documented, deeply damaging to identified individuals on both sides.",
-      "rhetorical_question": "Do you hold background check and safeguarding records for youth programme volunteers?"
+      "headline": "Giving records support donor tax positions.",
+      "points": [
+        "Contribution records support member charitable deductions.",
+        "Members rely on annual statements from those records.",
+        "Records you cannot produce cost members their deductions."
+      ],
+      "rhetorical_question": "How are your contribution records maintained and backed up?"
     }
   ]
 }

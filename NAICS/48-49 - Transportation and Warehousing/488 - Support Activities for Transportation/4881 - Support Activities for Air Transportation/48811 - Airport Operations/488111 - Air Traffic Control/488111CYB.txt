@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A single national aviation data system failure grounded every US departure.",
-      "why_this_business": "In January 2023 a failure in the FAA Notice to Air Missions system caused the first nationwide ground stop of domestic departures since 2001, delaying thousands of flights. Air traffic services depend on interconnected national systems, and contract tower operators depend on the same data feeds and communications.",
-      "loss_scenario": "A ground stop or loss of surveillance data halts operations across the airports served, with cascading delay costs borne by airlines and passengers and the operator answerable to the FAA and the airport sponsor.",
-      "rhetorical_question": "Which national data systems must be available for your facility to provide service?"
+      "headline": "You are separating aircraft in flight.",
+      "points": [
+        "Surveillance, communication, and flight data systems support every separation decision.",
+        "Controllers depend on accurate displayed information.",
+        "Wrong or lost data is a mid-air collision risk, not a delay."
+      ],
+      "rhetorical_question": "What systems do your controllers depend on to maintain separation?"
     },
     {
       "rank": 2,
-      "headline": "Controller certification and currency are legally required to work a position.",
-      "why_this_business": "Controllers must hold current certification, medical clearance, and facility currency, tracked and auditable. A position cannot be staffed by an uncertified or non-current controller, and staffing records are examined after any incident.",
-      "loss_scenario": "Facility closure or reduced operating hours where certification and currency cannot be verified, and after a loss of separation event the training and currency record is central to the investigation.",
-      "rhetorical_question": "How are controller certification and currency records maintained and verified?"
+      "headline": "Loss of service stops traffic across the region.",
+      "points": [
+        "Facilities control defined airspace with no immediate substitute.",
+        "Traffic must be stopped or rerouted when a facility goes down.",
+        "Delays cascade across the national system."
+      ],
+      "rhetorical_question": "What airspace and traffic volume does your facility control?"
     },
     {
       "rank": 3,
-      "headline": "Communications and surveillance systems are safety of life.",
-      "why_this_business": "Voice communication, radar or surveillance display, and flight data processing are the tools by which separation is maintained. Loss of any of them requires immediate fallback procedures and reduced capacity, and controllers must know what they can still trust.",
-      "loss_scenario": "A degraded or manipulated surveillance picture creates a mid-air collision exposure, which is the most severe outcome in aviation and the reason these systems are engineered and regulated as they are.",
-      "rhetorical_question": "What are your fallback procedures when surveillance or communications degrade?"
+      "headline": "Flight data flows between facilities continuously.",
+      "points": [
+        "Flight plans, handoffs, and coordination move electronically between facilities.",
+        "Adjacent facilities depend on that data arriving.",
+        "Manual coordination reduces capacity drastically."
+      ],
+      "rhetorical_question": "How does flight data flow between your facility and adjacent facilities?"
     }
   ]
 }

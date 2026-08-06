@@ -41,8 +41,10 @@ POLICY_SLUGS = {
     "UMB": "umbrella",
 }
 
-# Reason fields, in render order, with their visible label.
+# Reason fields, in render order, with their visible label. A list field is
+# rendered as bullets and its label is never shown, so "points" carries none.
 FIELD_LABELS = [
+    ("points", ""),
     ("why_this_business", "WHY"),
     ("loss_scenario", "LOSS"),
     ("rhetorical_question", "ASK"),
@@ -290,23 +292,43 @@ def render_fields(pairs):
     return "\n".join(out)
 
 
+def render_points(values):
+    return '<ul class="points">%s</ul>' % "".join(
+        "<li>%s</li>" % esc(item) for item in values if item not in (None, ""))
+
+
 def render_reason(reason, position):
+    """A list value becomes a bullet list; a scalar becomes a labelled row.
+
+    Blocks come out in field order, so consecutive scalars stay in one <dl>
+    and a list breaks out of it.
+    """
     rank = reason.get("rank", position)
     headline = reason.get("headline", "")
-    pairs = []
-    seen = set()
-    for key, label in FIELD_LABELS:
-        seen.add(key)
-        value = reason.get(key)
-        if value in (None, ""):
-            continue
-        pairs.append((label, value))
+
+    ordered = [(key, label, reason.get(key)) for key, label in FIELD_LABELS]
+    seen = {key for key, _label in FIELD_LABELS}
     for key, value in reason.items():
-        if key in seen or key in REASON_SKIP or value in (None, ""):
+        if key in seen or key in REASON_SKIP:
             continue
-        if isinstance(value, (dict, list)):
+        ordered.append((key, label_for(key), value))
+
+    blocks = []
+    pending = []
+    for _key, label, value in ordered:
+        if value in (None, "", [], {}):
+            continue
+        if isinstance(value, list):
+            if pending:
+                blocks.append(render_fields(pending))
+                pending = []
+            blocks.append(render_points(value))
+            continue
+        if isinstance(value, dict):
             value = json.dumps(value, ensure_ascii=False)
-        pairs.append((label_for(key), value))
+        pending.append((label, value))
+    if pending:
+        blocks.append(render_fields(pending))
 
     return (
         '<li class="reason">'
@@ -314,7 +336,7 @@ def render_reason(reason, position):
         '<span class="rank">%02d</span>'
         '<h2>%s</h2>'
         '</div>%s</li>' % (int(rank) if str(rank).isdigit() else position,
-                           esc(headline), render_fields(pairs))
+                           esc(headline), "\n".join(blocks))
     )
 
 

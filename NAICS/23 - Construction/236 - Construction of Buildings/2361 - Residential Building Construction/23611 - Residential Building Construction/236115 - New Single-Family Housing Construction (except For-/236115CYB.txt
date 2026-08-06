@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Construction draws are paid by wire against emailed requests.",
-      "why_this_business": "Custom home builders are paid in draws from a construction lender or directly by the owner, requested with lien waivers and inspection sign-offs sent by email. Subcontractors and suppliers are paid from those draws on the same cycle. Payment instructions change often enough that a change request does not look unusual.",
-      "loss_scenario": "A diverted draw of $50,000 to $300,000. The builder still owes the subcontractors, so the loss is paid twice, and mechanics lien exposure follows if they go unpaid.",
-      "rhetorical_question": "How do you verify a change of bank details from a subcontractor or supplier?"
+      "headline": "Draw requests move six figures on emailed instructions.",
+      "points": [
+        "Progress draws are requested from lenders and paid to subcontractors by transfer.",
+        "Fake banking changes are sent to builders during draw cycles constantly.",
+        "One diverted draw is a month of work you must fund twice."
+      ],
+      "rhetorical_question": "How are changes to subcontractor or supplier banking details verified before payment?"
     },
     {
       "rank": 2,
-      "headline": "You hold your clients' financial and personal information.",
-      "why_this_business": "Custom builds require the owner's financing details, loan documents, allowance budgets, and often personal information gathered for the lender. Contracts, change orders, and selections are exchanged by email and stored in project folders for years after completion.",
-      "loss_scenario": "Breach notification to clients whose financial documents you held, in a business where every future job comes from referral by those same clients.",
-      "rhetorical_question": "Do you retain client financing or loan documents after a project closes?"
+      "headline": "You hold the buyer's complete financial and personal file.",
+      "points": [
+        "Contracts, deposits, credit information, and identification are collected from every buyer.",
+        "Buyers hand over that information because you asked for it.",
+        "Notification to affected buyers is required by state law."
+      ],
+      "rhetorical_question": "What buyer financial and identification records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Plans, selections, and schedules are the only record of what was agreed.",
-      "why_this_business": "Custom work runs on drawings, revisions, allowances, and a long chain of change orders and selection approvals. Disputes over what was specified are the most common source of litigation in residential construction, and the record is entirely digital.",
-      "loss_scenario": "An unwinnable dispute over scope or allowance because the approved selections and change order chain cannot be produced, on a contract worth several hundred thousand dollars.",
-      "rhetorical_question": "Where are your signed change orders and selection approvals stored?"
+      "headline": "Schedules, plans, and inspections all live in one system.",
+      "points": [
+        "Trade schedules, plan sets, selections, and inspection results run on project software.",
+        "Trades show up based on what that system tells them.",
+        "A schedule that disappears stops every trade on every house."
+      ],
+      "rhetorical_question": "What software holds your build schedules, plans, and trade assignments?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Client brand assets and unreleased campaigns sit on your systems.",
-      "why_this_business": "Designers hold logos, brand guidelines, packaging artwork, and campaign creative before launch, along with the working files that clients frequently do not hold themselves. Campaigns are timed to announcements and product releases.",
-      "loss_scenario": "A leaked campaign or unreleased packaging design forfeits the launch and hands competitors advance notice, with client claims measured against the campaign spend rather than the design fee.",
-      "rhetorical_question": "Do you hold unreleased campaign or packaging artwork for clients right now?"
+      "headline": "You hold client campaigns before they launch.",
+      "points": [
+        "Artwork, branding, and campaign material exist before public release.",
+        "Those files reveal client strategy ahead of announcement.",
+        "A leak damages the launch and breaches your agreements."
+      ],
+      "rhetorical_question": "Do you hold client material for campaigns not yet launched?"
     },
     {
       "rank": 2,
-      "headline": "Production deadlines are set by print and media bookings.",
-      "why_this_business": "Artwork must reach printers, publications, and media platforms by booking deadlines that were paid for in advance. Print slots and media placements do not move for a missed file.",
-      "loss_scenario": "Missed print and media deadlines with the placement already bought, so the client loses the media value and claims it against the designer.",
-      "rhetorical_question": "What media or print bookings depend on your file delivery dates?"
+      "headline": "Project files and artwork are the deliverable.",
+      "points": [
+        "Working files, fonts, and assets represent the whole project.",
+        "Clients build campaigns and print runs from them.",
+        "Recreating them means redoing the design work."
+      ],
+      "rhetorical_question": "Where are your active project files and client assets stored?"
     },
     {
       "rank": 3,
-      "headline": "Working files are frequently the only copy in existence.",
-      "why_this_business": "Clients typically receive finished output rather than layered working files, which remain with the designer. Future revisions, format adaptations, and reprints all depend on those files.",
-      "loss_scenario": "Loss of working files means brand assets must be recreated from finished output, degrading quality and costing the client the value of design work already paid for.",
-      "rhetorical_question": "Do your clients hold copies of the layered working files, or only the final output?"
+      "headline": "Delivery dates are tied to campaign and print schedules.",
+      "points": [
+        "Artwork is due against print bookings and campaign launch dates.",
+        "Press time and media placement are booked around those dates.",
+        "A missed date wastes the booked media and press time."
+      ],
+      "rhetorical_question": "What print and campaign dates depend on your delivery?"
     }
   ]
 }

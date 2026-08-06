@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold the private lives of public figures.",
-      "why_this_business": "Agents and managers hold clients' contracts, financial arrangements, medical information, travel schedules, personal communications, and family details. Public figures are targeted specifically for this material because it has publication value independent of any financial fraud.",
-      "loss_scenario": "Publication of client personal material and communications, which cannot be undone, with claims from clients and the immediate end of a business whose only asset is trust and discretion.",
-      "rhetorical_question": "What personal client material is held in your email and files right now?"
+      "headline": "Client contracts and terms are highly confidential.",
+      "points": [
+        "Deal terms, compensation, and negotiations are held per client.",
+        "Competitors, media, and counterparties all want that information.",
+        "Disclosure damages the client's negotiating position and privacy."
+      ],
+      "rhetorical_question": "What client contract and compensation records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Client funds and contract payments flow through the office.",
-      "why_this_business": "Representation involves receiving client earnings, deducting commission, and disbursing to clients, business managers, and third parties. Payment instructions move by email between agent, client, and payers who transact infrequently.",
-      "loss_scenario": "Diverted client earnings in amounts reflecting entertainment and athletic contracts, with the agent liable to the client and the relationship ended regardless of the outcome.",
-      "rhetorical_question": "How are client payment instructions verified before earnings are disbursed?"
+      "headline": "Client money passes through your accounts.",
+      "points": [
+        "Fees, advances, and earnings are received and distributed to clients.",
+        "Payment instructions arrive and change electronically.",
+        "A diverted payment is client money you must replace."
+      ],
+      "rhetorical_question": "How are client payment instructions verified before funds move?"
     },
     {
       "rank": 3,
-      "headline": "Deal terms and negotiations are confidential and market-sensitive.",
-      "why_this_business": "Agents hold unannounced deal terms, contract negotiations, and client career plans. In sport, contract and injury information affects team decisions and wagering markets; in entertainment, casting and deal information moves before announcement.",
-      "loss_scenario": "Leaked deal terms damage client negotiating positions across the market and, in sport, may raise wagering integrity questions with league involvement.",
-      "rhetorical_question": "Do you hold unannounced contract terms or negotiations for clients?"
+      "headline": "Client schedules and locations are security sensitive.",
+      "points": [
+        "Travel, appearances, and locations are held for public figures.",
+        "That information has physical security consequences.",
+        "Disclosure puts clients at real risk."
+      ],
+      "rhetorical_question": "What client schedule and travel data do you hold?"
     }
   ]
 }

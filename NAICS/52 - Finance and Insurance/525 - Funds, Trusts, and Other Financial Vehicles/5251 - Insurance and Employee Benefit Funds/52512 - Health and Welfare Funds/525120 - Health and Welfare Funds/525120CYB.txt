@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Health and welfare plans hold protected health information.",
-      "why_this_business": "Multiemployer and single employer health and welfare funds administer medical, dental, and disability benefits, holding claims data, eligibility, and dependent information. As group health plans they are HIPAA covered entities with direct obligations.",
-      "loss_scenario": "HIPAA breach notification to participants, HHS, and potentially the media, with OCR enforcement examining whether an adequate security risk analysis had been performed.",
-      "rhetorical_question": "When did the fund last complete a HIPAA security risk analysis?"
+      "headline": "You hold health data for every covered participant.",
+      "points": [
+        "Claims, eligibility, and treatment data covers participants and dependents.",
+        "Health privacy law requires notification of every affected individual.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many participant health records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Fiduciary duties extend to participant data and plan assets.",
-      "why_this_business": "Trustees of these funds are ERISA fiduciaries, and Department of Labor guidance addresses cybersecurity expectations for plan fiduciaries and their service providers. Fiduciary liability under ERISA is personal.",
-      "loss_scenario": "Fiduciary breach claims against trustees personally, where the standard is prudence in selecting and monitoring service providers and protecting plan assets and data.",
-      "rhetorical_question": "What cybersecurity due diligence has the board of trustees performed on service providers?"
+      "headline": "Claims processing stops care and payment.",
+      "points": [
+        "Eligibility and claims processing run continuously.",
+        "Providers and participants wait on those decisions.",
+        "Participants face delayed care while systems are down."
+      ],
+      "rhetorical_question": "What happens to eligibility and claims if your systems are unavailable?"
     },
     {
       "rank": 3,
-      "headline": "Eligibility determines whether members can obtain care.",
-      "why_this_business": "Funds maintain eligibility based on hours reported by contributing employers, determining whether a member and their dependants are covered on any given day. Providers verify eligibility electronically at the point of care.",
-      "loss_scenario": "Members turned away or billed as uninsured because eligibility cannot be verified, at medical appointments and pharmacies, which for members with ongoing conditions is a direct care interruption.",
-      "rhetorical_question": "How do providers verify a member's eligibility, and what happens if that fails?"
+      "headline": "Fiduciary duty covers how you protect the plan.",
+      "points": [
+        "Plan fiduciaries are responsible for prudent administration including data security.",
+        "Regulators have issued specific cybersecurity guidance for plans.",
+        "Fiduciary breach is personal liability, not just corporate."
+      ],
+      "rhetorical_question": "What cybersecurity practices does your fiduciary responsibility require?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Wallboard fire ratings are relied on by building codes.",
-      "why_this_business": "Gypsum board is a primary fire barrier in construction with fire resistance ratings certified through tested assemblies. Board composition and thickness determine whether an assembly achieves its rating.",
-      "loss_scenario": "Board below specification installed in fire-rated assemblies across many buildings, with the rating not actually achieved and, in a fire, the barrier failing at the point it was needed.",
-      "rhetorical_question": "How is board composition and thickness verified against fire rating requirements?"
+      "headline": "Board lines run continuously at very high speed.",
+      "points": [
+        "Calcining, forming, and drying run as one continuous process.",
+        "Lines produce board faster than trucks can load it.",
+        "An unplanned stop wastes material and takes hours to restart."
+      ],
+      "rhetorical_question": "What does an hour of stopped production cost on your board line?"
     },
     {
       "rank": 2,
-      "headline": "Board lines run continuously at very high speed.",
-      "why_this_business": "Wallboard production runs a continuous line from stucco calcining through forming, cutting, and drying in long kilns. Board is in process throughout and the line runs at high speed with limited storage.",
-      "loss_scenario": "Product in process lost on line stops plus kiln disruption, and construction customers who order by the truckload against framing schedules unable to obtain board.",
-      "rhetorical_question": "How much board is in process on your line and in the dryer at any moment?"
+      "headline": "Fire rated board is a life safety product.",
+      "points": [
+        "Rated board is tested as part of assemblies that contain fire.",
+        "Composition and thickness determine that rating.",
+        "Board below rating means the assembly fails during a fire."
+      ],
+      "rhetorical_question": "How are your fire rating test results linked to production runs?"
     },
     {
       "rank": 3,
-      "headline": "Imported and recycled inputs carry quality risk.",
-      "why_this_business": "Gypsum sources include natural rock and synthetic gypsum from flue gas desulfurisation, with composition varying by source. Contaminated imported wallboard caused extensive litigation and remediation in US homes.",
-      "loss_scenario": "Contaminated or off-composition board installed in homes causing corrosion and health complaints, with remediation requiring removal of all board from affected houses.",
-      "rhetorical_question": "How do you verify the composition of incoming gypsum from each source?"
+      "headline": "Builders cannot close walls without board.",
+      "points": [
+        "Board is delivered to job sites on scheduled dates.",
+        "Every finishing trade is scheduled behind wall closure.",
+        "A supply gap stops construction across many projects."
+      ],
+      "rhetorical_question": "How are your deliveries scheduled against builder demand?"
     }
   ]
 }

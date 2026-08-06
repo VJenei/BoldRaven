@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Wrongful repossession follows directly from bad account data.",
-      "why_this_business": "Repossession agents act on assignment data from lenders identifying vehicles, addresses, and account status. If the account is current, the loan was paid, or bankruptcy has been filed, taking the vehicle is unlawful and in bankruptcy is a violation of the automatic stay.",
-      "loss_scenario": "Wrongful repossession claims with statutory and punitive damages, bankruptcy stay violations carrying sanctions, and conversion liability for a vehicle taken without right.",
-      "rhetorical_question": "How do you verify account status and bankruptcy filings before executing a repossession?"
+      "headline": "Assignment data identifies debtors and locations.",
+      "points": [
+        "Assignments carry debtor identity, addresses, and vehicle information.",
+        "That data shows where individuals live and what they drive.",
+        "Every affected individual must be notified."
+      ],
+      "rhetorical_question": "What debtor identity and location data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "You take custody of vehicles and their contents.",
-      "why_this_business": "Recovered vehicles contain personal property that must be inventoried, stored, and returned under state law. Inventory records and photographs at recovery are the only evidence of what was inside.",
-      "loss_scenario": "Personal property claims that cannot be rebutted without inventories, and statutory penalties in states with specific requirements for handling and returning contents.",
-      "rhetorical_question": "How do you inventory and document personal property found in a recovered vehicle?"
+      "headline": "Wrongful repossession is a serious legal matter.",
+      "points": [
+        "Repossession requires valid assignment and account status.",
+        "Repossessing a current account or the wrong vehicle is actionable.",
+        "Records establish what you were told and when."
+      ],
+      "rhetorical_question": "How are assignments and account status verified before repossession?"
     },
     {
       "rank": 3,
-      "headline": "Assignment data identifies debtors, addresses, and vehicles.",
-      "why_this_business": "Agents hold lender assignment files with debtor names, addresses, employment, references, vehicle details, and account balances, plus skip tracing data gathered from multiple sources.",
-      "loss_scenario": "Breach exposing debtor location and financial data for people in financial distress, with notification obligations and lender contractual claims for the exposure of their customer data.",
-      "rhetorical_question": "How many lender assignment files with debtor personal data do you hold?"
+      "headline": "Recovered property must be accounted for.",
+      "points": [
+        "Recovered vehicles and their contents are inventoried and stored.",
+        "Owners have legal rights to personal property inside.",
+        "Property you cannot account for becomes a legal claim."
+      ],
+      "rhetorical_question": "How is recovered property and its contents inventoried?"
     }
   ]
 }

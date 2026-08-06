@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The largest company in this industry lost $35 million to ransomware in a single quarter.",
-      "why_this_business": "Halliburton disclosed in an SEC filing that an unauthorised party accessed its systems on August 21, 2024, forcing it to take systems offline, including production planning and shipment tracking used to deliver customer service. The company recorded roughly $35 million of pretax cost and confirmed data was removed. The attack was attributed to RansomHub.",
-      "loss_scenario": "For a smaller service company the proportional impact is worse, not better. Loss of job scheduling, field ticketing, and equipment tracking stops revenue immediately while crews and equipment remain on payroll.",
-      "rhetorical_question": "What software do you use for job scheduling and field ticketing, and how long could you operate without it?"
+      "headline": "Your equipment connects into operator networks on location.",
+      "points": [
+        "Wireline, pumping, and monitoring equipment links to operator systems at the wellsite.",
+        "Job data and well results flow between your systems and theirs.",
+        "You become the path into the operator's network."
+      ],
+      "rhetorical_question": "How does your equipment or data connect to operator systems on location?"
     },
     {
       "rank": 2,
-      "headline": "Field tickets are the only record that work was performed.",
-      "why_this_business": "Service revenue is captured on field tickets signed at the wellsite, then converted to invoices. Operators dispute unsupported tickets as a matter of routine. Electronic ticketing systems hold the signed record, the equipment used, and the hours claimed.",
-      "loss_scenario": "Unbillable work across the outage period. A pressure pumping or wireline company can have several million dollars of unbilled tickets in the system at any time.",
-      "rhetorical_question": "How much unbilled field ticket value is typically sitting in your system?"
+      "headline": "Pressure equipment is controlled electronically and fails violently.",
+      "points": [
+        "Pumps, valves, and pressure control equipment operate at very high pressure.",
+        "Control and monitoring systems manage those operations.",
+        "A control failure at pressure injures people on location."
+      ],
+      "rhetorical_question": "What pressure and well control equipment do you operate under electronic control?"
     },
     {
       "rank": 3,
-      "headline": "You hold your customers' completion designs, which is their most valuable technical data.",
-      "why_this_business": "Frac designs, fluid systems, proppant loading, stage spacing, and production results are the operator's confidential intellectual property, developed at great cost and closely guarded. Service companies hold this for many operators simultaneously and are bound by confidentiality provisions in every master service agreement.",
-      "loss_scenario": "Third-party liability to multiple operators from one breach, plus loss of the master service agreements that give you access to the work.",
-      "rhetorical_question": "How many operators' completion designs are held on your systems at once?"
+      "headline": "Operator well data is confidential and valuable.",
+      "points": [
+        "Formation results, treatment designs, and production data pass through your systems.",
+        "That data reveals the operator's position before disclosure.",
+        "A leak breaches your contract and damages their lease value."
+      ],
+      "rhetorical_question": "What operator well data is stored on your systems?"
     }
   ]
 }

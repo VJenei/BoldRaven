@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seasonal apparel has no value after its window.",
-      "why_this_business": "Apparel is designed, produced, and delivered against retail seasons with delivery dates set months ahead. Retailers cancel late deliveries and goods that miss the season clear at a fraction of ticket.",
-      "loss_scenario": "Cancelled retail orders on a full season's production, with the goods clearing at markdown and the season's margin converted into a write-down.",
-      "rhetorical_question": "What is the value of your seasonal inventory the week after the delivery window closes?"
+      "headline": "Retail delivery dates decide whether the season is profitable.",
+      "points": [
+        "Garments must arrive for a specific retail floor set date.",
+        "Production, finishing, and shipping are scheduled to that date.",
+        "Late product misses the season and sells at markdown."
+      ],
+      "rhetorical_question": "How are your production schedules tied to customer floor set dates?"
     },
     {
       "rank": 2,
-      "headline": "Design and pattern files are the product before it exists.",
-      "why_this_business": "Design, patterns, grading, and marker files define the garment and drive automated cutting. Unreleased seasonal designs are commercially sensitive and are copied quickly if they leak.",
-      "loss_scenario": "Leaked designs copied and produced by fast fashion competitors ahead of your own launch, which removes the differentiation the season was built on.",
-      "rhetorical_question": "Do you hold unreleased seasonal designs on your systems right now?"
+      "headline": "Designs and line plans are confidential until launch.",
+      "points": [
+        "Designs, tech packs, and line plans exist months before the season.",
+        "That information is the competitive position for the season.",
+        "Disclosure lets copies reach market first."
+      ],
+      "rhetorical_question": "Where are your design and line plan files stored?"
     },
     {
       "rank": 3,
-      "headline": "Retail vendor compliance is measured and penalised automatically.",
-      "why_this_business": "Apparel ships to retailers under routing guides specifying labelling, packing, advance ship notices, and delivery windows, with chargebacks applied automatically and scorecards affecting future orders.",
-      "loss_scenario": "Chargebacks reaching several percent of invoice value plus reduced orders in the following season, decided by automated systems that do not consider the reason.",
-      "rhetorical_question": "What percentage of your invoice value is lost to vendor compliance chargebacks?"
+      "headline": "Labelling requirements are federally enforced.",
+      "points": [
+        "Fiber content, care, and country of origin labelling is required on every garment.",
+        "Errors are enforcement matters and cause retailer rejection.",
+        "Mislabelled goods must be relabelled or destroyed."
+      ],
+      "rhetorical_question": "How are your fiber content and origin labelling specifications controlled?"
     }
   ]
 }

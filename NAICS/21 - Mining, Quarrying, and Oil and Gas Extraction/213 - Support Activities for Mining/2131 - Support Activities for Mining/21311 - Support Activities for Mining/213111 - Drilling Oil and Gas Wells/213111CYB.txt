@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The rig floor is run by an integrated control system.",
-      "why_this_business": "Modern rigs use integrated drilling control systems that operate the drawworks, top drive, mud pumps, and pipe handling from a driller's chair, with the blowout preventer control system alongside. Data is streamed to shore-based real time operations centres over satellite. The control network and the business network are frequently less separated than assumed.",
-      "loss_scenario": "A rig unable to operate loses its dayrate immediately. Land rig dayrates run $25,000 to $40,000 and offshore rigs run into the hundreds of thousands per day, with the operator's standby costs claimed against the contractor.",
-      "rhetorical_question": "Are your rig control systems on a network that also carries business or crew traffic?"
+      "headline": "Rig control systems run the drilling operation.",
+      "points": [
+        "Drawworks, top drive, mud pumps, and blowout preventer controls are electronically operated.",
+        "Drilling parameters are monitored and adjusted from the driller's cabin.",
+        "Loss of control while drilling is a well control event."
+      ],
+      "rhetorical_question": "Are your rig drilling and well control systems electronically operated?"
     },
     {
       "rank": 2,
-      "headline": "Well plans and directional data belong to the operator, not to you.",
-      "why_this_business": "Drilling contractors hold operators' well plans, directional surveys, formation data, and mud logs. This is the operator's confidential geological and completion information, and drilling contracts impose explicit confidentiality obligations on it.",
-      "loss_scenario": "Third-party liability to operators for disclosed well data, plus breach of the confidentiality provisions in the drilling contract. Losing an operator relationship removes a large share of a contractor's utilisation.",
-      "rhetorical_question": "How many operators' confidential well data do you hold on your systems?"
+      "headline": "Well data belongs to the operator and is highly confidential.",
+      "points": [
+        "Drilling data, logs, and formation results pass through your systems in real time.",
+        "That data reveals what the operator found before anyone else knows.",
+        "Disclosure damages their lease position and your contract."
+      ],
+      "rhetorical_question": "What operator well data passes through or is stored on your systems?"
     },
     {
       "rank": 3,
-      "headline": "Crew, payroll, and compliance records cover a large rotating workforce.",
-      "why_this_business": "Drilling contractors employ rotating crews across multiple rigs, with DOT driver files, drug and alcohol testing records, safety training certifications, and payroll. Well control certification is required to work and must be provable.",
-      "loss_scenario": "Breach notification across a large workforce, plus inability to demonstrate crew certification during an audit or after an incident, which is directly damaging in litigation.",
-      "rhetorical_question": "How many field employees do you hold personnel and certification records for?"
+      "headline": "Day rates make every hour of downtime expensive.",
+      "points": [
+        "Rigs are contracted at day rates in the tens of thousands.",
+        "Contracts define when the rig is on rate and when it is not.",
+        "A systems failure that puts the rig off rate costs by the hour."
+      ],
+      "rhetorical_question": "What is your day rate, and what puts the rig off rate?"
     }
   ]
 }

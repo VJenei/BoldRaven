@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The Coast Guard now requires a cybersecurity plan for regulated facilities.",
-      "why_this_business": "The Coast Guard cybersecurity rule took effect July 16, 2025 for MTSA-regulated facilities, requiring reportable cyber incidents to be reported to the National Response Center without delay, personnel training by January 12, 2026, and a designated Cybersecurity Officer, cybersecurity assessment, and approved Cybersecurity Plan by July 16, 2027.",
-      "loss_scenario": "Captain of the Port orders restricting or suspending facility operations until deficiencies are corrected, which closes the terminal to vessel traffic.",
-      "rhetorical_question": "Have you designated a Cybersecurity Officer and begun your Cybersecurity Assessment?"
+      "headline": "Federal maritime cybersecurity rules apply to your facility.",
+      "points": [
+        "Coast Guard rules impose cybersecurity requirements on regulated port facilities.",
+        "Account, device, and plan requirements phase in on set dates.",
+        "Findings can restrict facility operations directly."
+      ],
+      "rhetorical_question": "What maritime cybersecurity requirements apply to your facility?"
     },
     {
       "rank": 2,
-      "headline": "Access control and credentialing govern entry to a secure facility.",
-      "why_this_business": "Port facilities control access using Transportation Worker Identification Credential verification, gate systems, and truck appointment platforms. Facility security plans specify how access is controlled and are approved by the Coast Guard.",
-      "loss_scenario": "A compromise of access control is a maritime security incident with Coast Guard enforcement, and an unsecured facility cannot lawfully receive vessels.",
-      "rhetorical_question": "How is TWIC verification and gate access controlled at your facility?"
+      "headline": "Port systems control vessel and cargo movement.",
+      "points": [
+        "Berth assignment, gate operations, and cargo systems run electronically.",
+        "Vessels, trucks, and rail all queue behind those systems.",
+        "A port stoppage backs up the whole supply chain behind it."
+      ],
+      "rhetorical_question": "What port operating systems control vessel and cargo movement?"
     },
     {
       "rank": 3,
-      "headline": "Vessel scheduling and berth allocation govern the whole harbour.",
-      "why_this_business": "Port operations coordinate vessel arrivals, berth assignment, pilotage, tug orders, and cargo operations, with vessels arriving on schedules set weeks in advance. A berth that cannot be assigned leaves a vessel at anchor.",
-      "loss_scenario": "Vessels waiting at anchor accrue demurrage of tens of thousands of dollars per day, claimed against the port or the terminal, and the queue compounds with each additional arrival.",
-      "rhetorical_question": "What does a day at anchor cost the vessels calling at your port?"
+      "headline": "Facility security plans are federally required and inspected.",
+      "points": [
+        "Access control, screening, and security plans are federally mandated.",
+        "Coast Guard inspects against those plans.",
+        "Findings can restrict or suspend operations."
+      ],
+      "rhetorical_question": "What federal facility security plan requirements apply to you?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Donor and unit tracking prevents transfusion of the wrong product.",
-      "why_this_business": "Blood establishments track every donation from collection through testing, labelling, and distribution, with donor identification, infectious disease test results, and unit disposition recorded. Transfusion of an incorrectly labelled or untested unit can kill the recipient.",
-      "loss_scenario": "Inability to verify unit testing and labelling stops distribution entirely, and any error that reaches a recipient is a fatal outcome with FDA enforcement and product liability.",
-      "rhetorical_question": "How is unit testing status verified before release for transfusion?"
+      "headline": "Matching and testing records determine whether product is safe.",
+      "points": [
+        "Donor testing, typing, and matching records determine transfusion safety.",
+        "Wrong records mean incompatible product reaching a patient.",
+        "Transfusion reactions and disease transmission are the consequence."
+      ],
+      "rhetorical_question": "How are your donor testing and matching records protected?"
     },
     {
       "rank": 2,
-      "headline": "Donor records contain infectious disease results.",
-      "why_this_business": "Donation screening tests for HIV, hepatitis, and other infections, with results recorded against identified donors and deferral registries maintained. Many donors learn of an infection through donation screening.",
-      "loss_scenario": "Exposure of donor infectious disease results and deferral reasons, which is among the most sensitive health information that exists and affects people who volunteered to donate.",
-      "rhetorical_question": "Do your records include donor infectious disease test results and deferral reasons?"
+      "headline": "Hospitals hold days of supply at most.",
+      "points": [
+        "Blood products have short shelf life and hospitals hold limited stock.",
+        "Surgery and trauma care depend on continuous supply.",
+        "A supply interruption cancels surgery and endangers trauma patients."
+      ],
+      "rhetorical_question": "How many hospitals depend on your supply?"
     },
     {
       "rank": 3,
-      "headline": "Supply interruption affects hospitals with no reserve.",
-      "why_this_business": "Hospitals carry limited blood inventory and rely on continuous resupply, with platelets having a shelf life of days. Organ procurement operates on time windows measured in hours from recovery to transplant.",
-      "loss_scenario": "Hospitals unable to obtain blood products, with elective surgery cancelled and trauma capacity reduced regionally, and organ recovery coordination failures that waste transplantable organs.",
-      "rhetorical_question": "How many days of supply do the hospitals you serve typically hold?"
+      "headline": "Donor records hold health and identity data.",
+      "points": [
+        "Donor records carry identity, health history, and test results.",
+        "Some results reveal conditions donors did not know they had.",
+        "Every affected donor must be notified."
+      ],
+      "rhetorical_question": "How many donor records do you hold?"
     }
   ]
 }

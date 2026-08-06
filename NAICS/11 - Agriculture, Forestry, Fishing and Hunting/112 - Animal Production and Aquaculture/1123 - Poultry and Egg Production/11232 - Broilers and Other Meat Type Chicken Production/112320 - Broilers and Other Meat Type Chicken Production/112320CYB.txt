@@ -1,7 +1,6 @@
 {
   "naics_code": "112320",
   "naics_title": "Broilers and Other Meat Type Chicken Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Tunnel ventilated houses are the only source of cooling for the birds.",
-      "why_this_business": "Broiler houses hold 25,000 to 40,000 birds in sealed buildings where ventilation provides all cooling. Extension guidance states poultry survive only 20 to 30 minutes above 97 degrees F in still air and begin dying within minutes when ventilation fails in hot weather. Controllers from Chore-Time, Rotem, and AP are networked for remote monitoring and alarms.",
-      "loss_scenario": "A house lost to ventilation failure is a total flock loss plus disposal, cleanout, and lost placement cycles. Growers with four to eight houses can lose the equivalent of a year of contract income.",
-      "rhetorical_question": "How do you receive alarms from your house controllers, and are they on the same network?"
+      "headline": "Ventilation failure kills a house of birds in a single hour.",
+      "points": [
+        "Houses hold tens of thousands of birds under automated ventilation and cooling.",
+        "Controllers and alarms are the only thing standing between the flock and heat.",
+        "A failed alarm during a summer night empties the house."
+      ],
+      "rhetorical_question": "Are your house ventilation and alarm systems automated with backup alarms?"
     },
     {
       "rank": 2,
-      "headline": "Settlement and ranking are calculated in the integrator's system.",
-      "why_this_business": "Broiler growers are paid on a tournament settlement calculated by the integrator from feed conversion, mortality, condemnations, and livability data. Ranking determines pay per pound, future placements, and contract renewal.",
-      "loss_scenario": "Unverifiable settlements across multiple flocks. If the integrator's systems are down and placements or feed deliveries stop, houses sit empty while loan payments continue.",
-      "rhetorical_question": "What is your monthly loan payment on your poultry houses?"
+      "headline": "Integrator systems run placement, feed, and pickup.",
+      "points": [
+        "The integrator schedules chick placement, feed delivery, and catch dates.",
+        "Flock performance and settlement are calculated in integrator systems.",
+        "A grower cannot place or move birds outside that schedule."
+      ],
+      "rhetorical_question": "How do you receive placement, feed, and catch schedules from your integrator?"
     },
     {
       "rank": 3,
-      "headline": "Grower contracts require documented biosecurity, welfare audits, and records.",
-      "why_this_business": "Grower contracts and integrator programs require documented biosecurity, welfare audits under NCC or GAP standards, medication and water treatment records, and mortality logs. These are increasingly submitted through the integrator's app.",
-      "loss_scenario": "Contract termination or suspension of placements for audit failure. A poultry house without a contract has no alternative use while the note remains due.",
-      "rhetorical_question": "Which records does your contract require you to maintain and submit?"
+      "headline": "Biosecurity records are the first thing checked in an outbreak.",
+      "points": [
+        "Visitor logs, mortality records, and movement records are kept for disease control.",
+        "Avian influenza response depends on tracing contacts fast.",
+        "Without records the control zone widens and more farms are depopulated."
+      ],
+      "rhetorical_question": "What visitor and mortality records do you keep for biosecurity?"
     }
   ]
 }

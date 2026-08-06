@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Most students are children and their data is held with their families'.",
-      "why_this_business": "Music, dance, and art schools enrol children, holding names, ages, photographs, class schedules, emergency contacts, and parent payment methods. Schedules identify exactly where a named child will be at a specific time each week.",
-      "loss_scenario": "Exposure of children's names, photographs, and class schedules is a child safety concern that parents treat entirely differently from ordinary data loss, and enrolment does not survive it.",
-      "rhetorical_question": "Do your records link children's names and photographs to their scheduled class times?"
+      "headline": "Student and parent records hold personal data.",
+      "points": [
+        "Enrolment records carry contact, payment, and often minor student information.",
+        "Recurring payments run against those records.",
+        "Every affected family must be notified."
+      ],
+      "rhetorical_question": "What student and parent data do you store?"
     },
     {
       "rank": 2,
-      "headline": "Tuition is billed automatically on recurring schedules.",
-      "why_this_business": "Schools bill monthly or term tuition automatically to stored payment methods, with families enrolled continuously across years. Recital fees, costumes, and materials add further charges.",
-      "loss_scenario": "Stored payment data exposed across the family base, plus billing failures that interrupt cash flow for a business with fixed instructor and facility costs.",
-      "rhetorical_question": "How many families have payment methods stored for recurring tuition?"
+      "headline": "Scheduling runs classes, instructors, and studios.",
+      "points": [
+        "Class schedules, instructor assignments, and studio bookings run on connected systems.",
+        "Families arrange their week around those times.",
+        "A scheduling failure cancels classes across the whole school."
+      ],
+      "rhetorical_question": "How are your class schedules and instructor assignments managed?"
     },
     {
       "rank": 3,
-      "headline": "Recitals and performances are dated events built around enrolment data.",
-      "why_this_business": "Schools schedule recitals, examinations, and competitions months ahead, with participation, costume orders, and venue commitments driven by enrolment records. Families plan around these dates.",
-      "loss_scenario": "Disrupted recitals and examinations with costumes ordered, venues booked, and families expecting an event that cannot be delivered as planned.",
-      "rhetorical_question": "How far ahead do you commit venues and costume orders for performances?"
+      "headline": "Recitals and events are fixed dates.",
+      "points": [
+        "Performances and events are scheduled with venues and families committed.",
+        "Students prepare for months toward those dates.",
+        "A cancelled event cannot simply be rescheduled."
+      ],
+      "rhetorical_question": "How are your event bookings and schedules recorded?"
     }
   ]
 }

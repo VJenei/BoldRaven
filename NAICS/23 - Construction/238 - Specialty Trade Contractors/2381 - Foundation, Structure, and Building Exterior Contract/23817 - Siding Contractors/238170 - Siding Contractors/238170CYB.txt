@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Homeowner payment and insurance information sits in your files.",
-      "why_this_business": "Siding work is largely residential, sold with deposits and progress payments and frequently funded through a property insurance claim after hail or wind. Files hold homeowner contact details, payment methods, policy and claim numbers, and financing applications.",
-      "loss_scenario": "Notification across the customer base plus exposure of insurance claim data usable for fraud in the homeowner's name. Financing applications add credit information to the same file.",
-      "rhetorical_question": "Do you offer customer financing or handle insurance claim paperwork?"
+      "headline": "Material is ordered to match and cannot be mixed.",
+      "points": [
+        "Siding is ordered in matched lots for colour consistency across an elevation.",
+        "Lot records reserve that material for the job.",
+        "Material from a different lot is visibly different on the wall."
+      ],
+      "rhetorical_question": "How is material lot and colour matching recorded for your jobs?"
     },
     {
       "rank": 2,
-      "headline": "Material is ordered by colour and profile to a specific job.",
-      "why_this_business": "Siding, trim, and accessories are ordered in specific colours and profiles, frequently special order with lead times, and colour lots vary. Take-offs are produced from measurements, increasingly from aerial measurement reports.",
-      "loss_scenario": "Wrong or mismatched material delivered to an occupied home, with the exterior partially removed and weeks of lead time to correct, plus a homeowner living in a construction site.",
-      "rhetorical_question": "How are your material take-offs produced and orders placed?"
+      "headline": "Homeowner payments are diverted through fake invoices.",
+      "points": [
+        "Deposits and progress payments are requested against emailed invoices.",
+        "Fake invoices with changed banking details reach homeowners directly.",
+        "The homeowner pays, you are not paid, and the job stops."
+      ],
+      "rhetorical_question": "How do you send invoices and payment instructions to homeowners?"
     },
     {
       "rank": 3,
-      "headline": "Weather barrier installation determines whether the wall stays dry.",
-      "why_this_business": "Siding installation includes the weather resistive barrier, flashing, and drainage details that keep water out of the wall assembly. Photographic documentation of flashing before cladding goes on is the only evidence it was done correctly, because it is permanently concealed.",
-      "loss_scenario": "A water intrusion claim years later on a concealed condition, defensible only with installation photographs, where the remediation cost is the whole wall assembly and not just the siding.",
-      "rhetorical_question": "Do you photograph flashing and weather barrier details before cladding is installed?"
+      "headline": "Crews and jobs are scheduled together across a season.",
+      "points": [
+        "Crew assignments, material deliveries, and inspections run on one schedule.",
+        "Work is concentrated in the weather season.",
+        "A scheduling failure loses days that cannot be recovered."
+      ],
+      "rhetorical_question": "What software holds your crew schedules and job assignments?"
     }
   ]
 }

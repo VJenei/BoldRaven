@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Valves are the isolation and safety devices in hazardous processes.",
-      "why_this_business": "Industrial valves control and isolate flow in refineries, chemical plants, pipelines, and power stations. Safety relief valves in particular are the last protection against overpressure, and their failure is why vessels rupture.",
-      "loss_scenario": "Valves that fail to seal or relieve at set pressure installed in hazardous service, with a release, fire, or vessel rupture, and the manufacturer's testing records determining whether the valve ever met specification.",
+      "headline": "Relief valves are the last protection against overpressure.",
+      "points": [
+        "Valves isolate and relieve in refineries, chemical plants, and pipelines.",
+        "A relief valve that does not open at set pressure is why vessels rupture.",
+        "Testing records establish whether the valve ever met specification."
+      ],
       "rhetorical_question": "Are any of your valves used as pressure relief or emergency isolation devices?"
     },
     {
       "rank": 2,
-      "headline": "Valves are pressure-tested and certified before shipment.",
-      "why_this_business": "Valves are hydrostatically and seat tested with results recorded, and code and API certifications require documented testing and traceable materials. Certificates accompany the valve into the customer's plant records.",
-      "loss_scenario": "Valves shipped without valid testing or with certificates that cannot be substantiated, requiring the customer to remove and test valves already installed in operating process units.",
+      "headline": "Valves are pressure tested and certified before shipment.",
+      "points": [
+        "Hydrostatic and seat testing results are recorded per valve.",
+        "Certificates accompany the valve into the customer's plant records.",
+        "Valves without valid testing must be removed from operating units."
+      ],
       "rhetorical_question": "How are pressure test results linked to individual valve serial numbers?"
     },
     {
       "rank": 3,
-      "headline": "Material certification and traceability are contractual requirements.",
-      "why_this_business": "Valve bodies and trim carry material certifications traceable to heat, with positive material identification required for alloy service. Wrong materials in corrosive or high temperature service fail rapidly.",
-      "loss_scenario": "Wrong alloy valves in corrosive service failing in operation with a hazardous release, and the material traceability records determining the manufacturer's responsibility.",
+      "headline": "Material traceability is a contractual requirement.",
+      "points": [
+        "Bodies and trim carry certifications traceable to heat with alloy verification.",
+        "Wrong alloy in corrosive or high temperature service fails rapidly.",
+        "The failure is a hazardous release, not a warranty claim."
+      ],
       "rhetorical_question": "How do you maintain material traceability from casting to shipped valve?"
     }
   ]

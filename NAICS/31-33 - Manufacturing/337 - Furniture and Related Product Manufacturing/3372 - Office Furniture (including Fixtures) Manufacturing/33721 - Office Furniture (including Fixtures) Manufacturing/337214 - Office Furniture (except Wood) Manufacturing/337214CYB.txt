@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seating and height adjustable furniture fail under users.",
-      "why_this_business": "Task chairs and height adjustable desks carry occupant weight with gas cylinders, mechanisms, and motors. Failures drop the user or the work surface, and the products are tested to industry standards for exactly that reason.",
-      "loss_scenario": "A mechanism or cylinder defect causing collapse under users, with injury claims across an installed base and a recall from every customer who purchased the affected production.",
+      "headline": "Seating and adjustable desks collapse under users.",
+      "points": [
+        "Gas cylinders, mechanisms, and motors carry occupant weight.",
+        "Failure drops the user or the work surface.",
+        "Products are tested to industry standards for exactly that reason."
+      ],
       "rhetorical_question": "What load and cycle testing standards do your seating products meet?"
     },
     {
       "rank": 2,
-      "headline": "Product is configured and built to project orders.",
-      "why_this_business": "Systems furniture is configured to floor plans with panel sizes, electrical runs, and finishes specific to the project, with installation drawings driving what is manufactured.",
-      "loss_scenario": "Product built to wrong configuration arriving on site, unusable in the planned layout, with the tenant's move date missed and the entire order remade.",
+      "headline": "Systems furniture is configured to a floor plan.",
+      "points": [
+        "Panel sizes, electrical runs, and finishes are specific to the project layout.",
+        "Installation drawings drive what is manufactured.",
+        "Wrong product is unusable and the tenant's move date is missed."
+      ],
       "rhetorical_question": "How is project configuration data verified before release to production?"
     },
     {
       "rank": 3,
-      "headline": "Powered systems furniture carries electrical safety listings.",
-      "why_this_business": "Systems furniture includes powered panels and electrical distribution carrying safety listings tied to the components and construction used. The listing is what permits installation under electrical code.",
-      "loss_scenario": "Powered components built outside their listed configuration causing shock or fire hazards, requiring removal from installed workstations across a building.",
+      "headline": "Powered furniture carries electrical safety listings.",
+      "points": [
+        "Powered panels and distribution carry listings tied to components and construction.",
+        "The listing is what permits installation under electrical code.",
+        "Non-conforming components must be removed from installed workstations."
+      ],
       "rhetorical_question": "How are electrical listing requirements controlled in your build process?"
     }
   ]

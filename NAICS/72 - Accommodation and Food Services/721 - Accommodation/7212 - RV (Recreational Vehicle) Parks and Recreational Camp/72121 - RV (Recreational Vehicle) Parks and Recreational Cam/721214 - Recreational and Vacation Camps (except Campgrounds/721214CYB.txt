@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Camps hold children's health records and know exactly where they are.",
-      "why_this_business": "Camps collect camper names, ages, photographs, medical histories, allergies, medications, immunisation records, and authorised pickup information for children in residential care away from their parents for weeks.",
-      "loss_scenario": "Exposure of children's identities, photographs, health data, and camp location schedules, which is a child safety and health data exposure combined, and parents will not re-enrol after it.",
-      "rhetorical_question": "Do you hold medical records, medications, and photographs for children in your care?"
+      "headline": "You hold records on children in your care.",
+      "points": [
+        "Camper records carry names, medical information, allergies, and parent contacts.",
+        "Parents entrust children to you for extended periods.",
+        "Every affected family must be notified."
+      ],
+      "rhetorical_question": "What camper and parent records do you hold, including medical information?"
     },
     {
       "rank": 2,
-      "headline": "Medication administration for minors is a clinical function.",
-      "why_this_business": "Camp health centres administer prescription medication to campers on documented schedules, manage allergies including anaphylaxis, and handle injuries and illness away from parents. Health centre records are the only source of a camper's needs.",
-      "loss_scenario": "Medication errors or missed allergy information for children in residential care, which is a serious clinical harm exposure and a licensing matter in states that regulate camp health services.",
-      "rhetorical_question": "How would health centre staff verify a camper's medications and allergies without their record?"
+      "headline": "Medical and allergy information affects safety directly.",
+      "points": [
+        "Allergies, medications, and conditions are recorded per camper.",
+        "Staff act on that information for meals and activities.",
+        "A missing allergy record can be fatal at a meal."
+      ],
+      "rhetorical_question": "How are camper medical and allergy records maintained and accessed by staff?"
     },
     {
       "rank": 3,
-      "headline": "Staff screening is required and scrutinised.",
-      "why_this_business": "Camps must document background checks, references, and training for every staff member and volunteer with access to children, examined during accreditation, state licensing, and after any allegation.",
-      "loss_scenario": "Inability to evidence screening, which after any allegation of harm is devastating in litigation, in licensing, and in the response from parents and accrediting bodies.",
-      "rhetorical_question": "How do you evidence that every staff member with camper contact was screened?"
+      "headline": "Sessions run on fixed dates with families committed.",
+      "points": [
+        "Sessions are booked months ahead with families arranging around them.",
+        "Staff, facilities, and transport are committed to those dates.",
+        "A cancelled session leaves families without childcare and you without revenue."
+      ],
+      "rhetorical_question": "How are your session bookings and camper rosters recorded?"
     }
   ]
 }

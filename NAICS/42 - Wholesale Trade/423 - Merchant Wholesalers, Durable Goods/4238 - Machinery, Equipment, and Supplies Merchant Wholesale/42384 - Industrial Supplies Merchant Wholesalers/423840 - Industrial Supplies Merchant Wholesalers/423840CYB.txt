@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Vendor managed inventory puts your systems inside your customers' plants.",
-      "why_this_business": "Industrial distributors run vendor managed inventory, tool cribs, and integrated supply programmes on customer sites, with your staff and systems inside their operation and your data driving their replenishment. Consumption data reveals their production volumes and processes.",
-      "loss_scenario": "Production stoppage at customer plants when replenishment fails, plus exposure of customer consumption data that reveals their output. Integrated supply contracts carry performance obligations with penalties.",
-      "rhetorical_question": "Do you operate vendor managed inventory or tool cribs inside customer facilities?"
+      "headline": "Plants stop working without consumable supplies.",
+      "points": [
+        "Abrasives, fasteners, and consumables are ordered continuously.",
+        "Plants hold days of stock at most.",
+        "A supply gap stops production across many customers."
+      ],
+      "rhetorical_question": "How quickly do your customers expect replenishment on consumables?"
     },
     {
       "rank": 2,
-      "headline": "MRO customers order thousands of low value items on tight availability promises.",
-      "why_this_business": "Maintenance and repair customers order across an enormous SKU range, frequently through customer procurement platforms and punchout catalogues integrated with their ERP. Availability and next-day delivery are the service promise.",
-      "loss_scenario": "Loss of catalogue and ordering integration removes you from customer procurement systems entirely, and customers buy from whichever supplier is still connected.",
-      "rhetorical_question": "How many customers order through punchout catalogues integrated with their own systems?"
+      "headline": "Safety products protect people and carry ratings.",
+      "points": [
+        "Protective equipment, lifting gear, and safety products carry rated performance.",
+        "Users rely on that rating when selecting equipment.",
+        "Counterfeit or uncertified product fails during the incident."
+      ],
+      "rhetorical_question": "How do you verify certification for the safety products you distribute?"
     },
     {
       "rank": 3,
-      "headline": "Hazardous and regulated products carry documentation duties.",
-      "why_this_business": "Industrial supply includes chemicals, compressed gases, and hazardous materials requiring safety data sheets, hazmat shipping documentation, and in some cases DOT training records for staff who prepare shipments.",
-      "loss_scenario": "Hazmat shipping violations assessed per shipment, and inability to provide safety data sheets to customers who are legally required to hold them for products in their workplace.",
-      "rhetorical_question": "Do you ship hazardous materials, and where are your shipping papers and training records kept?"
+      "headline": "Vendor managed inventory runs on your systems.",
+      "points": [
+        "Stocking programmes at customer sites are managed through your systems.",
+        "Replenishment is triggered automatically from usage data.",
+        "A systems failure empties every bin at every managed site."
+      ],
+      "rhetorical_question": "How many customer sites do you manage inventory for?"
     }
   ]
 }

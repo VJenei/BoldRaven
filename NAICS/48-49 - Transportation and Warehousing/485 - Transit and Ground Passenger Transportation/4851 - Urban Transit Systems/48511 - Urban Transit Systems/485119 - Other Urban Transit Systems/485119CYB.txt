@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialised transit modes depend on automated control.",
-      "why_this_business": "Automated people movers, cable systems, monorails, and similar services frequently operate driverless or with minimal staffing, under continuous automatic control with obstacle detection, door interlocks, and emergency stop systems. The control system is the operator.",
-      "loss_scenario": "Loss of control forces evacuation of vehicles between stations, which for elevated or enclosed systems is a complex rescue, and a control compromise is a direct passenger safety exposure.",
-      "rhetorical_question": "Does your system operate automatically without an onboard operator?"
+      "headline": "Riders depend on the service with no substitute.",
+      "points": [
+        "Transit carries people to work, medical care, and school.",
+        "Many riders have no alternative.",
+        "A stoppage strands them entirely."
+      ],
+      "rhetorical_question": "How many daily riders depend on your system with no alternative?"
     },
     {
       "rank": 2,
-      "headline": "Airport and campus systems serve captive populations on a schedule.",
-      "why_this_business": "Many systems in this category connect airport terminals or campus facilities where riders have no walking alternative and are working to a departure time. Service interruption strands people who will miss flights or appointments.",
-      "loss_scenario": "Missed flights and stranded passengers, with the airport or host institution bearing the reputational consequence and looking to the operator under the service contract.",
-      "rhetorical_question": "Do your riders have a practical alternative if the system stops?"
+      "headline": "Vehicle and system control run electronically.",
+      "points": [
+        "Movement, signalling, and vehicle control run on connected systems.",
+        "Loss of control is a safety event, not a service issue.",
+        "Federal oversight follows any control related incident."
+      ],
+      "rhetorical_question": "What systems control vehicle movement on your network?"
     },
     {
       "rank": 3,
-      "headline": "Fare and access control systems hold rider and payment data.",
-      "why_this_business": "Even limited systems collect fares or control access electronically, holding payment credentials, pass records, and in campus settings identity records linked to institutional accounts.",
-      "loss_scenario": "Payment and identity data exposure, with institutional partners holding the operator responsible under the service agreement for data belonging to their students or employees.",
-      "rhetorical_question": "Does your fare or access system link to institutional identity records?"
+      "headline": "Fare and rider data run through your systems.",
+      "points": [
+        "Fare collection holds payment cards and rider account data.",
+        "Trip history reveals where individuals travel and when.",
+        "Every affected rider must be notified."
+      ],
+      "rhetorical_question": "What rider account and payment data does your fare system hold?"
     }
   ]
 }

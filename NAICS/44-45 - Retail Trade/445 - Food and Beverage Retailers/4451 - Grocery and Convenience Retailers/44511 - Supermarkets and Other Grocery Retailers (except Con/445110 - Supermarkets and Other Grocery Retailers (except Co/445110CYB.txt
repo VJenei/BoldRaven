@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Refrigeration control failures destroy inventory across the whole store.",
-      "why_this_business": "Supermarket refrigeration runs on networked control systems managing rack compressors, case temperatures, defrost cycles, and alarms, often monitored remotely by a service contractor. Product held out of temperature must be discarded regardless of how it looks.",
-      "loss_scenario": "A store's refrigerated and frozen inventory runs into several hundred thousand dollars. A control failure across a chain affects every store at once, and health department involvement follows any discarded product event.",
-      "rhetorical_question": "Is your refrigeration control system networked or remotely monitored?"
+      "headline": "Card payments run continuously across every lane.",
+      "points": [
+        "Point of sale terminals process cards through all trading hours.",
+        "Card security requirements apply across every store.",
+        "Grocery breaches have reached tens of millions of cards."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "The in-store pharmacy makes you a HIPAA covered entity.",
-      "why_this_business": "Supermarket pharmacies hold prescription records, insurance information, and patient identifiers, making the operation a covered entity under HIPAA with breach notification obligations to patients, HHS, and in large breaches the media. That obligation sits alongside all the retail exposures.",
-      "loss_scenario": "A HIPAA breach with patient notification, HHS reporting, and potential civil monetary penalties, which is a materially different regulatory regime from card data and carries its own enforcement.",
-      "rhetorical_question": "Does your store operate a pharmacy, and how is that data segregated?"
+      "headline": "Refrigeration failure destroys inventory in hours.",
+      "points": [
+        "Cases and coolers hold perishable inventory under automated control.",
+        "Temperature monitoring and alarms are the only warning.",
+        "A failure overnight writes off the entire department."
+      ],
+      "rhetorical_question": "Is your refrigeration monitored with automatic alarms?"
     },
     {
       "rank": 3,
-      "headline": "Card volume is enormous and PCI 4.0 is fully in force.",
-      "why_this_business": "Grocery processes very high card transaction counts across many lanes, self-checkout, fuel centres, and online ordering. PCI DSS 4.0 became fully mandatory on March 31, 2025 with additional requirements around e-commerce payment pages and phishing controls.",
-      "loss_scenario": "Card brand assessments scaled to transaction volume, forensic investigation, and reissuance across millions of cards, which is how grocery breaches have historically produced nine figure losses.",
-      "rhetorical_question": "How many card transactions do you process across all lanes in a month?"
+      "headline": "Recalls have to reach shoppers fast.",
+      "points": [
+        "Food recalls identify specific lots and require removal from shelves.",
+        "Loyalty and purchase data can reach affected shoppers directly.",
+        "Product stays on shelves while systems are down."
+      ],
+      "rhetorical_question": "How do you receive recall notices and remove product from shelves?"
     }
   ]
 }

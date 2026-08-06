@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Windscreen replacement now requires ADAS recalibration.",
-      "why_this_business": "Cameras mounted to the windscreen for lane keeping, automatic braking, and adaptive cruise require recalibration after replacement, following manufacturer procedures with documented completion. An uncalibrated system misjudges lane position and obstacle distance.",
-      "loss_scenario": "A collision involving a vehicle whose camera calibration was not performed or cannot be documented, where the glass shop returned a vehicle with safety systems out of specification.",
-      "rhetorical_question": "How do you document recalibration completion after a windscreen replacement?"
+      "headline": "Windshields carry driver assistance cameras.",
+      "points": [
+        "Cameras mounted to the windshield require calibration after replacement.",
+        "Procedures and equipment come from manufacturer systems.",
+        "An uncalibrated system fails when the driver needs it."
+      ],
+      "rhetorical_question": "How do you perform and document camera calibrations after replacement?"
     },
     {
       "rank": 2,
-      "headline": "Insurance networks route the work and hold the billing.",
-      "why_this_business": "Glass claims are administered through third-party administrators and insurer networks that dispatch jobs, authorise pricing, and process payment. Shops are dispatched work through those platforms and paid through them.",
-      "loss_scenario": "Loss of network dispatch and billing access removes both the work and the payment mechanism simultaneously, and network scorecards affect future dispatch volume.",
-      "rhetorical_question": "What share of your work is dispatched through insurance networks?"
+      "headline": "Windshields are structural in a rollover.",
+      "points": [
+        "The windshield contributes to roof crush resistance and airbag deployment.",
+        "Adhesive, cure time, and procedure determine that performance.",
+        "A wrong installation fails during the crash it should survive."
+      ],
+      "rhetorical_question": "What installation procedures and cure times do your technicians follow?"
     },
     {
       "rank": 3,
-      "headline": "Mobile service means scheduling customers at their homes and workplaces.",
-      "why_this_business": "Much of the work is performed at customer locations scheduled through dispatch systems holding addresses, vehicle details, appointment times, and payment methods.",
-      "loss_scenario": "Missed mobile appointments across a route, plus exposure of customer addresses and schedules, with vehicles left with damaged glass and customers waiting.",
-      "rhetorical_question": "How many mobile appointments does your team run in a day?"
+      "headline": "Insurer systems run scheduling and billing.",
+      "points": [
+        "Assignments, approvals, and billing run through insurer and network systems.",
+        "Most work arrives through those channels.",
+        "Without them there is no work and no payment."
+      ],
+      "rhetorical_question": "How do assignments and billing flow between you and insurers?"
     }
   ]
 }

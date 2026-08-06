@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Engine parts failing in service cause fires and crashes.",
-      "why_this_business": "Engine components including fuel systems, timing components, and mountings fail in ways that cause under-hood fires or sudden loss of power. Recalls in this category reach millions of vehicles.",
-      "loss_scenario": "A component defect causing vehicle fires or stalling in traffic, with an NHTSA recall covering every vehicle containing the part across multiple vehicle manufacturers.",
+      "headline": "Engine part failures cause fires and stalls in traffic.",
+      "points": [
+        "Fuel systems, timing components, and mountings fail in service.",
+        "Under-hood fires and sudden power loss are the results.",
+        "Recalls in this category reach millions of vehicles."
+      ],
       "rhetorical_question": "How many vehicle models contain a single one of your part numbers?"
     },
     {
       "rank": 2,
-      "headline": "Automotive supply runs on qualified parts and just in time delivery.",
-      "why_this_business": "Engine parts are supplied under production part approval with dedicated tooling and sequenced delivery to assembly plants holding hours of inventory.",
-      "loss_scenario": "Assembly plants stopped for want of parts, with contractual line-down charges per hour that far exceed the part value, plus expedited freight to recover schedule.",
+      "headline": "Assembly plants hold hours of your parts.",
+      "points": [
+        "Parts are qualified with dedicated tooling and sequenced delivery.",
+        "Plants hold hours of inventory, not days.",
+        "Line-down charges far exceed the part value."
+      ],
       "rhetorical_question": "What are your customers' line-down charges per hour?"
     },
     {
       "rank": 3,
-      "headline": "Emissions-relevant components are certified as part of the engine family.",
-      "why_this_business": "Fuel and emissions components are part of a certified engine configuration, with substitutions or changes affecting the certification and enforcement exposure for non-conforming parts.",
-      "loss_scenario": "Non-conforming emissions components supplied into certified engines, with EPA exposure for the vehicle manufacturer transferred to the supplier and recall of affected vehicles.",
+      "headline": "Emissions components are part of a certified configuration.",
+      "points": [
+        "Fuel and emissions parts belong to a certified engine family.",
+        "Substitutions affect that certification.",
+        "The vehicle manufacturer's exposure transfers to you."
+      ],
       "rhetorical_question": "Which of your parts are part of a certified emissions configuration?"
     }
   ]

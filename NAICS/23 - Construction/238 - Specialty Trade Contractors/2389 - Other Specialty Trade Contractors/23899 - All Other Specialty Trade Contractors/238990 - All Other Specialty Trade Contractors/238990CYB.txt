@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialty contractors are paid last and carry the lien risk.",
-      "why_this_business": "Small specialty trades bill through the general contractor with pay-when-paid terms, preliminary notices, and statutory lien deadlines measured from last furnishing. Notice and filing dates are tracked in the office system. Missing a deadline forfeits the security completely.",
-      "loss_scenario": "Loss of lien rights on unpaid balances because deadline tracking was unavailable, on a business with thin margins where one unpaid contract is the year.",
-      "rhetorical_question": "How do you track preliminary notice and lien filing deadlines?"
+      "headline": "Work is built from issued drawings and specifications.",
+      "points": [
+        "Dimensions, details, and product selections come from current drawing revisions.",
+        "Work built to a superseded revision must be removed.",
+        "Rework is charged against you and delays the trades behind."
+      ],
+      "rhetorical_question": "How are drawing revisions controlled and issued to your crews?"
     },
     {
       "rank": 2,
-      "headline": "Certificates of insurance and prequalification control access to work.",
-      "why_this_business": "General contractors and owners require current certificates of insurance, safety statistics, licensing, and prequalification submitted through vendor management portals. Falling out of compliance in the portal removes you from the bid list automatically, without anyone telling you.",
-      "loss_scenario": "Silent removal from bid lists during the period your compliance documentation lapses, with work awarded to competitors before you notice.",
-      "rhetorical_question": "How many contractor prequalification portals must you keep current to stay eligible for work?"
+      "headline": "Scheduling and dispatch run every job you have running.",
+      "points": [
+        "Crew assignments, material deliveries, and inspections run on one system.",
+        "Multiple jobs depend on that schedule at the same time.",
+        "A scheduling failure idles crews across every active site."
+      ],
+      "rhetorical_question": "What software holds your crew schedules and job assignments?"
     },
     {
       "rank": 3,
-      "headline": "Field data capture is the only record of work performed.",
-      "why_this_business": "Specialty trades capture daily time, quantities, photographs, and completed work through mobile apps tied to the project. That record supports billing, backcharge defence, and warranty claims. Paper backup rarely exists any more.",
-      "loss_scenario": "Unbillable work and backcharges you cannot rebut, since the general contractor's records become the only version of events.",
-      "rhetorical_question": "What mobile app do your field crews use to record time and completed work?"
+      "headline": "Payments move by transfer on emailed instructions.",
+      "points": [
+        "Invoices and banking details are exchanged with contractors and owners by email.",
+        "Changed banking instructions are the standard attack.",
+        "A diverted payment on completed work is money you will not recover."
+      ],
+      "rhetorical_question": "How are changes to banking details verified before payment?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Digital ordering and loyalty apps hold customer accounts at scale.",
-      "why_this_business": "Quick service brands operate mobile apps and online ordering with stored payment methods, loyalty balances, and order histories for very large customer bases. Credential stuffing against these accounts is persistent because loyalty balances and stored cards convert directly.",
-      "loss_scenario": "Mass account takeover draining loyalty balances and placing fraudulent orders, with the operator restoring balances and facing notification obligations across a customer base measured in millions for a large brand.",
-      "rhetorical_question": "How much value is outstanding in customer loyalty balances and stored payment methods?"
+      "headline": "Cards and mobile orders run every transaction.",
+      "points": [
+        "Point of sale, drive-through, and mobile ordering all process payments.",
+        "Card security requirements apply to every location.",
+        "Volume means a breach reaches enormous numbers of cards."
+      ],
+      "rhetorical_question": "How does your point of sale and mobile ordering handle card data?"
     },
     {
       "rank": 2,
-      "headline": "Throughput depends entirely on the ordering systems.",
-      "why_this_business": "Drive-thru timers, kitchen display systems, mobile order routing, and delivery platform integration all drive throughput, which is the entire operating model. Speed of service determines revenue in a format built around volume.",
-      "loss_scenario": "Drive-thru and mobile ordering unavailable during peak periods, with throughput collapsing and delivery platform orders failing, which suppresses platform ranking beyond the outage.",
-      "rhetorical_question": "What is your peak hour throughput, and what does it fall to without the ordering systems?"
+      "headline": "Ordering systems are the whole operation.",
+      "points": [
+        "Orders, kitchen display, payment, and delivery integration run on one system.",
+        "Service stops entirely when the system does.",
+        "Queues and drive-throughs back up immediately."
+      ],
+      "rhetorical_question": "What happens to service if your ordering system is unavailable?"
     },
     {
       "rank": 3,
-      "headline": "Franchise networks share systems and standards.",
-      "why_this_business": "Franchised brands mandate point of sale platforms, loyalty systems, and increasingly security standards, with data flowing to brand systems. A vulnerability in a mandated platform exists at every location simultaneously.",
-      "loss_scenario": "A single platform compromise affecting every franchised location at once, with responsibility contested between franchisor and franchisees while notification obligations run.",
-      "rhetorical_question": "Which systems are you required to use under your franchise agreement?"
+      "headline": "Loyalty and app accounts hold customer data.",
+      "points": [
+        "Mobile apps hold customer accounts with payment methods and order history.",
+        "Account takeover allows fraudulent orders and stolen rewards.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "How many app and loyalty accounts with payment methods do you hold?"
     }
   ]
 }

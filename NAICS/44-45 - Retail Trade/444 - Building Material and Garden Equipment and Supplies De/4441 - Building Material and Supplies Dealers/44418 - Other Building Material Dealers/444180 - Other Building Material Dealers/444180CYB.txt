@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Contractor credit is secured only if lien deadlines are met.",
-      "why_this_business": "Building material dealers supply contractors on credit against specific projects, with mechanics lien rights protecting the balance. Those rights depend on preliminary notices and filing deadlines calculated from delivery dates, tracked job by job in the accounting system.",
-      "loss_scenario": "Loss of lien rights on delivered material, which converts a secured claim against real property into an unsecured claim against a contractor who may already be insolvent.",
-      "rhetorical_question": "How many active job accounts are you tracking for lien notice deadlines?"
+      "headline": "Contractors order for jobs happening today.",
+      "points": [
+        "Material is ordered and delivered against work already scheduled.",
+        "Crews are on site waiting for delivery.",
+        "A systems failure idles crews across many job sites."
+      ],
+      "rhetorical_question": "How do your contractor customers order and take delivery?"
     },
     {
       "rank": 2,
-      "headline": "Special order and engineered products are quoted and released to schedule.",
-      "why_this_business": "Windows, doors, trusses, and engineered products are quoted to a specific project, ordered to size, and released against the construction schedule. Lead times run weeks and material is not returnable.",
-      "loss_scenario": "Lost order and release records mean products ordered wrong or late, which are unreturnable and delay the project, with the contractor claiming the delay against the dealer.",
-      "rhetorical_question": "What proportion of your sales are special order or made to size?"
+      "headline": "Account credit and billing run the commercial side.",
+      "points": [
+        "Contractors buy on account with credit limits and job billing.",
+        "Lien and job records are tracked electronically.",
+        "Losing job records means material delivered and unbillable."
+      ],
+      "rhetorical_question": "How are your account credit and job billing records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Delivery fleets are dispatched to job sites daily.",
-      "why_this_business": "Dealers run boom trucks and flatbeds delivering to job sites on scheduled windows coordinated with crews and cranes. Routing, load building, and delivery confirmation run through dispatch systems tied to orders.",
-      "loss_scenario": "Missed or wrong deliveries stop crews on site and generate backcharges for lost crew time, on top of the freight cost of returning and redelivering.",
-      "rhetorical_question": "How many delivery trucks do you dispatch each day?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     }
   ]
 }

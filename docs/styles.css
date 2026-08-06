@@ -340,6 +340,31 @@ body {
   line-height: 1.45;
 }
 
+/* Bullets sit in the same content column as .fields dd: 34px label gutter
+   plus the 12px grid gap, with the marker hanging back into the gutter. */
+.points {
+  margin: 0 0 12px;
+  padding: 0 0 0 46px;
+  list-style: none;
+}
+
+.points:last-child { margin-bottom: 0; }
+
+.points li {
+  position: relative;
+  margin: 0 0 6px;
+  color: var(--body);
+}
+
+.points li:last-child { margin-bottom: 0; }
+
+.points li::before {
+  content: "-";
+  position: absolute;
+  left: -14px;
+  color: var(--ui);
+}
+
 .fields {
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr);

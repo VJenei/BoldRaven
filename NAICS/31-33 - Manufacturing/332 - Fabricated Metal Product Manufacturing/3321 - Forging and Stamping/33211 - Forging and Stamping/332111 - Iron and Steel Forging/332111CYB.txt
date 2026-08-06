@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Forgings go into safety-critical rotating and load-bearing parts.",
-      "why_this_business": "Forged components are used in crankshafts, axles, aerospace structures, and pressure components where grain flow and integrity determine fatigue life. Forging defects produce fatigue failures in service after millions of cycles.",
-      "loss_scenario": "Forgings with internal defects entering automotive or aerospace applications, failing in service and requiring identification of every part from the affected production, with recall reaching finished vehicles or aircraft.",
-      "rhetorical_question": "How is heat traceability maintained from billet through forging to shipped parts?"
+      "headline": "Forgings go into parts that spin and carry load.",
+      "points": [
+        "Crankshafts, axles, and structural forgings fail by fatigue after millions of cycles.",
+        "Grain flow and heat treatment determine fatigue life.",
+        "The defect is invisible until the part breaks in service."
+      ],
+      "rhetorical_question": "How is heat traceability maintained from billet through to shipped forgings?"
     },
     {
       "rank": 2,
-      "headline": "Forging and heat treatment parameters determine properties.",
-      "why_this_business": "Heating temperature, deformation, and subsequent heat treatment develop the microstructure and mechanical properties. Parameters are qualified per part and recorded, since properties cannot be verified by dimensional inspection.",
-      "loss_scenario": "Parts forged or heat treated outside parameters with correct dimensions but inadequate properties, which is a latent defect appearing as fatigue failure under load.",
+      "headline": "Forging and heat treatment set properties you cannot inspect.",
+      "points": [
+        "Temperature, deformation, and heat treatment develop the required properties.",
+        "Dimensional inspection cannot detect wrong properties.",
+        "Parts pass inspection and fail under load."
+      ],
       "rhetorical_question": "How are furnace and forging parameters recorded against production lots?"
     },
     {
       "rank": 3,
-      "headline": "Dies and tooling are customer-specific and expensive.",
-      "why_this_business": "Forging dies are made for specific parts at substantial cost, held at the forge with qualified process parameters. There is no alternative source without transferring dies and requalifying.",
-      "loss_scenario": "Customer production stopped with no alternative forge tooled for the part, and requalification required even where dies can be moved.",
-      "rhetorical_question": "How many customer parts do you forge with tooling that exists only at your plant?"
+      "headline": "Dies are customer specific and exist only here.",
+      "points": [
+        "Forging dies are made for one part at substantial cost.",
+        "Qualified process parameters go with those dies.",
+        "No other forge can supply without transferring and requalifying."
+      ],
+      "rhetorical_question": "How many customer parts do you forge with tooling that exists only here?"
     }
   ]
 }

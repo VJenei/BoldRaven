@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your software becomes the attack path into every customer you have.",
-      "why_this_business": "The SolarWinds compromise disclosed in December 2020 inserted malicious code into a legitimate software update, reaching thousands of customer organisations including federal agencies. A software publisher's build and update pipeline is the highest value target in the supply chain because compromising it compromises everyone downstream at once.",
-      "loss_scenario": "Liability across the entire customer base, federal investigation, and in the SolarWinds case, SEC action against the company and its security executive. The reputational outcome for a software vendor whose updates delivered malware is close to terminal.",
-      "rhetorical_question": "How is your build pipeline and code signing infrastructure protected?"
+      "headline": "Your build system reaches every customer.",
+      "points": [
+        "Code is built, signed, and distributed to customers automatically.",
+        "Compromise of the build chain places malicious code in every installation.",
+        "Supply chain attacks through software publishers have reached thousands of organisations."
+      ],
+      "rhetorical_question": "How is your build and code signing pipeline protected and verified?"
     },
     {
       "rank": 2,
-      "headline": "Source code is the product and it is portable.",
-      "why_this_business": "Source code, build systems, and proprietary algorithms are the entire asset of a software business, and they fit on a laptop. Repository access is granted broadly to developers and often to contractors and offshore teams.",
-      "loss_scenario": "Stolen source code enables competitors to replicate the product and attackers to find exploitable flaws, and unlike most losses there is no way to reverse the disclosure.",
-      "rhetorical_question": "How many people, including contractors, have access to your source repositories?"
+      "headline": "Source code is the entire company.",
+      "points": [
+        "The codebase represents all the development investment there is.",
+        "Theft transfers the product to a competitor permanently.",
+        "Public disclosure also reveals every vulnerability in it."
+      ],
+      "rhetorical_question": "Where is your source code stored, and who can access it?"
     },
     {
       "rank": 3,
-      "headline": "Customer environments and credentials sit in your support systems.",
-      "why_this_business": "Support and professional services hold customer configuration data, logs, and often credentials or remote access to customer systems for troubleshooting. Support ticketing systems accumulate this material over years.",
-      "loss_scenario": "A compromise of support systems reaching customer environments, which converts your incident into breaches at every customer whose credentials or access were held.",
-      "rhetorical_question": "Do your support systems hold customer credentials or remote access to their environments?"
+      "headline": "Customers hold you responsible for their security.",
+      "points": [
+        "Enterprise customers require secure development evidence and vulnerability disclosure.",
+        "Federal purchasers require secure development attestations.",
+        "Failing those requirements removes the highest value customers."
+      ],
+      "rhetorical_question": "What secure development attestations do your customers require?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You operate the building systems tenants' businesses depend on.",
-      "why_this_business": "Managers run HVAC, elevators, life safety, and access control on behalf of owners, frequently through remotely accessible building automation platforms with vendor support connections. Tenants have no control over these systems but depend on them completely.",
-      "loss_scenario": "Environmental or access control failure damaging tenant operations, with claims under leases and potentially for tenant business interruption that far exceeds the management fee.",
-      "rhetorical_question": "Which building systems can be operated remotely, and by whom?"
+      "headline": "You hold owner and tenant funds.",
+      "points": [
+        "Rents, deposits, and owner distributions pass through your accounts.",
+        "Payments to vendors run continuously.",
+        "A diverted payment is owner money you must replace."
+      ],
+      "rhetorical_question": "How are disbursements authorised and reconciled?"
     },
     {
       "rank": 2,
-      "headline": "Trust accounting and CAM reconciliation handle owners' and tenants' money.",
-      "why_this_business": "Managers collect rent and common area maintenance charges, pay operating expenses, and reconcile annually with tenants who have audit rights. Trust accounts are regulated and reconciliation errors are pursued by tenants.",
-      "loss_scenario": "Unreconcilable CAM charges triggering tenant audits and repayment demands across the rent roll, plus trust account exposure where owner funds cannot be accounted for.",
-      "rhetorical_question": "Do your leases give tenants the right to audit CAM reconciliations?"
+      "headline": "Building systems run the properties automatically.",
+      "points": [
+        "HVAC, lighting, elevators, and access control run on building management systems.",
+        "Those systems are networked and often remotely accessible.",
+        "Tenants cannot occupy a building without them."
+      ],
+      "rhetorical_question": "What building systems are connected and remotely accessible?"
     },
     {
       "rank": 3,
-      "headline": "Tenant and lease data is confidential to each tenant.",
-      "why_this_business": "Managers hold lease terms, financial statements provided by tenants, sales reports for percentage rent, and operational information about each tenant's business. That information is confidential and commercially sensitive between tenants who are sometimes competitors.",
-      "loss_scenario": "Exposure of tenant financials and lease economics damages the owner's position with every tenant and creates claims from tenants whose confidential business data was disclosed.",
-      "rhetorical_question": "Do you hold tenant sales reports or financial statements under confidentiality obligations?"
+      "headline": "Lease and financial data is commercially sensitive.",
+      "points": [
+        "Lease terms, rents, and tenant financials are held per property.",
+        "Owners and tenants both rely on that confidentiality.",
+        "Disclosure damages negotiating position across the portfolio."
+      ],
+      "rhetorical_question": "Where are your lease and tenant financial records held?"
     }
   ]
 }

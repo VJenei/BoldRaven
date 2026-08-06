@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Surgical schedules cannot proceed without patient records.",
-      "why_this_business": "Surgical centres operate scheduled procedures requiring pre-operative assessments, consents, allergy and medication histories, implant records, and anaesthesia documentation. Proceeding without them is a patient safety decision, not an administrative one.",
-      "loss_scenario": "Cancelled surgical schedules with patients prepared and fasted, staff and anaesthesia committed, and implants ordered, plus revenue lost on high-value procedures that cannot simply be rescheduled into a full calendar.",
-      "rhetorical_question": "Would you proceed with a case if the pre-operative record were unavailable?"
+      "headline": "Procedures cannot proceed without records.",
+      "points": [
+        "Charts, orders, imaging, and results are required before surgery.",
+        "Patients have fasted and arranged time off and transport.",
+        "Cancelled procedures cascade across the whole schedule."
+      ],
+      "rhetorical_question": "What happens to scheduled procedures if your clinical system is unavailable?"
     },
     {
       "rank": 2,
-      "headline": "Emergency centres cannot control when patients arrive.",
-      "why_this_business": "Freestanding emergency facilities receive walk-in and ambulance patients continuously and are subject to EMTALA screening and stabilisation obligations regardless of system status. Diversion is not always possible and the obligation attaches once a patient presents.",
-      "loss_scenario": "Patients treated without records or history, with clinical risk on every encounter, and EMTALA obligations that continue whether or not registration and clinical systems are functioning.",
-      "rhetorical_question": "What are your EMTALA obligations to a patient who arrives while your systems are down?"
+      "headline": "Emergency patients arrive regardless.",
+      "points": [
+        "Emergency centres receive patients who cannot wait.",
+        "Clinical decisions depend on history, allergies, and medications.",
+        "Treating without that information risks harm."
+      ],
+      "rhetorical_question": "How do clinicians access patient history if systems are unavailable?"
     },
     {
       "rank": 3,
-      "headline": "Controlled substances and implants require tracked records.",
-      "why_this_business": "Anaesthesia and pain management involve controlled substances with DEA recordkeeping and reconciliation requirements, and implantable devices require unique device identifier tracking for recall purposes.",
-      "loss_scenario": "DEA findings for unreconcilable controlled substance records, and inability to identify patients who received a recalled implant, which obstructs a safety recall for devices already in people.",
-      "rhetorical_question": "Could you identify every patient who received a specific implant lot?"
+      "headline": "Patient records are federally protected.",
+      "points": [
+        "Clinical and billing records are held per patient.",
+        "Health privacy law requires notification of every affected patient.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient records do you hold?"
     }
   ]
 }

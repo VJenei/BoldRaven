@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold customers' garments and must match them to owners.",
-      "why_this_business": "Cleaners take in garments tagged to customer orders, process them through the plant, and hold them for collection. Items include expensive and irreplaceable garments, and the tagging system is the only link between item and owner.",
-      "loss_scenario": "Garments that cannot be matched to owners, with claims for high value items and no record of what was received, plus bailee liability for items in your custody.",
-      "rhetorical_question": "How many garments are in your plant right now, and how are they matched to owners?"
+      "headline": "You hold customer garments that cannot be replaced.",
+      "points": [
+        "Items arrive that are often expensive, formal, or sentimental.",
+        "Tracking systems match every item to a customer.",
+        "Items you cannot match are items nobody collects."
+      ],
+      "rhetorical_question": "How are incoming garments tracked and matched to customers?"
     },
     {
       "rank": 2,
-      "headline": "Route delivery serves customers who never visit the store.",
-      "why_this_business": "Delivery routes collect and return garments at homes and offices on scheduled days, with route systems holding addresses, access arrangements, and payment methods. Customers leave garments out for collection.",
-      "loss_scenario": "Exposure of customer addresses and delivery schedules with access arrangements, plus missed routes leaving garments uncollected or undelivered against customer expectations.",
-      "rhetorical_question": "Do your route records include home access instructions for customers?"
+      "headline": "Customers need items back for specific dates.",
+      "points": [
+        "Garments are needed for events, work, and travel on fixed dates.",
+        "Promised dates are recorded per order.",
+        "A missed date is an event attended in the wrong clothes."
+      ],
+      "rhetorical_question": "How are your promised completion dates recorded and tracked?"
     },
     {
       "rank": 3,
-      "headline": "Environmental compliance for solvents is documented.",
-      "why_this_business": "Drycleaning solvents are regulated with requirements for equipment, leak detection, waste handling, and record retention. Perchloroethylene in particular is subject to specific requirements and phase-out schedules in some jurisdictions.",
-      "loss_scenario": "Environmental enforcement where solvent handling and waste manifests cannot be produced, plus contamination liability at sites where historical solvent use is the subject of investigation.",
-      "rhetorical_question": "How do you retain solvent usage and waste disposal records?"
+      "headline": "Card payments and accounts run the counter.",
+      "points": [
+        "Point of sale processes cards and account customers are billed periodically.",
+        "Card security requirements apply to every location.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your point of sale system handle card data?"
     }
   ]
 }

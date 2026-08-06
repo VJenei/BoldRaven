@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your licence depends on age verification and records.",
-      "why_this_business": "Bars operate under state and local alcohol licences with age verification requirements, hours restrictions, and record obligations. Compliance checks are conducted by regulators, and identification scanning creates the record that verification occurred.",
-      "loss_scenario": "Licence suspension for compliance failures, which for a bar removes the entire revenue basis, plus dram shop exposure where service records cannot be produced after an incident involving an intoxicated patron.",
-      "rhetorical_question": "Does your point of sale scan and record identification for age verification?"
+      "headline": "Age verification is a licence condition.",
+      "points": [
+        "Alcohol service requires age verification with compliance checks.",
+        "Violations affect the licence that lets you trade.",
+        "Losing the licence closes the business entirely."
+      ],
+      "rhetorical_question": "How is age verification performed and recorded at your venue?"
     },
     {
       "rank": 2,
-      "headline": "Card volume is concentrated into a few hours with open tabs.",
-      "why_this_business": "Bars process high card volume in short periods with tabs held open, cards retained behind the bar in some operations, and tips added after authorisation. Point of sale terminals are physically accessible in a busy environment.",
-      "loss_scenario": "Card data compromise through the point of sale or physically skimmed devices, with brand assessments and forensic costs assigned to a single-location merchant by the processing agreement.",
-      "rhetorical_question": "How many card transactions do you process on a busy weekend night?"
+      "headline": "Card payments run continuously through service.",
+      "points": [
+        "Point of sale terminals process cards and hold open tabs.",
+        "Card security requirements apply to that handling.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 3,
-      "headline": "Inventory and pour control determine whether you make money.",
-      "why_this_business": "Beverage cost control depends on inventory tracking, pour measurement, and reconciliation of sales against depletion. Shrinkage from over-pouring, giveaways, and theft is the largest controllable cost in the business.",
-      "loss_scenario": "Inability to reconcile inventory against sales, with shrinkage that goes undetected across a period and directly consumes the margin the business depends on.",
-      "rhetorical_question": "How do you reconcile beverage inventory against recorded sales?"
+      "headline": "Inventory and pour control run the margin.",
+      "points": [
+        "Inventory, pour tracking, and sales run on connected systems.",
+        "Shrinkage in this business is significant and hard to see.",
+        "Without the system you cannot tell what was sold or poured."
+      ],
+      "rhetorical_question": "How is your inventory and pour tracked against sales?"
     }
   ]
 }

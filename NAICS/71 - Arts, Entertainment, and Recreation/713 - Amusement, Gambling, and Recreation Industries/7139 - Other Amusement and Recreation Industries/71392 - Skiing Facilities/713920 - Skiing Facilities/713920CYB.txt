@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Lift access control and ticketing gate the whole mountain.",
-      "why_this_business": "Access is controlled by RFID passes read at lift gates, with season passes, day tickets, and lesson bookings all linked to guest records. Guests arrive in a concentrated morning window and cannot ski without validated access.",
-      "loss_scenario": "Guests unable to access lifts on a peak day, with refunds, crowd management issues at base areas, and a limited number of operating days in which revenue can be earned.",
-      "rhetorical_question": "How would guests access lifts if your gate system could not validate passes?"
+      "headline": "Lift control systems carry people above the ground.",
+      "points": [
+        "Lifts run on control systems with safety monitoring and interlocks.",
+        "Passengers are suspended above terrain during operation.",
+        "A control failure with people on the lift is a serious safety event."
+      ],
+      "rhetorical_question": "What control and safety systems operate your lifts?"
     },
     {
       "rank": 2,
-      "headline": "Snowmaking and lift operations are controlled industrial systems.",
-      "why_this_business": "Snowmaking systems are centrally controlled across the mountain with water, air, and temperature management, and lifts operate under control systems with safety interlocks. Snowmaking windows are narrow and determined by weather.",
-      "loss_scenario": "Missed snowmaking windows that cannot be recovered, leaving terrain unopenable for the season, and lift control failures that are a passenger safety exposure with state tramway authority involvement.",
-      "rhetorical_question": "How many snowmaking hours would you lose if central control were unavailable during a cold window?"
+      "headline": "Snowmaking runs on a narrow weather window.",
+      "points": [
+        "Snowmaking systems run automatically when conditions allow.",
+        "Those conditions occur in limited windows.",
+        "Missing a window costs terrain for the season."
+      ],
+      "rhetorical_question": "How are your snowmaking systems controlled and monitored?"
     },
     {
       "rank": 3,
-      "headline": "Season pass programmes hold payment data and personal information.",
-      "why_this_business": "Passes are sold months ahead with photographs, stored payment methods for payment plans, and family and minor records, with pass products frequently linked across multiple resorts.",
-      "loss_scenario": "Exposure of passholder payment and photographic data across a large base, with multi-resort programmes multiplying the affected population beyond your own guests.",
-      "rhetorical_question": "How many season passholders have payment methods stored with you?"
+      "headline": "The season is short and ticketing runs it.",
+      "points": [
+        "Passes, tickets, and access are sold and scanned electronically.",
+        "The season is measured in months and weekends carry it.",
+        "A ticketing failure on a peak weekend cannot be recovered."
+      ],
+      "rhetorical_question": "How are your passes and tickets sold and scanned?"
     }
   ]
 }

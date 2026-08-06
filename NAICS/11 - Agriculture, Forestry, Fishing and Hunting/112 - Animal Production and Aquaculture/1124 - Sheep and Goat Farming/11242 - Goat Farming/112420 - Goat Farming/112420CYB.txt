@@ -1,7 +1,6 @@
 {
   "naics_code": "112420",
   "naics_title": "Goat Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Dairy goat operations are regulated under the Pasteurized Milk Ordinance.",
-      "why_this_business": "Grade A goat milk requires cooling to 45 degrees F within two hours, automated tank monitoring, CIP cycles, and testing on every pickup. Operations that process on-farm into cheese also carry FDA facility registration, process controls, and pathogen testing records.",
-      "loss_scenario": "Dumped milk, rejected loads, and possible permit suspension. On-farm cheese operations face recall exposure if pathogen and process records cannot be produced.",
-      "rhetorical_question": "Do you ship Grade A milk or process dairy products on the farm?"
+      "headline": "Milking or kidding schedules cannot be paused.",
+      "points": [
+        "Dairy goats are milked daily and kidding runs to a fixed season.",
+        "Parlour equipment, milk cooling, and herd records run on connected systems.",
+        "Missed milkings cause mastitis and lost production for the lactation."
+      ],
+      "rhetorical_question": "Is your milking equipment or milk cooling computer controlled?"
     },
     {
       "rank": 2,
-      "headline": "Meat and breeding stock sales are concentrated around holiday demand.",
-      "why_this_business": "Meat goats sell into ethnic and holiday markets with demand concentrated around religious holidays, often through online auctions and long-distance buyers paid by wire or payment app. Registered breeding stock sells nationally through online sales.",
-      "loss_scenario": "Payment fraud during a small number of high-demand sale windows, and diverted proceeds on breeding stock transactions of $1,000 to $10,000 per animal.",
-      "rhetorical_question": "How much of your annual sales occurs during holiday demand periods?"
+      "headline": "Identification and movement records are required for disease control.",
+      "points": [
+        "Goats must carry official identification with movement records kept.",
+        "Those records support interstate movement and disease tracing.",
+        "Animals you cannot document cannot be sold or moved."
+      ],
+      "rhetorical_question": "How do you record official identification and movement for your goats?"
     },
     {
       "rank": 3,
-      "headline": "Buyers require disease testing records before purchase.",
-      "why_this_business": "Goats are covered by the National Scrapie Eradication Program with identification and movement record requirements for interstate commerce. Buyers also require CAE, CL, and Johne's testing records before purchasing breeding stock.",
-      "loss_scenario": "Inability to produce disease testing records reduces breeding stock value to commercial meat value and blocks interstate movement.",
-      "rhetorical_question": "Where do you keep your herd disease testing results?"
+      "headline": "Milk and meat sales run on treatment withdrawal records.",
+      "points": [
+        "Treated animals must be withheld from milk and meat for set periods.",
+        "Herd records hold those treatment and withdrawal dates.",
+        "One treated animal in the tank condemns the whole load."
+      ],
+      "rhetorical_question": "How do you record animal treatments and withdrawal periods?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pumping and disposal are regulated with manifest requirements.",
-      "why_this_business": "Septage haulers are permitted and must document quantities pumped, sources, and disposal locations, with receiving treatment plants requiring manifests. Illegal disposal is a serious environmental violation with criminal exposure.",
-      "loss_scenario": "Regulatory enforcement where disposal records cannot be produced, and inability to demonstrate lawful disposal is treated as evidence of illegal dumping regardless of what actually happened.",
-      "rhetorical_question": "How do you document where each load was disposed and in what quantity?"
+      "headline": "Waste disposal is manifested and regulated.",
+      "points": [
+        "Pumped waste must be disposed at permitted facilities with documentation.",
+        "Regulators trace waste through those records.",
+        "Improper disposal is an enforcement matter, not a paperwork issue."
+      ],
+      "rhetorical_question": "How is your waste disposal documented and retained?"
     },
     {
       "rank": 2,
-      "headline": "Customer service records support system history and inspections.",
-      "why_this_business": "Service records document tank pumping frequency, system condition, and repairs, relied on during property transactions, county inspections, and permit renewals. Homeowners frequently have no other record of their system's history.",
-      "loss_scenario": "Property transactions delayed and permits refused where service history cannot be produced, with the customer attributing the consequence to the service provider who held the records.",
-      "rhetorical_question": "Do your customers rely on your records to prove service history at a property sale?"
+      "headline": "Customers have an emergency when systems fail.",
+      "points": [
+        "Septic failures back sewage into homes and businesses.",
+        "Dispatch and scheduling determine response time.",
+        "Customers cannot use their property until it is fixed."
+      ],
+      "rhetorical_question": "How are emergency service calls received and dispatched?"
     },
     {
       "rank": 3,
-      "headline": "Emergency calls involve failing systems and health hazards.",
-      "why_this_business": "System failures cause sewage backup into homes and surfacing effluent, which is a health hazard requiring prompt response. Dispatch and routing determine how quickly a crew reaches a failing system.",
-      "loss_scenario": "Delayed response to a sewage backup causing property damage and health exposure inside a customer's home, with claims that vastly exceed the service charge.",
-      "rhetorical_question": "How are emergency service calls received and dispatched outside business hours?"
+      "headline": "Customer records hold addresses and service history.",
+      "points": [
+        "Records carry addresses, system details, and payment information.",
+        "Service history determines maintenance scheduling.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer address, system, and payment data do you store?"
     }
   ]
 }

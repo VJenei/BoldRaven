@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold aggregated exposure data across the entire market.",
-      "why_this_business": "Reinsurers receive cedent portfolio data, exposure schedules, loss history, and pricing across many primary carriers. That aggregation reveals the market's concentrations and each cedent's book in detail, which is commercially sensitive to every party that provided it.",
-      "loss_scenario": "Exposure of cedent portfolio and pricing data breaches confidentiality with every ceding company simultaneously, and the aggregated view is more damaging than any single carrier's data alone.",
-      "rhetorical_question": "How many ceding companies' portfolio and pricing data do you hold?"
+      "headline": "Cedent data covers entire books of business.",
+      "points": [
+        "Bordereaux and claims data cover thousands of underlying policyholders.",
+        "That data belongs to the ceding company and their policyholders.",
+        "A breach exposes people who never dealt with you."
+      ],
+      "rhetorical_question": "What cedent and underlying policyholder data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Aggregation risk means one cyber event can hit the whole book at once.",
-      "why_this_business": "Reinsurers writing cyber, business interruption, and contingent business interruption face the possibility that a single widespread event, such as a cloud provider outage or a self-propagating malware event, triggers claims across many cedents simultaneously. NotPetya produced exactly this pattern.",
-      "loss_scenario": "Correlated losses across the portfolio in a single event, which is the specific scenario that makes cyber risk structurally different from natural catastrophe and difficult to diversify.",
-      "rhetorical_question": "How do you model correlated cyber losses across your ceded portfolios?"
+      "headline": "Treaty and pricing information is highly confidential.",
+      "points": [
+        "Treaty terms, pricing, and exposure data determine competitive position.",
+        "Cedents and brokers share that data in confidence.",
+        "Disclosure damages relationships built over decades."
+      ],
+      "rhetorical_question": "Where are your treaty and pricing records held?"
     },
     {
       "rank": 3,
-      "headline": "Treaty and claims settlement moves very large sums between parties.",
-      "why_this_business": "Reinsurance settles through periodic accounts, cash calls, and claim payments between reinsurer, cedent, and broker, with instructions exchanged electronically. Individual settlements can run into tens of millions.",
-      "loss_scenario": "A diverted settlement at reinsurance scale, where the amounts involved exceed most crime policy limits and the deception element defeats coverage designed for ordinary theft.",
-      "rhetorical_question": "How are large treaty settlement payment instructions verified before release?"
+      "headline": "Settlements move very large sums by transfer.",
+      "points": [
+        "Premium and claim settlements move at treaty value.",
+        "Instructions are exchanged with cedents and brokers electronically.",
+        "A diverted settlement is a very large single loss."
+      ],
+      "rhetorical_question": "How are settlement instructions verified before funds move?"
     }
   ]
 }

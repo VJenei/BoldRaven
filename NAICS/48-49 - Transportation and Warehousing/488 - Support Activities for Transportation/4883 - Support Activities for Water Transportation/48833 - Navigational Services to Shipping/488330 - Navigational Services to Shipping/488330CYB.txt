@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pilotage and tug assignment govern vessels moving in confined water.",
-      "why_this_business": "Pilot associations and tug operators dispatch against vessel arrival schedules, tide windows, and berth availability, coordinated electronically with the port, agents, and the Coast Guard. Pilots board vessels in restricted waters where a scheduling failure means a vessel manoeuvring without a pilot or waiting outside.",
-      "loss_scenario": "Vessels delayed outside the port accrue demurrage, and tide windows missed mean waiting for the next cycle. A vessel that proceeds without proper pilotage risks grounding in a channel, which closes the port for everyone.",
-      "rhetorical_question": "How are pilot and tug assignments dispatched against vessel schedules?"
+      "headline": "Pilots and tugs move vessels in confined water.",
+      "points": [
+        "Movement is coordinated through scheduling and communication systems.",
+        "Vessels are large, close to shore, and often carrying hazardous cargo.",
+        "A coordination failure is a grounding or a collision."
+      ],
+      "rhetorical_question": "How are vessel movements scheduled and coordinated?"
     },
     {
       "rank": 2,
-      "headline": "Portable pilot units carry navigation data onto the bridge.",
-      "why_this_business": "Pilots bring portable navigation units that connect to the vessel's systems and display precise position and manoeuvring data using local chart and tide information. That equipment moves between many vessels each week.",
-      "loss_scenario": "Corrupted or wrong navigation data during a confined water transit is a grounding and allision exposure, and a device moving between vessels is a potential transmission path between them.",
-      "rhetorical_question": "How is the navigation data on your portable pilot units maintained and verified?"
+      "headline": "Federal maritime security requirements apply.",
+      "points": [
+        "Coast Guard security and cybersecurity requirements apply to regulated operations.",
+        "Requirements phase in on set dates.",
+        "Findings can restrict operations."
+      ],
+      "rhetorical_question": "What maritime security requirements apply to your operation?"
     },
     {
       "rank": 3,
-      "headline": "Coast Guard cybersecurity requirements reach US-flagged vessels in this trade.",
-      "why_this_business": "Tugs and launch vessels that are US-flagged fall under the Coast Guard cybersecurity rule effective July 16, 2025, with immediate reporting of reportable cyber incidents, training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
-      "loss_scenario": "Operating restrictions on vessels that the whole port depends on, since ship movements in most ports cannot proceed without tug assistance.",
-      "rhetorical_question": "Are your vessels US-flagged and subject to the Coast Guard cyber rule?"
+      "headline": "Vessel schedules cannot be held.",
+      "points": [
+        "Vessels arrive on tide and berth windows that cannot move.",
+        "Pilots and tugs are booked against those windows.",
+        "A missed window costs the vessel and the terminal both."
+      ],
+      "rhetorical_question": "What does a missed tide or berth window cost your customers?"
     }
   ]
 }

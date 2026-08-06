@@ -1,7 +1,6 @@
 {
   "naics_code": "112930",
   "naics_title": "Fur-Bearing Animal and Rabbit Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The industry is targeted by activists who publish operator and employee information.",
-      "why_this_business": "Fur and rabbit production has been targeted by animal rights activism including publication of farm addresses, owner and employee names, website defacement, and release of internal records. The objective is publication rather than payment, so paying an extortion demand does not resolve the incident.",
-      "loss_scenario": "Publication of employee names and home addresses and farm locations, leading to harassment, security incidents, and employee resignations. Media liability, crisis management, and extortion response are cyber policy coverages.",
-      "rhetorical_question": "Has your operation ever been the subject of activist attention or public targeting?"
+      "headline": "Housing climate controls hold the animals through the season.",
+      "points": [
+        "Ventilation, heating, and watering systems run automatically in the sheds.",
+        "Animals in closed housing have no tolerance for a control failure.",
+        "Heat stress kills a barn of animals within hours."
+      ],
+      "rhetorical_question": "Are your housing ventilation and watering systems automated?"
     },
     {
       "rank": 2,
-      "headline": "Enclosed housing depends on ventilation, cooling, and automated watering.",
-      "why_this_business": "Rabbits and fur-bearing animals are housed in enclosed or semi-enclosed buildings with ventilation, cooling, and automated watering. Rabbits suffer mortality above roughly 85 degrees F. Mink are similarly heat sensitive. Loss of automated watering causes death loss within a day.",
-      "loss_scenario": "Mass mortality across a barn from a ventilation, cooling, or watering failure, including breeding stock representing multiple generations of selection.",
-      "rhetorical_question": "Are your ventilation and watering systems automated and remotely monitored?"
+      "headline": "Pelt and stock sales run through auctions and buyers by transfer.",
+      "points": [
+        "Product is consigned to auction or sold to buyers and settled electronically.",
+        "A faked banking change diverts an entire season's settlement.",
+        "Income arrives in one or two payments a year."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers or auctions by email?"
     },
     {
       "rank": 3,
-      "headline": "Pelts are sold through international auction with electronic settlement.",
-      "why_this_business": "Pelts are marketed through international auction houses with consignment, grading, and settlement handled electronically, often months after delivery. Export requires CITES and customs documentation. Buyer confidentiality is a business requirement in this industry.",
-      "loss_scenario": "Diverted auction settlements, exposure of buyer and consignment records, and inability to produce export documentation for shipments in transit.",
-      "rhetorical_question": "How long after delivery are you paid, and how is payment transmitted?"
+      "headline": "Disease and movement records are required by regulators.",
+      "points": [
+        "Animal movements, health testing, and mortality are recorded.",
+        "Disease response traces back through those records.",
+        "Without records the response widens to the whole operation."
+      ],
+      "rhetorical_question": "What health testing and movement records do you keep?"
     }
   ]
 }

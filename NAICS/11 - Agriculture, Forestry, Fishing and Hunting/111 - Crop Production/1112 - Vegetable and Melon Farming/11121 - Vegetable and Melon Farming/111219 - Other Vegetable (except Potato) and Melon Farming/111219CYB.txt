@@ -1,7 +1,6 @@
 {
   "naics_code": "111219",
   "naics_title": "Other Vegetable (except Potato) and Melon Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your crops are on the FDA Food Traceability List and require records within 24 hours.",
-      "why_this_business": "Melons, leafy greens, tomatoes, cucumbers, peppers, fresh herbs, and sprouts are on the FDA Food Traceability List under FSMA Section 204. The compliance date is July 20, 2028. The rule requires traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of records to FDA in an electronic sortable spreadsheet within 24 hours of request.",
-      "loss_scenario": "Records that cannot be produced in 24 hours widen the scope of an outbreak investigation. The 2018 romaine advisories reduced demand for growers who were never linked to the outbreak.",
-      "rhetorical_question": "Do you grow any crop on the FDA Food Traceability List, and can you produce lot-level records electronically?"
+      "headline": "Produce safety rules require records you must produce on request.",
+      "points": [
+        "Water testing, worker training, and sanitation records are inspected.",
+        "Traceability records must link a harvested lot back to a field.",
+        "Missing records during an outbreak widen the recall to everything you shipped."
+      ],
+      "rhetorical_question": "Could you trace a shipped lot back to a specific field and harvest date?"
     },
     {
       "rank": 2,
-      "headline": "Retail buyers require EDI, GS1 labeling, and a current third-party food safety audit.",
-      "why_this_business": "Selling to retailers or foodservice distributors requires GTINs, case labeling, EDI purchase orders and advance ship notices, and a current PrimusGFS, SQF, or GlobalG.A.P. certificate held in a portal. Product cannot ship without electronic confirmation, and the certificate is checked before orders are placed.",
-      "loss_scenario": "Suspension from an approved supplier list during the harvest season. Perishable product cannot be held until the issue is resolved.",
-      "rhetorical_question": "Do you transmit purchase orders or advance ship notices by EDI to your buyers?"
+      "headline": "Fresh produce has days, not weeks, before it is worthless.",
+      "points": [
+        "Harvest, cooling, and shipping are scheduled within hours of each other.",
+        "Cold chain and load scheduling run on connected systems.",
+        "Produce that misses its truck is unsellable by the time it moves."
+      ],
+      "rhetorical_question": "How many days can your harvested product be held before it loses value?"
     },
     {
       "rank": 3,
-      "headline": "Seasonal harvest crews create a large file of employee personal information.",
-      "why_this_business": "Fresh vegetable production uses large seasonal crews, employed directly or through a farm labor contractor. Files include I-9 forms, passport and visa copies, Social Security numbers, and direct deposit details. Payroll is run weekly.",
-      "loss_scenario": "A breach of a payroll file covering 400 workers requires notification in every state of residence, credit monitoring, and response to state labor agencies.",
-      "rhetorical_question": "How many seasonal employees do you have at peak, and do you keep copies of their identity documents?"
+      "headline": "Buyers audit your food safety program before they order.",
+      "points": [
+        "Retail and foodservice buyers require third party audit certificates.",
+        "Those audits examine records, not just the field.",
+        "A failed or lapsed audit closes the account entirely."
+      ],
+      "rhetorical_question": "Which buyers require a food safety audit certificate from you?"
     }
   ]
 }

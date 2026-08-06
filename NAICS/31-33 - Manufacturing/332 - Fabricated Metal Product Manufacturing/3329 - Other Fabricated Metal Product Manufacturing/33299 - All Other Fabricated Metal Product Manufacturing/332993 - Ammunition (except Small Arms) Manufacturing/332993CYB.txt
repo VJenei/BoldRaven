@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The plant makes military explosive ordnance under contract.",
-      "why_this_business": "Large calibre ammunition, bombs, and warheads are produced under defence contracts with explosives licensing, security requirements, and technical data subject to export control. Contracts carry cybersecurity requirements as a condition of award.",
-      "loss_scenario": "Compromise of contract technical data, which is an export control violation and a national security matter, with contract termination and debarment exposure in addition to investigation.",
-      "rhetorical_question": "What ITAR controlled technical data does your operation hold?"
+      "headline": "Programme technical data is export controlled.",
+      "points": [
+        "Ordnance designs are defence articles with restricted technical data.",
+        "Access by a foreign person is an export requiring authorisation.",
+        "That is a national security matter with criminal exposure."
+      ],
+      "rhetorical_question": "What export controlled technical data does your operation hold?"
     },
     {
       "rank": 2,
-      "headline": "Explosive processing operations are lethal when control is lost.",
-      "why_this_business": "Melt pour, pressing, and loading operations handle high explosives with automated equipment, temperature control, and remote operation. Loss of temperature or process control initiates the explosive.",
-      "loss_scenario": "An explosion during processing with fatalities and destruction of production buildings, and an investigation examining whether process control and safety systems were functioning.",
+      "headline": "Explosive processing is lethal when control is lost.",
+      "points": [
+        "Melt pour, pressing, and loading run under temperature control and remote operation.",
+        "Loss of control initiates the explosive.",
+        "An explosion kills workers and destroys production buildings."
+      ],
       "rhetorical_question": "What automated controls hold explosive processing within safe limits?"
     },
     {
       "rank": 3,
-      "headline": "Lot traceability determines the scope of any ordnance problem.",
-      "why_this_business": "Ordnance carries lot markings traceable to components, processing, and testing. When a round malfunctions in the field, the lot record determines what else must be withdrawn from service.",
-      "loss_scenario": "A malfunction with casualties where lot records cannot bound the problem, requiring suspension of every lot from the period across deployed units.",
+      "headline": "Lot records bound any ordnance problem.",
+      "points": [
+        "Lot markings trace to components, processing, and testing.",
+        "A field malfunction is bounded by those records.",
+        "Without them every lot from the period is suspended."
+      ],
       "rhetorical_question": "How are lot records maintained and for how long after delivery?"
     }
   ]

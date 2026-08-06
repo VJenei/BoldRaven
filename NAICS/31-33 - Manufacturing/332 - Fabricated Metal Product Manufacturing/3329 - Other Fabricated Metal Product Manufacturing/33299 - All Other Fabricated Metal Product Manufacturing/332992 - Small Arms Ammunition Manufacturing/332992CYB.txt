@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "The plant handles explosives under federal licence.",
-      "why_this_business": "Ammunition manufacturing requires ATF licensing with records of explosive materials, propellants, and primers, subject to inspection. Records of acquisition and disposition are a licence condition.",
-      "loss_scenario": "Loss of required records with licence action, and in the event of theft or diversion of explosive materials, a federal investigation with the records determining whether the operation can account for its inventory.",
-      "rhetorical_question": "What explosives records does your ATF licence require you to maintain?"
+      "points": [
+        "Records of explosive materials, propellants, and primers are a licence condition.",
+        "Inventories are inspected and discrepancies investigated.",
+        "Unaccounted explosive material is a federal matter."
+      ],
+      "rhetorical_question": "What explosives records does your federal licence require you to maintain?"
     },
     {
       "rank": 2,
-      "headline": "Ammunition defects cause firearm destruction and injury.",
-      "why_this_business": "Overcharged, double charged, or wrong component ammunition destroys firearms and injures shooters. Powder charge weight and component selection are process controlled on high speed loading equipment.",
-      "loss_scenario": "Ammunition with charge or component errors causing firearm ruptures and injuries, with recall across distribution and retail and every lot from the affected period requiring withdrawal.",
+      "headline": "Charge errors destroy firearms and injure shooters.",
+      "points": [
+        "Powder charge weight is monitored continuously on high speed loading equipment.",
+        "Overcharged rounds rupture the firearm in the shooter's hands.",
+        "Every lot from the affected period must be withdrawn."
+      ],
       "rhetorical_question": "How is powder charge weight monitored and recorded during loading?"
     },
     {
       "rank": 3,
-      "headline": "Propellant and primer handling presents explosion risk.",
-      "why_this_business": "Loading operations handle smokeless propellant and primer compounds that ignite and detonate, with quantity limits, separation distances, and static control governing the operation. Plant explosions in this industry kill workers.",
-      "loss_scenario": "An explosion in loading or storage with fatalities, destruction of the building, and an ATF and OSHA investigation examining whether quantity limits and controls were maintained.",
+      "headline": "Propellant and primer handling can explode the building.",
+      "points": [
+        "Quantity limits, separation, and static control govern the operation.",
+        "Primer compounds detonate and propellant deflagrates.",
+        "Plant explosions in this industry kill workers."
+      ],
       "rhetorical_question": "How are propellant quantity limits monitored in your loading areas?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Federal law requires you to record who bought which tires.",
-      "why_this_business": "Tire distributors and independent dealers must record tire identification numbers against purchaser information so that recalled tires can be traced to the consumer, under NHTSA tire registration rules. That database is both a legal obligation and a file of customer names and addresses tied to specific products.",
-      "loss_scenario": "Inability to produce registration records during a recall obstructs a safety campaign and draws NHTSA enforcement, while a breach exposes the customer database you were required to build.",
-      "rhetorical_question": "How do you record tire identification numbers against purchaser details?"
+      "headline": "Federal law requires you to record tire sales for recalls.",
+      "points": [
+        "Tire registration records link identification numbers to purchasers.",
+        "Manufacturers depend on that data to reach affected tires.",
+        "Without it recalled tires stay on vehicles."
+      ],
+      "rhetorical_question": "How do you record tire identification numbers and purchaser details?"
     },
     {
       "rank": 2,
-      "headline": "Tires are high volume, high value, and easily resold.",
-      "why_this_business": "Tire inventory is bulky, valuable, and completely fungible once off the truck, which makes it a persistent cargo theft target. Warehouse and delivery records are the only proof of what shipped and what arrived, and fictitious pickup schemes rely on impersonating legitimate carriers.",
-      "loss_scenario": "A stolen truckload of tires is $50,000 to $150,000, and goods released to a fraudulent carrier are generally not a covered theft because they were handed over voluntarily.",
-      "rhetorical_question": "How do you verify a carrier's identity before releasing a load?"
+      "headline": "Recalls are bounded by which tires you shipped where.",
+      "points": [
+        "Tire recalls identify specific production codes and periods.",
+        "Your shipment records determine which customers received them.",
+        "Without records the recall reaches everything you distributed."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific tire production code?"
     },
     {
       "rank": 3,
-      "headline": "Same-day delivery to service accounts depends on routing and inventory data.",
-      "why_this_business": "Tire distributors run multiple daily delivery routes to dealers and service centres from regional inventory, with availability checked live at the point of sale. The customer commits to their consumer based on your stock position.",
-      "loss_scenario": "Missed delivery commitments across a route network, with service accounts sourcing elsewhere for the day and consumers waiting on vehicles that cannot be released.",
-      "rhetorical_question": "How many delivery routes do you dispatch each day from live inventory data?"
+      "headline": "Shops and fleets order for same-day fitting.",
+      "points": [
+        "Tire orders are placed for vehicles already in the bay.",
+        "Delivery runs multiple times daily.",
+        "A supply gap leaves vehicles on lifts across every customer."
+      ],
+      "rhetorical_question": "How many deliveries a day do your shop customers depend on?"
     }
   ]
 }

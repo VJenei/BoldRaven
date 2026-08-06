@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "This industry produced the defining critical infrastructure cyber incident.",
-      "why_this_business": "In May 2021 ransomware against Colonial Pipeline led the company to shut down roughly 5,500 miles of pipeline carrying a large share of the fuel supply to the eastern United States, causing widespread shortages and panic buying. A ransom of approximately $4.4 million was paid. The response reshaped federal pipeline security policy.",
-      "loss_scenario": "A products pipeline shutdown creates regional fuel shortages within days, with contractual supply failures to terminals and airports, government intervention, and reputational consequences that outlast the outage.",
-      "rhetorical_question": "How many days of supply do the markets you serve hold if your line stops?"
+      "headline": "A shutdown creates regional fuel shortages.",
+      "points": [
+        "Terminals, airports, and stations depend on continuous delivery.",
+        "A shutdown of a major products pipeline has caused panic buying and shortages.",
+        "The consequence is public, not commercial."
+      ],
+      "rhetorical_question": "What terminals and airports depend on your pipeline?"
     },
     {
       "rank": 2,
-      "headline": "TSA security directives were written because of this sector.",
-      "why_this_business": "TSA directives require designated pipeline operators to appoint a cybersecurity coordinator, report incidents to CISA within 24 hours, conduct assessments, and implement specific measures including segmentation of IT and OT networks, access control, monitoring, and patching under an approved implementation plan.",
-      "loss_scenario": "Civil penalties and mandated remediation, with the added exposure that non-compliance in this sector attracts congressional and public attention.",
-      "rhetorical_question": "Which TSA security directives apply to your system, and are you in full compliance?"
+      "headline": "Federal pipeline security directives apply directly to you.",
+      "points": [
+        "Covered operators must report cyber incidents and maintain approved security plans.",
+        "Regulators require tested response and documented controls.",
+        "Findings can restrict pipeline operations."
+      ],
+      "rhetorical_question": "What federal pipeline security requirements apply to your system?"
     },
     {
       "rank": 3,
-      "headline": "Batch scheduling and interface tracking prevent product contamination.",
-      "why_this_business": "Products lines move different fuel grades in sequential batches with interfaces tracked and cut at terminals. Scheduling, batch tracking, and quality data determine what goes into which tank. Contaminated product entering the retail chain damages engines across a region.",
-      "loss_scenario": "Off-specification product delivered into terminal tanks and onward to retail, with product recall, engine damage claims, and regulatory involvement across an entire market area.",
-      "rhetorical_question": "How is batch sequencing and interface cutting tracked through your system?"
+      "headline": "Batching and interface tracking prevent product contamination.",
+      "points": [
+        "Different products move in sequence with interfaces tracked electronically.",
+        "Losing interface tracking contaminates product across batches.",
+        "Contaminated jet fuel or gasoline is a safety event downstream."
+      ],
+      "rhetorical_question": "How is product batching and interface tracking managed on your system?"
     }
   ]
 }

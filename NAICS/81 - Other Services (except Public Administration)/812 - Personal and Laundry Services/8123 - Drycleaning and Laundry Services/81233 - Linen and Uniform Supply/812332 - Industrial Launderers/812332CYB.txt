@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Contaminated garment processing has safety consequences.",
-      "why_this_business": "Industrial launderers process work garments including flame resistant clothing and garments contaminated with industrial residues. Flame resistant garments must be processed to preserve their protective properties, verified through documented procedures.",
-      "loss_scenario": "Flame resistant garments returned with protective properties degraded by incorrect processing, worn by workers in arc flash and flash fire environments, with catastrophic injury exposure.",
-      "rhetorical_question": "Do you process flame resistant garments, and how is correct processing verified?"
+      "headline": "Protective garments must retain their protective properties.",
+      "points": [
+        "Flame resistant and protective garments are processed to preserve performance.",
+        "Wrong processing destroys the protection without visible change.",
+        "The garment fails during the incident it exists for."
+      ],
+      "rhetorical_question": "How is protective garment processing controlled and documented?"
     },
     {
       "rank": 2,
-      "headline": "Route service delivers to industrial customers on fixed schedules.",
-      "why_this_business": "Industrial customers receive garment and mat service on weekly routes, with garment tracking by wearer and location. Workers cannot report to work in appropriate garments if service fails.",
-      "loss_scenario": "Workers without required protective garments, which stops work at customer sites where the garment is a condition of entry, and claims for the resulting production loss.",
-      "rhetorical_question": "How many customer sites depend on your route schedule for required work garments?"
+      "headline": "Customers cannot work without their garments.",
+      "points": [
+        "Industrial and healthcare customers receive garments on scheduled routes.",
+        "Workers cannot start shifts without them.",
+        "A delivery failure stops shifts across every customer."
+      ],
+      "rhetorical_question": "How many customers depend on your scheduled deliveries?"
     },
     {
       "rank": 3,
-      "headline": "Wastewater discharge from processing is regulated.",
-      "why_this_business": "Industrial laundry wastewater carries oils, solvents, and metals removed from garments, discharged under pretreatment permits with monitoring, sampling, and reporting requirements to the receiving treatment works.",
-      "loss_scenario": "Permit exceedances and reporting failures where monitoring data cannot be produced, with penalties assessed per violation and the receiving authority able to restrict discharge.",
-      "rhetorical_question": "What discharge monitoring does your pretreatment permit require?"
+      "headline": "Contaminated garment handling carries obligations.",
+      "points": [
+        "Garments arrive contaminated with chemicals, blood, or other hazards.",
+        "Processing and handling requirements apply to that contamination.",
+        "Workers in your plant are exposed to whatever came in."
+      ],
+      "rhetorical_question": "What contaminated garment handling procedures and records do you maintain?"
     }
   ]
 }

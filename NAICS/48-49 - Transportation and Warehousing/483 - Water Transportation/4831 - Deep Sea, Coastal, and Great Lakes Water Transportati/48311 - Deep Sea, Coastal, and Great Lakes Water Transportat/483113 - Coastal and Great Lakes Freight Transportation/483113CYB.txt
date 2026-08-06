@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Jones Act trades serve customers with no alternative carrier.",
-      "why_this_business": "Domestic coastwise and Great Lakes trades are restricted to qualifying US-flag vessels, and the number of vessels serving a given trade is small. Customers in Alaska, Hawaii, Puerto Rico, and Great Lakes bulk trades have limited or no alternative capacity.",
-      "loss_scenario": "A disruption removes capacity that cannot be replaced from the international fleet, with downstream shortages in island and remote markets and contractual failure to shippers with no other option.",
-      "rhetorical_question": "How many other carriers could serve your customers if you could not sail?"
+      "headline": "Federal maritime cybersecurity rules apply to your operation.",
+      "points": [
+        "Coast Guard rules impose cybersecurity requirements on regulated vessels and facilities.",
+        "Account, device, and plan requirements phase in on set dates.",
+        "Findings can restrict vessel and terminal operations."
+      ],
+      "rhetorical_question": "What maritime cybersecurity requirements apply to your vessels and facilities?"
     },
     {
       "rank": 2,
-      "headline": "Coast Guard cybersecurity requirements are now in force.",
-      "why_this_business": "US-flagged vessels and MTSA-regulated facilities fall under the Coast Guard rule effective July 16, 2025, requiring immediate incident reporting to the National Response Center, training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
-      "loss_scenario": "Detention and Captain of the Port orders halting operations, which in a small trade removes a meaningful share of national capacity.",
-      "rhetorical_question": "Are your vessels US-flagged and therefore subject to the Coast Guard cyber rule?"
+      "headline": "Vessel and terminal systems are connected.",
+      "points": [
+        "Navigation, cargo, and terminal loading systems run on connected controls.",
+        "Bulk and liquid cargo transfer is automated.",
+        "Loss of control during transfer means a spill or an overfill."
+      ],
+      "rhetorical_question": "What vessel and terminal systems are connected to shore networks?"
     },
     {
       "rank": 3,
-      "headline": "Cargo operations and stability calculations are computer-managed.",
-      "why_this_business": "Loading, ballast, and stability are calculated by loading computers, and departure requires a verified stability condition. Bulk and articulated tug-barge operations manage cargo transfer through automated systems with pollution prevention interlocks.",
-      "loss_scenario": "A stability or transfer error causing structural damage, capsizing, or a pollution incident, which under the Oil Pollution Act carries removal costs and damages well beyond the vessel value.",
-      "rhetorical_question": "How is your loading and stability computer secured and backed up?"
+      "headline": "Schedules are tied to shipper production.",
+      "points": [
+        "Cargo moves against mill, plant, and terminal schedules.",
+        "Shippers hold limited inventory at either end.",
+        "A missed sailing stops production at the receiving plant."
+      ],
+      "rhetorical_question": "What production depends on your scheduled sailings?"
     }
   ]
 }

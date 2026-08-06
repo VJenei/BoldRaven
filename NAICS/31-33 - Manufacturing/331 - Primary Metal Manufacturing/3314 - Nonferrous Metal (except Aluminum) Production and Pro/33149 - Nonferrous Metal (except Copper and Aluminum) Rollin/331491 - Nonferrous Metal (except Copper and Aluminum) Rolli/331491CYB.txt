@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialty alloys serve applications with no substitute.",
-      "why_this_business": "Nickel, titanium, and specialty alloy products serve aerospace, medical, and chemical applications where material properties are qualified and certified. Substitution is not possible without requalification that takes months.",
-      "loss_scenario": "Aerospace and medical customers without qualified material, unable to produce components with no alternative source, and their production programmes stopped.",
-      "rhetorical_question": "How many customers have qualified your material with no approved alternative?"
+      "headline": "Specialty alloys are qualified into demanding applications.",
+      "points": [
+        "Titanium, nickel, and specialty alloys go into aerospace and chemical service.",
+        "Traceability and process records support every qualification.",
+        "Material that cannot be traced cannot be used in those applications."
+      ],
+      "rhetorical_question": "How is traceability maintained from material through to shipped product?"
     },
     {
       "rank": 2,
-      "headline": "Aerospace and medical customers require certification and traceability.",
-      "why_this_business": "Material for aerospace and implantable medical use requires full traceability to melt, process records, and certification under quality systems audited by customers and accreditation bodies.",
-      "loss_scenario": "Material that cannot be certified is unusable and, where already fabricated into aerospace parts or medical implants, requires identification and potentially removal from service or from patients.",
-      "rhetorical_question": "Is your material used in aerospace components or medical implants?"
+      "headline": "Process parameters determine metallurgical properties.",
+      "points": [
+        "Working and heat treatment determine microstructure and mechanical properties.",
+        "Material with correct dimensions can have wrong properties.",
+        "The failure appears in service under load or temperature."
+      ],
+      "rhetorical_question": "How are your process and heat treatment parameters recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Processing parameters determine metallurgical properties.",
-      "why_this_business": "Working and heat treatment develop the microstructure and properties of specialty alloys, with parameters closely controlled and recorded. Properties cannot be verified by dimensional inspection alone.",
-      "loss_scenario": "Material with correct dimensions but wrong microstructure entering critical applications, where the deficiency appears as premature failure in service.",
-      "rhetorical_question": "How are working and heat treatment parameters recorded per production lot?"
+      "headline": "Material value makes inventory records critical.",
+      "points": [
+        "Specialty metals carry very high value per pound.",
+        "Inventory records are the only control over material movement.",
+        "Altered records hide theft of extremely valuable material."
+      ],
+      "rhetorical_question": "How is your specialty metal inventory recorded and reconciled?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Code you write runs inside your clients' systems.",
-      "why_this_business": "Custom development produces software deployed into client environments, frequently with the developer holding repository access, deployment credentials, and production access. Compromised development environments allow malicious code to reach production through a trusted path.",
-      "loss_scenario": "Compromised code delivered to clients makes the developer the origin of every downstream incident, with liability across the client base and contractual indemnities that were written assuming defects rather than compromise.",
-      "rhetorical_question": "Do you hold deployment or production access to client systems?"
+      "headline": "You write code that runs inside client systems.",
+      "points": [
+        "Custom software is deployed into client production environments.",
+        "Compromised code reaches every client who deploys it.",
+        "You are the trusted source they do not inspect."
+      ],
+      "rhetorical_question": "How is your code protected between development and client deployment?"
     },
     {
       "rank": 2,
-      "headline": "You hold client credentials and connection details to do the work.",
-      "why_this_business": "Development against client systems requires database credentials, API keys, and access to test data that is frequently a copy of production. Those secrets accumulate in repositories, configuration files, and developer machines.",
-      "loss_scenario": "Client production systems compromised through credentials held by the developer, with the client's data breach attributed to your environment and their regulatory obligations flowing back to you.",
-      "rhetorical_question": "Where are client credentials and API keys stored on your systems?"
+      "headline": "You hold client credentials and system access.",
+      "points": [
+        "Development and deployment require access to client environments.",
+        "Those credentials reach production systems and data.",
+        "Your access becomes the attacker's access."
+      ],
+      "rhetorical_question": "How many client environments do you hold credentials for?"
     },
     {
       "rank": 3,
-      "headline": "Client source code and business logic is proprietary.",
-      "why_this_business": "Custom software encodes how a client's business actually operates, including pricing logic, algorithms, and process rules. That is frequently the client's competitive advantage and is held by the developer in full.",
-      "loss_scenario": "Disclosure of client source code hands competitors the client's operating logic, and unlike most losses the disclosure cannot be undone by restoring anything.",
-      "rhetorical_question": "How many clients' source code repositories do you hold?"
+      "headline": "Source code is the client's asset and yours.",
+      "points": [
+        "Code repositories hold client intellectual property and your own.",
+        "Theft transfers the product to a competitor.",
+        "Disclosure also reveals every vulnerability in it."
+      ],
+      "rhetorical_question": "Where is your source code stored, and who can access it?"
     }
   ]
 }

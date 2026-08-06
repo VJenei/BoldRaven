@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Unlimited wash memberships are recurring billing at scale.",
-      "why_this_business": "Car washes operate monthly membership programmes billed automatically to stored payment methods, with vehicle recognition at the gate linking the plate to the account. Membership bases run into thousands per site.",
-      "loss_scenario": "Compromise of stored payment credentials across the membership base, with card brand assessments and a cancellation wave that removes the recurring revenue the site was financed against.",
-      "rhetorical_question": "How many members have payment methods stored for monthly billing?"
+      "headline": "Equipment controls run the tunnel automatically.",
+      "points": [
+        "Conveyors, brushes, and chemical dosing run on automated controls.",
+        "Vehicles are in the tunnel with people and equipment moving.",
+        "A control failure damages vehicles or injures someone."
+      ],
+      "rhetorical_question": "How are your tunnel and equipment controls operated?"
     },
     {
       "rank": 2,
-      "headline": "Tunnel controls and equipment are automated and can damage vehicles.",
-      "why_this_business": "Conveyor tunnels run automated equipment sequenced against vehicle position and profile, with sensors preventing contact with mirrors, spoilers, and open windows. Control errors cause vehicle damage at speed.",
-      "loss_scenario": "Vehicle damage across multiple customers before the fault is identified, with claims for repair and, in a tunnel, potential injury exposure if a vehicle is occupied.",
-      "rhetorical_question": "How is your tunnel control system monitored and who can change its settings?"
+      "headline": "Unlimited wash plans hold recurring payment data.",
+      "points": [
+        "Membership plans carry customer contact and payment card details.",
+        "Recurring billing runs automatically month after month.",
+        "Every affected member must be notified."
+      ],
+      "rhetorical_question": "How many membership accounts with payment details do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Licence plate recognition creates a vehicle movement record.",
-      "why_this_business": "Membership systems read licence plates at entry to identify accounts, building a record of which vehicles visited which sites and when. That data links plates to identified account holders and their locations over time.",
-      "loss_scenario": "Exposure of plate recognition data creates a vehicle movement history for identified individuals, which is a surveillance-grade dataset customers did not expect a car wash to hold.",
-      "rhetorical_question": "How long do you retain licence plate recognition records?"
+      "headline": "Card payments run continuously at unattended terminals.",
+      "points": [
+        "Payment terminals process cards, often with no staff present.",
+        "Card security requirements apply to every terminal.",
+        "Unattended terminals are targeted with skimming devices."
+      ],
+      "rhetorical_question": "How are your payment terminals secured and inspected?"
     }
   ]
 }

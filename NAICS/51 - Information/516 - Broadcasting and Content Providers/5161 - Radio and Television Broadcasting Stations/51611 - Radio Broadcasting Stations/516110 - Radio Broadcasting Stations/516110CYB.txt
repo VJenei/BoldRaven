@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The Emergency Alert System runs through your equipment.",
-      "why_this_business": "Broadcast stations operate EAS encoder and decoder equipment that receives and retransmits emergency alerts, connected to the internet for CAP message polling. The FCC requires participation, and false or manipulated alerts have been transmitted through compromised station equipment in documented incidents.",
-      "loss_scenario": "Transmission of a false emergency alert causes public panic and draws FCC enforcement, and the station is the identified source regardless of how the message originated.",
-      "rhetorical_question": "How is your EAS equipment secured and how are its default credentials managed?"
+      "headline": "Dead air is the only failure listeners notice.",
+      "points": [
+        "Automation systems run programming, advertising, and playback continuously.",
+        "Stations run largely unattended outside main dayparts.",
+        "Silence on air loses listeners and breaches advertising contracts."
+      ],
+      "rhetorical_question": "How is your programming and advertising playback automated?"
     },
     {
       "rank": 2,
-      "headline": "Automation systems keep the station on air with almost no staff.",
-      "why_this_business": "Modern radio runs on automation playing logged content, commercials, and voice tracking from a networked system, frequently across multiple stations from a central hub. Stations operate unattended for much of the day.",
-      "loss_scenario": "Dead air or wrong content on multiple stations simultaneously, with make-goods owed to advertisers for spots that did not run and FCC obligations around required programming and logging.",
-      "rhetorical_question": "How many hours a day does your station run on automation without a person in the building?"
+      "headline": "Emergency alerting runs through your equipment.",
+      "points": [
+        "Stations are required to carry emergency alert messages.",
+        "Equipment is tested and monitored by federal requirement.",
+        "Failure or false activation are both federal violations."
+      ],
+      "rhetorical_question": "How is your emergency alert equipment monitored and tested?"
     },
     {
       "rank": 3,
-      "headline": "Traffic and billing systems are how advertising revenue is captured.",
-      "why_this_business": "Commercial scheduling, affidavit of performance, and billing run through traffic systems that log what aired and when. Advertisers and agencies pay against those affidavits and audit them.",
-      "loss_scenario": "Unbillable airtime and inability to produce affidavits of performance, which for agency business means the invoice is simply not paid.",
-      "rhetorical_question": "How do you prove to an advertiser that their spot actually aired?"
+      "headline": "Advertising logs are the billing record.",
+      "points": [
+        "Spots aired are logged automatically and billed from those logs.",
+        "Advertisers reconcile against them.",
+        "Spots you cannot prove ran are spots you cannot bill."
+      ],
+      "rhetorical_question": "How are your advertising logs recorded and reconciled?"
     }
   ]
 }

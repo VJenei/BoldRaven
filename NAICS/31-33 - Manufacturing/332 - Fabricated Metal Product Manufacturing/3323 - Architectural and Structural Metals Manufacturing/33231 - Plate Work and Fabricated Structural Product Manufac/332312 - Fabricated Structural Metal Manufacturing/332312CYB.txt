@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Structural steel is fabricated from models that drive automated equipment.",
-      "why_this_business": "Detailing produces shop drawings and CNC files from the structural model, driving beam lines and plate processors. Steel is cut, coped, and drilled to exact dimension and cannot be uncut.",
-      "loss_scenario": "Members fabricated to wrong or superseded models, scrapped at material and shop cost, with steel on the critical path and every trade behind it delayed.",
+      "headline": "Steel is cut from models and cannot be uncut.",
+      "points": [
+        "Detailing produces CNC files that drive beam lines and plate processors.",
+        "Members fabricated to a superseded model do not fit.",
+        "Steel is on the critical path and every trade waits behind it."
+      ],
       "rhetorical_question": "How are model versions controlled between detailing and your fabrication equipment?"
     },
     {
       "rank": 2,
       "headline": "Welding procedures and welder qualification are code requirements.",
-      "why_this_business": "Structural welding follows qualified procedures with qualified welders, documented and available for inspection. Certification programmes audit fabricators against those requirements as a condition of code-approved fabrication.",
-      "loss_scenario": "Fabrication that cannot be shown to follow qualified procedures by qualified welders, which inspectors will not accept, requiring testing or replacement of installed steel.",
+      "points": [
+        "Structural welding follows qualified procedures by qualified welders.",
+        "Certification programmes audit those records as a condition of code fabrication.",
+        "Welds that cannot be documented must be tested or replaced."
+      ],
       "rhetorical_question": "How are welding procedure specifications and welder qualifications maintained?"
     },
     {
       "rank": 3,
       "headline": "Material traceability supports every certification.",
-      "why_this_business": "Structural steel carries mill test reports tying material to heat chemistry and properties, with traceability from receipt through fabrication to erected member required by specification and inspection.",
-      "loss_scenario": "Fabricated steel that cannot be traced to certified material, which on public and institutional projects requires testing of installed steel or its replacement.",
+      "points": [
+        "Mill test reports tie material to heat chemistry and properties.",
+        "Traceability from receipt through fabrication is required by specification.",
+        "Steel that cannot be traced must be tested in place or replaced."
+      ],
       "rhetorical_question": "How do you maintain material traceability from receipt through fabrication?"
     }
   ]

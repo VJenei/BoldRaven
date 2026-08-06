@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Footwear is sold in size runs and broken assortments are unsellable.",
-      "why_this_business": "Footwear inventory is managed by style, colour, and size curve, with retailers ordering complete runs. Partial size availability makes an order commercially useless. Allocation across accounts during a shortage is a system-driven decision.",
-      "loss_scenario": "Loss of size-level inventory visibility means orders shipped incomplete and returned, or allocation decisions that leave key accounts unable to sell.",
-      "rhetorical_question": "How do you manage inventory at the size and colour level across your accounts?"
+      "headline": "Retail floor set dates cannot move.",
+      "points": [
+        "Product must arrive for a specific retail floor set.",
+        "Delivery windows are fixed and enforced by chargeback.",
+        "Late product misses the season and sells at markdown."
+      ],
+      "rhetorical_question": "How are your deliveries scheduled against customer floor set dates?"
     },
     {
       "rank": 2,
-      "headline": "Retail customers impose vendor compliance requirements with automatic penalties.",
-      "why_this_business": "Footwear ships to retailers under routing guides specifying carton labelling, packing, advance ship notices, and delivery windows, with chargebacks applied automatically for deviation. Drop-ship and marketplace channels require order and tracking data within hours.",
-      "loss_scenario": "Chargebacks that can reach several percent of invoice value, plus scorecard damage leading to reduced orders in the following season.",
-      "rhetorical_question": "What percentage of your invoice value is lost to vendor compliance chargebacks?"
+      "headline": "Safety footwear carries certified protective ratings.",
+      "points": [
+        "Protective toe and hazard ratings are established by testing.",
+        "Employers buy on those ratings for hazardous work.",
+        "Uncertified footwear fails during the injury it should prevent."
+      ],
+      "rhetorical_question": "How do you verify certification for the safety footwear you distribute?"
     },
     {
       "rank": 3,
-      "headline": "Brand and counterfeit control depends on distribution records.",
-      "why_this_business": "Branded footwear is heavily counterfeited and diverted, with brand owners policing authorised channels. Distribution records demonstrate goods went to authorised retailers, and are the evidence in an unauthorised distribution dispute.",
-      "loss_scenario": "Loss of a brand distribution agreement over unprovable channel compliance, removing the product lines the business is built on.",
-      "rhetorical_question": "Do your brand agreements restrict which channels you may sell into?"
+      "headline": "Import payments settle by transfer to overseas factories.",
+      "points": [
+        "Imported footwear is paid for by transfer against supplier instructions.",
+        "Banking instructions arrive and are changed by email.",
+        "A diverted payment is a container of goods lost."
+      ],
+      "rhetorical_question": "How are changes to supplier banking details verified before payment?"
     }
   ]
 }

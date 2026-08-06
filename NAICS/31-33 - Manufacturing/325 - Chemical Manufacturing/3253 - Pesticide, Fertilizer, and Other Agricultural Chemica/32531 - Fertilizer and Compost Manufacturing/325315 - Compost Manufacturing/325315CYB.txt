@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pathogen reduction depends on documented process control.",
-      "why_this_business": "Composting achieves pathogen reduction through time and temperature, with process to further reduce pathogens requirements documented where biosolids are involved. Temperature records demonstrate the process was achieved.",
-      "loss_scenario": "Product distributed without documented pathogen reduction, which for biosolids-derived compost is a regulatory violation and for any compost creates a contamination risk in food-growing applications.",
-      "rhetorical_question": "How are windrow temperatures recorded to demonstrate pathogen reduction?"
+      "headline": "Pathogen reduction depends on recorded temperature.",
+      "points": [
+        "Compost must reach and hold specific temperatures to destroy pathogens.",
+        "Temperature monitoring and turning records document that process.",
+        "Under-processed compost carries pathogens into food crops."
+      ],
+      "rhetorical_question": "How are your compost temperature and turning records recorded?"
     },
     {
       "rank": 2,
-      "headline": "Feedstock contamination reaches gardens and farms.",
-      "why_this_business": "Compost is applied to food-growing soils, and contaminants in feedstock including persistent herbicides and PFAS carry through the process into the finished product. Herbicide carryover has destroyed vegetable crops for compost users.",
-      "loss_scenario": "Contaminated compost sold to growers and gardeners, with crop losses across every customer who applied it and claims that reach far beyond the value of the product.",
-      "rhetorical_question": "How do you screen incoming feedstock for persistent herbicides and contaminants?"
+      "headline": "Feedstock contamination follows into the finished product.",
+      "points": [
+        "Incoming material can carry persistent herbicides, plastics, and contaminants.",
+        "Feedstock records and testing establish what went in.",
+        "Contaminated compost damages every crop it is applied to."
+      ],
+      "rhetorical_question": "What feedstock records and testing do you maintain?"
     },
     {
       "rank": 3,
-      "headline": "Odour and runoff are permit conditions with community consequences.",
-      "why_this_business": "Composting operations manage odour, leachate, and stormwater under permits, with monitoring required. Odour complaints are the most persistent source of pressure on composting facilities and threaten operating permits.",
-      "loss_scenario": "Odour and runoff events generating complaints, enforcement, and community pressure that in this sector has repeatedly closed facilities regardless of their technical compliance.",
-      "rhetorical_question": "What odour and leachate monitoring does your permit require?"
+      "headline": "Permits require monitoring and reporting.",
+      "points": [
+        "Facility permits require odour, runoff, and operational monitoring with records.",
+        "Regulators and neighbours both act on those records.",
+        "Violations carry penalties and can suspend operations."
+      ],
+      "rhetorical_question": "What monitoring and reporting does your facility permit require?"
     }
   ]
 }

@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Stampings are structural components determining crash performance.",
-      "why_this_business": "Body structure stampings absorb and direct crash energy, with material grade, forming, and dimensional accuracy determining structural behaviour. Substituted material or forming defects change crash performance.",
-      "loss_scenario": "Stampings of wrong material grade in body structures, with crash performance below design, discovered after vehicles are in service and requiring assessment of every vehicle from the affected production.",
+      "headline": "Body stampings determine crash performance.",
+      "points": [
+        "Structure stampings absorb and direct crash energy.",
+        "Material grade and forming determine that behaviour.",
+        "Wrong grade means crash performance below design in vehicles already sold."
+      ],
       "rhetorical_question": "How is steel grade traceability maintained from coil through to shipped stampings?"
     },
     {
       "rank": 2,
-      "headline": "Press lines and dies produce parts at high rate with dedicated tooling.",
-      "why_this_business": "Stamping runs on transfer and progressive dies specific to each part, at high rate, with die and press systems driving the process. Dies exist only at the plant that runs them.",
-      "loss_scenario": "Press systems unavailable or dies damaged, with production stopped and no alternative source, because no other plant holds the tooling for the customer's parts.",
+      "headline": "Dies exist only at the plant that runs them.",
+      "points": [
+        "Transfer and progressive dies are specific to each part.",
+        "There is no alternative source without the tooling.",
+        "Press system failure or die damage stops that part entirely."
+      ],
       "rhetorical_question": "How many customer parts are stamped with tooling that exists only at your plant?"
     },
     {
       "rank": 3,
-      "headline": "Assembly plants run with hours of stamping inventory.",
-      "why_this_business": "Body stampings are shipped to assembly on a schedule with limited inventory. Large stampings cannot be stockpiled economically because of their size.",
-      "loss_scenario": "Assembly plants stopped for want of stampings, with line-down charges per hour and, for body structure parts, no possibility of substitution.",
+      "headline": "Assembly plants cannot stockpile large stampings.",
+      "points": [
+        "Body stampings ship on schedule with limited inventory.",
+        "Their size makes stockpiling uneconomic.",
+        "For structure parts there is no possible substitution."
+      ],
       "rhetorical_question": "How many hours of stamping inventory do your customers hold?"
     }
   ]

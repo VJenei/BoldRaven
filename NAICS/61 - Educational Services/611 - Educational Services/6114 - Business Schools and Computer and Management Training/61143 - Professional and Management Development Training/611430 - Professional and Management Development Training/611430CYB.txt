@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Client training content and participant data are confidential.",
-      "why_this_business": "Providers deliver training built around client-specific material including strategy, processes, and internal case studies, and hold participant lists, assessment results, and development feedback about named employees.",
-      "loss_scenario": "Disclosure of client internal material and individual employee assessments, with the client bearing employee relations consequences and holding the provider responsible under the engagement terms.",
-      "rhetorical_question": "Do you hold individual assessment or feedback data about client employees?"
+      "headline": "Corporate clients enrol employees and share data.",
+      "points": [
+        "Client employee lists, roles, and assessment results are held per engagement.",
+        "That data covers individuals at the client.",
+        "The client's obligations follow the data to you."
+      ],
+      "rhetorical_question": "What client employee data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Delivery platforms carry the entire programme.",
-      "why_this_business": "Training is delivered through learning platforms, virtual classrooms, and content libraries, with cohorts scheduled around client business calendars. Programmes are frequently tied to client events, onboarding cycles, or compliance deadlines.",
-      "loss_scenario": "Cancelled sessions with cohorts assembled and client executives' time committed, and compliance training deadlines missed where the training was required by regulation.",
-      "rhetorical_question": "Are any of your programmes tied to client compliance deadlines?"
+      "headline": "Sessions are scheduled and attendees travel.",
+      "points": [
+        "Training is booked for fixed dates with attendees travelling to attend.",
+        "Venues and instructors are committed.",
+        "A cancelled session wastes everyone's travel and time."
+      ],
+      "rhetorical_question": "How are your sessions, venues, and attendee bookings recorded?"
     },
     {
       "rank": 3,
-      "headline": "Proprietary methodology and content is the product.",
-      "why_this_business": "Training firms develop proprietary frameworks, materials, and assessment instruments over years, licensed rather than sold and protected by copyright and confidentiality. Content is distributed to participants and facilitators.",
-      "loss_scenario": "Exfiltration of proprietary content allows competitors to replicate the programme, and once distributed there is no way to withdraw it from circulation.",
-      "rhetorical_question": "How is your proprietary training content protected when distributed to participants?"
+      "headline": "Course content is your product.",
+      "points": [
+        "Curriculum, materials, and assessments represent the development investment.",
+        "Content that leaks is content competitors can deliver.",
+        "Assessment integrity also depends on it staying private."
+      ],
+      "rhetorical_question": "Where is your course content and assessment material stored?"
     }
   ]
 }

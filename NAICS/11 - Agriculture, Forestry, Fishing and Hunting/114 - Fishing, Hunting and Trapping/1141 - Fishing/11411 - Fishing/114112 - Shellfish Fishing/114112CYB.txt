@@ -1,7 +1,6 @@
 {
   "naics_code": "114112",
   "naics_title": "Shellfish Fishing",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Crustaceans and molluscan shellfish are both on the FDA Food Traceability List.",
-      "why_this_business": "Both are covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours. Molluscan harvest is additionally governed by NSSP tagging with 90 day record retention for Vibrio and norovirus traceback.",
-      "loss_scenario": "A traceback failure results in closure of a harvest area, which applies to every harvester working that ground until it is resolved.",
-      "rhetorical_question": "How do you record harvest area and date for each container landed?"
+      "headline": "Harvest area closures decide whether you can fish at all.",
+      "points": [
+        "State authorities close growing and harvest areas after rainfall or contamination.",
+        "Closures are issued electronically and can change within a day.",
+        "Shellfish taken from a closed area cannot be sold and is a health risk."
+      ],
+      "rhetorical_question": "How do you receive and record harvest area closures?"
     },
     {
       "rank": 2,
-      "headline": "Quota in rationalized fisheries is a digital asset worth more than the vessel.",
-      "why_this_business": "Crab rationalization, scallop and clam ITQ programs, and similar catch share systems hold quota as electronic entries in federal accounts, transferred and leased online. In many of these fisheries the quota is worth more than the vessel.",
-      "loss_scenario": "Account compromise, fraudulent transfer, or loss of access during a short opening. Quota holdings commonly range from several hundred thousand to several million dollars.",
-      "rhetorical_question": "What is the value of your quota compared to the value of your vessel?"
+      "headline": "Tags must trace every lot back to area and date.",
+      "points": [
+        "Harvest tags record area, date, and harvester for each container.",
+        "Illness investigations trace back through those tags.",
+        "Untraceable product recalls everything landed in the period."
+      ],
+      "rhetorical_question": "How are your harvest tags recorded and retained?"
     },
     {
       "rank": 3,
-      "headline": "Openings and closures are issued electronically with little notice.",
-      "why_this_business": "Shellfish areas open and close based on biotoxin monitoring, rainfall, and management decisions communicated by state and federal authorities through electronic notice, sometimes with only hours of warning. Fishing a closed area or period is a violation regardless of whether the notice was received.",
-      "loss_scenario": "Citations, product seizure, license suspension, and recall of product already sold.",
-      "rhetorical_question": "How do you receive notice of openings and closures?"
+      "headline": "Catch reporting and quota use are reported electronically.",
+      "points": [
+        "Trip reports and landings are submitted through regulator systems.",
+        "Vessel monitoring reports position continuously.",
+        "Failure to report can suspend the permit that lets you fish."
+      ],
+      "rhetorical_question": "How do you submit electronic trip reports and landings?"
     }
   ]
 }

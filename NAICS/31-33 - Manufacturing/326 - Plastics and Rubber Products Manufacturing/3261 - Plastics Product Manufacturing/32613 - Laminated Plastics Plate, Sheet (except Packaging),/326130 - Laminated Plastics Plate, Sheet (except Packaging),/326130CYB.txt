@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Laminate performance depends on press cycle control.",
-      "why_this_business": "Laminates are produced by pressing resin-impregnated layers under heat and pressure, with cycle parameters determining bond, dimensional stability, and electrical or mechanical properties. Electrical laminates in particular have tight property requirements.",
-      "loss_scenario": "Laminate outside specification fabricated into products, with electrical laminates failing dielectric requirements and structural laminates delaminating in service.",
-      "rhetorical_question": "How are press cycle parameters recorded for each production lot?"
+      "headline": "Press parameters determine whether the laminate holds together.",
+      "points": [
+        "Press time, temperature, and pressure determine bond quality.",
+        "Parameters are recorded as evidence of conformance.",
+        "Delamination appears after the product is installed or in use."
+      ],
+      "rhetorical_question": "How are your press parameters recorded against production?"
     },
     {
       "rank": 2,
-      "headline": "Products serve electrical and structural applications with certification.",
-      "why_this_business": "Laminates are used in electrical insulation, circuit boards, and structural applications with flammability, dielectric, and mechanical certifications relied on by customers and required by safety standards.",
-      "loss_scenario": "Material failing certification incorporated into electrical products, with fire and shock exposure where insulation performance was relied upon and recall reaching finished equipment.",
-      "rhetorical_question": "Which safety certifications do your laminates carry?"
+      "headline": "Products carry fire and performance ratings.",
+      "points": [
+        "Laminates used in building and transport carry flammability and performance ratings.",
+        "Testing records support those ratings.",
+        "Uncertified material must be removed from finished products."
+      ],
+      "rhetorical_question": "What flammability and performance certifications do your products carry?"
     },
     {
       "rank": 3,
-      "headline": "Resin systems and layup schedules are proprietary.",
-      "why_this_business": "Manufacturers develop resin systems and construction schedules delivering specific properties, frequently in collaboration with customers for particular applications. Those formulations are the technical asset.",
-      "loss_scenario": "Formulation and construction disclosure to competitors, and loss of the ability to reproduce customer-qualified materials, stopping supply to applications that were built around them.",
-      "rhetorical_question": "How are your resin systems and construction schedules protected?"
+      "headline": "Colour and pattern must match across an installation.",
+      "points": [
+        "Laminate patterns vary between production runs.",
+        "Lot records reserve matching material for a project.",
+        "Mismatched laminate across a visible installation is a defect."
+      ],
+      "rhetorical_question": "How are your production lots recorded and reserved for projects?"
     }
   ]
 }

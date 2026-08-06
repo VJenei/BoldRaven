@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Unreleased music leaks and cannot be unreleased.",
-      "why_this_business": "Artists and groups hold unreleased recordings, works in progress, and demos across their own devices, collaborators, producers, and management. Release campaigns are built around a coordinated date and leaked material circulates permanently.",
-      "loss_scenario": "A leaked release forfeits first-week performance that drives chart position and playlist placement, which determines the commercial trajectory of the record for its whole life.",
-      "rhetorical_question": "How many people currently hold copies of your unreleased material?"
+      "headline": "Unreleased recordings leak and destroy releases.",
+      "points": [
+        "Recordings exist before release with dates announced and marketing committed.",
+        "A leak makes the release worthless.",
+        "The whole campaign is wasted."
+      ],
+      "rhetorical_question": "What unreleased recordings do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Touring involves advance ticketing and settlement across many venues.",
-      "why_this_business": "Tours are routed and contracted months ahead with guarantees, settlements, and ticketing across venues and promoters. Settlement after each show involves box office reconciliation and payment, arranged by email between parties who deal infrequently.",
-      "loss_scenario": "Diverted show settlements, which for a headline act can be six figures per night, and cancelled dates with venue, crew, and travel costs already committed.",
-      "rhetorical_question": "How are show settlement payments arranged and verified with promoters?"
+      "headline": "Tour dates commit venues and crews.",
+      "points": [
+        "Tour routing, venues, and crews are booked months ahead.",
+        "Ticket sales and travel are committed to those dates.",
+        "A cancelled show is refunded and cannot be rescheduled cheaply."
+      ],
+      "rhetorical_question": "How are your tour dates and venue bookings recorded?"
     },
     {
       "rank": 3,
-      "headline": "Fan data and personal information are both targets.",
-      "why_this_business": "Artists hold fan mailing lists, fan club membership with payment data, and their own personal communications and location schedules. Public figures attract targeted attacks aimed at personal material rather than money.",
-      "loss_scenario": "Exposure of personal communications and images, which for public figures is pursued specifically for publication, plus fan payment data compromise across a membership base.",
-      "rhetorical_question": "Are personal and business communications separated across your devices and accounts?"
+      "headline": "Royalty and rights records determine every payment.",
+      "points": [
+        "Ownership, splits, and licensing determine what is owed and to whom.",
+        "Payments come from many sources over years.",
+        "Wrong records mean money that never arrives."
+      ],
+      "rhetorical_question": "Where are your rights, splits, and royalty records held?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Disaster response depends on systems working during the disaster.",
-      "why_this_business": "Relief organisations mobilise shelters, distribution, and case management during events that have already disrupted infrastructure. Volunteer coordination, client registration, and resource tracking run on systems that must function when everything else does not.",
-      "loss_scenario": "Inability to register clients, deploy volunteers, or track resources during an active disaster, when the organisation's entire purpose is to function under those conditions and public expectation is absolute.",
-      "rhetorical_question": "Would your systems be available during the kind of event you exist to respond to?"
+      "headline": "Disasters do not wait for your systems.",
+      "points": [
+        "Relief is delivered when a disaster happens, not on a schedule.",
+        "Case management, distribution, and assistance run on connected systems.",
+        "A systems failure during a disaster leaves people without help."
+      ],
+      "rhetorical_question": "How does your case and distribution system handle disaster volume surges?"
     },
     {
       "rank": 2,
-      "headline": "Client registration collects identity data from people in crisis.",
-      "why_this_business": "Disaster case management records client identity, household composition, damage assessments, financial need, and assistance provided, frequently coordinated with FEMA and other agencies. Clients register while displaced and distressed.",
-      "loss_scenario": "Exposure of disaster client data enables fraud against people who have already lost their homes, which is a documented pattern after major disasters and causes harm to a population with no capacity to absorb it.",
-      "rhetorical_question": "What identity and financial information do you collect from disaster clients?"
+      "headline": "Client records carry crisis circumstances.",
+      "points": [
+        "Records document losses, needs, income, and household composition.",
+        "Clients disclose that information in crisis.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client assistance and household records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Donations are collected online at volume during events.",
-      "why_this_business": "Relief organisations receive large donation volumes during disasters through online platforms, holding donor payment and contact data. Fraudulent charities impersonating legitimate organisations proliferate during the same events.",
-      "loss_scenario": "Donor payment data exposed, and donors defrauded by parties impersonating your organisation, with the reputational consequence falling on you and donations diverted from response.",
-      "rhetorical_question": "How would a donor verify that a solicitation is genuinely from your organisation?"
+      "headline": "Funding compliance depends on records.",
+      "points": [
+        "Programme and grant funding carries reporting and documentation requirements.",
+        "Funders audit those records directly.",
+        "Records you cannot produce put future funding at risk."
+      ],
+      "rhetorical_question": "What eligibility and reporting records does your funding require?"
     }
   ]
 }

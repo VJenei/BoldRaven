@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A cruise ship is a floating hotel, hospital, and payment network.",
-      "why_this_business": "Cruise operations hold passenger identity and passport data, onboard payment accounts linked to cards, medical records from the ship's clinic, and complete itinerary and cabin data for thousands of passengers per sailing. Everything onboard is charged to a folio account.",
-      "loss_scenario": "Breach notification across passengers from many jurisdictions, including passport data and medical records, with the medical component engaging health privacy obligations separately.",
-      "rhetorical_question": "How many passenger records with passport and medical data are held per sailing?"
+      "headline": "You hold passenger identity and payment data at scale.",
+      "points": [
+        "Bookings carry names, passport details, payment cards, and medical information.",
+        "Onboard accounts hold spending records for every passenger.",
+        "Every affected passenger must be notified."
+      ],
+      "rhetorical_question": "How many passenger records with passport or payment details do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Coast Guard cybersecurity rules apply to US-flagged vessels and regulated facilities.",
-      "why_this_business": "The Coast Guard cybersecurity rule effective July 16, 2025 requires immediate reporting of reportable cyber incidents to the National Response Center, personnel training by January 12, 2026, and a Cybersecurity Officer, assessment, and approved plan by July 16, 2027.",
-      "loss_scenario": "Coast Guard enforcement and Captain of the Port restrictions, which for a cruise operation means cancelled sailings with full passenger refunds and rebooking.",
-      "rhetorical_question": "Which of your vessels and terminals fall under the Coast Guard cybersecurity rule?"
+      "headline": "Vessel systems run everything passengers depend on.",
+      "points": [
+        "Navigation, propulsion, power, water, and safety systems are networked.",
+        "Thousands of people are aboard with nowhere to go.",
+        "A systems failure at sea is a life safety event."
+      ],
+      "rhetorical_question": "What vessel systems are connected to shore networks?"
     },
     {
       "rank": 3,
-      "headline": "Safety and security systems onboard protect thousands of people at sea.",
-      "why_this_business": "Vessels operate integrated fire detection, watertight door control, access control, muster and passenger accounting systems that are essential during an emergency. Passenger accounting determines who is aboard and who is accounted for in a muster.",
-      "loss_scenario": "A safety system failure during an emergency at sea, where there is no external help within reach and passenger accounting determines the search and rescue response.",
-      "rhetorical_question": "How is your passenger muster and accounting system protected?"
+      "headline": "Federal maritime cybersecurity rules apply to your vessels.",
+      "points": [
+        "Coast Guard rules impose cybersecurity requirements on regulated vessels.",
+        "Account, device, and plan requirements phase in on set dates.",
+        "Findings can restrict vessel operations."
+      ],
+      "rhetorical_question": "What maritime cybersecurity requirements apply to your vessels?"
     }
   ]
 }

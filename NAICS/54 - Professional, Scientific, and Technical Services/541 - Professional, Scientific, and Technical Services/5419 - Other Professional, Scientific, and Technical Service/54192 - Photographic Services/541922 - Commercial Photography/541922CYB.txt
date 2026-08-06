@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Client product and campaign imagery is unreleased material.",
-      "why_this_business": "Commercial photographers shoot products, facilities, and campaigns ahead of launch, holding images of unreleased products and confidential locations. Clients impose confidentiality terms and sometimes device restrictions on set.",
-      "loss_scenario": "Leaked images of unreleased products forfeit the launch and, in consumer electronics and automotive, are pursued aggressively by clients whose product announcements are carefully staged.",
-      "rhetorical_question": "Do you hold images of unreleased client products?"
+      "headline": "Client images exist before campaigns launch.",
+      "points": [
+        "Product and campaign imagery is shot before release.",
+        "Those images reveal the product and the campaign.",
+        "A leak destroys the launch and breaches your agreements."
+      ],
+      "rhetorical_question": "Do you hold imagery for client products not yet released?"
     },
     {
       "rank": 2,
-      "headline": "Licensing terms define what the client may do with the images.",
-      "why_this_business": "Commercial photography is licensed rather than sold, with usage limited by medium, territory, and duration, and additional fees for extended use. Licence records and delivery documentation define the terms and support enforcement.",
-      "loss_scenario": "Lost licence records make unauthorised use impossible to identify or pursue, and disputes over permitted usage resolve against the photographer who cannot produce the terms.",
-      "rhetorical_question": "How do you track usage licence terms and expiry for images you have delivered?"
+      "headline": "Shoots cost enormous sums and happen once.",
+      "points": [
+        "Crew, talent, locations, and product are assembled for a shoot day.",
+        "Images exist only as files afterwards.",
+        "Reshooting means recreating the entire production."
+      ],
+      "rhetorical_question": "What does a shoot day cost, and could it be repeated?"
     },
     {
       "rank": 3,
-      "headline": "Shoots are expensive, scheduled, and unrepeatable in practice.",
-      "why_this_business": "Commercial shoots involve models, locations, sets, and crew booked for specific dates at substantial cost. Reshooting requires reassembling everything and is frequently impossible within the client's timeline.",
-      "loss_scenario": "Loss of shoot files requiring a reshoot at full production cost, or a client campaign delayed past its launch date, with the loss measured against the production budget rather than the photography fee.",
-      "rhetorical_question": "What does a typical production day cost on your commercial shoots?"
+      "headline": "Delivery is tied to campaign and print dates.",
+      "points": [
+        "Images are due against campaign launches and print bookings.",
+        "Media and press time are booked around those dates.",
+        "A missed date wastes the booked media."
+      ],
+      "rhetorical_question": "What campaign and print dates depend on your delivery?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Steel castings serve heavy and safety-critical applications.",
-      "why_this_business": "Steel castings are used in rail, mining, energy, and heavy equipment where loads are high and failure is consequential. Rail castings in particular are subject to industry standards with failure causing derailments.",
-      "loss_scenario": "Castings below specification failing in rail or heavy equipment service, with derailment or equipment failure causing injuries and traceability determining which castings must be located and replaced.",
-      "rhetorical_question": "Do your castings serve rail, mining, or energy applications where failure causes injury?"
+      "headline": "Castings carry load in equipment and structures.",
+      "points": [
+        "Steel castings are used in machinery, rail, and structural applications.",
+        "Chemistry, heat treatment, and testing determine capacity.",
+        "A defective casting fails under load in service."
+      ],
+      "rhetorical_question": "How are your chemistry, heat treatment, and test records linked to castings?"
     },
     {
       "rank": 2,
-      "headline": "Molten steel operations are extremely hazardous.",
-      "why_this_business": "Steel foundries melt at higher temperature than iron with larger pours, handling molten metal in ladles and cranes over the pouring floor. Moisture and equipment failures produce explosions and molten metal releases.",
-      "loss_scenario": "A molten steel incident with multiple fatalities and destruction of the pouring area, investigated against handling procedures and equipment inspection records.",
-      "rhetorical_question": "How are ladles and pouring equipment inspected and those inspections recorded?"
+      "headline": "Molten steel and moisture cause violent explosions.",
+      "points": [
+        "Molten steel is poured into moulds that must be dry.",
+        "Moisture in a mould or ladle causes an eruption.",
+        "Foundry explosions have killed and severely burned workers."
+      ],
+      "rhetorical_question": "What controls ensure moulds and ladles are dry before pouring?"
     },
     {
       "rank": 3,
-      "headline": "Heat treatment and testing determine final properties.",
-      "why_this_business": "Steel castings are heat treated to develop properties with mechanical testing and non-destructive examination verifying conformance. Heat treatment parameters and test results are the certification basis.",
-      "loss_scenario": "Castings shipped without proper heat treatment or verification, which is a latent defect appearing as failure under load with no way to detect it in service.",
-      "rhetorical_question": "How are heat treatment cycles and test results recorded per casting lot?"
+      "headline": "Patterns and process data are customer specific.",
+      "points": [
+        "Patterns and moulding parameters exist for each customer part.",
+        "Customers design their equipment around those castings.",
+        "No other foundry can pour without the pattern."
+      ],
+      "rhetorical_question": "How many customer patterns exist only at your foundry?"
     }
   ]
 }

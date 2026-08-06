@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Brokers sit in the email chain where closing wire fraud is executed.",
-      "why_this_business": "Loan brokers coordinate between borrower, lender, title, and settlement agent, with documents and instructions flowing through their mailbox. Attackers compromise the broker's email specifically because it is the hub of the transaction and the broker is trusted by every other party.",
-      "loss_scenario": "A borrower's closing funds diverted, with the broker identified as the compromised party and sued by the borrower, the lender, and the title company together.",
-      "rhetorical_question": "Does your email carry closing instructions between borrowers, lenders, and title companies?"
+      "headline": "You collect the borrower's entire financial life.",
+      "points": [
+        "Applications carry social security numbers, income, tax returns, and bank statements.",
+        "Federal safeguards rules require a written security programme.",
+        "Every applicant must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many loan applications with borrower financial data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "You collect complete borrower documentation and often keep it.",
-      "why_this_business": "Brokers gather Social Security numbers, tax returns, bank statements, and identity documents to submit applications to multiple lenders. That documentation is frequently retained in the broker's own systems long after the loan closes or is declined.",
-      "loss_scenario": "Breach notification and FTC Safeguards Rule enforcement, since brokers are financial institutions under GLBA and have been covered by the amended rule since June 9, 2023.",
-      "rhetorical_question": "How long do you retain borrower documentation for applications that never closed?"
+      "headline": "Closing wire fraud targets your borrowers through you.",
+      "points": [
+        "Fraudsters intercept communications and send fake wiring instructions.",
+        "Borrowers trust instructions that appear to come from you.",
+        "A diverted wire takes the borrower's entire down payment."
+      ],
+      "rhetorical_question": "How do you communicate wiring instructions to borrowers?"
     },
     {
       "rank": 3,
-      "headline": "Lender portal access is granted to a small office with limited controls.",
-      "why_this_business": "Brokers hold credentials to multiple lender origination portals containing borrower data and pricing. Small brokerages often share credentials, lack multi-factor authentication, and have no formal offboarding when staff leave.",
-      "loss_scenario": "Compromised broker credentials used to submit fraudulent applications or extract borrower data from lender systems, with the lender treating the broker as the source and terminating the relationship.",
-      "rhetorical_question": "How many lender portals do your staff hold credentials for, and is MFA enabled on each?"
+      "headline": "Lender submissions run through connected systems.",
+      "points": [
+        "Applications and documents are submitted to lenders electronically.",
+        "Rate locks and closing dates are committed against those submissions.",
+        "A systems failure means missed locks and missed closings."
+      ],
+      "rhetorical_question": "How are your applications and documents submitted to lenders?"
     }
   ]
 }

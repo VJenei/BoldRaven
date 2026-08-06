@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The point of sale system is the business and there is usually only one.",
-      "why_this_business": "Specialty retailers run pricing, inventory, customer accounts, and payment through a single platform, typically with no IT function and often without a verified backup. The system prices every item in the store and no staff member can reproduce it.",
-      "loss_scenario": "The store cannot transact at all, and for an owner-operated retailer with thin working capital, an extended closure is a solvency event rather than a disruption.",
-      "rhetorical_question": "When did you last test that your point of sale backup actually restores?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Card acceptance carries contractual liability regardless of size.",
-      "why_this_business": "Every card-accepting merchant is bound by PCI DSS through the merchant agreement, fully mandatory in version 4.0 since March 31, 2025, including new requirements around e-commerce payment page scripts. There is no small merchant exemption from the contractual liability.",
-      "loss_scenario": "Card brand assessments, forensic investigation, and reissuance costs assigned to the retailer by the merchant agreement, at amounts a small business cannot absorb.",
-      "rhetorical_question": "Have you read who pays for a forensic investigation in your merchant agreement?"
+      "headline": "Product recalls reach through your records.",
+      "points": [
+        "Consumer product recalls identify specific lots and models.",
+        "Your receiving and sales records determine what you have.",
+        "Recalled product stays on shelves while systems are down."
+      ],
+      "rhetorical_question": "How do you receive recall notices and identify affected stock?"
     },
     {
       "rank": 3,
-      "headline": "Customer data accumulates for years without anyone deciding to keep it.",
-      "why_this_business": "Specialty retailers accumulate customer contact details, purchase histories, special orders, and stored payment methods over many years, usually with no retention policy and no decision ever made to delete. The oldest data is the least protected and the most forgotten.",
-      "loss_scenario": "Notification obligations covering customers from many years ago who no longer shop with you, expanding the cost and the reputational reach of a breach far beyond your active customer base.",
-      "rhetorical_question": "How many years of customer records are sitting in your system right now?"
+      "headline": "Inventory and reordering run automatically.",
+      "points": [
+        "Stock levels, pricing, and reordering run through your systems.",
+        "Items turn at very different rates.",
+        "Without the system shelves empty and nothing reorders."
+      ],
+      "rhetorical_question": "How is your inventory tracked and reordered?"
     }
   ]
 }

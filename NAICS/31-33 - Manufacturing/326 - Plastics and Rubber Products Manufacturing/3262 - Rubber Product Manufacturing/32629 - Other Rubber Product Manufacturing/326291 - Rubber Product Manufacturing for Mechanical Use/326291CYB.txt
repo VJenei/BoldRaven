@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seals and gaskets prevent releases in critical service.",
-      "why_this_business": "Mechanical rubber goods seal pressure vessels, engines, and process equipment, with failure producing leaks of hydraulic fluid, fuel, or process chemicals. Aerospace and automotive applications carry qualification requirements.",
-      "loss_scenario": "Seal failures causing releases and equipment damage, and in aerospace or automotive applications, recalls reaching finished vehicles and aircraft with traceability determining the scope.",
-      "rhetorical_question": "Are your products qualified into aerospace or automotive applications?"
+      "headline": "Seals prevent releases in pressurised systems.",
+      "points": [
+        "Seals and gaskets contain fluids under pressure and temperature.",
+        "Compound and dimension determine whether the seal holds.",
+        "A seal failure releases process fluid or hydraulic pressure."
+      ],
+      "rhetorical_question": "What services and pressures are your seals rated for?"
     },
     {
       "rank": 2,
-      "headline": "Moulding and cure parameters are qualified per part.",
-      "why_this_business": "Parts are moulded and cured to qualified process parameters with material lot traceability required by customer quality systems. Automotive and aerospace customers require production part approval and change control.",
-      "loss_scenario": "Loss of qualified process parameters requiring requalification with every customer, and material traceability failures that prevent narrowing a quality problem to affected lots.",
-      "rhetorical_question": "How many customer-qualified process parameters are held in your systems?"
+      "headline": "Compound selection must match the fluid and temperature.",
+      "points": [
+        "Wrong compound degrades rapidly in contact with the wrong fluid.",
+        "Compounds look identical and cannot be told apart visually.",
+        "Failure occurs in service after installation."
+      ],
+      "rhetorical_question": "How is compound traceability maintained from material to shipped product?"
     },
     {
       "rank": 3,
-      "headline": "Customer assembly stops without your components.",
-      "why_this_business": "Mechanical rubber parts are components in customer assemblies with dedicated tooling and no alternative source. Assembly lines run to schedule with limited component inventory.",
-      "loss_scenario": "Customer assembly lines stopped, with automotive line-down charges that are contractual and substantial, applied per hour of stoppage regardless of the component's value.",
-      "rhetorical_question": "What are your customers' line-down charges per hour?"
+      "headline": "Parts are moulded to customer tooling.",
+      "points": [
+        "Moulds are customer specific and exist only at your plant.",
+        "Customers design their products around that exact part.",
+        "No other plant can supply without transferring tooling."
+      ],
+      "rhetorical_question": "How many customer moulds exist only at your plant?"
     }
   ]
 }

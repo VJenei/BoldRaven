@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Flammability standards govern products used in public occupancies.",
-      "why_this_business": "Curtains and drapery for hotels, healthcare, and public buildings must meet flammability standards with certification required by specifiers and fire officials. Bedding products are subject to federal flammability standards with testing and recordkeeping.",
-      "loss_scenario": "Product installed in a public occupancy that cannot be certified, requiring removal, and in a fire the absence of certification records is decisive in the liability analysis.",
-      "rhetorical_question": "What flammability certifications do your products carry, and where are the supporting records?"
+      "headline": "Institutional textiles carry flammability requirements.",
+      "points": [
+        "Curtains and linens for hospitality and healthcare carry flammability ratings.",
+        "Fire marshals verify those ratings during inspection.",
+        "Uncertified textiles must be removed from the building."
+      ],
+      "rhetorical_question": "What flammability certifications do your institutional products carry?"
     },
     {
       "rank": 2,
-      "headline": "Contract customers order to project specifications and dates.",
-      "why_this_business": "Hospitality and healthcare contract work is made to specification for a specific property, with quantities, sizes, and fabrics tied to a renovation or opening date that is publicly committed.",
-      "loss_scenario": "Missed delivery to a hotel opening or healthcare renovation, where the property cannot open without window coverings and the delay cost is measured against the property's revenue.",
-      "rhetorical_question": "How many contract projects are you supplying against fixed opening dates?"
+      "headline": "Product is made to order for specific rooms and programs.",
+      "points": [
+        "Sizes, colours, and quantities are made for a specific property or program.",
+        "Hospitality renovations are scheduled to opening dates.",
+        "Wrong or late product delays a property reopening."
+      ],
+      "rhetorical_question": "How are your customer specifications and delivery dates recorded?"
     },
     {
       "rank": 3,
-      "headline": "Made to measure production has no stock alternative.",
-      "why_this_business": "Products are cut and sewn to specific dimensions for individual openings and beds, from customer-specified fabrics. Nothing is interchangeable and errors require remaking from material that may be on long lead time.",
-      "loss_scenario": "Product made to wrong dimensions or in wrong fabric, requiring remake with material lead times and a project date that does not move.",
-      "rhetorical_question": "How are dimensions and fabric selections recorded against each project order?"
+      "headline": "Retail supply runs on vendor systems with delivery windows.",
+      "points": [
+        "Orders, labels, and delivery requirements come through retailer systems.",
+        "Chargebacks apply when requirements are missed.",
+        "Losing shelf space at a reset removes a year of volume."
+      ],
+      "rhetorical_question": "What share of your volume goes to your largest retail customers?"
     }
   ]
 }

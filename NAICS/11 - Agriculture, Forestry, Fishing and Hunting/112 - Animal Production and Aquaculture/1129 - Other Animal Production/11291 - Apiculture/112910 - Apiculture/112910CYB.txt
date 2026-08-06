@@ -1,7 +1,6 @@
 {
   "naics_code": "112910",
   "naics_title": "Apiculture",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pollination contracts are negotiated remotely and paid in large single payments.",
-      "why_this_business": "Commercial beekeepers move colonies to California for almond pollination under contracts negotiated by email. Placement, frame count inspection, and payment are coordinated remotely with growers and brokers, often on an annual basis. Pollination fees run $180 to $250 per hive.",
-      "loss_scenario": "A diverted pollination settlement of $200,000 to $800,000 for a mid-size operation, received in the payment window that funds the year.",
-      "rhetorical_question": "How many payments per year make up the majority of your revenue?"
+      "headline": "Pollination contracts have to be delivered on exact dates.",
+      "points": [
+        "Hives are moved to orchards on dates set by bloom, not by convenience.",
+        "Placement, contracts, and hive counts are tracked and invoiced electronically.",
+        "A missed bloom window earns nothing and cannot be rescheduled."
+      ],
+      "rhetorical_question": "How are your pollination contracts and hive placements scheduled?"
     },
     {
       "rank": 2,
-      "headline": "Hive location data is stored in monitoring apps and hive theft is common.",
-      "why_this_business": "Hive theft during almond bloom is an established problem in California, with thousands of colonies stolen annually. Beekeepers use GPS trackers and hive monitoring platforms, which store yard coordinates, placement locations, and hive counts.",
-      "loss_scenario": "Theft of hundreds of colonies at $200 to $400 each in bees and equipment, plus the unfilled pollination contract and lost honey production.",
-      "rhetorical_question": "Do you use GPS tracking or a hive monitoring app that stores yard locations?"
+      "headline": "Colonies need monitoring and treatment on a schedule.",
+      "points": [
+        "Mite treatments, feeding, and inspections run to a calendar per yard.",
+        "Records track treatment dates and honey withdrawal periods.",
+        "Missed treatments collapse colonies over the following months."
+      ],
+      "rhetorical_question": "How do you record hive treatments and honey withdrawal periods?"
     },
     {
       "rank": 3,
-      "headline": "Treatment and origin records support honey sales and certification.",
-      "why_this_business": "Varroa treatment records, antibiotic use, and residue documentation are required because honey is subject to adulteration testing and import fraud enforcement. Buyers require traceability and country of origin documentation. Organic and specialty certification requires auditable records.",
-      "loss_scenario": "Loss of certification or inability to substantiate origin claims, plus residue exposure if treatment records cannot be produced.",
-      "rhetorical_question": "How do you document hive treatments and honey lot origin?"
+      "headline": "Honey buyers pay by transfer and require origin records.",
+      "points": [
+        "Honey is sold in drums and paid by electronic transfer.",
+        "Buyers require origin and testing records to verify authenticity.",
+        "Honey without documented origin is refused by major buyers."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from honey buyers by email?"
     }
   ]
 }

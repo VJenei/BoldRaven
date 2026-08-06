@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Process recipes and tool designs are the most valuable data in the industry.",
-      "why_this_business": "Semiconductor equipment designs and process recipes represent enormous development investment and are targeted by state-sponsored actors because they determine chipmaking capability. Export controls restrict who may receive the technology.",
-      "loss_scenario": "Theft of tool designs and process technology by a state-linked actor, which is a permanent loss of technological advantage and, if transferred to a restricted party, an export control violation.",
+      "headline": "Tool designs and recipes are targeted by state actors.",
+      "points": [
+        "Equipment designs and process recipes determine chipmaking capability.",
+        "State-linked actors target this technology specifically.",
+        "Once copied the technological advantage is permanently gone."
+      ],
       "rhetorical_question": "How is access to tool design and process recipe data controlled and logged?"
     },
     {
       "rank": 2,
-      "headline": "Export controls on semiconductor equipment are strict and enforced.",
-      "why_this_business": "Advanced semiconductor manufacturing equipment, parts, and technology are subject to specific export controls, with restrictions on destinations and end users and licence requirements for technology transfer including remote access by foreign persons.",
-      "loss_scenario": "Controlled technology reaching a restricted party, which is an export violation with penalties, denial of export privileges, and criminal exposure for the individuals involved.",
+      "headline": "Export controls on this equipment are strict and enforced.",
+      "points": [
+        "Advanced equipment, parts, and technology are restricted by destination and end user.",
+        "Remote access by a foreign person is a technology transfer.",
+        "Violations carry penalties, loss of export privileges, and criminal exposure."
+      ],
       "rhetorical_question": "How do you control which persons and locations can access controlled technical data?"
     },
     {
       "rank": 3,
-      "headline": "Tools are connected to fabs and supported remotely.",
-      "why_this_business": "Installed tools connect to fab host systems and are supported remotely by the manufacturer, with software updates and diagnostics delivered over that link into some of the most tightly controlled manufacturing environments in the world.",
-      "loss_scenario": "Compromise of the support channel giving access into customer fabs, where a tool disturbance ruins wafer lots worth millions and the fab treats the equipment vendor as the source.",
+      "headline": "Installed tools are supported remotely inside customer fabs.",
+      "points": [
+        "Tools connect to fab hosts and receive updates and diagnostics from you.",
+        "Fabs are among the most tightly controlled environments anywhere.",
+        "A tool disturbance ruins wafer lots worth millions."
+      ],
       "rhetorical_question": "What remote access do you retain to tools installed at customer fabs?"
     }
   ]

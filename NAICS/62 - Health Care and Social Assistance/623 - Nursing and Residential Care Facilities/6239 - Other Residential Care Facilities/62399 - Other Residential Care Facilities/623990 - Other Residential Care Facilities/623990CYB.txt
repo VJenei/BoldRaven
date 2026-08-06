@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Residents are dependent and frequently unable to protect themselves.",
-      "why_this_business": "Facilities in this category house residents requiring supervision and support, holding personal, medical, financial, and in many cases guardianship or court-related documentation. Residents commonly cannot detect or report misuse of their information.",
-      "loss_scenario": "Exploitation of a dependent resident population using data from your systems, with regulatory and advocacy attention treating resident vulnerability as central to the assessment.",
-      "rhetorical_question": "How many residents could recognise and report misuse of their own information?"
+      "headline": "Residents depend on the facility entirely.",
+      "points": [
+        "Residents rely on staff for care, medication, and daily living.",
+        "Many cannot advocate for themselves.",
+        "A systems failure affects people with no alternative."
+      ],
+      "rhetorical_question": "How many residents depend entirely on your facility?"
     },
     {
       "rank": 2,
-      "headline": "Care plans direct daily support and safety.",
-      "why_this_business": "Residents receive care according to individual plans covering medication, dietary needs, behavioural supports, and medical protocols. Staff rely on those plans to deliver care safely, particularly with turnover and agency staffing.",
-      "loss_scenario": "Care delivered without plans, causing medication errors, dietary incidents, and behavioural crises, with licensing findings and liability for resulting harm.",
-      "rhetorical_question": "How would agency staff know a resident's care requirements without the plan?"
+      "headline": "Care and medication records run electronically.",
+      "points": [
+        "Care plans and medication administration records live in systems.",
+        "Staff deliver care from those records.",
+        "Care delivered without them risks harm."
+      ],
+      "rhetorical_question": "How are care plans and medication administration recorded?"
     },
     {
       "rank": 3,
-      "headline": "Licensing and funding depend on maintained documentation.",
-      "why_this_business": "Facilities operate under state licensing and frequently under Medicaid or other public funding, with assessment, service delivery, incident, and staffing documentation required and inspected.",
-      "loss_scenario": "Licensing action and funding recoupment where required documentation cannot be produced, with public funding being the source of most revenue.",
-      "rhetorical_question": "What documentation does your licensing authority require you to maintain?"
+      "headline": "Resident records are protected and personal.",
+      "points": [
+        "Records carry clinical, behavioural, and family information.",
+        "Privacy obligations apply to much of it.",
+        "Every affected resident and family must be notified."
+      ],
+      "rhetorical_question": "How many resident records do you hold?"
     }
   ]
 }

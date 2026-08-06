@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Can integrity determines whether food inside stays safe.",
-      "why_this_business": "Food cans are the barrier preserving thermally processed food, with double seam integrity being the critical control. Seam defects allow microbial ingress after retort, which for low acid foods means botulism risk.",
-      "loss_scenario": "Cans with defective seams packed with low acid food, permitting contamination after processing, with a botulism recall and fatality exposure traced to the can rather than the food processor.",
+      "headline": "The seam is what keeps food safe after processing.",
+      "points": [
+        "Double seam integrity is the critical control on food cans.",
+        "Seam defects let microbes in after the retort.",
+        "For low acid foods that means botulism."
+      ],
       "rhetorical_question": "How are seam inspection and teardown results recorded against production?"
     },
     {
       "rank": 2,
-      "headline": "Can lines run at extraordinary speed adjacent to fillers.",
-      "why_this_business": "Can production runs at well over a thousand cans per minute, frequently supplying fillers directly with minimal buffer. Filling lines run at matching speed and stop without cans.",
-      "loss_scenario": "Filling lines stopped for want of cans, with beverage and food production halted and product in process at the filler lost, plus your own line producing nothing at very high fixed cost.",
+      "headline": "Can lines feed fillers directly with no buffer.",
+      "points": [
+        "Lines produce well over a thousand cans per minute.",
+        "Fillers run at matching speed and stop without cans.",
+        "Product in process at the filler is lost when supply stops."
+      ],
       "rhetorical_question": "How many cans per minute does your line produce, and what depends on that supply?"
     },
     {
       "rank": 3,
       "headline": "Internal coatings carry food contact compliance requirements.",
-      "why_this_business": "Can interiors are coated to prevent metal contact with food, with coating chemistry subject to food contact requirements and BPA-based epoxies subject to increasing restriction and customer specification.",
-      "loss_scenario": "Non-compliant or damaged coating allowing metal migration or corrosion, with recall of packed product and customers who committed publicly to specific coating chemistries holding you responsible.",
+      "points": [
+        "Coatings prevent metal contact with food and are subject to contact requirements.",
+        "Coating chemistry is under increasing customer and regulatory restriction.",
+        "Non-compliant coating recalls the packed product."
+      ],
       "rhetorical_question": "How do you document internal coating compliance and integrity?"
     }
   ]

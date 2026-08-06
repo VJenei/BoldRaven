@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Contract customers order through their own procurement systems.",
-      "why_this_business": "Office supply distribution runs on contract pricing with corporate, government, and institutional accounts ordering through punchout catalogues integrated into their purchasing systems. Item data, contract pricing, and availability flow automatically into the customer's environment.",
-      "loss_scenario": "Disconnection from customer procurement platforms stops ordering entirely, and contract customers have alternate suppliers already loaded in the same system.",
-      "rhetorical_question": "How many customers order through catalogues integrated with their own purchasing systems?"
+      "headline": "Back to school is most of the year in three months.",
+      "points": [
+        "Volume concentrates into a narrow seasonal window.",
+        "Retail delivery windows are fixed and enforced by chargeback.",
+        "Volume missed then has no other market."
+      ],
+      "rhetorical_question": "What share of your volume ships between June and September?"
     },
     {
       "rank": 2,
-      "headline": "Next day delivery is the whole service proposition.",
-      "why_this_business": "Office products distribution promises next day delivery on thousands of SKUs from regional distribution centres, with orders cut off in the evening and picked overnight. The value over a retail alternative is availability and speed.",
-      "loss_scenario": "Missed next day commitments across the customer base, on a service promise that is the only reason customers use a distributor rather than buying retail.",
-      "rhetorical_question": "What is your order cut-off time and delivery commitment?"
+      "headline": "Contract customers order automatically against agreements.",
+      "points": [
+        "Business and institutional customers order through electronic catalogues.",
+        "Pricing and contract terms are held in your systems.",
+        "Orders stop entirely when that system does."
+      ],
+      "rhetorical_question": "How do your contract customers place orders with you?"
     },
     {
       "rank": 3,
-      "headline": "Government contract pricing is auditable and confidential.",
-      "why_this_business": "Distributors holding government schedule or cooperative contracts must maintain pricing compliance, report sales, and in some cases certify pricing against commercial rates. Those contracts and their pricing terms are commercially sensitive.",
-      "loss_scenario": "Contract non-compliance findings and repayment obligations, plus exposure of pricing structures that undermines every negotiation you are currently in.",
-      "rhetorical_question": "Do you hold government or cooperative purchasing contracts with reporting obligations?"
+      "headline": "Children's products carry testing requirements.",
+      "points": [
+        "School and art supplies for children require testing and certification.",
+        "Retailers require that documentation before accepting goods.",
+        "Uncertified product cannot lawfully be sold onward."
+      ],
+      "rhetorical_question": "How do you verify and retain children's product certificates from suppliers?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Fuel dispensers are the most persistently attacked payment terminals in retail.",
-      "why_this_business": "Card skimmers installed inside dispensers capture data continuously and are difficult to detect from outside the pump. The liability shift for automated fuel dispensers moved counterfeit fraud liability to merchants who had not upgraded to EMV, and unattended terminals remain a primary target because nobody is watching them.",
-      "loss_scenario": "Fraud liability on every counterfeit transaction traced to your site, plus card brand assessments and forensic costs. A single compromised dispenser can expose thousands of cards before discovery.",
-      "rhetorical_question": "How often are your dispensers physically inspected for skimming devices?"
+      "headline": "Pumps are the most attacked payment terminal there is.",
+      "points": [
+        "Unattended fuel dispensers are targeted with internal and wireless skimmers.",
+        "Card security requirements apply to every dispenser and register.",
+        "Skimming campaigns run across whole chains before detection."
+      ],
+      "rhetorical_question": "How are your dispensers inspected and secured against skimming devices?"
     },
     {
       "rank": 2,
-      "headline": "Tank gauges have been repeatedly found exposed on the public internet.",
-      "why_this_business": "Automatic tank gauges monitor fuel levels and detect leaks, and are connected for remote monitoring by the operator and the fuel supplier. Security researchers have repeatedly identified thousands of internet-exposed tank gauges across US fuel retail with little or no authentication.",
-      "loss_scenario": "Manipulated level or alarm data can mask a leak, which becomes a reportable release with soil and groundwater remediation running into hundreds of thousands, or cause an overfill during delivery.",
-      "rhetorical_question": "Is your tank gauge system reachable remotely, and by whom?"
+      "headline": "Fuel systems are monitored for leaks automatically.",
+      "points": [
+        "Tank monitoring and leak detection run continuously under regulation.",
+        "Records must be retained and produced to regulators.",
+        "An undetected leak contaminates soil and groundwater."
+      ],
+      "rhetorical_question": "How is your tank monitoring and leak detection recorded and alarmed?"
     },
     {
       "rank": 3,
-      "headline": "Age-restricted sales are tested by deliberate compliance checks.",
-      "why_this_business": "Tobacco, nicotine, and in many states alcohol sales require verified age at the register, with electronic identification scanning creating the record. FDA and state agencies conduct undercover buys and act on failures.",
-      "loss_scenario": "Licence suspension removes the categories that drive traffic and margin, and repeated failures put the fuel and lottery licences at risk in the same action.",
-      "rhetorical_question": "Does your point of sale scan and log identification for age-restricted sales?"
+      "headline": "Age restricted sales carry verification obligations.",
+      "points": [
+        "Tobacco, alcohol, and other restricted sales require verification and records.",
+        "Compliance checks are conducted by regulators.",
+        "Violations affect the licences that let you sell."
+      ],
+      "rhetorical_question": "How is age verification performed and recorded at your registers?"
     }
   ]
 }

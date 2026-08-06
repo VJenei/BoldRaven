@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Seals are what prevent releases in hazardous service.",
-      "why_this_business": "Gaskets and seals contain pressure and hazardous fluids in refineries, chemical plants, and pipelines. A gasket failure releases the process fluid, and in flammable or toxic service the consequence extends far beyond the joint.",
-      "loss_scenario": "Gasket failures in hazardous service releasing flammable or toxic material, with fire, injury, or community exposure, and the material and manufacturing records examined.",
+      "points": [
+        "Gaskets contain pressure and hazardous fluids in refineries and plants.",
+        "A gasket failure releases the process fluid.",
+        "In flammable or toxic service that reaches far beyond the joint."
+      ],
       "rhetorical_question": "What services and pressures are your sealing products rated for?"
     },
     {
       "rank": 2,
-      "headline": "Material specification determines chemical and temperature compatibility.",
-      "why_this_business": "Seal performance depends on the correct elastomer or sheet material for the fluid, temperature, and pressure. The wrong compound degrades rapidly and fails in service, and materials look similar.",
-      "loss_scenario": "Wrong compound supplied against a specification, degrading in service and releasing process fluid, with every joint sealed from the affected production requiring replacement during an outage.",
+      "headline": "The wrong compound looks identical to the right one.",
+      "points": [
+        "Performance depends on the correct material for fluid, temperature, and pressure.",
+        "Wrong compounds degrade rapidly and fail in service.",
+        "Every joint sealed from the affected production must be replaced."
+      ],
       "rhetorical_question": "How is material compound traceability maintained from receipt to shipped product?"
     },
     {
       "rank": 3,
-      "headline": "Products are cut and made to order for specific joints.",
-      "why_this_business": "Gaskets are cut to dimensions for specific flanges and equipment, frequently from customer drawings, with cutting programmes and patterns held for repeat orders during plant outages.",
-      "loss_scenario": "Cutting patterns and customer specifications lost during a plant outage, with the customer unable to obtain the gaskets needed to close the plant back up and outage costs accumulating daily.",
+      "headline": "Patterns are held for outage replacement orders.",
+      "points": [
+        "Gaskets are cut to dimensions for specific flanges from customer drawings.",
+        "Patterns are held for repeat orders during plant outages.",
+        "Without them the plant cannot be closed back up."
+      ],
       "rhetorical_question": "How many customer-specific gasket patterns are held on your systems?"
     }
   ]

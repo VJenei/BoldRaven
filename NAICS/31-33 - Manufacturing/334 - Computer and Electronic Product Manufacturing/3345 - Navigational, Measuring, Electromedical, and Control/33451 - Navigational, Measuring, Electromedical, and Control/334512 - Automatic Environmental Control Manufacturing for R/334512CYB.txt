@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Thermostats and controls are connected devices in homes and buildings.",
-      "why_this_business": "Environmental controls now connect to home and building networks and to manufacturer cloud platforms, with mobile applications, occupancy data, and remote control. Occupancy patterns reveal when a building is empty.",
-      "loss_scenario": "Compromise of the control platform giving access to occupancy data and remote control across an installed base, with privacy exposure and buildings left in unsafe temperature conditions.",
+      "headline": "Thermostats are connected devices that know when you are out.",
+      "points": [
+        "Controls connect to home and building networks and to your cloud platform.",
+        "Occupancy patterns reveal exactly when a building is empty.",
+        "That data plus remote control is a burglary tool."
+      ],
       "rhetorical_question": "What data do your connected controls send to platforms you operate?"
     },
     {
       "rank": 2,
-      "headline": "Controls prevent equipment operating in unsafe conditions.",
-      "why_this_business": "Environmental and appliance controls include limit functions preventing overheating and unsafe operation, with safety agency listings depending on those functions performing as designed.",
-      "loss_scenario": "A control or firmware defect defeating a limit function, with equipment overheating and causing fires, and recall across every product containing the control.",
+      "headline": "Controls prevent equipment from operating unsafely.",
+      "points": [
+        "Limit functions stop overheating and unsafe operation in the host equipment.",
+        "Safety listings depend on those functions performing.",
+        "A defeated limit means the equipment overheats and ignites."
+      ],
       "rhetorical_question": "Do your controls perform safety limit functions in the equipment they are fitted to?"
     },
     {
       "rank": 3,
-      "headline": "Controls are embedded in other manufacturers' products.",
-      "why_this_business": "Controls are supplied to appliance and equipment manufacturers who build them into their products. A defect in the control becomes a recall of every finished product containing it.",
-      "loss_scenario": "A control defect requiring recall of appliances and equipment across many manufacturers, with the recall cost driven by the finished products rather than the control.",
+      "headline": "Your controls are embedded in other manufacturers' products.",
+      "points": [
+        "Appliance and equipment makers build your controls into their products.",
+        "A control defect becomes a recall of every finished product containing it.",
+        "The recall cost is their appliance, not your control."
+      ],
       "rhetorical_question": "How many finished product models contain your controls?"
     }
   ]

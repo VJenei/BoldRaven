@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Title IV participation makes student aid data a regulated asset.",
-      "why_this_business": "Schools participating in federal student aid hold applications, tax information, Social Security numbers, and disbursement records, protected under the program participation agreement and the FTC Safeguards Rule. Suspected breaches involving student aid data must be reported to the Department of Education.",
-      "loss_scenario": "Program participation consequences and enforcement alongside the breach, with loss of Title IV eligibility being existential for institutions whose students depend on federal aid.",
-      "rhetorical_question": "Do you participate in Title IV, and do you have a written security programme covering that data?"
+      "headline": "Student records and financial data are protected.",
+      "points": [
+        "Records carry identity, financial aid, and academic information.",
+        "Student privacy and aid programme rules both apply.",
+        "Every affected student must be notified."
+      ],
+      "rhetorical_question": "How many student records with identity and financial data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Enrolment and placement records support regulatory claims.",
-      "why_this_business": "Career-focused schools are subject to state authorisation, accreditation, and federal requirements around completion and placement reporting. Those figures are audited and are the basis of both marketing claims and continued eligibility.",
-      "loss_scenario": "Inability to substantiate completion and placement figures during audit, which for proprietary institutions has repeatedly resulted in enforcement action and loss of eligibility.",
-      "rhetorical_question": "How do you substantiate the placement rates you publish?"
+      "headline": "Financial aid handling carries federal requirements.",
+      "points": [
+        "Institutions handling federal student aid must meet safeguards requirements.",
+        "Compliance is a condition of participating in aid programmes.",
+        "Losing eligibility removes the funding students depend on."
+      ],
+      "rhetorical_question": "What federal safeguards requirements apply to your financial aid systems?"
     },
     {
       "rank": 3,
-      "headline": "Instruction and assessment run on the learning platform.",
-      "why_this_business": "Course delivery, assessment, and attendance tracking run through learning management systems, with attendance directly affecting aid eligibility and completion. Online delivery makes the platform the classroom.",
-      "loss_scenario": "Instruction halted with cohorts unable to progress, attendance records unavailable for aid purposes, and refund obligations to students whose programmes were interrupted.",
-      "rhetorical_question": "How is attendance recorded, and what does it affect for your students' aid?"
+      "headline": "Instruction runs on connected systems.",
+      "points": [
+        "Enrolment, learning platforms, and records run electronically.",
+        "Programmes have fixed start and completion dates.",
+        "Lost instructional time cannot be recovered within the programme."
+      ],
+      "rhetorical_question": "What happens to instruction if your systems are unavailable?"
     }
   ]
 }

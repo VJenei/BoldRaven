@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Species and habitat location data is used against conservation.",
-      "why_this_business": "Conservation agencies hold precise location data for endangered species, sensitive habitats, and archaeological sites gathered through survey and monitoring. That data is directly useful to poachers, collectors, and looters.",
-      "loss_scenario": "Poaching, collection, or looting at locations disclosed from agency data, which for critically endangered populations and archaeological sites is an irreversible loss.",
-      "rhetorical_question": "Do your systems hold precise locations of endangered species or archaeological sites?"
+      "headline": "Species and habitat data can direct poachers.",
+      "points": [
+        "Location data for protected species is held in your systems.",
+        "That data tells someone exactly where to find them.",
+        "Disclosure has led to poaching of protected species."
+      ],
+      "rhetorical_question": "What species and habitat location data do your systems hold?"
     },
     {
       "rank": 2,
-      "headline": "Licensing and permit systems serve large public populations.",
-      "why_this_business": "Agencies issue hunting, fishing, and recreational licences to large populations through online systems holding identity, payment, and in some cases firearms-related information, with seasonal demand peaks.",
-      "loss_scenario": "Licensing unavailable at the opening of a season, with substantial revenue lost and public frustration, plus exposure of licence holder data across a large population.",
-      "rhetorical_question": "How many licences do you issue in your peak season week?"
+      "headline": "Permit and enforcement records support prosecutions.",
+      "points": [
+        "Permits, inspections, and violation records support enforcement action.",
+        "Those records are evidence in prosecutions.",
+        "Records you cannot produce lose enforcement cases."
+      ],
+      "rhetorical_question": "How are your permit and enforcement records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Landowner agreements and easements are long-term legal instruments.",
-      "why_this_business": "Conservation programmes hold easements, cost-share agreements, and management plans with private landowners running for decades, with obligations, payments, and monitoring requirements attached.",
-      "loss_scenario": "Agreements and monitoring records that cannot be produced, leaving obligations unenforceable and landowner payment and compliance histories unreconstructable across long-term commitments.",
-      "rhetorical_question": "How many decades do your conservation easements and agreements run for?"
+      "headline": "Programme payments reach landowners and participants.",
+      "points": [
+        "Conservation programme payments are calculated and disbursed through your systems.",
+        "Participants plan operations around that funding.",
+        "A payment failure affects farming and land management decisions."
+      ],
+      "rhetorical_question": "What programme payments depend on your systems?"
     }
   ]
 }

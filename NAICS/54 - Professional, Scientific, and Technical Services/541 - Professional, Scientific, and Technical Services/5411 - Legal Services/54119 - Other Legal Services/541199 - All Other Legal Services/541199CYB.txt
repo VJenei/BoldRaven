@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Legal support providers hold privileged material.",
-      "why_this_business": "eDiscovery vendors, legal process outsourcers, and litigation support providers receive client documents, privileged communications, and case strategy under confidentiality and protective orders issued by courts. Protective orders impose obligations directly on the parties handling the data.",
-      "loss_scenario": "Disclosure of privileged and protected material, with potential waiver of privilege, sanctions for violating a protective order, and liability to the law firm and its client for the consequences in the underlying case.",
-      "rhetorical_question": "Are you subject to protective orders governing how you handle case material?"
+      "headline": "Client information is confidential by professional obligation.",
+      "points": [
+        "Legal service providers hold client matter information in confidence.",
+        "Disclosure damages the client's legal position directly.",
+        "Clients and their counsel will pursue you for it."
+      ],
+      "rhetorical_question": "What client matter information do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Case data volumes are enormous and concentrated.",
-      "why_this_business": "eDiscovery and document review handle full document populations from litigants, including email archives, financial records, and personal data of employees and third parties who are not parties to the case at all.",
-      "loss_scenario": "A breach exposes complete corporate document populations, affecting the litigant and every individual whose data appeared in the collection, with notification obligations flowing through the client.",
-      "rhetorical_question": "How many gigabytes of client case material are held on your systems at present?"
+      "headline": "Deadlines in legal matters are hard.",
+      "points": [
+        "Filings, responses, and service deadlines are set by rule and statute.",
+        "Those deadlines do not move for a systems outage.",
+        "A missed deadline can lose the matter entirely."
+      ],
+      "rhetorical_question": "What filing and service deadlines are you managing?"
     },
     {
       "rank": 3,
-      "headline": "Court deadlines govern every deliverable.",
-      "why_this_business": "Production deadlines, hearing dates, and trial schedules are set by courts and cannot be extended unilaterally. Legal support work is scheduled backward from those dates with no slack near trial.",
-      "loss_scenario": "Missed production deadlines exposing the client to sanctions or adverse inference, with the resulting damages claimed against the provider whose delay caused it.",
-      "rhetorical_question": "What court-ordered deadlines depend on your deliverables?"
+      "headline": "Payments and disbursements move on instruction.",
+      "points": [
+        "Client funds and disbursements move electronically.",
+        "Fraudulent instructions divert client money permanently.",
+        "Clients hold you responsible for the loss."
+      ],
+      "rhetorical_question": "How are payment instructions verified before funds move?"
     }
   ]
 }

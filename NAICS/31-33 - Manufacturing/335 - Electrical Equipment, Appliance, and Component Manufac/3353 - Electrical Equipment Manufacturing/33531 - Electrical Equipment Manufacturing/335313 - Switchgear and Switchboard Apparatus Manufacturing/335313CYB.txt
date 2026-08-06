@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Switchgear failure produces arc flash that kills workers.",
-      "why_this_business": "Switchgear interrupts fault currents and isolates circuits. Failure to interrupt or an internal fault produces an arc flash releasing enormous energy, and workers standing in front of the equipment are killed or severely burned.",
-      "loss_scenario": "Switchgear failing to interrupt a fault or faulting internally, with an arc flash causing fatal burns, and the manufacturer's design, testing, and build records examined in the investigation.",
+      "headline": "Switchgear failure produces arc flash that kills.",
+      "points": [
+        "Switchgear interrupts fault currents and isolates circuits.",
+        "Failure to interrupt releases enormous energy as an arc flash.",
+        "Workers standing in front of the equipment are killed or severely burned."
+      ],
       "rhetorical_question": "What short circuit ratings does your equipment carry, and how are they verified?"
     },
     {
       "rank": 2,
-      "headline": "Ratings depend on tested designs built exactly as tested.",
-      "why_this_business": "Switchgear carries short circuit and withstand ratings established by destructive testing of a specific configuration. Substituted components or altered construction invalidate the rating that engineers relied on when specifying the equipment.",
-      "loss_scenario": "Equipment built outside its tested configuration installed in facilities where the rating was relied on for coordination and arc flash studies, requiring replacement of installed gear.",
+      "headline": "Ratings only hold if the build matches the tested design.",
+      "points": [
+        "Ratings are established by destructive testing of a specific configuration.",
+        "Substituted components invalidate the rating.",
+        "Engineers relied on that rating for coordination and arc flash studies."
+      ],
       "rhetorical_question": "How are tested configurations controlled through your build process?"
     },
     {
       "rank": 3,
-      "headline": "Protective relaying and controls are digital and connected.",
-      "why_this_business": "Modern switchgear includes digital protective relays and controls with communications for monitoring and settings, connecting into utility and facility networks. Relay settings determine whether protection operates.",
-      "loss_scenario": "Compromise or corruption of relay settings across installed equipment, with protection failing to operate on a fault, producing equipment destruction and arc flash exposure.",
+      "headline": "Protective relays are digital and connected.",
+      "points": [
+        "Modern switchgear includes digital relays with communications and settings.",
+        "Relay settings determine whether protection operates at all.",
+        "Corrupted settings mean protection fails on a fault."
+      ],
       "rhetorical_question": "How are protective relay settings distributed and verified?"
     }
   ]

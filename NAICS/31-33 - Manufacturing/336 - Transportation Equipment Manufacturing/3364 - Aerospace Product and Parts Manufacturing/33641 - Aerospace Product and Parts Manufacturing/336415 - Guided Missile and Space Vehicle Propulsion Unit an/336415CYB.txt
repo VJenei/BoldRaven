@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Propulsion technology is among the most tightly controlled data there is.",
-      "why_this_business": "Rocket propulsion designs and manufacturing processes are ITAR controlled defence articles subject to missile technology control restrictions. Unauthorised access by a foreign person is an export with criminal consequences.",
-      "loss_scenario": "Exposure of propulsion technical data, which is a national security matter with criminal exposure, debarment, and international proliferation consequences.",
+      "headline": "Propulsion technology is among the most controlled data there is.",
+      "points": [
+        "Rocket propulsion designs are defence articles under proliferation controls.",
+        "Unauthorised access by a foreign person is an export.",
+        "The consequence is criminal, with international proliferation implications."
+      ],
       "rhetorical_question": "How is access to propulsion technical data restricted and logged?"
     },
     {
       "rank": 2,
-      "headline": "Energetic materials processing is lethal when control is lost.",
-      "why_this_business": "Solid propellant mixing, casting, and curing handle energetic materials under automated process control with temperature and remote operation because the materials detonate. Facilities are laid out around blast separation.",
-      "loss_scenario": "An explosion during propellant processing with fatalities and destruction of the facility, and an investigation examining whether process control and safety systems were functioning.",
+      "headline": "Energetic material processing kills when control is lost.",
+      "points": [
+        "Propellant mixing, casting, and curing run under automated control and remote operation.",
+        "The materials detonate and facilities are laid out around blast separation.",
+        "An explosion destroys the facility and kills workers."
+      ],
       "rhetorical_question": "What automated controls hold energetic material processing within safe limits?"
     },
     {
       "rank": 3,
-      "headline": "Every unit is traceable and its failure is a mission loss.",
-      "why_this_business": "Propulsion units are traced through materials, processing, and testing because a failure in flight destroys the vehicle. Lot records determine what else from the same processing must be withheld.",
-      "loss_scenario": "A propulsion failure destroying a vehicle and payload, with records unable to bound the affected production, requiring every unit from the period to be withheld from launch.",
+      "headline": "Every unit is traced because failure loses the mission.",
+      "points": [
+        "Units are traced through materials, processing, and testing.",
+        "A flight failure destroys the vehicle and payload.",
+        "Without records every unit from the period is withheld from launch."
+      ],
       "rhetorical_question": "How are process and test records retained per propulsion unit?"
     }
   ]

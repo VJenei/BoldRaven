@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Human subjects data was collected on a promise of confidentiality.",
-      "why_this_business": "Social science research collects survey responses, interview transcripts, and observational data about identified individuals under informed consent and institutional review board approval, with confidentiality commitments made to participants. Research on sensitive topics collects information participants have disclosed nowhere else.",
-      "loss_scenario": "Exposure of participant data breaks a specific promise made to obtain consent, causes direct harm where the topics are sensitive, and triggers institutional review board and funder reporting obligations.",
-      "rhetorical_question": "What did you promise participants about how their data would be protected?"
+      "headline": "Human subject data is confidential by protocol.",
+      "points": [
+        "Research data identifies individuals and their responses.",
+        "Ethics approvals require specific confidentiality protections.",
+        "A breach violates the protocol subjects consented to."
+      ],
+      "rhetorical_question": "What human subject data do you hold, and how is it protected?"
     },
     {
       "rank": 2,
-      "headline": "Longitudinal datasets cannot be recreated.",
-      "why_this_business": "Panel and longitudinal research follows the same participants over years or decades, and the value comes from the accumulated sequence. A lost wave cannot be recollected because the point in time has passed and participants have moved on.",
-      "loss_scenario": "Permanent loss of a longitudinal dataset ends the research programme entirely, regardless of funding available, because the historical observations cannot be recreated.",
-      "rhetorical_question": "How many years of longitudinal observations are held in your datasets?"
+      "headline": "Research data cannot be recollected.",
+      "points": [
+        "Survey, interview, and observational data is collected once.",
+        "Subjects and conditions cannot be reproduced.",
+        "Losing the data ends the study."
+      ],
+      "rhetorical_question": "Where is your research data stored, and how is it backed up?"
     },
     {
       "rank": 3,
-      "headline": "Funder and institutional obligations govern data management.",
-      "why_this_business": "Federal and foundation funders require data management plans, retention, and in many cases eventual data sharing, with institutional policies imposing further requirements. Compliance is a condition of the award.",
-      "loss_scenario": "Failure to meet data management and retention obligations puts current and future funding at risk, and institutions treat research data loss as a research integrity matter.",
-      "rhetorical_question": "What does your funder's data management plan require you to retain and for how long?"
+      "headline": "Funding carries data management obligations.",
+      "points": [
+        "Research funding carries data management, retention, and sharing requirements.",
+        "Ethics approvals impose additional conditions.",
+        "Non-compliance affects current and future funding."
+      ],
+      "rhetorical_question": "What data management requirements does your funding and ethics approval carry?"
     }
   ]
 }

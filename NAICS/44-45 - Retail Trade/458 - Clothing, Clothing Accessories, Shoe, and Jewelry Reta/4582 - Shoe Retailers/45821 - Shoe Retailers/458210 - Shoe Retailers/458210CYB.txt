@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Limited releases attract automated buying and account fraud.",
-      "why_this_business": "Footwear retail includes limited and hyped releases where demand vastly exceeds supply and resale value is a multiple of retail. Automated purchasing tools, account takeover, and fraudulent orders target these drops specifically, and raffle and reservation systems are gamed.",
-      "loss_scenario": "Inventory diverted to resellers through fraudulent accounts and bots, with genuine customers excluded and brand relationships damaged where allocation terms were breached.",
-      "rhetorical_question": "Do you handle limited release products, and how are purchase limits enforced?"
+      "headline": "Card payments run continuously at every register.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply across every store.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Size level inventory determines whether a sale happens at all.",
-      "why_this_business": "Footwear sells by size within style and colour, so a store with the style but not the size makes no sale. Inventory accuracy at size level, inter-store visibility, and ship-from-store fulfilment all depend on live system data.",
-      "loss_scenario": "Lost sales on inventory you actually hold, plus ship-from-store orders accepted against stock that is not there, generating cancellations that suppress marketplace and site performance.",
-      "rhetorical_question": "How do your staff check size availability across other locations?"
+      "headline": "Inventory depth by size determines every sale.",
+      "points": [
+        "Stock is held across many sizes and widths per style.",
+        "Staff check availability across stores and online.",
+        "Without the system you cannot tell a customer what you have."
+      ],
+      "rhetorical_question": "How is your size level inventory tracked across stores and online?"
     },
     {
       "rank": 3,
-      "headline": "Card and customer data flows through store and online together.",
-      "why_this_business": "Footwear retailers operate integrated store and online channels with shared customer accounts, saved payment methods, and loyalty balances. PCI DSS 4.0 is fully mandatory, and stored payment credentials raise the value of an account takeover.",
-      "loss_scenario": "Account takeover using stored payment methods to place fraudulent orders, plus card brand liability where the underlying data was taken from your environment.",
-      "rhetorical_question": "Do customer accounts on your site store payment methods for reuse?"
+      "headline": "Back to school and holiday carry the year.",
+      "points": [
+        "Two seasonal windows drive a large share of annual sales.",
+        "Inventory, staffing, and fulfilment peak together.",
+        "Volume missed then cannot be recovered."
+      ],
+      "rhetorical_question": "What share of your annual sales happens in your two peak seasons?"
     }
   ]
 }

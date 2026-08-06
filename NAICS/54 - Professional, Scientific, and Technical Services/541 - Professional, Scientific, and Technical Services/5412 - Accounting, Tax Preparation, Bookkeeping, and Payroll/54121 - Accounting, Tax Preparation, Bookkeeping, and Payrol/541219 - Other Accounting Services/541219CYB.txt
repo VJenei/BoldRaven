@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Bookkeeping access means authority over client bank accounts.",
-      "why_this_business": "Outsourced accounting and bookkeeping providers hold banking credentials, accounting system access, and often payment authority for client businesses. That access is granted broadly because it is necessary to do the work.",
-      "loss_scenario": "Fraudulent payments made from client accounts using access held by the bookkeeper, where clients discover the loss only at reconciliation and hold the provider responsible for the access that enabled it.",
-      "rhetorical_question": "How many client bank accounts can your staff access or initiate payments from?"
+      "headline": "You hold complete financial records for clients.",
+      "points": [
+        "Books, bank access, and financial data are held for every client.",
+        "That data supports fraud against the client directly.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client financial records and bank access do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Client financial records are the basis for tax and lending.",
-      "why_this_business": "Providers maintain the books that support tax returns, financial statements, and lender reporting. Clients frequently have no independent copy, and reconstructing years of transactions is expensive or impossible.",
-      "loss_scenario": "Clients unable to file taxes, satisfy lender reporting, or defend an audit because their records are gone, with the resulting penalties and financing consequences claimed against the provider.",
-      "rhetorical_question": "Do your clients hold an independent copy of the books you maintain for them?"
+      "headline": "You authorise and process client payments.",
+      "points": [
+        "Bill payment and disbursements are processed on client instruction.",
+        "Fraudulent instructions divert client money permanently.",
+        "Clients hold you responsible for the loss."
+      ],
+      "rhetorical_question": "How are client payment instructions verified before funds move?"
     },
     {
       "rank": 3,
-      "headline": "The FTC Safeguards Rule reaches accounting practices.",
-      "why_this_business": "Practices providing tax preparation or financial services are financial institutions under GLBA and subject to the amended FTC Safeguards Rule, requiring a written programme, a qualified individual, multi-factor authentication, encryption, and incident response.",
-      "loss_scenario": "FTC enforcement for programme deficiencies assessed independently of whether they caused the incident, at a firm size that typically has no dedicated compliance function.",
-      "rhetorical_question": "Is multi-factor authentication enforced on every system holding client financial data?"
+      "headline": "Filing and reporting deadlines are statutory.",
+      "points": [
+        "Tax, payroll, and regulatory filings carry fixed deadlines.",
+        "Those deadlines do not move for your systems.",
+        "Late filings cost clients penalties and interest."
+      ],
+      "rhetorical_question": "What filing deadlines are you managing on behalf of clients?"
     }
   ]
 }

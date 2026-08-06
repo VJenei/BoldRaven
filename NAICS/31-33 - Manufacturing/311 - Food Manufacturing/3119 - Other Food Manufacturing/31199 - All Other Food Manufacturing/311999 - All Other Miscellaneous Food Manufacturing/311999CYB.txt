@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Food manufacturing carries FSMA preventive controls obligations.",
-      "why_this_business": "Registered food facilities must have a food safety plan with hazard analysis, preventive controls, monitoring, corrective actions, and verification records, produced during FDA inspection. The plan and its records are the compliance evidence.",
-      "loss_scenario": "FDA enforcement where the food safety plan and monitoring records cannot be produced, with product treated as adulterated and, in serious cases, suspension of facility registration which stops all shipment.",
-      "rhetorical_question": "Could you produce your food safety plan and monitoring records during an FDA inspection today?"
+      "headline": "Food safety plans and records are federally required.",
+      "points": [
+        "Hazard analysis, preventive controls, and monitoring records are required and inspected.",
+        "Records must be produced to inspectors on request.",
+        "Records you cannot produce are treated as controls not performed."
+      ],
+      "rhetorical_question": "What preventive control monitoring records does your food safety plan require?"
     },
     {
       "rank": 2,
-      "headline": "Allergen and labelling errors drive most recalls.",
-      "why_this_business": "Undeclared allergens are the leading cause of food recalls, arising from formulation errors, packaging mismatches, and cross-contact on shared equipment. Sesame became the ninth major allergen requiring declaration.",
-      "loss_scenario": "An allergen recall with anaphylaxis exposure and a scope determined by whether production and distribution records identify affected lots.",
-      "rhetorical_question": "How is the correct packaging verified against the product running on the line?"
+      "headline": "Allergen and label control drive most food recalls.",
+      "points": [
+        "Allergenic ingredients move through shared equipment and lines.",
+        "Changeover, cleaning, and label controls prove separation.",
+        "An undeclared allergen recalls every package from the run."
+      ],
+      "rhetorical_question": "How are allergen changeover and label controls documented per run?"
     },
     {
       "rank": 3,
-      "headline": "Traceability determines whether a recall is targeted or total.",
-      "why_this_business": "Recall scope depends on being able to link ingredient lots to production lots to customers. Without that chain, the only safe response is to recall everything produced in the affected period.",
-      "loss_scenario": "A recall many times larger than necessary because affected lots cannot be isolated, with the cost difference falling entirely on the manufacturer.",
-      "rhetorical_question": "How quickly could you identify every customer that received a specific production lot?"
+      "headline": "Traceability determines how far a recall reaches.",
+      "points": [
+        "Lot codes link ingredients to finished product and to customers.",
+        "Investigators trace through those codes within days.",
+        "Without traceability the recall covers all production in the period."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific production lot?"
     }
   ]
 }

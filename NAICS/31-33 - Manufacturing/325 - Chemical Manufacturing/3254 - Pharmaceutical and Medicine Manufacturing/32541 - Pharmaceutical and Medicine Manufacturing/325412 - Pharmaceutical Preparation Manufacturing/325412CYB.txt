@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "FDA cGMP compliance depends on records that must be complete and unaltered.",
-      "why_this_business": "Drug manufacturers operate under current good manufacturing practice with batch production records, testing, deviations, and change control documented and retained. Electronic records must meet Part 11 requirements including audit trails and access controls.",
-      "loss_scenario": "Product that cannot be released without complete records, and data integrity findings which FDA treats with maximum seriousness, leading to warning letters, import alerts, and consent decrees that stop production.",
-      "rhetorical_question": "Are audit trails enabled and access controlled on your manufacturing execution and laboratory systems?"
+      "headline": "Batch records are the legal evidence that the drug was made correctly.",
+      "points": [
+        "Manufacturing, testing, and release records are required for every batch.",
+        "Regulators inspect those records and rely on their integrity.",
+        "Data integrity findings have stopped production and blocked approvals."
+      ],
+      "rhetorical_question": "How are your electronic batch records controlled and audit trailed?"
     },
     {
       "rank": 2,
-      "headline": "DSCSA serialisation is required for every saleable unit.",
-      "why_this_business": "Manufacturers must apply unique product identifiers to packages, exchange transaction data electronically, and respond to verification requests under the Drug Supply Chain Security Act. The stabilisation period for manufacturers ended in 2025.",
-      "loss_scenario": "Product that cannot be serialised or for which transaction data cannot be exchanged cannot lawfully be distributed, halting shipment to every wholesaler and dispenser in the chain.",
-      "rhetorical_question": "What happens to your shipments if serialisation or transaction data systems are unavailable?"
+      "headline": "Drug shortages follow directly from a stopped plant.",
+      "points": [
+        "Many drugs have very few manufacturers and no alternative source.",
+        "Hospitals and patients depend on continuous supply.",
+        "A shutdown becomes a national shortage affecting patient care."
+      ],
+      "rhetorical_question": "Which of your products have few or no alternative manufacturers?"
     },
     {
       "rank": 3,
-      "headline": "Drug shortages have patient consequences and regulatory attention.",
-      "why_this_business": "Many drugs have few manufacturers, and FDA requires notification of manufacturing interruptions that could lead to shortage. Patients dependent on a specific product have no alternative when supply stops.",
-      "loss_scenario": "A production interruption creating a national shortage of a drug patients depend on, with FDA notification obligations, congressional attention, and patient harm where treatment is delayed or substituted.",
-      "rhetorical_question": "For which of your products are you one of only a few manufacturers?"
+      "headline": "Serialisation records track product through the supply chain.",
+      "points": [
+        "Federal rules require product identifiers and transaction records through distribution.",
+        "Trading partners verify those records before accepting product.",
+        "Product that cannot be verified cannot lawfully be shipped."
+      ],
+      "rhetorical_question": "How is your product serialisation data recorded and shared with trading partners?"
     }
   ]
 }

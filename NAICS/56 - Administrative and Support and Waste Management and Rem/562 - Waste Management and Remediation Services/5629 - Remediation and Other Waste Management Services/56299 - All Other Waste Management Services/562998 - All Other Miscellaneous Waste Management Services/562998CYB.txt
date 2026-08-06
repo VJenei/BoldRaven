@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Waste services carry regulatory documentation obligations regardless of stream.",
-      "why_this_business": "Firms in this category handle waste streams with tracking, permitting, and disposal documentation requirements under federal and state rules. Generators remain liable for their waste and depend on your records to demonstrate proper handling.",
-      "loss_scenario": "Regulatory enforcement for records that cannot be produced, and generator customers unable to close out their own cradle to grave obligations, with claims flowing back to the service provider.",
-      "rhetorical_question": "What disposal documentation are your customers relying on you to maintain?"
+      "headline": "Waste documentation follows every load.",
+      "points": [
+        "Manifests and disposal documentation accompany regulated waste.",
+        "Regulators trace waste through those records.",
+        "Waste you cannot document is an enforcement matter."
+      ],
+      "rhetorical_question": "How is your waste documentation generated and retained?"
     },
     {
       "rank": 2,
-      "headline": "Service interruption leaves waste accumulating at customer sites.",
-      "why_this_business": "Customers have limited on-site storage and, for regulated waste, legal accumulation time limits. Waste continues to be generated whether or not collection occurs, and exceeding accumulation limits converts a generator into an unpermitted storage facility.",
-      "loss_scenario": "Customers in violation because collection did not occur, with enforcement exposure they will attribute to the service provider and contracts terminated in response.",
-      "rhetorical_question": "How long can your customers accumulate waste before they are in violation?"
+      "headline": "Customers depend on scheduled service.",
+      "points": [
+        "Collection and service run on defined schedules.",
+        "Customers accumulate waste with regulatory time limits.",
+        "A missed service puts your customer in violation."
+      ],
+      "rhetorical_question": "How are your service schedules dispatched and recorded?"
     },
     {
       "rank": 3,
-      "headline": "Site and waste stream data reveals customer operations.",
-      "why_this_business": "Waste profiles and service records identify what materials each customer generates, in what quantities, and how their processes operate. For industrial customers that is process intelligence they treat as confidential.",
-      "loss_scenario": "Disclosure of customer waste profiles reveals production processes and volumes to competitors, and identifies hazardous material locations and movement schedules.",
-      "rhetorical_question": "Do your waste profiles reveal your customers' production processes or volumes?"
+      "headline": "Permits carry monitoring and reporting obligations.",
+      "points": [
+        "Environmental monitoring and reporting run on defined schedules.",
+        "Regulators inspect against those records.",
+        "Gaps or missed reports are permit violations."
+      ],
+      "rhetorical_question": "What monitoring and reporting does your permit require?"
     }
   ]
 }

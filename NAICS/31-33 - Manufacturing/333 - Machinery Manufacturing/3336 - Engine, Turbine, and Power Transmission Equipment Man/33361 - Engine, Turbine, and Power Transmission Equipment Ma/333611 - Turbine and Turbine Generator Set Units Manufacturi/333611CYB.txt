@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Turbines are critical infrastructure equipment.",
-      "why_this_business": "Gas, steam, and wind turbines generate electricity, with control systems, protection functions, and monitoring supplied by the manufacturer. Turbine generator equipment falls within the scope of grid reliability requirements at the operator level, and manufacturers are targeted for access to it.",
-      "loss_scenario": "Compromise of turbine control or monitoring systems reaching operating units, where loss of protection functions destroys a machine worth tens of millions and removes generation from the grid for months.",
+      "headline": "Turbines are grid infrastructure and you can reach them.",
+      "points": [
+        "Control, protection, and monitoring systems are supplied and supported by you.",
+        "Manufacturers are targeted specifically for access to operating units.",
+        "Loss of protection destroys a machine worth tens of millions."
+      ],
       "rhetorical_question": "What connectivity exists between your systems and turbines in operation?"
     },
     {
       "rank": 2,
-      "headline": "Turbine failure is a high energy destructive event.",
-      "why_this_business": "Turbines run at high speed with enormous stored energy. Overspeed protection, blade integrity, and control response prevent catastrophic failure, and a turbine that comes apart destroys the building around it.",
-      "loss_scenario": "A design, material, or control defect causing a turbine failure, with the machine destroyed, the plant damaged, and injury or fatality among plant personnel.",
+      "headline": "A turbine failure is a high energy destructive event.",
+      "points": [
+        "Turbines run at high speed with enormous stored energy.",
+        "Overspeed protection and blade integrity prevent catastrophic failure.",
+        "A turbine that comes apart destroys the building around it."
+      ],
       "rhetorical_question": "How are overspeed and protection functions validated on your units?"
     },
     {
       "rank": 3,
-      "headline": "Blade and rotor manufacturing depends on traceable materials and process.",
-      "why_this_business": "Turbine blades and rotors are made from qualified materials with controlled processing, inspection, and traceability. Defects produce fatigue failures after long service.",
-      "loss_scenario": "Components with material or process defects failing in units across a fleet, requiring inspection or replacement in every machine from the affected production and outages at every site.",
+      "headline": "Blades and rotors need traceable materials and process.",
+      "points": [
+        "Components are made from qualified materials with controlled processing and inspection.",
+        "Defects produce fatigue failures after long service.",
+        "Every machine from the affected production needs inspection and an outage."
+      ],
       "rhetorical_question": "How is component traceability maintained from material through to installed unit?"
     }
   ]

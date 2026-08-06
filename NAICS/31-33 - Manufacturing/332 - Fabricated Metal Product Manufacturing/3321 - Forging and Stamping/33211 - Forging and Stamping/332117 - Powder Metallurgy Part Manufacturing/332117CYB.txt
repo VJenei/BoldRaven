@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Sintering parameters determine part strength.",
-      "why_this_business": "Powder metal parts are compacted and sintered under controlled temperature and atmosphere, with sintering developing the strength of the part. Under-sintered parts have correct dimensions but inadequate strength.",
-      "loss_scenario": "Under-sintered parts entering automotive and industrial assemblies, failing under load with the deficiency invisible until failure and traceability determining which parts are affected.",
+      "headline": "Sintering determines strength you cannot see.",
+      "points": [
+        "Sintering temperature and atmosphere develop the strength of the part.",
+        "Under-sintered parts have correct dimensions and inadequate strength.",
+        "The failure appears under load in the customer's assembly."
+      ],
       "rhetorical_question": "How are sintering furnace parameters recorded against production lots?"
     },
     {
       "rank": 2,
-      "headline": "Powder blends and compaction are qualified per part.",
-      "why_this_business": "Each part has a qualified powder blend, compaction pressure, and tooling producing the required density and dimensions. Automotive customers approve those parameters through formal production part approval.",
-      "loss_scenario": "Loss of qualified parameters requiring requalification with customers, halting production during an approval process that takes weeks in automotive supply.",
-      "rhetorical_question": "How many qualified part parameters are stored in your production systems?"
+      "headline": "Metal powders are combustible and explode.",
+      "points": [
+        "Fine aluminium and iron powders ignite and propagate through connected equipment.",
+        "Metal dust fires cannot be fought with water.",
+        "A powder explosion destroys production areas and kills workers."
+      ],
+      "rhetorical_question": "How are your powder handling and dust collection systems protected?"
     },
     {
       "rank": 3,
-      "headline": "Metal powders present combustible dust hazards.",
-      "why_this_business": "Fine metal powders including aluminium and iron are combustible, with handling, blending, and collection systems requiring explosion protection. Metal dust fires cannot be extinguished with water.",
-      "loss_scenario": "A metal dust explosion or fire in powder handling, which propagates through connected equipment and cannot be fought conventionally, destroying production areas with fatality potential.",
-      "rhetorical_question": "How are your powder handling and dust collection systems protected against explosion?"
+      "headline": "Automotive parts are qualified and cannot be changed.",
+      "points": [
+        "Powder blend, compaction, and tooling are approved by the customer.",
+        "Requalification takes weeks in automotive supply.",
+        "Losing qualified parameters stops their production and yours."
+      ],
+      "rhetorical_question": "How many qualified part parameters are stored in your production systems?"
     }
   ]
 }

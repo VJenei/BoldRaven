@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Foodservice customers order daily against tomorrow's menu.",
-      "why_this_business": "Broadline and specialty foodservice distributors deliver to restaurants, schools, and institutions on fixed route days against orders placed the previous evening. Kitchens hold minimal inventory and build menus around what will arrive.",
-      "loss_scenario": "A missed delivery day forces menu changes or closure at customer operations, and foodservice accounts move to another broadliner quickly when service fails.",
-      "rhetorical_question": "How many customers receive deliveries on a fixed route day each week?"
+      "headline": "Customers run out of food within days.",
+      "points": [
+        "Stores and foodservice customers order on fixed schedules.",
+        "They hold days of stock at most.",
+        "A distribution failure empties shelves and menus across your territory."
+      ],
+      "rhetorical_question": "How many customers depend on your delivery routes?"
     },
     {
       "rank": 2,
-      "headline": "Food safety traceability applies to a wide part of your catalogue.",
-      "why_this_business": "Distributors in this category handle items on the FDA Food Traceability List alongside items that are not, all requiring lot-level receiving and shipping records under FSMA Section 204 with a July 20, 2028 compliance date. Records must be producible electronically within 24 hours.",
-      "loss_scenario": "Traceback failure across a mixed catalogue, which in practice means recalling far more than necessary because the affected lots cannot be isolated.",
-      "rhetorical_question": "Which items in your catalogue fall under the Food Traceability List?"
+      "headline": "Recall reach depends on your distribution records.",
+      "points": [
+        "Food recalls identify specific lots and production periods.",
+        "Your records determine which customers received them.",
+        "Without records the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific product lot?"
     },
     {
       "rank": 3,
-      "headline": "Route delivery and cold chain run on integrated logistics systems.",
-      "why_this_business": "Order entry, warehouse selection, route optimisation, delivery confirmation, and temperature logging are a single connected process. Drivers carry handhelds that capture delivery and returns. Invoicing follows from the delivery record.",
-      "loss_scenario": "Routes that cannot be built or confirmed, with unbillable deliveries and no proof of delivery for disputed shipments.",
-      "rhetorical_question": "How do your drivers capture proof of delivery and product returns?"
+      "headline": "Cold chain records are a food safety requirement.",
+      "points": [
+        "Refrigerated and frozen product is monitored through storage and transport.",
+        "Records establish that temperature was maintained.",
+        "Product out of range must be destroyed, not sold."
+      ],
+      "rhetorical_question": "How is temperature monitored and recorded through your warehouse and fleet?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Licensure eligibility depends on records you maintain.",
-      "why_this_business": "Trade schools train for occupations requiring state licensure or certification, with hour, competency, and completion records reported to boards. Students cannot sit for licensure without verified programme completion.",
-      "loss_scenario": "Students unable to demonstrate eligibility for licensure examinations, with training paid for and completed but unprovable, and the school facing refund claims and accreditation consequences.",
-      "rhetorical_question": "What records do state boards require you to maintain for your graduates?"
+      "headline": "Student records support licensing and certification.",
+      "points": [
+        "Hours, competencies, and completion records support licences and certifications.",
+        "Regulators and certifying bodies verify those records.",
+        "Students cannot be certified without them."
+      ],
+      "rhetorical_question": "How are your student hour and completion records maintained?"
     },
     {
       "rank": 2,
-      "headline": "Title IV and state authorisation impose compliance obligations.",
-      "why_this_business": "Schools participating in federal student aid hold financial aid data protected under the program participation agreement and the FTC Safeguards Rule, and must report suspected breaches to the Department of Education. State authorisation adds its own record and reporting requirements.",
-      "loss_scenario": "Loss of Title IV eligibility or state authorisation, either of which stops enrolment and therefore the business, alongside the breach costs.",
-      "rhetorical_question": "What is your written information security programme for student aid data?"
+      "headline": "Financial aid handling carries federal requirements.",
+      "points": [
+        "Institutions handling federal student aid must meet safeguards requirements.",
+        "Compliance is a condition of participating in aid programmes.",
+        "Losing eligibility removes the funding students depend on."
+      ],
+      "rhetorical_question": "What federal safeguards requirements apply to your financial aid systems?"
     },
     {
       "rank": 3,
-      "headline": "Training equipment and simulators are networked systems.",
-      "why_this_business": "Technical training uses simulators, CNC equipment, welding trainers, and diagnostic systems that are increasingly networked for curriculum delivery and performance tracking. Instruction depends on that equipment functioning.",
-      "loss_scenario": "Instruction halted with cohorts unable to complete required hours, and equipment repair or reconfiguration that takes weeks while students remain enrolled and paying.",
-      "rhetorical_question": "How much of your instruction depends on networked training equipment?"
+      "headline": "Instruction runs to fixed programme dates.",
+      "points": [
+        "Programmes have fixed start and completion dates with committed cohorts.",
+        "Equipment, instructors, and facilities are scheduled around them.",
+        "Lost instructional time cannot be recovered within the programme."
+      ],
+      "rhetorical_question": "What happens to instruction if your systems are unavailable?"
     }
   ]
 }

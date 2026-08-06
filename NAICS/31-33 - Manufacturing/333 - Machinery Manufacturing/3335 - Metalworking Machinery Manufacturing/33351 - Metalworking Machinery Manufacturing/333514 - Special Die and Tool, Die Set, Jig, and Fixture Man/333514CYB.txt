@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Every tool is built from customer data on CNC equipment.",
-      "why_this_business": "Dies, jigs, and fixtures are designed from customer part and assembly models and machined from CNC programmes. The design and programming effort per tool is measured in weeks.",
-      "loss_scenario": "Loss of tool designs and machining programmes with tools in build, requiring redesign from customer models and delaying customer production programmes that are already scheduled around delivery.",
+      "points": [
+        "Designs come from customer part and assembly models.",
+        "Design and programming per tool takes weeks.",
+        "Losing that data restarts the work with customer schedules already set."
+      ],
       "rhetorical_question": "How many active tool designs and CNC programmes are held on your network?"
     },
     {
       "rank": 2,
-      "headline": "Tools carry customer proprietary product geometry.",
-      "why_this_business": "Dies and fixtures embody the customer's part design, frequently for products not yet in production. Automotive, aerospace, and defence customers impose confidentiality and, for defence, export control obligations.",
-      "loss_scenario": "Exposure of customer product designs including any export controlled data, with contract breach and, where the data is controlled, a reportable violation.",
+      "headline": "Tools embody customer product geometry.",
+      "points": [
+        "Dies and fixtures contain the customer's part design, often pre-launch.",
+        "Defence and aerospace work adds export control obligations.",
+        "Disclosure is a contract breach or a reportable violation."
+      ],
       "rhetorical_question": "Do you hold designs subject to export control or pre-launch confidentiality?"
     },
     {
       "rank": 3,
       "headline": "Customer production cannot start without the tool.",
-      "why_this_business": "Production tooling gates the start of the customer's manufacturing. There is no partial substitute and no alternative supplier without transferring the design and starting over.",
-      "loss_scenario": "Tool delivery delayed with the customer unable to begin production, and consequential losses driven by their launch commitments rather than the price of the tool.",
+      "points": [
+        "Production tooling gates the start of manufacturing.",
+        "There is no partial substitute and no alternative supplier.",
+        "The exposure is their launch commitments, not the tool price."
+      ],
       "rhetorical_question": "What does a delayed tool cost your customer relative to the tool price?"
     }
   ]

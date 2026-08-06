@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Elevators carry people and are code-regulated for that reason.",
-      "why_this_business": "Elevators and escalators carry passengers with safety functions including door interlocks, overspeed governors, and brakes governed by ASME A17.1 and inspected by jurisdictions. Failures cause falls, entrapments, and crush injuries.",
-      "loss_scenario": "A control or safety function defect causing a car movement with doors open or an uncontrolled descent, with fatal injury and an investigation examining the manufacturer's design and installation records.",
+      "headline": "Elevators carry people and are code regulated for it.",
+      "points": [
+        "Door interlocks, overspeed governors, and brakes are inspected safety functions.",
+        "Failures cause falls, entrapments, and crush injuries.",
+        "A car moving with doors open is fatal."
+      ],
       "rhetorical_question": "How are elevator safety functions validated before a unit is placed in service?"
     },
     {
       "rank": 2,
-      "headline": "Units are monitored and serviced remotely by you.",
-      "why_this_business": "Modern elevators connect to manufacturer monitoring platforms for fault reporting, diagnostics, and in some cases parameter changes, across large installed bases in occupied buildings.",
-      "loss_scenario": "Compromise of the monitoring platform reaching elevator controllers in occupied buildings, with entrapments and safety function interference, requiring shutdown of units until each is verified.",
+      "headline": "You monitor and reach installed units remotely.",
+      "points": [
+        "Elevators connect to your platforms for fault reporting and diagnostics.",
+        "Some platforms can change parameters on installed units.",
+        "Those units are in occupied buildings full of people."
+      ],
       "rhetorical_question": "What can be changed on an installed elevator through your remote platform?"
     },
     {
       "rank": 3,
-      "headline": "Service and maintenance contracts run the installed base.",
-      "why_this_business": "Elevator manufacturers hold service contracts with dispatch, technician scheduling, parts, and compliance records for inspections and testing across thousands of units.",
-      "loss_scenario": "Service dispatch and records systems unavailable, with entrapment calls unrouted, required periodic tests missed, and jurisdictions taking units out of service for lapsed inspection.",
+      "headline": "Service contracts run the entire installed base.",
+      "points": [
+        "Dispatch, technician scheduling, parts, and inspection compliance run on your systems.",
+        "Entrapment calls arrive through that channel.",
+        "Lapsed inspections take units out of service by order."
+      ],
       "rhetorical_question": "How are entrapment calls received and dispatched to technicians?"
     }
   ]

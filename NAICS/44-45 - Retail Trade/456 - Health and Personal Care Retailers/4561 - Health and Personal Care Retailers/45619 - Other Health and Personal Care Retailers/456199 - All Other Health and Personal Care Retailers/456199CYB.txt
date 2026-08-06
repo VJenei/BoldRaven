@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Durable medical equipment suppliers hold patient and payer data.",
-      "why_this_business": "Retailers supplying home medical equipment bill Medicare, Medicaid, and private insurers, holding physician orders, medical necessity documentation, patient identifiers, and claim histories. That makes them a HIPAA covered entity and a healthcare provider for enrolment purposes.",
-      "loss_scenario": "HIPAA breach notification and OCR enforcement, plus supplier enrolment consequences where documentation supporting billed claims cannot be produced during an audit.",
-      "rhetorical_question": "Do you bill Medicare or private insurance for the products you supply?"
+      "headline": "Purchase history in this category reveals health conditions.",
+      "points": [
+        "What customers buy indicates conditions they have not disclosed.",
+        "Loyalty and purchase records hold that history.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer purchase and payment data do you store?"
     },
     {
       "rank": 2,
-      "headline": "Claim documentation must survive audit years after the sale.",
-      "why_this_business": "Medicare suppliers face documentation audits requiring physician orders, proof of delivery, and medical necessity records for claims paid years earlier. Extrapolated overpayment findings apply an error rate across the whole claim population.",
-      "loss_scenario": "Extrapolated recoupment across thousands of claims where supporting documentation is unavailable, which routinely exceeds the value of the underlying claims by a wide margin.",
-      "rhetorical_question": "How many years of claim documentation are you required to retain?"
+      "headline": "Product recalls reach through your records.",
+      "points": [
+        "Health product recalls identify specific lots and products.",
+        "Your receiving and sales records determine what you have.",
+        "Recalled product stays on shelves while systems are down."
+      ],
+      "rhetorical_question": "How do you receive recall notices and identify affected stock?"
     },
     {
       "rank": 3,
-      "headline": "Equipment supplied is used by people whose health depends on it.",
-      "why_this_business": "Oxygen concentrators, mobility equipment, and monitoring devices are supplied to patients at home, with delivery, setup, and service scheduled from the retailer's systems. Some equipment is connected and reports data back for clinical monitoring.",
-      "loss_scenario": "Failure to deliver or service life-sustaining equipment on schedule is a patient safety event with liability well beyond the value of the equipment.",
-      "rhetorical_question": "Do any of your customers depend on the equipment you supply for life support or mobility?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     }
   ]
 }

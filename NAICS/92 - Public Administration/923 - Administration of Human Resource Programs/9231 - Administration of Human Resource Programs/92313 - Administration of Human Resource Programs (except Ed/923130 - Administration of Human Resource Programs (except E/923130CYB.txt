@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Benefit programmes hold complete financial and family data.",
-      "why_this_business": "Agencies administering assistance programmes hold applicant Social Security numbers, income, household composition, immigration status, disability determinations, and banking details for benefit payment, across very large caseloads.",
-      "loss_scenario": "Breach exposing complete household financial and immigration data for a population already in economic difficulty, with identity theft consequences they have no capacity to absorb or remediate.",
-      "rhetorical_question": "How many benefit recipients' records with Social Security numbers do you hold?"
+      "headline": "Benefit payments are how people eat and pay rent.",
+      "points": [
+        "Benefit determinations and payments run through your systems.",
+        "Recipients have no alternative income.",
+        "A payment failure means people cannot buy food or pay rent."
+      ],
+      "rhetorical_question": "How many recipients depend on payments from your systems?"
     },
     {
       "rank": 2,
-      "headline": "Benefit payments are targeted for organised fraud.",
-      "why_this_business": "Assistance programmes disburse funds to individuals based on eligibility determinations, and have been targeted by large-scale organised fraud using stolen and synthetic identities, most visibly in unemployment insurance programmes.",
-      "loss_scenario": "Large-scale fraudulent claims paid before detection, with public funds lost, legitimate claimants delayed by fraud controls, and legislative investigation into how the programme was compromised.",
-      "rhetorical_question": "How do you verify claimant identity before benefits are disbursed?"
+      "headline": "Recipient data covers the most vulnerable people.",
+      "points": [
+        "Records carry identity, income, health, family, and household information.",
+        "Recipients have no choice about providing it.",
+        "Every affected recipient must be notified."
+      ],
+      "rhetorical_question": "How many recipient records do your systems hold?"
     },
     {
       "rank": 3,
-      "headline": "Interruption leaves recipients without income or food.",
-      "why_this_business": "Recipients depend on benefit payments for food, rent, and essentials, with no reserve. Eligibility systems and payment issuance run on a schedule and beneficiaries plan around payment dates.",
-      "loss_scenario": "Missed benefit issuance leaving households without food or rent money, which produces immediate hardship, emergency political response, and litigation on behalf of affected recipients.",
-      "rhetorical_question": "What happens to recipients if a scheduled benefit issuance cannot be processed?"
+      "headline": "Benefit fraud targets your systems directly.",
+      "points": [
+        "Fraudulent claims and account takeovers divert benefit payments.",
+        "Legitimate recipients find their benefits already claimed.",
+        "Recovery for the recipient takes months they cannot afford."
+      ],
+      "rhetorical_question": "What controls protect benefit accounts against fraudulent claims?"
     }
   ]
 }

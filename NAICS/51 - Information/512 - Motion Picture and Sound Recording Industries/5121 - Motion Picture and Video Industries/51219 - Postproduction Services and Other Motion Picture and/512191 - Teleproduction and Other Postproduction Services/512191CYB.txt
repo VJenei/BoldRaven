@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Post houses are where major content leaks have actually originated.",
-      "why_this_business": "Postproduction facilities hold finished and near-finished content for multiple studios simultaneously. The 2017 leak of unreleased Netflix episodes came through a compromised postproduction vendor, not the studio. That incident is a principal reason studios now require Trusted Partner Network assessments of post vendors.",
-      "loss_scenario": "A leak of client content creates direct contractual liability to the studio measured against the value of the title, and effectively ends the facility's ability to win studio work, which is the entire business.",
-      "rhetorical_question": "Are you assessed under the Trusted Partner Network or an equivalent studio audit?"
+      "headline": "You hold unreleased content for every client.",
+      "points": [
+        "Raw and finished material arrives before any release.",
+        "Clients build release schedules around that content.",
+        "A leak destroys the release and breaches your agreements."
+      ],
+      "rhetorical_question": "What unreleased client content is stored on your systems?"
     },
     {
       "rank": 2,
-      "headline": "Client content is held in enormous volumes and moved constantly.",
-      "why_this_business": "Post facilities store and move terabytes of client media daily across editorial, colour, sound, and visual effects, frequently sharing with remote artists and other vendors. Every transfer is an opportunity for content to leave.",
-      "loss_scenario": "Loss or corruption of client media requires reconform or reshoot at costs far exceeding the post budget, and the facility carries that liability under its contract.",
-      "rhetorical_question": "How much client media is held on your systems at any one time?"
+      "headline": "Project files represent months of work.",
+      "points": [
+        "Edits, effects, colour, and audio work exist as project files and renders.",
+        "Recreating that work means redoing it from the source.",
+        "Delivery dates are contractual and do not move."
+      ],
+      "rhetorical_question": "Where are your active project files and renders stored?"
     },
     {
       "rank": 3,
-      "headline": "Delivery deadlines are tied to announced release dates.",
-      "why_this_business": "Post schedules run to locked delivery dates for theatrical, broadcast, and streaming release, with marketing already committed. There is no slack in a post schedule near delivery, and the final weeks involve round-the-clock work.",
-      "loss_scenario": "A missed delivery date forces the client to move a release with marketing spend already deployed, and the resulting claim is measured against that spend rather than the post fee.",
-      "rhetorical_question": "How close to a client's release date do you typically deliver?"
+      "headline": "Content security is audited by studios and rights holders.",
+      "points": [
+        "Security requirements are a condition of receiving the work.",
+        "Audits cover access, storage, and network segregation.",
+        "A failed audit removes you from studio work entirely."
+      ],
+      "rhetorical_question": "What content security requirements do your client agreements impose?"
     }
   ]
 }

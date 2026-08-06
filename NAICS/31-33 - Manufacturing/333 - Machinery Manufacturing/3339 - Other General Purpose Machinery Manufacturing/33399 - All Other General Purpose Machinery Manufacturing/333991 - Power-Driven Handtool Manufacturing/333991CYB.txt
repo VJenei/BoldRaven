@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Power tools cause injuries and are recalled for it.",
-      "why_this_business": "Power tools operate blades, bits, and drives in the user's hands and are consumer products under CPSC jurisdiction with a 24 hour reporting obligation. Switch, guard, and blade retention defects cause lacerations and amputations.",
-      "loss_scenario": "CPSC recall for a tool defect causing injuries, with reach determined by whether distribution records identify affected production, and civil penalties where reporting was late.",
+      "headline": "Power tools cause amputations and are recalled for it.",
+      "points": [
+        "Blades, bits, and drives operate in the user's hands.",
+        "Switch, guard, and blade retention defects cause lacerations and amputations.",
+        "Recall reach depends entirely on distribution records."
+      ],
       "rhetorical_question": "Could you identify which retailers received a specific production lot?"
     },
     {
       "rank": 2,
-      "headline": "Battery platforms carry lithium-ion fire risk.",
-      "why_this_business": "Cordless tools run on lithium-ion battery packs with chargers and battery management electronics. Cell, pack, or charger defects cause fires in homes, vehicles, and job sites, and battery recalls in this category are among the largest.",
-      "loss_scenario": "Battery pack fires across an installed base, with property damage claims, a CPSC recall covering millions of packs, and the cost of collecting and replacing them.",
+      "headline": "Battery platforms cause fires in homes and job sites.",
+      "points": [
+        "Cordless tools run on lithium-ion packs with chargers and management electronics.",
+        "Cell, pack, or charger defects cause fires.",
+        "Battery recalls in this category cover millions of packs."
+      ],
       "rhetorical_question": "How are battery cell sources and pack production lots traced?"
     },
     {
       "rank": 3,
-      "headline": "Retail supply is concentrated and compliance is enforced.",
-      "why_this_business": "Power tools ship to a small number of very large retailers under EDI with labelling, packing, and delivery requirements, with promotional periods driving a large share of volume.",
-      "loss_scenario": "Order and shipping systems unavailable through a promotional period, with vendor chargebacks, lost promotional volume, and shelf space at risk with customers that represent most of the business.",
+      "headline": "A few retailers carry most of your volume.",
+      "points": [
+        "Product ships under vendor requirements with promotional periods driving volume.",
+        "Delivery windows are fixed and enforced by chargeback.",
+        "Losing shelf space at those customers removes most of the business."
+      ],
       "rhetorical_question": "What share of your volume goes to your two largest retail customers?"
     }
   ]

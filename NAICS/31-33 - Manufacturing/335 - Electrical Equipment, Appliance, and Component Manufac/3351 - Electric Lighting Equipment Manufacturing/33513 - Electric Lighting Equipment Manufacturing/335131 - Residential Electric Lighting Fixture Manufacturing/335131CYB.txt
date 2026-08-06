@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Lighting fixtures cause fires when they are not built to their listing.",
-      "why_this_business": "Fixtures carry safety agency listings tied to specific wiring, insulation, thermal design, and components. Fixtures built outside the listed configuration overheat and ignite the ceiling assembly around them.",
-      "loss_scenario": "Fixtures causing house fires, with a CPSC recall, property damage and injury claims from every affected home, and listing agency withdrawal of the certification.",
+      "headline": "Fixtures built outside their listing ignite the ceiling.",
+      "points": [
+        "Listings cover wiring, insulation, thermal design, and components.",
+        "Fixtures outside that configuration overheat in the ceiling assembly.",
+        "The fire starts where nobody can see it."
+      ],
       "rhetorical_question": "How are listed component substitutions controlled in your build process?"
     },
     {
       "rank": 2,
-      "headline": "Smart lighting connects to home networks and cloud platforms.",
-      "why_this_business": "Connected residential fixtures include wireless radios, mobile applications, and cloud accounts, sitting on home networks with credentials and usage data. Poorly secured devices are recruited into botnets.",
-      "loss_scenario": "A vulnerability across deployed fixtures giving access to home networks or building a botnet from them, with FTC exposure for products marketed as secure and firmware remediation to devices in millions of homes.",
+      "headline": "Smart fixtures sit on home networks with credentials.",
+      "points": [
+        "Connected fixtures include radios, mobile apps, and cloud accounts.",
+        "Poorly secured devices are recruited into botnets.",
+        "Remediation reaches devices in millions of homes."
+      ],
       "rhetorical_question": "Do your fixtures connect to home networks or a cloud platform you operate?"
     },
     {
       "rank": 3,
-      "headline": "Consumer products carry CPSC reporting duties.",
-      "why_this_business": "Residential fixtures are consumer products with a 24 hour reporting obligation once information about a potential hazard is obtained, and recall reach depends on distribution records.",
-      "loss_scenario": "A recall that must cover all production because distribution records cannot identify affected lots, with civil penalties added where reporting was late.",
+      "headline": "Consumer products carry recall and reporting duties.",
+      "points": [
+        "Reporting obligations apply once a potential hazard is known.",
+        "Recall reach depends entirely on distribution records.",
+        "Without records the recall covers all production in the period."
+      ],
       "rhetorical_question": "Could you identify which retailers received a specific production run?"
     }
   ]

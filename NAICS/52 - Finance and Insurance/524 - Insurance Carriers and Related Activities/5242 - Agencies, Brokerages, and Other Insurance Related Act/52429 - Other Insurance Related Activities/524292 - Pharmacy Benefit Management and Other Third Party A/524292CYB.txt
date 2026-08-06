@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Third-party administrators concentrate data and processing for many plans at once.",
-      "why_this_business": "TPAs and pharmacy benefit managers hold eligibility, claims, and payment data for the members of many client plans simultaneously, and process transactions in real time. The 2024 attack on Change Healthcare demonstrated how a single processing failure in this layer halts an entire sector.",
-      "loss_scenario": "Every client plan and its members affected at once, with claims and prescriptions unable to be processed, and notification obligations flowing through every plan relationship simultaneously.",
-      "rhetorical_question": "How many separate client plans and members depend on your processing?"
+      "headline": "You hold health and benefit data for millions of people.",
+      "points": [
+        "Prescription, claims, and eligibility data covers every covered member.",
+        "Prescription history reveals conditions directly.",
+        "Health privacy law requires notification of every affected individual."
+      ],
+      "rhetorical_question": "How many member health and prescription records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "You are a HIPAA business associate with direct liability.",
-      "why_this_business": "Administrators handling protected health information on behalf of health plans are business associates under HIPAA, subject to the Security Rule directly and to breach notification obligations, with signed business associate agreements imposing contractual duties on top.",
-      "loss_scenario": "OCR enforcement against the administrator directly, plus contractual indemnity claims from every client plan whose members were affected.",
-      "rhetorical_question": "How many business associate agreements have you signed with client plans?"
+      "headline": "Claims adjudication stops care at the pharmacy counter.",
+      "points": [
+        "Eligibility and claims adjudication run in real time at the point of dispensing.",
+        "Patients are standing at the counter waiting.",
+        "Some cannot safely miss a dose."
+      ],
+      "rhetorical_question": "What happens at the pharmacy counter if your adjudication systems fail?"
     },
     {
       "rank": 3,
-      "headline": "Benefit plan administration carries fiduciary obligations.",
-      "why_this_business": "Administrators handling retirement and welfare plan assets and records may act in a fiduciary capacity under ERISA, with obligations regarding plan assets, participant data, and timely processing. Department of Labor guidance addresses cybersecurity for plan fiduciaries and service providers.",
-      "loss_scenario": "Fiduciary breach claims where participant accounts were compromised or contributions were not processed, with ERISA fiduciary liability being personal and difficult to limit contractually.",
-      "rhetorical_question": "Do you act as a fiduciary with respect to plan assets or participant accounts?"
+      "headline": "Plan sponsors hold you accountable as their administrator.",
+      "points": [
+        "You administer benefits on behalf of plan sponsors who remain responsible.",
+        "Their fiduciary obligations pass to you by contract.",
+        "Losing plan sponsor clients removes the business entirely."
+      ],
+      "rhetorical_question": "What security obligations do your plan sponsor contracts impose?"
     }
   ]
 }

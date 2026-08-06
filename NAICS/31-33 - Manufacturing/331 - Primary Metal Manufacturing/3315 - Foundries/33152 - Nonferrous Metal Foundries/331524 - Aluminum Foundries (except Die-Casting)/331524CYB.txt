@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Molten aluminium and moisture produce explosions.",
-      "why_this_business": "Aluminium foundries melt and pour metal into sand and permanent moulds, with moisture in moulds, tools, or charge material causing steam explosions. This has killed foundry workers repeatedly.",
-      "loss_scenario": "A molten metal explosion with worker fatalities and severe burns, investigated against moisture control and charge inspection procedures.",
-      "rhetorical_question": "How is moisture controlled in your charge material, tooling, and moulds?"
+      "headline": "Molten aluminium and moisture cause explosions.",
+      "points": [
+        "Molten aluminium contacting water causes violent explosions.",
+        "Moulds, ladles, and charge material must be dry.",
+        "Molten metal explosions have killed workers in this industry."
+      ],
+      "rhetorical_question": "What controls ensure moulds and charge material are dry?"
     },
     {
       "rank": 2,
-      "headline": "Casting quality determines performance in customer applications.",
-      "why_this_business": "Aluminium castings serve automotive, aerospace, and industrial applications with porosity, dimensional, and mechanical requirements verified by testing and radiography. Internal defects are not visible externally.",
-      "loss_scenario": "Castings with internal porosity or wrong properties entering pressure or structural applications, failing in service with the defect invisible until failure.",
-      "rhetorical_question": "How are radiographic and mechanical test results recorded per casting lot?"
+      "headline": "Castings go into vehicles and equipment where failure matters.",
+      "points": [
+        "Aluminium castings are used in engines, structures, and machinery.",
+        "Chemistry, heat treatment, and testing determine properties.",
+        "A defective casting fails under load in service."
+      ],
+      "rhetorical_question": "How are your chemistry and heat treatment records linked to castings?"
     },
     {
       "rank": 3,
-      "headline": "Patterns and tooling are customer-specific assets held at the foundry.",
-      "why_this_business": "Foundries hold customer patterns, core boxes, and permanent moulds with qualified process parameters. Transferring production requires moving tooling and requalifying.",
-      "loss_scenario": "Customer production stopped with no alternative foundry tooled for the parts, and requalification required even if tooling can be moved.",
-      "rhetorical_question": "How many customer-owned patterns and moulds are held at your foundry?"
+      "headline": "Patterns and tooling are customer specific.",
+      "points": [
+        "Patterns and moulds exist for each customer part.",
+        "Customers design their products around those castings.",
+        "No other foundry can pour without the pattern."
+      ],
+      "rhetorical_question": "How many customer patterns exist only at your foundry?"
     }
   ]
 }

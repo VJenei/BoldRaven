@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold drawings and layouts of your clients' production facilities.",
-      "why_this_business": "Industrial builders work from process layouts, utility routing, structural drawings, and equipment arrangements that describe how a client's plant operates. For food, pharmaceutical, chemical, or defence clients this is confidential and in some cases regulated information.",
-      "loss_scenario": "Third-party liability to the client for disclosed facility information, plus loss of a relationship in a sector where prequalification takes years. For chemical facilities the information itself may be security sensitive.",
-      "rhetorical_question": "How many clients' facility drawings are stored on your systems?"
+      "headline": "Owner facility drawings and process data pass through you.",
+      "points": [
+        "Plant layouts, process equipment, and utility drawings are shared to build the facility.",
+        "That information describes how the owner's plant works.",
+        "Disclosure hands competitors the owner's process design."
+      ],
+      "rhetorical_question": "What owner facility and process drawings are held on your systems?"
     },
     {
       "rank": 2,
-      "headline": "Federal and defence-related work carries contractual cyber requirements.",
-      "why_this_business": "Contractors handling federal contract information must meet the basic safeguarding requirements of FAR 52.204-21, and those handling controlled unclassified information face DFARS and CMMC obligations. These flow down through subcontracts. Failure to meet them is a contract compliance failure and, under the False Claims Act, potentially more.",
-      "loss_scenario": "Loss of eligibility for federal work, contract termination, and False Claims Act exposure where compliance was represented but not achieved.",
-      "rhetorical_question": "Do any of your contracts flow down federal cybersecurity clauses such as FAR 52.204-21 or DFARS?"
+      "headline": "Progress payments move very large sums by transfer.",
+      "points": [
+        "Monthly pay applications settle hundreds of thousands to subcontractors and suppliers.",
+        "Banking instructions arrive and change by email.",
+        "One diverted payment must be funded twice to keep the job running."
+      ],
+      "rhetorical_question": "How are changes to subcontractor banking details verified before payment?"
     },
     {
       "rank": 3,
-      "headline": "Industrial projects carry the largest payment applications and the tightest schedules.",
-      "why_this_business": "Plant construction and expansion is scheduled around a client production outage window that cannot move. Payment applications run into millions monthly. Both the schedule and the money flow through project management and accounting systems.",
-      "loss_scenario": "A missed outage window forces the client to run without the new capacity for another cycle, with consequential damages claimed against the contractor, and diverted payment applications in the seven figure range.",
-      "rhetorical_question": "Are your projects tied to a client shutdown window that cannot be rescheduled?"
+      "headline": "The completion date is tied to the owner's production start.",
+      "points": [
+        "Facilities are built to a date when the owner intends to begin production.",
+        "Equipment deliveries and commissioning are sequenced to that date.",
+        "Delay costs the owner production, and the contract passes that on."
+      ],
+      "rhetorical_question": "What are the delay damages on your current projects?"
     }
   ]
 }

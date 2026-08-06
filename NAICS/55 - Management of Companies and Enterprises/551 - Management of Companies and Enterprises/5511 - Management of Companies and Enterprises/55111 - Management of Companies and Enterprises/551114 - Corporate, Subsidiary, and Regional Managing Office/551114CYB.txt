@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Head office systems administer the entire enterprise.",
-      "why_this_business": "Corporate offices centralise ERP, human resources, finance, and IT administration for operating locations. Domain administration and enterprise applications reach every site, which is why attackers target head office rather than individual locations.",
-      "loss_scenario": "Every operating location stops simultaneously because the systems they depend on are administered centrally, and recovery must be sequenced across the enterprise rather than performed locally.",
-      "rhetorical_question": "How many operating locations depend on systems administered from your corporate office?"
+      "headline": "Central systems run every location.",
+      "points": [
+        "Finance, human resources, and operational systems serve the whole organisation.",
+        "Locations depend on the centre for everything.",
+        "A central failure stops every site at once."
+      ],
+      "rhetorical_question": "What central systems do all your locations depend on?"
     },
     {
       "rank": 2,
-      "headline": "Executive communications are targeted specifically.",
-      "why_this_business": "Corporate offices hold board materials, strategic plans, unannounced transactions, and executive communications. Business email compromise targeting finance staff with instructions apparently from executives is one of the highest-loss attack patterns in existence.",
-      "loss_scenario": "Fraudulent payment instructions apparently authorised by an executive, executed by staff who are trained to act on them quickly, in amounts reflecting corporate rather than local authority.",
-      "rhetorical_question": "How does your finance team verify a payment instruction that appears to come from an executive?"
+      "headline": "Employee data for the whole organisation sits here.",
+      "points": [
+        "Payroll, benefits, and personnel records cover every employee.",
+        "That data supports identity theft completely.",
+        "Every affected employee must be notified."
+      ],
+      "rhetorical_question": "How many employee records with identity and bank data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Enterprise employee data is concentrated in one system.",
-      "why_this_business": "Corporate human resources holds Social Security numbers, banking details, benefits and medical information, and performance records for the entire workforce, together with payroll processing for every location.",
-      "loss_scenario": "Breach notification across the whole workforce, plus payroll diversion where direct deposit details are altered at scale before a pay run.",
-      "rhetorical_question": "How many employee records are held in your central HR and payroll system?"
+      "headline": "Payments for the organisation are processed centrally.",
+      "points": [
+        "Vendor and payroll payments are processed from central systems.",
+        "Payment instructions arrive and change by email.",
+        "A diverted payment is organisational money that does not come back."
+      ],
+      "rhetorical_question": "How are changes to vendor banking details verified before payment?"
     }
   ]
 }

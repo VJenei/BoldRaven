@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Unattended sites depend entirely on remote monitoring and payment.",
-      "why_this_business": "Stations without a store operate through unattended card terminals, site controllers, and tank gauges monitored remotely. There is no staff on site to notice a skimmer, an overfill, or a terminal behaving abnormally.",
-      "loss_scenario": "Skimming continues undetected for long periods at unattended sites, and a fuel release from failed level monitoring is discovered only when it reaches groundwater or a neighbouring property.",
-      "rhetorical_question": "How is an unattended site monitored, and how quickly would you know something was wrong?"
+      "headline": "Pumps are the most attacked payment terminal there is.",
+      "points": [
+        "Unattended dispensers are targeted with internal and wireless skimmers.",
+        "Card security requirements apply to every dispenser.",
+        "Skimming runs unnoticed until cards start showing fraud."
+      ],
+      "rhetorical_question": "How are your dispensers inspected and secured against skimming devices?"
     },
     {
       "rank": 2,
-      "headline": "Fleet and cardlock accounts hold payment credentials in bulk.",
-      "why_this_business": "Unattended fuelling frequently serves fleet accounts with issued cards, driver identifiers, and vehicle records. Those credentials convert to fuel and therefore to cash quickly, and the account holder is invoiced afterward.",
-      "loss_scenario": "Fraudulent fuelling across a fleet card programme before detection, with the operator liable to the fleet customer for transactions it authorised.",
-      "rhetorical_question": "How many fleet cards are active on your system?"
+      "headline": "Fuel systems are monitored for leaks automatically.",
+      "points": [
+        "Tank monitoring and leak detection run continuously under regulation.",
+        "Records must be retained and produced to regulators.",
+        "An undetected leak contaminates soil and groundwater."
+      ],
+      "rhetorical_question": "How is your tank monitoring and leak detection recorded and alarmed?"
     },
     {
       "rank": 3,
-      "headline": "Fuel excise tax is calculated from transaction data and audited.",
-      "why_this_business": "Federal and state fuel taxes attach to product movement, with exemptions for off-road, agricultural, and government use requiring documented certificates. Returns are prepared from transaction records and are a frequent audit target.",
-      "loss_scenario": "Tax assessed on estimates where transaction and exemption records cannot be produced, with penalties and interest applied across multiple filing periods.",
-      "rhetorical_question": "How do you retain per-gallon transaction records and exemption certificates?"
+      "headline": "Fuel pricing and inventory run automatically.",
+      "points": [
+        "Pricing, inventory, and resupply run through connected systems.",
+        "Stations hold days of fuel at most.",
+        "A systems failure means selling at wrong prices or not selling."
+      ],
+      "rhetorical_question": "How is your fuel pricing and inventory managed?"
     }
   ]
 }

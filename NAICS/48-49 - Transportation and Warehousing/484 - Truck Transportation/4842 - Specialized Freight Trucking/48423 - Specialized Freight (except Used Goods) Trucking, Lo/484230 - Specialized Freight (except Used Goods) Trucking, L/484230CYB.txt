@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "High value specialized freight is exactly what strategic thieves target.",
-      "why_this_business": "Long-distance specialized carriers move pharmaceuticals, electronics, metals, and refrigerated food, which are the highest value cargo theft targets. Strategic theft using compromised credentials, cloned carrier identities, and fraudulent documentation now accounts for close to a third of incidents, with average values around $274,000.",
-      "loss_scenario": "A diverted load in the high six figures, with cargo liability attaching to the contracted carrier and voluntary release defeating a theft claim under most cargo policies.",
-      "rhetorical_question": "How do you verify carrier and driver identity before releasing high value freight?"
+      "headline": "Oversize loads run on permits tied to routes and dates.",
+      "points": [
+        "Permits specify route, timing, and escort requirements per state.",
+        "Moving outside a permit is a violation and a safety hazard.",
+        "A load without valid permits sits until they are reissued."
+      ],
+      "rhetorical_question": "How are your oversize permits obtained and tracked against routes?"
     },
     {
       "rank": 2,
-      "headline": "Temperature and condition monitoring is the proof the cargo arrived good.",
-      "why_this_business": "Refrigerated and pharmaceutical freight is monitored continuously with reefer download data and telematics establishing that temperature was maintained. Receivers reject loads on temperature data alone, and pharmaceutical consignees require documented conditions.",
-      "loss_scenario": "Loads rejected on arrival for unverifiable temperature, condemning cargo worth hundreds of thousands per trailer with the carrier bearing the claim.",
-      "rhetorical_question": "How is temperature data recorded and produced to the receiver?"
+      "headline": "Temperature controlled loads are monitored and recorded.",
+      "points": [
+        "Refrigerated freight is monitored with recorded temperature throughout transit.",
+        "Sanitary transportation rules oblige carriers to control temperature.",
+        "An excursion condemns the load and you cannot prove otherwise."
+      ],
+      "rhetorical_question": "How is temperature monitored and recorded on your refrigerated loads?"
     },
     {
       "rank": 3,
-      "headline": "Permits and routing for oversize loads are load-specific and legally required.",
-      "why_this_business": "Heavy haul and oversize movements require state-by-state permits with prescribed routes, travel times, and escort requirements. Moving outside permit conditions is a violation and voids the authorisation, and bridge routing exists to prevent structural failure.",
-      "loss_scenario": "A movement outside permitted routing causing bridge or overhead structure damage, where the carrier bears the infrastructure repair cost and the permit record is the evidence of what was authorised.",
-      "rhetorical_question": "How are oversize permits obtained, routed, and issued to drivers?"
+      "headline": "Electronic logging is federally required.",
+      "points": [
+        "Hours of service must be recorded by electronic logging devices.",
+        "Records are inspected at roadside and during audits.",
+        "Non-compliant logging puts trucks out of service."
+      ],
+      "rhetorical_question": "How are your electronic logging records maintained and backed up?"
     }
   ]
 }

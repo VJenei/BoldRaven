@@ -1,7 +1,6 @@
 {
   "naics_code": "111140",
   "naics_title": "Wheat Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Custom harvest is coordinated through cloud software across multiple states.",
-      "why_this_business": "Wheat harvest moves north from Texas to Montana. Field locations, acres, moisture readings, machine telematics, and per-acre billing are coordinated between grower and custom cutter through cloud platforms and mobile devices. When that coordination fails, machines and crews stop.",
-      "loss_scenario": "Idle custom harvest equipment and crew costs $8,000 to $15,000 per day. Standing wheat left through a weather event suffers shattering, sprout damage, and falling number discounts across the field.",
-      "rhetorical_question": "Do you use a custom harvest crew, and how is field and acre information shared with them?"
+      "headline": "Elevators settle by wire, and those instructions get faked.",
+      "points": [
+        "Grain is sold on contract and paid by electronic transfer.",
+        "A faked change of bank details redirects a delivery payment.",
+        "Cash flow arrives in a few large settlements each year."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from grain buyers by email?"
     },
     {
       "rank": 2,
-      "headline": "Premiums and discounts are calculated from grade data held by the buyer.",
-      "why_this_business": "Wheat settles on protein, test weight, falling number, and dockage. These are measured at the elevator and recorded in the elevator's system. The grower does not hold an independent copy. Disputes are resolved from the buyer's records.",
-      "loss_scenario": "A 40 cent protein premium on 60,000 bushels is $24,000. If the buyer's records are encrypted or unavailable, there is no basis to support a claim for that amount.",
-      "rhetorical_question": "Do you keep your own copy of scale tickets and grade sheets from your buyer?"
+      "headline": "Harvest is a two week window in the whole year.",
+      "points": [
+        "Combines, trucks, and elevator slots are scheduled around grain moisture.",
+        "Guidance, yield monitoring, and scale tickets run on connected systems.",
+        "Rain during a delay costs test weight and grade."
+      ],
+      "rhetorical_question": "What equipment or software would stop working if your farm systems went down?"
     },
     {
       "rank": 3,
-      "headline": "Crop insurance claims have deadlines that a systems outage does not extend.",
-      "why_this_business": "Federal crop insurance requires acreage reports by the acreage reporting date, notice of loss generally within 72 hours of discovery, and production records to support an APH claim. These records are held in farm management software and FSA and RMA portals.",
-      "loss_scenario": "A denied or reduced indemnity in a claim year. Wheat coverage commonly runs $80,000 to $250,000 on a mid-size operation.",
-      "rhetorical_question": "Do you carry federal crop insurance, and how are your production and acreage records stored?"
+      "headline": "Crop insurance and program payments depend on filed records.",
+      "points": [
+        "Acreage reports, production history, and yield records support every claim.",
+        "Filing deadlines are fixed and do not move.",
+        "Records you cannot produce become coverage you do not have."
+      ],
+      "rhetorical_question": "How are your acreage and production records kept and backed up?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your records identify exactly where children are during the day.",
-      "why_this_business": "Child care providers hold children's names, ages, photographs, medical and allergy information, authorised pickup lists, and daily attendance, along with parent contact and payment details. The records identify which children are at a specific location at specific times.",
-      "loss_scenario": "Exposure of children's identities, photographs, and attendance patterns, and of authorised pickup lists that exist precisely to prevent unauthorised persons collecting a child. This is a child safety exposure, not a data exposure.",
-      "rhetorical_question": "Do your records include authorised pickup lists and children's photographs?"
+      "headline": "You hold records on children and where they live.",
+      "points": [
+        "Records carry children's names, addresses, medical information, and authorised pickups.",
+        "That data tells someone exactly where a child is and who can collect them.",
+        "Every affected family must be notified."
+      ],
+      "rhetorical_question": "What child and family records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Custody arrangements are recorded because some adults must be excluded.",
-      "why_this_business": "Enrolment records document custody orders, restraining orders, and individuals who must not be permitted contact with a child. Those restrictions exist because a specific person poses a risk.",
-      "loss_scenario": "Disclosure to a person the child was being protected from, including the child's location and daily schedule, which is a direct and foreseeable safety event.",
-      "rhetorical_question": "Do your records identify individuals who are prohibited from collecting a child?"
+      "headline": "Access control determines who can take a child.",
+      "points": [
+        "Authorised pickup lists and access systems control who collects each child.",
+        "Custody disputes make that list legally significant.",
+        "Releasing a child to the wrong person is the worst outcome there is."
+      ],
+      "rhetorical_question": "How are authorised pickup records maintained and verified?"
     },
     {
       "rank": 3,
-      "headline": "Licensing requires staff screening and ratio documentation.",
-      "why_this_business": "Child care licensing requires background checks including fingerprinting for all staff, documented training, immunisation records for children, and staff to child ratio records, inspected and required after any incident.",
-      "loss_scenario": "Licensing action where screening and ratio records cannot be produced, and after any allegation of harm the absence of screening documentation is devastating to the provider and to parent confidence.",
-      "rhetorical_question": "How do you evidence that every staff member's background check is current?"
+      "headline": "Parents depend on care to go to work.",
+      "points": [
+        "Parents schedule work around childcare availability.",
+        "Enrolment, attendance, and billing run on connected systems.",
+        "A closure means parents cannot work that day."
+      ],
+      "rhetorical_question": "How many families depend on your care each day?"
     }
   ]
 }

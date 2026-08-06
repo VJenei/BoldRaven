@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Dairy shelf life is measured in days and the clock never stops.",
-      "why_this_business": "Fluid milk, cream, and fresh dairy have short code dates and move through the chain within days of production. Ordering, allocation, and delivery are recalculated daily against code date and demand. Product that sits becomes unsaleable rather than merely delayed.",
-      "loss_scenario": "A few days of disrupted ordering and delivery writes off perishable inventory outright and leaves retail customers out of stock on a category that drives store traffic.",
-      "rhetorical_question": "What is the typical shelf life remaining on product when it reaches your customers?"
+      "headline": "Dairy has days of shelf life and no buffer.",
+      "points": [
+        "Product moves from processor to customer within days.",
+        "Refrigeration is monitored through storage and transport.",
+        "A delay or temperature excursion writes off the whole load."
+      ],
+      "rhetorical_question": "Is your storage and transport temperature monitored and recorded?"
     },
     {
       "rank": 2,
-      "headline": "Cheeses on the Food Traceability List carry federal tracing duties.",
-      "why_this_business": "Soft ripened, semi-soft, and fresh soft cheeses are on the FDA Food Traceability List under FSMA Section 204, which requires traceability lot codes, Key Data Elements at Critical Tracking Events, and production of an electronic sortable spreadsheet to FDA within 24 hours of request, with a compliance date of July 20, 2028.",
-      "loss_scenario": "A Listeria traceback that cannot be answered quickly, expanding the recall and the public advisory across every cheese you distribute rather than the implicated lot.",
-      "rhetorical_question": "Do you distribute soft or fresh cheeses covered by the Food Traceability List?"
+      "headline": "Recall reach depends on your distribution records.",
+      "points": [
+        "Dairy recalls identify specific lots and production dates.",
+        "Your records determine which customers received them.",
+        "Product is consumed within days of purchase."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific product lot?"
     },
     {
       "rank": 3,
-      "headline": "Pricing moves with federal milk marketing order formulas.",
-      "why_this_business": "Dairy pricing is tied to federal order class prices announced monthly, with distributor margins set against a moving cost base. Contracts, price lists, and customer agreements must be updated against those announcements to preserve margin.",
-      "loss_scenario": "Selling at stale prices through a rising market, which on a low-margin commodity erases profitability across the whole volume before anyone notices.",
-      "rhetorical_question": "How quickly do your selling prices update when the federal order price changes?"
+      "headline": "Customers receive on daily routes.",
+      "points": [
+        "Stores and foodservice customers receive daily deliveries.",
+        "They hold days of stock at most.",
+        "A distribution failure empties dairy cases across the region."
+      ],
+      "rhetorical_question": "How many customers depend on your daily delivery routes?"
     }
   ]
 }

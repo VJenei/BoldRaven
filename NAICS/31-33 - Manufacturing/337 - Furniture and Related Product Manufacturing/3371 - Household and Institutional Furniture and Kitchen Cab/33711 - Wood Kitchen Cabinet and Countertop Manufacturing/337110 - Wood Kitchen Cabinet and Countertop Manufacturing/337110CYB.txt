@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Every kitchen is cut to a specific set of measurements.",
-      "why_this_business": "Cabinets and countertops are made to individual room dimensions from field measurements or templates, cut on CNC equipment from job-specific programmes. Parts cut to wrong dimensions fit no other job.",
-      "loss_scenario": "Jobs cut to wrong dimensions, with material scrapped, installation crews sent home, and homeowners or builders left with unfinished kitchens while the job is remade.",
+      "headline": "Every kitchen is cut to one set of measurements.",
+      "points": [
+        "Cabinets and countertops are cut on CNC equipment from job-specific programmes.",
+        "Parts cut to wrong dimensions fit no other job.",
+        "Crews go home and the homeowner has no kitchen."
+      ],
       "rhetorical_question": "How are field measurements captured and transferred into your cutting programmes?"
     },
     {
       "rank": 2,
-      "headline": "Formaldehyde emissions from composite panels are federally regulated.",
-      "why_this_business": "Composite wood products are subject to EPA TSCA Title VI formaldehyde emission standards with certification, labelling, and records required through the supply chain. Records must be retained and produced on request.",
-      "loss_scenario": "Inability to produce compliance records for panels used, which is a TSCA violation with penalties, and product that cannot be sold or must be recalled from distribution.",
+      "headline": "Panel emission compliance records are required by law.",
+      "points": [
+        "Composite wood products are subject to formaldehyde emission standards.",
+        "Certification and records must be retained through the supply chain.",
+        "Product without records cannot lawfully be sold."
+      ],
       "rhetorical_question": "How do you retain formaldehyde compliance certifications for panel purchases?"
     },
     {
       "rank": 3,
-      "headline": "Installation is scheduled against builder and remodel dates.",
-      "why_this_business": "Cabinets are delivered and installed at a point in a construction sequence, with countertop templating following cabinet installation and appliances, plumbing, and flooring behind that.",
-      "loss_scenario": "Delivery missed with the construction sequence stalled, and builders assessing delay costs across trades that cannot proceed until the kitchen is installed.",
+      "headline": "Installation sits inside a construction sequence.",
+      "points": [
+        "Cabinets install at a fixed point with countertop templating following.",
+        "Appliances, plumbing, and flooring are scheduled behind that.",
+        "Builders assess delay costs across every trade that cannot proceed."
+      ],
       "rhetorical_question": "What trades are scheduled behind your installation date?"
     }
   ]

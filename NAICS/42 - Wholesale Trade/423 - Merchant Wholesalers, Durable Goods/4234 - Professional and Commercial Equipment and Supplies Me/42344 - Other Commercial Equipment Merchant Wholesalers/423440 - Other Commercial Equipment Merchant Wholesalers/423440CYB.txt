@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Equipment is sold with installation, service, and remote support obligations.",
-      "why_this_business": "Commercial equipment distributors install and service machines at customer premises, increasingly with remote monitoring and diagnostic access retained for support. That access reaches customer sites and sometimes customer networks.",
-      "loss_scenario": "A compromise through your remote support tooling affects many customer sites at once, converting a distributor incident into third-party liability across the account base.",
-      "rhetorical_question": "Do you retain remote diagnostic access to equipment at customer sites?"
+      "headline": "Equipment you supply runs customer operations.",
+      "points": [
+        "Commercial equipment supports restaurants, retail, and service businesses.",
+        "Down equipment stops the customer's trading, not just a process.",
+        "Parts and service come through your systems."
+      ],
+      "rhetorical_question": "How are your service parts ordered and dispatched to customers?"
     },
     {
       "rank": 2,
-      "headline": "Parts and service revenue depends on equipment records.",
-      "why_this_business": "Aftermarket parts and service are the durable margin in equipment distribution, dispatched against installed base records showing model, serial, configuration, and service history. Without the installed base record you do not know what your customers own.",
-      "loss_scenario": "Loss of installed base and service history data undermines the recurring revenue stream that supports the business, and wrong parts shipped against guessed configurations are returned at your cost.",
-      "rhetorical_question": "How do you maintain records of equipment configuration at each customer site?"
+      "headline": "Payment terminals and connected equipment carry obligations.",
+      "points": [
+        "Equipment handling card payments carries payment security requirements.",
+        "Connected equipment links into customer networks.",
+        "Remediation reaches every installed site."
+      ],
+      "rhetorical_question": "Does the equipment you distribute handle payment card data?"
     },
     {
       "rank": 3,
-      "headline": "Distribution agreements and territories are contractual and revocable.",
-      "why_this_business": "Distributors hold territory and product line agreements with manufacturers requiring sales reporting, inventory commitments, and service capability. Loss of a line removes a substantial share of revenue with no substitute available.",
-      "loss_scenario": "Failure to meet reporting or service obligations during a prolonged outage puts distribution agreements at risk, which is an existential exposure for a single-line distributor.",
-      "rhetorical_question": "What share of your revenue comes from your largest manufacturer line?"
+      "headline": "Supplier payments settle by transfer on emailed instructions.",
+      "points": [
+        "Payments to manufacturers move by transfer.",
+        "Banking instructions arrive and are changed by email.",
+        "A diverted payment is a full order lost."
+      ],
+      "rhetorical_question": "How are changes to supplier banking details verified before payment?"
     }
   ]
 }

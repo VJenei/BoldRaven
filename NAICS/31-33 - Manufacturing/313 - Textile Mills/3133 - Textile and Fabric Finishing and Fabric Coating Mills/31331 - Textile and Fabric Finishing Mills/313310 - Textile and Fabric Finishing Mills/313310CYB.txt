@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Dyeing and finishing recipes are the technical core of the business.",
-      "why_this_business": "Finishing runs dye recipes, chemical applications, and heat setting programmes controlling colour, hand, and performance. Recipes are developed over years and reproducing a customer's colour and finish depends entirely on them.",
-      "loss_scenario": "Loss of recipes means colours and finishes that cannot be reproduced, with customers whose products depend on consistent appearance unable to continue and the mill unable to serve them.",
-      "rhetorical_question": "How many customer colour and finish recipes are stored in your systems?"
+      "headline": "You hold customer fabric that is already partly finished.",
+      "points": [
+        "Greige goods arrive carrying the customer's yarn and weaving cost.",
+        "Finishing is one of the last steps before cut and sew.",
+        "Fabric ruined in finishing is the customer's accumulated value, not yours."
+      ],
+      "rhetorical_question": "What is the value of customer fabric in your plant at any one time?"
     },
     {
       "rank": 2,
-      "headline": "Performance finishes carry certification and regulatory obligations.",
-      "why_this_business": "Flame retardant, water repellent, and antimicrobial finishes carry performance claims requiring testing and, for some chemistries, regulatory registration. PFAS-based repellents are subject to increasing state restrictions and disclosure requirements.",
-      "loss_scenario": "Products failing performance certification, and regulatory exposure where restricted chemistries were applied to goods shipped into jurisdictions that prohibit them.",
-      "rhetorical_question": "Do you apply chemistries subject to state restrictions or disclosure requirements?"
+      "headline": "Dyeing runs on recipes that must be exact.",
+      "points": [
+        "Colour recipes, temperatures, and times are held and executed by dyehouse controls.",
+        "Shade is matched against customer standards on every lot.",
+        "Off shade fabric cannot be used and cannot be redyed to match."
+      ],
+      "rhetorical_question": "Where are your colour recipes and dyeing parameters stored?"
     },
     {
       "rank": 3,
-      "headline": "Wastewater discharge is permitted and monitored.",
-      "why_this_business": "Textile finishing generates wastewater with colour, chemical oxygen demand, and chemical loading discharged under pretreatment permits with monitoring, sampling, and reporting to the receiving treatment works.",
-      "loss_scenario": "Permit exceedances and reporting failures where monitoring data cannot be produced, with penalties per violation and the receiving authority able to restrict or prohibit discharge, which stops production.",
-      "rhetorical_question": "What discharge monitoring and reporting does your pretreatment permit require?"
+      "headline": "Chemical use carries discharge permit obligations.",
+      "points": [
+        "Dyeing and finishing chemicals are discharged under wastewater permits.",
+        "Monitoring and reporting are required on a schedule.",
+        "Exceedances and missed reports carry penalties and can suspend the permit."
+      ],
+      "rhetorical_question": "What discharge monitoring and reporting does your permit require?"
     }
   ]
 }

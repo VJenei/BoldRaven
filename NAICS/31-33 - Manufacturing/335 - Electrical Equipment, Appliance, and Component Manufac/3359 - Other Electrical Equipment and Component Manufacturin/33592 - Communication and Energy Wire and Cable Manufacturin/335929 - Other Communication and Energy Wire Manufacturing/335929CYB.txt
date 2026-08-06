@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Wire and cable carry power and their listings prevent fires.",
-      "why_this_business": "Building wire and cable carry safety listings covering insulation, temperature rating, and flame spread. Cable that does not meet its listing overheats in walls and plenums and spreads fire through the building.",
-      "loss_scenario": "Non-conforming cable installed in buildings, which is a latent fire hazard requiring identification and replacement of cable already inside walls and ceilings, with listing agency and recall involvement.",
+      "headline": "Cable listings are what stop fires spreading in walls.",
+      "points": [
+        "Listings cover insulation, temperature rating, and flame spread.",
+        "Cable outside its listing overheats in walls and plenums.",
+        "Finding it means opening walls and ceilings across a building."
+      ],
       "rhetorical_question": "How are listing test results linked to specific production runs?"
     },
     {
       "rank": 2,
-      "headline": "Counterfeit and substandard cable is a known industry problem.",
-      "why_this_business": "Cable is counterfeited with false listing marks and undersized conductors, and industry programmes exist specifically to identify it. Manufacturers whose marks are copied face the failures and the reputational damage.",
-      "loss_scenario": "Counterfeit cable bearing your listing marks causing fires, with investigation, brand damage, and the cost of tracing and acting against the counterfeit supply.",
+      "headline": "Counterfeit cable carries your listing marks.",
+      "points": [
+        "Cable is counterfeited with false listing marks and undersized conductors.",
+        "Industry programmes exist specifically to identify it.",
+        "The fires and the reputational damage attach to your mark."
+      ],
       "rhetorical_question": "How can genuine cable be distinguished from counterfeits carrying your marks?"
     },
     {
       "rank": 3,
-      "headline": "Copper content makes production data and inventory valuable.",
-      "why_this_business": "Cable production consumes very large quantities of copper priced daily, with purchasing, hedging, and inventory managed through systems that carry substantial financial exposure.",
-      "loss_scenario": "Fraudulent payment or purchasing transactions in a business where single copper purchases run into millions, and inventory records manipulated to conceal diversion.",
+      "headline": "Copper purchases move millions at a time.",
+      "points": [
+        "Cable production consumes very large quantities of copper priced daily.",
+        "Purchasing and hedging carry substantial financial exposure.",
+        "A single fraudulent payment is a very large loss."
+      ],
       "rhetorical_question": "What is the value of a typical copper purchase, and how is payment authorised?"
     }
   ]

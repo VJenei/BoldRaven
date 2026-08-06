@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Active pharmaceutical ingredient manufacture is subject to FDA cGMP.",
-      "why_this_business": "API and botanical extract manufacturers supplying drug products operate under current good manufacturing practice with batch records, testing, deviation investigation, and change control. FDA inspects and issues observations against those records.",
-      "loss_scenario": "Batches that cannot be released for want of complete records, and FDA action including warning letters and import alerts where data integrity is questioned, which stops supply to every customer.",
-      "rhetorical_question": "Could you produce complete batch records for material shipped last year?"
+      "headline": "Active ingredient manufacturing is inspected by drug regulators.",
+      "points": [
+        "Batch records, testing, and validation are required under drug quality rules.",
+        "Regulators inspect those records directly and on short notice.",
+        "Findings can stop production and hold product already shipped."
+      ],
+      "rhetorical_question": "What batch and validation records do you maintain for your products?"
     },
     {
       "rank": 2,
-      "headline": "Data integrity is the focus of FDA enforcement in this sector.",
-      "why_this_business": "FDA has focused heavily on data integrity in pharmaceutical manufacturing, examining audit trails, whether records can be altered, and whether failing results were discarded. Electronic records must comply with Part 11 requirements.",
-      "loss_scenario": "Data integrity findings, which FDA treats as among the most serious observations and which have resulted in import alerts and consent decrees that halt supply from affected facilities entirely.",
-      "rhetorical_question": "Are audit trails enabled and protected on your laboratory and manufacturing systems?"
+      "headline": "Your material becomes someone else's finished drug.",
+      "points": [
+        "Active ingredients and botanicals go into finished pharmaceutical and supplement products.",
+        "A contamination or potency failure follows into their product.",
+        "The recall covers their finished drug, not your ingredient."
+      ],
+      "rhetorical_question": "How many customer products could contain a single lot of your material?"
     },
     {
       "rank": 3,
-      "headline": "Your material becomes someone else's finished drug.",
-      "why_this_business": "APIs and extracts are supplied to drug manufacturers who incorporate them into products administered to patients. Contamination or potency errors carry through into the finished drug.",
-      "loss_scenario": "Contaminated or out of specification API reaching patients through customers' finished products, with recall across every product containing the material and patient harm exposure.",
-      "rhetorical_question": "How many finished drug products could contain a single lot of your material?"
+      "headline": "Testing and identity records support every shipment.",
+      "points": [
+        "Identity, purity, and potency testing are performed and recorded per lot.",
+        "Customers and regulators both rely on those certificates.",
+        "A lot without records cannot be released or used."
+      ],
+      "rhetorical_question": "How are your test results and certificates of analysis retained?"
     }
   ]
 }

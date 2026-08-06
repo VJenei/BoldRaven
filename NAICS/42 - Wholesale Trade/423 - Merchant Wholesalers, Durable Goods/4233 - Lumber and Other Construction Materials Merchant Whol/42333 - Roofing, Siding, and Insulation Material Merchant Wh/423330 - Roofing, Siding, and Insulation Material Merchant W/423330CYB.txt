@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Storm events create demand surges that must be served immediately.",
-      "why_this_business": "After hail and wind events, demand in a territory multiplies for weeks, with contractors ordering daily and rooftop delivery scheduled by boom truck. Allocation of scarce material across contractor accounts is managed in the order system. Contractors buy from whoever can deliver tomorrow.",
-      "loss_scenario": "A systems outage during a post-storm surge forfeits the highest volume period of the year to competitors, and contractor accounts established during a storm often stay with the new supplier.",
-      "rhetorical_question": "How much of your annual volume is driven by storm restoration demand?"
+      "headline": "Storm demand spikes without warning.",
+      "points": [
+        "After a storm, demand for roofing material multiplies within days.",
+        "Orders, inventory, and delivery scheduling all surge together.",
+        "Contractors go to whoever can actually deliver."
+      ],
+      "rhetorical_question": "How does your order and delivery system handle post-storm demand surges?"
     },
     {
       "rank": 2,
-      "headline": "Contractor credit exposure concentrates quickly in storm markets.",
-      "why_this_business": "Storm work draws contractors from other regions who open credit accounts quickly, take large deliveries, and may leave the market when the work ends. Credit files hold business and personal guarantor information, and lien rights against the homeowner's property secure the balance.",
-      "loss_scenario": "Uncollectable balances from contractors who left the market, compounded by lost lien rights where delivery records supporting the notice deadlines were unavailable.",
-      "rhetorical_question": "How do you evaluate credit for contractors new to your market after a storm?"
+      "headline": "Material must be on the roof the day the crew is.",
+      "points": [
+        "Roofing is delivered to the site on the day of tear-off.",
+        "Open roofs cannot be left overnight.",
+        "A missed delivery leaves a building exposed to weather."
+      ],
+      "rhetorical_question": "How are your deliveries scheduled against contractor tear-off dates?"
     },
     {
       "rank": 3,
-      "headline": "Manufacturer warranty programmes depend on documented distribution.",
-      "why_this_business": "System warranties on commercial roofing require material supplied through authorised channels to certified contractors, documented from distributor records. Rebate and co-op programmes are also settled from sales data submitted to the manufacturer.",
-      "loss_scenario": "Warranty disputes where the distribution chain cannot be evidenced, and forfeited manufacturer rebates that frequently represent a large share of distributor margin.",
-      "rhetorical_question": "How do you report sales data to manufacturers for warranty and rebate programmes?"
+      "headline": "Warranty registration depends on your records.",
+      "points": [
+        "Manufacturer warranties require documented material and installation records.",
+        "Building owners rely on that warranty for decades.",
+        "Without records the owner has no warranty at all."
+      ],
+      "rhetorical_question": "How are manufacturer warranty and material records retained and passed on?"
     }
   ]
 }

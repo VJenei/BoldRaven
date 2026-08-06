@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The curtain goes up on a fixed date whether ticketing works or not.",
-      "why_this_business": "Performances are scheduled months ahead with cast, crew, venue, and marketing committed. Ticketing, seat assignment, and box office operations run on connected systems, and patrons arrive at a fixed time expecting to be seated.",
-      "loss_scenario": "Performances cancelled or unticketed with the full production cost already incurred, refunds owed on advance sales, and subscription patrons whose renewal decisions follow the experience.",
-      "rhetorical_question": "What does one cancelled performance cost when the production is already built and cast?"
+      "headline": "The curtain goes up on a date that cannot move.",
+      "points": [
+        "Performances are scheduled with cast, crew, and audiences committed.",
+        "Ticketing and seating run on connected systems.",
+        "A cancelled performance is refunded and cannot be resold."
+      ],
+      "rhetorical_question": "How are your tickets sold and seats assigned?"
     },
     {
       "rank": 2,
-      "headline": "Subscriber and donor records hold payment data and giving histories.",
-      "why_this_business": "Theatres depend on subscription renewals and philanthropic giving, holding patron contact details, stored payment methods, seat preferences, and donor histories including major gift capacity assessments and internal notes about donors.",
-      "loss_scenario": "Exposure of donor capacity notes and giving histories damages relationships with the major donors who fund the organisation, and payment data compromise across the subscriber base brings card brand liability.",
-      "rhetorical_question": "Do your donor records contain internal notes about individual giving capacity?"
+      "headline": "Patron records hold payment and contact data.",
+      "points": [
+        "Subscriber and single ticket records carry contact and payment card details.",
+        "Season subscriptions run automatically against those records.",
+        "Every affected patron must be notified."
+      ],
+      "rhetorical_question": "How many patron records with payment details do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Licensing and royalty obligations depend on documented performance data.",
-      "why_this_business": "Performance rights are licensed per production with royalties calculated on box office receipts and performance counts, reported to licensors who audit. Unlicensed performance is copyright infringement.",
-      "loss_scenario": "Royalty disputes and licensor audits where box office and performance records cannot be produced, with rights holders able to withhold future licences for titles the company has already programmed.",
-      "rhetorical_question": "How do you report box office receipts to your rights licensors?"
+      "headline": "Donor records are the funding base.",
+      "points": [
+        "Donor identities, giving history, and contact details support fundraising.",
+        "Donors give on the basis of a personal relationship.",
+        "Exposure of giving records damages that relationship permanently."
+      ],
+      "rhetorical_question": "What donor records and giving history do you hold?"
     }
   ]
 }

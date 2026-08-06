@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold floor plans and access information for clients' homes and offices.",
-      "why_this_business": "Designers hold measured drawings, photographs, security and technology layouts, and access arrangements for residential and commercial clients. Residential work frequently involves affluent clients whose homes and possessions are documented in detail.",
-      "loss_scenario": "Exposure of floor plans, valuable furnishings, and access details for identified addresses is a burglary targeting resource, and high net worth clients treat the confidentiality failure as unforgivable.",
-      "rhetorical_question": "Do your project files include floor plans and photographs of clients' homes?"
+      "headline": "Drawings and specifications are the deliverable.",
+      "points": [
+        "Design drawings, finish schedules, and specifications represent the project work.",
+        "Contractors and vendors order and build from those documents.",
+        "Recreating them means redesigning the project."
+      ],
+      "rhetorical_question": "Where are your project drawings and specifications stored?"
     },
     {
       "rank": 2,
-      "headline": "Procurement means you are handling clients' money.",
-      "why_this_business": "Designers specify and purchase furniture, fixtures, and finishes on behalf of clients, collecting deposits and paying vendors on long lead time orders. Payment instructions to vendors and deposit requests to clients move by email.",
-      "loss_scenario": "Diverted client deposits or vendor payments on orders that were never placed, with lead times meaning the loss is discovered months later and the client still expects the goods.",
-      "rhetorical_question": "How much client money passes through your accounts for procurement each year?"
+      "headline": "Procurement moves client money to vendors.",
+      "points": [
+        "Furniture and finish orders are placed and paid on client funds.",
+        "Vendor banking instructions arrive and change by email.",
+        "A diverted payment is client money you must replace."
+      ],
+      "rhetorical_question": "How are vendor payment instructions verified before client funds move?"
     },
     {
       "rank": 3,
-      "headline": "Specifications and orders are the only record of what was selected.",
-      "why_this_business": "Projects involve hundreds of specified items with finishes, dimensions, and lead times, ordered against a schedule tied to construction completion. Custom items are made to the specification and are not returnable.",
-      "loss_scenario": "Lost specification and order records mean items ordered wrong or not at all, on custom goods with long lead times and a client move-in date that has already been set.",
-      "rhetorical_question": "How many specified items are on order for your active projects right now?"
+      "headline": "Installation is scheduled against occupancy dates.",
+      "points": [
+        "Furniture and finishes install against a move-in or opening date.",
+        "Long lead items are ordered months ahead.",
+        "A missed date leaves a space unusable."
+      ],
+      "rhetorical_question": "What occupancy dates depend on your project delivery?"
     }
   ]
 }

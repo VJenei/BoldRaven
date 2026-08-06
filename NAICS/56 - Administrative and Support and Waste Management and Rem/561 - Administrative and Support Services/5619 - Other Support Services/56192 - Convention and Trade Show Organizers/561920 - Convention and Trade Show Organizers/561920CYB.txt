@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The event happens on its date whether or not your systems work.",
-      "why_this_business": "Trade shows and conventions are booked years ahead with venues, exhibitors, and attendees committing to a fixed date. Registration, badging, floor plans, exhibitor manuals, and lead retrieval all run on connected systems in the days before and during the event.",
-      "loss_scenario": "An event that cannot register or badge attendees on opening morning, with thousands of people arriving and exhibitors who paid for access to them. Refund and reputational exposure across the whole event.",
-      "rhetorical_question": "What happens on opening morning if your registration and badging systems are unavailable?"
+      "headline": "Events happen on a fixed date with everything committed.",
+      "points": [
+        "Venues, exhibitors, and attendees are committed months ahead.",
+        "Nothing about the date can move.",
+        "A failure before the show wastes everything already spent."
+      ],
+      "rhetorical_question": "How far ahead are your venue and exhibitor commitments made?"
     },
     {
       "rank": 2,
-      "headline": "Attendee and exhibitor databases are the asset the show is built on.",
-      "why_this_business": "Organisers hold attendee registration data, exhibitor contracts, lead retrieval data, and multi-year participation histories. The attendee list is what exhibitors pay for and is closely guarded from competing events.",
-      "loss_scenario": "Exposure of the attendee database allows competing events to target your audience directly, and breach notification covers attendees across many years and jurisdictions.",
-      "rhetorical_question": "How many years of attendee and exhibitor records are held in your systems?"
+      "headline": "Registration holds attendee and payment data.",
+      "points": [
+        "Registration carries names, employers, contact details, and payment cards.",
+        "Attendee lists are commercially valuable to exhibitors and competitors.",
+        "Every affected attendee must be notified."
+      ],
+      "rhetorical_question": "How many attendee registrations with payment data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Exhibitor payments and space contracts move large sums ahead of the event.",
-      "why_this_business": "Exhibitors contract and pay for space months in advance, with sponsorship and service orders following. Organisers pay venues, contractors, and suppliers on their own schedules, holding funds in between.",
-      "loss_scenario": "Diverted exhibitor payments or supplier payments, leaving space unpaid and services unbooked, with the event obligation continuing regardless and insolvency risk if funds cannot be recovered.",
-      "rhetorical_question": "What value of exhibitor payments do you hold ahead of your next event?"
+      "headline": "Exhibitor payments and floor plans run the show.",
+      "points": [
+        "Booth sales, payments, and floor assignments run on connected systems.",
+        "Exhibitors ship stands and staff to assigned locations.",
+        "A lost floor plan is a show floor nobody can set up."
+      ],
+      "rhetorical_question": "How are your booth sales and floor plans recorded?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialty mineral customers qualify a source and hold it to specification.",
-      "why_this_business": "Phosphate, potash, borate, gypsum, salt, and similar operations sell to industrial customers who qualify the source and test every delivery. Certificates of analysis, lot traceability, and specification records are held in laboratory and quality systems and are a condition of purchase.",
-      "loss_scenario": "Rejected shipments and possible disqualification of the source, which for an industrial mineral customer is a lengthy requalification process.",
-      "rhetorical_question": "Do your customers require a certificate of analysis with each shipment?"
+      "headline": "Processing runs under automated control to hold specification.",
+      "points": [
+        "Crushing, screening, drying, and blending are controlled electronically.",
+        "Product value depends on meeting a chemical or physical specification.",
+        "Off specification material is rejected at the customer."
+      ],
+      "rhetorical_question": "Is your processing plant run by automated process control?"
     },
     {
       "rank": 2,
-      "headline": "Extraction and processing depend on continuous automated plants.",
-      "why_this_business": "Solution mining, evaporation ponds, flotation, and thermal drying all run under automated control with pond level, brine chemistry, and dryer temperature managed continuously. Evaporation and solution circuits in particular respond over weeks, not hours.",
-      "loss_scenario": "Loss of pond or brine control causes off-specification product and, if ponds overtop, a reportable environmental release with remediation cost.",
-      "rhetorical_question": "Do you operate ponds or solution circuits with automated level and chemistry control?"
+      "headline": "Loadout and ticketing record every sale.",
+      "points": [
+        "Material is weighed and ticketed automatically at shipment.",
+        "Invoicing, royalties, and tax follow those records.",
+        "Without the system you cannot bill what you shipped."
+      ],
+      "rhetorical_question": "How are your scales and load tickets recorded?"
     },
     {
       "rank": 3,
-      "headline": "Mine safety and environmental compliance are documented obligations.",
-      "why_this_business": "MSHA governs training records, workplace examinations, and equipment inspections at every mine site regardless of size. Environmental permits carry monitoring and reporting duties. All of it is maintained electronically and produced on demand during inspection.",
-      "loss_scenario": "Citations and penalties for records that cannot be produced, including training records where the default assumption is that training did not occur.",
-      "rhetorical_question": "How do you store MSHA training records and workplace examination logs?"
+      "headline": "Permits and reclamation obligations are tracked by record.",
+      "points": [
+        "Mining permits, bonds, and reclamation plans carry reporting requirements.",
+        "Regulators inspect against filed plans and records.",
+        "Non-compliance can suspend the permit that allows mining."
+      ],
+      "rhetorical_question": "What permit and reclamation reporting deadlines apply to your operation?"
     }
   ]
 }

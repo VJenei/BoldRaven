@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pet food recalls kill animals and move fast.",
-      "why_this_business": "Pet food is regulated by FDA with facility registration, preventive controls, and recall authority. Contamination events including aflatoxin, salmonella, and vitamin D excess have killed and sickened large numbers of animals, with recalls traced through production lot records.",
-      "loss_scenario": "A recall that cannot be narrowed to affected lots covers all production in a period, multiplying the cost many times, plus wrongful death claims from owners whose pets died and reputational damage that persists for years.",
-      "rhetorical_question": "Could you identify every customer and retailer that received a specific production lot?"
+      "headline": "A contaminated batch kills pets and the news travels fast.",
+      "points": [
+        "Ingredient sourcing, mixing, and heat treatment are controlled by batch records.",
+        "Aflatoxin, salmonella, and vitamin errors have all killed pets in recalls.",
+        "Owners react to a pet food recall harder than to any human food recall."
+      ],
+      "rhetorical_question": "Could you identify every retailer and lot affected by one day of production?"
     },
     {
       "rank": 2,
-      "headline": "Formulation and batching are automated and nutritionally critical.",
-      "why_this_business": "Production runs on automated batching systems weighing and blending ingredients including vitamin and mineral premixes to a formulation. Errors in micronutrient addition, particularly vitamin D, have caused mass animal illness and death.",
-      "loss_scenario": "A batching or formulation error distributed across production before analytical testing detects it, with animals harmed and a recall that reaches every bag produced during the affected period.",
-      "rhetorical_question": "How is micronutrient addition verified during batching?"
+      "headline": "Federal rules require a written food safety plan and records.",
+      "points": [
+        "Preventive controls, hazard analysis, and monitoring records are required and inspected.",
+        "Records must be produced to inspectors on request.",
+        "Records you cannot produce are treated as controls you did not perform."
+      ],
+      "rhetorical_question": "What preventive control monitoring records does your food safety plan require?"
     },
     {
       "rank": 3,
-      "headline": "Ingredient traceability supports every recall decision.",
-      "why_this_business": "Manufacturers must trace ingredients from supplier lot through production to finished goods, with FSMA preventive controls requiring supply chain programmes for hazards controlled by suppliers. Contamination frequently originates upstream.",
-      "loss_scenario": "An ingredient contamination event where the affected finished lots cannot be identified, requiring recall of everything and preventing any claim against the supplier whose ingredient caused it.",
-      "rhetorical_question": "Can you trace a supplier ingredient lot forward to every finished product it entered?"
+      "headline": "Formulas and nutrient specifications are the product.",
+      "points": [
+        "Recipes, nutrient profiles, and process parameters are held in production systems.",
+        "Formulation errors produce nutrient deficiencies that harm animals over weeks.",
+        "A wrong formula affects everything made until someone notices."
+      ],
+      "rhetorical_question": "Where are your formulas and batching parameters stored?"
     }
   ]
 }

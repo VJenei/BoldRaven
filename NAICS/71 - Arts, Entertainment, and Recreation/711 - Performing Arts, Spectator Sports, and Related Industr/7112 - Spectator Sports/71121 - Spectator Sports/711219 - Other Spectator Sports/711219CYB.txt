@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Event operations depend on ticketing and access control.",
-      "why_this_business": "Events sell tickets in advance through platforms holding customer payment and identity data, with digital ticketing and gate access controlling entry. Attendees arrive in a concentrated window for a fixed start time.",
-      "loss_scenario": "Attendees unable to enter with crowd management becoming a safety concern, plus refund obligations and lost ancillary revenue on an event that happens once.",
-      "rhetorical_question": "How would you admit ticket holders if your digital ticketing failed at the gate?"
+      "headline": "Event ticketing and access run every event.",
+      "points": [
+        "Tickets are sold and scanned electronically at the gate.",
+        "Crowds arrive within a narrow window before the event.",
+        "A ticketing failure means people outside who cannot be admitted."
+      ],
+      "rhetorical_question": "How are your tickets sold and scanned at the gate?"
     },
     {
       "rank": 2,
-      "headline": "Participant and athlete data includes medical and personal information.",
-      "why_this_business": "Organisations hold athlete registration, medical clearances, injury records, and for youth and amateur sport, minors' information and parental contacts. Anti-doping programmes add testing and whereabouts data.",
-      "loss_scenario": "Exposure of athlete medical and, in youth sport, minors' data, with safeguarding consequences and governing body involvement in addition to the breach itself.",
-      "rhetorical_question": "Do you hold medical clearances or minors' registration data for participants?"
+      "headline": "Participant and competitor data is sensitive.",
+      "points": [
+        "Records carry identity, medical, and contract information for participants.",
+        "Medical and contract data affects careers.",
+        "Every affected participant must be notified."
+      ],
+      "rhetorical_question": "What participant medical and contract data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Wagering integrity now attaches to more sports than ever.",
-      "why_this_business": "Legal sports wagering has expanded to cover many competitions, making non-public information about participants, injuries, and event conditions commercially valuable and subject to integrity monitoring by regulators and leagues.",
-      "loss_scenario": "Non-public participant or injury information reaching wagering markets, triggering integrity investigations by regulators and governing bodies with sanctions against the organisation.",
-      "rhetorical_question": "Is wagering offered on your events, and what non-public information do you hold?"
+      "headline": "Events are scheduled and cannot move.",
+      "points": [
+        "Events are booked with venues, participants, and broadcast commitments.",
+        "Spectators and broadcasters plan around those dates.",
+        "A cancelled event is refunded and cannot be rescheduled cheaply."
+      ],
+      "rhetorical_question": "How are your event bookings and schedules recorded?"
     }
   ]
 }

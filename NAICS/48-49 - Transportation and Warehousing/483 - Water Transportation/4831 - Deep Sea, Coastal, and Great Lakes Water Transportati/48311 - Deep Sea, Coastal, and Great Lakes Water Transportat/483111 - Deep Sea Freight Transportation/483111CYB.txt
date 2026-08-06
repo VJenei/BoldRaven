@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "A single malware event cost one carrier around $300 million.",
-      "why_this_business": "The NotPetya attack in June 2017 destroyed the IT environment of Maersk, the world's largest container carrier, forcing terminals to close and requiring reinstallation of thousands of servers and workstations. The company disclosed losses of roughly $250 to $300 million. Container shipping runs on booking, documentation, and terminal systems that have no manual equivalent at scale.",
-      "loss_scenario": "Bookings, manifests, and terminal operations stop simultaneously. Vessels continue to arrive whether or not you can process them, and demurrage and detention accumulate across thousands of containers.",
-      "rhetorical_question": "How would you accept and document a booking if your systems were unavailable?"
+      "headline": "Federal maritime cybersecurity rules now apply to you.",
+      "points": [
+        "Coast Guard rules impose cybersecurity requirements on regulated vessels and operators.",
+        "Account, device, and plan requirements phase in on set dates.",
+        "Findings can restrict vessel operations directly."
+      ],
+      "rhetorical_question": "What maritime cybersecurity requirements apply to your vessels?"
     },
     {
       "rank": 2,
-      "headline": "The Coast Guard now imposes mandatory maritime cybersecurity requirements.",
-      "why_this_business": "The Coast Guard final rule on Cybersecurity in the Marine Transportation System took effect July 16, 2025, applying to US-flagged vessels and MTSA-regulated facilities. Reportable cyber incidents must be reported to the National Response Center without delay from that date, personnel training is required by January 12, 2026, and a designated Cybersecurity Officer, assessment, and approved Cybersecurity Plan are required by July 16, 2027.",
-      "loss_scenario": "Coast Guard enforcement, vessel detention, and Captain of the Port orders restricting operations until deficiencies are corrected.",
-      "rhetorical_question": "Have you designated a Cybersecurity Officer and begun your Cybersecurity Assessment?"
+      "headline": "Vessel navigation and control systems are networked.",
+      "points": [
+        "Navigation, engine control, and ballast systems are increasingly connected.",
+        "Position reporting and chart updates arrive electronically.",
+        "A compromised system at sea has no immediate help available."
+      ],
+      "rhetorical_question": "What vessel systems are connected to shore networks?"
     },
     {
       "rank": 3,
-      "headline": "Vessel navigation and engineering systems are networked and at sea.",
-      "why_this_business": "Modern vessels integrate ECDIS, GPS, AIS, radar, engine monitoring, and ballast control, with satellite connectivity for remote diagnostics and crew internet. GPS spoofing and jamming are documented and increasingly common in certain waters.",
-      "loss_scenario": "Navigation compromise or spoofing leading to grounding or collision, which is a hull, cargo, pollution, and life safety loss simultaneously, with salvage and wreck removal costs on top.",
-      "rhetorical_question": "Are your navigation and engineering networks separated from crew internet access?"
+      "headline": "Cargo documentation gates every port call.",
+      "points": [
+        "Manifests, customs filings, and cargo documentation are submitted electronically.",
+        "Port entry and discharge depend on that documentation.",
+        "A vessel that cannot file cannot discharge, and demurrage accrues."
+      ],
+      "rhetorical_question": "How are your manifests and customs filings submitted before arrival?"
     }
   ]
 }

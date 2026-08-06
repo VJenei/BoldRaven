@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Signs are structures that fall on people.",
-      "why_this_business": "Signs are mounted at height on buildings and poles, engineered for wind load with structural connections and, for large signs, sealed engineering. A sign that comes off a building falls on the sidewalk below.",
-      "loss_scenario": "A sign or its mounting failing in a wind event and falling on pedestrians or vehicles, with the engineering and fabrication records determining whether it was ever designed for the site.",
+      "headline": "Signs fall on people below them.",
+      "points": [
+        "Signs are mounted at height on buildings and poles.",
+        "Wind load engineering and connections determine whether they stay up.",
+        "A sign that comes off lands on the sidewalk."
+      ],
       "rhetorical_question": "How are structural engineering and installation records retained per sign?"
     },
     {
       "rank": 2,
-      "headline": "Electric signs carry electrical safety listings.",
-      "why_this_business": "Illuminated signs carry safety listings covering wiring, transformers, and enclosure construction, required by electrical code for installation. Sign fires and shock incidents trace to construction outside the listing.",
-      "loss_scenario": "Signs built outside their listed configuration causing a fire on a building or shock injury during service, with removal required across every installation from the affected period.",
+      "headline": "Illuminated signs carry electrical safety listings.",
+      "points": [
+        "Listings cover wiring, transformers, and enclosure construction.",
+        "Electrical code requires the listing for installation.",
+        "Sign fires and shock incidents trace to construction outside the listing."
+      ],
       "rhetorical_question": "How are electrical listing requirements controlled through your fabrication?"
     },
     {
       "rank": 3,
-      "headline": "Every sign is made once to an approved design and permit.",
-      "why_this_business": "Signs are fabricated to customer-approved artwork and dimensions, frequently with municipal permits limiting size, illumination, and placement. Wrong artwork or dimensions cannot be corrected after fabrication.",
-      "loss_scenario": "Signs fabricated to wrong artwork or outside permitted dimensions, scrapped entirely, with the customer's opening date missed and the permit process restarted.",
+      "headline": "Every sign is made once to approved artwork and a permit.",
+      "points": [
+        "Artwork and dimensions are customer approved and often permit limited.",
+        "Wrong artwork cannot be corrected after fabrication.",
+        "The customer's opening date is missed and the permit process restarts."
+      ],
       "rhetorical_question": "How is approved artwork and permitted dimension data controlled into fabrication?"
     }
   ]

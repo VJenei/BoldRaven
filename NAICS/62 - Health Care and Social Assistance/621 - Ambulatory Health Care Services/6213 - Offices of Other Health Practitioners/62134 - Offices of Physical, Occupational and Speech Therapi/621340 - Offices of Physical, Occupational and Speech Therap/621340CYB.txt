@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Therapy documentation is what supports every billed visit.",
-      "why_this_business": "Therapy billing requires documented evaluations, plans of care, physician certification, and progress notes justifying medical necessity for each visit. Medicare and commercial payers audit this documentation and recoup where it is absent.",
-      "loss_scenario": "Extrapolated recoupment across thousands of visits where documentation cannot be produced, which routinely exceeds the value of the claims actually reviewed.",
-      "rhetorical_question": "How many years of therapy documentation must you retain for payer audits?"
+      "headline": "Patient records are federally protected.",
+      "points": [
+        "Treatment plans, progress notes, and insurance data are held per patient.",
+        "Health privacy law requires notification of every affected patient.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "How many patient records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "You hold protected health information as a covered entity.",
-      "why_this_business": "Therapy practices hold diagnoses, functional assessments, treatment histories, and insurance data, with HIPAA obligations for security, risk analysis, and breach notification. Paediatric therapy adds children's developmental and educational records.",
-      "loss_scenario": "HIPAA notification across the patient base with OCR enforcement, and where children's developmental records are involved, additional sensitivity and school district relationships affected.",
-      "rhetorical_question": "Do you treat paediatric patients whose developmental records you hold?"
+      "headline": "Treatment schedules run continuously.",
+      "points": [
+        "Patients attend on frequent, scheduled courses of treatment.",
+        "Continuity of treatment affects clinical outcomes.",
+        "Patients arrive whether or not the system is running."
+      ],
+      "rhetorical_question": "What happens to scheduled patients if your practice system is unavailable?"
     },
     {
       "rank": 3,
-      "headline": "Scheduling drives a business built on visit volume.",
-      "why_this_business": "Therapy practices depend on high visit volume across scheduled appointment slots, with authorisations limiting the number of visits and requiring reauthorisation. Cancelled slots are revenue that cannot be recovered.",
-      "loss_scenario": "Cancelled schedules across multiple clinics with fixed therapist salaries continuing, and authorisation periods expiring while patients cannot be seen.",
-      "rhetorical_question": "How many visits per day does your practice need to cover its fixed costs?"
+      "headline": "Documentation supports every claim.",
+      "points": [
+        "Payers require documented medical necessity and progress.",
+        "Audits examine that documentation directly.",
+        "Treatment you cannot document cannot be billed."
+      ],
+      "rhetorical_question": "How is your treatment documentation maintained for payer audits?"
     }
   ]
 }

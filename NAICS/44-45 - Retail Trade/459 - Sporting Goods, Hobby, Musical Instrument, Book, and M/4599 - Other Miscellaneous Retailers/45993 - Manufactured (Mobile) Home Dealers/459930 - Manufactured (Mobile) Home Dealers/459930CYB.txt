@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Arranging home financing makes you a regulated financial institution.",
-      "why_this_business": "Manufactured housing dealers assisting with financing are subject to the FTC Safeguards Rule under GLBA, requiring a written security programme, a qualified individual, multi-factor authentication, and encryption of customer information since June 9, 2023. Many also fall under mortgage-related rules depending on their role in the transaction.",
-      "loss_scenario": "FTC enforcement plus breach notification for customers whose complete financial profiles, including Social Security numbers and income documentation, were held for a home purchase.",
-      "rhetorical_question": "Do you assist customers with financing, and do you have a written security programme?"
+      "headline": "You hold complete buyer credit files.",
+      "points": [
+        "Credit applications carry social security numbers, income, and bank details.",
+        "Federal safeguards rules require a written security programme.",
+        "Every buyer must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many completed credit applications are stored in your systems?"
     },
     {
       "rank": 2,
-      "headline": "Buyers are frequently in the least resilient financial position.",
-      "why_this_business": "Manufactured housing serves buyers with limited savings and often impaired credit, whose applications contain complete financial disclosure. These customers have the least ability to absorb identity theft and the greatest exposure to its consequences.",
-      "loss_scenario": "A breach affecting a customer base least able to recover, generating regulatory attention and litigation that focuses on the vulnerability of the affected population.",
-      "rhetorical_question": "How many years of customer credit files are held in your systems?"
+      "headline": "Sales involve financing, titling, and site work.",
+      "points": [
+        "Purchase, lender funding, titling, and site preparation are coordinated together.",
+        "Payments move by transfer against emailed instructions.",
+        "A diverted payment leaves a home delivered and unpaid."
+      ],
+      "rhetorical_question": "How are wire instructions verified before a funding transfer?"
     },
     {
       "rank": 3,
-      "headline": "Titling, siting, and installation records follow the home for decades.",
-      "why_this_business": "Manufactured homes are titled, sited, and installed to HUD standards with foundation, anchoring, and setup documentation required for financing, insurance, and resale. Installation records establish that the home was set correctly.",
-      "loss_scenario": "Wind or structural damage claims years later where installation records cannot be produced, leaving the dealer unable to demonstrate the home was set to standard.",
-      "rhetorical_question": "How long do you retain installation and setup documentation after a sale?"
+      "headline": "Delivery and setup are scheduled with buyers.",
+      "points": [
+        "Transport, setup, and utility connection are booked to a date.",
+        "Buyers arrange moving and often have nowhere else to live.",
+        "A lost schedule leaves a family without a home."
+      ],
+      "rhetorical_question": "How are your delivery and setup schedules recorded?"
     }
   ]
 }

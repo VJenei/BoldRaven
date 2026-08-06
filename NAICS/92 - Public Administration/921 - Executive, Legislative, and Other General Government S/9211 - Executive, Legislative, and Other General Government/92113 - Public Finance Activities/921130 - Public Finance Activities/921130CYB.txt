@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You control the government's money movement.",
-      "why_this_business": "Treasury and finance functions execute payroll, vendor payments, debt service, and investment transactions for the governmental unit, with banking relationships and payment authority concentrated in a small team.",
-      "loss_scenario": "Fraudulent transfers of public funds in amounts reflecting governmental cash positions, with public accountability, potential criminal investigation, and appropriation consequences for the loss.",
-      "rhetorical_question": "What is the largest single payment your treasury function can execute?"
+      "headline": "You move public money by transfer.",
+      "points": [
+        "Payments, transfers, and disbursements move public funds continuously.",
+        "Payment instructions arrive and change electronically.",
+        "A diverted payment is public money that must be recovered or replaced."
+      ],
+      "rhetorical_question": "How are payment instructions verified before public funds move?"
     },
     {
       "rank": 2,
-      "headline": "Tax and revenue systems hold complete taxpayer records.",
-      "why_this_business": "Revenue functions hold taxpayer identity, income, property, and payment data for every taxpayer in the jurisdiction, including Social Security numbers and banking details for electronic payment and refunds.",
-      "loss_scenario": "Breach exposing taxpayer data across an entire jurisdiction, with fraudulent refund claims and identity theft at population scale, and state law notification obligations for a governmental entity with limited funding to meet them.",
-      "rhetorical_question": "How many taxpayer records with Social Security numbers does your jurisdiction hold?"
+      "headline": "Taxpayer records hold complete financial data.",
+      "points": [
+        "Tax and payment records carry identity, income, and property information.",
+        "Residents have no choice about providing it.",
+        "Every affected taxpayer must be notified."
+      ],
+      "rhetorical_question": "How many taxpayer records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Debt issuance and financial reporting are deadline-bound.",
-      "why_this_business": "Governments issue debt against disclosure documents, make continuing disclosure filings, and produce audited financial statements on statutory deadlines. Bond covenants and market access depend on that reporting.",
-      "loss_scenario": "Missed continuing disclosure and financial reporting deadlines, which affects credit rating and market access, raising borrowing costs for the jurisdiction for years.",
-      "rhetorical_question": "What financial reporting deadlines does your bond documentation impose?"
+      "headline": "Financial systems support statutory deadlines.",
+      "points": [
+        "Budget, payroll, and reporting run to statutory deadlines.",
+        "Those deadlines are set by law and do not move.",
+        "Missed deadlines are statutory violations."
+      ],
+      "rhetorical_question": "What statutory financial reporting deadlines apply to you?"
     }
   ]
 }

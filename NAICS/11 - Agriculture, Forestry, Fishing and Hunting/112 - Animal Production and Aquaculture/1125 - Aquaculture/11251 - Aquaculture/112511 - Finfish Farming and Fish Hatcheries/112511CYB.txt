@@ -1,7 +1,6 @@
 {
   "naics_code": "112511",
   "naics_title": "Finfish Farming and Fish Hatcheries",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Oxygen and circulation systems are automated and fish die within minutes without them.",
-      "why_this_business": "Recirculating aquaculture systems and intensive pond and raceway operations require continuous aeration, oxygen injection, water circulation, biofilter function, and temperature control. These are managed by automated controllers with alarm telemetry. Dissolved oxygen crashes kill a tank or pond within minutes to hours.",
-      "loss_scenario": "One RAS tank or raceway can hold $100,000 to $500,000 of fish near market size. A failure causes total mortality plus a biofilter crash that takes weeks to re-establish before restocking.",
-      "rhetorical_question": "How is your dissolved oxygen monitored, and how are alarms delivered?"
+      "headline": "Oxygen and water flow systems keep the fish alive.",
+      "points": [
+        "Aeration, pumping, and water quality monitoring run continuously with alarms.",
+        "Fish in a tank or pen die within minutes of an oxygen failure.",
+        "A single failure can kill an entire year class."
+      ],
+      "rhetorical_question": "Are your aeration and water quality systems monitored with automatic alarms?"
     },
     {
       "rank": 2,
-      "headline": "Finfish is on the FDA Food Traceability List.",
-      "why_this_business": "Finfish is covered by FSMA Section 204, with a compliance date of July 20, 2028, requiring traceability lot codes, Key Data Elements at Critical Tracking Events, and delivery of an electronic sortable spreadsheet to FDA within 24 hours of request. Aquaculture drug treatment and withdrawal records are separately subject to FDA enforcement.",
-      "loss_scenario": "Failure to produce traceability records during an investigation, plus residue violations if treatment and withdrawal records cannot be reconstructed.",
-      "rhetorical_question": "How do you record drug treatments and withdrawal periods by tank or lot?"
+      "headline": "Feeding and grading are automated and scheduled daily.",
+      "points": [
+        "Automated feeders deliver measured rations several times a day.",
+        "Growth, grading, and inventory are tracked in management software.",
+        "Fish off feed lose growth that cannot be made up before harvest."
+      ],
+      "rhetorical_question": "Are your feeding systems automated and centrally controlled?"
     },
     {
       "rank": 3,
-      "headline": "Hatcheries hold broodstock records and supply scheduled deliveries to grow-out operations.",
-      "why_this_business": "Fish hatcheries maintain broodstock lines, spawning schedules, genetic and pedigree records, and health certification for shipment. Grow-out customers schedule their production year around receiving fingerlings on specific dates. Broodstock lines represent years of selection.",
-      "loss_scenario": "Third-party liability to grow-out customers for missed deliveries, plus permanent loss of pedigree and selection data that cannot be recovered from the fish themselves.",
-      "rhetorical_question": "Do you maintain pedigree or genetic records for your broodstock?"
+      "headline": "Health treatment and harvest records control what you can sell.",
+      "points": [
+        "Drug treatments carry withdrawal periods recorded per tank or pen.",
+        "Processors and regulators check those records before purchase.",
+        "Fish without clean records cannot be sold for food."
+      ],
+      "rhetorical_question": "How do you record treatments and withdrawal periods by tank or pen?"
     }
   ]
 }

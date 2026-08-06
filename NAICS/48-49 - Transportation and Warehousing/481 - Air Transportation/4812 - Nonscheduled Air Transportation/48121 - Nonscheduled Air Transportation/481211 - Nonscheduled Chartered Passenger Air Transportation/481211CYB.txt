@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Client identity and itinerary data is exactly what makes charter valuable.",
-      "why_this_business": "Charter operators hold passenger manifests, itineraries, and contact details for clients who fly privately specifically to avoid public exposure, including executives, public figures, and high net worth individuals. Trip records show who travelled where and with whom.",
-      "loss_scenario": "Exposure of client movements creates physical security risk, business confidentiality damage during transactions, and immediate loss of a client base whose entire reason for chartering was discretion.",
-      "rhetorical_question": "Do your systems record who travelled, when, and to what destination?"
+      "headline": "Passenger manifests and itineraries are highly sensitive.",
+      "points": [
+        "Charter clients include executives and public figures with detailed itineraries.",
+        "Manifests reveal who is travelling where and when.",
+        "That information has physical security consequences for the passenger."
+      ],
+      "rhetorical_question": "What passenger manifest and itinerary data do you store?"
     },
     {
       "rank": 2,
-      "headline": "Trips are quoted, contracted, and paid by wire on short notice.",
-      "why_this_business": "Charter bookings are arranged by email and phone within days or hours of departure, with quotes, contracts, and payment instructions exchanged electronically. Brokers sit between operator and client, adding another mailbox to the chain.",
-      "loss_scenario": "A diverted charter payment, commonly $20,000 to $200,000 per trip, where the operator has flown the trip and the client believes they paid.",
-      "rhetorical_question": "How is payment arranged and confirmed for a charter booked at short notice?"
+      "headline": "Dispatch and flight release run on connected systems.",
+      "points": [
+        "Flight planning, weight and balance, and release run electronically.",
+        "Aircraft cannot legally depart without a release.",
+        "Charters are booked for a specific time that cannot slip."
+      ],
+      "rhetorical_question": "What systems must be running for an aircraft to be legally released?"
     },
     {
       "rank": 3,
-      "headline": "Crew currency and maintenance status determine legal dispatch.",
-      "why_this_business": "Part 135 operations require documented crew training, currency, duty and rest tracking, and current maintenance and inspection status before each flight. Records must be available and are examined during FAA surveillance.",
-      "loss_scenario": "Flights that cannot be legally released because currency and maintenance status cannot be verified, and FAA enforcement where records cannot be produced during a ramp check or audit.",
-      "rhetorical_question": "How do you verify crew currency and maintenance status before releasing a flight?"
+      "headline": "Maintenance records determine airworthiness.",
+      "points": [
+        "Airworthiness depends on documented maintenance and inspection records.",
+        "Regulators inspect those records directly.",
+        "An aircraft without records cannot legally fly."
+      ],
+      "rhetorical_question": "How are your aircraft maintenance and inspection records maintained?"
     }
   ]
 }

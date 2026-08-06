@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ammonium nitrate and ammonia are explosion and toxic release hazards.",
-      "why_this_business": "Nitrogenous fertilizer plants produce and store anhydrous ammonia and ammonium nitrate. The West, Texas explosion in 2013 killed fifteen people and destroyed much of a town, and ammonia releases are acutely toxic and travel with the wind.",
-      "loss_scenario": "A detonation or major ammonia release with fatalities on site and in the surrounding community, destruction of the facility, and regulatory and criminal investigation of the process safety and security programmes.",
-      "rhetorical_question": "What quantities of ammonia and ammonium nitrate are stored at your site?"
+      "headline": "Ammonium nitrate detonates and has destroyed towns.",
+      "points": [
+        "Storage quantity, temperature, and contamination controls prevent detonation.",
+        "Federal chemical security rules apply to facilities holding it.",
+        "Detonation events in this industry have killed dozens and levelled neighbourhoods."
+      ],
+      "rhetorical_question": "What chemical facility security requirements apply to your site?"
     },
     {
       "rank": 2,
-      "headline": "Ammonium nitrate carries security reporting obligations.",
-      "why_this_business": "Ammonium nitrate is a material of interest for improvised explosives, with reporting requirements to DHS for facilities holding threshold quantities and expectations around inventory control and access.",
-      "loss_scenario": "Exposure of inventory quantities and storage locations creates a security concern beyond ordinary theft, and inventory discrepancies that cannot be reconciled attract federal attention.",
-      "rhetorical_question": "How is ammonium nitrate inventory reconciled and reported?"
+      "headline": "Ammonia release is immediately dangerous to the community.",
+      "points": [
+        "Ammonia is stored and handled under pressure with monitoring and interlocks.",
+        "A release forms a toxic cloud that travels downwind.",
+        "Evacuation and casualties follow within minutes, not hours."
+      ],
+      "rhetorical_question": "How are your ammonia storage and handling systems monitored and alarmed?"
     },
     {
       "rank": 3,
-      "headline": "Plants run continuously and supply a seasonal application window.",
-      "why_this_business": "Ammonia plants run continuously for long campaigns, and fertilizer demand concentrates into narrow spring and autumn application windows when growers must apply. Plants build inventory ahead of those windows.",
-      "loss_scenario": "Production lost ahead of an application window, with growers unable to obtain nitrogen at the only time it can be applied and the yield consequence flowing through the agricultural chain.",
-      "rhetorical_question": "How much of your annual output ships into the spring application window?"
+      "headline": "Production is seasonal and demand cannot be shifted.",
+      "points": [
+        "Fertilizer demand concentrates around planting seasons.",
+        "Logistics and inventory are built around those windows.",
+        "Supply missed at planting cannot be sold later."
+      ],
+      "rhetorical_question": "What share of your volume ships in the planting season?"
     }
   ]
 }

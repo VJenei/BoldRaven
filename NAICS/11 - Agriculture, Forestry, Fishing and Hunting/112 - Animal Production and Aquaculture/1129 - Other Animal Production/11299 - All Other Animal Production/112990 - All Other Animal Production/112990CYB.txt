@@ -1,7 +1,6 @@
 {
   "naics_code": "112990",
   "naics_title": "All Other Animal Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Live animals are sold to distant buyers who pay electronically.",
-      "why_this_business": "This category includes bison, elk, deer, camelids, laboratory animals, and companion animal breeding. Breeding stock and live animals are sold nationally, often without the buyer seeing the animal, with deposits and balances paid by wire or payment app against emailed instructions. Individual animals commonly carry four and five figure values.",
-      "loss_scenario": "Diverted deposits and sale proceeds, and disputes where the buyer states payment was sent and the seller states it was not received.",
-      "rhetorical_question": "Do you take deposits or final payment by wire or payment app?"
+      "headline": "Housing and watering systems run without a person present.",
+      "points": [
+        "Ventilation, feeding, and watering are automated and alarmed.",
+        "Animals depend on those systems continuously.",
+        "A failure overnight is discovered when the losses are already taken."
+      ],
+      "rhetorical_question": "Are your housing and watering systems automated with alarms?"
     },
     {
       "rank": 2,
-      "headline": "Automated feed, water, and environmental systems cover facilities not checked continuously.",
-      "why_this_business": "Cervid, camelid, and specialty animal operations use automated watering, feeding, environmental control, and remote monitoring across facilities and pastures that are not physically checked around the clock. Water system failure in heat causes same-day mortality in most species.",
-      "loss_scenario": "Death loss on animals worth $1,500 to $25,000 each, discovered late because the monitoring system itself failed.",
-      "rhetorical_question": "How would you be notified if an automatic waterer stopped working?"
+      "headline": "Movement and health records control what you can sell.",
+      "points": [
+        "Official identification, health certificates, and movement records are required.",
+        "Disease tracing runs through those records.",
+        "Animals without documentation cannot be sold or moved."
+      ],
+      "rhetorical_question": "What identification, health, and movement records do you maintain?"
     },
     {
       "rank": 3,
-      "headline": "Cervid herd certification depends on unbroken inventory and movement records.",
-      "why_this_business": "Deer and elk farms participate in state and federal chronic wasting disease herd certification programs requiring individual animal identification, inventory reconciliation, mortality testing, and movement records maintained over years. Certification status determines whether animals can move interstate.",
-      "loss_scenario": "Loss of herd certification status resets program enrollment by years and blocks interstate movement during that period.",
-      "rhetorical_question": "How many years of herd inventory and testing records are you required to maintain?"
+      "headline": "Sales are made to a small number of buyers by transfer.",
+      "points": [
+        "Animals are sold in lots and paid by electronic transfer.",
+        "A faked banking change diverts an entire settlement.",
+        "Animals leave the operation before payment arrives."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     }
   ]
 }

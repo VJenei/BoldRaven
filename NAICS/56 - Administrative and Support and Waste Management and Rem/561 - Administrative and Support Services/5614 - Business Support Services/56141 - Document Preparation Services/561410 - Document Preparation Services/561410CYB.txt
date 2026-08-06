@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You handle the documents clients consider most sensitive.",
-      "why_this_business": "Document preparation services transcribe, format, and produce legal filings, medical reports, financial documents, and personal records. Material is sent because it must be processed, and it frequently contains the most confidential information a client holds.",
-      "loss_scenario": "Disclosure of client documents including privileged legal material and medical records, with contractual liability and, for health information handled as a business associate, direct HIPAA exposure.",
-      "rhetorical_question": "What categories of client documents pass through your systems?"
+      "headline": "You handle documents containing everything about clients.",
+      "points": [
+        "Legal, financial, and personal documents pass through for preparation.",
+        "Those documents carry identity and financial information.",
+        "Every affected individual must be notified."
+      ],
+      "rhetorical_question": "What client documents and personal data do you handle?"
     },
     {
       "rank": 2,
-      "headline": "Medical transcription involves protected health information.",
-      "why_this_business": "Transcription of clinical dictation makes the provider a business associate under HIPAA, handling patient identifiers, diagnoses, and treatment details. Work is frequently distributed to transcriptionists working remotely on their own equipment.",
-      "loss_scenario": "HIPAA breach notification and OCR enforcement against the provider directly, plus contractual claims from every healthcare client whose patients were affected.",
-      "rhetorical_question": "Do you transcribe clinical documentation under business associate agreements?"
+      "headline": "Deadlines are tied to filings and proceedings.",
+      "points": [
+        "Documents are due for filings, submissions, and closings.",
+        "Those deadlines are set by rule and do not move.",
+        "A missed deadline can lose the matter for the client."
+      ],
+      "rhetorical_question": "What filing deadlines do your documents support?"
     },
     {
       "rank": 3,
-      "headline": "Turnaround commitments feed client deadlines.",
-      "why_this_business": "Document preparation supports court filings, medical record completion, and financial reporting with turnaround times measured in hours. Client deadlines are set by courts, regulators, and internal requirements.",
-      "loss_scenario": "Missed client deadlines with consequences including court sanctions and regulatory penalties, claimed against the provider whose delay caused them.",
-      "rhetorical_question": "What client deadlines depend on your turnaround times?"
+      "headline": "Document accuracy has legal consequences.",
+      "points": [
+        "Prepared documents are signed, filed, and relied on.",
+        "Errors carry legal and financial consequences for the client.",
+        "Altered documents are a fraud matter."
+      ],
+      "rhetorical_question": "How are your prepared documents protected against alteration?"
     }
   ]
 }

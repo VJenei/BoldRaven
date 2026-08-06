@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Brakes are the safety system with the least tolerance for defect.",
-      "why_this_business": "Brake components determine whether a vehicle stops. Friction material, hydraulic components, and electronic brake controls all determine stopping performance, and failure has immediate crash consequences.",
-      "loss_scenario": "A brake component defect causing crashes, with an NHTSA recall across every vehicle containing the part, litigation over collisions, and civil penalties where reporting to NHTSA was delayed.",
+      "headline": "Brakes have the least tolerance for defect of anything on the vehicle.",
+      "points": [
+        "Friction material, hydraulics, and electronic control determine stopping performance.",
+        "Failure has immediate crash consequences.",
+        "Delayed defect reporting carries civil penalties on top."
+      ],
       "rhetorical_question": "How quickly can you identify which vehicles contain a specific brake component lot?"
     },
     {
       "rank": 2,
       "headline": "Electronic brake control is software governed.",
-      "why_this_business": "Antilock braking, stability control, and electronic brake distribution are software functions in brake control modules developed under automotive functional safety requirements. Software determines braking behaviour in emergency situations.",
-      "loss_scenario": "A software defect affecting braking behaviour, with an NHTSA recall and a software campaign to vehicles already in customers' hands, plus liability for accidents during the exposure period.",
+      "points": [
+        "Antilock, stability control, and brake distribution are software functions.",
+        "Software determines braking behaviour in emergency situations.",
+        "A campaign must reach vehicles already in customers' hands."
+      ],
       "rhetorical_question": "How are brake control software versions controlled through production programming?"
     },
     {
       "rank": 3,
-      "headline": "Friction material formulations are regulated and proprietary.",
-      "why_this_business": "Brake friction formulations are subject to copper and heavy metal restrictions under state laws and industry agreements, with compliance marking required, and formulations represent significant development investment.",
-      "loss_scenario": "Non-compliant friction material sold in states with restrictions, with regulatory action and product that cannot be lawfully sold, plus loss of formulation data to competitors.",
+      "headline": "Friction formulations are regulated and proprietary.",
+      "points": [
+        "Copper and heavy metal restrictions apply with compliance marking required.",
+        "Formulations represent significant development investment.",
+        "Non-compliant material cannot lawfully be sold in restricted states."
+      ],
       "rhetorical_question": "How do you document friction material compliance with copper restriction requirements?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Plumbing products carry code certification and water contact requirements.",
-      "why_this_business": "Plumbing fixtures and components must meet plumbing code standards with third-party certification, and products contacting drinking water must be certified for that contact including lead content restrictions.",
-      "loss_scenario": "Uncertified product installed in plumbing systems that inspectors will not approve, requiring removal, and drinking water contact failures creating public health exposure.",
-      "rhetorical_question": "Which plumbing and drinking water certifications do your products carry?"
+      "headline": "Fixtures hold water in occupied buildings.",
+      "points": [
+        "Tubs, tanks, and fixtures contain water under use and pressure.",
+        "Cracking or failure floods the building continuously.",
+        "Water damage claims come from every installation affected."
+      ],
+      "rhetorical_question": "How are your material and process records maintained per production lot?"
     },
     {
       "rank": 2,
-      "headline": "Moulding produces parts that must fit and seal.",
-      "why_this_business": "Fixtures and fittings are moulded to dimensional tolerances that determine whether they seal against water pressure. Dimensional variation produces leaks that appear after installation inside walls and floors.",
-      "loss_scenario": "Leaking fittings installed in concealed locations, with water damage claims covering building repair rather than the fitting, across every installation from the affected production.",
-      "rhetorical_question": "How are dimensional tolerances verified on sealing surfaces?"
+      "headline": "Drinking water contact carries lead and material requirements.",
+      "points": [
+        "Components contacting drinking water are subject to lead and material certification.",
+        "Plumbing codes require that certification for installation.",
+        "Non-compliant product cannot lawfully be installed."
+      ],
+      "rhetorical_question": "What drinking water contact certifications do your products carry?"
     },
     {
       "rank": 3,
-      "headline": "Moulding parameters and tooling define every part.",
-      "why_this_business": "Injection moulding runs process recipes controlling temperature, pressure, and cycle for each tool. Parameters determine part dimensions, strength, and internal stress that affects long-term performance.",
-      "loss_scenario": "Parts moulded to wrong parameters with internal stress causing cracking months after installation, which is a latent defect appearing across a whole production run in service.",
-      "rhetorical_question": "How are moulding process recipes stored and verified per tool?"
+      "headline": "Products are consumer goods with recall obligations.",
+      "points": [
+        "Plumbing fixtures sold to consumers fall under consumer product safety jurisdiction.",
+        "Reporting obligations apply once a hazard is known.",
+        "Recall reach depends on distribution records."
+      ],
+      "rhetorical_question": "Could you identify which distributors received a specific production run?"
     }
   ]
 }

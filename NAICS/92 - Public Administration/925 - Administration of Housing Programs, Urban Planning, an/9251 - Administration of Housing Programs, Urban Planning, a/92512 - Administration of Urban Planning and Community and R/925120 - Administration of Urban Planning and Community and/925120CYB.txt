@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Permitting and inspection systems gate all construction.",
-      "why_this_business": "Planning and development agencies issue building permits, conduct inspections, and issue certificates of occupancy. Construction cannot lawfully proceed past inspection points and buildings cannot be occupied without certification.",
-      "loss_scenario": "Construction halted across a jurisdiction with contractors idle, projects delayed, and buildings unable to be occupied, generating economic damage across the local construction sector and pressure on the agency.",
-      "rhetorical_question": "How many active permits and pending inspections would be affected by an outage?"
+      "headline": "Permits and approvals gate construction.",
+      "points": [
+        "Permit applications, reviews, and approvals run through your systems.",
+        "Construction cannot lawfully begin without approval.",
+        "A systems failure stops construction across the jurisdiction."
+      ],
+      "rhetorical_question": "What construction and development depends on your permit systems?"
     },
     {
       "rank": 2,
-      "headline": "Inspection records are the evidence buildings were built to code.",
-      "why_this_business": "Inspection results, approved plans, and certificates of occupancy document that structures met code at the time of construction. Those records are relied on decades later in transactions, insurance, and after structural failures.",
-      "loss_scenario": "Building failures where inspection records cannot be produced, leaving the jurisdiction unable to demonstrate that inspections occurred, with liability exposure and property transactions affected across the jurisdiction.",
-      "rhetorical_question": "How far back do your inspection and permit records extend?"
+      "headline": "Plans and applications contain building details.",
+      "points": [
+        "Submitted plans show structure, security, and utility details for buildings.",
+        "For some facilities that information is restricted.",
+        "Disclosure is a security matter for the building owner."
+      ],
+      "rhetorical_question": "What building plans and drawings do your systems hold?"
     },
     {
       "rank": 3,
-      "headline": "Development records include private financial information.",
-      "why_this_business": "Applications for development approvals and community development funding include applicant financial statements, project pro formas, and in housing programmes, individual income documentation.",
-      "loss_scenario": "Exposure of applicant financial information submitted in confidence to obtain approvals or funding, with commercial harm to developers and personal harm where individual income data was collected.",
-      "rhetorical_question": "What financial information do applicants submit to your agency?"
+      "headline": "Development funding reaches communities.",
+      "points": [
+        "Grant and development funding is administered through your systems.",
+        "Projects and communities depend on that funding.",
+        "A distribution failure stalls projects already committed."
+      ],
+      "rhetorical_question": "What development funding depends on your systems?"
     }
   ]
 }

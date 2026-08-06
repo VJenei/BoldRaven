@@ -1,7 +1,6 @@
 {
   "naics_code": "111333",
   "naics_title": "Strawberry Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Strawberries require continuous cold chain monitoring and have a five day shelf life.",
-      "why_this_business": "Berries move from field to forced-air precooling within about an hour and must hold 32 to 34 degrees F through to retail. Precooling tunnels, cold rooms, and refrigerated transport are monitored by networked temperature loggers. Buyers reject loads based on temperature data alone.",
-      "loss_scenario": "A cooling or monitoring failure on one day's harvest of 3,000 to 8,000 flats is a total write-off within 48 hours. There is no salvage market.",
-      "rhetorical_question": "Do you use networked temperature monitoring in your coolers or shipping?"
+      "headline": "Berries are picked and cooled the same day or lost.",
+      "points": [
+        "Fruit must be forced-air cooled within hours of picking.",
+        "Cooling, crew scheduling, and truck dispatch run on connected systems.",
+        "Uncooled berries are unsellable by the next morning."
+      ],
+      "rhetorical_question": "How quickly must your fruit be cooled after picking?"
     },
     {
       "rank": 2,
-      "headline": "Hand harvest generates weekly payroll and piece-rate records for a large crew.",
-      "why_this_business": "Strawberries are harvested by hand at piece rate using hundreds of workers, often through H-2A or a farm labor contractor. Files include I-9 forms, visa documents, and direct deposit information. Piece-rate and hours records are legally required in California and Florida.",
-      "loss_scenario": "Breach notification across a large seasonal workforce. In a wage claim, an employer who cannot produce time and pay records faces a legal presumption in favor of the employee's estimate.",
-      "rhetorical_question": "How do you record and store piece-rate and hours worked for your harvest crew?"
+      "headline": "Produce safety records must link every lot to a field.",
+      "points": [
+        "Water testing, worker hygiene, and sanitation records are inspected.",
+        "Lot codes tie packed clamshells to a field and harvest date.",
+        "Without traceability an outbreak recalls your entire season."
+      ],
+      "rhetorical_question": "Could you trace a shipped lot back to a specific field and harvest date?"
     },
     {
       "rank": 3,
-      "headline": "Outbreak traceback is conducted using lot codes and harvest records.",
-      "why_this_business": "Fresh strawberries were the subject of a multistate hepatitis A outbreak investigation in 2022 that publicly named brands and growing regions. Traceback uses lot codes, harvest records, and distribution data. Slow or unavailable records extend the investigation and widen the public advisory.",
-      "loss_scenario": "A regional advisory reduces demand for every grower in the district. Recall expense, crisis management, and public relations costs are covered under cyber and recall policies, not farm property policies.",
-      "rhetorical_question": "Can you trace a specific lot from field to buyer using your current records?"
+      "headline": "Harvest labour is scheduled and paid on daily records.",
+      "points": [
+        "Crews are paid by piece rate recorded in the field electronically.",
+        "Picking runs daily for months with no gap.",
+        "A day without crew records is a day of unpicked fruit."
+      ],
+      "rhetorical_question": "How is piece rate picking recorded and paid?"
     }
   ]
 }

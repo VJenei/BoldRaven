@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Trailers carry loads on public roads and their failures cause crashes.",
-      "why_this_business": "Trailers must meet Federal Motor Vehicle Safety Standards for brakes, lighting, underride protection, and structure. Brake, coupling, or structural failures on the highway involve a loaded trailer at speed.",
-      "loss_scenario": "A brake or structural defect causing highway crashes, with an NHTSA recall across every trailer of the affected production and liability for the collisions themselves.",
+      "headline": "Trailer failures happen on the highway under load.",
+      "points": [
+        "Brakes, lighting, underride protection, and structure are federally regulated.",
+        "Failures involve a loaded trailer at speed.",
+        "Recall covers every trailer from the affected production."
+      ],
       "rhetorical_question": "How is conformance to safety standards documented for each trailer built?"
     },
     {
       "rank": 2,
       "headline": "Refrigerated trailers protect food in transit.",
-      "why_this_business": "Refrigerated trailers maintain temperature for food and pharmaceutical loads, with FSMA sanitary transportation requirements obliging carriers to control and, where agreed, record temperature during transport.",
-      "loss_scenario": "Refrigeration or monitoring defects allowing temperature excursions, with food loads condemned and carriers unable to demonstrate temperature control under their FSMA obligations.",
+      "points": [
+        "Refrigeration maintains temperature for food and pharmaceutical loads.",
+        "Sanitary transportation rules oblige carriers to control temperature.",
+        "Excursions condemn the load and the carrier cannot evidence compliance."
+      ],
       "rhetorical_question": "Do your trailers include refrigeration and temperature monitoring systems?"
     },
     {
       "rank": 3,
       "headline": "Trailers are built to order with long backlogs.",
-      "why_this_business": "Trailers are configured to fleet specifications with orders placed months ahead and production scheduled against delivery dates fleets plan capacity around.",
-      "loss_scenario": "Production halted with delivery dates missed across a backlog, and fleet customers unable to add the capacity they contracted freight against.",
+      "points": [
+        "Trailers are configured to fleet specifications months ahead.",
+        "Fleets plan capacity around those delivery dates.",
+        "Missed dates mean freight they contracted and cannot haul."
+      ],
       "rhetorical_question": "How far ahead are your production slots committed?"
     }
   ]

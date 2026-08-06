@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Test results are relied on for safety decisions and regulatory compliance.",
-      "why_this_business": "Laboratories issue results that determine whether materials, products, food, or environmental conditions are safe and compliant. Accreditation under ISO 17025 requires demonstrable data integrity, chain of custody, and records that support every reported result.",
-      "loss_scenario": "Results that cannot be supported by underlying data require retesting where samples still exist and invalidation where they do not, with decisions already made on the basis of those results now unsupported.",
-      "rhetorical_question": "Could you produce the raw instrument data supporting a result issued last year?"
+      "headline": "Your results determine whether things are safe to use.",
+      "points": [
+        "Test results certify materials, structures, and products for use.",
+        "Clients and regulators act on those results.",
+        "A wrong or altered result means an unsafe thing is accepted."
+      ],
+      "rhetorical_question": "How are your test results protected against alteration?"
     },
     {
       "rank": 2,
-      "headline": "Laboratory information systems connect to instruments and clients.",
-      "why_this_business": "LIMS platforms receive data directly from analytical instruments, manage chain of custody, and deliver results to clients and regulators electronically. Data integrity from instrument to report is the basis of accreditation.",
-      "loss_scenario": "Loss of accreditation where data integrity cannot be demonstrated, which removes the ability to issue results that anyone will accept, ending the laboratory's commercial function.",
-      "rhetorical_question": "How is data integrity maintained between your instruments and your reporting system?"
+      "headline": "Accreditation depends on records you must produce.",
+      "points": [
+        "Laboratory accreditation requires documented methods, calibration, and results.",
+        "Assessors audit those records directly.",
+        "Losing accreditation removes the ability to issue accepted results."
+      ],
+      "rhetorical_question": "What accreditation records must your laboratory produce on assessment?"
     },
     {
       "rank": 3,
-      "headline": "Client sample data reveals product formulations and problems.",
-      "why_this_business": "Testing laboratories see clients' formulations, failure investigations, and out-of-specification results before anyone else. That information includes trade secrets and evidence of problems the client has not disclosed.",
-      "loss_scenario": "Disclosure of client formulations and failing test results, which is both a trade secret loss and, where the results indicate a product problem, a disclosure the client may face regulatory consequences for.",
-      "rhetorical_question": "Do your records include client formulations or failing results not yet acted on?"
+      "headline": "Client projects wait on your results.",
+      "points": [
+        "Construction, production, and release decisions wait on test results.",
+        "Those decisions are on critical paths.",
+        "Delays stop the client's work, not just your report."
+      ],
+      "rhetorical_question": "What client activity is waiting on your test results?"
     }
   ]
 }

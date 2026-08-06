@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Curtain wall is engineered and fabricated to field dimensions that cannot be guessed.",
-      "why_this_business": "Curtain wall and storefront are detailed from field measurements into shop drawings and fabrication files, with glass cut to size and units assembled to order. Insulated glass units are made specifically for the opening. Nothing is stock.",
-      "loss_scenario": "Wrongly fabricated units are a total loss and carry lead times of six to twelve weeks, holding the building open to weather and delaying every interior trade behind the enclosure.",
-      "rhetorical_question": "How are field dimensions captured and transferred into your fabrication files?"
+      "headline": "Every piece of glass is cut to a measured opening.",
+      "points": [
+        "Field dimensions are taken and glass is fabricated to those exact sizes.",
+        "Glass cut wrong fits nowhere and cannot be recut.",
+        "Refabrication takes weeks with the building open to weather."
+      ],
+      "rhetorical_question": "How are field dimensions captured and sent to fabrication?"
     },
     {
       "rank": 2,
-      "headline": "Performance testing and warranty documentation follow the building for decades.",
-      "why_this_business": "Glazing systems carry air, water, and structural performance requirements verified by mock-up and field testing, with results documented. Manufacturer warranties on insulated units and sealants run ten to twenty years and depend on documented installation.",
-      "loss_scenario": "A water intrusion claim years later where the test records and installation documentation cannot be produced, leaving the glazier to absorb remediation of a facade.",
-      "rhetorical_question": "How long do you retain performance test and installation records after project closeout?"
+      "headline": "Performance and safety ratings are code requirements.",
+      "points": [
+        "Glazing carries ratings for impact, safety, and energy performance.",
+        "Inspectors verify those ratings against submittals.",
+        "Glass that cannot be certified must be removed and replaced."
+      ],
+      "rhetorical_question": "What performance certifications does your glazing carry?"
     },
     {
       "rank": 3,
-      "headline": "Glass handling is a high-consequence operation planned in advance.",
-      "why_this_business": "Large units are set with cranes, vacuum lifters, and specialised rigging under engineered lift plans. Units are heavy, awkward, and expensive, and dropped glass is both a total material loss and a severe injury exposure below.",
-      "loss_scenario": "A dropped unit during setting, with material loss, potential injury to workers or the public below, and investigation against the lift plan.",
-      "rhetorical_question": "Do you use engineered lift plans for setting large glass units?"
+      "headline": "Enclosure gates every interior trade.",
+      "points": [
+        "The building cannot be dried in until glazing is complete.",
+        "Interior trades are scheduled behind enclosure.",
+        "A glazing delay pushes every following trade and the completion date."
+      ],
+      "rhetorical_question": "What trades are scheduled behind your enclosure date?"
     }
   ]
 }

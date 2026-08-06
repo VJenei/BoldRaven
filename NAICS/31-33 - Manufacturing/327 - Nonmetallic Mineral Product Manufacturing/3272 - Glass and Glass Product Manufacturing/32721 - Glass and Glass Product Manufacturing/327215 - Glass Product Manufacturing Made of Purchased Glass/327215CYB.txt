@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Safety glazing must meet impact standards or people are cut.",
-      "why_this_business": "Tempered and laminated safety glazing is required in doors, sidelights, shower enclosures, and other hazardous locations, certified to impact standards and permanently marked. Untempered glass in those locations breaks into sharp shards.",
-      "loss_scenario": "Non-safety glass installed in hazardous locations causing lacerating injuries, with the fabricator identified from the absence or falsity of the safety marking and liability for injuries that the standard exists to prevent.",
-      "rhetorical_question": "How is safety glazing certification verified and marked on your product?"
+      "headline": "Every piece is cut to a measured opening.",
+      "points": [
+        "Glass is cut, tempered, and fabricated to exact dimensions per order.",
+        "Tempered glass cannot be cut after processing.",
+        "A wrong piece is scrap and refabrication takes weeks."
+      ],
+      "rhetorical_question": "How are order dimensions captured and released into fabrication?"
     },
     {
       "rank": 2,
-      "headline": "Insulating glass units are fabricated to project measurements.",
-      "why_this_business": "Insulating units and architectural glass are cut, tempered, and assembled to dimensions taken from field measurement for a specific building. Nothing is stock and tempered glass cannot be cut after processing.",
-      "loss_scenario": "Units fabricated to wrong dimensions that cannot be modified, requiring complete remake with tempering and assembly lead times while the building remains open.",
-      "rhetorical_question": "How are field dimensions transferred into your cutting and fabrication systems?"
+      "headline": "Safety glazing is a code requirement in specific locations.",
+      "points": [
+        "Doors, sidelights, and hazardous locations require safety glazing with permanent marking.",
+        "Inspectors verify that marking.",
+        "Non-safety glass in those locations causes severe lacerating injuries."
+      ],
+      "rhetorical_question": "How are safety glazing requirements controlled through your fabrication?"
     },
     {
       "rank": 3,
-      "headline": "Tempering and lamination parameters determine performance.",
-      "why_this_business": "Tempering furnace parameters determine surface compression and therefore whether the glass qualifies as safety glazing. Lamination requires autoclave cycles producing the bond that holds fragments in place.",
-      "loss_scenario": "Glass processed outside parameters that does not meet safety standards despite being marked as such, which is a latent defect discovered only when the glass breaks and injures someone.",
-      "rhetorical_question": "How are tempering and autoclave parameters recorded per production batch?"
+      "headline": "Insulated units carry performance and warranty exposure.",
+      "points": [
+        "Sealed units carry energy performance ratings and long warranties.",
+        "Seal failure causes fogging years after installation.",
+        "Warranty claims cover every unit from the affected production."
+      ],
+      "rhetorical_question": "How long do you retain fabrication and seal records for insulated units?"
     }
   ]
 }

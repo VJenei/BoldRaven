@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Therapy records contain what patients tell no one else.",
-      "why_this_business": "Counsellors, psychologists, and therapists hold session notes covering trauma, relationships, substance use, sexuality, and suicidality for identified individuals. The therapeutic relationship depends entirely on confidentiality, and patients disclose on that basis.",
-      "loss_scenario": "Patient harm from disclosure affecting employment, custody, immigration, and personal relationships, with claims reflecting those consequences and a practice whose patients cannot continue treatment after a confidentiality failure.",
-      "rhetorical_question": "What would happen to your patients if their session notes became public?"
+      "headline": "Records contain disclosures made nowhere else.",
+      "points": [
+        "Therapy records contain material patients have told nobody else.",
+        "Disclosure can cost patients jobs, custody, and relationships.",
+        "The harm is personal and permanent."
+      ],
+      "rhetorical_question": "What therapy notes and treatment records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Substance use disorder records carry stricter federal protection.",
-      "why_this_business": "Records from federally assisted substance use disorder programmes are protected under 42 CFR Part 2, which restricts disclosure more tightly than HIPAA and requires specific patient consent for most disclosures, with its own penalties.",
-      "loss_scenario": "Part 2 violations in addition to HIPAA exposure, with the regime specifically designed to prevent disclosures that deter people from seeking treatment.",
-      "rhetorical_question": "Do you provide substance use disorder treatment subject to 42 CFR Part 2?"
+      "headline": "Substance use records have heightened federal protection.",
+      "points": [
+        "Substance use treatment records carry protection beyond general health privacy.",
+        "Disclosure rules are stricter and penalties apply.",
+        "Patients seek treatment on the strength of that protection."
+      ],
+      "rhetorical_question": "Do you hold substance use treatment records?"
     },
     {
       "rank": 3,
-      "headline": "Solo and small practices have no security function at all.",
-      "why_this_business": "Mental health practice is frequently solo or small group, with records on a laptop or a cloud EHR selected without security review, no IT support, and telehealth conducted over consumer platforms.",
-      "loss_scenario": "A single device compromise exposing an entire caseload, with the practitioner personally responsible for notification, OCR response, and licensing board consequences.",
-      "rhetorical_question": "How many patients' records are accessible from the device you are using right now?"
+      "headline": "Teletherapy platforms carry sessions and data.",
+      "points": [
+        "Sessions are conducted and recorded through connected platforms.",
+        "Those platforms hold scheduling, notes, and sometimes recordings.",
+        "A compromise reaches the session itself, not just the record."
+      ],
+      "rhetorical_question": "What teletherapy platforms do you use, and what do they retain?"
     }
   ]
 }

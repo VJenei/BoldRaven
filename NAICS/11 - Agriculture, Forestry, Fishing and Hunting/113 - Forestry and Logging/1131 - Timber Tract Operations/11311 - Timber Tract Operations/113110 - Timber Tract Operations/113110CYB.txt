@@ -1,7 +1,6 @@
 {
   "naics_code": "113110",
   "naics_title": "Timber Tract Operations",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Standing timber inventory exists only as cruise data and GIS files.",
-      "why_this_business": "Timber tract operations manage inventory through cruise data, GIS stand maps, growth and yield models, LiDAR, and harvest scheduling software. The inventory cannot be observed directly. This data is the basis for valuation, lending, and sale.",
-      "loss_scenario": "Loss of cruise and stand data requires re-cruising at $3 to $8 per acre plus several months of delay. During that period value cannot be substantiated to a lender, buyer, or appraiser.",
-      "rhetorical_question": "How many acres of inventory data do you maintain, and where is it stored?"
+      "headline": "Timber sales settle in single very large payments.",
+      "points": [
+        "Standing timber is sold by contract for six and seven figure sums.",
+        "Payment is made by electronic transfer against contract terms.",
+        "A faked banking change can divert a decade of growth in one transfer."
+      ],
+      "rhetorical_question": "How are banking details verified before a timber sale payment is made?"
     },
     {
       "rank": 2,
-      "headline": "Timber sales use confidential electronic bids.",
-      "why_this_business": "Timber sales are conducted through sealed bids submitted and evaluated electronically. Sale boundaries, volume estimates, and reserve prices are confidential. Disclosure removes the competitive pricing effect. Timber theft and boundary encroachment cases are decided on ownership records, boundary surveys, and harvest authorizations.",
-      "loss_scenario": "Disclosure of bid information reduces sale value by the premium competition would have produced, commonly 10 to 25 percent. A theft or trespass case cannot be supported without records.",
-      "rhetorical_question": "Do you conduct timber sales by sealed bid, and how are bids received and stored?"
+      "headline": "Ownership, boundaries, and inventory exist as digital records.",
+      "points": [
+        "Deeds, survey data, cruise inventory, and stand maps are held electronically.",
+        "Those records establish what you own and what it is worth.",
+        "Lost inventory data means recruising thousands of acres."
+      ],
+      "rhetorical_question": "Where are your timber inventory, survey, and boundary records kept?"
     },
     {
       "rank": 3,
-      "headline": "Carbon and easement programs require registry reporting over decades.",
-      "why_this_business": "Forest carbon projects registered with ACR, Verra, or Climate Action Reserve require baseline inventory, ongoing monitoring, verification reports, and reversal risk documentation submitted through registry platforms over commitment periods of 40 to 100 years. Conservation easements carry similar monitoring duties.",
-      "loss_scenario": "Failed verification or inability to substantiate inventory results in credit invalidation, with a contractual obligation to replace credits already sold.",
-      "rhetorical_question": "Are any of your acres enrolled in a carbon or conservation easement program?"
+      "headline": "Harvest plans and permits control when cutting can happen.",
+      "points": [
+        "Harvest plans, road permits, and environmental approvals are filed and tracked.",
+        "Contractors and mills are scheduled against approved plans.",
+        "Cutting outside an approved plan is an enforcement matter."
+      ],
+      "rhetorical_question": "How are your harvest plans and permits tracked against contractor schedules?"
     }
   ]
 }

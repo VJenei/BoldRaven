@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Card and cashless play systems hold customer balances.",
-      "why_this_business": "Arcades operate cashless play cards holding stored value, loyalty points, and prize credits, topped up by card at kiosks. Those balances are customer funds held on the operator's system.",
-      "loss_scenario": "Manipulated or drained stored value balances, with the operator liable to restore customer credits and payment data exposed across a high transaction volume operation.",
-      "rhetorical_question": "How much stored value is outstanding on customer play cards?"
+      "headline": "Card payments and game cards run every transaction.",
+      "points": [
+        "Payment terminals and stored value cards handle all revenue.",
+        "Card security requirements apply to that handling.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your payment and game card system handle card data?"
     },
     {
       "rank": 2,
-      "headline": "Game networks and revenue systems are connected.",
-      "why_this_business": "Modern arcade games are networked for play tracking, pricing, and revenue reporting, with central systems controlling pricing and payout ratios on redemption games. Revenue accounting depends on that data.",
-      "loss_scenario": "Manipulated payout settings draining prize inventory, and unreconcilable revenue across the floor where machine-level data cannot be verified against cash and card receipts.",
-      "rhetorical_question": "How is machine revenue data reconciled against cash and card takings?"
+      "headline": "Machines are networked and configured centrally.",
+      "points": [
+        "Games and payment readers are connected and configured from a central system.",
+        "Pricing, payouts, and settings are managed remotely.",
+        "Compromise reaches every machine on the floor."
+      ],
+      "rhetorical_question": "How are your machines configured and monitored?"
     },
     {
       "rank": 3,
-      "headline": "Family customers include minors and their data.",
-      "why_this_business": "Arcades and family entertainment centres run birthday parties, memberships, and loyalty programmes collecting parent contact and payment details along with children's names and dates of birth for age-based pricing and party bookings.",
-      "loss_scenario": "Exposure of children's names and party booking details alongside parent payment data, which parents react to differently from ordinary retail breaches.",
-      "rhetorical_question": "Do you collect children's names and dates of birth for parties or memberships?"
+      "headline": "Revenue and audit records are the only control.",
+      "points": [
+        "Machine revenue is recorded electronically and reconciled.",
+        "Cash and card revenue both flow through those records.",
+        "Manipulated records conceal theft until a physical count."
+      ],
+      "rhetorical_question": "How is machine revenue recorded and reconciled?"
     }
   ]
 }

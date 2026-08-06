@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Confidential searches exist precisely because nobody can know.",
-      "why_this_business": "Executive search firms run assignments to replace sitting executives, staff unannounced business units, and support transactions, with the existence of the search itself being the sensitive fact. Candidates are approached while employed elsewhere and would be damaged by disclosure.",
-      "loss_scenario": "Disclosure that a search exists destabilises the client organisation and exposes candidates to dismissal by their current employers. Both the client and the candidates have direct claims and the firm's reputation for discretion is its only asset.",
-      "rhetorical_question": "How many confidential searches are you currently running for roles that are still occupied?"
+      "headline": "Candidate confidentiality is the whole business.",
+      "points": [
+        "Candidates are usually employed and their approach is confidential.",
+        "Disclosure costs candidates their current job.",
+        "The business runs entirely on that trust."
+      ],
+      "rhetorical_question": "How many candidate records do you hold for people currently employed elsewhere?"
     },
     {
       "rank": 2,
-      "headline": "Candidate assessments contain frank and damaging material.",
-      "why_this_business": "Search files include reference notes, interview assessments, compensation history, and candid evaluations of senior individuals, together with reasons candidates were rejected. That material is written on the assumption it will never be seen by the subject.",
-      "loss_scenario": "Exposure of candid assessments causes personal and professional harm to named senior individuals, with defamation and privacy claims and the destruction of the trust the profession depends on.",
-      "rhetorical_question": "What would happen if your written candidate assessments became visible to their subjects?"
+      "headline": "Client searches reveal strategy before announcement.",
+      "points": [
+        "Senior searches signal leadership change, expansion, or restructuring.",
+        "That information moves markets for public clients.",
+        "An early leak is a regulatory and market matter for the client."
+      ],
+      "rhetorical_question": "What client search assignments do you hold before they are public?"
     },
     {
       "rank": 3,
-      "headline": "Client relationships and off-limits agreements are the operating framework.",
-      "why_this_business": "Search firms operate under off-limits arrangements restricting approaches to client employees, and hold client organisational charts, succession plans, and compensation structures. Those constraints and that data define the practice.",
-      "loss_scenario": "Exposure of client succession plans and compensation structures, which is commercially damaging to the client and reveals internal judgements about named executives.",
-      "rhetorical_question": "Do you hold client succession plans or organisational assessments?"
+      "headline": "Candidate files hold complete personal data.",
+      "points": [
+        "Files carry identity, compensation, references, and background information.",
+        "Candidates disclose everything in confidence.",
+        "Every affected candidate must be notified."
+      ],
+      "rhetorical_question": "What candidate personal and compensation data do you hold?"
     }
   ]
 }

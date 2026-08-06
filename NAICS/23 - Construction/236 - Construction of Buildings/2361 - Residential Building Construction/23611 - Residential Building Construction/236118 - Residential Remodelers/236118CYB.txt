@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold homeowner payment details, alarm codes, and access information.",
-      "why_this_business": "Remodelers keep customer names, addresses, payment cards or bank details for progress payments, and practical access information such as lockbox codes, alarm codes, and gate codes for occupied homes. Photographs of interiors are stored with the project file.",
-      "loss_scenario": "A breach that exposes home addresses together with alarm codes and interior photographs creates a physical security risk to customers, which is a materially different and more serious claim than ordinary data loss.",
-      "rhetorical_question": "Do you store customer alarm codes, lockbox codes, or interior photographs?"
+      "headline": "Customer deposits and progress payments are diverted by email.",
+      "points": [
+        "Homeowners pay deposits and progress payments against emailed invoices.",
+        "Fake invoices with changed bank details reach the homeowner directly.",
+        "The homeowner pays, you are not paid, and both of you lose."
+      ],
+      "rhetorical_question": "How do you send invoices and payment instructions to homeowners?"
     },
     {
       "rank": 2,
-      "headline": "Deposits and progress payments are collected from consumers.",
-      "why_this_business": "Remodelling is paid in deposits and progress payments, often by card or bank transfer, arranged by email and text with the homeowner. Many states regulate the size of deposits a home improvement contractor may take, and registration is required.",
-      "loss_scenario": "Diverted customer payments where the homeowner paid a fraudster using your name. The customer expects the work regardless, and state home improvement regulators treat deposit disputes seriously.",
-      "rhetorical_question": "How do customers pay their deposit and progress payments?"
+      "headline": "You hold homeowner details and access to their homes.",
+      "points": [
+        "Names, addresses, payment methods, alarm codes, and key access are held on file.",
+        "Photographs of interiors and floor plans are stored with the job.",
+        "That combination tells a burglar what is inside and how to enter."
+      ],
+      "rhetorical_question": "What customer access details, alarm codes, or interior photographs do you store?"
     },
     {
       "rank": 3,
-      "headline": "Estimates, contracts, and change orders are the entire legal record.",
-      "why_this_business": "Residential remodelling generates constant scope change, agreed verbally on site and confirmed by text or email. State home improvement statutes typically require written contracts and written change orders, and consumer protection claims turn on whether the paperwork exists.",
-      "loss_scenario": "A consumer claim you cannot defend without the written record, in a regulatory regime that is deliberately weighted toward the homeowner. Attorney fee shifting is common in home improvement statutes.",
-      "rhetorical_question": "Where are your signed contracts and written change orders kept?"
+      "headline": "Scheduling and estimating software runs the whole business.",
+      "points": [
+        "Estimates, change orders, schedules, and subcontractor assignments live in one system.",
+        "Multiple jobs run simultaneously off that schedule.",
+        "Losing it stops every job at once with customers living in the mess."
+      ],
+      "rhetorical_question": "What software holds your estimates, change orders, and job schedules?"
     }
   ]
 }

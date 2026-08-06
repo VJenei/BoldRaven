@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Aerospace and can sheet carry qualification and certification requirements.",
-      "why_this_business": "Aluminium plate and sheet for aerospace is qualified to specifications with property testing, traceability, and customer approval. Can sheet is produced to tight gauge and property specifications for high speed can lines.",
-      "loss_scenario": "Material below specification in aerospace applications requiring identification and replacement in aircraft structures, or can sheet failing in customer forming lines stopping beverage can production.",
-      "rhetorical_question": "Do you supply aerospace or beverage can customers with qualification requirements?"
+      "headline": "Aerospace and can sheet are qualified and traceable.",
+      "points": [
+        "Aerospace plate and can sheet are produced under customer qualified processes.",
+        "Traceability runs from melt through rolling to shipped coil.",
+        "Material that cannot be traced cannot be used in aircraft or cans."
+      ],
+      "rhetorical_question": "How is traceability maintained from melt through to shipped coil?"
     },
     {
       "rank": 2,
-      "headline": "Rolling and heat treatment determine mechanical properties.",
-      "why_this_business": "Sheet and plate properties are developed through rolling reduction and heat treatment to temper, with parameters and testing determining conformance. Temper affects formability and strength.",
-      "loss_scenario": "Material at wrong temper failing in customer forming operations or in service, with the deficiency identified only after fabrication and requiring traceback through production records.",
-      "rhetorical_question": "How are rolling and heat treatment parameters recorded against production lots?"
+      "headline": "Rolling and annealing set properties that cannot be inspected.",
+      "points": [
+        "Reduction, temperature, and annealing determine temper and formability.",
+        "Sheet with correct thickness can still have wrong properties.",
+        "The failure appears when the customer forms it."
+      ],
+      "rhetorical_question": "How are your rolling and annealing parameters recorded per coil?"
     },
     {
       "rank": 3,
-      "headline": "Continuous rolling operations run at very high speed.",
-      "why_this_business": "Hot and cold rolling mills run continuously with coils processed at high speed and tension control critical. Equipment damage occurs when control is lost, and mills represent very substantial capital.",
-      "loss_scenario": "Mill damage and lost production with repairs taking weeks, and customers on contracted supply unable to obtain qualified material from alternative sources without requalification.",
-      "rhetorical_question": "How long does a customer take to qualify an alternative aluminium supplier?"
+      "headline": "Mills run continuously at very high fixed cost.",
+      "points": [
+        "Casting, rolling, and finishing run as continuous lines.",
+        "Material in process is lost when a line stops.",
+        "A day down is capacity that cannot be recovered."
+      ],
+      "rhetorical_question": "What does a day of stopped production cost at your mill?"
     }
   ]
 }

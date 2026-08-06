@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Machine tools ship with controls you write and support remotely.",
-      "why_this_business": "Machine tools include CNC controls, drives, and diagnostic software with remote support connections into customer shops. Those connections reach machines that are the customer's entire production capacity.",
-      "loss_scenario": "Support access used to reach customer networks or machines, stopping production across many shops, with the machine tool builder identified as the common entry point.",
+      "headline": "You retain remote access into customer shops.",
+      "points": [
+        "Controls, drives, and diagnostics ship with remote support connections.",
+        "Those machines are the customer's entire production capacity.",
+        "You become the common entry point across many shops."
+      ],
       "rhetorical_question": "How do your service engineers connect to machines at customer sites?"
     },
     {
       "rank": 2,
-      "headline": "Machine tools are export controlled at higher capability levels.",
-      "why_this_business": "Multi-axis machine tools above defined accuracy and axis thresholds are export controlled, with licensing requirements for destinations and end users because of their weapons manufacturing relevance.",
-      "loss_scenario": "Controlled machines or technology reaching a restricted end user, which is an export violation with penalties, denial of export privileges, and criminal exposure.",
+      "headline": "Higher capability machines are export controlled.",
+      "points": [
+        "Multi-axis machines above defined thresholds are restricted by destination and end user.",
+        "The restriction exists because of weapons manufacturing relevance.",
+        "Violations carry penalties, loss of export privileges, and criminal exposure."
+      ],
       "rhetorical_question": "Which of your machines fall under export control thresholds?"
     },
     {
       "rank": 3,
-      "headline": "Machine safety functions prevent operator injury.",
-      "why_this_business": "Machine tools have interlocked enclosures, safe speed limits, and safety-rated control functions preventing motion with the door open. Failures expose operators to spindles and tool changers.",
-      "loss_scenario": "A safety function defect permitting motion with an operator exposed, causing serious injury, with the validation records examined and every machine of the model affected.",
+      "headline": "Safety functions prevent operator injury.",
+      "points": [
+        "Interlocked enclosures and safety-rated functions prevent motion with the door open.",
+        "You design, validate, and document those functions.",
+        "A defect exposes operators to spindles and tool changers."
+      ],
       "rhetorical_question": "How are safety-rated functions validated and documented before a machine ships?"
     }
   ]

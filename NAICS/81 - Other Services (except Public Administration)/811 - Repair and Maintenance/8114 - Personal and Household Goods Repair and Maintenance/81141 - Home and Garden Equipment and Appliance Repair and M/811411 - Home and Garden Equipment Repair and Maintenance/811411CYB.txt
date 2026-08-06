@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seasonal repair demand cannot be deferred.",
-      "why_this_business": "Mower, snow equipment, and outdoor power repair is intensely seasonal, with customers needing equipment working during a narrow window. Commercial landscaping and snow removal customers lose billable days when equipment is down.",
-      "loss_scenario": "Commercial customers moving to a competitor who can turn work around during the season, taking the recurring parts and service revenue that carries the business through the off-season.",
-      "rhetorical_question": "How many commercial customers depend on your turnaround during peak season?"
+      "headline": "The season concentrates the year.",
+      "points": [
+        "Repairs concentrate in spring and summer when equipment is used.",
+        "Customers need equipment working during the growing season.",
+        "A backlog in season is revenue and customers lost."
+      ],
+      "rhetorical_question": "What share of your annual work happens between March and August?"
     },
     {
       "rank": 2,
-      "headline": "Warranty claims require documented diagnosis within deadlines.",
-      "why_this_business": "Manufacturer warranty work is authorised and claimed through manufacturer portals with documentation and submission deadlines. Denied or late claims are absorbed as unpaid labour and parts.",
-      "loss_scenario": "Warranty claims lapsing during an outage, which is direct unrecoverable margin on work already completed and parts already fitted.",
-      "rhetorical_question": "How many manufacturer warranty portals do you submit claims through?"
+      "headline": "Scheduling and parts run every repair.",
+      "points": [
+        "Appointments, parts ordering, and technician assignments run on connected systems.",
+        "Customers wait without working equipment.",
+        "A scheduling failure extends every repair in progress."
+      ],
+      "rhetorical_question": "How are your repairs scheduled and parts ordered?"
     },
     {
       "rank": 3,
-      "headline": "Customer equipment is held on site and identified by record.",
-      "why_this_business": "Shops hold customer equipment for repair over weeks during peak season, tracked by work order with owner details and condition on intake. Equipment includes commercial machines worth thousands.",
-      "loss_scenario": "Disputes over equipment condition and authorised work, and theft of customer property in your custody, both resolved from records that establish what was received.",
-      "rhetorical_question": "How do you record equipment condition and authorised work at intake?"
+      "headline": "Customer records hold contact and payment data.",
+      "points": [
+        "Records carry contact details, equipment history, and payment information.",
+        "Home service adds address and access details.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer address and payment data do you store?"
     }
   ]
 }

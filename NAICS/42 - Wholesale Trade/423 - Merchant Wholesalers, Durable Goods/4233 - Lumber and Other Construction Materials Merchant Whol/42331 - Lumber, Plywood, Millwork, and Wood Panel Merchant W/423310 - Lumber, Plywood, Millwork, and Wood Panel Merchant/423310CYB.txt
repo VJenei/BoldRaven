@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Commodity positions and futures exposure are managed against live data.",
-      "why_this_business": "Lumber prices move sharply and wholesalers carry inventory and forward commitments, sometimes hedged with futures. Position, cost basis, and open order data determine exposure. A distributor who cannot see its position cannot manage it.",
-      "loss_scenario": "Unmanaged inventory exposure through a price move, where a 20 percent swing on a large inventory position wipes out a year of margin.",
-      "rhetorical_question": "How do you track your inventory position and forward commitments against market price?"
+      "headline": "Builders schedule trades around your delivery date.",
+      "points": [
+        "Material arrives at a fixed point in the framing sequence.",
+        "Crews and every following trade are scheduled behind it.",
+        "A missed delivery idles crews across multiple jobs."
+      ],
+      "rhetorical_question": "How are your deliveries scheduled against builder framing dates?"
     },
     {
       "rank": 2,
-      "headline": "Truckloads of lumber are a high value cargo theft target.",
-      "why_this_business": "A truckload of finished lumber or panel product is valuable, easily resold, and untraceable once off the truck. Fictitious pickup, where a criminal poses as a booked carrier using spoofed credentials, is a documented and growing pattern against building products.",
-      "loss_scenario": "A stolen load of $40,000 to $120,000, released voluntarily to someone presenting valid-looking documents, which is generally not covered as a property theft.",
-      "rhetorical_question": "How do you verify the driver and carrier at the gate before releasing a load?"
+      "headline": "Prices move daily and orders are priced when placed.",
+      "points": [
+        "Lumber pricing moves substantially day to day.",
+        "Quotes, orders, and inventory value all follow current pricing.",
+        "Selling from stale prices loses money on every load."
+      ],
+      "rhetorical_question": "How is your pricing updated and applied to quotes and orders?"
     },
     {
       "rank": 3,
-      "headline": "Contractor and dealer accounts run on credit with lien rights attached.",
-      "why_this_business": "Material sold to contractors and yards is supplied on credit, with preliminary notices and mechanics lien rights against the project protecting the balance. Lien deadlines run from the date of last delivery and require delivery records to establish.",
-      "loss_scenario": "Loss of lien rights on unpaid balances because delivery dates and notice records were unavailable, converting secured exposure into an unsecured receivable.",
-      "rhetorical_question": "How do you track delivery dates for lien notice deadlines on contractor accounts?"
+      "headline": "Panel compliance records must follow the product.",
+      "points": [
+        "Composite panels carry formaldehyde emission certification requirements.",
+        "Records must be retained and passed through the supply chain.",
+        "Product without records cannot lawfully be sold onward."
+      ],
+      "rhetorical_question": "How do you retain and pass on panel emission compliance records?"
     }
   ]
 }

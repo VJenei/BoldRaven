@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Personal services collect information clients consider private.",
-      "why_this_business": "Businesses in this category serve individuals directly, holding contact details, payment methods, appointment histories, and frequently personal circumstances relevant to the service. Clients disclose on the assumption of discretion.",
-      "loss_scenario": "Exposure of client identity and service history, which for personal services carries embarrassment and privacy harm disproportionate to the transaction value.",
-      "rhetorical_question": "What personal information do clients disclose to you that they would not want public?"
+      "headline": "Client records carry personal data.",
+      "points": [
+        "Records document contact details, service history, and payment information.",
+        "Some services involve health or sensitive personal information.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client personal and payment data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Booking and payment platforms run the whole business.",
-      "why_this_business": "Small personal service operations manage scheduling, client records, and payment through a single platform, frequently with stored payment methods and recurring billing, and no IT support of any kind.",
-      "loss_scenario": "Complete operational stop with clients uncontactable and appointments unknown, and card liability assigned to the merchant at amounts a sole operator cannot fund.",
-      "rhetorical_question": "How would you contact tomorrow's clients if your booking platform were unavailable?"
+      "headline": "Bookings and payments run every day.",
+      "points": [
+        "Appointments and payments run on connected systems.",
+        "Clients book ahead and arrive expecting a slot.",
+        "Card security requirements apply to every location."
+      ],
+      "rhetorical_question": "How are your appointments booked and card payments processed?"
     },
     {
       "rank": 3,
-      "headline": "Client access to homes and personal spaces is common.",
-      "why_this_business": "Many services in this category are delivered at clients' homes, with addresses, access arrangements, and schedules held in booking systems that indicate when clients will be present or absent.",
-      "loss_scenario": "Exposure of home addresses with access details and schedules, which is a physical security exposure for clients rather than a financial one.",
-      "rhetorical_question": "Do your records include home access details for clients?"
+      "headline": "Service commitments are made to specific dates.",
+      "points": [
+        "Services are booked and clients plan around those dates.",
+        "Some services support events that cannot move.",
+        "A missed commitment costs the fee and the relationship."
+      ],
+      "rhetorical_question": "How are your bookings and service commitments recorded?"
     }
   ]
 }

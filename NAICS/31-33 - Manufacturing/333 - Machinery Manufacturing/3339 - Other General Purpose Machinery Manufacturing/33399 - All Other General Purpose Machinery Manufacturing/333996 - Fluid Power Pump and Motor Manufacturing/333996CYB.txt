@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Hydraulic pump failure disables the machine immediately.",
-      "why_this_business": "Hydraulic pumps and motors supply the power for steering, braking, lifting, and drive functions on mobile and industrial equipment. Sudden failure removes those functions while the machine is operating.",
-      "loss_scenario": "Pump or motor failures across an installed fleet removing steering or braking on operating equipment, with accidents and a recall to every machine using the affected production.",
+      "headline": "Pump failure removes steering and braking mid-operation.",
+      "points": [
+        "Pumps supply power for steering, braking, lifting, and drive functions.",
+        "Sudden failure removes those functions while the machine is moving.",
+        "The operator loses control of heavy equipment."
+      ],
       "rhetorical_question": "Do your pumps supply steering or braking functions on customer equipment?"
     },
     {
       "rank": 2,
-      "headline": "Precision manufacture determines whether the unit holds pressure.",
-      "why_this_business": "Pump performance depends on clearances measured in microns, achieved through controlled machining and assembly. Units outside tolerance lose efficiency or fail rapidly under load.",
-      "loss_scenario": "Units machined outside tolerance failing early across the field, with warranty claims covering the pump and the consequential machine downtime at every customer.",
+      "headline": "Clearances measured in microns determine whether it holds pressure.",
+      "points": [
+        "Performance depends on machining and assembly to extremely tight clearances.",
+        "Units outside tolerance lose efficiency or fail rapidly.",
+        "Warranty covers the pump plus the customer's downtime."
+      ],
       "rhetorical_question": "How are machining parameters and inspection results recorded per unit?"
     },
     {
       "rank": 3,
-      "headline": "Designs and process know-how are proprietary and targeted.",
-      "why_this_business": "Fluid power designs, tolerances, and manufacturing processes represent decades of development and determine competitive position. Competitors cannot replicate the performance without the process data.",
-      "loss_scenario": "Theft of design and process data, transferring the manufacturer's technical position permanently with no way to recover it once the data is copied.",
+      "headline": "Designs and process know-how are targeted.",
+      "points": [
+        "Tolerances and manufacturing processes represent decades of development.",
+        "Competitors cannot replicate performance without that data.",
+        "Once copied the position transfers permanently."
+      ],
       "rhetorical_question": "How is access to design and manufacturing process data controlled?"
     }
   ]

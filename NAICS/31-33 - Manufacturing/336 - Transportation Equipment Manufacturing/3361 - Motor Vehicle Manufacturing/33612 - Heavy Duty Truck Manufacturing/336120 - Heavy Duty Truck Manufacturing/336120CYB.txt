@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Trucks are connected and receive software over the air.",
-      "why_this_business": "Commercial vehicles run electronic control units, telematics, and remote diagnostics with over the air software delivery. Braking, steering, and driver assistance functions are software controlled on vehicles weighing 80,000 pounds.",
-      "loss_scenario": "A vulnerability affecting control functions on heavy trucks in service, with accident potential proportional to vehicle mass, an NHTSA recall, and a software campaign across a fleet operating on public roads.",
+      "headline": "Trucks receive software over the air while in service.",
+      "points": [
+        "Braking, steering, and driver assistance are software controlled.",
+        "Those vehicles weigh up to 80,000 pounds on public roads.",
+        "A software campaign has to reach a fleet already in operation."
+      ],
       "rhetorical_question": "What vehicle functions can be affected by software delivered over the air?"
     },
     {
       "rank": 2,
-      "headline": "Emissions certification is enforced through engine software.",
-      "why_this_business": "Heavy duty engines are certified to EPA and CARB standards with aftertreatment governed by engine calibration. Enforcement against defeat devices and uncertified calibrations has produced settlements in the billions.",
-      "loss_scenario": "Vehicles built or serviced with wrong or altered calibrations, which is an emissions violation with per-vehicle penalties, recall, and potentially a consent decree with ongoing federal oversight.",
+      "headline": "Emissions certification lives in the engine calibration.",
+      "points": [
+        "Aftertreatment is governed by engine software subject to certification.",
+        "Enforcement against defeat devices has produced settlements in the billions.",
+        "Penalties are calculated per vehicle."
+      ],
       "rhetorical_question": "How are certified engine calibrations controlled at build and in service?"
     },
     {
       "rank": 3,
-      "headline": "Fleet customers and dealers depend on your systems continuously.",
-      "why_this_business": "Trucks are sold and serviced through dealers using manufacturer systems for parts, warranty, and diagnostics. A truck out of service costs a fleet operator revenue every day it does not run.",
-      "loss_scenario": "Parts and diagnostic systems unavailable with trucks unable to be repaired across the dealer network, and fleet customers pursuing the manufacturer for the revenue lost on idle vehicles.",
+      "headline": "Fleets lose revenue for every day a truck is down.",
+      "points": [
+        "Trucks are serviced through dealers using your parts and diagnostic systems.",
+        "Without those systems trucks cannot be repaired.",
+        "Fleet customers pursue you for the revenue on idle vehicles."
+      ],
       "rhetorical_question": "How do dealers access diagnostics and order parts from you?"
     }
   ]

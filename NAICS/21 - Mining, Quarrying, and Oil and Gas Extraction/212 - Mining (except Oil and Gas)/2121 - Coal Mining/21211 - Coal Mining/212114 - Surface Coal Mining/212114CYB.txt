@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Haul fleets and draglines run on dispatch software that controls the whole pit.",
-      "why_this_business": "Surface mines are dispatched through fleet management systems such as Modular Mining DISPATCH or Wenco, which assign trucks to shovels, track payload, and manage the haul cycle. GPS-guided draglines and dozers follow the same digital mine plan. Without dispatch, the pit reverts to manual radio direction at a fraction of throughput.",
-      "loss_scenario": "A dispatch outage cuts production materially while the entire fixed cost of the fleet and crew continues. A large surface mine moving 100,000 tons a day loses six figures per day of production.",
-      "rhetorical_question": "What fleet dispatch or mine planning software does your operation depend on daily?"
+      "headline": "Production and haulage run on connected dispatch systems.",
+      "points": [
+        "Draglines, shovels, and haul trucks run fleet management and dispatch software.",
+        "Production is planned and dispatched centrally every shift.",
+        "A dispatch failure stops the pit, not one machine."
+      ],
+      "rhetorical_question": "Is your haulage fleet run by a dispatch or fleet management system?"
     },
     {
       "rank": 2,
-      "headline": "Explosives inventory records are federally required and losses must be reported in 24 hours.",
-      "why_this_business": "ATF requires licensed users of explosives to maintain inventory and daily transaction records, and to report any theft or loss of explosive materials within 24 hours. Electronic initiation systems and blast design software hold the shot patterns and delay timing. Blast records are also the defense in a vibration or flyrock claim.",
-      "loss_scenario": "Missing inventory records during an ATF inspection put the license at risk, and without blast logs and seismograph data a neighboring property damage claim is very difficult to defend.",
-      "rhetorical_question": "How do you maintain explosives inventory and blast records, and are they backed up off site?"
+      "headline": "Federal mine safety records are mandatory and inspected.",
+      "points": [
+        "Training, inspection, and accident records must be kept and produced to inspectors.",
+        "Records support every certification held on the site.",
+        "Failures are citable and can close a section."
+      ],
+      "rhetorical_question": "What mine safety training and inspection records do you keep?"
     },
     {
       "rank": 3,
-      "headline": "Coal is paid on quality data measured at the loadout.",
-      "why_this_business": "Payment is set by BTU, sulfur, ash, and moisture sampled at the loadout or by the purchaser, with penalties and rejection thresholds written into the sales agreement. Truck and rail scale tickets establish tonnage. All of it lives in the loadout and quality system.",
-      "loss_scenario": "Quality disputes across shipments that cannot be resolved with sample and scale records, plus loadout downtime that stops trains against demurrage charges.",
-      "rhetorical_question": "Is your scale house and coal quality data stored on site, and is there a second copy?"
+      "headline": "Coal is sold on quality tests and paid in large transfers.",
+      "points": [
+        "Shipments are tested for heat content, sulphur, and ash, and paid on those results.",
+        "Payments move by electronic transfer against contracts.",
+        "A faked banking change diverts an entire shipment payment."
+      ],
+      "rhetorical_question": "How are banking details verified before a coal shipment payment?"
     }
   ]
 }

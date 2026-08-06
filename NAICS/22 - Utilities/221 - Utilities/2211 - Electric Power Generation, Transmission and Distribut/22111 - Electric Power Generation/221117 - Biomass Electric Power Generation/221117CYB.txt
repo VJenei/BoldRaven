@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Fuel supply is a continuous logistics operation with no large buffer.",
-      "why_this_business": "Biomass plants burn wood waste, agricultural residue, or landfill gas delivered daily by truck against fuel supply agreements. Scale house ticketing records moisture, species, and tonnage, which determines both payment to suppliers and the fuel value burned. On-site fuel storage is typically measured in days.",
-      "loss_scenario": "A ticketing and dispatch failure disrupts fuel receipts within days, forcing derate or shutdown. Suppliers with no way to be paid stop delivering quickly.",
-      "rhetorical_question": "How many days of fuel do you hold on site, and how are deliveries ticketed?"
+      "headline": "Combustion and fuel handling run on automated controls.",
+      "points": [
+        "Fuel feed, boiler, and turbine systems are run by distributed control.",
+        "Biomass fuel handling systems create dust and fire risk when they misbehave.",
+        "A control failure can cause a fire in the fuel handling system."
+      ],
+      "rhetorical_question": "Is your plant and fuel handling run by a distributed control system?"
     },
     {
       "rank": 2,
-      "headline": "Combustion and emissions control run under continuous automated supervision.",
-      "why_this_business": "Variable fuel quality makes combustion control harder than on a fossil unit. Boiler control, ash handling, and emissions control equipment run under DCS, with continuous emissions monitoring reported to the regulator. Fuel variability means the control system is working constantly.",
-      "loss_scenario": "Forced outage plus emissions exceedances during uncontrolled operation, each of which is separately reportable and separately penalised.",
-      "rhetorical_question": "Is your emissions monitoring data recorded on a system connected to your plant network?"
+      "headline": "Fuel supply is scheduled and paid continuously.",
+      "points": [
+        "Biomass arrives daily by truck and is weighed, tested, and paid on records.",
+        "The plant holds only days of fuel on site.",
+        "A break in fuel logistics shuts the plant down."
+      ],
+      "rhetorical_question": "How many days of fuel does your plant hold on site?"
     },
     {
       "rank": 3,
-      "headline": "Renewable energy credits and incentives depend on documented fuel sourcing.",
-      "why_this_business": "Revenue often includes renewable energy credits or state incentives conditional on eligible fuel type and sustainable sourcing. Registries require documented fuel origin, and audits trace credits back to delivery tickets and supplier certifications.",
-      "loss_scenario": "Credits invalidated or clawed back where fuel sourcing cannot be evidenced, removing a revenue stream that often makes the difference between profit and loss.",
-      "rhetorical_question": "Do you generate renewable energy credits that require documented fuel sourcing?"
+      "headline": "Emissions and generation data are reported to regulators.",
+      "points": [
+        "Continuous emissions monitoring and generation metering report automatically.",
+        "Compliance and renewable credits both follow that reported data.",
+        "Gaps in data are treated as exceedances and lost credits."
+      ],
+      "rhetorical_question": "How is your emissions and generation data recorded and reported?"
     }
   ]
 }

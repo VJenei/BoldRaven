@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Ticketing and dispatch are the only record that material left the pit.",
-      "why_this_business": "Granite aggregate is sold by the ton across a scale, ticketed to a customer and job, and invoiced from that record. Dispatch coordinates hauling to asphalt plants, concrete plants, and job sites. Both run on software connected to the office network.",
-      "loss_scenario": "Unbillable loads and disputed receivables across the period of the outage, with no independent record of what was shipped to whom.",
-      "rhetorical_question": "How many loads leave your scale on a normal production day?"
+      "headline": "Crushing and screening run as one automated circuit.",
+      "points": [
+        "Crushers, screens, and conveyors hold product gradation through controls.",
+        "The circuit is designed to run continuously.",
+        "A plant down stops every truck at the loadout."
+      ],
+      "rhetorical_question": "Is your crushing and screening plant run by automated controls?"
     },
     {
       "rank": 2,
-      "headline": "Hard rock crushing is capital intensive and highly automated.",
-      "why_this_business": "Granite is abrasive and hard, so plants run jaw, cone, and impact crushers with automated feed, level, and power draw control, plus belt scales and dust suppression. Unplanned stops damage equipment and cost throughput that cannot be recovered inside the season.",
-      "loss_scenario": "Extended plant downtime during the paving season, when the majority of annual demand occurs and customers switch to another supplier for the rest of the year.",
-      "rhetorical_question": "What proportion of your annual tonnage ships during the construction season?"
+      "headline": "Every sale runs through the scale and ticketing system.",
+      "points": [
+        "Trucks are weighed and ticketed automatically before leaving.",
+        "Invoicing, taxes, and royalties follow those tickets.",
+        "Without the scale system you cannot bill what left."
+      ],
+      "rhetorical_question": "How are your truck scales and load tickets recorded?"
     },
     {
       "rank": 3,
-      "headline": "Blasting records and vibration data are your defence against neighbour claims.",
-      "why_this_business": "Hard rock quarries blast regularly and are usually near residential property. ATF requires explosives inventory records with theft or loss reported within 24 hours. Seismograph readings and blast logs establish that ground vibration stayed within limits.",
-      "loss_scenario": "Structural damage claims from neighbouring homeowners that cannot be rebutted without blast and seismograph records, plus regulatory action against the explosives licence.",
-      "rhetorical_question": "How are your blast logs and seismograph readings recorded and retained?"
+      "headline": "Specification testing certifies material for public work.",
+      "points": [
+        "Gradation and durability results certify aggregate for road and concrete use.",
+        "Agencies verify those certifications before accepting material.",
+        "Uncertified material is refused on state projects."
+      ],
+      "rhetorical_question": "How are your aggregate test results recorded and certified?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Protective apparel carries certification and life safety obligations.",
-      "why_this_business": "Manufacturers in this category produce protective clothing, gloves, and safety apparel certified to standards for flame resistance, cut protection, and high visibility. Users rely on that performance in hazardous work.",
-      "loss_scenario": "Non-conforming protective apparel reaching workers, with injury or death where the protection failed, and certification records determining whether the product ever met its claimed standard.",
-      "rhetorical_question": "Do you manufacture certified protective apparel, and where are the test records?"
+      "headline": "Children's products carry mandatory testing requirements.",
+      "points": [
+        "Products for children require third party testing and a certificate.",
+        "Lead, phthalate, and small parts requirements all apply.",
+        "Uncertified children's products cannot lawfully be sold."
+      ],
+      "rhetorical_question": "Which of your products are children's products requiring third party testing?"
     },
     {
       "rank": 2,
-      "headline": "Licensed and branded products carry contractual obligations.",
-      "why_this_business": "Accessories frequently carry licensed sports, entertainment, or brand marks under agreements restricting production quantities, sourcing, and distribution, with royalty reporting from production data.",
-      "loss_scenario": "Licence termination for unreported production or unauthorised distribution, plus counterfeit exposure where artwork and licensing files are disclosed.",
-      "rhetorical_question": "Do you manufacture licensed products with royalty reporting obligations?"
+      "headline": "Labelling and origin requirements are federally enforced.",
+      "points": [
+        "Fiber content, care, and country of origin labelling is required.",
+        "Errors are enforcement matters and cause retailer rejection.",
+        "Mislabelled goods must be relabelled or destroyed."
+      ],
+      "rhetorical_question": "How are your labelling specifications controlled through production?"
     },
     {
       "rank": 3,
-      "headline": "Children's products require testing and tracking labels.",
-      "why_this_business": "Children's apparel and accessories require third-party testing, children's product certificates, and tracking labels identifying manufacturer and batch, with small parts and drawstring requirements enforced by CPSC.",
-      "loss_scenario": "CPSC action and recall where certificates and testing cannot be produced, on products in children's hands with choking and strangulation hazards.",
-      "rhetorical_question": "Where are your children's product certificates and test reports held?"
+      "headline": "Retail supply is seasonal and concentrated.",
+      "points": [
+        "Product ships to retailers under delivery, labelling, and packing requirements.",
+        "Chargebacks apply when requirements are missed.",
+        "Missing a season means missing the volume entirely."
+      ],
+      "rhetorical_question": "What share of your volume ships in your peak season?"
     }
   ]
 }

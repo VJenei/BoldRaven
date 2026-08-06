@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Firearms transaction records are federally mandated and permanently retained.",
-      "why_this_business": "Retailers holding a federal firearms licence must complete and retain ATF Form 4473 for every transfer, maintain acquisition and disposition records permanently, and report theft or loss of firearms to ATF and local law enforcement within 48 hours. Form 4473 contains the buyer's full identity, address, date and place of birth, and identification details.",
-      "loss_scenario": "Licence revocation for records that cannot be produced ends the ability to deal in firearms. A breach of 4473 records exposes a complete identity file for every firearms purchaser, which is among the most sensitive customer data any retailer holds.",
-      "rhetorical_question": "How are your Form 4473 records and acquisition and disposition book maintained and secured?"
+      "headline": "Firearm sales require federal licensing and permanent records.",
+      "points": [
+        "Acquisition and disposition records are kept by serial number and inspected.",
+        "Background checks must be completed before transfer.",
+        "Without the check system you cannot lawfully transfer a firearm."
+      ],
+      "rhetorical_question": "How are your firearm records and background checks handled?"
     },
     {
       "rank": 2,
-      "headline": "Background check systems are required for the transaction to proceed.",
-      "why_this_business": "Firearm transfers require a NICS background check initiated at the point of sale, with a proceed response or the expiry of the statutory delay period before transfer. Without access to the check system there is no lawful way to complete a sale.",
-      "loss_scenario": "Firearms sales stop entirely during an outage, and improper transfers made without a completed check are federal violations regardless of the reason.",
-      "rhetorical_question": "What happens to firearms sales at your store if you cannot initiate a background check?"
+      "headline": "Card payments run continuously at every register.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply across every store.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 3,
-      "headline": "Seasonal and licence-driven demand concentrates the year.",
-      "why_this_business": "Hunting seasons, fishing openers, and holiday periods concentrate a large share of annual revenue into short windows tied to fixed dates. Inventory is bought months ahead against those windows.",
-      "loss_scenario": "An outage during opening week or the fourth quarter costs a disproportionate share of the year on seasonal inventory that clears at markdown afterward.",
-      "rhetorical_question": "What share of your annual revenue occurs in your peak season weeks?"
+      "headline": "Sales concentrate in short sport seasons.",
+      "points": [
+        "Volume ships and sells in sport-specific seasons.",
+        "Inventory, staffing, and promotions peak together.",
+        "Volume missed then cannot be recovered."
+      ],
+      "rhetorical_question": "What share of your annual sales happens in your peak seasons?"
     }
   ]
 }

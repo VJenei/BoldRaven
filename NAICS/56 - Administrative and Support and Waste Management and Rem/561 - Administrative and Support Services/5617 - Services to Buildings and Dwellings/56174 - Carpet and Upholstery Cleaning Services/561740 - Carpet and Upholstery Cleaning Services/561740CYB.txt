@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Technicians enter homes and businesses on scheduled appointments.",
-      "why_this_business": "Cleaning services schedule in-home appointments with customer addresses, access arrangements, and frequently details of the property and its contents. Water damage restoration work involves access during and after emergencies when properties may be unoccupied.",
-      "loss_scenario": "Exposure of customer addresses, appointment times, and access details, which reveals when properties will be empty and who is present, creating a physical security exposure for customers.",
-      "rhetorical_question": "Do you record access instructions or note when customers will be away?"
+      "headline": "You enter customer homes on a schedule.",
+      "points": [
+        "Records carry addresses, access arrangements, and appointment times.",
+        "That data shows when homes are occupied and when they are not.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer address and access data do you store?"
     },
     {
       "rank": 2,
-      "headline": "Restoration work is insurance-funded and documentation-driven.",
-      "why_this_business": "Water and fire restoration is billed to property insurers using industry estimating platforms, with moisture readings, photographs, and drying logs required to justify the claim. Carriers audit those records before paying.",
-      "loss_scenario": "Unbillable restoration work where documentation cannot be produced, with carriers declining payment on jobs already completed and equipment already deployed.",
-      "rhetorical_question": "How do you document moisture readings and drying progress for insurance billing?"
+      "headline": "Scheduling and dispatch run every job.",
+      "points": [
+        "Appointments, crews, and routing run on connected systems.",
+        "Customers take time off to be present.",
+        "A lost schedule cancels appointments across many customers."
+      ],
+      "rhetorical_question": "How are your appointments and crew routing scheduled?"
     },
     {
       "rank": 3,
-      "headline": "Customer payment and scheduling run on a single platform.",
-      "why_this_business": "Small service businesses run scheduling, dispatch, customer records, and card payment through one field service platform, frequently with stored payment methods for recurring commercial accounts.",
-      "loss_scenario": "Loss of scheduling and payment capability halts the business entirely, and stored card data exposure brings brand assessments a small operator cannot absorb.",
-      "rhetorical_question": "What happens to tomorrow's jobs if your scheduling platform is unavailable?"
+      "headline": "Card payments are taken in the customer's home.",
+      "points": [
+        "Technicians take card payments on mobile terminals.",
+        "Card security requirements apply to that handling.",
+        "A breach affects customers who paid at their own front door."
+      ],
+      "rhetorical_question": "How do your technicians take and process card payments?"
     }
   ]
 }

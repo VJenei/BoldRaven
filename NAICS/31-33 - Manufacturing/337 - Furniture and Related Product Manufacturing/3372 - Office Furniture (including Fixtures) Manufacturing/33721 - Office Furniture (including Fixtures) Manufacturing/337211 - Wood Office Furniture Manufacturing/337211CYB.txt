@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Product is made to order in configurations and finishes.",
-      "why_this_business": "Office furniture is built to specified configurations, finishes, and dimensions for individual projects, with cutting and finishing driven by order data. Finishes vary between batches and must match across an installation.",
-      "loss_scenario": "Orders built to wrong configuration or finish, unusable and unsellable, with the project installation delayed by the full production lead time to remake them.",
+      "points": [
+        "Configurations, finishes, and dimensions are specified per project.",
+        "Finishes vary between batches and must match across an installation.",
+        "Wrong orders are unsellable and the project waits the full lead time."
+      ],
       "rhetorical_question": "How is order configuration verified before release to production?"
     },
     {
       "rank": 2,
-      "headline": "Formaldehyde emissions from composite panels are federally regulated.",
-      "why_this_business": "Composite wood used in office furniture is subject to EPA TSCA Title VI emission standards with certification and record retention required through the supply chain.",
-      "loss_scenario": "Compliance records unavailable on request, which is a TSCA violation with penalties and finished goods that cannot lawfully be sold.",
+      "headline": "Panel emission compliance records are required by law.",
+      "points": [
+        "Composite wood is subject to formaldehyde emission standards.",
+        "Certification and records must be retained through the supply chain.",
+        "Finished goods without records cannot lawfully be sold."
+      ],
       "rhetorical_question": "How are formaldehyde compliance certifications retained for panel purchases?"
     },
     {
       "rank": 3,
-      "headline": "Installation is scheduled against building occupancy dates.",
-      "why_this_business": "Office furniture is delivered and installed against a move-in date, with the tenant's occupancy, lease commencement, and staff relocation scheduled around it.",
-      "loss_scenario": "Delivery missed with a tenant unable to occupy space they are paying rent on, and delay claims from the tenant and general contractor.",
+      "headline": "Installation is tied to a tenant move-in date.",
+      "points": [
+        "Furniture is installed against an occupancy date already committed.",
+        "Lease commencement and staff relocation are scheduled around it.",
+        "The tenant pays rent on space they cannot occupy."
+      ],
       "rhetorical_question": "What is scheduled behind your furniture installation date on a project?"
     }
   ]

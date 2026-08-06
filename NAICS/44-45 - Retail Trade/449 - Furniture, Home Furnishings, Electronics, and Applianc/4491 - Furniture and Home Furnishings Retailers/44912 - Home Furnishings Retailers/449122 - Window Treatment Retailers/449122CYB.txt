@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Every product is fabricated to measurements that cannot be guessed.",
-      "why_this_business": "Blinds, shades, and drapery are cut and assembled to exact window dimensions captured in the home, with mount type, control side, and fabric all specified per opening. Products are made to order and are not returnable or resaleable.",
-      "loss_scenario": "Lost measurement and specification records mean product fabricated to the wrong size, which is a total loss on custom goods plus a remeasure and refabrication at the retailer's cost.",
-      "rhetorical_question": "How are in-home measurements recorded and transmitted to your fabricator?"
+      "headline": "Every product is cut to one window.",
+      "points": [
+        "Blinds and shades are made to individual measurements.",
+        "A wrong measurement produces a product that fits nowhere.",
+        "The customer waits the full lead time again."
+      ],
+      "rhetorical_question": "How are customer measurements captured and verified before ordering?"
     },
     {
       "rank": 2,
-      "headline": "Motorised treatments are connected devices installed in customers' homes.",
-      "why_this_business": "Motorised shades integrate with home automation platforms and are commissioned to a customer's network and account. Installers configure hubs and retain access for support. That access reaches inside the customer's home network.",
-      "loss_scenario": "A compromise through installer access reaches customer home networks and, in homes with integrated security and cameras, creates a physical privacy exposure rather than a data one.",
-      "rhetorical_question": "Do you commission motorised products onto customer home networks?"
+      "headline": "Cord safety rules apply to what you sell.",
+      "points": [
+        "A mandatory federal rule restricts accessible operating cords.",
+        "The rule exists because of child strangulation deaths.",
+        "Non-compliant product cannot lawfully be sold."
+      ],
+      "rhetorical_question": "How do you verify cord safety compliance on the products you sell?"
     },
     {
       "rank": 3,
-      "headline": "Cord safety obligations carry recall and liability exposure.",
-      "why_this_business": "Corded window coverings are subject to child strangulation safety standards, with requirements on stock products sold at retail. Order and specification records establish which products were supplied to which homes when a standard changes or a recall occurs.",
-      "loss_scenario": "A child injury claim where the retailer cannot demonstrate which product was installed, or an obstructed recall where customer records are unavailable.",
-      "rhetorical_question": "Could you identify which customers received a specific product model?"
+      "headline": "Installation appointments are booked with customers.",
+      "points": [
+        "Measuring and installation appointments are scheduled in customer homes.",
+        "Customers take time off to be present.",
+        "A lost schedule cancels appointments across many customers."
+      ],
+      "rhetorical_question": "How are your measuring and installation appointments recorded?"
     }
   ]
 }

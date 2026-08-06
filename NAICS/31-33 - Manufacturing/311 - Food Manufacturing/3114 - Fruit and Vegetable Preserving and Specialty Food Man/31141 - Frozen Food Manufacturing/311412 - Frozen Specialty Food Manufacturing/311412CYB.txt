@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Multi-ingredient frozen meals concentrate allergen and pathogen risk.",
-      "why_this_business": "Frozen entrees combine meat, dairy, wheat, soy, and other allergens in a single product produced on shared lines, with cooking, chilling, and freezing steps that must each be validated. Products are frequently consumed after minimal reheating.",
-      "loss_scenario": "A recall covering multiple products and brands, with undercooking or allergen errors reaching consumers who reheat rather than cook, and injury claims alongside the recall cost.",
-      "rhetorical_question": "How many allergens are handled on your production lines?"
+      "headline": "Multi-ingredient products multiply allergen and recall exposure.",
+      "points": [
+        "Prepared meals combine ingredients from many suppliers on shared lines.",
+        "One contaminated ingredient affects every product it went into.",
+        "A supplier recall becomes your recall across many products."
+      ],
+      "rhetorical_question": "How quickly could you identify every product containing a recalled ingredient?"
     },
     {
       "rank": 2,
-      "headline": "Cook and chill validation is the food safety control.",
-      "why_this_business": "Thermal processing and rapid chilling are the critical control points, with time and temperature recorded continuously to demonstrate pathogen destruction and to prevent growth during cooling. Records prove the process was delivered.",
-      "loss_scenario": "Product produced without verifiable cook and chill records must be treated as adulterated and destroyed, and if it shipped, recalled, with USDA or FDA involvement depending on the product.",
-      "rhetorical_question": "How are cook and chill critical control point records captured and retained?"
+      "headline": "Cold chain integrity is monitored and recorded.",
+      "points": [
+        "Freezing, storage, and shipping temperatures are recorded continuously.",
+        "Product that thaws is unsafe and cannot be sold.",
+        "A refrigeration failure can lose an entire warehouse."
+      ],
+      "rhetorical_question": "Is your freezer and storage temperature monitored and recorded automatically?"
     },
     {
       "rank": 3,
-      "headline": "Private label production means many customers' brands on one line.",
-      "why_this_business": "Manufacturers produce for multiple retail and brand customers on the same lines, holding their specifications and packaging. A single production problem affects every brand made in that period.",
-      "loss_scenario": "A recall affecting multiple customer brands simultaneously, with each customer holding contractual claims and the manufacturer's entire customer base implicated in one event.",
-      "rhetorical_question": "How many customer brands would be affected by a single day's production problem?"
+      "headline": "Labels carry allergen and nutrition claims that must be right.",
+      "points": [
+        "Panels and allergen declarations are printed from specification data.",
+        "Undeclared allergens are the leading cause of food recalls.",
+        "A wrong label recalls every package printed with it."
+      ],
+      "rhetorical_question": "How are label and allergen specifications controlled through to packaging?"
     }
   ]
 }

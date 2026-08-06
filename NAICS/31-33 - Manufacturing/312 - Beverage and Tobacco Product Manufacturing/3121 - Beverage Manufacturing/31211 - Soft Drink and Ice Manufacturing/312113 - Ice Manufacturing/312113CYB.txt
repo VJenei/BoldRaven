@@ -9,23 +9,32 @@
     {
       "rank": 1,
       "headline": "Ice is a food product with sanitation requirements.",
-      "why_this_business": "Packaged ice is regulated as a food, with source water, production sanitation, and packaging requirements. Contaminated ice reaches consumers directly in drinks with no further treatment.",
-      "loss_scenario": "A contamination recall on a product distributed to retail and foodservice, with illness claims where contaminated ice reached consumers in beverages.",
-      "rhetorical_question": "How is source water quality and production sanitation documented?"
+      "points": [
+        "Water treatment, equipment sanitation, and testing records are required.",
+        "Ice is consumed directly and carries whatever contaminates it.",
+        "Contaminated ice reaches every customer served from that batch."
+      ],
+      "rhetorical_question": "What water treatment and sanitation records do you maintain?"
     },
     {
       "rank": 2,
-      "headline": "Demand is weather-driven and peaks without warning.",
-      "why_this_business": "Ice demand spikes with heat waves and holiday weekends, with retail and foodservice customers ordering against short notice. Production and storage capacity is finite and delivery routes must be dispatched dynamically.",
-      "loss_scenario": "Inability to produce or dispatch during a demand peak, which is where the majority of annual margin is earned, with customers out of stock during the periods that matter most.",
-      "rhetorical_question": "What share of your annual volume ships during summer peak weeks?"
+      "headline": "Demand spikes exactly when systems are stressed.",
+      "points": [
+        "Summer heat, holidays, and storms drive extreme demand peaks.",
+        "Orders, routes, and deliveries run on connected systems.",
+        "A failure during a peak loses the days that make the year."
+      ],
+      "rhetorical_question": "What share of your annual volume ships in your peak weeks?"
     },
     {
       "rank": 3,
-      "headline": "Freezing and storage systems must run continuously.",
-      "why_this_business": "Ice production and storage depend on refrigeration running continuously, with product melting if storage temperature is lost. Ammonia refrigeration systems above threshold quantities carry process safety obligations.",
-      "loss_scenario": "Stored inventory melted and unsaleable, plus ammonia release exposure where refrigeration systems fail, which is a worker and community safety event with regulatory consequences.",
-      "rhetorical_question": "How is your refrigeration system monitored, and does it use ammonia above threshold quantities?"
+      "headline": "Route delivery serves hundreds of accounts daily.",
+      "points": [
+        "Convenience stores, restaurants, and events are served on daily routes.",
+        "Ice cannot be stored by the customer in quantity.",
+        "A routing failure leaves accounts empty during peak demand."
+      ],
+      "rhetorical_question": "How many accounts depend on your daily delivery routes?"
     }
   ]
 }

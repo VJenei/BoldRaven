@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Cranes drop loads on people when they fail.",
-      "why_this_business": "Overhead cranes and hoists lift loads over occupied plant floors, with rated capacity, brakes, limit switches, and overload protection determining safe operation. A dropped load kills whoever is beneath it.",
-      "loss_scenario": "A brake, structural, or control defect dropping a load with fatal injury, and the manufacturer's design, testing, and load test records examined in the investigation.",
+      "headline": "Cranes drop loads onto people.",
+      "points": [
+        "Rated capacity, brakes, limits, and overload protection determine safe operation.",
+        "Loads travel over occupied plant floors.",
+        "A dropped load kills whoever is beneath it."
+      ],
       "rhetorical_question": "How are load test and inspection records retained for delivered cranes?"
     },
     {
       "rank": 2,
-      "headline": "Capacity ratings depend on design and fabrication records.",
-      "why_this_business": "Cranes are designed to rated capacity with structural calculations, welding, and load testing documented before service. Users rely absolutely on the rated capacity marked on the crane.",
-      "loss_scenario": "Cranes rated beyond their actual capacity in service, which is a latent condition until an overload event, requiring engineering assessment of every crane from the affected period.",
+      "headline": "The marked capacity is trusted absolutely.",
+      "points": [
+        "Structural calculations, welding, and load testing establish rated capacity.",
+        "Users rely entirely on the marking on the crane.",
+        "A crane rated beyond its capacity is latent until an overload."
+      ],
       "rhetorical_question": "How are structural calculations and load test results retained per crane?"
     },
     {
       "rank": 3,
-      "headline": "Cranes are essential to plant operations with no substitute.",
-      "why_this_business": "Overhead cranes handle material that cannot be moved any other way in steel plants, foundries, and heavy manufacturing. A crane out of service stops the process it serves.",
-      "loss_scenario": "Parts and service unavailable with customer cranes down, and heavy manufacturing operations stopped because material cannot be moved.",
+      "headline": "Cranes move material nothing else can move.",
+      "points": [
+        "Steel plants, foundries, and heavy manufacturing depend on overhead cranes.",
+        "There is no alternative way to move the material.",
+        "A crane out of service stops the process it serves."
+      ],
       "rhetorical_question": "What happens at a customer plant when a crane is out of service?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Prepress files are the customer's product before it exists.",
-      "why_this_business": "Prepress and platemaking services receive customer artwork, financial documents, and packaging designs, producing plates and files that drive presses. Content includes unreleased campaigns, regulated label copy, and confidential financial material.",
-      "loss_scenario": "Disclosure of unreleased customer content, with contractual liability and, where financial or regulated content is involved, consequences for the customer that exceed the value of the prepress work.",
-      "rhetorical_question": "What confidential customer content passes through your prepress systems?"
+      "headline": "You hold customer files ahead of their release.",
+      "points": [
+        "Prepress and plate files arrive before publication or campaign launch.",
+        "Those files reveal customer plans ahead of announcement.",
+        "A leak damages the customer's launch and breaches your contract."
+      ],
+      "rhetorical_question": "What customer files do you hold for material not yet published?"
     },
     {
       "rank": 2,
-      "headline": "Plate and file errors are reproduced across the entire print run.",
-      "why_this_business": "Plates and files define what the press prints. An error in artwork version, colour separation, or regulated label content is reproduced identically across the whole run before anyone reviews the printed output.",
-      "loss_scenario": "An entire print run scrapped for a prepress error, with material, press time, and the customer's deadline lost, and where regulated label content was wrong, recall of the packaged product.",
-      "rhetorical_question": "How is artwork version verified before plates are made?"
+      "headline": "Plates and prepress gate the printer's schedule.",
+      "points": [
+        "Printers cannot run until plates and files are delivered.",
+        "Press time is booked and cannot easily be moved.",
+        "A delay idles a press that costs thousands per hour."
+      ],
+      "rhetorical_question": "How are your plate and file deliveries scheduled against press time?"
     },
     {
       "rank": 3,
-      "headline": "Turnaround times feed printers' press schedules.",
-      "why_this_business": "Prepress services deliver into press schedules booked to the hour, with plates required before the press can run. Delay in prepress idles a press and pushes every job behind it.",
-      "loss_scenario": "Press downtime at customers waiting on plates, with their idle press time and downstream schedule disruption claimed against the prepress provider.",
-      "rhetorical_question": "What press start times depend on your plate delivery?"
+      "headline": "Colour and imposition data must be exact.",
+      "points": [
+        "Colour profiles, imposition, and separations determine the printed result.",
+        "Errors are printed at full run length before anyone checks.",
+        "A wrong run is scrap at the printer's full material and press cost."
+      ],
+      "rhetorical_question": "How are colour and imposition files verified before plate output?"
     }
   ]
 }

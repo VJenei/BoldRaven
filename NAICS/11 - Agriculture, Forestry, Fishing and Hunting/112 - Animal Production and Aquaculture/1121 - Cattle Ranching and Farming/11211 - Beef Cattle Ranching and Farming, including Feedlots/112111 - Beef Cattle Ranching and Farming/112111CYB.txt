@@ -1,7 +1,6 @@
 {
   "naics_code": "112111",
   "naics_title": "Beef Cattle Ranching and Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Cattle sales are settled by wire days after delivery.",
-      "why_this_business": "Calves and feeders are sold through video auctions, order buyers, and private treaty. Settlement is by wire after delivery. Delivery instructions, weights, and payment details are exchanged by email between parties who transact once or twice a year.",
-      "loss_scenario": "One load of calves is $80,000 to $150,000 and a large sale day can exceed $1M. Once the transfer is authorized, it is a deception loss rather than a covered theft, and banks rarely recover funds after 24 hours.",
-      "rhetorical_question": "How many times a year do you receive payment by wire, and what is the largest amount?"
+      "headline": "Cattle sales are large payments made by wire.",
+      "points": [
+        "Load lots settle at high value after weighing and sorting.",
+        "A faked banking change diverts payment on an entire draft.",
+        "Cattle leave the ranch before the money arrives."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from cattle buyers by email?"
     },
     {
       "rank": 2,
-      "headline": "USDA requires electronically readable identification for interstate cattle movement.",
-      "why_this_business": "Effective November 5, 2024, APHIS requires official eartags on sexually intact cattle and bison 18 months and older, all dairy cattle, and rodeo and exhibition animals to be both visually and electronically readable for interstate movement. EID numbers are tied to premises IDs, health certificates, and movement records.",
-      "loss_scenario": "Inability to produce EID and movement records blocks interstate sale and shipment and prevents the operation from demonstrating compliance in a disease trace.",
-      "rhetorical_question": "Do you move cattle across state lines, and how do you store your EID and movement records?"
+      "headline": "Federal rules require electronic identification tags on breeding cattle moving interstate.",
+      "points": [
+        "Tags must be electronically readable and linked to movement records.",
+        "Those records must be produced during a disease trace.",
+        "Cattle you cannot document cannot cross a state line."
+      ],
+      "rhetorical_question": "How do you record identification tags and interstate movement for your cattle?"
     },
     {
       "rank": 3,
-      "headline": "Remote water and monitoring systems cover ground that is not checked daily.",
-      "why_this_business": "Extensive operations use remote water level and pump monitoring on tanks and wells, cellular and satellite telemetry, GPS collars, and remote gates across large acreage. In dry conditions cattle die within one to two days of losing water. Pastures may not be visited for several days.",
-      "loss_scenario": "Death loss from water failure in summer heat, discovered days late. Cattle values are commonly $2,000 or more per head. Farm policies do not cover losses caused by a control system failure.",
-      "rhetorical_question": "Do you use remote monitoring for stock water or pasture equipment?"
+      "headline": "Water and feed systems run automatically across the operation.",
+      "points": [
+        "Well pumps, tank monitors, and feed delivery run on controls and remote monitoring.",
+        "Cattle in a dry lot need water within hours, not days.",
+        "A water failure in heat kills animals before anyone finds it."
+      ],
+      "rhetorical_question": "Are your stock water pumps or tanks monitored remotely?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Dated performances cannot be rescheduled once the day passes.",
-      "why_this_business": "Companies contract venues, performers, and technical crews for specific dates, with tickets sold in advance and marketing committed. Performance dates are fixed by venue availability and touring routes.",
-      "loss_scenario": "Cancelled dates with production costs sunk, refunds owed, and presenter contracts breached, on a schedule that cannot absorb replacement dates.",
-      "rhetorical_question": "How far in advance are your performance dates and venues committed?"
+      "headline": "Performances happen on fixed dates.",
+      "points": [
+        "Performances are scheduled with performers, venues, and audiences committed.",
+        "Ticketing and seating run on connected systems.",
+        "A cancelled performance is refunded and cannot be resold."
+      ],
+      "rhetorical_question": "How are your tickets sold and seats assigned?"
     },
     {
       "rank": 2,
-      "headline": "Ticketing and patron data run through third-party platforms.",
-      "why_this_business": "Ticketing is handled through platforms holding patron identity, payment methods, and purchase histories. A breach at a major ticketing provider in 2024 exposed data associated with hundreds of millions of customers, demonstrating how concentrated this data has become.",
-      "loss_scenario": "Patron data exposed through the ticketing platform, with the company carrying the audience relationship and the reputational consequence regardless of where the failure occurred.",
-      "rhetorical_question": "Which ticketing platform holds your patron data, and what are its security commitments?"
+      "headline": "Patron and donor records fund the organisation.",
+      "points": [
+        "Ticket buyer and donor records carry contact and payment data.",
+        "Donations and subscriptions are the funding base.",
+        "Every affected patron and donor must be notified."
+      ],
+      "rhetorical_question": "What patron and donor records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Performer contracts and payments are contractual obligations.",
-      "why_this_business": "Companies engage performers under union and individual agreements with payment schedules, and hold performer personal and tax data for payroll. Union agreements impose specific obligations around payment timing.",
-      "loss_scenario": "Missed performer payments breaching union agreements with penalty provisions, plus exposure of performer personal and tax data across the company's engagement history.",
-      "rhetorical_question": "How many performers do you hold tax and payment records for?"
+      "headline": "Bookings and contracts commit resources ahead.",
+      "points": [
+        "Venues, performers, and production are booked months in advance.",
+        "Those commitments are contractual and costly.",
+        "A lost booking record is a commitment nobody can honour."
+      ],
+      "rhetorical_question": "How are your bookings and performance contracts recorded?"
     }
   ]
 }

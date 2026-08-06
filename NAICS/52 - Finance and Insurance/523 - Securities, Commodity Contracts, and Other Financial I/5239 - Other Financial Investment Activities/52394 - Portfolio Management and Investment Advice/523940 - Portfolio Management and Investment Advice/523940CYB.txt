@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "SEC rules now require customer notification within 30 days.",
-      "why_this_business": "Amendments to Regulation S-P require registered investment advisers and broker-dealers to adopt incident response programmes and to notify affected individuals as soon as practicable and no later than 30 days after becoming aware that sensitive customer information was or was likely accessed without authorisation, with obligations extending to service providers.",
-      "loss_scenario": "SEC enforcement for late or absent notification and for an inadequate incident response programme, examined separately from the breach itself.",
-      "rhetorical_question": "Does your incident response programme meet the 30-day notification requirement under Regulation S-P?"
+      "headline": "Client transfer instructions are forged and executed.",
+      "points": [
+        "Withdrawal and transfer requests arrive by email from clients.",
+        "Fraudulent instructions using compromised client email are a standard attack.",
+        "Regulators have penalised advisers for executing them without verification."
+      ],
+      "rhetorical_question": "How are client transfer instructions verified before funds move?"
     },
     {
       "rank": 2,
-      "headline": "Client wealth data attracts targeted social engineering.",
-      "why_this_business": "Advisers hold client identity, account balances, holdings, banking details, and family and estate information for wealthy individuals. Attackers impersonate clients to request wire transfers, and impersonate advisers to instruct custodians. The adviser's email is the channel for both.",
-      "loss_scenario": "Fraudulent distribution requests executed from client accounts, where the adviser is responsible for verifying authenticity and bears the loss when a fabricated instruction is acted on.",
-      "rhetorical_question": "How do you authenticate a client request to move funds out of an account?"
+      "headline": "Regulators require written cybersecurity programmes.",
+      "points": [
+        "Advisers must maintain written policies, incident response, and disclosure procedures.",
+        "Examinations assess those programmes directly.",
+        "Findings carry enforcement action and penalties."
+      ],
+      "rhetorical_question": "What written cybersecurity programme requirements apply to your firm?"
     },
     {
       "rank": 3,
-      "headline": "Books and records obligations cover electronic communications.",
-      "why_this_business": "Registered advisers must preserve required books and records including communications relating to advice, in specified formats and for defined periods, available for SEC examination. The Commission has pursued extensive enforcement over off-channel communications and recordkeeping failures.",
-      "loss_scenario": "Recordkeeping violations that regulators pursue independently of any client harm, and which have produced very substantial penalties across the industry.",
-      "rhetorical_question": "How are your electronic communications captured and preserved for examination?"
+      "headline": "Client files hold complete financial and personal data.",
+      "points": [
+        "Records carry identity, tax, asset, and beneficiary information.",
+        "Clients disclose everything because you asked.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "How many client files with financial and identity data do you hold?"
     }
   ]
 }

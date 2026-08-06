@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Process technology is targeted by state-sponsored actors.",
-      "why_this_business": "Semiconductor process recipes, device designs, and yield data represent the most valuable manufacturing knowledge in existence and are the explicit target of state-linked intrusion campaigns. Export controls restrict who may receive the technology.",
-      "loss_scenario": "Theft of process technology by a state-linked actor, transferring capability that took years and billions to develop, with export control violations if the transfer reached a restricted party.",
+      "headline": "Process technology is the explicit target of state actors.",
+      "points": [
+        "Recipes, device designs, and yield data are the most valuable manufacturing knowledge there is.",
+        "State-linked intrusion campaigns target it specifically.",
+        "Once copied, years and billions of development transfer permanently."
+      ],
       "rhetorical_question": "How is access to process recipe and device design data controlled and logged?"
     },
     {
       "rank": 2,
-      "headline": "A fab disturbance destroys wafers in process worth millions.",
-      "why_this_business": "Fabs run continuous processes where wafers spend weeks in flight. Any disturbance to tool control, environmental systems, or the manufacturing execution system ruins wafers that cannot be recovered. A malware incident at a major foundry cost hundreds of millions.",
-      "loss_scenario": "Malware spreading through fab tools and manufacturing systems, scrapping every wafer in process and requiring days to restore tools, with revenue loss compounding through committed customer deliveries.",
+      "headline": "Wafers spend weeks in process and cannot be recovered.",
+      "points": [
+        "Fabs run continuous processes with wafers in flight for weeks.",
+        "Any disturbance to tool control or manufacturing systems ruins them.",
+        "A malware incident at one major foundry cost hundreds of millions."
+      ],
       "rhetorical_question": "How many wafers are in process at any one time, and what are they worth?"
     },
     {
       "rank": 3,
-      "headline": "Export controls on semiconductor technology are strict and enforced.",
-      "why_this_business": "Advanced semiconductor devices, design tools, and technology are subject to specific export controls with restrictions by capability, destination, and end user, including on technology access by foreign persons.",
-      "loss_scenario": "Controlled technology reaching a restricted party, which is an export violation with penalties, denial of export privileges, and criminal exposure for individuals.",
+      "headline": "Export controls on this technology are strict and enforced.",
+      "points": [
+        "Devices, design tools, and technology are restricted by capability and end user.",
+        "Access by foreign persons is a controlled technology transfer.",
+        "Violations carry penalties, loss of export privileges, and criminal exposure."
+      ],
       "rhetorical_question": "How do you control which persons and locations can access controlled technology?"
     }
   ]

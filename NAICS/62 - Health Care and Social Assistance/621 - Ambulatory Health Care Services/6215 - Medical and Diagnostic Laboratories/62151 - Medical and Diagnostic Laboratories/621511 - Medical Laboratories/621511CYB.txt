@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Laboratory breaches have exposed millions of patients at a time.",
-      "why_this_business": "Clinical laboratories hold patient identifiers, ordering provider details, diagnoses, and test results across enormous volumes. Breaches at laboratory service providers and their billing vendors have exposed records of many millions of patients in single incidents.",
-      "loss_scenario": "Notification at a scale measured in millions, with OCR enforcement, state attorney general action, and class litigation, plus the ordering providers holding the laboratory responsible for their patients' data.",
-      "rhetorical_question": "How many patient records are held across your laboratory information system?"
+      "headline": "Physicians cannot treat without your results.",
+      "points": [
+        "Diagnosis and treatment decisions wait on laboratory results.",
+        "Some results are time critical for patient safety.",
+        "Delayed results delay care across every ordering physician."
+      ],
+      "rhetorical_question": "How many physicians depend on your results to make treatment decisions?"
     },
     {
       "rank": 2,
-      "headline": "Results drive clinical decisions and cannot be delayed or wrong.",
-      "why_this_business": "Laboratories deliver results that determine diagnosis and treatment, with critical values requiring immediate notification to the ordering clinician. Delays in oncology, infectious disease, and critical care results directly affect outcomes.",
-      "loss_scenario": "Delayed or misreported results causing patient harm, with clinical liability far exceeding the test fee, and critical value notification failures that are examined directly after an adverse outcome.",
-      "rhetorical_question": "What is your process for critical value notification if your systems are unavailable?"
+      "headline": "Result integrity determines patient treatment.",
+      "points": [
+        "Results are transmitted electronically into patient records.",
+        "Altered or wrong results lead to wrong treatment.",
+        "The patient is treated for something they do not have."
+      ],
+      "rhetorical_question": "How are your results protected against alteration in transmission?"
     },
     {
       "rank": 3,
-      "headline": "CLIA certification depends on demonstrable data integrity.",
-      "why_this_business": "Laboratories operate under CLIA certification requiring quality control, proficiency testing, and record retention, inspected on a cycle. Result integrity from instrument through to report is the core requirement.",
-      "loss_scenario": "Certification action where quality control and result records cannot be produced, and a laboratory without CLIA certification cannot report results for clinical use at all.",
-      "rhetorical_question": "Could you produce quality control records for a test performed eighteen months ago?"
+      "headline": "You hold results for enormous patient populations.",
+      "points": [
+        "Laboratory records cover patients from many practices and facilities.",
+        "Health privacy law requires notification of every affected patient.",
+        "Laboratory breaches have exposed millions of patients."
+      ],
+      "rhetorical_question": "How many patient records does your laboratory hold?"
     }
   ]
 }

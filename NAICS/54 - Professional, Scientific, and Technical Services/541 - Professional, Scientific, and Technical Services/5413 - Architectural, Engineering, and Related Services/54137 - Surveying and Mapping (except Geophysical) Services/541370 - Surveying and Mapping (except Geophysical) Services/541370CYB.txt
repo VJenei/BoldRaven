@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Survey records establish property boundaries and are relied on for decades.",
-      "why_this_business": "Land surveys establish boundaries, easements, and encroachments, recorded in plats and field notes that are referenced long after the survey. Licensed surveyors are required to retain records, and boundary disputes turn on the original field evidence and calculations.",
-      "loss_scenario": "A boundary dispute where the field notes and calculations cannot be produced, with professional liability for a survey relied on in a property purchase or construction, and licence board exposure for records retention failures.",
-      "rhetorical_question": "How long are you required to retain field notes and survey records?"
+      "headline": "Survey data defines property boundaries legally.",
+      "points": [
+        "Boundary surveys establish legal property lines and easements.",
+        "Sealed plats are recorded and relied on permanently.",
+        "An error becomes a boundary dispute between neighbours."
+      ],
+      "rhetorical_question": "Where are your survey data and sealed plats stored?"
     },
     {
       "rank": 2,
-      "headline": "Construction staking errors are built before they are discovered.",
-      "why_this_business": "Construction surveying sets the position and elevation of structures from design coordinates. Machine control systems on grading equipment work from the same data. An error in the control data is replicated across the site at full scale.",
-      "loss_scenario": "A structure built out of position or at the wrong elevation, where the remedy is demolition and reconstruction and the claim lands entirely on the surveyor.",
-      "rhetorical_question": "How is design coordinate data verified before it is issued to the field?"
+      "headline": "Construction layout controls where things get built.",
+      "points": [
+        "Layout data drives machine control and construction positioning.",
+        "Structures are built to those coordinates.",
+        "A wrong coordinate builds something in the wrong place."
+      ],
+      "rhetorical_question": "How is your layout and control data verified before it drives construction?"
     },
     {
       "rank": 3,
-      "headline": "Detailed site and infrastructure data accumulates across clients.",
-      "why_this_business": "Surveyors hold precise spatial data on properties, utilities, and infrastructure, including as-built locations of buried services and facility layouts, retained across many clients and projects.",
-      "loss_scenario": "Disclosure of precise utility and facility location data creates a security concern for infrastructure owners and third-party liability for the surveyor who held it.",
-      "rhetorical_question": "Do you hold as-built utility locations or facility survey data for infrastructure clients?"
+      "headline": "Records support you years after the work.",
+      "points": [
+        "Boundary disputes and claims arrive long after the survey.",
+        "Field notes, calculations, and plats are the entire defence.",
+        "Records you cannot produce are a defence you do not have."
+      ],
+      "rhetorical_question": "How long are your survey field notes and calculations retained?"
     }
   ]
 }

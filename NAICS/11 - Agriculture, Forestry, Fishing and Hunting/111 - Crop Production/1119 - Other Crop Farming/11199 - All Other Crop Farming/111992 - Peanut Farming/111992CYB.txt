@@ -1,7 +1,6 @@
 {
   "naics_code": "111992",
   "naics_title": "Peanut Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Price is set by federal grading recorded electronically at the buying point.",
-      "why_this_business": "Every load of farmer stock peanuts is officially graded by the Federal-State Inspection Service for kernel size, damage, foreign material, moisture, and segregation class. Results are entered electronically and determine contract price and CCC loan eligibility. A Segregation 2 or 3 classification substantially reduces load value.",
-      "loss_scenario": "Inability to receive, verify, or dispute grade results across a season on a crop where segregation class determines edible market price versus crush value.",
-      "rhetorical_question": "How do you receive and retain grade sheets from your buying point?"
+      "headline": "Buying points test every load and set the payment.",
+      "points": [
+        "Loads are graded for moisture, foreign material, and damage on arrival.",
+        "Aflatoxin testing determines whether a load is edible or crushing grade.",
+        "A downgraded load is worth a fraction of contract price."
+      ],
+      "rhetorical_question": "How are your load grading and test results recorded?"
     },
     {
       "rank": 2,
-      "headline": "Aflatoxin traceback runs from the shelling plant back to the farm.",
-      "why_this_business": "Peanuts are subject to FDA aflatoxin action levels and mandatory testing at shelling. Positive results are traced back to farmer stock lots using grade sheets and buying point records, then to specific fields and farms.",
-      "loss_scenario": "Product liability exposure where irrigation, harvest, drying, and storage records cannot be produced to support the grower's position in a traceback.",
-      "rhetorical_question": "Do you maintain irrigation, drying, and storage records by field and lot?"
+      "headline": "Digging and combining run on a narrow maturity window.",
+      "points": [
+        "Peanuts are dug at maturity and combined a few days later.",
+        "Equipment and drying capacity are scheduled around that window.",
+        "Digging late or early costs yield and grade at the same time."
+      ],
+      "rhetorical_question": "How are your harvest and drying schedules managed?"
     },
     {
       "rank": 3,
-      "headline": "Drying wagons run unattended for one to three days per load.",
-      "why_this_business": "Farmer stock peanuts are dried with forced heated air under temperature limits. Excessive temperature causes off-flavor and splits. Insufficient drying causes mold and aflatoxin. Drying runs continuously for 24 to 72 hours per load, controlled automatically and increasingly monitored remotely across a large wagon fleet.",
-      "loss_scenario": "Damaged or moldy loads across a drying yard, converting edible grade peanuts to oil stock or condemned product. The value difference exceeds $500 per ton.",
-      "rhetorical_question": "How many drying wagons do you run at once, and how are they monitored?"
+      "headline": "Drying must be controlled or the crop is downgraded.",
+      "points": [
+        "Peanuts are dried in trailers under controlled heat and airflow.",
+        "Overheating causes off flavour and rejects the load.",
+        "A dryer fault ruins the peanuts in that trailer."
+      ],
+      "rhetorical_question": "Are your drying trailers run by automated temperature controls?"
     }
   ]
 }

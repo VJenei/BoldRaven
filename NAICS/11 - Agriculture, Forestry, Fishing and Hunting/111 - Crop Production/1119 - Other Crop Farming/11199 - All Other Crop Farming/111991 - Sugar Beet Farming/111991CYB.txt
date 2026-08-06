@@ -1,7 +1,6 @@
 {
   "naics_code": "111991",
   "naics_title": "Sugar Beet Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Growers are cooperative shareholders and the cooperative controls delivery and payment.",
-      "why_this_business": "Sugar beet production runs through grower-owned cooperatives that allocate delivery by shares, schedule piling stations, operate tare labs, and pay in installments over the following year. The FBI notice of April 2022 identified agricultural cooperatives as targets during critical seasons and documented six grain cooperatives encrypted within three weeks.",
-      "loss_scenario": "Harvest delivery blocked during the fall window, plus disruption to a payment structure spread over 12 months or more. As a shareholder, the grower absorbs the cooperative's loss as well.",
-      "rhetorical_question": "Are you a shareholder in the cooperative that receives and processes your crop?"
+      "headline": "Delivery is on a strict schedule set by the factory.",
+      "points": [
+        "Beets are harvested and delivered against factory slot assignments.",
+        "Piling grounds and haul schedules are managed centrally by the cooperative.",
+        "A missed slot leaves beets in the field or the pile deteriorating."
+      ],
+      "rhetorical_question": "How are your factory delivery slots and haul schedules assigned?"
     },
     {
       "rank": 2,
-      "headline": "Beets are stored in outdoor piles and paid on tare lab results.",
-      "why_this_business": "Harvested beets are piled at receiving stations, ventilated to control pile temperature, and paid on sugar percentage and tare determined by laboratory sampling. Piles must be processed on a managed schedule or sugar content declines and rot spreads.",
-      "loss_scenario": "Delayed processing reduces recoverable sugar across the harvest. Inability to verify or dispute tare and sugar results affects payment on the full tonnage.",
-      "rhetorical_question": "How long is your crop held in piles before processing?"
+      "headline": "Payment is calculated from factory sugar content tests.",
+      "points": [
+        "Each load is weighed and tested for sugar and impurities.",
+        "Payment follows those recorded results across the whole delivery.",
+        "Lost or disputed records cost payment on the loads affected."
+      ],
+      "rhetorical_question": "How do you record and reconcile your factory delivery and test results?"
     },
     {
       "rank": 3,
-      "headline": "Sugar beets carry high per-acre input costs paid by wire.",
-      "why_this_business": "Sugar beet production requires high spending per acre on seed, fungicide programs, irrigation, and specialized harvest equipment. Inputs are funded on operating credit and prepaid to suppliers by wire.",
-      "loss_scenario": "A diverted input prepay wire of $150,000 to $500,000 against an operating line sized to the crop plan.",
-      "rhetorical_question": "What is your input cost per acre, and how are supplier prepayments sent?"
+      "headline": "Beets in the pile deteriorate if conditions are not managed.",
+      "points": [
+        "Piles are ventilated and monitored for temperature through storage.",
+        "Warm beets lose sugar and spoil from the inside.",
+        "A spoiled pile is a loss on beets already harvested and paid for handling."
+      ],
+      "rhetorical_question": "Are your storage piles monitored by automated temperature or ventilation systems?"
     }
   ]
 }

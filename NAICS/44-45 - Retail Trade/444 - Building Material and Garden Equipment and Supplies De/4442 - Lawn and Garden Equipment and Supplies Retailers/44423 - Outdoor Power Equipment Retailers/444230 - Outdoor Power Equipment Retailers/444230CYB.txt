@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seasonal service backlogs cannot be deferred.",
-      "why_this_business": "Mowers, blowers, and snow equipment are serviced in narrow seasonal windows when customers need them working. Service scheduling, parts lookup by model and serial, and warranty claim submission all run through dealer systems. A landscaper with equipment down loses billable days.",
-      "loss_scenario": "Commercial landscaping customers moving to a dealer who can service them during the season, and those accounts represent the recurring parts and service revenue that carries the business.",
-      "rhetorical_question": "How many commercial landscaping accounts depend on your service department during the season?"
+      "headline": "The selling and service season is short.",
+      "points": [
+        "Sales and service concentrate into spring and summer.",
+        "Customers need equipment running during the growing season.",
+        "A failure in season costs the year, not the week."
+      ],
+      "rhetorical_question": "What share of your annual sales and service happens between March and August?"
     },
     {
       "rank": 2,
-      "headline": "Warranty claims are paid only if submitted correctly and on time.",
-      "why_this_business": "Manufacturer warranty work is authorised, documented, and claimed through manufacturer portals with strict submission windows and documentation requirements. Denied claims are absorbed by the dealer as unpaid labour and parts.",
-      "loss_scenario": "Warranty claims that lapse past submission deadlines during an outage, which is direct unrecoverable margin on work already performed.",
-      "rhetorical_question": "What is the submission deadline for warranty claims with your major manufacturers?"
+      "headline": "Service and warranty run through manufacturer systems.",
+      "points": [
+        "Warranty claims, parts, and service history run through manufacturer platforms.",
+        "Equipment sits in the shop while customers wait.",
+        "Service work cannot be claimed without those records."
+      ],
+      "rhetorical_question": "How do you submit warranty claims and order service parts?"
     },
     {
       "rank": 3,
-      "headline": "Equipment is serialised and registered for warranty and safety.",
-      "why_this_business": "Units are registered by serial number at sale, tying the customer to the machine for warranty and recall purposes. Recalls on outdoor equipment involve fire, blade, and rollover hazards requiring the dealer to contact affected owners.",
-      "loss_scenario": "An obstructed safety recall where owner registration records cannot be produced, leaving hazardous equipment in use and the dealer unable to demonstrate it made reasonable efforts.",
-      "rhetorical_question": "How do you record unit serial numbers against the customer who bought them?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     }
   ]
 }

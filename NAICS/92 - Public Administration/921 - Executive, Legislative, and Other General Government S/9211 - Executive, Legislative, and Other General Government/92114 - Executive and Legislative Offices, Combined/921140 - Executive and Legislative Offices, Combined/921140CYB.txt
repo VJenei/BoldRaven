@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Combined offices concentrate every function on one network.",
-      "why_this_business": "Smaller governmental units run executive, legislative, finance, permitting, and often public safety support functions from shared infrastructure administered by a small IT team or an outsourced provider.",
-      "loss_scenario": "Every governmental function stopping simultaneously, including revenue collection, permitting, and public safety support, with no unaffected department able to assist and no funding mechanism for recovery.",
-      "rhetorical_question": "How many separate government functions depend on your single network?"
+      "headline": "Local government is a frequent ransomware target.",
+      "points": [
+        "Attacks on cities and counties have shut services down for weeks.",
+        "Attackers target government specifically for the disruption value.",
+        "Residents have no alternative provider."
+      ],
+      "rhetorical_question": "What resident services depend entirely on your systems?"
     },
     {
       "rank": 2,
-      "headline": "Small governments have minimal security capability.",
-      "why_this_business": "Municipal and county governments of modest size frequently have one or two IT staff, limited budget, and legacy systems, while holding the same categories of sensitive data as much larger entities and being subject to the same laws.",
-      "loss_scenario": "A compromise the entity has no capability to detect, scope, or remediate, requiring external assistance funded from a budget that has no provision for it.",
-      "rhetorical_question": "How many people are responsible for cybersecurity in your organisation?"
+      "headline": "Resident and constituent data is comprehensive.",
+      "points": [
+        "Records carry identity, property, payment, and casework information.",
+        "Residents have no choice about providing much of it.",
+        "Every affected resident must be notified."
+      ],
+      "rhetorical_question": "What resident records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Records span public disclosure and strict confidentiality.",
-      "why_this_business": "Combined offices hold public records alongside personnel files, litigation materials, law enforcement information, and resident data, each with different legal treatment and all in the same environment.",
-      "loss_scenario": "Simultaneous failure to meet public records obligations and inadvertent exposure of confidential material, with legal consequences arising from both directions at once.",
-      "rhetorical_question": "How are confidential and publicly disclosable records separated in your systems?"
+      "headline": "Public records obligations apply to your data.",
+      "points": [
+        "Records retention and public records laws govern government records.",
+        "Records must be retained and produced on request.",
+        "Loss of records is a statutory violation."
+      ],
+      "rhetorical_question": "What records retention obligations apply to your offices?"
     }
   ]
 }

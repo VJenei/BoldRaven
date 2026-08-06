@@ -9,23 +9,32 @@
     {
       "rank": 1,
       "headline": "The campaign runs continuously for months and cannot pause.",
-      "why_this_business": "Beet sugar factories operate a continuous campaign through the harvest season, processing beets that are deteriorating in storage piles. The factory runs around the clock because the raw material is degrading and cannot wait.",
-      "loss_scenario": "Factory downtime during campaign with beets deteriorating in piles, representing sugar that is permanently lost, and grower payments based on recoverable sugar that declines every day.",
-      "rhetorical_question": "How much sugar is lost per day of factory downtime during campaign?"
+      "points": [
+        "Extraction, purification, evaporation, and crystallisation run as one continuous process.",
+        "Beets arrive daily and deteriorate in the pile.",
+        "A plant stop backs beets up until they spoil."
+      ],
+      "rhetorical_question": "How long is your processing campaign, and what does a day of downtime cost?"
     },
     {
       "rank": 2,
-      "headline": "Grower payment depends on tare lab and processing data.",
-      "why_this_business": "Cooperative and contracted growers are paid on tonnage and sugar content determined at receiving stations and through factory recovery, with payments made in instalments over the following year based on that data.",
-      "loss_scenario": "Unreconstructable grower payment data affecting hundreds of growers who are frequently also the cooperative's owners, with disputes over payments spanning a full crop year.",
-      "rhetorical_question": "How many growers are paid based on data your factory generates?"
+      "headline": "Grower payment depends on factory test results.",
+      "points": [
+        "Every delivery is weighed and tested for sugar content and impurities.",
+        "Grower payments across the whole region follow those recorded results.",
+        "Lost or disputed data affects payment to every grower."
+      ],
+      "rhetorical_question": "How are your grower delivery and test results recorded and reconciled?"
     },
     {
       "rank": 3,
-      "headline": "Process control governs extraction, purification, and crystallisation.",
-      "why_this_business": "Diffusion, purification, evaporation, and crystallisation run under distributed control with steam and energy integration across the plant. Crystallisation in particular is sensitive and produces off-specification sugar when disturbed.",
-      "loss_scenario": "Off-specification sugar and reduced recovery across a period, plus the energy and processing cost of reworking material that did not crystallise correctly.",
-      "rhetorical_question": "How long does your crystallisation section take to stabilise after an upset?"
+      "headline": "Sugar is an ingredient in thousands of downstream products.",
+      "points": [
+        "Sugar goes into food and beverage manufacturing everywhere.",
+        "A contamination problem follows the sugar into finished products.",
+        "The recall cost is the customers' products, not the sugar."
+      ],
+      "rhetorical_question": "How many customer products could contain a single lot of your sugar?"
     }
   ]
 }

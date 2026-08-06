@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Archives and libraries hold content whose value is exclusivity.",
-      "why_this_business": "Businesses in this category hold film libraries, stock footage, and archival masters licensed repeatedly over decades. The value depends on controlling access. Once material circulates freely the licensing revenue is permanently reduced.",
-      "loss_scenario": "Exfiltration of library content permanently undermines a revenue stream that would have continued for decades, and unlike ransomware the loss is not reversed by restoring a backup.",
-      "rhetorical_question": "What is the annual licensing revenue from content you hold exclusively?"
+      "headline": "You hold client content before it is released.",
+      "points": [
+        "Material arrives from producers and rights holders ahead of release.",
+        "Release plans are built around that timing.",
+        "A leak destroys the release and breaches your agreements."
+      ],
+      "rhetorical_question": "What unreleased client content is stored on your systems?"
     },
     {
       "rank": 2,
-      "headline": "Rights and clearance records determine what can lawfully be licensed.",
-      "why_this_business": "Licensing depends on documented chain of title, talent and music clearances, and territory restrictions accumulated over the life of the material. Without clearance records, content cannot be licensed because the licensee will not accept the risk.",
-      "loss_scenario": "Library content that becomes unlicensable because clearances cannot be evidenced, which removes its commercial value entirely even though the material still exists.",
-      "rhetorical_question": "Where are the chain of title and clearance records for your library held?"
+      "headline": "Rights and licensing records govern what you may do.",
+      "points": [
+        "Territory, term, and media rights determine permitted use.",
+        "Payments and royalties follow those records.",
+        "Wrong records mean acting without rights."
+      ],
+      "rhetorical_question": "Where are your rights and licensing records held?"
     },
     {
       "rank": 3,
-      "headline": "Client and licensee data supports the commercial relationships.",
-      "why_this_business": "Licensing operations hold licensee agreements, negotiated rates, usage reports, and royalty calculations across many counterparties. Rate structures are commercially sensitive across a client base that talks to each other.",
-      "loss_scenario": "Exposure of differential pricing across licensees damages every negotiation simultaneously, and lost usage records mean royalties that cannot be calculated or collected.",
-      "rhetorical_question": "How are licensee usage reports and royalty calculations maintained?"
+      "headline": "Delivery dates are contractual and fixed.",
+      "points": [
+        "Clients schedule releases and campaigns around your delivery.",
+        "Marketing and distribution are committed to those dates.",
+        "A missed date has consequences beyond your fee."
+      ],
+      "rhetorical_question": "What delivery commitments do your client agreements carry?"
     }
   ]
 }

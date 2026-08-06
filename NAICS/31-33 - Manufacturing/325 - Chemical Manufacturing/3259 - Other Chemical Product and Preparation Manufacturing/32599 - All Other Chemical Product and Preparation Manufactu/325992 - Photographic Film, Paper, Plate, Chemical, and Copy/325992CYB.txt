@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Coating and emulsion processes are precise and continuous.",
-      "why_this_business": "Photographic and imaging materials are produced by precision coating of emulsions and layers onto substrate in continuous processes with tolerances measured in microns. Coating defects render the entire roll unusable.",
-      "loss_scenario": "Coating runs lost to process deviation, on materials where raw materials are expensive and the coating line represents the constraint on the whole operation.",
-      "rhetorical_question": "How is coating thickness and uniformity monitored during production?"
+      "headline": "Coating operations run continuously in controlled conditions.",
+      "points": [
+        "Coating and drying run as continuous processes under tight control.",
+        "Product properties depend on holding parameters throughout the run.",
+        "An unplanned stop wastes coated material at full cost."
+      ],
+      "rhetorical_question": "Is your coating line run by a central process control system?"
     },
     {
       "rank": 2,
-      "headline": "Formulations and coating recipes are decades of accumulated development.",
-      "why_this_business": "Emulsion and chemistry formulations represent very long development histories with process knowledge that cannot be reconstructed from documentation alone. Much of it is held only within the company.",
-      "loss_scenario": "Loss of formulation and process data ending the ability to produce products that have no alternative source, in markets where the manufacturer may be one of very few remaining producers.",
-      "rhetorical_question": "Could your products be reproduced if formulation and process data were lost?"
+      "headline": "Formulations and coating parameters are proprietary.",
+      "points": [
+        "Chemistry and coating conditions determine product performance.",
+        "That knowledge represents decades of development.",
+        "Once copied it cannot be recovered."
+      ],
+      "rhetorical_question": "Where are your formulations and coating parameters stored?"
     },
     {
       "rank": 3,
-      "headline": "Chemical handling and waste carry environmental obligations.",
-      "why_this_business": "Photographic and imaging chemistry involves silver, solvents, and regulated substances with wastewater treatment, silver recovery, and hazardous waste handling under permits and RCRA requirements.",
-      "loss_scenario": "Discharge exceedances and waste handling violations where monitoring and manifest records cannot be produced, with penalties per day and permit restrictions on continued operation.",
-      "rhetorical_question": "What discharge monitoring and waste manifests are you required to maintain?"
+      "headline": "Chemical handling carries permits and reporting obligations.",
+      "points": [
+        "Process chemicals are handled under discharge permits with monitoring.",
+        "Chemical inventory reporting is required.",
+        "Exceedances and missed reports carry penalties."
+      ],
+      "rhetorical_question": "What discharge monitoring and chemical reporting does your permit require?"
     }
   ]
 }

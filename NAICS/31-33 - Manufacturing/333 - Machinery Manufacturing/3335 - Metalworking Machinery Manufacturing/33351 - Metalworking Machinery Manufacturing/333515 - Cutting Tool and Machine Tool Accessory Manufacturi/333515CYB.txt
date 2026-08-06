@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Cutting tools break at speed and send fragments.",
-      "why_this_business": "Cutting tools and toolholders run at high rotational speed with rated limits. Failure at speed sends carbide and steel fragments through machine enclosures and into operators, and rated speeds depend on manufacturing quality.",
-      "loss_scenario": "Tool or holder failures at rated speed causing operator injury and machine damage, with recall across every customer running tools from the affected production.",
+      "headline": "Tools burst at speed and send fragments.",
+      "points": [
+        "Cutting tools and holders run at high rotational speed with rated limits.",
+        "Failure sends carbide and steel through machine enclosures.",
+        "Manufacturing quality determines whether the rating holds."
+      ],
       "rhetorical_question": "What speed and load ratings do your products carry?"
     },
     {
       "rank": 2,
-      "headline": "Tool geometry and coating determine performance and are proprietary.",
-      "why_this_business": "Cutting tool geometry, substrate, and coating are developed over years and represent the competitive position of the manufacturer. Grinding programmes encode that geometry.",
-      "loss_scenario": "Theft of grinding programmes and coating parameters, which transfers the manufacturer's technical position to a competitor permanently and cannot be undone.",
+      "headline": "Geometry and coating are your competitive position.",
+      "points": [
+        "Tool geometry, substrate, and coating are developed over years.",
+        "Grinding programmes encode that geometry directly.",
+        "Once copied the position transfers permanently to a competitor."
+      ],
       "rhetorical_question": "How is access to grinding programme and coating parameter data controlled?"
     },
     {
       "rank": 3,
-      "headline": "Machine shops depend on tool delivery to keep spindles turning.",
-      "why_this_business": "Cutting tools are consumables ordered continuously, with shops holding limited stock and relying on next day supply. A shop without tools stops machining.",
-      "loss_scenario": "Order and shipping systems unavailable with customer shops unable to obtain tooling, and machining production stopped across many customers within days.",
+      "headline": "Shops stop machining without consumable tooling.",
+      "points": [
+        "Cutting tools are consumables ordered continuously with little stock held.",
+        "Shops rely on next day supply.",
+        "A supply gap stops machining across many customers within days."
+      ],
       "rhetorical_question": "How quickly do your customers expect replenishment of consumable tooling?"
     }
   ]

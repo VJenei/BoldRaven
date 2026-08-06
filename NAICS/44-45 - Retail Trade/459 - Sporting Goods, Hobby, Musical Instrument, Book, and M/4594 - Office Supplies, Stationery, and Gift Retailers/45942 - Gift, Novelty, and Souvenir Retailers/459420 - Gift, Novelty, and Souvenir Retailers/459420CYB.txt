@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Tourist trade concentrates the year into a short season.",
-      "why_this_business": "Souvenir and gift retail follows tourist seasons, port calls, and event calendars, with a large share of annual revenue earned in a few months. Inventory is bought ahead against that window and is often destination-specific with no alternative market.",
-      "loss_scenario": "An outage during the season costs a disproportionate share of the year, on inventory printed or branded for a location that cannot be sold anywhere else.",
-      "rhetorical_question": "What share of your annual revenue is earned in your peak season?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Card acceptance is the entire payment model for visitors.",
-      "why_this_business": "Tourist retail is almost entirely card and mobile payment, frequently including international cards, across multiple registers and seasonal pop-up locations. PCI DSS 4.0 became fully mandatory on March 31, 2025 and applies to every card-accepting merchant.",
-      "loss_scenario": "Card brand assessments and forensic costs on a seasonal business with no capacity to fund them, and the merchant agreement makes the retailer responsible regardless of size.",
-      "rhetorical_question": "How many separate card terminals do you operate at peak season?"
+      "headline": "Seasonal and tourist windows carry the year.",
+      "points": [
+        "Sales concentrate into tourist seasons and holidays.",
+        "Inventory, staffing, and hours peak together.",
+        "Volume missed then has no other market."
+      ],
+      "rhetorical_question": "What share of your annual sales happens in your peak season?"
     },
     {
       "rank": 3,
-      "headline": "Licensed merchandise carries brand compliance obligations.",
-      "why_this_business": "Souvenir and gift retail sells licensed sports, entertainment, and destination merchandise under agreements restricting sourcing and requiring royalty reporting from sales data. Counterfeit licensed goods are actively enforced against.",
-      "loss_scenario": "Loss of licences and brand owner claims where sourcing and royalty reporting cannot be evidenced, plus seizure of goods found to be counterfeit.",
-      "rhetorical_question": "Do you sell licensed merchandise requiring royalty reporting?"
+      "headline": "Children's product compliance applies to what you sell.",
+      "points": [
+        "Toys and novelty items for children require testing and certification.",
+        "Recall notices identify specific lots and models.",
+        "Uncertified or recalled product cannot lawfully be sold."
+      ],
+      "rhetorical_question": "How do you verify children's product compliance and receive recall notices?"
     }
   ]
 }

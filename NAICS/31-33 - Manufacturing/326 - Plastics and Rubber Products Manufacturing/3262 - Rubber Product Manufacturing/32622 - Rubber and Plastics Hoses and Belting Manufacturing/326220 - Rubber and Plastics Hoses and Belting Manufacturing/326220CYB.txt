@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Hose and belt failures cause injuries and equipment damage.",
-      "why_this_business": "Hydraulic hose, industrial belting, and pressure hose carry rated working pressures with failure producing high pressure fluid injection injuries, equipment damage, and in conveyor applications entrapment hazards.",
-      "loss_scenario": "Hose failure causing fluid injection injury, which requires surgery and frequently amputation, with the manufacturer's testing and production records determining whether the product met its rating.",
-      "rhetorical_question": "What working pressures are your hoses rated for, and how is that verified in production?"
+      "headline": "Hose failure at pressure injures people.",
+      "points": [
+        "Hydraulic and industrial hose operates at very high pressure.",
+        "Failure produces fluid injection injuries and drops loads.",
+        "Construction and testing records establish the rating."
+      ],
+      "rhetorical_question": "What pressure ratings do your products carry, and how is testing recorded?"
     },
     {
       "rank": 2,
-      "headline": "Continuous vulcanisation is parameter driven.",
-      "why_this_business": "Rubber products are vulcanised under controlled temperature, pressure, and time, with cure state determining strength and durability. Undercured product looks correct but fails prematurely in service.",
-      "loss_scenario": "Undercured product entering service and failing under pressure or load, with the defect latent until failure and affecting every unit from the production period.",
-      "rhetorical_question": "How are cure parameters recorded against production lots?"
+      "headline": "Belting failure stops the customer's whole operation.",
+      "points": [
+        "Conveyor belting carries the entire throughput of mines and plants.",
+        "Belt failure stops production until it is spliced or replaced.",
+        "Replacement of a long belt takes days."
+      ],
+      "rhetorical_question": "What production depends on a single belt at your customers' sites?"
     },
     {
       "rank": 3,
-      "headline": "Compound formulations determine performance and resistance.",
-      "why_this_business": "Rubber compounds are formulated for temperature, chemical, and abrasion resistance specific to the application. Compound errors produce products that degrade rapidly in the environment they were sold for.",
-      "loss_scenario": "Compound errors causing premature failure in chemical or high temperature service, with equipment damage and downtime at customers claimed against the manufacturer.",
-      "rhetorical_question": "How are compound formulations controlled and verified before production?"
+      "headline": "Compound formulations determine performance and life.",
+      "points": [
+        "Rubber compounds are formulated for specific fluids, temperatures, and pressures.",
+        "Formulations represent years of development.",
+        "Wrong compound degrades in service and fails without warning."
+      ],
+      "rhetorical_question": "Where are your compound formulations stored?"
     }
   ]
 }

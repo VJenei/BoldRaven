@@ -9,22 +9,31 @@
     {
       "rank": 1,
       "headline": "Motors drive processes that stop when they fail.",
-      "why_this_business": "Electric motors drive pumps, fans, and machinery across industry, with failures stopping the process immediately. Large motors are built to order with long lead times and no shelf spare.",
-      "loss_scenario": "Motor failures across an installed base or production halted with customers unable to obtain replacements, and process plants stopped for the months a replacement motor takes to build.",
+      "points": [
+        "Motors drive pumps, fans, and machinery across industry.",
+        "Large motors are built to order with no shelf spare.",
+        "A replacement takes months to build."
+      ],
       "rhetorical_question": "What is the lead time on your larger built-to-order motors?"
     },
     {
       "rank": 2,
-      "headline": "Motors in hazardous locations must not become ignition sources.",
-      "why_this_business": "Motors for classified hazardous areas carry explosion-proof or increased safety certifications depending on enclosure construction, clearances, and temperature limits verified in the build.",
-      "loss_scenario": "Motors built outside certified construction installed in hazardous areas, igniting a flammable atmosphere, with an explosion and an investigation examining the certification and build records.",
+      "headline": "Hazardous location motors must not ignite the atmosphere.",
+      "points": [
+        "Explosion-proof certification depends on enclosure construction, clearances, and temperature.",
+        "Those are verified in the build, not afterwards.",
+        "A motor outside its certification is an ignition source."
+      ],
       "rhetorical_question": "How are hazardous location certified constructions controlled in your build process?"
     },
     {
       "rank": 3,
       "headline": "Efficiency standards are federally mandated by motor type.",
-      "why_this_business": "Department of Energy efficiency standards prescribe minimum efficiency for electric motors by type and rating, with compliance certification and enforcement. Non-compliant motors cannot be lawfully sold.",
-      "loss_scenario": "Motors manufactured or sold below required efficiency, which is a DOE violation with penalties and inventory that cannot be sold, plus certification records that must be produced.",
+      "points": [
+        "Minimum efficiency is prescribed by type and rating with certification required.",
+        "Non-compliant motors cannot lawfully be sold.",
+        "Certification records must be produced on request."
+      ],
       "rhetorical_question": "How do you certify and track efficiency compliance by motor model?"
     }
   ]

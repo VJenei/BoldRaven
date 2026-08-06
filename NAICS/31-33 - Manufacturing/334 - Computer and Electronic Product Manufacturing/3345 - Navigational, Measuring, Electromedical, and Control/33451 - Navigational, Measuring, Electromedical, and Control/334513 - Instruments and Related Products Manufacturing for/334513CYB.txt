@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your instruments are what industrial safety systems act on.",
-      "why_this_business": "Process instruments measure pressure, temperature, level, and flow, feeding control and safety instrumented systems in refineries, chemical plants, and power stations. Safety systems shut plants down based on what your instruments report.",
-      "loss_scenario": "Instruments reporting incorrect values, with safety systems failing to act or acting spuriously, and in a hazardous process the consequence is a release, fire, or explosion.",
+      "headline": "Safety systems act on what your instruments report.",
+      "points": [
+        "Instruments feed control and safety systems in refineries and chemical plants.",
+        "Plants shut down based on those readings.",
+        "Wrong readings mean the shutdown does not happen when it should."
+      ],
       "rhetorical_question": "Are your instruments used in safety instrumented functions?"
     },
     {
       "rank": 2,
-      "headline": "Safety instrumented systems require certified functional safety.",
-      "why_this_business": "Instruments used in safety functions are certified to IEC 61508 safety integrity levels with documented design, failure rate data, and change control. Certification depends on the shipped hardware and firmware configuration.",
-      "loss_scenario": "Product shipped outside its certified configuration, invalidating the safety integrity level in installations that relied on it, requiring reassessment of every safety function using the instrument.",
+      "headline": "Safety certification depends on the shipped configuration.",
+      "points": [
+        "Instruments in safety functions are certified with documented design and failure data.",
+        "Certification is tied to specific hardware and firmware.",
+        "Product outside that configuration invalidates the safety case."
+      ],
       "rhetorical_question": "How are certified safety configurations controlled through build and firmware release?"
     },
     {
       "rank": 3,
       "headline": "Instruments connect into plant control networks.",
-      "why_this_business": "Modern instruments are networked with configuration and diagnostics over industrial protocols, and manufacturers provide configuration software and firmware that runs inside plant control networks.",
-      "loss_scenario": "Vulnerabilities in instrument firmware or configuration software providing a path into plant control systems, with the manufacturer identified as the vector across every plant using the product.",
+      "points": [
+        "Modern instruments are networked with configuration software you supply.",
+        "That software runs inside customer control networks.",
+        "You become the vector across every plant using the product."
+      ],
       "rhetorical_question": "How is instrument firmware authenticated before it can be installed?"
     }
   ]

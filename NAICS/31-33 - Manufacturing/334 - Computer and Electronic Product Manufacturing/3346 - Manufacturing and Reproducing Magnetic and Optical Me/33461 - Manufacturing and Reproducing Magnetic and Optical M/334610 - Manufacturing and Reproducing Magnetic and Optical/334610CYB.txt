@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You duplicate content that belongs to someone else.",
-      "why_this_business": "Media replication involves receiving master content from publishers and studios under licence, frequently before public release. That content is the customer's entire commercial asset and its early release destroys the launch.",
-      "loss_scenario": "Pre-release content leaked from your systems and distributed, with the customer's release window destroyed and contractual liability for the leak that is measured against the title's revenue.",
+      "headline": "You duplicate content before it is released.",
+      "points": [
+        "Master content arrives from publishers and studios under licence.",
+        "Much of it is pre-release and is the customer's entire commercial asset.",
+        "An early leak destroys the launch window entirely."
+      ],
       "rhetorical_question": "Do you hold master content for titles not yet released?"
     },
     {
       "rank": 2,
-      "headline": "Software and firmware media can be tampered at duplication.",
-      "why_this_business": "Replicators duplicate software and firmware distributed to end users. Modification of a master before duplication places malicious code on every copy produced, distributed by the publisher under their name.",
-      "loss_scenario": "Tampered masters duplicated and distributed, which is a supply chain compromise reaching every recipient, with recall and a federal investigation into the replication chain.",
+      "headline": "Software masters can be tampered before duplication.",
+      "points": [
+        "You duplicate software and firmware distributed to end users.",
+        "Modifying a master places malicious code on every copy.",
+        "The publisher distributes it under their own name."
+      ],
       "rhetorical_question": "How is master content verified between receipt and duplication?"
     },
     {
       "rank": 3,
-      "headline": "Content security requirements are audited by rights holders.",
-      "why_this_business": "Studios and publishers impose content security requirements on replicators, with audits covering physical security, access control, and network segregation as a condition of receiving titles.",
-      "loss_scenario": "Failed content security audit or an incident, with rights holders withdrawing titles and the business losing access to the content it exists to reproduce.",
+      "headline": "Rights holders audit your security before sending titles.",
+      "points": [
+        "Content security requirements cover physical security, access control, and segregation.",
+        "Audits are a condition of receiving titles.",
+        "A failed audit removes the content the business exists to reproduce."
+      ],
       "rhetorical_question": "What content security audits does your facility undergo, and how often?"
     }
   ]

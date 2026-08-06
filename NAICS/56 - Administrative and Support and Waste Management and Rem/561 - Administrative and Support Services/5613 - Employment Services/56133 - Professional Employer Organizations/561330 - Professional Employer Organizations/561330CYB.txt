@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold the entire workforce data of every client company.",
-      "why_this_business": "PEOs act as co-employer, holding Social Security numbers, banking details, benefits enrolment, dependant information, medical and disability records, and payroll for the complete workforce of every client business. That is a concentration of employee data across hundreds of employers.",
-      "loss_scenario": "Breach notification across the combined workforce of every client, where affected individuals have no relationship with the PEO and hold their own employer responsible, who in turn holds you responsible.",
-      "rhetorical_question": "How many individual employees across all client companies are in your systems?"
+      "headline": "You are the employer of record for thousands of people.",
+      "points": [
+        "Payroll, benefits, and employment records are held for every worksite employee.",
+        "Employment tax and reporting obligations sit with you.",
+        "Every affected employee across every client must be notified."
+      ],
+      "rhetorical_question": "How many worksite employee records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Benefits administration makes you a HIPAA business associate and often a fiduciary.",
-      "why_this_business": "PEOs administer health plans and retirement plans, handling protected health information under business associate agreements and, for retirement plans, operating in an environment where Department of Labor guidance addresses cybersecurity for plan fiduciaries and service providers.",
-      "loss_scenario": "HIPAA enforcement directly against the PEO, plus fiduciary breach exposure where participant retirement accounts were compromised, which carries personal liability for fiduciaries.",
-      "rhetorical_question": "Do you act as a fiduciary or business associate for client benefit plans?"
+      "headline": "Payroll has to run on the day it runs.",
+      "points": [
+        "Employees are paid on fixed dates across every client.",
+        "Tax deposits have statutory deadlines with penalties.",
+        "A missed payroll affects every employee at every client at once."
+      ],
+      "rhetorical_question": "How many employees depend on each payroll run?"
     },
     {
       "rank": 3,
-      "headline": "Payroll and tax remittance obligations run across many employers at once.",
-      "why_this_business": "PEOs process payroll and remit employment taxes for all client employees on statutory deposit schedules. A failure affects every client employer's tax compliance simultaneously, and clients remain liable to taxing authorities.",
-      "loss_scenario": "Missed tax deposits generating penalties across every client, with the PEO expected to indemnify while clients face authorities directly, and worker pay missed on the same cycle.",
-      "rhetorical_question": "How many client employers' tax deposits depend on your next deposit date?"
+      "headline": "Benefits and health data carry privacy obligations.",
+      "points": [
+        "Health plan enrolment and claims data is held for employees and dependants.",
+        "Health privacy law requires notification of every affected individual.",
+        "Penalties are assessed per record."
+      ],
+      "rhetorical_question": "What employee health and benefits data do you hold?"
     }
   ]
 }

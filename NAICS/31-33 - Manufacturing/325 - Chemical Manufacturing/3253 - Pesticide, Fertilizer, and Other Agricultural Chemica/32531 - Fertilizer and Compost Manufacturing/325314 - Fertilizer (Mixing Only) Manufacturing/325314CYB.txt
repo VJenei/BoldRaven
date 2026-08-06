@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Blend accuracy determines what the grower actually applies.",
-      "why_this_business": "Blending plants weigh and combine fertilizer components to prescriptions specifying nutrient ratios, frequently variable rate by field zone. The blend is applied across hundreds of acres before any error is visible.",
-      "loss_scenario": "Wrong nutrient ratios applied across large acreage, causing yield loss or crop damage that is not apparent until later in the season, with claims covering the crop rather than the fertilizer.",
-      "rhetorical_question": "How many acres does a single blend batch cover?"
+      "headline": "Blend accuracy determines what the crop receives.",
+      "points": [
+        "Blends are formulated to a prescription for a specific field.",
+        "Blending controls execute those formulas automatically.",
+        "A wrong blend damages the crop or wastes the season's nutrition."
+      ],
+      "rhetorical_question": "How are your blend formulations loaded and verified before mixing?"
     },
     {
       "rank": 2,
-      "headline": "The application season is short and demand is concentrated.",
-      "why_this_business": "Blending and delivery concentrate into narrow spring and autumn windows when growers must apply, with plants running continuously and delivering to fields during those weeks.",
-      "loss_scenario": "Blending and delivery stopped during the application window, with growers unable to apply at the correct crop stage and the yield consequence attributed to the retailer who could not supply.",
-      "rhetorical_question": "What share of your annual volume moves in your busiest four weeks?"
+      "headline": "Application season is measured in weeks.",
+      "points": [
+        "Fertilizer is blended and delivered during narrow planting windows.",
+        "Orders, blending, and delivery run on connected systems.",
+        "Product not delivered in season is product not sold."
+      ],
+      "rhetorical_question": "What share of your volume ships in the planting season?"
     },
     {
       "rank": 3,
-      "headline": "Anhydrous ammonia and materials of interest carry security duties.",
-      "why_this_business": "Facilities handling anhydrous ammonia manage a toxic material with release potential, and those holding ammonium nitrate face DHS reporting obligations. Inventory control and access records are both safety and security records.",
-      "loss_scenario": "An ammonia release affecting workers and the surrounding community, and inventory discrepancies in materials of interest that attract federal security attention.",
-      "rhetorical_question": "Do you store anhydrous ammonia or ammonium nitrate above reportable quantities?"
+      "headline": "Ammonium nitrate and chemical storage carry security requirements.",
+      "points": [
+        "Federal rules govern storage and reporting of certain fertilizer chemicals.",
+        "Inventory and access records support those requirements.",
+        "Diversion of these materials is a federal security matter."
+      ],
+      "rhetorical_question": "What chemical storage and reporting requirements apply to your facility?"
     }
   ]
 }

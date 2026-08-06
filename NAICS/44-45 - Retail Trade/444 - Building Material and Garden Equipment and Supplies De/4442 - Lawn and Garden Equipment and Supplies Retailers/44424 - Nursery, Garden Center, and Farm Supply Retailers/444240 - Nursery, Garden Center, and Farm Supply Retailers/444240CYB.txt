@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Restricted use pesticide sales require licence verification and records.",
-      "why_this_business": "Retailers selling restricted use pesticides must verify the purchaser's applicator certification and maintain sales records identifying the product, quantity, purchaser, and licence, retained for a period set by federal and state rules and inspected by the state agriculture department.",
-      "loss_scenario": "State enforcement and loss of the dealer registration required to sell restricted products, plus liability exposure where a sale to an uncertified purchaser results in misapplication.",
-      "rhetorical_question": "How do you verify and record applicator certification for restricted use pesticide sales?"
+      "headline": "The season is a few weeks and cannot be moved.",
+      "points": [
+        "Spring drives most of the year's volume in a short window.",
+        "Ordering, inventory, and pricing all peak together.",
+        "Volume missed then has no other market."
+      ],
+      "rhetorical_question": "What share of your annual sales happens between March and June?"
     },
     {
       "rank": 2,
-      "headline": "The spring season is the entire year.",
-      "why_this_business": "Garden retail concentrates the overwhelming majority of annual revenue into roughly eight to twelve weeks in spring, with live inventory that must sell within its window. Inventory, pricing, and replenishment decisions are made daily against weather.",
-      "loss_scenario": "A systems outage during the spring window costs a disproportionate share of annual revenue, and live plant inventory that does not sell in season is a total write-off rather than carryover stock.",
-      "rhetorical_question": "What share of your annual revenue is earned between March and June?"
+      "headline": "Pesticide sales carry licensing and record obligations.",
+      "points": [
+        "Restricted use products require licensed purchasers and sales records.",
+        "Regulators inspect those records.",
+        "Selling without proper records is an enforceable violation."
+      ],
+      "rhetorical_question": "What pesticide sales and purchaser records do you maintain?"
     },
     {
       "rank": 3,
-      "headline": "Live inventory dies without irrigation and climate control.",
-      "why_this_business": "Nursery stock and greenhouse plants depend on automated irrigation, shade, and heating systems, frequently monitored remotely. Container stock requires water daily or more often in summer, and greenhouse crops need continuous climate control.",
-      "loss_scenario": "Two days without irrigation in summer heat, or a night without heat in spring, destroys live inventory representing months of investment and the entire selling season's stock.",
-      "rhetorical_question": "Are your irrigation and greenhouse controls automated and remotely monitored?"
+      "headline": "Live inventory dies if conditions are not maintained.",
+      "points": [
+        "Plants require irrigation and climate control that run automatically.",
+        "Container plants die within a day without water.",
+        "The loss is inventory you already paid for."
+      ],
+      "rhetorical_question": "Are your irrigation and greenhouse systems run by automated controls?"
     }
   ]
 }

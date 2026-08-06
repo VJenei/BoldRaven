@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Registry and special order programmes hold third-party personal data.",
-      "why_this_business": "Home furnishing retailers run wedding and gift registries holding the registrant's address, event date, and the names and purchase history of everyone who buys from it. That is personal data about people who never transacted with you directly.",
-      "loss_scenario": "A breach exposing registry data reveals home addresses and event dates, which is both a privacy exposure and a physical security concern flagged repeatedly in the context of wedding registries.",
-      "rhetorical_question": "Do you operate a gift or wedding registry?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Seasonal and promotional cycles concentrate the year.",
-      "why_this_business": "Home furnishings sell heavily around holidays and seasonal resets, with inventory bought months ahead against those windows. Merchandising, pricing, and replenishment decisions run from sales data during the peak.",
-      "loss_scenario": "An outage during the fourth quarter costs a disproportionate share of annual revenue on seasonal inventory that has little value after the period ends.",
-      "rhetorical_question": "What share of your annual revenue occurs in the fourth quarter?"
+      "headline": "Product safety recalls reach through your records.",
+      "points": [
+        "Consumer product recalls identify specific lots and models.",
+        "Your receiving and sales records determine what you have and sold.",
+        "Loyalty and order data can reach affected customers directly."
+      ],
+      "rhetorical_question": "How do you receive recall notices and identify affected stock?"
     },
     {
       "rank": 3,
-      "headline": "Card acceptance across store and online is fully regulated.",
-      "why_this_business": "Retailers processing card transactions in store and online are contractually bound to PCI DSS, which became fully mandatory in version 4.0 on March 31, 2025, including requirements to monitor scripts on e-commerce payment pages where digital skimming occurs.",
-      "loss_scenario": "Card brand assessments, forensics, and reissuance costs, which the merchant agreement assigns to the retailer regardless of who wrote the website code.",
-      "rhetorical_question": "Who maintains the code on your e-commerce checkout pages?"
+      "headline": "Special orders and deliveries are scheduled ahead.",
+      "points": [
+        "Orders are placed with suppliers and scheduled for delivery.",
+        "Customers take time off for delivery appointments.",
+        "A lost order means waiting the full lead time again."
+      ],
+      "rhetorical_question": "How are your customer orders and delivery appointments recorded?"
     }
   ]
 }

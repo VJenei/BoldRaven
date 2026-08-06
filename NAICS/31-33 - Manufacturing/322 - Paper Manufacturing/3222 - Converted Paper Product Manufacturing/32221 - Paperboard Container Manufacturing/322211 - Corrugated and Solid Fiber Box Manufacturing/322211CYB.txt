@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Box plants supply customers who cannot ship product without them.",
-      "why_this_business": "Corrugated boxes are made to order for specific customer products, printed with their branding, and delivered on frequent schedules. Manufacturers hold days of packaging and cannot ship finished goods without boxes.",
-      "loss_scenario": "Customers unable to ship finished product for want of packaging, with claims reflecting their lost sales and, for perishable and seasonal goods, product that cannot be held.",
-      "rhetorical_question": "How many days of box inventory do your customers hold?"
+      "headline": "Customers cannot ship anything without boxes.",
+      "points": [
+        "Manufacturers and distributors need boxes for every shipment they make.",
+        "Boxes are ordered to schedules with days of inventory held.",
+        "A supply gap stops the customer's shipping entirely."
+      ],
+      "rhetorical_question": "How much box inventory do your customers hold before shipping stops?"
     },
     {
       "rank": 2,
-      "headline": "Box design and print files are customer-specific.",
-      "why_this_business": "Every box is designed for a specific product with dimensions, board grade, and printed artwork including customer branding and regulatory markings. Corrugators and die cutters run from those files.",
-      "loss_scenario": "Wrong boxes produced that fit nothing, with material and run time lost, and customers waiting on packaging that must be redesigned and reprinted with plate lead times.",
-      "rhetorical_question": "How many customer box designs and print files are held on your systems?"
+      "headline": "Every box is made to a customer die and print.",
+      "points": [
+        "Dies, print plates, and specifications are customer specific.",
+        "There is no stock equivalent for a printed customer box.",
+        "Another plant cannot make it without the tooling and artwork."
+      ],
+      "rhetorical_question": "How many customer dies and print plates exist only at your plant?"
     },
     {
       "rank": 3,
       "headline": "Corrugators run continuously at high speed.",
-      "why_this_business": "The corrugator combines liners and medium continuously at high speed, feeding converting equipment. It is the constraint on the plant and product in process is lost on any stop.",
-      "loss_scenario": "Corrugator downtime stopping the whole plant, with orders backing up and customer delivery schedules missed across the entire book of business simultaneously.",
-      "rhetorical_question": "What happens to the rest of your plant when the corrugator stops?"
+      "points": [
+        "The corrugator and converting equipment run as a continuous line.",
+        "Scheduling and job data drive every run.",
+        "A stopped line produces nothing at very high fixed cost."
+      ],
+      "rhetorical_question": "What does an hour of stopped production cost on your corrugator?"
     }
   ]
 }

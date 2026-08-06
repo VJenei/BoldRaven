@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Buildings are engineered for a specific site, code, and loading.",
-      "why_this_business": "Metal buildings are engineered for the wind, snow, and seismic loads of a specific location, with sealed drawings and fabrication data for each project. The design accounts for local code and site conditions.",
-      "loss_scenario": "Buildings fabricated to wrong designs or loads erected at sites where they are under-designed, which is a structural deficiency discovered in a wind or snow event with collapse potential.",
-      "rhetorical_question": "How are project-specific engineered designs released into fabrication?"
+      "headline": "Buildings are engineered for one site and its loads.",
+      "points": [
+        "Designs account for wind, snow, and seismic loads at the specific location.",
+        "Sealed drawings and fabrication data are produced per project.",
+        "A building fabricated to wrong loads is under-designed where it stands."
+      ],
+      "rhetorical_question": "How are project specific engineered designs released into fabrication?"
     },
     {
       "rank": 2,
-      "headline": "Erection sequences depend on components arriving complete and in order.",
-      "why_this_business": "Metal building components are fabricated as a package for a specific building, with erection crews and cranes scheduled. Missing or incorrect components stop erection entirely.",
-      "loss_scenario": "Erection crews and cranes standing idle for missing or wrong components, with costs of thousands per day and a construction schedule that has other trades sequenced behind enclosure.",
+      "headline": "Erection needs every component complete and in order.",
+      "points": [
+        "Components are fabricated as a package for one building.",
+        "Crews and cranes are scheduled to the delivery date.",
+        "Missing or wrong components stop erection entirely."
+      ],
       "rhetorical_question": "What does an erection crew and crane cost per day on your projects?"
     },
     {
       "rank": 3,
       "headline": "Fabrication runs from digital data to automated equipment.",
-      "why_this_business": "Frame fabrication runs from engineering data through automated cutting, drilling, and welding, with hole patterns and dimensions determined by the design file. Errors are built into steel that cannot be uncut.",
-      "loss_scenario": "Members fabricated to wrong dimensions or hole patterns, scrapped at material and fabrication cost, with the project delayed while replacements are made.",
+      "points": [
+        "Cutting, drilling, and welding run from engineering data files.",
+        "Errors are built into steel that cannot be uncut.",
+        "Remake delays the project by the full fabrication lead time."
+      ],
       "rhetorical_question": "How does engineering data reach your fabrication equipment?"
     }
   ]

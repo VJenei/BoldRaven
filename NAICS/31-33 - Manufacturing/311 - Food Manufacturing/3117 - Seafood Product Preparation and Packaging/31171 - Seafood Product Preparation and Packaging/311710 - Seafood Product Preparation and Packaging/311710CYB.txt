@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Seafood HACCP is mandatory and specific.",
-      "why_this_business": "FDA requires seafood processors to operate HACCP plans addressing hazards including histamine, pathogens, and parasites, with monitoring and verification records. Histamine in scombroid species and Listeria in ready to eat seafood are the principal hazards.",
-      "loss_scenario": "Product without HACCP monitoring records treated as adulterated, plus histamine or Listeria reaching consumers with illness claims and FDA enforcement including import alerts for imported product.",
-      "rhetorical_question": "How are your HACCP monitoring records captured for each production lot?"
+      "headline": "Seafood processing has its own federal food safety rule.",
+      "points": [
+        "Hazard plans must address histamine, parasites, and environmental contaminants specifically.",
+        "Monitoring and verification records are required and inspected.",
+        "Records you cannot produce are treated as controls not performed."
+      ],
+      "rhetorical_question": "What hazard monitoring records does your seafood safety plan require?"
     },
     {
       "rank": 2,
-      "headline": "All three seafood categories are on the Food Traceability List.",
-      "why_this_business": "Finfish, crustaceans, and molluscan shellfish are covered by FSMA Section 204, requiring traceability lot codes and Key Data Elements at Critical Tracking Events with 24-hour record production to FDA, compliance date July 20, 2028. Molluscan shellfish also require NSSP tag retention.",
-      "loss_scenario": "A traceback that stalls at the processor, expanding a recall or harvest area closure well beyond the implicated lots and placing the processor at the centre of the investigation.",
-      "rhetorical_question": "Can you link a finished seafood lot back to harvest area and date?"
+      "headline": "Histamine forms fast and cannot be reversed.",
+      "points": [
+        "Temperature from catch through processing controls histamine formation in certain species.",
+        "Time and temperature records document that control.",
+        "Histamine poisoning is immediate and traces to your lot."
+      ],
+      "rhetorical_question": "How is time and temperature recorded from receipt through processing?"
     },
     {
       "rank": 3,
-      "headline": "Species substitution and import monitoring are enforced.",
-      "why_this_business": "Imported species covered by the Seafood Import Monitoring Program require harvest and chain of custody reporting, and species substitution is pursued as both a regulatory and a fraud matter. Records establish what the product actually is.",
-      "loss_scenario": "Import shipments refused entry and mislabelling findings carrying regulatory penalties and civil fraud claims from customers who paid for a different species.",
-      "rhetorical_question": "Do you process species covered by the Seafood Import Monitoring Program?"
+      "headline": "Import and species documentation controls what you can sell.",
+      "points": [
+        "Species identification, catch documentation, and import records are required.",
+        "Species substitution and illegal catch are both enforcement priorities.",
+        "Product without documentation is detained or seized."
+      ],
+      "rhetorical_question": "What species and catch documentation do you retain for imported product?"
     }
   ]
 }

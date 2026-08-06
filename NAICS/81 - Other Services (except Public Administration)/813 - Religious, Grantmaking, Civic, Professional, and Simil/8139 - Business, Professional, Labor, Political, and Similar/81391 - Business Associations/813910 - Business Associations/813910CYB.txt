@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Member data reveals the competitive landscape of an industry.",
-      "why_this_business": "Trade associations hold member company data, participation in committees, and frequently aggregated industry statistics contributed confidentially by competing members. Benchmarking programmes collect commercially sensitive operating data.",
-      "loss_scenario": "Exposure of member-contributed operating and pricing data damages every member simultaneously and raises antitrust questions about information sharing that are difficult to answer after the fact.",
-      "rhetorical_question": "Do you collect operating or pricing data from competing member companies?"
+      "headline": "Member data is commercially sensitive.",
+      "points": [
+        "Records carry member business information, contacts, and sometimes financial data.",
+        "Members share that data on the basis of confidentiality.",
+        "Competitors within the membership would value it."
+      ],
+      "rhetorical_question": "What member business and financial data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Advocacy positions and member communications are sensitive.",
-      "why_this_business": "Associations coordinate industry positions on regulation and legislation, holding internal strategy, member deliberations, and lobbying activity. Positions under development are commercially and politically sensitive.",
-      "loss_scenario": "Exposure of internal advocacy strategy and member deliberations to regulators, opponents, or the press, damaging the association's effectiveness and members' willingness to participate candidly.",
-      "rhetorical_question": "Do your records contain member deliberations on positions not yet public?"
+      "headline": "Industry data and benchmarking is confidential.",
+      "points": [
+        "Aggregated industry data is collected from members in confidence.",
+        "Underlying member data must not be identifiable.",
+        "Disclosure of individual member data breaches that undertaking."
+      ],
+      "rhetorical_question": "What member-submitted industry data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Events, certification, and dues generate payment data.",
-      "why_this_business": "Associations run conferences, training, certification programmes, and dues billing, holding member and attendee payment data and, for certification, individual credential records relied on by employers.",
-      "loss_scenario": "Payment data exposure across members and attendees, plus certification records that individuals and employers rely on and that cannot be verified if lost.",
-      "rhetorical_question": "Do you issue certifications that individuals rely on for employment?"
+      "headline": "Dues and events run the organisation.",
+      "points": [
+        "Membership dues, event registration, and payments run on connected systems.",
+        "Events are booked and members register ahead.",
+        "Every affected member must be notified."
+      ],
+      "rhetorical_question": "How are your dues and event registrations processed?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold remote access into customer production equipment.",
-      "why_this_business": "Industrial service providers install, commission, and support machinery inside customer plants, frequently retaining remote diagnostic and support connections. Those connections reach operational technology on production floors.",
-      "loss_scenario": "A compromise through service access reaching customer production control systems, which stops manufacturing lines and creates liability far exceeding the service contract value.",
-      "rhetorical_question": "How many customer plants can your technicians reach remotely?"
+      "headline": "Customer production stops until the repair is done.",
+      "points": [
+        "Equipment failures stop customer production immediately.",
+        "Dispatch, parts, and scheduling determine response time.",
+        "Every hour of downtime costs the customer production."
+      ],
+      "rhetorical_question": "What does an hour of customer downtime cost on the equipment you service?"
     },
     {
       "rank": 2,
-      "headline": "Equipment configuration backups exist only with you.",
-      "why_this_business": "Commissioned machinery holds site-specific programmes and parameters, with the only backup frequently on the service provider's systems. Customers cannot recreate the configuration from documentation.",
-      "loss_scenario": "After a controller failure the machine cannot be restored to its commissioned state, requiring full recommissioning at the provider's cost while the customer's line remains down.",
-      "rhetorical_question": "Where are the configuration backups for machines you have commissioned?"
+      "headline": "You hold access to customer plant systems.",
+      "points": [
+        "Diagnostics and service require access to customer control systems.",
+        "That access reaches plant networks.",
+        "Your compromise becomes their compromise."
+      ],
+      "rhetorical_question": "What customer control system access do your technicians hold?"
     },
     {
       "rank": 3,
-      "headline": "Emergency breakdown response is what customers pay for.",
-      "why_this_business": "Industrial customers contract for response times because a stopped machine stops production. Dispatch, parts availability, and technician assignment run on connected systems, and response is measured in hours.",
-      "loss_scenario": "Failure to respond within contracted times while a customer's production is stopped, with downtime costs claimed against the provider and the service agreement terminated.",
-      "rhetorical_question": "What response times do your service agreements commit you to?"
+      "headline": "Service records support warranty and compliance.",
+      "points": [
+        "Work performed, parts, and inspections are documented per machine.",
+        "Customers and regulators rely on those records.",
+        "Work you cannot document affects their compliance and warranty."
+      ],
+      "rhetorical_question": "How are your service and inspection records maintained?"
     }
   ]
 }

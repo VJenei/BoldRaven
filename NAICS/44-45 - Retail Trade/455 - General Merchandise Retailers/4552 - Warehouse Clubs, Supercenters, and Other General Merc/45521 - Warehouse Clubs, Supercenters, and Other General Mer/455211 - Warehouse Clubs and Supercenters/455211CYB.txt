@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Membership data ties identity, payment, and purchase history together.",
-      "why_this_business": "Club retail requires membership with verified identity, stored payment methods, business account details for commercial members, and complete purchase history. Membership is the operating model, so every transaction is attributable to a named individual or business.",
-      "loss_scenario": "A breach exposes a fully attributed dataset of identity, payment, and purchasing across millions of members, which is materially more damaging than anonymous card data.",
-      "rhetorical_question": "How many active memberships hold stored payment methods in your systems?"
+      "headline": "Membership files hold personal and payment data.",
+      "points": [
+        "Member records carry names, addresses, payment methods, and purchase history.",
+        "Membership is the entire business model.",
+        "Every member must be notified when their data is exposed."
+      ],
+      "rhetorical_question": "How many member records with payment details do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Ancillary services bring pharmacy, optical, and fuel obligations into one business.",
-      "why_this_business": "Supercentres operate pharmacies subject to HIPAA and DSCSA, optical departments handling prescriptions, fuel centres with tank gauges and dispenser payment, and tire and auto service. Each carries its own regulatory regime on top of general retail.",
-      "loss_scenario": "A single incident triggering HIPAA breach notification, card brand liability, and environmental reporting simultaneously, each with separate regulators and separate clocks.",
-      "rhetorical_question": "Which regulated services do you operate inside your stores?"
+      "headline": "Card payments run continuously across every lane.",
+      "points": [
+        "Point of sale terminals process cards through all trading hours.",
+        "Card security requirements apply across every location.",
+        "Breaches in this format have reached tens of millions of cards."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 3,
-      "headline": "Supply chain and replenishment run on vendor integration.",
-      "why_this_business": "Large format retail replenishes through vendor-managed and EDI-driven supply chains with continuous inventory and order data exchange. Vendor portal access is granted to thousands of suppliers, which is a very large attack surface as the Target case demonstrated.",
-      "loss_scenario": "Empty shelves across the network within days of a supply chain systems failure, and a compromise arriving through a vendor with legitimate credentials.",
-      "rhetorical_question": "How many vendors hold credentials to your supplier portal?"
+      "headline": "Refrigeration and pharmacy both run automatically.",
+      "points": [
+        "Refrigeration protects perishable inventory under automated control.",
+        "Pharmacy operations hold patient data and dispensing records.",
+        "Both fail silently until someone checks."
+      ],
+      "rhetorical_question": "Is your refrigeration monitored with automatic alarms?"
     }
   ]
 }

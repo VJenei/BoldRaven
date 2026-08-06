@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Substance use records carry protection stricter than HIPAA.",
-      "why_this_business": "Federally assisted substance use disorder programmes are subject to 42 CFR Part 2, which restricts disclosure more tightly than HIPAA, generally requires specific patient consent, and exists because fear of disclosure prevents people from seeking treatment.",
-      "loss_scenario": "Part 2 violations alongside HIPAA exposure, and patient harm including loss of employment, custody, and professional licences from disclosure of treatment that patients specifically sought under confidentiality protection.",
-      "rhetorical_question": "Are your programme records subject to 42 CFR Part 2?"
+      "headline": "Substance use records have heightened federal protection.",
+      "points": [
+        "Substance use treatment records carry protection beyond general health privacy.",
+        "Disclosure rules are stricter and penalties apply.",
+        "Patients seek treatment on the strength of that protection."
+      ],
+      "rhetorical_question": "How many substance use treatment records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Treatment interruption is a clinical emergency for some patients.",
-      "why_this_business": "Medication assisted treatment for opioid use disorder requires continuity, with interruption causing withdrawal and relapse risk. Opioid treatment programmes dispense under DEA registration with dispensing records required for every dose.",
-      "loss_scenario": "Patients unable to receive medication, with withdrawal, relapse, and overdose risk, and DEA obligations around dispensing records that cannot be met while systems are unavailable.",
-      "rhetorical_question": "What happens to your medication assisted treatment patients if dispensing records are unavailable?"
+      "headline": "Disclosure costs patients jobs, custody, and housing.",
+      "points": [
+        "Records reveal treatment for conditions that carry stigma and legal consequence.",
+        "Employers, courts, and families act on that information.",
+        "The harm is personal and permanent."
+      ],
+      "rhetorical_question": "What mental health and substance use records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Patient populations are among the most vulnerable to disclosure harm.",
-      "why_this_business": "Patients include people in recovery, people under court order, and people whose employment or professional licences depend on their treatment remaining private. Records document diagnoses, drug screening results, and legal involvement.",
-      "loss_scenario": "Direct personal harm to identified patients affecting employment, custody, and legal standing, with claims reflecting those consequences and a treatment population that will avoid care in future.",
-      "rhetorical_question": "How many of your patients would face employment or legal consequences from disclosure?"
+      "headline": "Treatment continuity affects clinical outcomes.",
+      "points": [
+        "Medication, counselling, and programme schedules run continuously.",
+        "Interruption in treatment causes relapse and crisis.",
+        "Patients arrive whether or not the system is running."
+      ],
+      "rhetorical_question": "What happens to treatment if your clinical system is unavailable?"
     }
   ]
 }

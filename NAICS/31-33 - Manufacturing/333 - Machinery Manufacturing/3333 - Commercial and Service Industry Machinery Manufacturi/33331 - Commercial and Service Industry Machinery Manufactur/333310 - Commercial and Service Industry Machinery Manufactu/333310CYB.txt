@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your machines are connected and take payments in public.",
-      "why_this_business": "Vending machines, kiosks, car wash systems, and commercial equipment increasingly include payment terminals, network connections, and remote management. Payment card handling brings PCI DSS 4.0 requirements, mandatory since March 31 2025.",
-      "loss_scenario": "Card data captured through machines in the field, with card brand assessments, forensic investigation, and remediation across an installed base spread over thousands of unattended locations.",
+      "headline": "Your machines take card payments in unattended locations.",
+      "points": [
+        "Vending, kiosks, and commercial equipment include payment terminals and connectivity.",
+        "Card handling brings payment security obligations.",
+        "Remediation reaches thousands of unattended sites."
+      ],
       "rhetorical_question": "Do your machines accept card payments, and how is that data handled?"
     },
     {
       "rank": 2,
-      "headline": "Installed machines are managed from your systems.",
-      "why_this_business": "Commercial machinery is monitored and configured remotely for pricing, inventory, and diagnostics. That platform can change what machines do across the entire installed base at once.",
-      "loss_scenario": "Compromise of the management platform allowing mass reconfiguration or disabling of machines, with revenue stopped for every operator running them and site visits required to restore each one.",
+      "headline": "One platform controls the entire installed base.",
+      "points": [
+        "Machines are monitored and configured remotely for pricing, inventory, and diagnostics.",
+        "A single account can reconfigure or disable machines everywhere.",
+        "Restoring each machine requires a physical site visit."
+      ],
       "rhetorical_question": "How many machines can be reconfigured from a single management account?"
     },
     {
       "rank": 3,
-      "headline": "Commercial food equipment carries safety and sanitation requirements.",
-      "why_this_business": "Commercial equipment handling food is certified to sanitation standards, and equipment with heating, refrigeration, or mechanical hazards carries safety listings that depend on the built configuration.",
-      "loss_scenario": "Equipment built outside its listed or certified configuration causing a fire, injury, or contamination, with recall across commercial locations and listing agency involvement.",
+      "headline": "Commercial equipment carries safety and sanitation certification.",
+      "points": [
+        "Food equipment carries sanitation certification and heated equipment carries safety listings.",
+        "Certification depends on the built configuration.",
+        "Equipment outside its listing causes fires, injuries, or contamination."
+      ],
       "rhetorical_question": "How are certified configurations controlled through your build process?"
     }
   ]

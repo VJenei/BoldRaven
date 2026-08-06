@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Public bids are submitted electronically and are decided by very small margins.",
-      "why_this_business": "State DOT work is let through electronic bidding systems at a fixed time, with the low responsive bid taking the work. Estimating files hold unit prices, production rates, and subcontractor and supplier quotes. Highway bids are routinely decided by fractions of a percent.",
-      "loss_scenario": "Disclosure of bid information loses the work and, if it reaches a competitor before a public letting, invites bid rigging investigation. Federal-aid procurement fraud carries criminal exposure.",
-      "rhetorical_question": "Where are your unit prices and supplier quotes stored in the days before a letting?"
+      "headline": "Public contracts pay only against complete documentation.",
+      "points": [
+        "Certified payrolls, material certifications, and test results are required for payment.",
+        "Agencies withhold payment until documentation is complete.",
+        "Records you cannot produce mean work performed and not paid."
+      ],
+      "rhetorical_question": "What certified payroll and material documentation do your contracts require?"
     },
     {
       "rank": 2,
-      "headline": "Certified payroll on federal-aid work contains every worker's Social Security number.",
-      "why_this_business": "Davis-Bacon prevailing wage rules require weekly certified payroll for your workforce and every subcontractor, submitted to the agency. Those records carry names, addresses, classifications, and Social Security numbers. Submission is a condition of payment.",
-      "loss_scenario": "A breach exposing the payroll records of every worker on every subcontractor across your projects, plus withheld progress payments if certified payroll cannot be filed on schedule.",
-      "rhetorical_question": "How many workers' certified payroll records do you hold, including your subcontractors?"
+      "headline": "Machine control drives grading and paving directly.",
+      "points": [
+        "Survey models load into graders and pavers to control blade and screed automatically.",
+        "The model determines the finished grade of the road.",
+        "A wrong model builds a road that has to be removed."
+      ],
+      "rhetorical_question": "How are your survey and machine control models loaded and verified?"
     },
     {
       "rank": 3,
-      "headline": "Machine control and survey data drive the grade the work is built to.",
-      "why_this_business": "Highway work runs GPS machine control on dozers, graders, and pavers from a digital terrain model, with automated machine guidance tied to the design surface. The model is the design. A corrupted or wrong model builds the road to the wrong grade over long distances before anyone notices.",
-      "loss_scenario": "Rework of grade and pavement across large areas at the contractor's cost, plus schedule damage on a project with liquidated damages and lane rental charges.",
-      "rhetorical_question": "Do you run GPS machine control from digital design models?"
+      "headline": "Lane closures and traffic control run to permitted schedules.",
+      "points": [
+        "Closure permits, detours, and work windows are approved and scheduled by agencies.",
+        "Working outside an approved window is a contract violation.",
+        "Traffic control failures kill workers and motorists."
+      ],
+      "rhetorical_question": "How are your lane closure permits and work windows scheduled?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Political organisations are targeted by foreign state actors.",
-      "why_this_business": "The compromise of party and campaign organisations by foreign intelligence services, followed by publication of internal communications, is a documented pattern in US politics. The objective is influence and disruption rather than payment, and stolen material is released to cause maximum damage.",
-      "loss_scenario": "Publication of internal communications, strategy, and opposition research timed for political effect, which cannot be recovered from and which affects the outcome of elections rather than merely the organisation.",
-      "rhetorical_question": "Has your organisation received a threat briefing regarding foreign targeting?"
+      "headline": "Political organisations are targeted by state actors.",
+      "points": [
+        "Campaign and party organisations are targeted by state-linked intrusion campaigns.",
+        "Stolen material has been released publicly to cause damage.",
+        "The objective is disruption, not money."
+      ],
+      "rhetorical_question": "What controls protect your internal communications and strategy documents?"
     },
     {
       "rank": 2,
-      "headline": "Voter and donor files are the organisation's operating asset.",
-      "why_this_business": "Political organisations hold voter files with contact details, party affiliation, issue positions, and modelled scores, alongside donor records with contribution histories and payment methods. Contribution records are also publicly reportable in part.",
-      "loss_scenario": "Exposure of voter modelling and donor data, which is competitively valuable to opponents and which reveals inferences about individuals' political views that they never disclosed.",
-      "rhetorical_question": "What inferences about individual voters does your file contain?"
+      "headline": "Donor records are legally reportable and sensitive.",
+      "points": [
+        "Donor records carry identity, employer, and contribution amounts.",
+        "Much of that is publicly reportable but the full file is not.",
+        "Every affected donor must be notified."
+      ],
+      "rhetorical_question": "What donor records and contribution data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Campaign finance obligations require accurate records.",
-      "why_this_business": "Committees must maintain contributor records with occupation and employer, report on statutory deadlines, and comply with contribution limits and source restrictions. Records are audited and reports are public.",
-      "loss_scenario": "Inability to file accurate reports on statutory deadlines, with enforcement action and public reporting of the failure at politically damaging moments.",
-      "rhetorical_question": "What are your next reporting deadlines, and could you meet them without your systems?"
+      "headline": "Voter and supporter data is the operational asset.",
+      "points": [
+        "Voter files and supporter data drive every contact and campaign decision.",
+        "That data identifies individuals and their political preferences.",
+        "Disclosure exposes supporters and hands the campaign to opponents."
+      ],
+      "rhetorical_question": "What voter and supporter data do you hold?"
     }
   ]
 }

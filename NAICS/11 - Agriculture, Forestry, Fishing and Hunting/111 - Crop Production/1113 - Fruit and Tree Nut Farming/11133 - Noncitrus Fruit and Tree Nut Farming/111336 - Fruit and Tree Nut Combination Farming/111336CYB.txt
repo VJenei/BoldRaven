@@ -1,7 +1,6 @@
 {
   "naics_code": "111336",
   "naics_title": "Fruit and Tree Nut Combination Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Multiple crops extend the critical operating window across most of the year.",
-      "why_this_business": "A combination operation harvests, packs, cools, and ships across most of the year, with different buyers, food safety schemes, labor peaks, and settlement systems for each commodity. There is no period in which a systems outage falls outside a harvest window.",
-      "loss_scenario": "An outage at any point in an eight to ten month operating window occurs during an active harvest with perishable product on the tree or in the cooler.",
-      "rhetorical_question": "In how many months of the year are you actively harvesting or shipping?"
+      "headline": "Several crops share one irrigation and harvest system.",
+      "points": [
+        "Pumps, valves, and controls serve every block on the operation.",
+        "Harvest equipment and crews move between crops on a schedule.",
+        "One failure affects every crop at once, not just one."
+      ],
+      "rhetorical_question": "Are your irrigation pumps or valves operated remotely?"
     },
     {
       "rank": 2,
-      "headline": "Permanent plantings are destroyed, not just interrupted, by irrigation failure.",
-      "why_this_business": "Orchards and vineyards have 15 to 40 year productive lives and multi-year establishment periods. They depend on remotely controlled irrigation and frost protection. Unlike annual crops, production cannot be resumed the following season.",
-      "loss_scenario": "Tree or vine mortality from extended irrigation or freeze protection failure requires replanting at $8,000 to $20,000 per acre with 4 to 8 years to full production.",
-      "rhetorical_question": "What is the replanting cost per acre for your orchard or vineyard blocks?"
+      "headline": "Each crop has its own buyer, contract, and payment.",
+      "points": [
+        "Fruit and nuts are sold to different handlers under separate terms.",
+        "A faked banking change on any one diverts that payment.",
+        "More counterparties means more chances for a forged instruction."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     },
     {
       "rank": 3,
-      "headline": "Mixed commodities multiply traceability and certification requirements on shared systems.",
-      "why_this_business": "Combination operations often grow crops on the FDA Food Traceability List alongside crops that are not covered, plus commodities with export residue restrictions. Each requires separate lot coding, records, and certification. FSMA 204 applies to the covered items on July 20, 2028 regardless of the other crops grown.",
-      "loss_scenario": "A single records failure affects every commodity because the systems are shared, satisfying neither a traceback investigator nor a certification auditor.",
-      "rhetorical_question": "Do you keep records for all of your crops in the same system?"
+      "headline": "Traceability and treatment records are kept per block.",
+      "points": [
+        "Spray records, harvest dates, and lot codes are recorded by block and crop.",
+        "Buyers and regulators trace back through those records.",
+        "Records you cannot produce widen any problem to the whole farm."
+      ],
+      "rhetorical_question": "Could you trace a shipped lot back to a specific block and harvest date?"
     }
   ]
 }

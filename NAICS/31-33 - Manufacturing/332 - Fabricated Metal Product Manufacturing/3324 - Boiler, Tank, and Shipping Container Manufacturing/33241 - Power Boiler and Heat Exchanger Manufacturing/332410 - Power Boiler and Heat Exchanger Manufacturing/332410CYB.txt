@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Boilers fail explosively and are code-regulated for that reason.",
-      "why_this_business": "Power boilers are fabricated to ASME code with design calculations, qualified welding, non-destructive examination, hydrostatic testing, and third-party inspection culminating in a code stamp. Boiler explosions historically killed so many people that the code exists because of them.",
-      "loss_scenario": "A boiler failure at pressure and temperature, which is a catastrophic explosion with fatalities and destruction of the plant area, investigated against the fabrication and inspection records.",
+      "headline": "Boiler explosions are why the code exists.",
+      "points": [
+        "Boilers are fabricated to code with calculations, welding, examination, and testing.",
+        "Historic boiler explosions killed so many people the code was written.",
+        "A failure at pressure and temperature destroys the plant area."
+      ],
       "rhetorical_question": "How are your code data reports, radiographs, and test records retained?"
     },
     {
       "rank": 2,
-      "headline": "Code stamp authorisation depends on a demonstrable quality system.",
-      "why_this_business": "The certificate of authorisation to apply the code stamp requires a quality control manual, qualified procedures, and records audited by the authorised inspection agency and the certifying body.",
-      "loss_scenario": "Loss of code stamp authorisation where the quality system cannot be evidenced, which removes the ability to fabricate boilers and pressure equipment entirely.",
+      "headline": "The code stamp depends on records you must produce.",
+      "points": [
+        "Quality manual, qualified procedures, and records are audited by the inspection agency.",
+        "The certificate of authorisation depends on them.",
+        "Loss of the stamp ends pressure equipment fabrication entirely."
+      ],
       "rhetorical_question": "What would your authorised inspector find if they audited your records today?"
     },
     {
       "rank": 3,
-      "headline": "Equipment is engineered for one installation with long lead times.",
-      "why_this_business": "Boilers and heat exchangers are designed for specific process conditions, duties, and connections at a particular plant, with fabrication taking months. Plant projects and outages are scheduled around delivery.",
-      "loss_scenario": "Equipment fabricated to wrong specification requiring remake over months, with the customer's plant outage window missed and the project delayed a full cycle.",
+      "headline": "Equipment is engineered for one plant with long lead times.",
+      "points": [
+        "Design is specific to process conditions, duties, and connections.",
+        "Fabrication takes months and outages are scheduled around delivery.",
+        "A wrong unit means the customer misses their outage window."
+      ],
       "rhetorical_question": "How long is the fabrication lead time for your typical equipment?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Engineered stone fabrication causes fatal silicosis.",
-      "why_this_business": "Cutting and finishing engineered stone containing very high crystalline silica has caused an epidemic of accelerated silicosis among fabrication workers, with young workers requiring lung transplants and dying. OSHA requires exposure controls, monitoring, and medical surveillance.",
-      "loss_scenario": "Worker silicosis with permanent disability and death, producing litigation that has already bankrupted fabricators, plus OSHA enforcement where exposure monitoring and medical surveillance records cannot be produced.",
-      "rhetorical_question": "Do you fabricate engineered stone, and are exposure monitoring and medical surveillance records maintained?"
+      "headline": "Every piece is cut once from a template or drawing.",
+      "points": [
+        "Cutting programs and templates drive saws and CNC equipment.",
+        "Stone cut wrong cannot be recut and the slab is scrap.",
+        "Matching replacement material may not be available."
+      ],
+      "rhetorical_question": "How are your cutting programs and templates recorded and verified?"
     },
     {
       "rank": 2,
-      "headline": "CNC fabrication runs from customer templates and drawings.",
-      "why_this_business": "Countertops and architectural stone are templated from field measurements and cut on CNC equipment from digital files. Slabs are expensive and cannot be uncut, and the template defines a piece for one specific installation.",
-      "loss_scenario": "Slabs cut to wrong templates, which are a total loss on material costing thousands per slab, with the customer's kitchen or project delayed while replacement material is sourced and matched.",
-      "rhetorical_question": "How are field templates transferred into your CNC cutting equipment?"
+      "headline": "Colour and veining must match across an installation.",
+      "points": [
+        "Natural stone varies between blocks and slabs.",
+        "Slab records reserve matching material for a project.",
+        "Mismatched stone across a visible installation is a defect."
+      ],
+      "rhetorical_question": "How is slab and lot matching recorded and reserved for projects?"
     },
     {
       "rank": 3,
-      "headline": "Slab matching and lot selection cannot be repeated.",
-      "why_this_business": "Natural stone varies by block and slab, with customers selecting specific slabs for a project. Matching slabs across an installation depends on lot and slab identity being tracked from selection through fabrication.",
-      "loss_scenario": "Slab identity lost so that matched material cannot be assembled, with installations showing visible variation and the fabricator sourcing replacement material that may not exist.",
-      "rhetorical_question": "How are selected slabs tracked from customer selection through fabrication?"
+      "headline": "Engineered stone fabrication is a silica exposure hazard.",
+      "points": [
+        "Cutting engineered stone generates very high crystalline silica exposure.",
+        "Exposure monitoring, controls, and medical surveillance records are required.",
+        "Silicosis in this trade has caused deaths in young workers."
+      ],
+      "rhetorical_question": "What silica exposure monitoring and medical records do you keep?"
     }
   ]
 }

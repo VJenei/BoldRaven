@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Distribution stops entirely when the warehouse system stops.",
-      "why_this_business": "Order entry, pick and pack, shipping, and invoicing all run through connected systems, with carrier integration generating labels and tracking. A warehouse cannot pick to paper at commercial volume, and without labels nothing ships.",
-      "loss_scenario": "Complete cessation of shipping during the outage while payroll, rent, and supplier terms continue, and customers place their next order with a competitor.",
-      "rhetorical_question": "Could your warehouse ship anything at all without your system generating labels?"
+      "headline": "Distribution records determine recall reach.",
+      "points": [
+        "Product safety obligations follow the goods you distribute.",
+        "Your records determine which customers received affected product.",
+        "Without them the recall covers everything you shipped."
+      ],
+      "rhetorical_question": "Could you identify which customers received a specific product lot?"
     },
     {
       "rank": 2,
-      "headline": "Payment instruction fraud targets both suppliers and customers.",
-      "why_this_business": "Wholesalers process large volumes of supplier payments and customer remittances, with bank detail changes handled as routine administration. Attackers with mailbox access can redirect either direction, and often do both.",
-      "loss_scenario": "A diverted supplier payment or customer remittance in the five to six figure range, repeated across several cycles before detection.",
-      "rhetorical_question": "How does your team verify a request to change bank details?"
+      "headline": "Customers order against schedules you cannot see.",
+      "points": [
+        "Customers order for work, production, or resale already committed.",
+        "They hold limited stock.",
+        "A supply gap stops whatever they had planned."
+      ],
+      "rhetorical_question": "How quickly do your customers expect delivery on ordered items?"
     },
     {
       "rank": 3,
-      "headline": "Customer, pricing, and supplier data is the whole competitive position.",
-      "why_this_business": "A distributor's value is knowing which customers buy what, at what price, from which source. That information sits in one system and would let a competitor or a supplier bypass you entirely.",
-      "loss_scenario": "Disintermediation where suppliers or competitors approach your accounts directly with your pricing, which is a permanent structural loss rather than a recoverable event.",
-      "rhetorical_question": "What would a competitor be able to do with your customer and pricing file?"
+      "headline": "Supplier payments settle by transfer on emailed instructions.",
+      "points": [
+        "Payments to manufacturers and importers move by transfer.",
+        "Banking instructions arrive and are changed by email.",
+        "A diverted payment is a full order lost."
+      ],
+      "rhetorical_question": "How are changes to supplier banking details verified before payment?"
     }
   ]
 }

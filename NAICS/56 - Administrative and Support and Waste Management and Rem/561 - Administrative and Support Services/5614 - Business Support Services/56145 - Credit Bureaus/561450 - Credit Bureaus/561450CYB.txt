@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "This industry produced one of the largest and most consequential breaches in history.",
-      "why_this_business": "The Equifax breach disclosed in 2017 exposed personal information of approximately 147 million people and led to a settlement with the FTC, CFPB, and states of up to $700 million. Credit bureaus hold the most complete financial identity records that exist about individuals who never chose to provide them.",
-      "loss_scenario": "Notification and remediation across a population measured in the tens or hundreds of millions, with FTC, CFPB, and state enforcement, class litigation, and congressional attention. This sector's breaches define the upper bound of data breach cost.",
-      "rhetorical_question": "How many consumer files does your organisation hold?"
+      "headline": "Your database is the financial identity of the country.",
+      "points": [
+        "Credit files carry identity, account, and payment history on almost every adult.",
+        "Consumers never chose to provide that data.",
+        "A breach at a credit bureau has exposed over one hundred million people."
+      ],
+      "rhetorical_question": "How many consumer credit files does your database hold?"
     },
     {
       "rank": 2,
-      "headline": "The Fair Credit Reporting Act governs everything you do with the data.",
-      "why_this_business": "Consumer reporting agencies must maintain accuracy, provide disclosures, investigate disputes, and limit furnishing to permissible purposes, with private rights of action and statutory and punitive damages. Reasonable procedures to protect against improper access are required.",
-      "loss_scenario": "FCRA claims with statutory and punitive damages, brought individually and as classes, plus regulatory enforcement examining whether procedures to prevent improper access were reasonable.",
-      "rhetorical_question": "How do you verify that a subscriber pulling a report has a permissible purpose?"
+      "headline": "Federal law governs accuracy and dispute handling.",
+      "points": [
+        "Credit reporting accuracy and dispute obligations are federally mandated.",
+        "Regulators and consumers both enforce those obligations.",
+        "Wrong data costs consumers loans, jobs, and housing."
+      ],
+      "rhetorical_question": "How are your accuracy and dispute handling processes maintained?"
     },
     {
       "rank": 3,
-      "headline": "Subscriber credentials are used to pull reports fraudulently.",
-      "why_this_business": "Access is provided to lenders, landlords, and employers through subscriber accounts. Compromised or fraudulently obtained subscriber credentials have repeatedly been used to pull consumer reports for identity theft, which is a documented pattern in this industry.",
-      "loss_scenario": "Consumer files accessed through legitimate-looking subscriber accounts, with the bureau responsible for the improper access and the consumers affected suffering identity theft they cannot trace.",
-      "rhetorical_question": "How do you detect a subscriber account being used for improper access?"
+      "headline": "Security freezes and locks must work on demand.",
+      "points": [
+        "Consumers place freezes to prevent fraudulent credit being opened.",
+        "Federal law requires those freezes be honoured.",
+        "A failed freeze means fraudulent accounts opened in the consumer's name."
+      ],
+      "rhetorical_question": "How are consumer freezes and locks applied and verified?"
     }
   ]
 }

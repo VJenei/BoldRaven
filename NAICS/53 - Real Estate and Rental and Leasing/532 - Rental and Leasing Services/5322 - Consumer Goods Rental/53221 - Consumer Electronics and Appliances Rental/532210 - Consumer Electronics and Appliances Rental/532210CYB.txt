@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Rent-to-own agreements are consumer credit with heavy regulation.",
-      "why_this_business": "Rental purchase agreements are governed by state rent-to-own statutes and federal consumer protection law, with disclosure, collection, and repossession rules. Customers provide identity, income, references, and banking details, and are frequently in the least resilient financial position.",
-      "loss_scenario": "Breach affecting a customer base with limited capacity to absorb identity theft, and regulatory attention to a sector already under scrutiny for its treatment of vulnerable consumers.",
-      "rhetorical_question": "What personal and financial information do you collect on a rental purchase agreement?"
+      "headline": "Customer agreements hold complete personal data.",
+      "points": [
+        "Agreements carry identity, employment, references, and bank details.",
+        "Payments run automatically against those records.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "How many customer agreements with personal and payment data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Devices in customers' homes may be remotely trackable or disableable.",
-      "why_this_business": "Some rented electronics include location tracking or remote disable capability used to support recovery. Regulators have previously taken action over rental computers that captured images and keystrokes in customers' homes without consent.",
-      "loss_scenario": "Unauthorised use of tracking or monitoring capability, which is a privacy violation inside a customer's home and has produced FTC enforcement in this industry specifically.",
-      "rhetorical_question": "Do any of your rented devices include tracking, monitoring, or remote disable functions?"
+      "headline": "Payment processing runs continuously against accounts.",
+      "points": [
+        "Weekly and monthly payments are collected automatically.",
+        "Missed or misposted payments trigger collection activity.",
+        "Customers face repossession over payments they actually made."
+      ],
+      "rhetorical_question": "How are customer payments posted and reconciled?"
     },
     {
       "rank": 3,
-      "headline": "Collections and repossession activity is closely regulated.",
-      "why_this_business": "Recovery of rented merchandise involves contact with customers under debt collection rules and state repossession requirements. Account status drives collection activity, and errors result in unlawful collection and wrongful repossession.",
-      "loss_scenario": "Collection and repossession activity against customers who are current, arising from corrupted account data, with statutory damages and regulatory exposure attaching to each instance.",
-      "rhetorical_question": "What controls prevent collection activity against an account that is actually current?"
+      "headline": "Delivery and service schedules run the operation.",
+      "points": [
+        "Deliveries, pickups, and service calls are scheduled and dispatched.",
+        "Customers take time off for those appointments.",
+        "A lost schedule cancels appointments across many customers."
+      ],
+      "rhetorical_question": "How are your deliveries and service calls scheduled?"
     }
   ]
 }

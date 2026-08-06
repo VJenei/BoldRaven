@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Undeclared allergens are the leading cause of food recalls.",
-      "why_this_business": "Bakeries handle wheat, eggs, milk, soy, tree nuts, and sesame, which became the ninth major allergen requiring declaration. Ingredient records, recipe versions, and labelling are the control. Shared equipment creates cross-contact that must be managed and disclosed.",
-      "loss_scenario": "An allergen incident causing anaphylaxis, with recipe and ingredient records unavailable to demonstrate what was in the product and what controls existed.",
-      "rhetorical_question": "How do you maintain recipe and ingredient records for allergen declarations?"
+      "headline": "Allergen questions are answered at the counter.",
+      "points": [
+        "Nuts, eggs, milk, and wheat are all present and share equipment.",
+        "Customers ask directly and rely on the answer.",
+        "An allergic reaction from a wrong answer is a serious injury claim."
+      ],
+      "rhetorical_question": "How do you record and communicate allergen information for your products?"
     },
     {
       "rank": 2,
-      "headline": "Custom orders are dated commitments that cannot be remade in time.",
-      "why_this_business": "Wedding cakes, holiday orders, and special occasion baking are taken weeks ahead with deposits, specifications, and delivery dates tied to events that cannot move. The order record is the only version of what was agreed.",
-      "loss_scenario": "A lost order book means customers arriving for a wedding or event cake that was never made, which is a reputational event that spreads immediately through social media and destroys a local business.",
-      "rhetorical_question": "How many dated custom orders are you holding at any time?"
+      "headline": "Custom orders are for a specific date and event.",
+      "points": [
+        "Celebration cakes are ordered ahead for a fixed date.",
+        "Order details, deposits, and schedules are held electronically.",
+        "A lost order is an event that happens without the cake."
+      ],
+      "rhetorical_question": "How are your custom orders, deposits, and delivery dates recorded?"
     },
     {
       "rank": 3,
-      "headline": "Production is scheduled overnight against next-day demand.",
-      "why_this_business": "Retail bakeries produce overnight for the following day based on forecast, standing wholesale orders, and custom commitments. Production planning, ingredient ordering, and labour scheduling are all driven from that data.",
-      "loss_scenario": "Producing blind means either running out by mid-morning or discarding unsold product, both of which destroy margin in a business with high waste sensitivity.",
-      "rhetorical_question": "How is your overnight production quantity decided each day?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     }
   ]
 }

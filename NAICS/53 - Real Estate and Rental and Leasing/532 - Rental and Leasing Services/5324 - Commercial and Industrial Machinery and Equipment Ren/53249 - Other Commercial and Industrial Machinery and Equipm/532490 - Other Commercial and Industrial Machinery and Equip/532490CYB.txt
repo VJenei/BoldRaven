@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Rented industrial equipment operates inside customers' processes.",
-      "why_this_business": "Temporary power, compressed air, chillers, pumps, and process equipment are rented into live industrial operations, frequently with remote monitoring by the lessor. Customers rent because their own equipment failed or capacity is short, so the rented unit is load-bearing.",
-      "loss_scenario": "Equipment failure or loss of monitoring during a customer's critical operation, with the customer's production loss claimed against the lessor and far exceeding the rental value.",
-      "rhetorical_question": "Do you remotely monitor equipment operating inside customer facilities?"
+      "headline": "Customers cannot operate without the equipment.",
+      "points": [
+        "Equipment is rented for production, projects, and operations.",
+        "Customers have no alternative available.",
+        "Their operations stop, not just yours."
+      ],
+      "rhetorical_question": "What customer operations depend on the equipment you rent?"
     },
     {
       "rank": 2,
-      "headline": "Emergency and temporary rentals are dispatched under time pressure.",
-      "why_this_business": "A significant share of this business is emergency response, where a customer's equipment has failed and production is stopped. Dispatch, availability, and logistics are coordinated in hours, and the customer is losing money every hour.",
-      "loss_scenario": "Failure to respond to emergency rental demand, where the customer's downtime cost is enormous and they will remember which supplier could not deliver.",
-      "rhetorical_question": "How quickly are you expected to deliver on an emergency rental request?"
+      "headline": "Inspection and maintenance records matter after an incident.",
+      "points": [
+        "Records are kept per machine covering inspection and service.",
+        "Those records are examined when equipment fails or injures.",
+        "Records you cannot produce are a defence you do not have."
+      ],
+      "rhetorical_question": "How are your equipment inspection and maintenance records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Asset tracking determines what you own and where it is.",
-      "why_this_business": "Fleets are dispersed across customer sites for extended periods, tracked by serial number with utilisation, maintenance, and billing status. Assets are high value and frequently forgotten on site when a project ends.",
-      "loss_scenario": "Equipment that cannot be located or recalled, with rental revenue lost and assets written off at replacement value across a fleet.",
-      "rhetorical_question": "How do you verify the physical location of every asset in your fleet?"
+      "headline": "Reservations and delivery run the operation.",
+      "points": [
+        "Equipment is booked and delivered against customer schedules.",
+        "Crews and operations are planned around delivery.",
+        "A missed delivery idles the customer's operation."
+      ],
+      "rhetorical_question": "How are your reservations and deliveries scheduled?"
     }
   ]
 }

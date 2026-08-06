@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Grant payments are large, scheduled, and instruction-driven.",
-      "why_this_business": "Foundations disburse grants to organisations on approved schedules, with payment instructions and banking details provided by grantees electronically. Grantee bank details change and are updated on request.",
-      "loss_scenario": "Diverted grant payments where the grantee never receives funds intended for programme delivery, with the foundation having discharged its board-approved commitment to a criminal and facing the grantee's continuing need.",
-      "rhetorical_question": "How do you verify a grantee's banking details before releasing a payment?"
+      "headline": "Grant payments move very large sums.",
+      "points": [
+        "Grants are disbursed by transfer against grantee banking instructions.",
+        "Instructions arrive and change electronically.",
+        "A diverted grant is charitable money that never reaches the cause."
+      ],
+      "rhetorical_question": "How are grantee banking instructions verified before disbursement?"
     },
     {
       "rank": 2,
-      "headline": "Grantee and applicant data includes sensitive programme information.",
-      "why_this_business": "Foundations hold applications describing grantee operations, finances, beneficiaries, and in some cases work that is politically or personally sensitive for the people involved. Applicants disclose fully in order to be considered.",
-      "loss_scenario": "Exposure of grantee applications revealing programme details, beneficiary information, and organisational vulnerabilities, with harm to grantees working in sensitive areas and reputational damage to the foundation.",
-      "rhetorical_question": "Do your applications describe work that would put grantees or beneficiaries at risk if disclosed?"
+      "headline": "Grantee and applicant data is confidential.",
+      "points": [
+        "Applications carry organisational, financial, and sometimes beneficiary data.",
+        "Some grantees work in sensitive or dangerous contexts.",
+        "Disclosure can endanger grantees and their beneficiaries."
+      ],
+      "rhetorical_question": "What grantee and applicant data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Investment and endowment operations move substantial assets.",
-      "why_this_business": "Foundations manage endowment portfolios with investment manager relationships, capital calls, and transfers, alongside required minimum distribution obligations and regulatory reporting.",
-      "loss_scenario": "Fraudulent transfer instructions against endowment accounts, in amounts reflecting institutional portfolios rather than operating balances, with fiduciary consequences for the board.",
-      "rhetorical_question": "How are investment transfer instructions authenticated?"
+      "headline": "Investment and endowment data is significant.",
+      "points": [
+        "Endowment holdings, transactions, and returns are managed electronically.",
+        "Those assets fund the entire grantmaking programme.",
+        "Fraudulent transfers reach charitable assets directly."
+      ],
+      "rhetorical_question": "How are investment and transfer instructions verified before assets move?"
     }
   ]
 }

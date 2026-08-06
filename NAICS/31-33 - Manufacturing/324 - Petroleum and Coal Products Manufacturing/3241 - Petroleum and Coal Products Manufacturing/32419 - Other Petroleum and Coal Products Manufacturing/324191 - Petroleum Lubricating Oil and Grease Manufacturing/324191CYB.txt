@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Lubricant formulations are proprietary and performance-certified.",
-      "why_this_business": "Lubricants are blended to formulations with additive packages delivering performance certified against industry and OEM specifications. Formulations represent development investment and certification is required for the product to be usable.",
-      "loss_scenario": "Formulation disclosure to competitors, and product blended outside specification failing certification, which makes it unusable in the applications it was sold for.",
-      "rhetorical_question": "How are your blend formulations and additive packages protected?"
+      "headline": "Formulations and additive packages are the product.",
+      "points": [
+        "Base oil and additive formulations determine performance and are proprietary.",
+        "Blending recipes are held and executed by plant control systems.",
+        "Losing formulations means the product cannot be reproduced."
+      ],
+      "rhetorical_question": "Where are your blending formulations and additive specifications stored?"
     },
     {
       "rank": 2,
-      "headline": "Off-specification lubricant damages customer equipment.",
-      "why_this_business": "Lubricants protect engines, hydraulics, and industrial equipment. Product outside specification causes wear, deposit formation, and in serious cases catastrophic equipment failure, with the damage appearing well after the oil was supplied.",
-      "loss_scenario": "Engine and equipment failures across a customer fleet traced to lubricant, with claims covering the equipment rather than the oil and a manufacturer unable to demonstrate the product met specification.",
-      "rhetorical_question": "How is blend quality verified and recorded before product is released?"
+      "headline": "Lubricant specifications are certified to industry standards.",
+      "points": [
+        "Products are certified to engine and equipment manufacturer specifications.",
+        "Testing and licensing records support those claims.",
+        "Product that does not meet its claim damages the customer's engines."
+      ],
+      "rhetorical_question": "What specification certifications do your products carry?"
     },
     {
       "rank": 3,
-      "headline": "Blending is automated batch production against formulations.",
-      "why_this_business": "Blend plants meter base oils and additives to formulation automatically, with batch records documenting what was made. Additive dosing accuracy determines whether performance specifications are met.",
-      "loss_scenario": "Batches blended incorrectly and shipped before testing detects it, with product in customer equipment across a distribution territory and a recall that must locate oil already in use.",
-      "rhetorical_question": "How is additive dosing verified during blending?"
+      "headline": "Blending errors damage the equipment the oil goes into.",
+      "points": [
+        "Wrong additive levels or base oil produce lubricant that fails in service.",
+        "Engine and gearbox damage appears after hours of operation.",
+        "The claim is the customer's equipment, not your oil."
+      ],
+      "rhetorical_question": "How are blending batches verified against formulation before release?"
     }
   ]
 }

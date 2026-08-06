@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Marine financing makes you a financial institution under federal law.",
-      "why_this_business": "Boat dealers arranging financing are subject to GLBA and the FTC Safeguards Rule, which requires a written information security programme, a qualified individual, multi-factor authentication, and encryption of customer information. Marine loans are long-term and applications contain full financial disclosure.",
-      "loss_scenario": "FTC enforcement plus breach notification for customers whose complete financial profiles were held for a high value discretionary purchase.",
-      "rhetorical_question": "Do you arrange marine financing, and do you have a written security programme?"
+      "headline": "Sales involve large payments and title work.",
+      "points": [
+        "Boats sell for high values with financing, trade payoffs, and registration.",
+        "Payment instructions move by email between lender, buyer, and dealer.",
+        "A diverted payment leaves a lien or an unregistered vessel."
+      ],
+      "rhetorical_question": "How are wire instructions verified before a payoff or funding transfer?"
     },
     {
       "rank": 2,
-      "headline": "Vessel documentation and titling is a separate legal chain.",
-      "why_this_business": "Boats are titled through the state or documented with the Coast Guard, with hull identification numbers, bills of sale, and lien releases required to transfer ownership. Documented vessels carry preferred ship mortgages recorded federally.",
-      "loss_scenario": "Inability to produce documentation chains stalls closings and, where liens cannot be evidenced as released, prevents transfer of a vessel already sold and paid for.",
-      "rhetorical_question": "How do you track vessel documentation and lien releases through a sale?"
+      "headline": "You hold complete buyer credit files.",
+      "points": [
+        "Credit applications carry social security numbers, income, and bank details.",
+        "Federal safeguards rules require a written security programme.",
+        "Every buyer must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many completed credit applications are stored in your systems?"
     },
     {
       "rank": 3,
-      "headline": "Storage and service means you hold customers' property for months.",
-      "why_this_business": "Dealers store, winterise, and service customer vessels, holding valuable property under bailment with records of what was received, what work was authorised, and what condition it was in. Storage contracts and work authorisations are the evidence.",
-      "loss_scenario": "Disputes over authorised work and pre-existing damage on vessels worth hundreds of thousands, resolved against the party without records, plus bailee liability for property in your care.",
-      "rhetorical_question": "What is the value of customer vessels currently in your storage and service care?"
+      "headline": "The selling and service season is short.",
+      "points": [
+        "Sales and service concentrate into spring and summer.",
+        "Service bookings and delivery schedules run through your systems.",
+        "A failure in season costs the year, not the week."
+      ],
+      "rhetorical_question": "What share of your annual sales and service happens between April and August?"
     }
   ]
 }

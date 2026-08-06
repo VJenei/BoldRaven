@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Bakery product moves to retail daily on a fixed schedule.",
-      "why_this_business": "Commercial bakeries produce overnight and deliver to retail on direct store delivery routes with short code dates. Retailers plan shelf space around daily delivery, and product not delivered is a gap on the shelf that day.",
-      "loss_scenario": "Missed delivery days across a retail network with shelf gaps that competitors fill, plus product produced that cannot be delivered and expires within days.",
-      "rhetorical_question": "How many retail stores receive delivery from you each day?"
+      "headline": "Bread is delivered daily and has no shelf life buffer.",
+      "points": [
+        "Product is baked overnight and delivered to stores in the morning.",
+        "Route delivery and store orders run on connected systems.",
+        "A day of lost production is a day of empty shelves at every store."
+      ],
+      "rhetorical_question": "How many stores depend on your daily delivery routes?"
     },
     {
       "rank": 2,
-      "headline": "Allergen and label control across high volume lines is critical.",
-      "why_this_business": "Commercial lines run multiple products containing wheat, milk, egg, soy, sesame, and nuts, with allergen control depending on scheduling, cleaning validation, and packaging control. Packaging errors are a frequent recall cause.",
-      "loss_scenario": "A recall from an allergen or labelling error covering all production in a period, with injury exposure and retail customers removing the product line entirely.",
-      "rhetorical_question": "How is packaging verified against the product actually running on the line?"
+      "headline": "Allergen and label control drive most bakery recalls.",
+      "points": [
+        "Nuts, milk, eggs, and sesame move through shared lines and equipment.",
+        "Changeover, cleaning, and label controls prove separation.",
+        "An undeclared allergen recalls every package from the run."
+      ],
+      "rhetorical_question": "How are allergen changeover and label controls documented per run?"
     },
     {
       "rank": 3,
-      "headline": "Continuous baking lines are capital intensive and unforgiving.",
-      "why_this_business": "Mixing, proofing, baking, cooling, slicing, and packaging run as a continuous line with product in process throughout. An unplanned stop leaves dough in proofers and product in ovens, all of which is lost.",
-      "loss_scenario": "Product in process across the entire line lost on an unplanned stop, plus the time to clear, clean, and restart, on lines that produce thousands of units per hour.",
-      "rhetorical_question": "How much product is in process on your line at any moment?"
+      "headline": "Retail customers enforce delivery and labelling requirements.",
+      "points": [
+        "Orders, labels, and delivery windows come through retailer systems.",
+        "Chargebacks apply when requirements are missed.",
+        "Losing a chain account removes a large share of volume."
+      ],
+      "rhetorical_question": "What share of your volume goes to your largest retail customers?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold vessels worth more than the marina.",
-      "why_this_business": "Marinas store vessels under slip agreements, with records of vessel identity, owner details, insurance, access arrangements, and location in the facility. Individual vessels can be worth millions and access to the dock is controlled electronically.",
-      "loss_scenario": "Exposure of vessel and owner data with access arrangements, which identifies high value assets and how to reach them, and bailee exposure for vessels in your care.",
-      "rhetorical_question": "What is the total value of vessels currently berthed at your facility?"
+      "headline": "Fuel and utility systems carry environmental risk.",
+      "points": [
+        "Fuel dispensing, pumpout, and utilities run on monitored systems.",
+        "A fuel release goes directly into the water.",
+        "Environmental response and reporting follow immediately."
+      ],
+      "rhetorical_question": "How are your fuel systems monitored and controlled?"
     },
     {
       "rank": 2,
-      "headline": "Fuel systems and pump controls are regulated and monitored.",
-      "why_this_business": "Marina fuel operations involve underground or above ground tanks with monitoring, leak detection, and spill prevention plans required by EPA and Coast Guard rules. Fuel spills into waterways are immediately reportable.",
-      "loss_scenario": "A fuel release into the waterway with reporting obligations, containment and cleanup costs, and natural resource damages, plus regulatory action over spill prevention compliance.",
-      "rhetorical_question": "How is your fuel tank monitoring and leak detection system supervised?"
+      "headline": "Slip and customer records hold vessel and payment data.",
+      "points": [
+        "Records carry vessel details, owner contact, and payment information.",
+        "Vessel location and access data has security value.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer vessel and payment records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Seasonal operations concentrate the year.",
-      "why_this_business": "Marinas earn most revenue in a short boating season through slip rentals, fuel, service, and transient dockage, with reservations and dockage assignments managed electronically. Winter storage and spring launch are similarly concentrated.",
-      "loss_scenario": "Disrupted operations during the season with transient bookings lost and service scheduling failures, on a business whose fixed costs run all year against revenue earned in months.",
-      "rhetorical_question": "How many months of the year generate the majority of your revenue?"
+      "headline": "Access control protects vessels worth millions.",
+      "points": [
+        "Gate, dock, and camera systems control access to the marina.",
+        "Vessels represent very high value in an accessible location.",
+        "Compromise of access systems is what a thief needs."
+      ],
+      "rhetorical_question": "What access control and camera systems protect your docks?"
     }
   ]
 }

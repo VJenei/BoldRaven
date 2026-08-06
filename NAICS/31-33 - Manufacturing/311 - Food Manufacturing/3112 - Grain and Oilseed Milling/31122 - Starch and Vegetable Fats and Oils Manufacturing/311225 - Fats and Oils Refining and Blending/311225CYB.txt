@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Refining runs continuously to tight quality parameters.",
-      "why_this_business": "Degumming, neutralising, bleaching, and deodorising run as a continuous process under control, with finished oil quality measured by free fatty acid, colour, peroxide value, and flavour. Deodoriser operation in particular determines whether oil is saleable.",
-      "loss_scenario": "Off-specification oil produced across a period, which for food customers is unusable and must be diverted to lower value outlets or reprocessed at cost.",
-      "rhetorical_question": "How is finished oil quality monitored during continuous refining?"
+      "headline": "Refining runs continuously under process control.",
+      "points": [
+        "Degumming, bleaching, deodorising, and blending run as one controlled process.",
+        "Product quality depends on holding temperature and vacuum setpoints.",
+        "A control failure produces off specification oil across the whole run."
+      ],
+      "rhetorical_question": "Is your refinery run by a distributed control system?"
     },
     {
       "rank": 2,
-      "headline": "Allergen segregation between oil types is critical.",
-      "why_this_business": "Facilities handling peanut, tree nut, soy, and sesame oils must prevent cross-contact between allergen-containing and allergen-free products, with cleaning validation and segregation documented. Sesame became the ninth major allergen requiring declaration.",
-      "loss_scenario": "Allergen cross-contact reaching food manufacturers and consumers, with recall across every downstream product and anaphylaxis exposure traced back to the refiner.",
-      "rhetorical_question": "How is allergen changeover cleaning validated and documented between products?"
+      "headline": "Allergen and species control is a labelling obligation.",
+      "points": [
+        "Different oils share tanks, lines, and equipment.",
+        "Changeover and cleaning records prove which product was where.",
+        "Cross contact with an allergenic oil means undeclared allergen recall."
+      ],
+      "rhetorical_question": "How are your tank and line changeover records maintained?"
     },
     {
       "rank": 3,
-      "headline": "Blending to customer specification requires exact formulation.",
-      "why_this_business": "Customers specify blends by fatty acid profile, solid fat content, and performance characteristics for their application. Blending is automated to formulation and the finished product must meet specification.",
-      "loss_scenario": "Blends delivered off-specification affecting customer product performance in baking and frying applications, with the customer's production and finished goods claimed against the supplier.",
-      "rhetorical_question": "How are blend formulations controlled and verified before shipment?"
+      "headline": "Your oil is an ingredient in customers' finished products.",
+      "points": [
+        "Refined oils go into food manufacturing across many customers.",
+        "A quality or contamination problem follows the oil into their products.",
+        "The recall cost is their finished goods, not your oil."
+      ],
+      "rhetorical_question": "How many customer products could contain a single lot of your oil?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Service providers hold building access and system information.",
-      "why_this_business": "Firms in this category service building systems, exteriors, and grounds, holding access credentials, site plans, equipment locations, and schedules for client properties. Work is frequently performed outside business hours.",
-      "loss_scenario": "Exposure of access credentials and building information providing entry to client premises, with the service provider identified as the origin of a physical security incident.",
-      "rhetorical_question": "How many client buildings can your staff access, and how is that credential list maintained?"
+      "headline": "You hold access to client buildings.",
+      "points": [
+        "Keys, codes, and access credentials are held for client sites.",
+        "Crews enter buildings on schedule, often unattended.",
+        "That access is exactly what an intruder needs."
+      ],
+      "rhetorical_question": "What client access credentials do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Work at height and on building systems carries serious liability.",
-      "why_this_business": "Window cleaning, facade work, and building maintenance involve fall protection, rigging, and equipment inspection with documented procedures required by OSHA. Records demonstrate that equipment was inspected and procedures followed.",
-      "loss_scenario": "A fall or dropped object incident where inspection and training records cannot be produced, with OSHA enforcement and litigation in which the absence of records is treated as the absence of the practice.",
-      "rhetorical_question": "How are your equipment inspection and fall protection training records maintained?"
+      "headline": "Scheduling and dispatch run every job.",
+      "points": [
+        "Assignments, routes, and site coverage run on connected systems.",
+        "Clients expect service on a defined cycle.",
+        "A scheduling failure misses sites across the whole route."
+      ],
+      "rhetorical_question": "How are your crew assignments and site schedules managed?"
     },
     {
       "rank": 3,
-      "headline": "Recurring service contracts are the revenue base.",
-      "why_this_business": "Building services operate on recurring contracts with defined scope, frequency, and reporting, billed monthly. Service verification and completion records support billing and contract renewal.",
-      "loss_scenario": "Unbillable service and contract disputes where completion records cannot be produced, on recurring revenue that funds the fixed cost base of the operation.",
-      "rhetorical_question": "How do you evidence completion of contracted service visits?"
+      "headline": "Customer records hold addresses and payment data.",
+      "points": [
+        "Records carry addresses, access details, and payment information.",
+        "Recurring payments run against those records.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer access and payment data do you store?"
     }
   ]
 }

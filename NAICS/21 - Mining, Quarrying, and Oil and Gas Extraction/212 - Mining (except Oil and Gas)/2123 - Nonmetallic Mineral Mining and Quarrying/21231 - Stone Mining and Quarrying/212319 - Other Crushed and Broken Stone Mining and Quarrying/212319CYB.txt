@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Scale ticketing is the revenue record for every ton sold.",
-      "why_this_business": "Crushed stone operations bill by the ton through scale house software linked to customer accounts and job numbers. Tickets support invoicing, sales tax, royalty payments to landowners, and project certification. There is no practical manual substitute at production volume.",
-      "loss_scenario": "Lost or unrecoverable tickets across the outage period mean material that cannot be invoiced and landowner royalties that cannot be calculated.",
-      "rhetorical_question": "Do you pay tonnage royalties to landowners based on scale records?"
+      "headline": "Production runs through an automated crushing circuit.",
+      "points": [
+        "Crushers, screens, and conveyors run under plant controls.",
+        "Product gradation depends on the circuit holding settings.",
+        "A stopped plant stops all sales at the same moment."
+      ],
+      "rhetorical_question": "Is your crushing and screening plant run by automated controls?"
     },
     {
       "rank": 2,
-      "headline": "Plant automation controls production and product gradation.",
-      "why_this_business": "Crushing and screening circuits are PLC controlled with automated feed, screen monitoring, and belt scales. Product gradation is adjusted through the control system. Running out of specification produces material that customers reject.",
-      "loss_scenario": "Off-specification production that must be reprocessed or sold as fill at a fraction of value, plus lost throughput during the outage.",
-      "rhetorical_question": "Is your plant control system separated from your business network?"
+      "headline": "Scale tickets are the record of every sale.",
+      "points": [
+        "Trucks are weighed and ticketed automatically at loadout.",
+        "Invoicing, tax, and royalty all follow those records.",
+        "No scale system means no sales and no record of them."
+      ],
+      "rhetorical_question": "How are your truck scales and load tickets recorded?"
     },
     {
       "rank": 3,
-      "headline": "Explosives handling carries strict federal recordkeeping.",
-      "why_this_business": "ATF requires licensed users to maintain daily inventory and transaction records for explosive materials and to report theft or loss within 24 hours. Blast designs and initiation timing are held in blasting software.",
-      "loss_scenario": "Licence action after an inspection finds records cannot be produced, which stops blasting and therefore stops production entirely.",
-      "rhetorical_question": "Where do you keep your ATF explosives inventory records?"
+      "headline": "Certification controls where the product can be used.",
+      "points": [
+        "Test results certify material for specific road and construction uses.",
+        "Agencies check those certifications before acceptance.",
+        "Material without certification is refused on public projects."
+      ],
+      "rhetorical_question": "How are your aggregate test results recorded and certified?"
     }
   ]
 }

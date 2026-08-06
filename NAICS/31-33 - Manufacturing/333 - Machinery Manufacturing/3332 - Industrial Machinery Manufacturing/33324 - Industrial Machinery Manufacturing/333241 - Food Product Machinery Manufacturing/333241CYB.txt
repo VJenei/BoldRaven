@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your equipment performs the food safety critical steps.",
-      "why_this_business": "Pasteurisers, retorts, fillers, and metal detectors execute the critical control points in food processing under HACCP. The machine controls temperature, time, and rejection, and the processor's food safety plan relies on the machine performing as specified.",
-      "loss_scenario": "Equipment control defects allowing under-processed food through, with a foodborne illness outbreak, recall across the processor's production, and the equipment manufacturer named for the control failure.",
-      "rhetorical_question": "Does your equipment control a critical limit in your customers' HACCP plans?"
+      "headline": "Your equipment performs the food safety critical step.",
+      "points": [
+        "Pasteurisers, retorts, and metal detectors execute the customer's critical control points.",
+        "The processor's food safety plan relies on the machine performing as specified.",
+        "Under-processed food reaching consumers traces back to the machine."
+      ],
+      "rhetorical_question": "Does your equipment control a critical limit in your customers' food safety plans?"
     },
     {
       "rank": 2,
-      "headline": "Machines are connected for remote support and updates.",
-      "why_this_business": "Food machinery ships with PLCs and HMIs, frequently with remote access for commissioning, diagnostics, and updates. That connection reaches into food plant control networks.",
-      "loss_scenario": "Remote access used to reach customer plant networks, shutting down production lines and making the manufacturer the confirmed entry point for every plant with the same access arrangement.",
+      "headline": "Machines are connected for remote support into food plants.",
+      "points": [
+        "Controllers and interfaces ship with remote access for commissioning and diagnostics.",
+        "That connection reaches into food plant control networks.",
+        "You become the confirmed entry point for every plant with the same setup."
+      ],
       "rhetorical_question": "How do your service engineers connect remotely to installed equipment?"
     },
     {
       "rank": 3,
-      "headline": "Sanitary design and materials are regulated for food contact.",
-      "why_this_business": "Food contact surfaces must be of approved materials and cleanable design, with certification to industry sanitary standards. Equipment that harbours bacteria contaminates everything running through it.",
-      "loss_scenario": "Equipment with non-conforming materials or design harbouring pathogens across a plant, with contamination in finished product and recall covering the whole period the equipment was in service.",
-      "rhetorical_question": "How do you document sanitary design certification and food contact material compliance?"
+      "headline": "Sanitary design is a regulatory requirement, not a preference.",
+      "points": [
+        "Food contact surfaces must be approved materials in cleanable designs.",
+        "Certification to sanitary standards supports that.",
+        "Equipment that harbours bacteria contaminates everything running through it."
+      ],
+      "rhetorical_question": "How do you document sanitary design certification and food contact compliance?"
     }
   ]
 }

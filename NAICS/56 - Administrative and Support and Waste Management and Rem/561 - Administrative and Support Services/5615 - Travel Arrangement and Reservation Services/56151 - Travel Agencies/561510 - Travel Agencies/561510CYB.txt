@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Booking records hold passports, payment cards, and itineraries.",
-      "why_this_business": "Agencies hold passenger name records with names, dates of birth, passport numbers, payment cards, frequent flyer accounts, and complete travel itineraries. Corporate travel adds employer, cost centre, and traveller location data for identified executives.",
-      "loss_scenario": "Breach exposing passport and payment data across a client base, plus itinerary data that reveals where named individuals will be and when, which is a physical security concern for corporate and high net worth travellers.",
-      "rhetorical_question": "How many traveller records with passport numbers do you hold?"
+      "headline": "You hold passport and payment data for every traveller.",
+      "points": [
+        "Bookings carry passport details, dates of birth, and payment cards.",
+        "Travel history shows where clients go and when.",
+        "Every affected traveller must be notified."
+      ],
+      "rhetorical_question": "How many traveller records with passport and payment data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Global distribution system credentials can issue and change tickets.",
-      "why_this_business": "Agencies hold credentials to airline reservation and global distribution systems permitting bookings, changes, and ticket issuance against airline plates. Compromised agency credentials have been used to issue fraudulent tickets and to access passenger records at scale.",
-      "loss_scenario": "Fraudulent ticketing issued against your agency's authority, with airline debit memos charging the value back to the agency, and passenger data accessed through your credentials.",
-      "rhetorical_question": "Who holds credentials to your global distribution system, and is multi-factor authentication enabled?"
+      "headline": "Travellers are stranded when bookings fail.",
+      "points": [
+        "Reservations, tickets, and itineraries run through booking systems.",
+        "Travellers are already in transit when problems appear.",
+        "A booking that cannot be confirmed leaves someone stuck abroad."
+      ],
+      "rhetorical_question": "What happens to travellers in transit if your booking systems fail?"
     },
     {
       "rank": 3,
-      "headline": "Travellers are stranded in real time when systems fail.",
-      "why_this_business": "Agencies manage changes, cancellations, and disruptions for travellers who are already in transit, frequently in other countries and time zones. Corporate travel programmes rely on the agency for duty of care during incidents.",
-      "loss_scenario": "Travellers stranded without support during a disruption, with corporate clients invoking duty of care obligations and terminating programmes that depend on the agency being reachable and effective.",
-      "rhetorical_question": "How many of your travellers are in transit at any given moment?"
+      "headline": "Supplier payments move client money.",
+      "points": [
+        "Payments to airlines, hotels, and operators are made with client funds.",
+        "Fraudulent instructions divert those payments.",
+        "The traveller arrives to find no booking exists."
+      ],
+      "rhetorical_question": "How are supplier payment instructions verified before client funds move?"
     }
   ]
 }

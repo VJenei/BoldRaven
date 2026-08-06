@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "MoCRA brought federal registration and adverse event duties to cosmetics.",
-      "why_this_business": "The Modernization of Cosmetics Regulation Act requires facility registration, product listing, safety substantiation, and reporting of serious adverse events, with records retained. Retailers that manufacture, private label, or import carry these obligations directly rather than through a supplier.",
-      "loss_scenario": "FDA enforcement where safety substantiation and adverse event records cannot be produced, plus product liability exposure on cosmetics sold under your own label.",
-      "rhetorical_question": "Do you private label or import any of the products you sell?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Loyalty and sampling programmes hold detailed personal profiles.",
-      "why_this_business": "Beauty retail runs heavily on loyalty programmes capturing skin type, allergies, product preferences, and complete purchase history alongside contact and payment details. Some programmes capture photographs for shade matching.",
-      "loss_scenario": "A breach exposing profile data including skin conditions and photographs, which carries a privacy dimension that ordinary transaction data does not, and stored value in loyalty accounts is drained on takeover.",
-      "rhetorical_question": "What personal information does your loyalty programme collect beyond contact details?"
+      "headline": "Loyalty programmes hold detailed customer profiles.",
+      "points": [
+        "Loyalty data records purchase history, contact details, and preferences.",
+        "That data drives the entire marketing programme.",
+        "Every member must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many customer loyalty records do you hold?"
     },
     {
       "rank": 3,
-      "headline": "High value small goods are targeted by organised theft.",
-      "why_this_business": "Fragrance and prestige cosmetics carry very high value in small packages with strong resale demand, making them a primary organised retail crime target. Inventory and delivery data identifies what is worth taking and when it arrives.",
-      "loss_scenario": "Coordinated theft across locations informed by inventory and delivery information, at values that materially affect category profitability.",
-      "rhetorical_question": "Which of your categories are targeted by organised retail theft?"
+      "headline": "Product recalls reach through your records.",
+      "points": [
+        "Cosmetic recalls identify specific lots and products.",
+        "Your receiving and sales records determine what you have and sold.",
+        "Recalled product stays on shelves while systems are down."
+      ],
+      "rhetorical_question": "How do you receive recall notices and identify affected stock?"
     }
   ]
 }

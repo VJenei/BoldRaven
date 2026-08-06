@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Space technology is an explicit foreign collection priority.",
-      "why_this_business": "Space systems, propulsion, sensors, and related technologies have direct national security applications and are identified priorities for foreign intelligence collection. Much of the technical data is export controlled under ITAR or EAR.",
-      "loss_scenario": "Theft of controlled technical data transfers capability to foreign programmes with no recoverable damages, and an intrusion by a foreign person may itself constitute an unauthorised export carrying criminal exposure.",
-      "rhetorical_question": "Is your technical data subject to ITAR or EAR access restrictions?"
+      "headline": "Space technology is export controlled and targeted.",
+      "points": [
+        "Launch, spacecraft, and propulsion technology is export controlled.",
+        "State-linked actors target space technology specifically.",
+        "Unauthorised access by a foreign person is a reportable violation."
+      ],
+      "rhetorical_question": "How is access to controlled technical data restricted and logged?"
     },
     {
       "rank": 2,
-      "headline": "Spacecraft command and mission systems are safety and mission critical.",
-      "why_this_business": "Ground segment systems command spacecraft, receive telemetry, and control mission operations. Unauthorised commanding can reposition, misconfigure, or permanently disable assets that cannot be physically reached or repaired.",
-      "loss_scenario": "Loss of a spacecraft representing hundreds of millions of dollars and years of development, with no replacement possible inside the mission window and the science or capability permanently lost.",
-      "rhetorical_question": "How is spacecraft command authority authenticated and monitored?"
+      "headline": "Mission systems control vehicles in flight.",
+      "points": [
+        "Command, control, and telemetry systems operate spacecraft and launch vehicles.",
+        "Loss of control loses the vehicle permanently.",
+        "Mission value runs into hundreds of millions."
+      ],
+      "rhetorical_question": "What systems command and control your vehicles?"
     },
     {
       "rank": 3,
-      "headline": "Federal contracts impose specific cybersecurity requirements.",
-      "why_this_business": "Organisations performing federal space work face FAR safeguarding requirements and, where controlled unclassified information is involved, DFARS clauses and CMMC obligations flowed down through the supply chain.",
-      "loss_scenario": "Loss of contract eligibility, termination, and False Claims Act exposure where compliance was represented but not achieved, in a sector where federal contracts are the primary revenue source.",
-      "rhetorical_question": "Which cybersecurity clauses do your federal contracts flow down?"
+      "headline": "Mission timelines are set by orbital mechanics.",
+      "points": [
+        "Launch windows are determined by physics, not by schedule.",
+        "A missed window can mean months or years of delay.",
+        "Mission costs accrue throughout that delay."
+      ],
+      "rhetorical_question": "What launch and mission windows do your programmes depend on?"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "naics_code": "111411",
   "naics_title": "Mushroom Production",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Growing rooms and compost tunnels are under continuous computer control.",
-      "why_this_business": "Mushroom production uses phase II and III composting tunnels held at set temperatures for pasteurization and conditioning, then growing rooms controlled for air temperature, compost temperature, humidity, CO2, and air exchange. Flushes are triggered by controlled environmental changes. The building supplies the entire growing environment.",
-      "loss_scenario": "Hours of lost environmental control aborts a flush and can contaminate the substrate. This costs the crop, the compost fill, and the room turn, commonly $50,000 to $200,000 per room. Rooms cycle every few weeks.",
-      "rhetorical_question": "Are your growing room and tunnel controls accessible remotely?"
+      "headline": "Growing rooms are held by automated controls around the clock.",
+      "points": [
+        "Temperature, humidity, carbon dioxide, and airflow are controlled continuously.",
+        "Mushrooms respond to a few hours outside range.",
+        "A control failure ruins every room in the crop cycle."
+      ],
+      "rhetorical_question": "Are your growing rooms run by automated climate controls?"
     },
     {
       "rank": 2,
-      "headline": "Mushrooms have a documented Listeria recall history.",
-      "why_this_business": "Enoki and other mushrooms have been subject to repeated multistate Listeria monocytogenes recalls and import alerts. Traceback uses lot codes, grow room records, and distribution data. Listeria is an environmental pathogen, so investigators review facility records in addition to product records.",
-      "loss_scenario": "Recall expense, destruction of distributed product, crisis management, and third-party bodily injury claims. Recall and crisis response costs are covered under cyber and recall policies, not farm property policies.",
-      "rhetorical_question": "Can you identify which rooms and dates a specific shipment came from?"
+      "headline": "Production runs continuously with no seasonal gap.",
+      "points": [
+        "Rooms are filled, cropped, and emptied on a fixed rotation.",
+        "Picking, packing, and shipping happen every day of the year.",
+        "A stopped rotation loses the rooms behind it as well."
+      ],
+      "rhetorical_question": "How many days of production would a shutdown of your climate systems cost?"
     },
     {
       "rank": 3,
-      "headline": "Hand harvest runs 52 weeks a year with continuous payroll.",
-      "why_this_business": "Mushrooms are picked by hand indoors year round using large permanent and seasonal crews on piece rate. Unlike field crops, the employee file is active every week of the year and includes I-9 forms, Social Security numbers, and direct deposit details.",
-      "loss_scenario": "Breach notification across a large standing workforce, plus disruption to a weekly payroll with no seasonal pause to absorb the interruption.",
-      "rhetorical_question": "How many employees are on your payroll year round?"
+      "headline": "Fresh mushrooms ship within days and carry traceability codes.",
+      "points": [
+        "Packed lots are coded back to room and harvest date.",
+        "Retail buyers require food safety audit certificates.",
+        "Without traceability one problem recalls your whole shipment history."
+      ],
+      "rhetorical_question": "Could you trace a packed lot back to a specific room and harvest date?"
     }
   ]
 }

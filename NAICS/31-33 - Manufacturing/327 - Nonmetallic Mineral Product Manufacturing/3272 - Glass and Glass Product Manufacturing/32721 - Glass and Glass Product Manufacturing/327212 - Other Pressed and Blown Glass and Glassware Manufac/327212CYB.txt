@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Glass furnaces run continuously for years.",
-      "why_this_business": "Glass melting furnaces operate continuously at very high temperature for campaigns lasting years, with an uncontrolled cooling requiring a rebuild. Forming machines run at high speed downstream of the furnace.",
-      "loss_scenario": "Furnace damage from uncontrolled shutdown requiring rebuild at very substantial cost and months of downtime, during which no product can be made.",
-      "rhetorical_question": "How long has your furnace been in campaign, and what does a rebuild cost?"
+      "headline": "Furnaces run continuously and cannot be cooled quickly.",
+      "points": [
+        "Glass furnaces run continuously at very high temperature for years.",
+        "An uncontrolled stop can freeze and destroy the tank.",
+        "Rebuild takes months and costs enormously."
+      ],
+      "rhetorical_question": "What would an uncontrolled furnace shutdown cost at your plant?"
     },
     {
       "rank": 2,
-      "headline": "Technical and laboratory glassware carries performance requirements.",
-      "why_this_business": "Glassware for laboratory, pharmaceutical, and technical applications carries dimensional, thermal shock, and chemical durability requirements. Pharmaceutical container glass must meet compendial requirements and not interact with the drug product.",
-      "loss_scenario": "Container glass causing delamination or contamination in pharmaceutical products, with drug recalls and the glass manufacturer identified as the cause.",
-      "rhetorical_question": "Do you produce pharmaceutical or laboratory glass with compendial requirements?"
+      "headline": "Food contact glassware carries lead and cadmium limits.",
+      "points": [
+        "Decorated glassware is subject to lead and cadmium leaching limits.",
+        "Testing records support that compliance.",
+        "Leaching decoration poisons the person drinking from it."
+      ],
+      "rhetorical_question": "What lead and cadmium testing do you perform on decorated glassware?"
     },
     {
       "rank": 3,
-      "headline": "Forming and annealing parameters determine whether glass survives handling.",
-      "why_this_business": "Forming and annealing control the stress state in the glass, with inadequate annealing leaving residual stress that causes spontaneous breakage in handling or use.",
-      "loss_scenario": "Under-annealed glass breaking in customer filling lines or in consumer use, with injury exposure from breakage and recall of every unit from the affected production.",
-      "rhetorical_question": "How is annealing performance verified for production?"
+      "headline": "Glass breakage causes lacerating injuries.",
+      "points": [
+        "Thermal shock and manufacturing defects cause glassware to shatter in use.",
+        "Consumer products carry recall and reporting obligations.",
+        "Lacerating injuries from shattered glassware are serious claims."
+      ],
+      "rhetorical_question": "Could you identify which retailers received a specific production run?"
     }
   ]
 }

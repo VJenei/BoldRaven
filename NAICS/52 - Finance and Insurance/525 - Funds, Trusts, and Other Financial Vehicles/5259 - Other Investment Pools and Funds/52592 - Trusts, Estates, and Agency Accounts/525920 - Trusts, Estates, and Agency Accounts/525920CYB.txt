@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Estate and trust records expose family arrangements deliberately kept private.",
-      "why_this_business": "These accounts hold wills, trust instruments, beneficiary identities and conditions, valuations, and distribution terms. Families frequently structure arrangements specifically so that beneficiaries do not know the terms, and some documents address incapacity or family conflict directly.",
-      "loss_scenario": "Exposure causes family disputes and personal harm that no notification or credit monitoring remedies, and fiduciary clients leave immediately when confidentiality fails.",
-      "rhetorical_question": "What family and beneficiary information is contained in the documents you hold?"
+      "headline": "You hold assets belonging to families and beneficiaries.",
+      "points": [
+        "Trust and estate assets are held and distributed on instruction.",
+        "Fiduciary duty applies to how you protect them.",
+        "A loss is a breach of fiduciary duty, not a service failure."
+      ],
+      "rhetorical_question": "What assets do you hold in trust or agency capacity?"
     },
     {
       "rank": 2,
-      "headline": "Distributions are made on instructions under a fiduciary standard.",
-      "why_this_business": "Trustees and agents distribute funds to beneficiaries on instruction or according to trust terms, frequently by wire. Beneficiaries may be elderly, remote, or unfamiliar with the process, which makes impersonation easier and detection slower.",
-      "loss_scenario": "Fraudulent distributions from fiduciary accounts, with the fiduciary obliged to restore the account and facing breach of duty claims judged against a standard higher than ordinary care.",
-      "rhetorical_question": "How is a beneficiary authenticated before a distribution is wired?"
+      "headline": "Distribution instructions are forged and executed.",
+      "points": [
+        "Distribution requests arrive from beneficiaries and their representatives.",
+        "Fraudulent instructions divert trust assets permanently.",
+        "Beneficiaries hold you responsible as fiduciary."
+      ],
+      "rhetorical_question": "How are distribution instructions verified before assets move?"
     },
     {
       "rank": 3,
-      "headline": "Asset records establish what the estate or trust actually holds.",
-      "why_this_business": "Accounts hold schedules of assets, valuations, basis records, and transaction history required for accounting to beneficiaries and for tax reporting. Estate administration depends on a complete and accurate inventory.",
-      "loss_scenario": "Unreconstructable asset records prevent accounting to beneficiaries and correct tax filing, with fiduciaries personally exposed for administration failures and beneficiaries entitled to demand a formal accounting.",
-      "rhetorical_question": "Could you produce a complete asset accounting for a trust from your records today?"
+      "headline": "Estate and family records are deeply confidential.",
+      "points": [
+        "Records carry family, estate, tax, and beneficiary information.",
+        "That information is confidential within families as well as outside.",
+        "Every affected party must be notified."
+      ],
+      "rhetorical_question": "What beneficiary and estate records do you hold?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Buried pipe failures are expensive to discover and repair.",
-      "why_this_business": "Concrete pipe carries structural loads from soil and traffic and conveys stormwater and sewage, manufactured to standards for strength, dimensions, and joint performance. Once buried it is inaccessible.",
-      "loss_scenario": "Pipe below specification failing after burial, with excavation required to locate and replace it under roads and developed areas, at costs many times the pipe value.",
-      "rhetorical_question": "How is pipe strength testing tied to specific production and project shipments?"
+      "headline": "Pipe is buried and failure means excavation.",
+      "points": [
+        "Concrete pipe carries structural load and conveys water and sewage underground.",
+        "Failures occur after backfill and roadway construction.",
+        "Replacement means excavating roads and utilities to reach it."
+      ],
+      "rhetorical_question": "How are your strength and dimensional test results linked to production?"
     },
     {
       "rank": 2,
-      "headline": "Projects specify pipe by class and joint type.",
-      "why_this_business": "Pipe is manufactured to project specifications for diameter, strength class, reinforcement, and joint configuration, with certification required for acceptance by the owner and engineer.",
-      "loss_scenario": "Wrong class pipe delivered and installed, discovered during inspection or after failure, requiring removal from a trench that has already been backfilled.",
-      "rhetorical_question": "How are project pipe specifications transferred into production?"
+      "headline": "Reinforcement placement determines structural capacity.",
+      "points": [
+        "Steel cage placement and cover determine load capacity and durability.",
+        "Records document what was placed in each pipe.",
+        "Wrong reinforcement is invisible once the concrete is cast."
+      ],
+      "rhetorical_question": "How are reinforcement and casting records maintained per pipe?"
     },
     {
       "rank": 3,
-      "headline": "Casting and curing cycles determine strength development.",
-      "why_this_business": "Pipe is cast and cured under controlled conditions with strength developing over the curing period. Reinforcement placement and concrete quality determine the finished strength class.",
-      "loss_scenario": "Pipe shipped before reaching design strength or with incorrect reinforcement, which cannot be assessed after installation without excavation.",
-      "rhetorical_question": "How is strength verified before pipe is released for shipment?"
+      "headline": "Public projects require documented certification.",
+      "points": [
+        "Agencies require test results and certification for accepted pipe.",
+        "Payment and acceptance depend on that documentation.",
+        "Pipe that cannot be certified is rejected or must be removed."
+      ],
+      "rhetorical_question": "What certification documentation do your agency contracts require?"
     }
   ]
 }

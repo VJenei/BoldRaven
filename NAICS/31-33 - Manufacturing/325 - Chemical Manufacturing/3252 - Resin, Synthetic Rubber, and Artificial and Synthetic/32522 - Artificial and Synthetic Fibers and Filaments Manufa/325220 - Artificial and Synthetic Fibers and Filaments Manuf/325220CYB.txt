@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Spinning lines run continuously and every position matters.",
-      "why_this_business": "Fibre spinning runs continuous polymer melt or solution through spinnerets at controlled temperature, throughput, and draw, with hundreds of positions running simultaneously. A process upset breaks filaments across positions and produces off-specification fibre.",
-      "loss_scenario": "Extended downtime with restart across hundreds of spinning positions, plus polymer and solvent consumed producing waste, on capital equipment where continuous running determines economics.",
-      "rhetorical_question": "How long does it take to restart your spinning line after a process upset?"
+      "headline": "Spinning lines run continuously and cannot be stopped cleanly.",
+      "points": [
+        "Polymerisation, spinning, and drawing run as one continuous process.",
+        "Lines run for weeks between planned stops.",
+        "An unplanned stop wastes polymer and takes days to restart."
+      ],
+      "rhetorical_question": "Is your spinning operation run by a central control system?"
     },
     {
       "rank": 2,
-      "headline": "Fibre specification determines downstream processing.",
-      "why_this_business": "Fibres are produced to denier, tenacity, elongation, and finish specifications that textile and technical customers depend on for their own processing. Technical fibres in safety and industrial applications carry performance requirements.",
-      "loss_scenario": "Off-specification fibre causing processing problems at customers and, in technical applications, products that fail their performance requirements with liability where safety performance was relied upon.",
-      "rhetorical_question": "What technical or safety applications use the fibre you produce?"
+      "headline": "Fiber specifications are qualified into customer processes.",
+      "points": [
+        "Denier, tenacity, and finish are specified and tested per lot.",
+        "Textile and industrial customers set their machines to that specification.",
+        "Off specification fiber breaks on their equipment and stops production."
+      ],
+      "rhetorical_question": "How are your fiber specifications tested and recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Solvent-based processes carry fire and emissions exposure.",
-      "why_this_business": "Solution spinning uses solvents recovered and recycled, with emissions controlled under air permits and flammable vapour managed with detection and interlocks. Solvent handling at scale is the principal hazard.",
-      "loss_scenario": "Fire or explosion in solvent handling destroying production capacity, plus emissions exceedances where recovery system performance cannot be demonstrated.",
-      "rhetorical_question": "How is solvent recovery performance monitored against your air permit limits?"
+      "headline": "Industrial fibers go into safety critical products.",
+      "points": [
+        "Fibers used in tires, ropes, and protective equipment carry rated strength.",
+        "Testing records support those ratings.",
+        "Under-strength fiber fails in the product it reinforces."
+      ],
+      "rhetorical_question": "Which of your fibers go into safety critical products?"
     }
   ]
 }

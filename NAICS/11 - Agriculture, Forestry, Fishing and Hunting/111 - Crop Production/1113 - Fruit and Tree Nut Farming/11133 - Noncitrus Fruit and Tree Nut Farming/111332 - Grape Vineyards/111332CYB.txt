@@ -1,7 +1,6 @@
 {
   "naics_code": "111332",
   "naics_title": "Grape Vineyards",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Wine club billing stores customer card data for recurring charges.",
-      "why_this_business": "Vineyards with winery operations run wine clubs that store customer cards for quarterly billing. Tasting room POS, e-commerce, and shipping compliance records add names, addresses, and dates of birth for age verification. This is stored payment data combined with personal information for thousands of customers.",
-      "loss_scenario": "A club database breach exposes stored cards for 3,000 to 15,000 members. Costs include notification, card brand assessments, forensics, and loss of the customer list.",
-      "rhetorical_question": "Do you store customer credit card information for recurring or club billing?"
+      "headline": "Harvest date is decided by daily chemistry, and it cannot slip.",
+      "points": [
+        "Sugar, acid, and pH are tested repeatedly as the fruit ripens.",
+        "Picking crews and winery delivery slots are booked on those numbers.",
+        "Fruit picked days late is a different wine at a lower price."
+      ],
+      "rhetorical_question": "How are your harvest dates and winery deliveries scheduled?"
     },
     {
       "rank": 2,
-      "headline": "Frost protection, irrigation, and pick timing are driven by remote sensor data.",
-      "why_this_business": "Vineyards use remotely monitored frost alarms, wind machines, overhead sprinklers, and soil moisture probes. Brix sampling determines pick date within roughly a 48 hour window. Frost alarms are acted on overnight.",
-      "loss_scenario": "A missed frost event at bud break destroys the primary crop for the season. A mistimed pick moves fruit outside the target Brix and pH range and moves the lot from reserve tier to bulk.",
-      "rhetorical_question": "Do you rely on remote frost alarms or sensor data to make overnight decisions?"
+      "headline": "Frost and irrigation systems protect a permanent planting.",
+      "points": [
+        "Wind machines, sprinklers, and drip systems run on automated and remote controls.",
+        "A failed frost night can take the entire crop.",
+        "Vine damage costs several seasons, not one."
+      ],
+      "rhetorical_question": "Are your frost protection or irrigation systems monitored or controlled remotely?"
     },
     {
       "rank": 3,
-      "headline": "Label claims must be substantiated with records that TTB can audit.",
-      "why_this_business": "Vintage, varietal, appellation, and vineyard designate claims must be supported by records available for TTB audit. Vineyards supplying wineries must document block, tonnage, and delivery to support those claims. Weight tags and lot records are the supporting evidence.",
-      "loss_scenario": "Inability to substantiate label claims in an audit requires relabeling or destruction of bottled inventory, plus contractual liability to wineries relying on your records.",
-      "rhetorical_question": "Do you supply fruit for vineyard-designate or appellation labeling?"
+      "headline": "Vineyard block records support every wine label claim.",
+      "points": [
+        "Appellation, variety, and vintage claims trace back to block records.",
+        "Those records are auditable by federal label regulators.",
+        "Unsupported label claims mean the wine cannot be sold as labelled."
+      ],
+      "rhetorical_question": "What block and harvest records do you keep for fruit sold to wineries?"
     }
   ]
 }

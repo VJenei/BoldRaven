@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Dental devices are FDA regulated with quality system requirements.",
-      "why_this_business": "Dental instruments, materials, and equipment are medical devices subject to the Quality System Regulation with device master records, complaint handling, and Medical Device Reporting obligations.",
-      "loss_scenario": "Loss of quality system records or failure to report adverse events, with FDA inspection findings, a warning letter, and product removed from distribution.",
+      "headline": "Dental products are regulated devices with quality requirements.",
+      "points": [
+        "Device master records, complaint handling, and adverse event reporting apply.",
+        "Inspectors examine those records directly.",
+        "Findings remove product from distribution."
+      ],
       "rhetorical_question": "How are your device master records and complaint files maintained?"
     },
     {
       "rank": 2,
-      "headline": "Digital dentistry systems handle patient scans and designs.",
-      "why_this_business": "Intraoral scanners, CAD software, and milling systems handle patient scan data and case designs, transmitted between practices, laboratories, and manufacturers. That data identifies patients.",
-      "loss_scenario": "Patient scan and case data exposed, with HIPAA obligations where you act as a business associate and dental practice customers facing their own breach notification duties.",
+      "headline": "Digital dentistry moves patient scans through your systems.",
+      "points": [
+        "Scanners, design software, and milling handle patient scan and case data.",
+        "That data identifies individual patients.",
+        "Practice customers face their own breach notification duties."
+      ],
       "rhetorical_question": "Does patient scan or case data pass through systems you operate?"
     },
     {
       "rank": 3,
-      "headline": "Materials placed in the mouth carry biocompatibility requirements.",
-      "why_this_business": "Dental materials contact oral tissue and, for restorative materials, remain in place for years, with biocompatibility testing and material specifications supporting their clearance.",
-      "loss_scenario": "Material formulation or process deviations producing product outside its cleared specification, with patient reactions, an FDA recall, and every restoration placed from the affected lots at issue.",
+      "headline": "Materials stay in the patient's mouth for years.",
+      "points": [
+        "Dental materials contact oral tissue and restorations remain in place.",
+        "Biocompatibility testing supports the clearance.",
+        "Every restoration placed from the affected lots is at issue."
+      ],
       "rhetorical_question": "How are material formulation and process records tied to product lots?"
     }
   ]

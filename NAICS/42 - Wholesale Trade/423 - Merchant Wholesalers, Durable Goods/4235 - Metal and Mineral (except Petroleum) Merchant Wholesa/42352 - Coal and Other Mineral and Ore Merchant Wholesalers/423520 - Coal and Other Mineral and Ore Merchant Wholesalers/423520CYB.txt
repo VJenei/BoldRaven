@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Trades settle on assay and quality data against large contract values.",
-      "why_this_business": "Coal, ore, and mineral trades are priced on quality specifications with sampling and assay at load or discharge, provisional invoicing, and final settlement when assays are agreed. Contracts run into millions per cargo with penalty and rejection thresholds.",
-      "loss_scenario": "Unresolvable provisional settlements across cargoes, and quality disputes decided against you where sampling and assay records are unavailable.",
-      "rhetorical_question": "How are assay results received and matched to specific cargoes?"
+      "headline": "Cargoes settle on assay results in very large payments.",
+      "points": [
+        "Shipments are tested for quality and paid on those results.",
+        "Payments move by transfer at cargo value.",
+        "A faked banking change diverts an entire cargo payment."
+      ],
+      "rhetorical_question": "How are banking details verified before a cargo payment?"
     },
     {
       "rank": 2,
-      "headline": "Logistics chains are long, expensive, and coordinated electronically.",
-      "why_this_business": "Product moves by rail, barge, and vessel through terminals with demurrage clocks running at every transfer. Nominations, bills of lading, and stockpile positions are managed in trading and logistics systems.",
-      "loss_scenario": "Demurrage on vessels runs $20,000 to $50,000 per day, and rail car detention accumulates across hundreds of cars when loading and release instructions cannot be issued.",
-      "rhetorical_question": "What is your daily demurrage exposure when a vessel or unit train is waiting?"
+      "headline": "Logistics coordinate rail, barge, and vessel movements.",
+      "points": [
+        "Movements are scheduled across rail, barge, and vessel against loading windows.",
+        "Demurrage accrues when a window is missed.",
+        "The whole chain backs up behind one delay."
+      ],
+      "rhetorical_question": "How are your rail, barge, and vessel movements scheduled?"
     },
     {
       "rank": 3,
-      "headline": "Trading positions and counterparty exposure need continuous visibility.",
-      "why_this_business": "Merchants hold long and short physical positions, forward contracts, and sometimes financial hedges against a book that must be marked and monitored. Counterparty credit exposure is tracked per trade.",
-      "loss_scenario": "An unmanaged position through a price move, or counterparty exposure exceeding limits without visibility, either of which can exceed annual profit in a single event.",
-      "rhetorical_question": "How is your trading position and counterparty exposure monitored daily?"
+      "headline": "Quality records support every sale and dispute.",
+      "points": [
+        "Sampling and assay results determine what the cargo is worth.",
+        "Buyers reconcile against their own results.",
+        "Lost records mean disputes you cannot defend."
+      ],
+      "rhetorical_question": "How are your sampling and assay results recorded and retained?"
     }
   ]
 }

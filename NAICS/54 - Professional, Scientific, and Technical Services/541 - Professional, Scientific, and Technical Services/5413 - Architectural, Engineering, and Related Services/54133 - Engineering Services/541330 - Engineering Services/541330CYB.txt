@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Engineering calculations are the evidence that a design was sound.",
-      "why_this_business": "Structural, mechanical, and civil engineering deliverables are supported by calculations, analysis models, and design assumptions that constitute the professional record. Statutes of repose extend liability many years past completion, and claims are defended from that record.",
-      "loss_scenario": "A structural or system failure claim that cannot be defended without the calculations, where the engineer's inability to produce the record effectively concedes the allegation on a loss involving injury or collapse.",
-      "rhetorical_question": "Could you produce the design calculations for a project completed eight years ago?"
+      "headline": "Your calculations determine whether structures stand.",
+      "points": [
+        "Design calculations and models determine structural and system capacity.",
+        "Sealed documents carry your professional responsibility.",
+        "An error in a design becomes a failure in a built structure."
+      ],
+      "rhetorical_question": "Where are your design calculations and models stored?"
     },
     {
       "rank": 2,
-      "headline": "You hold client facility and infrastructure information.",
-      "why_this_business": "Engineers hold detailed information about industrial facilities, utilities, transportation infrastructure, and buildings, including process design, control systems, and structural details. Much of this is confidential and some of it is security sensitive.",
-      "loss_scenario": "Third-party liability to owners for disclosed facility information, and for critical infrastructure clients a security exposure that draws regulatory attention to both parties.",
-      "rhetorical_question": "Do you hold design information for critical infrastructure or industrial process facilities?"
+      "headline": "Sealed documents carry personal professional liability.",
+      "points": [
+        "Sealed drawings and reports are relied on by builders and officials.",
+        "A forged or altered sealed document is a licensing matter.",
+        "Your seal is the assurance that others build on."
+      ],
+      "rhetorical_question": "How are your sealed documents protected against alteration?"
     },
     {
       "rank": 3,
-      "headline": "Federal and defence work imposes cybersecurity requirements by contract.",
-      "why_this_business": "Engineering firms working on federal projects must meet FAR safeguarding requirements, and those handling controlled unclassified information face DFARS clauses and CMMC obligations that flow down through subcontracts.",
-      "loss_scenario": "Loss of eligibility for federal work, contract termination, and False Claims Act exposure where compliance was represented in a proposal but not achieved.",
-      "rhetorical_question": "Do your contracts flow down DFARS or CMMC requirements?"
+      "headline": "Construction schedules wait on your documents.",
+      "points": [
+        "Design releases, submittal reviews, and responses gate construction.",
+        "Contractors and trades are scheduled around those dates.",
+        "Delay claims from the contractor follow directly."
+      ],
+      "rhetorical_question": "What construction activity is waiting on your documents right now?"
     }
   ]
 }

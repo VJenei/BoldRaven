@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Pipe spools are fabricated to isometric drawings for one installation.",
-      "why_this_business": "Pipe spools are cut, fitted, and welded to isometric drawings for a specific plant, with dimensions, materials, and connection details that fit nowhere else. Spools ship to site for installation on a schedule.",
-      "loss_scenario": "Spools fabricated to wrong or superseded isometrics that will not fit, discovered at site, with refabrication and the plant construction or turnaround schedule delayed.",
+      "headline": "Spools are fabricated for one installation only.",
+      "points": [
+        "Isometric drawings define dimensions, materials, and connections per spool.",
+        "Spools ship to site for installation on a schedule.",
+        "A spool that will not fit is discovered at site, not in the shop."
+      ],
       "rhetorical_question": "How are isometric drawing revisions controlled into your fabrication?"
     },
     {
       "rank": 2,
-      "headline": "Welding procedures, welders, and examination are code requirements.",
-      "why_this_business": "Process piping is welded under qualified procedures by qualified welders with radiographic or ultrasonic examination to code, and records accompany the spool as the evidence of conformance.",
-      "loss_scenario": "Piping that cannot be shown to meet code welding requirements, requiring re-examination or replacement of piping already installed and connected in an operating plant.",
+      "headline": "Welding and examination are code requirements.",
+      "points": [
+        "Qualified procedures, qualified welders, and examination results follow every weld.",
+        "Records accompany the spool as evidence of conformance.",
+        "Piping that cannot be documented must be re-examined or replaced."
+      ],
       "rhetorical_question": "How are welder qualifications and examination results recorded per weld?"
     },
     {
       "rank": 3,
-      "headline": "Material traceability governs every pressure piping component.",
-      "why_this_business": "Piping materials carry mill certifications traceable to heat, with positive material identification required for alloy service. The wrong alloy in high temperature or corrosive service fails in operation.",
-      "loss_scenario": "Wrong material in installed piping failing in service with a release, fire, or injury, and traceability records determining which spools must be located within a plant.",
+      "headline": "Material traceability governs every pressure component.",
+      "points": [
+        "Mill certifications and alloy verification are required for pressure piping.",
+        "Wrong alloy in high temperature or corrosive service fails in operation.",
+        "The failure is a release, fire, or injury in an operating plant."
+      ],
       "rhetorical_question": "How is material traceability maintained from receipt through to shipped spools?"
     }
   ]

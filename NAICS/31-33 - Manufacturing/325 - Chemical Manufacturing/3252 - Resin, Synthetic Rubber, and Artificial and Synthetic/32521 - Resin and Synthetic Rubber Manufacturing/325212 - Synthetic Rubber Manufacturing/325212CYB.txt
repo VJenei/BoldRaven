@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Polymer specification determines tire and component performance.",
-      "why_this_business": "Synthetic rubber is produced to molecular weight, composition, and processing specifications qualified by tire and component manufacturers. Rubber properties determine the performance and durability of safety-critical products.",
-      "loss_scenario": "Off-specification polymer incorporated into tires and components, with failures in service and recalls reaching finished products, and traceability determining which production is affected.",
-      "rhetorical_question": "How is your polymer traced into customer production lots?"
+      "headline": "Polymerisation runs continuously under tight control.",
+      "points": [
+        "Reactor conditions determine polymer properties and are controlled continuously.",
+        "Runaway reactions and flammable monomers create explosion risk.",
+        "A control failure is a release, not a production issue."
+      ],
+      "rhetorical_question": "What safety interlocks protect your reactors, and how are they verified?"
     },
     {
       "rank": 2,
-      "headline": "Monomer handling is flammable and toxic.",
-      "why_this_business": "Butadiene, styrene, and other monomers are flammable and in some cases carcinogenic, handled in bulk with polymerisation inhibitors, temperature control, and emergency relief. Uninhibited or overheated monomer polymerises spontaneously and violently.",
-      "loss_scenario": "Runaway polymerisation in storage or transfer producing vessel rupture and release, plus carcinogen exposure findings where monitoring records cannot be produced.",
-      "rhetorical_question": "How are monomer inhibitor levels and storage temperature monitored?"
+      "headline": "Rubber grades are qualified into tire and product manufacturing.",
+      "points": [
+        "Polymer properties are specified and qualified by tire and product makers.",
+        "Their compounds are formulated around your exact grade.",
+        "Off specification polymer ruins their compound and their product."
+      ],
+      "rhetorical_question": "How are your polymer specifications tested and recorded per lot?"
     },
     {
       "rank": 3,
-      "headline": "Continuous production supplies customers with limited alternatives.",
-      "why_this_business": "Synthetic rubber grades are qualified by customers for specific compounds, with limited qualified alternative sources. Tire plants run continuously against contracted supply.",
-      "loss_scenario": "Tire and component manufacturers unable to obtain qualified polymer, stopping compound mixing and downstream production, with claims reflecting their operations rather than the polymer value.",
-      "rhetorical_question": "How many qualified alternative suppliers exist for the grades you produce?"
+      "headline": "Supply interruption stops downstream production.",
+      "points": [
+        "Tire and rubber product makers hold days of polymer inventory.",
+        "Substitution requires compound requalification.",
+        "A supply gap stops their plants, not just yours."
+      ],
+      "rhetorical_question": "How much inventory do your customers hold before their production stops?"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "naics_code": "111940",
   "naics_title": "Hay Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Hay is sold to remote buyers and is stolen through fraudulent pickup.",
-      "why_this_business": "Hay is sold through online marketplaces, broker networks, and load boards to buyers the grower has not met, often across state lines. Fictitious pickup, where a criminal uses compromised or spoofed carrier credentials to collect a load, is an established freight fraud pattern.",
-      "loss_scenario": "A stolen or unpaid load of premium alfalfa is $6,000 to $12,000 per truck. Organized operations take multiple loads before detection. Goods released to a fraudster are generally not covered as a property theft loss.",
-      "rhetorical_question": "How do you verify a buyer or carrier before releasing a load?"
+      "headline": "Cutting is timed to a forecast that changes by the hour.",
+      "points": [
+        "Hay is cut, dried, and baled inside a dry window of a few days.",
+        "Weather data, equipment, and crew scheduling drive that decision.",
+        "Rain on cut hay drops it from dairy quality to bedding."
+      ],
+      "rhetorical_question": "How do you track weather and schedule cutting and baling?"
     },
     {
       "rank": 2,
-      "headline": "Export hay premiums depend on lab testing and certification documents.",
-      "why_this_business": "Compressed alfalfa and timothy exported to Japan, Korea, China, and the Middle East require lab analysis for relative feed value, moisture, and nitrate, plus phytosanitary certification through APHIS PCIT and container-level documentation.",
-      "loss_scenario": "Loads held at port with daily demurrage, and export hay reverting to domestic feed value. The price difference commonly exceeds $60 to $100 per ton.",
-      "rhetorical_question": "Do you sell into the export market, and where are your lab and certification records kept?"
+      "headline": "Quality testing determines what the hay is worth.",
+      "points": [
+        "Protein and fibre tests set the price for dairy and horse markets.",
+        "Test results are tied to specific lots and stacks.",
+        "Hay you cannot document sells at commodity price."
+      ],
+      "rhetorical_question": "How are your hay test results recorded and matched to lots?"
     },
     {
       "rank": 3,
-      "headline": "Baling moisture data prevents spontaneous combustion in stored hay.",
-      "why_this_business": "Hay baled above safe moisture heats through microbial activity and can combust. Baler moisture sensors, preservative applicators, and stack temperature probes are used to prevent this, and readings are increasingly logged and transmitted.",
-      "loss_scenario": "A hay fire destroys the stack, the barn, and adjacent equipment. Stored hay inventory for a commercial operation commonly represents $200,000 to $800,000.",
-      "rhetorical_question": "Do you use moisture sensing or stack temperature monitoring on stored hay?"
+      "headline": "Buyers pay by transfer on load-by-load records.",
+      "points": [
+        "Loads are weighed, recorded, and paid after delivery.",
+        "A faked banking change diverts payment on a run of loads.",
+        "Repeat buyers settle in large periodic payments."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     }
   ]
 }

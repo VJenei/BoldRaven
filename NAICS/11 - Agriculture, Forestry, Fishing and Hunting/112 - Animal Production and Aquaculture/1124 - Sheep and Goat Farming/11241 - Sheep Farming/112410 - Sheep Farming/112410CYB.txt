@@ -1,7 +1,6 @@
 {
   "naics_code": "112410",
   "naics_title": "Sheep Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Scrapie program identification and movement records are federally required.",
-      "why_this_business": "The USDA National Scrapie Eradication Program requires official identification for sheep in interstate commerce, with flock ID, individual animal identification, and movement records maintained and available. Traceback in a scrapie investigation uses these records, which are commonly held in flock management software.",
-      "loss_scenario": "Inability to move animals interstate or to support the flock's status in a traceback, which can result in quarantine or designation as a source flock.",
-      "rhetorical_question": "How do you record individual animal identification and movement?"
+      "headline": "Lambing and shearing run to dates that cannot slip.",
+      "points": [
+        "Lambing, shearing, and marketing are scheduled around a fixed calendar.",
+        "Crews, facilities, and buyers are booked to those dates.",
+        "Work missed at lambing costs lambs, not time."
+      ],
+      "rhetorical_question": "How are your lambing, shearing, and marketing schedules managed?"
     },
     {
       "rank": 2,
-      "headline": "Lamb, wool, and breeding stock are sold direct to distant buyers.",
-      "why_this_business": "Sheep operations sell freezer lamb, halves and wholes, wool and fiber, and breeding stock to buyers across the country, often without the buyer seeing the animal. This requires e-commerce, deposits, and stored customer information. PCI DSS 4.0 became mandatory on March 31, 2025.",
-      "loss_scenario": "Card and customer data compromise, plus payment fraud on breeding stock sales that commonly run $500 to $5,000 per animal.",
-      "rhetorical_question": "Do you sell breeding stock or meat direct to customers online?"
+      "headline": "Scrapie identification is required before sheep can move.",
+      "points": [
+        "Sheep must carry official identification and movement records.",
+        "Records support interstate movement and disease tracing.",
+        "Animals without documented identification cannot be sold or moved."
+      ],
+      "rhetorical_question": "How do you record official identification and movement for your sheep?"
     },
     {
       "rank": 3,
-      "headline": "Predator and fence monitoring is the only way losses are detected in time.",
-      "why_this_business": "Extensive sheep operations use remote cameras, GPS collars, virtual fencing, and electric fence monitoring across large pastures. Predation is the largest single cause of death loss in the industry.",
-      "loss_scenario": "Undetected predation or fence failure over several days on a remote pasture. Ewes and lambs are $200 to $400 per head and losses accumulate before discovery.",
-      "rhetorical_question": "Do you use remote cameras, collars, or fence monitoring on your pastures?"
+      "headline": "Wool and lamb sales settle in large periodic payments.",
+      "points": [
+        "Wool clips and lamb drafts are sold in lots and paid by transfer.",
+        "A faked banking change diverts an entire settlement.",
+        "Income arrives in a few payments across the year."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     }
   ]
 }

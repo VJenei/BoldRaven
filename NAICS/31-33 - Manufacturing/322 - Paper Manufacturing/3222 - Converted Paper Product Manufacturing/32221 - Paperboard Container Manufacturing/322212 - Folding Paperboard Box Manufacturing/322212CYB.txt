@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Cartons carry regulated label content for the products inside.",
-      "why_this_business": "Folding cartons carry printed content including ingredient declarations, allergen statements, drug facts, and regulatory markings for food, pharmaceutical, and consumer products. Printing the wrong version puts incorrect regulated information on the product.",
-      "loss_scenario": "Cartons printed with superseded artwork carrying wrong allergen or drug information, packaged and distributed, requiring recall of the finished product with the carton manufacturer identified as the source.",
-      "rhetorical_question": "How is artwork version controlled between customer approval and the printing press?"
+      "headline": "Printed cartons carry the customer's regulated label information.",
+      "points": [
+        "Nutrition panels, drug facts, allergen statements, and warnings are printed by you.",
+        "Print files come from the customer and must be exact.",
+        "A wrong carton recalls the customer's packed product."
+      ],
+      "rhetorical_question": "How are customer print files verified before a carton run?"
     },
     {
       "rank": 2,
-      "headline": "Pharmaceutical and food packaging carries serialisation and compliance duties.",
-      "why_this_business": "Pharmaceutical cartons carry serialised product identifiers required under DSCSA, applied and verified during printing and packaging. Food cartons carry regulated declarations and food contact material requirements.",
-      "loss_scenario": "Serialisation errors preventing lawful distribution of pharmaceutical product, with the manufacturer unable to ship until cartons are replaced and the supply chain interrupted.",
-      "rhetorical_question": "Do you print serialised pharmaceutical packaging?"
+      "headline": "Pharmaceutical and food cartons carry compliance obligations.",
+      "points": [
+        "Serialisation, barcodes, and regulated text are printed and verified.",
+        "Customers rely on those cartons for their own compliance.",
+        "Non-conforming cartons stop their packaging line entirely."
+      ],
+      "rhetorical_question": "What verification do you perform on regulated printed content?"
     },
     {
       "rank": 3,
-      "headline": "Print quality and colour must match brand standards exactly.",
-      "why_this_business": "Brand owners specify colour to tight tolerances measured instrumentally, with cartons rejected for colour variation. Colour management runs through prepress, plates, and press control systems.",
-      "loss_scenario": "Rejected production for colour variation across a run, which is scrapped and reprinted at the converter's cost with plates and material consumed twice.",
-      "rhetorical_question": "How is colour measured and controlled against brand standards during your press runs?"
+      "headline": "Cartons are made to customer dies and artwork.",
+      "points": [
+        "Dies and print plates are customer specific with no stock equivalent.",
+        "Their packaging line is set up for that exact carton.",
+        "No other plant can supply without the tooling and artwork."
+      ],
+      "rhetorical_question": "How many customer dies and print plates exist only at your plant?"
     }
   ]
 }

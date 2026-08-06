@@ -1,7 +1,6 @@
 {
   "naics_code": "111130",
   "naics_title": "Dry Pea and Bean Farming",
-  "sector": "11 - Agriculture, Forestry, Fishing and Hunting",
   "policy": {
     "code": "CYB",
     "name": "Cyber Liability"
@@ -9,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Export shipments require electronic certificates that must match the cargo.",
-      "why_this_business": "A large share of US pulses is exported. Shipments require electronic phytosanitary certificates issued through USDA APHIS PCIT, certificates of origin, and buyer quality documentation. Destination countries set different maximum residue limits, which are verified against your spray records.",
-      "loss_scenario": "A container arriving without matching documentation is detained and often rejected. Demurrage runs $150 to $300 per container per day before the cargo itself is addressed.",
-      "rhetorical_question": "Do you export any portion of your crop, and do you maintain the pesticide application records used for residue compliance?"
+      "headline": "Buyers pay by wire, and payment instructions are forged.",
+      "points": [
+        "Processors and exporters settle deliveries by electronic transfer.",
+        "A faked banking change diverts a full load payment.",
+        "Pulse crops are sold in a handful of large lots."
+      ],
+      "rhetorical_question": "Do you receive payment or banking instructions from buyers by email?"
     },
     {
       "rank": 2,
-      "headline": "Contracts settle by wire to processors and brokers you deal with infrequently.",
-      "why_this_business": "Dry edible bean and pulse marketing runs through a limited number of processors and brokers, often out of state. Communication is by email. There is no regular in-person contact with the accounting staff who send remittance advices, which removes the check that would catch an altered account number.",
-      "loss_scenario": "A diverted settlement wire of $80,000 to $300,000 on a single contract.",
-      "rhetorical_question": "Do you sell to out-of-state buyers you have not met in person?"
+      "headline": "Export buyers require documentation before the crop can ship.",
+      "points": [
+        "Phytosanitary certificates and grade records travel with every export lot.",
+        "Field, treatment, and storage records support those certificates.",
+        "A container without paperwork is rejected at the destination port."
+      ],
+      "rhetorical_question": "Do you sell any production into export markets?"
     },
     {
       "rank": 3,
-      "headline": "Certified seed status depends on lot records kept on the farm.",
-      "why_this_business": "Certified pulse seed carries variety protection and certification tags administered by state crop improvement associations. Lot traceability is required to sell seed as certified. The records are digital and are frequently stored only on the farm office computer.",
-      "loss_scenario": "Loss of certification status drops certified seed value to commodity value across the affected lots.",
-      "rhetorical_question": "Do you produce certified seed, and where are your lot and certification records stored?"
+      "headline": "Stored pulses need monitored conditions or they spoil.",
+      "points": [
+        "Moisture and temperature in bins are watched by automated monitoring.",
+        "Insect and mould damage downgrades a lot to feed value.",
+        "Damage found at delivery has already destroyed the premium."
+      ],
+      "rhetorical_question": "Is your stored crop monitored by automated temperature or moisture systems?"
     }
   ]
 }

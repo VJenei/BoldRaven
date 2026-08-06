@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Customer segregated funds carry absolute regulatory protection.",
-      "why_this_business": "Futures commission merchants must segregate customer funds and report on them daily to the CFTC and their designated self-regulatory organisation. Shortfalls in segregated funds are among the most serious violations in the industry and have ended firms.",
-      "loss_scenario": "An inability to compute and report segregated fund positions is a regulatory event in itself, and any apparent shortfall triggers immediate intervention regardless of the underlying cause.",
-      "rhetorical_question": "How is your daily segregated funds computation produced and verified?"
+      "headline": "Positions and margin run in real time.",
+      "points": [
+        "Trading, position keeping, and margin calculation run continuously.",
+        "Markets move while systems are down and positions are exposed.",
+        "Unmargined positions create losses that exceed the account."
+      ],
+      "rhetorical_question": "What happens to open positions if your trading systems are unavailable?"
     },
     {
       "rank": 2,
-      "headline": "Margin calls and position management run continuously with markets.",
-      "why_this_business": "Commodity positions are marked to market with margin calls issued and met on short deadlines. Positions move with markets that trade nearly around the clock, and a firm that cannot compute exposure cannot manage it or call customers for margin.",
-      "loss_scenario": "Undercollateralised positions through a market move, where the firm absorbs customer losses it could not call margin against, and clearing house obligations must be met regardless.",
-      "rhetorical_question": "How quickly can you compute customer margin requirements after a large market move?"
+      "headline": "Customer funds are segregated and reconciled daily.",
+      "points": [
+        "Customer funds must be segregated with daily reconciliation and reporting.",
+        "Regulators examine those records directly.",
+        "A shortfall in segregated funds is among the most serious violations there is."
+      ],
+      "rhetorical_question": "How are your customer segregated funds reconciled and reported?"
     },
     {
       "rank": 3,
-      "headline": "Customer account data includes complete financial profiles.",
-      "why_this_business": "Account opening for derivatives trading requires identity verification, financial condition, trading experience, and suitability documentation, plus bank details for funding. Firms are financial institutions with GLBA and SEC or CFTC privacy obligations.",
-      "loss_scenario": "Breach notification across a customer base of sophisticated investors, with regulatory examination of controls and reputational damage in a market where firm selection is driven by trust in operational integrity.",
-      "rhetorical_question": "How many customer account files with financial disclosures do you hold?"
+      "headline": "Regulators require documented cybersecurity programmes.",
+      "points": [
+        "Regulators require written policies, testing, and incident reporting.",
+        "Examinations assess those programmes directly.",
+        "Findings carry enforcement action and penalties."
+      ],
+      "rhetorical_question": "What cybersecurity programme requirements apply to your firm?"
     }
   ]
 }

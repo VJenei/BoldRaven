@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Independent stores run on a single point of sale system with no redundancy.",
-      "why_this_business": "Independent hardware stores run pricing, inventory, purchasing, and customer accounts through one point of sale platform, usually supported by a co-op or a single vendor. There is rarely an IT function and often no tested backup. The system prices every item in the store.",
-      "loss_scenario": "The store cannot transact at all. For an independent retailer with thin margins and no reserve, a week of closure is a solvency event rather than a disruption.",
-      "rhetorical_question": "Could your store sell anything if your point of sale system were unavailable tomorrow?"
+      "headline": "Card payments run continuously at the counter.",
+      "points": [
+        "Point of sale terminals process cards through all trading hours.",
+        "Card security requirements apply to every store.",
+        "A breach brings assessments, forensics, and bank claims."
+      ],
+      "rhetorical_question": "How does your point of sale system handle and store card data?"
     },
     {
       "rank": 2,
-      "headline": "Co-op membership ties your systems to a buying group.",
-      "why_this_business": "Independent hardware retailers buy through co-ops that supply item data, pricing files, promotions, and electronic ordering integrated with store systems. Rebates and dividends are calculated from purchase data reported to the co-op.",
-      "loss_scenario": "Inability to order through the co-op means empty shelves within a week, and unreported purchases affect rebate and dividend calculations that represent real annual income.",
-      "rhetorical_question": "How do you order and receive item data from your buying group?"
+      "headline": "Inventory and reordering run automatically.",
+      "points": [
+        "Stock levels, reordering, and supplier ordering run through your systems.",
+        "Thousands of items turn at different rates.",
+        "Without the system shelves empty and nothing reorders."
+      ],
+      "rhetorical_question": "How is your inventory tracked and reordered?"
     },
     {
       "rank": 3,
-      "headline": "Card acceptance obligations apply regardless of store size.",
-      "why_this_business": "Every card-accepting merchant is contractually bound to PCI DSS, which became fully mandatory in its 4.0 version on March 31, 2025. There is no small merchant exemption from the contractual liability in the merchant agreement.",
-      "loss_scenario": "Card brand assessments and forensic investigation costs that a single-store retailer has no capacity to absorb, and which the merchant agreement makes the retailer's responsibility.",
-      "rhetorical_question": "Have you read the liability provisions in your merchant processing agreement?"
+      "headline": "Demand spikes around weather and seasons.",
+      "points": [
+        "Storms, freezes, and seasonal work drive concentrated demand.",
+        "Ordering and inventory surge together.",
+        "Customers go wherever they can actually buy."
+      ],
+      "rhetorical_question": "How does your ordering system handle seasonal and storm demand surges?"
     }
   ]
 }

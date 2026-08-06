@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Knitting machines execute pattern programmes.",
-      "why_this_business": "Circular and flat knitting machines run programmes defining stitch structure, pattern, and dimensions loaded from design systems. Modern seamless and engineered knitting is entirely programme driven.",
-      "loss_scenario": "Loss of knitting programmes requiring redevelopment of customer patterns, with production halted and development time that customers will not wait through.",
-      "rhetorical_question": "How many customer knitting programmes are stored in your systems?"
+      "headline": "Knitting machines run from stored pattern programs.",
+      "points": [
+        "Stitch patterns, gauge, and machine settings are held as digital files.",
+        "Programs are developed per customer style over weeks.",
+        "Losing programs means redeveloping every active style."
+      ],
+      "rhetorical_question": "Where are your knitting programs and machine settings stored?"
     },
     {
       "rank": 2,
-      "headline": "Dye lot and shade matching govern usability.",
-      "why_this_business": "Knit fabric is dyed in lots with inherent shade variation, and apparel customers must cut a garment from a single lot. Lot records determine whether additional yardage will match.",
-      "loss_scenario": "Customers unable to obtain matching fabric to complete production, with garments already cut from an earlier lot rendered unusable and the mill bearing the claim.",
-      "rhetorical_question": "How do you record and communicate dye lot information to customers?"
+      "headline": "Fabric is produced in dye lots that must match.",
+      "points": [
+        "Knit fabric is dyed in lots with visible shade variation between them.",
+        "Lot records reserve matching fabric for a customer's cut.",
+        "Mixed lots in one garment are a visible defect."
+      ],
+      "rhetorical_question": "How are your dye lots recorded and reserved for customer orders?"
     },
     {
       "rank": 3,
-      "headline": "Fast fashion cycles compress lead times to weeks.",
-      "why_this_business": "Apparel customers work to short seasonal cycles with fabric ordered close to production and retail delivery dates fixed months earlier. There is very little slack between fabric delivery and garment shipment.",
-      "loss_scenario": "Late fabric causing customers to miss retail windows on seasonal goods, with cancelled orders and claims that reflect the retail value rather than the fabric price.",
-      "rhetorical_question": "How many weeks between your fabric delivery and your customer's retail delivery date?"
+      "headline": "Apparel customers cut to your fabric specification.",
+      "points": [
+        "Weight, stretch, and shrinkage are specified and tested per lot.",
+        "Cutting and sewing are set up for that exact fabric.",
+        "Off specification fabric ruins their entire cut."
+      ],
+      "rhetorical_question": "How are your fabric specifications tested and recorded per roll?"
     }
   ]
 }

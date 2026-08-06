@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Client records identify people experiencing food insecurity.",
-      "why_this_business": "Food banks and pantries record client names, households, addresses, income eligibility, and service history to meet funder reporting requirements. Clients are experiencing hardship and many feel stigma about seeking help.",
-      "loss_scenario": "Exposure identifying individuals and families receiving food assistance, which causes real social harm in small communities and deters people from seeking help they need.",
-      "rhetorical_question": "What client information do your funders require you to collect and report?"
+      "headline": "People go hungry when distribution stops.",
+      "points": [
+        "Food distribution runs on schedules people depend on.",
+        "Clients have no alternative source of food.",
+        "A missed distribution means families do not eat."
+      ],
+      "rhetorical_question": "How many people depend on your scheduled food distribution?"
     },
     {
       "rank": 2,
-      "headline": "Distribution stops when scheduling and inventory systems stop.",
-      "why_this_business": "Food distribution depends on inventory management, allocation to partner agencies, scheduling of distributions, and volunteer coordination. Perishable donations must move quickly and recipients arrive on scheduled distribution days.",
-      "loss_scenario": "Missed distributions leaving families without food on the day they expected it, and perishable inventory spoiling because it could not be allocated and moved in time.",
-      "rhetorical_question": "How much perishable inventory do you hold that must move within days?"
+      "headline": "Food safety records apply to what you distribute.",
+      "points": [
+        "Temperature, storage, and handling records apply to donated and purchased food.",
+        "Food safety obligations do not change because food is donated.",
+        "Contaminated food reaches people with no other options."
+      ],
+      "rhetorical_question": "How is food temperature and handling recorded through your operation?"
     },
     {
       "rank": 3,
-      "headline": "Food safety traceability applies to donated product too.",
-      "why_this_business": "Organisations handling food on the FDA Food Traceability List carry the same requirements as commercial handlers, with lot codes and Key Data Elements required and records producible to FDA within 24 hours, with a compliance date of July 20, 2028.",
-      "loss_scenario": "Inability to trace recalled product distributed to families, which means either finding every recipient or accepting that recalled food remains in vulnerable households.",
-      "rhetorical_question": "Could you identify which families received a specific lot of recalled product?"
+      "headline": "Client records carry sensitive circumstances.",
+      "points": [
+        "Records document household need, income, and family circumstances.",
+        "Clients disclose that information to receive help.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client eligibility and household data do you hold?"
     }
   ]
 }

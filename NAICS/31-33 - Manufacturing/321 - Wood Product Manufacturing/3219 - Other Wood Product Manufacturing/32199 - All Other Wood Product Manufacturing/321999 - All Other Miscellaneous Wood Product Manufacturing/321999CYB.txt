@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Production is to customer specification with dedicated tooling.",
-      "why_this_business": "Manufacturers produce wood products to customer designs using specific tooling, patterns, and CNC programmes. Products are frequently components in customers' finished goods with no alternative source.",
-      "loss_scenario": "Loss of programmes and specifications halting production of customer components, with the customer's own assembly stopped and no alternative supplier tooled to produce the part.",
-      "rhetorical_question": "How many customer-specific programmes and tooling records do you hold?"
+      "headline": "Products are made to customer specification with dedicated setups.",
+      "points": [
+        "Dimensions, species, and finishes are specified per customer product.",
+        "Setups and patterns exist only for those products.",
+        "The customer has no alternative source without new tooling."
+      ],
+      "rhetorical_question": "How many customer products are made only with your setups?"
     },
     {
       "rank": 2,
-      "headline": "Wood dust is a combustible dust hazard.",
-      "why_this_business": "Woodworking generates combustible dust requiring collection, housekeeping, and explosion protection on collection systems. Dust collector explosions and fires are a recognised and recurring hazard in wood products manufacturing.",
-      "loss_scenario": "A dust explosion destroying the facility with worker fatalities and OSHA enforcement, in an industry where combustible dust incidents are well documented and the hazard is known.",
-      "rhetorical_question": "How is your dust collection system monitored and protected against explosion?"
+      "headline": "Wood dust in the plant is combustible.",
+      "points": [
+        "Sanding and machining generate dust collected by ducted systems.",
+        "Wood dust explosions propagate through connected equipment.",
+        "A dust explosion destroys production areas and kills workers."
+      ],
+      "rhetorical_question": "How are your dust collection and explosion protection systems monitored?"
     },
     {
       "rank": 3,
-      "headline": "Species and origin documentation supports legal trade.",
-      "why_this_business": "The Lacey Act requires declarations of species and country of harvest for imported wood products and prohibits trade in illegally harvested timber, with due care expected of the importer.",
-      "loss_scenario": "Seizure and penalties where species and origin cannot be documented, with criminal exposure in serious cases and product forfeited.",
-      "rhetorical_question": "Can you document species and harvest origin for the wood you import?"
+      "headline": "Production runs from digital specifications and programs.",
+      "points": [
+        "Cutting, machining, and finishing run from stored programs.",
+        "Errors are reproduced across the run before inspection.",
+        "Wrong product is scrap at full material and labour cost."
+      ],
+      "rhetorical_question": "How are production programs verified before a run starts?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Specialist systems require manufacturer authorisation to service.",
-      "why_this_business": "Transmission, electrical, and driveline specialists depend on manufacturer diagnostic platforms, programming access, and technical information subscriptions. Module replacement requires programming that only authenticated access permits.",
-      "loss_scenario": "Vehicles stripped and awaiting programming that cannot be performed, occupying bays for extended periods with no billable completion and customers without transport.",
-      "rhetorical_question": "How many of your repairs require manufacturer programming access to complete?"
+      "headline": "Diagnostic and calibration data comes from manufacturers.",
+      "points": [
+        "Procedures, specifications, and calibrations come from subscription systems.",
+        "Specialised repairs cannot be completed without that access.",
+        "Vehicles sit while you cannot access the information."
+      ],
+      "rhetorical_question": "What diagnostic and repair information systems do your technicians depend on?"
     },
     {
       "rank": 2,
-      "headline": "Diagnostic and repair histories build the shop's expertise.",
-      "why_this_business": "Specialist shops accumulate diagnostic knowledge, repair procedures, and vehicle-specific histories over years, held in shop management systems and technician documentation. That accumulated knowledge is the reason customers come to a specialist.",
-      "loss_scenario": "Loss of accumulated diagnostic and repair history removes the institutional knowledge that differentiates the shop, and prior repair records on returning vehicles are unavailable for warranty and comeback work.",
-      "rhetorical_question": "How many years of repair history are held in your shop management system?"
+      "headline": "Repairs affect safety systems directly.",
+      "points": [
+        "Brake, steering, and restraint repairs affect vehicle safety.",
+        "Procedures and specifications determine whether the repair is correct.",
+        "A wrong repair fails during the crash it should survive."
+      ],
+      "rhetorical_question": "What safety systems do your repairs affect?"
     },
     {
       "rank": 3,
-      "headline": "Warranty claims to manufacturers and suppliers are documented.",
-      "why_this_business": "Component and repair warranty claims require documented diagnosis, parts, labour, and failure analysis submitted to manufacturers and suppliers within claim windows. Denied claims are absorbed by the shop.",
-      "loss_scenario": "Warranty claims lapsing past submission deadlines during an outage, which is unrecoverable margin on work already performed and parts already fitted.",
-      "rhetorical_question": "What is the submission deadline for warranty claims with your suppliers?"
+      "headline": "Customer records hold vehicle and payment data.",
+      "points": [
+        "Records carry contact details, vehicle identification, and payment information.",
+        "Service history is stored with them.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer vehicle and payment data do you store?"
     }
   ]
 }

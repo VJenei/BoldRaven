@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Two major casino operators were taken down in the same month.",
-      "why_this_business": "In September 2023 attackers used social engineering against IT help desks to compromise two of the largest gaming operators. One disclosed an impact of approximately $100 million with systems including slot machines, reservations, and room keys unavailable for around ten days. The other was reported to have paid roughly $15 million. The entry method was a phone call, not a technical exploit.",
-      "loss_scenario": "Gaming floor, player tracking, and cage operations unavailable for days, with revenue stopped, regulatory reporting interrupted, and remediation costs in the tens of millions.",
-      "rhetorical_question": "How does your IT help desk verify identity before resetting credentials?"
+      "headline": "Gaming systems are regulated and audited continuously.",
+      "points": [
+        "Slot systems, table tracking, and accounting are regulated by gaming authorities.",
+        "Regulators require documented controls and reporting.",
+        "Findings affect the licence that lets you operate."
+      ],
+      "rhetorical_question": "What gaming regulatory requirements apply to your systems?"
     },
     {
       "rank": 2,
-      "headline": "Casinos are financial institutions with anti-money laundering duties.",
-      "why_this_business": "Casinos above threshold revenue are financial institutions under the Bank Secrecy Act, required to maintain an AML programme, file currency transaction and suspicious activity reports, and retain records. FinCEN has imposed very substantial penalties for programme failures.",
-      "loss_scenario": "Inability to file required reports within deadlines and to produce records, with FinCEN enforcement and gaming regulator action running in parallel, and penalties that have reached tens of millions in this sector.",
-      "rhetorical_question": "How would you file currency transaction reports if your player tracking systems were unavailable?"
+      "headline": "Player records hold identity and financial data.",
+      "points": [
+        "Player accounts carry identity, credit, and gambling activity records.",
+        "Anti-money laundering rules require identity and transaction records.",
+        "Every affected patron must be notified."
+      ],
+      "rhetorical_question": "How many player accounts with identity and financial data do you hold?"
     },
     {
       "rank": 3,
-      "headline": "Gaming regulators can suspend operations over system integrity.",
-      "why_this_business": "Gaming systems, slot accounting, and progressive jackpot systems are approved by regulators with integrity requirements, testing, and change control. Regulators must be notified of incidents affecting gaming systems and can restrict operations.",
-      "loss_scenario": "Regulatory suspension of gaming operations pending verification of system integrity, which stops all revenue and requires demonstrating to the regulator that games were not affected.",
-      "rhetorical_question": "What must you report to your gaming regulator after a cyber incident?"
+      "headline": "The floor stops when systems stop.",
+      "points": [
+        "Slot machines, table systems, and cage operations all run electronically.",
+        "Gaming is the revenue and it runs continuously.",
+        "A systems failure closes the floor entirely."
+      ],
+      "rhetorical_question": "What happens to the gaming floor if your systems are unavailable?"
     }
   ]
 }

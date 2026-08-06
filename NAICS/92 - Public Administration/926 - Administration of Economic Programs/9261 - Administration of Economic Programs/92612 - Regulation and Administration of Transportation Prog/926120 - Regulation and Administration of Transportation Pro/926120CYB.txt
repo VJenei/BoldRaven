@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Traffic and transit control systems operate in real time.",
-      "why_this_business": "Transportation agencies operate traffic signal systems, variable message signs, tunnel and bridge controls, and traffic management centres. Signal control failures create gridlock and intersection safety hazards immediately.",
-      "loss_scenario": "Signal systems failing or displaying incorrect information across a network, creating collisions and gridlock, and message signs displaying unauthorised content which has occurred where sign controllers were left accessible.",
-      "rhetorical_question": "How is access to your traffic signal and message sign systems controlled?"
+      "headline": "Safety oversight depends on your data.",
+      "points": [
+        "Inspection, licensing, and safety records determine who may operate.",
+        "Unsafe operators are removed from service on that basis.",
+        "Corrupted records let unsafe operators keep running."
+      ],
+      "rhetorical_question": "How are your inspection and licensing records maintained?"
     },
     {
       "rank": 2,
-      "headline": "Licensing and registration systems hold data on every driver.",
-      "why_this_business": "Motor vehicle agencies hold driver licence records, photographs, addresses, medical certifications, and vehicle registrations for the entire driving population, with federal Driver's Privacy Protection Act restrictions on disclosure.",
-      "loss_scenario": "Breach exposing driver records including photographs and addresses at population scale, with DPPA implications and identity document data that supports fraudulent licence creation.",
-      "rhetorical_question": "How many driver and vehicle records does your agency hold?"
+      "headline": "Licensing and registration data covers individuals.",
+      "points": [
+        "Driver licensing and vehicle registration records identify individuals.",
+        "That data supports identity theft and stalking.",
+        "Every affected individual must be notified."
+      ],
+      "rhetorical_question": "How many licensing and registration records do your systems hold?"
     },
     {
       "rank": 3,
-      "headline": "Toll and transit payment systems hold account and travel data.",
-      "why_this_business": "Electronic tolling and transit fare systems hold account holders' payment methods, vehicle information, and complete travel histories showing where and when each account travelled.",
-      "loss_scenario": "Exposure of travel histories linked to identified account holders, which is a surveillance-grade movement record, alongside stored payment data across a large account base.",
-      "rhetorical_question": "How long do you retain individual toll and transit travel records?"
+      "headline": "Traffic and transit systems affect public safety.",
+      "points": [
+        "Traffic signals, transit control, and safety systems run on connected controls.",
+        "Those systems govern movement of people and vehicles.",
+        "A control failure causes collisions, not delays."
+      ],
+      "rhetorical_question": "What traffic and transit control systems do you operate?"
     }
   ]
 }

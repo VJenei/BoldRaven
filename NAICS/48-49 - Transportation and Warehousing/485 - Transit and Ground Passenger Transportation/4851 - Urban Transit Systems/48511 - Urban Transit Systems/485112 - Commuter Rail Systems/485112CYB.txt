@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Positive train control is federally mandated and safety critical.",
-      "why_this_business": "Commuter rail operates under a positive train control mandate requiring systems that prevent train-to-train collisions, overspeed derailments, and incursions into work zones. PTC is a networked system integrating onboard, wayside, and back office components.",
-      "loss_scenario": "Trains cannot operate on PTC-required lines without a functioning system, which suspends service for a commuting population with no alternative capacity. A compromise of train control is a mass casualty exposure.",
-      "rhetorical_question": "How is your positive train control back office network protected and segmented?"
+      "headline": "Signal and train control systems prevent collisions.",
+      "points": [
+        "Signals, interlockings, and positive train control enforce speed and separation.",
+        "Positive train control is federally mandated on covered routes.",
+        "Loss of enforcement means a collision, not a delay."
+      ],
+      "rhetorical_question": "What systems control train movement authority on your network?"
     },
     {
       "rank": 2,
-      "headline": "TSA security directives impose cybersecurity duties on passenger rail.",
-      "why_this_business": "TSA has issued cybersecurity directives to higher-risk passenger railroad carriers requiring a designated cybersecurity coordinator, reporting of incidents to CISA within 24 hours, an incident response plan, and vulnerability assessments, alongside network segmentation and access control requirements.",
-      "loss_scenario": "TSA enforcement and civil penalties, plus mandated remediation on timelines that consume agency resources while service continues.",
-      "rhetorical_question": "Have you designated a cybersecurity coordinator under the TSA rail directives?"
+      "headline": "Riders have no alternative when service stops.",
+      "points": [
+        "Commuters depend on the service to reach work and appointments.",
+        "Roads cannot absorb the displaced volume.",
+        "A stoppage strands tens of thousands of people."
+      ],
+      "rhetorical_question": "How many daily riders depend on your service?"
     },
     {
       "rank": 3,
-      "headline": "Ticketing and rider data serve a captive commuting population.",
-      "why_this_business": "Commuter rail sells monthly passes and tickets through apps and machines, holding payment methods, commuter benefit enrolments, and travel patterns that reveal home and work locations for hundreds of thousands of riders.",
-      "loss_scenario": "Breach exposing travel patterns that map home to workplace for a large population, which is a personal safety concern rather than a purely financial one, plus loss of fare revenue during the outage.",
-      "rhetorical_question": "Does your ticketing data link individual riders to their regular origin and destination?"
+      "headline": "Fare and rider data run through your systems.",
+      "points": [
+        "Fare collection holds payment cards and rider account data.",
+        "Trip history reveals where individuals travel and when.",
+        "Every affected rider must be notified."
+      ],
+      "rhetorical_question": "What rider account and payment data does your fare system hold?"
     }
   ]
 }

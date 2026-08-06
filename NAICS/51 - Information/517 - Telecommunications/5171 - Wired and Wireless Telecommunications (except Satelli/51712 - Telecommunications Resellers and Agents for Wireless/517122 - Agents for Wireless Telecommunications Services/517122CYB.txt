@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Retail agents are where SIM swap fraud is actually executed.",
-      "why_this_business": "Authorised dealers and agents perform activations, upgrades, and SIM changes in stores using carrier systems. Insider-assisted and socially engineered SIM swaps at retail locations are a documented and persistent problem, which is why the FCC imposed authentication requirements on SIM changes and port-outs.",
-      "loss_scenario": "A fraudulent SIM swap performed at your location leads to the customer's financial accounts being drained, with claims against the agent and immediate termination of the carrier agreement.",
-      "rhetorical_question": "What authentication is required before your staff process a SIM change?"
+      "headline": "You activate accounts and can change them.",
+      "points": [
+        "Activations, upgrades, and number ports are processed through carrier systems.",
+        "That access allows changes to subscriber accounts.",
+        "Account takeover through a retail channel defeats subscriber security everywhere."
+      ],
+      "rhetorical_question": "What carrier system access do your staff hold?"
     },
     {
       "rank": 2,
-      "headline": "Agents hold credential access to carrier customer systems.",
-      "why_this_business": "Store staff use carrier-provided credentials to view and modify customer accounts, including personal details, plan information, and device changes. Turnover in retail is high and credential hygiene is often weak.",
-      "loss_scenario": "Compromised or misused agent credentials expose carrier customer data, making the agent the source of a breach affecting the carrier's customers rather than its own.",
-      "rhetorical_question": "How are carrier system credentials issued and revoked as staff join and leave?"
+      "headline": "You collect identity documents for every activation.",
+      "points": [
+        "Activations require identity verification with documents collected and stored.",
+        "Credit checks add financial information.",
+        "Every affected customer must be notified."
+      ],
+      "rhetorical_question": "What customer identity and credit information do you store?"
     },
     {
       "rank": 3,
-      "headline": "Commission and activation records determine whether you get paid.",
-      "why_this_business": "Agents are paid commissions on activations, upgrades, and accessories, subject to chargeback if a customer cancels within a defined period. Reconciliation against carrier statements depends on your own activation records.",
-      "loss_scenario": "Unrecoverable commissions and unverifiable chargebacks, where the carrier's statement becomes the only version of events and disputes are resolved against you.",
-      "rhetorical_question": "How do you reconcile carrier commission statements against your own activation records?"
+      "headline": "Commission and activation records are your revenue.",
+      "points": [
+        "Payment from carriers follows recorded activations and upgrades.",
+        "Chargebacks apply against those records.",
+        "Activations you cannot evidence are commissions you do not receive."
+      ],
+      "rhetorical_question": "How are your activation and commission records maintained?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Service history determines what the vehicle needs.",
-      "why_this_business": "Quick lube operations depend on vehicle lookup by licence plate or VIN to determine specification, capacity, filter, and service interval, with customer history recorded across visits. Using the wrong specification oil damages modern engines.",
-      "loss_scenario": "Wrong specification lubricant used across multiple vehicles, causing engine damage claims that far exceed the service price, with the shop unable to demonstrate what was specified and used.",
-      "rhetorical_question": "How do your technicians determine the correct oil specification for a vehicle?"
+      "headline": "Specifications determine whether the vehicle survives the service.",
+      "points": [
+        "Oil grade, capacity, and filter specifications vary by vehicle.",
+        "Those specifications come from lookup systems.",
+        "The wrong oil or quantity destroys an engine."
+      ],
+      "rhetorical_question": "What vehicle specification lookup system do your technicians use?"
     },
     {
       "rank": 2,
-      "headline": "High transaction volume concentrates card data.",
-      "why_this_business": "Quick service formats process very high transaction counts at low average ticket across multiple bays and locations, with card payment at the bay. PCI DSS 4.0 is fully mandatory since March 31, 2025.",
-      "loss_scenario": "Card compromise across a high volume operation, where assessments and reissuance costs are driven by transaction count rather than the size of the business.",
-      "rhetorical_question": "How many card transactions do you process across your locations in a month?"
+      "headline": "Card payments run continuously at every bay.",
+      "points": [
+        "Point of sale terminals process cards through trading hours.",
+        "Card security requirements apply to every location.",
+        "A breach affects every customer who paid."
+      ],
+      "rhetorical_question": "How does your point of sale system handle card data?"
     },
     {
       "rank": 3,
-      "headline": "Customer records support marketing and warranty claims.",
-      "why_this_business": "Shops retain customer contact details, vehicle records, and service histories used for reminder marketing and to support claims that manufacturer maintenance requirements were met. Customers rely on those records to preserve powertrain warranty.",
-      "loss_scenario": "Customers unable to demonstrate maintenance history for a warranty claim, with the manufacturer declining coverage and the customer looking to the shop that held the records.",
-      "rhetorical_question": "Do your customers rely on your records to prove maintenance for warranty purposes?"
+      "headline": "Service records support warranty claims.",
+      "points": [
+        "Service history records support the customer's vehicle warranty.",
+        "Manufacturers require evidence of scheduled maintenance.",
+        "Records you cannot produce cost the customer their warranty."
+      ],
+      "rhetorical_question": "How are your customer service records maintained?"
     }
   ]
 }

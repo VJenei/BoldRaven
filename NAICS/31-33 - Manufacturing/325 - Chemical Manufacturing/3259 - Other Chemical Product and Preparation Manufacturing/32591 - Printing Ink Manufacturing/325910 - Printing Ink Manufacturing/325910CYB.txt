@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Food packaging inks carry migration and compliance requirements.",
-      "why_this_business": "Inks used on food packaging must not migrate into food, with composition controlled and documented. Ink contamination of packaged food has caused recalls, and low migration ink systems are specified for direct and indirect food contact.",
-      "loss_scenario": "Ink components migrating into packaged food, with recall of the packaged product across every brand printed with the affected ink and the ink manufacturer identified as the source.",
-      "rhetorical_question": "Do your inks print packaging with food contact, and how is migration compliance documented?"
+      "headline": "Colour must match the customer's standard exactly.",
+      "points": [
+        "Ink is matched to brand colour standards on every batch.",
+        "Brands enforce colour consistency across all their printing.",
+        "Off colour ink is rejected and the print run cannot proceed."
+      ],
+      "rhetorical_question": "How are your batch colour results recorded against customer standards?"
     },
     {
       "rank": 2,
-      "headline": "Colour formulations and matching are the technical product.",
-      "why_this_business": "Ink manufacturers formulate to match brand colour standards to instrumental tolerances, with formulations held per customer and per substrate. Brand colour consistency across print runs and suppliers depends on those formulations.",
-      "loss_scenario": "Formulation loss means brand colours that cannot be matched, with packaging and print customers unable to maintain colour consistency across production and brand owners rejecting the output.",
-      "rhetorical_question": "How many customer colour formulations are held in your systems?"
+      "headline": "Food packaging inks carry migration compliance requirements.",
+      "points": [
+        "Inks printed on food packaging must not migrate into the food.",
+        "Composition and compliance records support that use.",
+        "A migration failure recalls the customer's packed food."
+      ],
+      "rhetorical_question": "What food packaging compliance records do you retain for your inks?"
     },
     {
       "rank": 3,
-      "headline": "Solvent handling in ink manufacture is a fire hazard.",
-      "why_this_business": "Solvent-based inks are manufactured with flammable solvents in mixing, milling, and filling operations, with vapour control and ignition prevention required. Mills and mixers generate heat and static.",
-      "loss_scenario": "A solvent fire in mixing or storage destroying production capacity, with printers who depend on daily ink supply unable to run and requalification required at alternative suppliers.",
-      "rhetorical_question": "How is flammable vapour controlled in your mixing and milling areas?"
+      "headline": "Formulations are proprietary and customer specific.",
+      "points": [
+        "Ink chemistry is developed for specific presses, substrates, and customers.",
+        "Formulations represent years of development.",
+        "Once disclosed a formulation cannot be recovered."
+      ],
+      "rhetorical_question": "Where are your ink formulations stored, and who can access them?"
     }
   ]
 }

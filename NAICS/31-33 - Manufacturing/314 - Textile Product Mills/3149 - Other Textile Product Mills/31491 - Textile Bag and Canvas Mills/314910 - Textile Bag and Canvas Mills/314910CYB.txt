@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Industrial bags carry load ratings that failure makes catastrophic.",
-      "why_this_business": "Bulk bags and industrial containers are manufactured to safe working load ratings with safety factors, tested and certified. A bag failing under load drops a tonne or more of material, frequently over people.",
-      "loss_scenario": "A bulk bag failure causing crush injury or death, with the manufacturer's testing and production records determining whether the product met its rating and whether the failure was foreseeable.",
-      "rhetorical_question": "What safe working loads are your bulk bags rated for, and how is that verified?"
+      "headline": "Bulk bags carry rated loads and failure drops them.",
+      "points": [
+        "Bulk bags and slings carry safe working load ratings verified by testing.",
+        "Those ratings are relied on when the bag is lifted over people.",
+        "A bag that fails at load drops tonnes onto whoever is below."
+      ],
+      "rhetorical_question": "What load ratings do your bags carry, and how is testing recorded?"
     },
     {
       "rank": 2,
-      "headline": "Food and pharmaceutical bags carry contamination requirements.",
-      "why_this_business": "Bags used for food and pharmaceutical ingredients must meet cleanliness, material, and liner specifications with traceability from raw material through manufacture, since the bag is in direct contact with product consumed downstream.",
-      "loss_scenario": "Contamination introduced by packaging reaching food or pharmaceutical products, with recall at the customer level and traceability determining which bags and which customers were affected.",
-      "rhetorical_question": "Do your products contact food or pharmaceutical materials directly?"
+      "headline": "Food and pharmaceutical bags carry contact requirements.",
+      "points": [
+        "Bags used for food and pharmaceutical materials must meet contact requirements.",
+        "Material certifications and cleanliness records support that use.",
+        "Contamination from a bag reaches the customer's entire batch."
+      ],
+      "rhetorical_question": "What material certifications do you hold for food contact products?"
     },
     {
       "rank": 3,
-      "headline": "Custom production is made to order with no stock.",
-      "why_this_business": "Bags and canvas products are made to customer dimensions, materials, and printing, ordered against specific requirements. Errors produce goods that no other customer can use.",
-      "loss_scenario": "Wrong specification production that is unsaleable to anyone else, plus customers whose packaging supply stops and who cannot ship their own product without it.",
-      "rhetorical_question": "What happens to your customers' shipping if their packaging does not arrive?"
+      "headline": "Production is made to customer specification and dimension.",
+      "points": [
+        "Bags and covers are made to customer sizes, fittings, and materials.",
+        "Wrong specification product fits nothing else.",
+        "The customer's packaging or covering operation stops without it."
+      ],
+      "rhetorical_question": "How are customer specifications recorded and verified before production?"
     }
   ]
 }

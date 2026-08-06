@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Mold design and machining data is the entire product.",
-      "why_this_business": "Molds are machined from customer part models through mold design, electrode design, and CNC programming. The digital chain from part model to finished mold represents months of engineering per tool.",
-      "loss_scenario": "Loss of mold design and machining data with tools in build, requiring designs to be recreated from customer models and months added to programmes where the customer's product launch depends on the tool.",
+      "headline": "The digital chain from part model to mold is the product.",
+      "points": [
+        "Mold design, electrode design, and machining programmes take months per tool.",
+        "The tool exists as data before it exists as steel.",
+        "Losing that data restarts months of engineering."
+      ],
       "rhetorical_question": "How many active mold designs and machining programmes exist on your systems?"
     },
     {
       "rank": 2,
-      "headline": "Customer part models are confidential pre-launch designs.",
-      "why_this_business": "Mold makers receive part models before the customer's product launches, frequently under agreements protecting the design. The tool maker holds the geometry of unreleased products.",
-      "loss_scenario": "Exposure of unreleased customer product designs, with contractual liability for the breach and a customer whose product launch strategy is compromised before announcement.",
+      "headline": "You hold customer products before they launch.",
+      "points": [
+        "Part models arrive before the customer's product is announced.",
+        "You hold the geometry of unreleased products.",
+        "Disclosure compromises their launch and breaches your agreement."
+      ],
       "rhetorical_question": "Do you hold part models for customer products not yet released?"
     },
     {
       "rank": 3,
-      "headline": "Tooling programmes gate the customer's entire launch.",
-      "why_this_business": "Production tooling is on the critical path for a molded product, with the customer's launch, marketing, and supply commitments built around tool delivery. Molds take months to build.",
-      "loss_scenario": "Tool delivery missed by weeks with the customer's product launch delayed, and consequential exposure far beyond the tool price where launch commitments were made to retailers.",
+      "headline": "Tooling gates the customer's entire launch.",
+      "points": [
+        "Production tooling is on the critical path for a molded product.",
+        "Launch, marketing, and retail commitments are built around tool delivery.",
+        "The exposure is their launch, not the price of the tool."
+      ],
       "rhetorical_question": "What is the typical lead time from order to first article on your tools?"
     }
   ]

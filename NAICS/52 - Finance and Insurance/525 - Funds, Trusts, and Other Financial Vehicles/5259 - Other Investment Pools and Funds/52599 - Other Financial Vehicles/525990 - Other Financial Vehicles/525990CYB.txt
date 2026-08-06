@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Structured vehicles depend entirely on data about their collateral.",
-      "why_this_business": "Special purpose vehicles and structured finance entities hold pools of assets whose performance data drives waterfall calculations, investor distributions, and covenant tests. The vehicle has no operations other than the administration of that data.",
-      "loss_scenario": "Distributions that cannot be calculated and covenant tests that cannot be performed, which in structured finance can itself constitute an event of default under the transaction documents.",
-      "rhetorical_question": "What happens under your transaction documents if a payment date calculation cannot be performed?"
+      "headline": "Investor and asset records govern every payment.",
+      "points": [
+        "Records establish ownership, entitlement, and distribution amounts.",
+        "Investors depend on those records for their returns.",
+        "Wrong records mean paying the wrong parties."
+      ],
+      "rhetorical_question": "Where are your investor and asset records held?"
     },
     {
       "rank": 2,
-      "headline": "Investor reporting is contractual and dated.",
-      "why_this_business": "Vehicles report to investors, trustees, and rating agencies on defined dates with prescribed content. Those reports are the only visibility investors have into the collateral, and rating agencies act on them.",
-      "loss_scenario": "Missed or unsupportable investor reporting triggers trustee action, rating agency review, and investor claims, with consequences under the documents that are mechanical rather than negotiable.",
-      "rhetorical_question": "What are your reporting deadlines to trustees and rating agencies?"
+      "headline": "Distributions move by transfer on instruction.",
+      "points": [
+        "Payments to investors are made on recorded banking instructions.",
+        "Fraudulent changes divert those payments.",
+        "Recovery after a transfer is rarely possible."
+      ],
+      "rhetorical_question": "How are investor banking instructions verified before distributions?"
     },
     {
       "rank": 3,
-      "headline": "Underlying obligor data is personal data held at scale.",
-      "why_this_business": "Vehicles holding consumer receivables, mortgages, or auto loans hold obligor-level data including identity, payment history, and account details, even though the vehicle itself has no customer relationship with those individuals.",
-      "loss_scenario": "Breach notification to consumers who have never heard of the entity holding their data, with the servicer, sponsor, and vehicle all implicated and the notification obligation unclear until it is litigated.",
-      "rhetorical_question": "How many individual obligors' records sit within the pools you hold?"
+      "headline": "Regulators and investors examine your controls.",
+      "points": [
+        "Financial regulators and institutional investors assess operational controls.",
+        "Due diligence covers information security directly.",
+        "Failing that review removes investors you cannot replace."
+      ],
+      "rhetorical_question": "What operational and security due diligence do your investors require?"
     }
   ]
 }

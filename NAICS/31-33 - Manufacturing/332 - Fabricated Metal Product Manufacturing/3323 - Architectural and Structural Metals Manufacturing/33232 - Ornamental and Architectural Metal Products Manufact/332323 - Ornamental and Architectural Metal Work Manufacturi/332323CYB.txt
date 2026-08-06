@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Railings and guards are life safety components.",
-      "why_this_business": "Handrails, guardrails, and balconies must meet code load requirements preventing falls, with design calculations and connection details determining capacity. Guard failures cause falls from height.",
-      "loss_scenario": "A guardrail failure causing a fall from height with fatal or catastrophic injury, and the fabricator's design and fabrication records determining whether the assembly met the required loads.",
+      "headline": "Railings and guards prevent falls from height.",
+      "points": [
+        "Guardrails must meet code load requirements with documented connections.",
+        "Guard failures cause falls from height.",
+        "Design and fabrication records determine whether the assembly met the loads."
+      ],
       "rhetorical_question": "How are guardrail load calculations and connection details documented?"
     },
     {
       "rank": 2,
-      "headline": "Architectural work is fabricated from approved shop drawings.",
-      "why_this_business": "Ornamental and architectural metal is fabricated to approved shop drawings with finishes and dimensions specified by the architect. Field dimensions and coordination determine whether the work fits.",
-      "loss_scenario": "Work fabricated to wrong dimensions or finish rejected by the architect, requiring refabrication at material and shop cost on custom work with long lead times.",
+      "headline": "Work is fabricated from approved shop drawings.",
+      "points": [
+        "Dimensions and finishes are set by architect approved drawings.",
+        "Work fabricated wrong is rejected and remade.",
+        "Custom architectural work has long lead times."
+      ],
       "rhetorical_question": "How are approved shop drawings and finish selections controlled into fabrication?"
     },
     {
       "rank": 3,
-      "headline": "Finishes cannot be matched across separate production runs.",
-      "why_this_business": "Anodised and painted architectural finishes vary between batches, with matched material required across a visible installation. Additional material fabricated later frequently does not match.",
-      "loss_scenario": "Mismatched finishes on a visible facade or interior requiring the entire scope to be refinished or replaced, at cost far exceeding the affected pieces.",
+      "headline": "Finishes cannot be matched across separate runs.",
+      "points": [
+        "Anodised and painted finishes vary between batches.",
+        "Matched material is required across a visible installation.",
+        "A mismatch means refinishing the entire scope, not the affected pieces."
+      ],
       "rhetorical_question": "How is finish batch information recorded and reserved against a project?"
     }
   ]

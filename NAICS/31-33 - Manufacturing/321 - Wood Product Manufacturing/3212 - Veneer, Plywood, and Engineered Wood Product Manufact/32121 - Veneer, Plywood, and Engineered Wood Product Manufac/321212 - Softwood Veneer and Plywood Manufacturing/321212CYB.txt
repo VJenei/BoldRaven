@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Structural panels carry code-referenced performance ratings.",
-      "why_this_business": "Structural plywood is manufactured to product standards with span ratings and exposure durability certified by accredited agencies, marked on every panel. Building codes reference those ratings and construction relies on them.",
-      "loss_scenario": "Panels shipped without valid certification or below rated performance, installed as structural sheathing and roof decking, with failures and the requirement to remove and replace installed material.",
-      "rhetorical_question": "Which certification agency audits your panel production, and what records do they review?"
+      "headline": "Structural panels carry grade stamps used in building design.",
+      "points": [
+        "Grade stamps certify span rating and structural performance.",
+        "Third party agencies audit the mill's testing and records.",
+        "Panels stamped beyond their actual grade are a structural deficiency in buildings."
+      ],
+      "rhetorical_question": "How is your grade stamp controlled against actual test results?"
     },
     {
       "rank": 2,
-      "headline": "Presses and dryers run continuously at high temperature.",
-      "why_this_business": "Veneer dryers and hot presses operate continuously with temperature, pressure, and time controlling bond quality and panel properties. Dryer fires are a recognised hazard and press cycle deviations produce delamination.",
-      "loss_scenario": "A dryer fire taking the plant offline for months, or panels with inadequate bond entering structural applications where delamination causes failure.",
-      "rhetorical_question": "How is dryer temperature monitored and how is fire detection handled?"
+      "headline": "Press parameters determine whether the bond holds.",
+      "points": [
+        "Press time, temperature, and pressure determine glue bond quality.",
+        "Parameters are recorded as evidence of conformance.",
+        "Delamination appears in service after the panel is in a roof or wall."
+      ],
+      "rhetorical_question": "How are your press parameters recorded against panel production?"
     },
     {
       "rank": 3,
-      "headline": "Continuous production supplies construction on a schedule.",
-      "why_this_business": "Panel production runs continuously supplying distribution and construction on delivery schedules. Construction projects sequence framing around sheathing availability.",
-      "loss_scenario": "Extended downtime with construction customers unable to obtain panels, in a commodity market where buyers switch suppliers immediately and may not switch back.",
-      "rhetorical_question": "How quickly could your customers source panels from an alternative mill?"
+      "headline": "The mill runs continuously at high fixed cost.",
+      "points": [
+        "Peeling, drying, layup, and pressing run as one continuous line.",
+        "The mill is designed to run around the clock.",
+        "A day down is capacity that cannot be recovered."
+      ],
+      "rhetorical_question": "What does a day of stopped production cost at your mill?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Digital projection requires valid keys the same as any cinema.",
-      "why_this_business": "Drive-ins run digital projection with encrypted content requiring key delivery messages tied to the specific projector and play dates. The film simply will not play without them, and there is no analogue fallback for current releases.",
-      "loss_scenario": "Cancelled showings on a summer weekend, which for a seasonal operation is a meaningful portion of the entire year's revenue.",
-      "rhetorical_question": "How many operating weekends make up your season?"
+      "headline": "Ticketing and payment run every showing.",
+      "points": [
+        "Ticketing, admissions, and concession payment run on connected systems.",
+        "Showtimes are fixed and audiences arrive together.",
+        "Without the system you cannot sell or admit anyone."
+      ],
+      "rhetorical_question": "How are your tickets sold and admissions processed?"
     },
     {
       "rank": 2,
-      "headline": "The season is short and weather-dependent.",
-      "why_this_business": "Drive-ins operate a compressed seasonal calendar with revenue concentrated in warm months and good weather. Advance ticketing manages capacity for a finite number of viable nights.",
-      "loss_scenario": "A systems outage on a clear summer weekend cannot be recovered, since the lost nights do not come back and the season has a fixed end.",
-      "rhetorical_question": "How many viable operating nights do you have in a typical season?"
+      "headline": "Content delivery and playback are digital.",
+      "points": [
+        "Content arrives electronically with keys that unlock playback per date.",
+        "Playback is scheduled and automated.",
+        "Without keys or scheduling the screen stays dark."
+      ],
+      "rhetorical_question": "How is content delivered and unlocked for playback?"
     },
     {
       "rank": 3,
-      "headline": "Online ticketing is how capacity is managed and paid for.",
-      "why_this_business": "Drive-ins sell by vehicle with limited capacity, increasingly through advance online ticketing that manages the lot and takes payment before arrival. Gate operations depend on validating those bookings quickly as cars queue.",
-      "loss_scenario": "Vehicles queued at the gate that cannot be validated, with capacity mismanaged and customers turned away who had already paid.",
-      "rhetorical_question": "What share of your admissions are sold online in advance?"
+      "headline": "The season is short and weather dependent.",
+      "points": [
+        "Operations concentrate into warm months and clear nights.",
+        "Capacity is fixed and cannot be recovered later.",
+        "Nights lost in season are revenue gone."
+      ],
+      "rhetorical_question": "What share of your annual revenue happens in your peak season?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold and move other people's assets under a fiduciary duty.",
-      "why_this_business": "Trustees and custodians control assets belonging to beneficiaries, with authority to move funds and securities on instruction. Fiduciary duty imposes a higher standard than ordinary commercial care, and beneficiaries frequently include minors, incapacitated persons, and estates.",
-      "loss_scenario": "Unauthorised transfers from fiduciary accounts, where the institution must make the account whole and faces breach of fiduciary duty claims that carry a standard of care far above negligence.",
-      "rhetorical_question": "How are distribution instructions from trust accounts authenticated?"
+      "headline": "You hold assets that belong to other people.",
+      "points": [
+        "Custody and trust assets are held and moved on instruction.",
+        "Fiduciary duty applies to how you protect them.",
+        "A loss is a breach of fiduciary duty, not a service failure."
+      ],
+      "rhetorical_question": "What client assets do you hold in custody or trust?"
     },
     {
       "rank": 2,
-      "headline": "Beneficiary and estate records are deeply personal.",
-      "why_this_business": "Trust records hold family structures, beneficiary identities and conditions, distribution terms, incapacity documentation, and the reasoning behind estate arrangements. Much of it is information families deliberately keep private from each other.",
-      "loss_scenario": "Exposure of trust terms and beneficiary information causes family conflict and personal harm that no notification or credit monitoring addresses, and fiduciary clients leave immediately.",
-      "rhetorical_question": "What family and beneficiary information is held in your trust records?"
+      "headline": "Transfer instructions are forged and executed.",
+      "points": [
+        "Distribution and transfer instructions arrive from clients and beneficiaries.",
+        "Fraudulent instructions divert trust assets permanently.",
+        "Beneficiaries hold you responsible as fiduciary."
+      ],
+      "rhetorical_question": "How are distribution and transfer instructions verified before assets move?"
     },
     {
       "rank": 3,
-      "headline": "Custody records are the authoritative statement of ownership.",
-      "why_this_business": "Custodians maintain the record of what each account holds, with positions reconciled to depositories and transfer agents. That record is what establishes ownership for clients who hold nothing physically.",
-      "loss_scenario": "Unreconcilable positions across custody accounts, which for clients means their ownership cannot be evidenced, and regulatory examination of custody controls follows immediately.",
-      "rhetorical_question": "How are custody positions independently reconciled and verifiable?"
+      "headline": "Beneficiary and estate records are deeply personal.",
+      "points": [
+        "Records carry family, estate, tax, and beneficiary information.",
+        "That information is confidential within families as well as outside them.",
+        "Every affected client and beneficiary must be notified."
+      ],
+      "rhetorical_question": "What beneficiary and estate records do you hold?"
     }
   ]
 }

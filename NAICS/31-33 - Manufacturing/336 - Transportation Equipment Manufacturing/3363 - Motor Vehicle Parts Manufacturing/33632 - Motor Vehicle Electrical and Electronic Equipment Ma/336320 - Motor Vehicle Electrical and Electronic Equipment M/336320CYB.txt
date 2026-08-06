@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You supply the electronics that control vehicle functions.",
-      "why_this_business": "Electronic control units, sensors, and wiring govern braking, steering assistance, airbags, and driver assistance. Software and hardware defects in these components affect vehicle control directly.",
-      "loss_scenario": "A control unit defect affecting a safety function across multiple vehicle models, with an NHTSA recall reaching every vehicle containing the component and accident liability where failures occurred.",
+      "headline": "You supply the electronics that control vehicle safety functions.",
+      "points": [
+        "Control units and sensors govern braking, steering assistance, and airbags.",
+        "Software and hardware defects affect vehicle control directly.",
+        "A recall reaches every vehicle containing the component."
+      ],
       "rhetorical_question": "Which safety-related vehicle functions do your components control?"
     },
     {
       "rank": 2,
-      "headline": "Component software must meet automotive functional safety requirements.",
-      "why_this_business": "Automotive electronics are developed under ISO 26262 functional safety requirements with documented design, verification, and change control tied to a safety integrity level agreed with the vehicle manufacturer.",
-      "loss_scenario": "Product shipped outside its verified configuration, invalidating the safety case for vehicles already built, requiring the vehicle manufacturer to reassess the function across the fleet.",
+      "headline": "Automotive functional safety requires documented verification.",
+      "points": [
+        "Development follows a safety integrity level agreed with the vehicle manufacturer.",
+        "Design, verification, and change control are all documented.",
+        "Product outside verified configuration invalidates the safety case for built vehicles."
+      ],
       "rhetorical_question": "How are verified software versions controlled through production programming?"
     },
     {
       "rank": 3,
-      "headline": "Automotive cybersecurity requirements now apply to suppliers.",
-      "why_this_business": "Vehicle manufacturers flow down cybersecurity engineering requirements based on ISO 21434 and the UN regulation on vehicle cybersecurity, requiring documented threat analysis and secure development from component suppliers.",
-      "loss_scenario": "Failure to demonstrate cybersecurity engineering, with the vehicle manufacturer unable to support its own type approval and the supplier removed from current and future programmes.",
+      "headline": "Vehicle makers now require documented cybersecurity engineering.",
+      "points": [
+        "Threat analysis and secure development requirements are flowed down to suppliers.",
+        "Those requirements support the manufacturer's own type approval.",
+        "Failure removes you from current and future programmes."
+      ],
       "rhetorical_question": "What cybersecurity engineering evidence do your customers require from you?"
     }
   ]

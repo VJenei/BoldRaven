@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "The kiln runs continuously and restarting takes days.",
-      "why_this_business": "Cement kilns operate continuously at very high temperature with raw meal feed, fuel, and clinker cooling all controlled together. An unplanned stop requires controlled cooling and reheating over days, with refractory damage a risk each time.",
-      "loss_scenario": "Days of lost clinker production at a plant producing thousands of tonnes daily, plus refractory damage requiring repair, with ready-mix and construction customers unable to obtain cement.",
-      "rhetorical_question": "How long does your kiln take to restart from an unplanned shutdown?"
+      "headline": "The kiln runs continuously and restart takes days.",
+      "points": [
+        "Rotary kilns run continuously at very high temperature under process control.",
+        "An unplanned stop requires controlled cooling and reheating over days.",
+        "The plant runs at enormous fixed cost per hour."
+      ],
+      "rhetorical_question": "What does a day of unplanned kiln downtime cost at your plant?"
     },
     {
       "rank": 2,
-      "headline": "Cement quality determines the strength of everything built with it.",
-      "why_this_business": "Cement is produced to chemical and physical specifications with strength testing determining conformance to standards referenced in building codes. Concrete strength depends on cement performance.",
-      "loss_scenario": "Off-specification cement used in structural concrete, with strength failures appearing in test cylinders after placement, requiring assessment and potentially demolition of placed structure.",
-      "rhetorical_question": "How is cement quality testing tied to specific production and shipments?"
+      "headline": "Cement chemistry determines whether concrete performs.",
+      "points": [
+        "Raw mix and clinker chemistry are controlled continuously by analysis and blending.",
+        "Concrete strength depends on that chemistry.",
+        "Off specification cement produces concrete that fails structural tests."
+      ],
+      "rhetorical_question": "How is your raw mix and clinker chemistry controlled and recorded?"
     },
     {
       "rank": 3,
       "headline": "Emissions monitoring is continuous and reported.",
-      "why_this_business": "Cement kilns operate under air permits with continuous emissions monitoring for multiple parameters, reported to regulators. Kilns burning alternative fuels carry additional monitoring and reporting duties.",
-      "loss_scenario": "Monitoring gaps and exceedances with penalties assessed per day per parameter, and permit conditions that restrict operation where compliance cannot be demonstrated.",
-      "rhetorical_question": "What continuous emissions monitoring does your kiln permit require?"
+      "points": [
+        "Kiln emissions are monitored continuously and reported to regulators.",
+        "Reported data determines permit compliance.",
+        "Gaps or corrupted data are treated as exceedances."
+      ],
+      "rhetorical_question": "How is your continuous emissions monitoring data recorded and reported?"
     }
   ]
 }

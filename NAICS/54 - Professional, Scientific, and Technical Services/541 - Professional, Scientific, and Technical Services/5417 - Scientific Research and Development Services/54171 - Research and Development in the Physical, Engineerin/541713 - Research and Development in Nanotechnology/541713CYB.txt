@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Research data is targeted by state-sponsored actors, not just criminals.",
-      "why_this_business": "Advanced materials and nanotechnology research has direct defence and industrial applications and is an explicit collection priority for foreign intelligence services. Federal agencies have repeatedly warned research institutions and companies about targeting of emerging technology research.",
-      "loss_scenario": "Theft of research data transfers years of federally and privately funded work with no recoverable damages, and where the work is export controlled or federally funded, disclosure creates regulatory and contractual consequences as well.",
-      "rhetorical_question": "Is any of your research subject to export control or federal funding restrictions?"
+      "headline": "Research data is targeted by state-linked actors.",
+      "points": [
+        "Advanced materials and process research has strategic value.",
+        "State-sponsored campaigns target research institutions specifically.",
+        "Once copied the research advantage transfers permanently."
+      ],
+      "rhetorical_question": "How is access to research data restricted and logged?"
     },
     {
       "rank": 2,
-      "headline": "Experimental data cannot be reproduced without repeating the work.",
-      "why_this_business": "Research value lies in accumulated experimental results, characterisation data, and failed approaches that guide the next step. Instruments, materials, and time are consumed to produce it, and negative results are as valuable as positive ones.",
-      "loss_scenario": "Loss of experimental datasets means repeating work that consumed instrument time, materials, and researcher years, and in some cases the samples no longer exist to be re-characterised.",
-      "rhetorical_question": "How much instrument time and material is represented in the data on your systems?"
+      "headline": "Experiments run for months and cannot be repeated cheaply.",
+      "points": [
+        "Experimental runs represent months of work and expensive materials.",
+        "Data is generated once under those conditions.",
+        "Losing it means repeating the work from the beginning."
+      ],
+      "rhetorical_question": "Where is your experimental data stored, and how is it backed up?"
     },
     {
       "rank": 3,
-      "headline": "Patent priority depends on records of invention and disclosure control.",
-      "why_this_business": "Patent rights depend on the timing of invention and filing, supported by laboratory notebooks and records, and are defeated by prior public disclosure. Research records are the evidence of what was invented and when.",
-      "loss_scenario": "Loss of invention records weakens or defeats patent prosecution, and unauthorised disclosure before filing can bar patentability entirely, permanently removing the commercial value of the research.",
-      "rhetorical_question": "How are your invention records and laboratory notebooks maintained and dated?"
+      "headline": "Federal funding carries compliance obligations.",
+      "points": [
+        "Research funding carries data management, security, and reporting requirements.",
+        "Export control requirements apply to some research.",
+        "Non-compliance affects current and future funding."
+      ],
+      "rhetorical_question": "What data security and export control requirements does your funding carry?"
     }
   ]
 }

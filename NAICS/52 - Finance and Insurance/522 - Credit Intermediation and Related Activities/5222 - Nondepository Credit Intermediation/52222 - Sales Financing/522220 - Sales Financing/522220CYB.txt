@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "GLBA and the Safeguards Rule apply directly to finance companies.",
-      "why_this_business": "Sales finance companies are financial institutions under the Gramm-Leach-Bliley Act. Non-banking financial institutions have been subject to the amended FTC Safeguards Rule since June 9, 2023, requiring a written programme, a qualified individual, multi-factor authentication, encryption, and incident response, with FTC notification of breaches affecting 500 or more consumers since May 2024.",
-      "loss_scenario": "FTC enforcement alongside the breach costs, on a customer base whose applications contain complete identity and financial information.",
-      "rhetorical_question": "Do you have a written information security programme and a designated qualified individual?"
+      "headline": "Every application is a complete credit file.",
+      "points": [
+        "Applications carry social security numbers, income, employment, and bank details.",
+        "Federal safeguards rules require a written security programme.",
+        "Every applicant must be notified when it is exposed."
+      ],
+      "rhetorical_question": "How many credit applications are stored in your systems?"
     },
     {
       "rank": 2,
-      "headline": "Dealer and merchant integrations reach into your systems.",
-      "why_this_business": "Sales finance runs through dealer and merchant partners submitting applications and contracts electronically, with portal access granted broadly across thousands of retail locations. Those credentials are held by staff at businesses you do not control.",
-      "loss_scenario": "Fraudulent applications submitted through compromised dealer credentials, and dealer-side compromise reaching your systems, with the finance company carrying the loss on funded contracts that were never legitimate.",
-      "rhetorical_question": "How many dealer or merchant users hold credentials to your origination portal?"
+      "headline": "Funding moves by transfer to dealers and sellers.",
+      "points": [
+        "Loan proceeds are funded by transfer against instructions.",
+        "Instructions arrive and change by email.",
+        "A diverted funding is a loan booked with no collateral delivered."
+      ],
+      "rhetorical_question": "How are funding instructions verified before disbursement?"
     },
     {
       "rank": 3,
-      "headline": "Servicing and collections are regulated consumer-facing activities.",
-      "why_this_business": "Loan servicing involves payment processing, credit reporting, and collections, all subject to federal consumer protection rules. Credit reporting errors and improper collection activity generate CFPB attention and private claims, and both depend on accurate account records.",
-      "loss_scenario": "Inaccurate credit reporting and improper collections arising from corrupted account data, which produces regulatory exposure and consumer claims separate from the breach itself.",
-      "rhetorical_question": "What happens to your credit reporting and collections if account balances cannot be verified?"
+      "headline": "Loan servicing runs on continuous automation.",
+      "points": [
+        "Payments, statements, and collections run automatically against every account.",
+        "Borrowers depend on accurate posting.",
+        "Misposted payments produce credit reporting damage for borrowers."
+      ],
+      "rhetorical_question": "How are payments posted and reconciled against loan accounts?"
     }
   ]
 }

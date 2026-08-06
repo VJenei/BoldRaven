@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "You hold the complete design of every customer product you build.",
-      "why_this_business": "Contract assemblers receive bills of material, board files, firmware, and test programmes for customer products, frequently before launch. That package is enough to reproduce the product.",
-      "loss_scenario": "Exposure of customer design packages, with products cloned before launch and contractual liability for the breach across every customer whose data was held.",
+      "headline": "You hold enough to reproduce every customer product you build.",
+      "points": [
+        "Bills of material, board files, firmware, and test programmes arrive together.",
+        "Much of it is for products not yet launched.",
+        "That package is the whole product design."
+      ],
       "rhetorical_question": "How many complete customer product design packages are held on your systems?"
     },
     {
       "rank": 2,
-      "headline": "You load firmware into products that ship to end users.",
-      "why_this_business": "Assemblers program firmware into devices during production. Compromise of the firmware images or programming systems places malicious code in products that ship to customers and end users worldwide.",
-      "loss_scenario": "Tampered firmware programmed into shipped product, which is a supply chain compromise requiring recall of everything built during the affected period and destroying customer trust in the assembler.",
+      "headline": "You program firmware into products that ship worldwide.",
+      "points": [
+        "Firmware is loaded into devices during production on your equipment.",
+        "Compromised images place malicious code in every unit shipped.",
+        "That is a supply chain compromise, not a quality defect."
+      ],
       "rhetorical_question": "How is firmware verified between customer delivery and programming into product?"
     },
     {
       "rank": 3,
       "headline": "Defence programme work requires demonstrated compliance.",
-      "why_this_business": "Assemblers building defence electronics handle controlled unclassified information subject to NIST SP 800-171 with an SPRS score, with CMMC assessment requirements appearing in contracts, and counterfeit component avoidance requirements.",
-      "loss_scenario": "Loss of defence eligibility where compliance cannot be evidenced or an incident shows controls were absent, removing programme work the business is built around.",
-      "rhetorical_question": "What is your SPRS score, and does any contract require CMMC assessment?"
+      "points": [
+        "Contracts with controlled information require documented controls and assessment.",
+        "Counterfeit component avoidance requirements apply as well.",
+        "Losing eligibility removes the programme work the business is built around."
+      ],
+      "rhetorical_question": "What is your supplier risk score, and does any contract require formal assessment?"
     }
   ]
 }

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Adversaries here are nation states with unlimited patience.",
-      "why_this_business": "National security organisations and their contractors face sustained targeting by foreign intelligence services seeking classified and controlled information. The adversary is resourced, persistent, and interested in access rather than extortion.",
-      "loss_scenario": "Compromise of classified or controlled information with national security consequences, criminal exposure for mishandling, and remediation that involves assessing damage across programmes rather than restoring systems.",
-      "rhetorical_question": "Has your organisation received counterintelligence briefings on targeting of your programmes?"
+      "headline": "You are the primary target for state-linked actors.",
+      "points": [
+        "National security systems and data are the highest priority foreign intelligence target.",
+        "Adversary capability is sophisticated and persistent.",
+        "The consequence is national capability, not organisational cost."
+      ],
+      "rhetorical_question": "What controls protect your classified and controlled systems?"
     },
     {
       "rank": 2,
-      "headline": "Personnel security data identifies cleared individuals and their vulnerabilities.",
-      "why_this_business": "Security clearance investigations collect exhaustive personal, financial, medical, and relationship information, including the specific circumstances that could be used to pressure an individual. A federal breach of background investigation records affected over 21 million people.",
-      "loss_scenario": "Exposure of clearance investigation data hands a foreign service a directory of cleared personnel and their exploitable vulnerabilities, which is a counterintelligence catastrophe that cannot be remediated by notification.",
-      "rhetorical_question": "Do your systems hold personnel security investigation files?"
+      "headline": "Classified information handling is governed by law.",
+      "points": [
+        "Classification, handling, and access are governed by executive order and statute.",
+        "Unauthorised disclosure carries criminal penalties.",
+        "Personnel and facility clearances depend on compliance."
+      ],
+      "rhetorical_question": "What classified handling and access controls apply to your systems?"
     },
     {
       "rank": 3,
-      "headline": "Contractual cybersecurity requirements are enforceable and audited.",
-      "why_this_business": "Defence-related organisations must meet DFARS safeguarding clauses and CMMC requirements for controlled unclassified information, with assessments required and representations made in contracts.",
-      "loss_scenario": "Contract termination and False Claims Act exposure where security requirements were represented but not met, which the Department of Justice has pursued specifically in cybersecurity cases.",
-      "rhetorical_question": "What is your current CMMC status, and does it match what your contracts represent?"
+      "headline": "Operational systems support forces in the field.",
+      "points": [
+        "Command, logistics, and intelligence systems support operations directly.",
+        "Personnel depend on those systems in operational environments.",
+        "A failure has consequences measured in lives and mission outcomes."
+      ],
+      "rhetorical_question": "What operational systems depend on your infrastructure?"
     }
   ]
 }

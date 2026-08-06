@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "NCUA requires notification of a reportable cyber incident within 72 hours.",
-      "why_this_business": "Federally insured credit unions must notify the NCUA as soon as possible and no later than 72 hours after reasonably believing a reportable cyber incident has occurred, including incidents at third-party service providers. The rule covers substantial loss of confidentiality, integrity, or availability and disruptions to business operations.",
-      "loss_scenario": "Missed or late notification is itself an examination finding, and the incident triggers review of the whole information security programme, vendor management, and business continuity plan.",
-      "rhetorical_question": "Who is responsible for making a 72-hour NCUA notification, including for vendor incidents?"
+      "headline": "Members trust you with everything about their finances.",
+      "points": [
+        "Account, transaction, loan, and identity data covers every member relationship.",
+        "That data supports identity theft completely.",
+        "Members are also owners and the relationship is personal."
+      ],
+      "rhetorical_question": "How many member records with account and identity data do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Core processing is outsourced and its failure is your failure.",
-      "why_this_business": "Most credit unions run core banking, digital banking, and card processing through third-party service providers. Members experience an outage at the provider as an outage at the credit union, and the regulatory obligation to notify and to manage the vendor sits with the credit union.",
-      "loss_scenario": "Members unable to access accounts, cards declining, and no ability to fix it directly. Contingent business interruption from a provider outage is a cyber coverage, and vendor contracts rarely make the credit union whole.",
-      "rhetorical_question": "Which third-party providers would take your member services down if they failed?"
+      "headline": "Federal regulators require prompt incident notification.",
+      "points": [
+        "Regulators require notification of reportable cyber incidents within set timeframes.",
+        "Examinations assess information security programmes directly.",
+        "Findings affect ratings and can restrict activities."
+      ],
+      "rhetorical_question": "What incident notification obligations apply to your credit union?"
     },
     {
       "rank": 3,
-      "headline": "Member data includes complete financial and identity profiles.",
-      "why_this_business": "Credit unions hold Social Security numbers, account and loan data, income documentation, and often employment and family information given the common bond membership model. Members frequently belong to a single employer or community, so a breach affects a defined and connected population.",
-      "loss_scenario": "Notification across a membership that knows each other, in an institution whose entire premise is member trust and community relationship rather than price competition.",
-      "rhetorical_question": "How many member records with Social Security numbers do you hold?"
+      "headline": "Payment fraud moves member money permanently.",
+      "points": [
+        "Wire and payment instructions arrive and are executed continuously.",
+        "Fraud targets members and staff alike.",
+        "Wires clear within minutes and recovery is rarely possible."
+      ],
+      "rhetorical_question": "How are wire instructions verified before funds are released?"
     }
   ]
 }

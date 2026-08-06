@@ -8,23 +8,32 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Motor homes contain propane, electrical, and fuel systems in living space.",
-      "why_this_business": "Motor homes combine a vehicle with residential systems including propane appliances, generators, and electrical distribution inside an occupied space. Fires and carbon monoxide incidents in this category have caused deaths.",
-      "loss_scenario": "A propane, electrical, or generator defect causing a fire or carbon monoxide poisoning with occupants sleeping inside, and a recall across every unit built with the affected system.",
+      "headline": "Propane and electrical systems sit inside sleeping space.",
+      "points": [
+        "Motor homes combine a vehicle with residential propane, generator, and electrical systems.",
+        "Fires and carbon monoxide incidents in this category have killed occupants.",
+        "The occupants are asleep when it happens."
+      ],
       "rhetorical_question": "How are propane and electrical system installations documented per unit?"
     },
     {
       "rank": 2,
-      "headline": "Units are vehicles subject to federal safety standards and recall.",
-      "why_this_business": "Motor homes must conform to applicable Federal Motor Vehicle Safety Standards with NHTSA jurisdiction over safety defects, requiring owner notification and remedy for recalls.",
-      "loss_scenario": "An NHTSA recall requiring owner notification, with owners difficult to reach and units that must be brought to dealers for a remedy that takes days per unit.",
+      "headline": "Units are vehicles subject to federal recall obligations.",
+      "points": [
+        "Federal safety standards and defect jurisdiction apply to motor homes.",
+        "Recalls require owner notification and remedy.",
+        "Owners are hard to reach and each remedy takes days."
+      ],
       "rhetorical_question": "How do you maintain owner records for recall notification?"
     },
     {
       "rank": 3,
-      "headline": "Units are built to order through dealers with high unit value.",
-      "why_this_business": "Motor homes are configured to buyer selections through dealer networks, with unit values in the hundreds of thousands and financing, titling, and warranty administered through manufacturer systems.",
-      "loss_scenario": "Order, titling, and warranty systems unavailable, with units unable to be delivered or registered, and dealer floor plan and buyer financing arrangements disrupted at high value per unit.",
+      "headline": "Units cannot be delivered or titled without your systems.",
+      "points": [
+        "Orders, configuration, titling, and warranty run through manufacturer systems.",
+        "Unit values run into the hundreds of thousands.",
+        "Dealer floor plan and buyer financing both stall."
+      ],
       "rhetorical_question": "What systems must be available for a unit to be delivered and titled?"
     }
   ]

@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Site and collection records document irreplaceable material.",
-      "why_this_business": "Historical sites hold collection records, archaeological data, conservation histories, and structural documentation for buildings and objects that cannot be replaced. Conservation records document treatments and condition over decades.",
-      "loss_scenario": "Loss of conservation and structural records removes the basis for future treatment decisions on irreplaceable fabric, and archaeological data represents excavation that destroyed the context it recorded.",
-      "rhetorical_question": "How many decades of conservation records exist for your site?"
+      "headline": "Visitor operations run on connected systems.",
+      "points": [
+        "Ticketing, admissions, and tours run electronically.",
+        "Visitors travel to reach the site.",
+        "Without the system you cannot admit or account for anyone."
+      ],
+      "rhetorical_question": "How are your tickets sold and admissions processed?"
     },
     {
       "rank": 2,
-      "headline": "Visitor operations and ticketing carry payment data.",
-      "why_this_business": "Sites sell admission, tours, and memberships through ticketing systems holding visitor payment and contact data, with membership programmes billing recurring subscriptions.",
-      "loss_scenario": "Payment data exposure across visitors and members, with card brand liability and notification costs that a site operating on admissions and grants cannot readily absorb.",
-      "rhetorical_question": "How many members have payment methods stored for recurring renewal?"
+      "headline": "Collection and site records document what you preserve.",
+      "points": [
+        "Records document structures, artefacts, condition, and conservation history.",
+        "Those records guide preservation decisions.",
+        "Losing them loses the documented history of the site."
+      ],
+      "rhetorical_question": "Where are your site and collection records stored?"
     },
     {
       "rank": 3,
-      "headline": "Grant and public funding requires documented stewardship.",
-      "why_this_business": "Sites receive public and foundation funding conditioned on preservation standards, visitor reporting, and financial accountability, with records subject to audit and monitoring.",
-      "loss_scenario": "Funding consequences where stewardship and financial documentation cannot be produced, on grants that fund conservation work the site cannot otherwise afford.",
-      "rhetorical_question": "What documentation do your funders require to demonstrate stewardship?"
+      "headline": "Donor and member records fund preservation.",
+      "points": [
+        "Donor identities, giving history, and member data support operations.",
+        "Preservation funding depends on those relationships.",
+        "Exposure damages the relationships permanently."
+      ],
+      "rhetorical_question": "What donor and member records do you hold?"
     }
   ]
 }

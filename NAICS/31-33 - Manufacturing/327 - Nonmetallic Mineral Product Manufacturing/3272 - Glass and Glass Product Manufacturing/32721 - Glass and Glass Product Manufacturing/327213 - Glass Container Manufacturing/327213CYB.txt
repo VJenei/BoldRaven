@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Container failure in filling or in consumer hands causes injury.",
-      "why_this_business": "Glass containers must withstand internal pressure, thermal shock, and handling, particularly for carbonated beverages where failure produces flying glass. Forming and annealing determine container strength.",
-      "loss_scenario": "Containers bursting in filling lines or in consumers' hands, with injury claims and recall of every container from the affected production, and filling lines shut down for glass contamination cleanup.",
-      "rhetorical_question": "Do your containers hold carbonated products under pressure?"
+      "headline": "Container failure injures consumers and contaminates product.",
+      "points": [
+        "Bottles and jars fail from thermal shock, pressure, and manufacturing defects.",
+        "Failure during filling or handling produces glass in food and lacerations.",
+        "Glass in food is a recall with injury exposure."
+      ],
+      "rhetorical_question": "How are your container inspection results recorded against production?"
     },
     {
       "rank": 2,
-      "headline": "Glass in food causes recalls of the packaged product.",
-      "why_this_business": "Glass fragments from container defects or breakage during filling contaminate the food or beverage inside, which is a serious foreign material hazard requiring recall of the packed product.",
-      "loss_scenario": "Glass contamination recalls reaching every product filled during the affected period, with injury exposure and the packer holding the container manufacturer responsible.",
-      "rhetorical_question": "How would a filler trace glass contamination back to a specific container production run?"
+      "headline": "Furnaces run continuously and forming runs at speed.",
+      "points": [
+        "Furnaces run continuously and forming machines produce hundreds of containers per minute.",
+        "An uncontrolled furnace stop can destroy the tank.",
+        "Fillers run out of containers within hours."
+      ],
+      "rhetorical_question": "What does a day of stopped production cost at your plant?"
     },
     {
       "rank": 3,
-      "headline": "Furnaces and forming machines run continuously at scale.",
-      "why_this_business": "Container plants run furnaces continuously with forming machines producing hundreds of containers per minute. Fillers depend on continuous container supply with limited warehouse buffer.",
-      "loss_scenario": "Fillers without containers stopping beverage and food production, plus furnace damage where an uncontrolled shutdown occurs, requiring a rebuild measured in months.",
-      "rhetorical_question": "How many days of container inventory do your filling customers hold?"
+      "headline": "Containers are made to customer moulds and specifications.",
+      "points": [
+        "Moulds are customer specific and exist only at your plant.",
+        "Filling lines are set up for that exact container.",
+        "No other plant can supply without the moulds."
+      ],
+      "rhetorical_question": "How many customer moulds exist only at your plant?"
     }
   ]
 }

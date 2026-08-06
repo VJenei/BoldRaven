@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "An exchange outage stops price discovery for everyone.",
-      "why_this_business": "Exchanges operate matching engines, market data distribution, and clearing interfaces that the entire market depends on. When an exchange halts, participants cannot trade, hedge, or value positions, and derivative markets referencing those prices are affected simultaneously.",
-      "loss_scenario": "Market-wide disruption with participant claims, SEC or CFTC investigation under system compliance and integrity requirements, and lasting damage to the exchange's competitive position against alternative venues.",
-      "rhetorical_question": "What happens to participants who cannot hedge while your market is halted?"
+      "headline": "A halt stops price discovery for everyone.",
+      "points": [
+        "Matching, market data, and clearing run continuously during trading hours.",
+        "Every participant depends on the exchange operating.",
+        "An outage halts trading in every listed instrument at once."
+      ],
+      "rhetorical_question": "What happens to trading if your matching or market data systems fail?"
     },
     {
       "rank": 2,
-      "headline": "Regulation SCI imposes specific systems requirements on covered entities.",
-      "why_this_business": "Covered exchanges and clearing agencies must have policies reasonably designed to ensure their systems have adequate capacity, integrity, resiliency, availability, and security, must conduct business continuity testing with members, and must report systems disruptions and intrusions to the SEC.",
-      "loss_scenario": "SEC enforcement for Regulation SCI failures, which examines the adequacy of the policies themselves rather than only the outcome, and requires notification and remediation reporting.",
-      "rhetorical_question": "Are you a Regulation SCI entity, and when did you last conduct required resiliency testing?"
+      "headline": "Regulators require system compliance and integrity programmes.",
+      "points": [
+        "Exchanges are subject to specific system capacity, integrity, and security requirements.",
+        "Testing, review, and notification obligations apply.",
+        "Findings carry enforcement action against the exchange."
+      ],
+      "rhetorical_question": "What system integrity and notification requirements apply to your exchange?"
     },
     {
       "rank": 3,
-      "headline": "Order flow and market data reveal participant positions.",
-      "why_this_business": "Exchanges see order flow, cancellations, and positions before and beyond what is publicly disseminated. That information reveals participant strategies and positions and is strictly controlled because access to it confers a trading advantage.",
-      "loss_scenario": "Exposure of non-public order flow data undermines confidence in market fairness, brings regulatory scrutiny of information barriers, and drives participants to competing venues.",
-      "rhetorical_question": "How is access to non-public order flow data controlled and audited?"
+      "headline": "Order and market data is worth enormous sums.",
+      "points": [
+        "Order flow and pre-publication market data have direct trading value.",
+        "Unauthorised access enables front running.",
+        "Market integrity depends on that data being protected."
+      ],
+      "rhetorical_question": "How is access to order flow and market data restricted and logged?"
     }
   ]
 }

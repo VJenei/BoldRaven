@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Client files document disability and medical circumstances.",
-      "why_this_business": "Vocational rehabilitation holds disability documentation, medical and psychological evaluations, functional assessments, and employment history for clients whose disability status determines eligibility. That information is health data about identified individuals.",
-      "loss_scenario": "Exposure of disability and medical evaluation data, which affects clients' employment prospects and personal privacy, with claims reflecting the employment consequences of disclosure.",
-      "rhetorical_question": "Do your client files contain medical or psychological evaluations?"
+      "headline": "Client records carry disability and medical information.",
+      "points": [
+        "Records document disabilities, medical history, and employment barriers.",
+        "That information carries privacy protection and stigma.",
+        "Every affected client must be notified."
+      ],
+      "rhetorical_question": "What client disability and medical records do you hold?"
     },
     {
       "rank": 2,
-      "headline": "Employment placements involve employer relationships built on trust.",
-      "why_this_business": "Programmes place clients with employers, holding placement records, accommodation arrangements, and employer feedback. Clients frequently have not disclosed the full extent of their disability to the employer.",
-      "loss_scenario": "Disclosure to employers of disability information clients chose not to share, which affects employment directly and can constitute a disability discrimination exposure for the employer and the programme.",
-      "rhetorical_question": "Does your record include disability details clients have not disclosed to their employers?"
+      "headline": "Services are delivered on scheduled plans.",
+      "points": [
+        "Training, placement, and support services run on individual plans.",
+        "Clients arrange their lives around those schedules.",
+        "A disruption sets back employment progress."
+      ],
+      "rhetorical_question": "How many clients depend on your scheduled services?"
     },
     {
       "rank": 3,
-      "headline": "Public funding requires documented services and outcomes.",
-      "why_this_business": "Programmes are funded through state vocational rehabilitation agencies and Medicaid with documented individualised plans, service units, and employment outcomes, audited and monitored.",
-      "loss_scenario": "Funding recoupment and programme sanctions where service documentation cannot be produced, on funding streams that constitute the entire budget.",
-      "rhetorical_question": "What service and outcome documentation does your funder require?"
+      "headline": "Funding compliance depends on records.",
+      "points": [
+        "Programme funding carries eligibility, outcome, and reporting requirements.",
+        "Funders audit those records directly.",
+        "Records you cannot produce put the funding at risk."
+      ],
+      "rhetorical_question": "What eligibility and outcome records does your funding require?"
     }
   ]
 }

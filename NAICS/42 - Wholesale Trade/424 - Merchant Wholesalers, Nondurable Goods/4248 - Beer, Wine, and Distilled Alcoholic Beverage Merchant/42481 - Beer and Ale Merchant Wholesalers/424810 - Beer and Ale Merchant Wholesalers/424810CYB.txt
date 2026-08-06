@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Your licence to operate depends on records the state can demand.",
-      "why_this_business": "Beer distribution operates inside the three-tier system under state licensing, with strict rules on which products may be sold to whom, territorial franchise protections, credit terms to retailers, and prohibitions on inducements. States audit distributor records and licences are revocable.",
-      "loss_scenario": "Licence suspension for records that cannot be produced ends the ability to trade entirely, since there is no lawful way to distribute alcohol without the licence.",
-      "rhetorical_question": "What records must you be able to produce for a state alcohol regulator on demand?"
+      "headline": "State franchise law makes your brands hard to replace.",
+      "points": [
+        "Distribution rights are governed by state franchise laws.",
+        "Brand relationships are long term and territorially exclusive.",
+        "Failing a supplier obligation puts those rights at risk."
+      ],
+      "rhetorical_question": "What supplier obligations does your distribution agreement carry?"
     },
     {
       "rank": 2,
-      "headline": "Route delivery and rotation are managed continuously against code dates.",
-      "why_this_business": "Beer has code dates and freshness requirements, with distributors managing rotation, retail resets, and out-of-code removal across hundreds of retail accounts. Route delivery, pre-sell, and merchandising all run on handheld systems tied to the back office.",
-      "loss_scenario": "Missed deliveries and rotation across retail accounts, with out-of-code product on shelves damaging brand relationships and drawing supplier action.",
-      "rhetorical_question": "How many retail accounts do your routes service each week?"
+      "headline": "Retail delivery runs on fixed daily routes.",
+      "points": [
+        "Accounts receive scheduled deliveries with shelf and cooler resets.",
+        "Retailers hold days of stock.",
+        "A distribution failure empties coolers across the territory."
+      ],
+      "rhetorical_question": "How many accounts depend on your daily delivery routes?"
     },
     {
       "rank": 3,
-      "headline": "Supplier brand agreements and depletion reporting are the relationship.",
-      "why_this_business": "Brewers require depletion reporting, inventory data, and execution against programmes, submitted regularly from distributor systems. Territory rights are valuable and franchise-protected but performance obligations are real.",
-      "loss_scenario": "Failure to report depletions and execute programmes strains supplier relationships that represent the majority of revenue, and brand realignment is the industry's most damaging outcome.",
-      "rhetorical_question": "What depletion and inventory reporting do your suppliers require, and how often?"
+      "headline": "Alcohol reporting and records are regulated.",
+      "points": [
+        "State and federal reporting, licensing, and record requirements apply.",
+        "Records must be retained and produced on inspection.",
+        "Failures affect the licence that lets you distribute."
+      ],
+      "rhetorical_question": "What reporting and record requirements does your licence carry?"
     }
   ]
 }

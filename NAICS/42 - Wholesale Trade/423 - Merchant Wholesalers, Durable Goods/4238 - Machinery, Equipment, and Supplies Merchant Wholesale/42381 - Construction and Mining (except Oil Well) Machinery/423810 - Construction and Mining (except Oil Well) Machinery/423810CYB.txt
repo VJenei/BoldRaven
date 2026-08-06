@@ -8,24 +8,33 @@
   "reasons_ranked_by_importance": [
     {
       "rank": 1,
-      "headline": "Machines report to telematics platforms you administer for your customers.",
-      "why_this_business": "Dealers manage customer fleets through manufacturer telematics platforms showing location, hours, fault codes, and in some cases remote disable capability. Dealer administrators hold access across every customer account they support.",
-      "loss_scenario": "A compromise of dealer telematics access exposes customer fleet locations, which is precisely the information equipment thieves need, and in platforms with remote disable it reaches an operational control.",
-      "rhetorical_question": "How many customer machines can your dealership see or control through telematics?"
+      "headline": "Down equipment stops the customer's whole job.",
+      "points": [
+        "Contractors and mines run production on the equipment you supply and service.",
+        "Parts and service dispatch run through your systems.",
+        "Every day down costs the customer production, and they pass it on."
+      ],
+      "rhetorical_question": "What does a day of down equipment cost your customers?"
     },
     {
       "rank": 2,
-      "headline": "Equipment theft is organised, international, and informed by records.",
-      "why_this_business": "Heavy equipment is high value, frequently unattended on job sites, and exported through ports before it is missed. Serial and PIN records, delivery addresses, and rental locations sit in dealer systems. Recovery depends on accurate serial records reported to law enforcement.",
-      "loss_scenario": "Machines worth $150,000 to $800,000 stolen and exported, with recovery unlikely and serial documentation needed for both the police report and the insurance claim.",
-      "rhetorical_question": "How do you record machine serial numbers and current locations for rental and demo units?"
+      "headline": "Machines connect to manufacturer and dealer platforms.",
+      "points": [
+        "Telematics links every machine to dealer and manufacturer systems.",
+        "You hold access to machines on active job sites.",
+        "Unexpected motion of heavy equipment around workers is fatal."
+      ],
+      "rhetorical_question": "What access do you hold to customer machines through telematics platforms?"
     },
     {
       "rank": 3,
-      "headline": "Parts and service availability determines customer downtime.",
-      "why_this_business": "Contractors and miners lose money by the hour when a machine is down, and dealers compete on parts availability and service response. Parts lookup depends on machine serial and configuration data to identify the correct component.",
-      "loss_scenario": "Extended customer downtime on production equipment, with contractual uptime guarantees on some support agreements and permanent account loss where the dealer could not respond.",
-      "rhetorical_question": "Do any of your support agreements carry uptime or response time guarantees?"
+      "headline": "Equipment sales and financing move very large sums.",
+      "points": [
+        "Machines sell for six and seven figures with financing arranged through you.",
+        "Payments settle by transfer against instructions sent by email.",
+        "A diverted payment is a machine delivered and unpaid."
+      ],
+      "rhetorical_question": "How are banking details verified before an equipment payment?"
     }
   ]
 }
